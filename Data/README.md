@@ -4,7 +4,7 @@
 ```
 Includes two data: 
           a) json-data: Includes the recipes json-ld metadata that are scraped from allrecipes.com.  
-          b) rdf-data: Includes the main rdf data that is created according to RecipeKG ontology.
+          b) rdf-data: Includes the main rdf data that is created according to RecipeKG ontology. It has 8 files that includes ttl files per recipe and also 8 ttl file that is merged according to sitemaps.
           c) example-data: Small turtle file that includes 10 recipe.
 
 ```
