@@ -1,0 +1,144 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/134/drinks/coffee/",
+                    "name": "Coffee Drinks Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/2034/drinks/coffee/mochas/",
+                    "name": "Mocha Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/239043/a-healthier-mochaccino/",
+        "name": "A Healthier Mochaccino",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4514000.jpg",
+            "width": 3264,
+            "height": 1836
+        },
+        "datePublished": "2015-03-10T06:02:02.000Z",
+        "description": "Have this every day for breakfast! It keeps you feeling full, and satisfies just about every craving!",
+        "prepTime": "P0DT0H15M",
+        "cookTime": null,
+        "totalTime": "P0DT6H15M",
+        "recipeYield": "1 serving",
+        "recipeIngredient": [
+            "3 tablespoons double-strength brewed coffee, or more to taste",
+            "1 cup milk",
+            "1 banana, frozen and chunked",
+            "1 tablespoon raw sunflower seed kernels",
+            "1 tablespoon chocolate-flavored protein powder",
+            "1 tablespoon raw slivered almonds",
+            "1 tablespoon cocoa powder "
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Pour coffee into an ice cube tray and freeze until completely frozen, 6 hours to overnight.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Blend 2 coffee ice cubes, banana, sunflower seed kernels, protein powder, almonds, and cocoa together in a  blender until smooth.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Coffee Drinks Recipes",
+            "Mocha Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "jenny"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "A Healthier Mochaccino",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "369.6 calories",
+            "carbohydrateContent": "47.1 g",
+            "cholesterolContent": "19.5 mg",
+            "fatContent": "14.3 g",
+            "fiberContent": "6.7 g",
+            "proteinContent": "19 g",
+            "saturatedFatContent": "4.3 g",
+            "servingSize": null,
+            "sodiumContent": "165.7 mg",
+            "sugarContent": "26.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-05-12T02:19:21.86Z",
+                "reviewBody": "This was interesting. I liked it okay as written. I think I'll try it again but only use almonds. Also I'll use more coffee ice cubes--it was too liquidy. It seemed to need more substance to offset the nuts and seeds. Some people may want to add sweetner but I thought it was fine without. I used unsweetened almond milk.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Tammy Lynn",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3084624/"
+                }
+            }
+        ]
+    }
+]

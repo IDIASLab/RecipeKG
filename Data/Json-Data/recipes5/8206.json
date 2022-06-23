@@ -1,0 +1,150 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/94/soups-stews-and-chili/",
+                    "name": "Soups, Stews and Chili Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/16369/soups-stews-and-chili/soup/",
+                    "name": "Soup Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1246/soups-stews-and-chili/soup/chicken-soup/",
+                    "name": "Chicken Soup Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/274783/lemon-pesto-chicken-soup/",
+        "name": "Lemon-Pesto Chicken Soup",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6916933.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2019-07-24T02:50:14.000Z",
+        "description": "A very flavorful, lemony chicken soup with pesto that has a nice kick to it.",
+        "prepTime": "P0DT0H20M",
+        "cookTime": "P0DT0H50M",
+        "totalTime": "P0DT1H10M",
+        "recipeYield": "8 servings",
+        "recipeIngredient": [
+            "2 tablespoons unsalted butter",
+            "1 tablespoon olive oil",
+            "\u00bd yellow onion, chopped",
+            "2 stalks celery, chopped",
+            "3 carrots, chopped",
+            "1 clove garlic, minced",
+            "1 teaspoon lemon-pepper seasoning",
+            "\u00bd teaspoon celery salt",
+            "8 cups low-sodium chicken broth",
+            "1 (10.5 ounce) can condensed cream of chicken soup",
+            "1 cup shredded cooked chicken",
+            "1 lemon, juiced",
+            "2 tablespoons pesto"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Melt butter in a soup pot over medium-high heat. Add olive oil, onion and celery; cook for 10 minutes until vegetables have softened. Add carrots, garlic, lemon-pepper seasoning, and celery salt; saute for an additional 10 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Whisk together chicken broth, cream of chicken soup, and shredded chicken in a large bowl. Add broth mixture to the soup pot and bring to a boil. Reduce heat to medium-low. Add lemon juice and pesto and simmer for 20 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Soups, Stews and Chili Recipes",
+            "Soup Recipes",
+            "Chicken Soup Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "C R Henning"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Lemon-Pesto Chicken Soup",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "173.9 calories",
+            "carbohydrateContent": "9.6 g",
+            "cholesterolContent": "29.5 mg",
+            "fatContent": "11.2 g",
+            "fiberContent": "1.9 g",
+            "proteinContent": "9.8 g",
+            "saturatedFatContent": "4.2 g",
+            "servingSize": null,
+            "sodiumContent": "597 mg",
+            "sugarContent": "3.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-08-10T07:04:38.983Z",
+                "reviewBody": "I left out the condensed soup to keep it healthy. It was a really good soup. My veggies all cooked up quicker than 10 minutes, so just keep an eye on them.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Chef Mo",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/chefmo/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,154 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/133/drinks/cocktails/",
+                    "name": "Cocktail Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1742/drinks/cocktails/tequila-drinks/",
+                    "name": "Tequila Drinks Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/20637/tequini/",
+        "name": "Tequini",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2828972.jpg",
+            "width": 1704,
+            "height": 1705
+        },
+        "datePublished": "2000-07-31T22:58:23.000Z",
+        "description": "Tequila gives a Latin twist to the almighty martini.",
+        "prepTime": "P0DT0H4M",
+        "cookTime": null,
+        "totalTime": "P0DT0H4M",
+        "recipeYield": "1 serving",
+        "recipeIngredient": [
+            "2 (1.5 fluid ounce) jiggers tequila",
+            "\u00bd fluid ounce dry vermouth",
+            "3 drops orange bitters ",
+            "1 twist lemon zest, garnish"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "In a cocktail shaker full of ice, combine tequila, vermouth and orange bitters. Shake well and strain into a cocktail glass. Garnish with a twist of lime.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Cocktail Recipes",
+            "Tequila Drinks Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Aimee"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 1,
+            "ratingCount": 2,
+            "itemReviewed": "Tequini",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "221.8 calories",
+            "carbohydrateContent": "3 g",
+            "cholesterolContent": "0 mg",
+            "fatContent": "0 g",
+            "fiberContent": "0.2 g",
+            "proteinContent": "0.1 g",
+            "saturatedFatContent": "0 g",
+            "servingSize": null,
+            "sodiumContent": "2.3 mg",
+            "sugarContent": "1.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2011-11-07T00:38:43.72Z",
+                "reviewBody": "Are you sure it's 1/2 ounce of bitters? Because it was uh quite...bitter! So much so that I had to throw out the drink. And I'm not one who usually goes for sweet drinks. Maybe with a few drops of bitters?",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 1
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Val1",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/1561087/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2015-12-09T21:02:54.683Z",
+                "reviewBody": "Too much bitters. I'm glad I followed my instinct and added the bitters to taste instead of just pouring the stated amount.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 1
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Arizona Desert Flower",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/arizonadesertflower/"
+                }
+            }
+        ]
+    }
+]

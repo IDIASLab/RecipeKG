@@ -1,0 +1,78 @@
+@prefix ns1: <http://purl.org/heals/food/> .
+@prefix ns2: <http://purl.org/recipekg/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/bacon-and-tomato-quesadillas> a schema:Recipe ;
+    ns1:hasIngredient [ a <http://purl.org/recipekg/ingredient/SourCream> ;
+            ns2:ingredientName "Sour cream" ],
+        [ a <http://purl.org/recipekg/ingredient/MexicanBlendCheese> ;
+            ns2:hasQuantity "2" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "Mexican blend cheese" ],
+        [ a <http://purl.org/heals/ingredient/Tomato> ;
+            ns2:hasQuantity "1" ;
+            ns2:ingredientName "tomato" ],
+        [ a <http://purl.org/heals/ingredient/VegetableOil> ;
+            ns2:hasQuantity "2" ;
+            ns2:hasUnit "tablespoon" ;
+            ns2:ingredientName "vegetable oil" ],
+        [ a <http://purl.org/heals/ingredient/Basil> ;
+            ns2:hasQuantity "1/2" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "basil" ],
+        [ a <http://purl.org/heals/ingredient/Bacon> ;
+            ns2:hasQuantity "8" ;
+            ns2:ingredientName "bacon" ],
+        [ a <http://purl.org/recipekg/ingredient/FlourTortillas> ;
+            ns2:hasQuantity "8" ;
+            ns2:ingredientName "flour tortillas" ] ;
+    ns2:belongsTo <http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/red-gold-inc/> ;
+    ns2:hasFSAScore 1 ;
+    ns2:hasNutritionalInformation [ a ns2:NutritionalInformation ;
+            ns2:hasCalorificData [ a ns2:CalorificData ;
+                    ns2:hasAmount "366.4"^^xsd:float ;
+                    ns2:hasUnit "calories" ] ;
+            ns2:hasCarbohydrateData [ a ns2:CarbohydrateData ;
+                    ns2:hasAmount "31.1"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasCholesterolData [ a ns2:CholesterolData ;
+                    ns2:hasAmount "38.2"^^xsd:float ;
+                    ns2:hasUnit "mg" ] ;
+            ns2:hasFatData [ a ns2:FatData ;
+                    ns2:hasAmount "20.2"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSARed ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasFiberData [ a ns2:FiberData ;
+                    ns2:hasAmount "2.0"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasProteinData [ a ns2:ProteinData ;
+                    ns2:hasAmount "14.2"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasSaturatedFatData [ a ns2:SaturatedFatData ;
+                    ns2:hasAmount "9.6"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSARed ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasSodiumData [ a ns2:SodiumData ;
+                    ns2:hasAmount "733.1"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSAAmber ;
+                    ns2:hasUnit "mg" ] ] ;
+    ns2:hasUSDAScore 3 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 18 ;
+            schema:ratingValue "4.777777777777778"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2014-11-17T22:52:46.000Z"^^schema:date ;
+    schema:name "Bacon and Tomato Quesadillas"^^xsd:string ;
+    schema:recipeYield "8 servings"^^xsd:string .
+
+ns2:FSAAmber a ns2:FSAColor .
+
+<http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/> a ns2:RecipeCategory .
+
+<http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/red-gold-inc/> rdfs:subClassOf <http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/> .
+
+ns2:FSARed a ns2:FSAColor .
+

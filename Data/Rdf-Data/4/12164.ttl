@@ -1,0 +1,110 @@
+@prefix ns1: <http://purl.org/recipekg/> .
+@prefix ns2: <http://purl.org/heals/food/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/alissas-vegetarian-lentil-meatloaf> a schema:Recipe ;
+    ns2:hasIngredient [ a <http://purl.org/heals/ingredient/Brownies> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "brownies" ],
+        [ a <http://purl.org/heals/ingredient/Tomato> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "can" ;
+            ns1:ingredientName "tomato" ],
+        [ a <http://purl.org/recipekg/ingredient/FlaxSeed> ;
+            ns1:hasQuantity "1/4" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "flax seed" ],
+        [ a <http://purl.org/recipekg/ingredient/WheatGerm> ;
+            ns1:hasQuantity "1/4" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "wheat germ" ],
+        [ a <http://purl.org/recipekg/ingredient/RedBellPepper> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "red bell pepper" ],
+        [ a <http://purl.org/recipekg/ingredient/BreadCrumbs> ;
+            ns1:hasQuantity "3/4" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "bread crumbs" ],
+        [ a <http://purl.org/recipekg/ingredient/Lentil> ;
+            ns1:hasQuantity "1 1/2" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "lentil" ],
+        [ a <http://purl.org/heals/ingredient/Carrot> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "carrot" ],
+        [ a <http://purl.org/heals/ingredient/Thyme> ;
+            ns1:hasQuantity "2" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "thyme" ],
+        [ a <http://purl.org/heals/ingredient/Onion> ;
+            ns1:hasQuantity "3/4" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "onion" ],
+        [ a <http://purl.org/heals/ingredient/Salt> ;
+            ns1:ingredientName "salt" ],
+        [ a <http://purl.org/recipekg/ingredient/CayennePepper> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "pinch" ;
+            ns1:ingredientName "cayenne pepper" ],
+        [ a <http://purl.org/recipekg/ingredient/Egg> ;
+            ns1:hasQuantity "2/3" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "egg" ],
+        [ a <http://purl.org/heals/ingredient/OliveOil> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "olive oil" ] ;
+    ns1:belongsTo <http://purl.org/recipekg/categories/everyday-cooking/vegetarian/> ;
+    ns1:hasFSAScore 5 ;
+    ns1:hasNutritionalInformation [ a ns1:NutritionalInformation ;
+            ns1:hasCalorificData [ a ns1:CalorificData ;
+                    ns1:hasAmount "335.1"^^xsd:float ;
+                    ns1:hasUnit "calories" ] ;
+            ns1:hasCarbohydrateData [ a ns1:CarbohydrateData ;
+                    ns1:hasAmount "51.4"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasFatData [ a ns1:FatData ;
+                    ns1:hasAmount "7.5"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasFiberData [ a ns1:FiberData ;
+                    ns1:hasAmount "12.0"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasProteinData [ a ns1:ProteinData ;
+                    ns1:hasAmount "18.6"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSaturatedFatData [ a ns1:SaturatedFatData ;
+                    ns1:hasAmount "0.9"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAGreen ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSodiumData [ a ns1:SodiumData ;
+                    ns1:hasAmount "322.0"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasSugarData [ a ns1:SugarData ;
+                    ns1:hasAmount "5.3"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "g" ] ] ;
+    ns1:hasUSDAScore 5 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 65 ;
+            schema:ratingValue "3.646153846153846"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2019-04-02T06:49:13.000Z"^^schema:date ;
+    schema:name "Alissa's Vegetarian Lentil Meatloaf"^^xsd:string ;
+    schema:recipeYield "1 - 8x4 inch loaf"^^xsd:string .
+
+ns1:FSAGreen a ns1:FSAColor .
+
+<http://purl.org/recipekg/categories/everyday-cooking/> a ns1:RecipeCategory .
+
+<http://purl.org/recipekg/categories/everyday-cooking/vegetarian/> rdfs:subClassOf <http://purl.org/recipekg/categories/everyday-cooking/> .
+
+ns1:FSAAmber a ns1:FSAColor .
+

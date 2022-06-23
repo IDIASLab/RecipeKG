@@ -1,0 +1,141 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/133/drinks/cocktails/",
+                    "name": "Cocktail Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1743/drinks/cocktails/vodka-drinks/",
+                    "name": "Vodka Drinks Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/255383/gummy-bear-martini/",
+        "name": "Gummy Bear Martini",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4482785.jpg",
+            "width": 1751,
+            "height": 2670
+        },
+        "datePublished": "2018-08-18T13:02:49.000Z",
+        "description": "A nice, sweet, and refreshing drink that is simple and fun to make!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "4 cocktails",
+        "recipeIngredient": [
+            "3 cups vodka (such as Svedka\u00ae)",
+            "2 (5 ounce) bags gummy bears (such as Haribo\u00ae), divided",
+            "ice",
+            "2 cups vegetable juice with berries (such as V8 Splash\u00ae)"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine vodka and 1 bag of gummy bears in a pitcher. Let sit until flavors combine, about 5 minutes. Discard gummy bears.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Fill a cocktail shaker with ice; add 1/4 of the flavored vodka and 1/2 cup vegetable juice. Cover and shake until the outside of the shaker has frosted. Strain into a chilled glass and garnish with gummy bears from the second bag. Repeat with remaining ingredients.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Cocktail Recipes",
+            "Vodka Drinks Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Frances Romero"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 1,
+            "itemReviewed": "Gummy Bear Martini",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "720.9 calories",
+            "carbohydrateContent": "78.3 g",
+            "cholesterolContent": null,
+            "fatContent": null,
+            "fiberContent": "0.1 g",
+            "proteinContent": null,
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "60.3 mg",
+            "sugarContent": "50.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-03-09T08:51:48.333Z",
+                "reviewBody": "This was a super strong recipe! I don't know how much flavor my vodka got from the gummy bears. I had to add a ton more of V8 to be able to drink it. I did throw the gummy bears back in the bottom to fish out and enjoy. Note: This recipe makes 8. Even when I scaled it down to 1 it was 2 martinis.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Chef Mo",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/chefmo/"
+                }
+            }
+        ]
+    }
+]

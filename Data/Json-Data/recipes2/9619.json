@@ -1,0 +1,107 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/138/drinks/smoothies/",
+                    "name": "Smoothie Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/257624/kiwi-melon-coolers/",
+        "name": "Kiwi-Melon Coolers",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Kiwi-Melon Coolers"
+        },
+        "datePublished": "2017-03-30T08:20:18.000Z",
+        "description": "Perfect summertime smoothie.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "2 cups chopped honeydew melon, frozen",
+            "1\u2009\u00bc cups apple juice, chilled",
+            "1 kiwi - peeled, chopped, and frozen"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine honeydew melon, apple juice, and kiwi in a blender; blend until smooth.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Smoothie Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "CJ"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Kiwi-Melon Coolers",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "156.6 calories",
+            "carbohydrateContent": "39 g",
+            "cholesterolContent": null,
+            "fatContent": "0.6 g",
+            "fiberContent": "2.6 g",
+            "proteinContent": "1.4 g",
+            "saturatedFatContent": "0.1 g",
+            "servingSize": null,
+            "sodiumContent": "36.4 mg",
+            "sugarContent": "34 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

@@ -1,0 +1,134 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/134/drinks/coffee/",
+                    "name": "Coffee Drinks Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/279979/vegan-banana-whipped-iced-coffee/",
+        "name": "Vegan Banana Whipped Iced Coffee",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8034338.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-04-30T03:11:14.000Z",
+        "description": "One of the latest raves are whipped coffees. We are on lockdown because of the Coronavirus so I spend a lot of my time playing games and flavoring these whipped coffees. Here is my latest creation.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "1 coffee",
+        "recipeIngredient": [
+            "1 cup coconut milk beverage (such as Silk\u00ae)",
+            "1 banana",
+            "1 (1 gram) packet stevia sweetener",
+            "ice cubes",
+            "\u00bc cup boiling water",
+            "1 tablespoon instant coffee granules",
+            "1 tablespoon white sugar"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine coconut milk beverage, banana, and sweetener in a blender; blend until smooth. Fill a large glass with ice and pour pureed banana milk on top.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine boiling water, coffee granules, and sugar in a tall container. Whip with an immersion blender or a hand mixer until foamy, about 2 minutes. Pour coffee foam over the banana milk.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Coffee Drinks Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Yoly"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Vegan Banana Whipped Iced Coffee",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "240.5 calories",
+            "carbohydrateContent": "48.4 g",
+            "cholesterolContent": null,
+            "fatContent": "5.4 g",
+            "fiberContent": "3.1 g",
+            "proteinContent": "1.6 g",
+            "saturatedFatContent": "4.6 g",
+            "servingSize": null,
+            "sodiumContent": "45.4 mg",
+            "sugarContent": "26.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-06-06T06:22:38.26Z",
+                "reviewBody": "I really liked this. My coffee looked beautifully layered but then I moved it to take e picture and it started to mix together. Really tasty.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Rider",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/24180125/"
+                }
+            }
+        ]
+    }
+]

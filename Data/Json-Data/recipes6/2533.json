@@ -1,0 +1,141 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/219/salad/vegetable-salads/",
+                    "name": "Vegetable Salad Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/254539/zesty-salad/",
+        "name": "Zesty Salad",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4097292.jpg",
+            "width": 4752,
+            "height": 4752
+        },
+        "datePublished": "2020-03-05T05:15:24.000Z",
+        "description": "A refreshing, zesty salad for lunch or picnics. Great with anything or just on its own.",
+        "prepTime": "P0DT0H20M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H40M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "1 small potato, cut into cubes",
+            "\u00bd cup finely chopped cabbage",
+            "\u00bc cup fresh pomegranate seeds ",
+            "\u00bd carrot, cut into matchsticks",
+            "1 tablespoon extra-virgin olive oil",
+            "1 teaspoon lemon juice",
+            "1 clove garlic, minced",
+            "\u00bd teaspoon salt",
+            "\u00bc teaspoon brown sugar",
+            "\u00bc teaspoon red pepper flakes"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place potato cubes into a small pot and cover with salted water; bring to a boil. Reduce heat to medium-low and simmer until tender, 5 to 10 minutes. Drain and let cool, about 10 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine cooled potato, cabbage, pomegranate seeds, and carrot in a large bowl.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Whisk olive oil, lemon juice, garlic, salt, brown sugar, and red pepper flakes in a small bowl until well-mixed. Poured over potato mixture and toss to combine.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad",
+            "Vegetable Salad Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "farah"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Zesty Salad",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "120.5 calories",
+            "carbohydrateContent": "23.1 g",
+            "cholesterolContent": null,
+            "fatContent": "2.6 g",
+            "fiberContent": "3.2 g",
+            "proteinContent": "2.5 g",
+            "saturatedFatContent": "0.4 g",
+            "servingSize": null,
+            "sodiumContent": "604.1 mg",
+            "sugarContent": "6.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2016-11-07T23:27:17.28Z",
+                "reviewBody": "11.5.16 Followed the directions as written and I did add the optional sliced olives (which I would do again). Just a little bit on the salty side for me (but then I did add olives) so I ll cut that amount to 1/4 tsp in the future. You get a little crunch from the cabbage a pop of sweetness from the pomegranate seeds and those olive slices add a bit of saltiness to the potatoes. The dressing was perfectly balanced. I'm not sure if you'd call this a salad or a potato side dish. Whatever it was good! farah thanks for sharing. UPDATE 11.7.16 FYI in case you're interested we ate this both chilled and warm and preferred it warm.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "lutzflcat",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/lutzflcat/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,153 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/227/world-cuisine/asian/",
+                    "name": "Asian",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/257430/deconstructed-california-roll-bowl/",
+        "name": "Deconstructed California Roll Bowl",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4563466.jpg",
+            "width": 4608,
+            "height": 3456
+        },
+        "datePublished": "2019-04-04T04:08:12.000Z",
+        "description": "I was craving a California roll one day, but since I'm not a big seafood fan I used chicken instead. You could use crab or even shrimp if you are so inclined.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H45M",
+        "totalTime": "P0DT7H5M",
+        "recipeYield": "2 bowls",
+        "recipeIngredient": [
+            "2 skinless, boneless chicken breasts",
+            "1 cup teriyaki marinade",
+            "1 tablespoon orange juice concentrate",
+            "2 cups water",
+            "1 cup uncooked short-grain white rice",
+            "1 tablespoon peanut oil",
+            "1 onion, cut into strips",
+            "1 zucchini, cut into strips",
+            "1 tablespoon soy sauce, or to taste",
+            "1 tablespoon black sesame seeds",
+            "1 avocado, chopped",
+            "1 teaspoon wasabi paste, or to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place chicken breasts in a shallow container. Cover with teriyaki marinade and orange juice concentrate. Cover and marinate in the refrigerator for 6 to 8 hours.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bring water and rice to a boil in a saucepan. Reduce heat to medium-low, cover, and simmer until rice is tender and liquid has been absorbed, about 18 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat a large nonstick skillet over medium heat. Add chicken breasts, discarding marinade. Cook until browned on both sides and no longer pink in the center, about 6 minutes per side. Remove from heat; let rest for 5 minutes. Slice into strips.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat peanut oil in a skillet over medium heat. Cook and stir onion until softened, about 5 minutes. Add zucchini; cook and stir until almost tender, about 5 minutes. Return chicken strips to the skillet; drizzle soy sauce on top. Stir in black sesame seeds. Fold in avocado gently.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Serve chicken mixture over rice, with wasabi paste alongside.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Asian"
+        ],
+        "recipeCuisine": [
+            "Asian"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "KAZOOT"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Deconstructed California Roll Bowl",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "831.9 calories",
+            "carbohydrateContent": "135.3 g",
+            "cholesterolContent": "60.8 mg",
+            "fatContent": "12.1 g",
+            "fiberContent": "5 g",
+            "proteinContent": "40.7 g",
+            "saturatedFatContent": "2.3 g",
+            "servingSize": null,
+            "sodiumContent": "4649.7 mg",
+            "sugarContent": "49.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-10-02T01:15:38.95Z",
+                "reviewBody": "Loved this.. I didn't have black sesame seeds so I used a mixture of sesame seeds poppy seeds onions and garlic. I also zoodled my zucchini to be fancy:D",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Linda T",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/lindat/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,153 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/107/appetizers-and-snacks/meat-and-poultry/",
+                    "name": "Meat and Poultry",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1234/appetizers-and-snacks/meat-and-poultry/chicken/",
+                    "name": "Chicken",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/239473/honey-sesame-wings/",
+        "name": "Honey Sesame Wings",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1850619.jpg",
+            "width": 1745,
+            "height": 1696
+        },
+        "datePublished": "2018-06-27T13:02:53.000Z",
+        "description": "A great appetizer for watching the game or a quick meal with coleslaw and bread.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT1H0M",
+        "totalTime": "P0DT1H10M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "\u00bc cup honey",
+            "2 tablespoons sesame oil",
+            "2 tablespoons reduced-sodium soy sauce",
+            "1 tablespoon chopped fresh ginger",
+            "2 cloves garlic, minced",
+            "2\u2009\u00bd pounds chicken wings",
+            "1 tablespoon toasted sesame seeds",
+            "3 scallions (green onions), chopped"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat oven to 375 degrees F (190 degrees C). Line a baking sheet with aluminum foil.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Whisk honey, sesame oil, soy sauce, ginger, and garlic together in a small bowl.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Arrange chicken wings on prepared baking sheet.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake chicken in the preheated oven for 45 minutes. Brush 1/2 of the honey mixture over the wings; bake for 10 minutes. Brush remaining sauce over wings, sprinkle sesame seeds over the top, and bake wings until no longer pink at the bone and juices run clear, about 5 minutes more. An instant-read thermometer inserted near the bone should read 165 degrees F (74 degrees C). Garnish wings with scallions.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks",
+            "Meat and Poultry",
+            "Chicken"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Sam Lewin"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Honey Sesame Wings",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "353.8 calories",
+            "carbohydrateContent": "20.2 g",
+            "cholesterolContent": "59.4 mg",
+            "fatContent": "21.7 g",
+            "fiberContent": "0.7 g",
+            "proteinContent": "20.2 g",
+            "saturatedFatContent": "5 g",
+            "servingSize": null,
+            "sodiumContent": "326.9 mg",
+            "sugarContent": "17.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2014-12-22T22:42:06.99Z",
+                "reviewBody": "The taste was excellent but we thought these needed some kind of spicy element. I added a few red pepper flakes and served soy sauce alongside for dipping. Very good!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Abbey",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/icook/"
+                }
+            }
+        ]
+    }
+]

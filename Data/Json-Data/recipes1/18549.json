@@ -1,0 +1,105 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/230022/coconut-cream-dream-dessert/",
+        "name": "Coconut Cream Dream Dessert",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Coconut Cream Dream Dessert"
+        },
+        "datePublished": "2012-11-08T21:37:49.000Z",
+        "description": "This is my modified version of the classic dirt salad. My son LOVES golden OREOs&reg;. I was going to make the dirt salad but didn't have original chocolate cookies, so I used golden ones and it was AMAZING! Better than coconut cream pie.",
+        "prepTime": "P0DT0H30M",
+        "cookTime": null,
+        "totalTime": "P0DT2H10M",
+        "recipeYield": "12 servings",
+        "recipeIngredient": [
+            "1 (18 ounce) package vanilla sandwich cookies (such as Golden Oreos\u00ae), crushed",
+            "\u2153 cup butter, melted",
+            "2 (3.4 ounce) packages instant coconut cream pudding mix",
+            "1\u2009\u00bd cups milk",
+            "1 quart vanilla ice cream, softened",
+            "1 (16 ounce) container frozen whipped topping (such as Cool Whip\u00ae), thawed",
+            "1 cup toasted flaked coconut"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Set aside 1 cup of cookie crumbs and mix remaining crumbs with melted butter in a 9x13-inch baking dish; press buttered crumbs into the dish to form a crust. Freeze until set, about 10 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Whisk coconut cream pudding mix with milk in a large bowl until the pudding thickens, about 2 minutes. Stir ice cream into pudding mix and pour mixture into the cookie crust. Top with a layer of frozen whipped topping; sprinkle with reserved cookie crumbs and coconut. Refrigerate until set, about 1 1/2 hours.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Debbie"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Coconut Cream Dream Dessert",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "569.3 calories",
+            "carbohydrateContent": "69.8 g",
+            "cholesterolContent": "35.4 mg",
+            "fatContent": "30.8 g",
+            "fiberContent": "2.2 g",
+            "proteinContent": "5.4 g",
+            "saturatedFatContent": "18 g",
+            "servingSize": null,
+            "sodiumContent": "430 mg",
+            "sugarContent": "31.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

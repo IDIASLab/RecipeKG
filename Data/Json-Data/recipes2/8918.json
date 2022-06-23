@@ -1,0 +1,105 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/256696/pb-and-j-pizza/",
+        "name": "PB and J Pizza",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "PB and J Pizza"
+        },
+        "datePublished": "2017-01-06T06:30:23.000Z",
+        "description": "Doughy, soft, and sweet.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H20M",
+        "recipeYield": "10 servings",
+        "recipeIngredient": [
+            "1 (8 ounce) package refrigerated crescent roll dough (such as Pillsbury\u00ae)",
+            "1 cup peanut butter, or to taste",
+            "1 cup jelly, or to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat oven to 375 degrees F (190 degrees C). Line a baking sheet with parchment paper.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Separate and spread crescent roll dough on a clean work surface. Spread peanut butter and jelly onto each piece of dough. Fold dough around filling, sealing the edges together like a pizza pocket. Arrange pockets on the prepared baking sheet, at least 1/2 inch apart.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated oven until light golden brown, 10 to 12 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "(#^_^#)"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "PB and J Pizza",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "327.9 calories",
+            "carbohydrateContent": "35.7 g",
+            "cholesterolContent": null,
+            "fatContent": "17.8 g",
+            "fiberContent": "1.9 g",
+            "proteinContent": "8.2 g",
+            "saturatedFatContent": "3.9 g",
+            "servingSize": null,
+            "sodiumContent": "304.6 mg",
+            "sugarContent": "19.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

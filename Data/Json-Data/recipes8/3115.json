@@ -1,0 +1,148 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/237/world-cuisine/latin-american/",
+                    "name": "Latin American",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/728/world-cuisine/latin-american/mexican/",
+                    "name": "Mexican",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/260287/vegan-garden-tacos/",
+        "name": "Vegan Garden Tacos",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5270517.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2020-06-23T21:52:26.000Z",
+        "description": "Try this recipe to whip up delicious quick and easy vegan tacos full of garden greats like zucchini, tomato, and spinach, on corn tortillas.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H6M",
+        "totalTime": "P0DT0H16M",
+        "recipeYield": "3 tacos",
+        "recipeIngredient": [
+            "1\u2009\u00bd teaspoons coconut oil",
+            "\u00bd zucchini, chopped",
+            "\u00bc tomato, chopped",
+            "\u00bc small onion, chopped",
+            "1 tablespoon canned chopped green chiles",
+            "1 cup fresh spinach",
+            "2 teaspoons ground chipotle pepper (such as Mrs. Dash Southwest Chipotle Seasoning Blend\u00ae)",
+            "3 (6 inch) yellow corn tortillas"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat coconut oil in a skillet over medium-low heat. Add zucchini, tomato, onion, and green chiles. Cook and stir until tender, 5 to 7 minutes. Add spinach and chipotle seasoning; stir to combine.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Wrap tortillas in a damp paper towel and heat in the microwave for 30 seconds. Top tortillas with filling.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Latin American",
+            "Mexican"
+        ],
+        "recipeCuisine": [
+            "Latin American",
+            "Mexican"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "VeganGidget"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 2,
+            "itemReviewed": "Vegan Garden Tacos",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "266.6 calories",
+            "carbohydrateContent": "42.7 g",
+            "cholesterolContent": null,
+            "fatContent": "9.4 g",
+            "fiberContent": "7.5 g",
+            "proteinContent": "7.1 g",
+            "saturatedFatContent": "6.3 g",
+            "servingSize": null,
+            "sodiumContent": "170.9 mg",
+            "sugarContent": "4.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-03-30T23:11:00.06Z",
+                "reviewBody": "These turned out good and I will definitely make again. The ground chipotle adds quite a bit of heat so if you are sensitive to heat I recommend starting with 1 teaspoon and go from there. Corn tortillas are definitely the better choice with these. I'm sure flour would be okay but the corn flavor compliments everything in these. My only complaint is that aside from the heat these were a tad bit bland to me. Zucchini typically is though. I ended up using the whole can of diced green chilies and that was perfect.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

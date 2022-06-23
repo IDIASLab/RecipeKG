@@ -1,0 +1,141 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17874/main-dish/tacos/",
+                    "name": "Taco Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/264303/tuna-tacos/",
+        "name": "Tuna Tacos",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5393170.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2020-06-23T21:52:35.000Z",
+        "description": "This is a tuna taco recipe I created 25 years ago. It is easy, quick, and very tasty. When served with crackers it makes a really good light snack or appetizer. I find that once you start eating them you really can't stop. I like to serve this with a chicken rice. To lighten the recipe, you can eat with crackers.",
+        "prepTime": "P0DT0H20M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H30M",
+        "recipeYield": "8 tacos",
+        "recipeIngredient": [
+            "2 tablespoons vegetable oil",
+            "2 tablespoons butter",
+            "2 small tomatoes, diced",
+            "1 small onion, diced",
+            "\u00bd teaspoon crushed garlic",
+            "2 (5 ounce) cans tuna, drained",
+            "\u00bd teaspoon salt",
+            "\u00bd teaspoon ground cumin",
+            "2 eggs",
+            "2 tablespoons finely chopped fresh cilantro",
+            "8 (6 inch) corn tortillas, warmed",
+            "1 large avocado, thinly sliced",
+            "2 limes, cut into eighths",
+            "1 dash hot sauce, or to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat oil and butter in a large pan over medium-high heat. Add tomatoes, onion, and garlic. Saute until tomatoes release all their juices, about 3 minutes. Add tuna, salt, and cumin. Saute for 1 minute. Stir in eggs and cilantro; cook until eggs are set, 3 to 5 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Spoon 3 tablespoons of the tuna mixture onto each corn tortilla. Top each with a slice of avocado, lime juice, and hot sauce.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Taco Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Maricela Caro"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.75,
+            "ratingCount": 4,
+            "itemReviewed": "Tuna Tacos",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "237 calories",
+            "carbohydrateContent": "18.4 g",
+            "cholesterolContent": "63.6 mg",
+            "fatContent": "13.9 g",
+            "fiberContent": "4.9 g",
+            "proteinContent": "12.3 g",
+            "saturatedFatContent": "3.7 g",
+            "servingSize": null,
+            "sodiumContent": "218.9 mg",
+            "sugarContent": "1.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-05-13T23:57:38.903Z",
+                "reviewBody": "Made as written and these turned out pretty good. I didn't feel the eggs added anything though which was kind of disappointing. They are quick and easy though so that is always a plus.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,178 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1116/fruits-and-vegetables/",
+                    "name": "Fruits and Vegetables",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1059/fruits-and-vegetables/vegetables/",
+                    "name": "Vegetables",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1081/fruits-and-vegetables/vegetables/brussels-sprouts/",
+                    "name": "Brussels Sprouts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 6,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17813/fruits-and-vegetables/vegetables/brussels-sprouts/roasted/",
+                    "name": "Roasted",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/274678/asian-roasted-brussels-sprouts/",
+        "name": "Asian Roasted Brussels Sprouts",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F9360696.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2019-09-19T18:00:57.000Z",
+        "description": "These Brussels sprouts are first roasted and then sauteed in sesame seed oil.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H35M",
+        "totalTime": "P0DT0H45M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "1 pound Brussels sprouts, trimmed and halved",
+            "1 tablespoon olive oil",
+            "salt and freshly ground black pepper to taste",
+            "1 tablespoon sesame oil",
+            "1 tablespoon soy sauce",
+            "1 tablespoon fish sauce"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat the oven to 400 degrees F (200 degrees C).\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine Brussels sprouts, olive oil, salt, and pepper in a bowl; mix to combine. Spread out on a sheet pan in a single layer.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Roast in the preheated oven until Brussels sprouts are browned, shaking the pan every 7 minutes, about 30 minutes total. Remove from the oven.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat sesame oil in a skillet over medium heat. Add brussels sprouts and cook for 5 minutes. Transfer to a bowl and mix with soy sauce and fish sauce.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Fruits and Vegetables",
+            "Vegetables",
+            "Brussels Sprouts",
+            "Roasted"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Casey Butler"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.666666666666667,
+            "ratingCount": 3,
+            "itemReviewed": "Asian Roasted Brussels Sprouts",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "112.6 calories",
+            "carbohydrateContent": "10.6 g",
+            "cholesterolContent": null,
+            "fatContent": "7.1 g",
+            "fiberContent": "4.3 g",
+            "proteinContent": "4.3 g",
+            "saturatedFatContent": "1 g",
+            "servingSize": null,
+            "sodiumContent": "566.2 mg",
+            "sugarContent": "2.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-05-18T20:36:46.413Z",
+                "reviewBody": "I flipped the sprouts 3 times at the proper time but they still got a bit charred.   I saw that another recipe called for 425 F and also 30 minutes, so I will reduce the cooking time, maybe 10 minutes each side next time.\nA bit salty but I see my fish sauce is 53% RDA so that was probably why. \nOverall - very very tasty though. Easy to make.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Chris",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/7206929/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2021-05-03T21:53:23.223Z",
+                "reviewBody": "Easy and fantastic recipe, very tasty. Only change was to add some carrots to the Brussels Sprouts, because we needed to use them up.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Dave",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/16290552/"
+                }
+            }
+        ]
+    }
+]

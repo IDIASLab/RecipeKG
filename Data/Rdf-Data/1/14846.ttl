@@ -1,0 +1,131 @@
+@prefix ns1: <http://purl.org/recipekg/> .
+@prefix ns2: <http://purl.org/heals/food/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/herman-coffee-cake> a schema:Recipe ;
+    ns2:hasIngredient [ a <http://purl.org/heals/ingredient/BrownSugar> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "brown sugar" ],
+        [ a <http://purl.org/heals/ingredient/AllPurposeFlour> ;
+            ns1:hasQuantity "3" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "all purpose flour" ],
+        [ a <http://purl.org/recipekg/ingredient/Milk> ;
+            ns1:hasQuantity "1/4" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "milk" ],
+        [ a <http://purl.org/recipekg/ingredient/Margarine> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "margarine" ],
+        [ a <http://purl.org/heals/ingredient/VegetableOil> ;
+            ns1:hasQuantity "2/3" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "vegetable oil" ],
+        [ a <http://purl.org/recipekg/ingredient/Margarine> ;
+            ns1:hasQuantity "1/4" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "margarine" ],
+        [ a <http://purl.org/heals/ingredient/BrownSugar> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "brown sugar" ],
+        [ a <http://purl.org/recipekg/ingredient/Cinnamon> ;
+            ns1:hasQuantity "1 1/2" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "cinnamon" ],
+        [ a <http://purl.org/heals/ingredient/WhiteSugar> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "white sugar" ],
+        [ ],
+        [ a <http://purl.org/heals/ingredient/BakingSoda> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "baking soda" ],
+        [ a <http://purl.org/heals/ingredient/Salt> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "salt" ],
+        [ a <http://purl.org/heals/ingredient/Pecan> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "pecan" ],
+        [ a <http://purl.org/recipekg/ingredient/Egg> ;
+            ns1:hasQuantity "2" ;
+            ns1:ingredientName "egg" ],
+        [ a <http://purl.org/recipekg/ingredient/Raisin> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "raisin" ],
+        [ a <http://purl.org/recipekg/ingredient/Cinnamon> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "cinnamon" ],
+        [ a <http://purl.org/recipekg/ingredient/BakingPowder> ;
+            ns1:hasQuantity "2" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "baking powder" ],
+        [ a <http://purl.org/heals/ingredient/AllPurposeFlour> ;
+            ns1:hasQuantity "2" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "all purpose flour" ] ;
+    ns1:belongsTo <http://purl.org/recipekg/categories/desserts/cakes/coffee-cake/> ;
+    ns1:hasFSAScore 3 ;
+    ns1:hasNutritionalInformation [ a ns1:NutritionalInformation ;
+            ns1:hasCalorificData [ a ns1:CalorificData ;
+                    ns1:hasAmount "407.0"^^xsd:float ;
+                    ns1:hasUnit "calories" ] ;
+            ns1:hasCarbohydrateData [ a ns1:CarbohydrateData ;
+                    ns1:hasAmount "54.6"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasCholesterolData [ a ns1:CholesterolData ;
+                    ns1:hasAmount "20.9"^^xsd:float ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasFatData [ a ns1:FatData ;
+                    ns1:hasAmount "20.8"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSARed ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasFiberData [ a ns1:FiberData ;
+                    ns1:hasAmount "1.5"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasProteinData [ a ns1:ProteinData ;
+                    ns1:hasAmount "3.3"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSaturatedFatData [ a ns1:SaturatedFatData ;
+                    ns1:hasAmount "3.0"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSodiumData [ a ns1:SodiumData ;
+                    ns1:hasAmount "263.4"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAGreen ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasSugarData [ a ns1:SugarData ;
+                    ns1:hasAmount "40.1"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSARed ;
+                    ns1:hasUnit "g" ] ] ;
+    ns1:hasUSDAScore 2 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 28 ;
+            schema:ratingValue "4.571428571428571"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "1999-06-03T00:45:02.000Z"^^schema:date ;
+    schema:name "Herman Coffee Cake"^^xsd:string ;
+    schema:recipeYield "1 - 9x13 inch pan"^^xsd:string .
+
+ns1:FSAAmber a ns1:FSAColor .
+
+ns1:FSAGreen a ns1:FSAColor .
+
+<http://purl.org/recipekg/categories/desserts/> a ns1:RecipeCategory .
+
+<http://purl.org/recipekg/categories/desserts/cakes/> rdfs:subClassOf <http://purl.org/recipekg/categories/desserts/> .
+
+<http://purl.org/recipekg/categories/desserts/cakes/coffee-cake/> rdfs:subClassOf <http://purl.org/recipekg/categories/desserts/cakes/> .
+
+ns1:FSARed a ns1:FSAColor .
+

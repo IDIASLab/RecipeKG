@@ -1,0 +1,151 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/673/main-dish/pork/",
+                    "name": "Pork",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/670/main-dish/pork/ham/",
+                    "name": "Ham",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/241284/quick-and-easy-pizza-burgers/",
+        "name": "Quick and Easy Pizza Burgers",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3877749.jpg",
+            "width": 4608,
+            "height": 3456
+        },
+        "datePublished": "2016-06-01T13:01:58.000Z",
+        "description": "Quick, easy and good! These freeze well too.",
+        "prepTime": "P0DT0H20M",
+        "cookTime": "P0DT0H20M",
+        "totalTime": "P0DT0H40M",
+        "recipeYield": "8 sandwiches",
+        "recipeIngredient": [
+            "1\u2009\u00bd pounds lean ground beef",
+            "1 pound chopped cooked ham",
+            "1 pound American cheese, cut into pieces",
+            "1 (14 ounce) jar pizza sauce",
+            "1 tablespoon dried oregano",
+            "8 hamburger buns, split, or as desired"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat a large skillet over medium-high heat. Cook and stir beef in the hot skillet until browned and crumbly, 5 to 7 minutes; drain and discard grease. Let ground beef cool until easily handled.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Preheat oven to 350 degrees F (175 degrees C).\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Process ham and American cheese in a food processor until finely chopped. Mix ground beef, ham and American cheese, pizza sauce, and oregano together in a large bowl. Spread mixture onto the bottom half of each hamburger bun and place the tops over the filling. Arrange hamburgers on a baking sheet.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated oven until cheese is melted in the burgers and buns are lightly browned, 15 to 20 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Pork",
+            "Ham"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Josie"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Quick and Easy Pizza Burgers",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "668.9 calories",
+            "carbohydrateContent": "27.6 g",
+            "cholesterolContent": "136.6 mg",
+            "fatContent": "42.2 g",
+            "fiberContent": "2.2 g",
+            "proteinContent": "42.4 g",
+            "saturatedFatContent": "20.1 g",
+            "servingSize": null,
+            "sodiumContent": "2126.2 mg",
+            "sugarContent": "1.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2016-08-25T04:25:43.703Z",
+                "reviewBody": "Tasty meal. I used cheddar cheese and a little bit less of it. Made some homemade buns that I added garlic and basil to and topped with parm. Eat them upside down as the bottom bun gets a little squishy",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Linda T",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/lindat/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,43 @@
+@prefix ns1: <http://purl.org/heals/food/> .
+@prefix ns2: <http://purl.org/recipekg/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/spicy-jalapeno-and-bacon-flatbread> a schema:Recipe ;
+    ns1:hasIngredient [ a <http://purl.org/recipekg/ingredient/JalapenoCream> ;
+            ns2:hasQuantity "1" ;
+            ns2:ingredientName "Jalapeno Cream" ],
+        [ a <http://purl.org/recipekg/ingredient/PizzaDough> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "pound" ;
+            ns2:ingredientName "pizza dough" ],
+        [ a <http://purl.org/recipekg/ingredient/Philadelphia> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "PHILADELPHIA" ],
+        [ a <http://purl.org/recipekg/ingredient/CherryTomatoes> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "cherry tomatoes" ],
+        [ a <http://purl.org/heals/ingredient/Bacon> ;
+            ns2:hasQuantity "8" ;
+            ns2:ingredientName "bacon" ],
+        [ a <http://purl.org/heals/ingredient/Onion> ;
+            ns2:hasQuantity "1/4" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "onion" ] ;
+    ns2:belongsTo <http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/philadelphia-cream-cheese/> ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 8 ;
+            schema:ratingValue "4.875"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2013-01-18T22:16:46.000Z"^^schema:date ;
+    schema:name "Spicy Jalapeno and Bacon Flatbread"^^xsd:string ;
+    schema:recipeYield "8 servings"^^xsd:string .
+
+<http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/> a ns2:RecipeCategory .
+
+<http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/philadelphia-cream-cheese/> rdfs:subClassOf <http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/> .
+

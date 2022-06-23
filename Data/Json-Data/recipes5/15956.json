@@ -1,0 +1,133 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/105/appetizers-and-snacks/dips-and-spreads/",
+                    "name": "Dips and Spreads Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/255544/ranch-taco-chicken-dip/",
+        "name": "Ranch Taco Chicken Dip",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4116225.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2020-02-26T05:51:54.000Z",
+        "description": "A delicious combination of tacos and Buffalo chicken dip. Leave in the slow cooker longer for stronger flavor. Serve with tortilla chips, celery, carrots, or on taco shells.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H30M",
+        "totalTime": "P0DT0H35M",
+        "recipeYield": "8 servings",
+        "recipeIngredient": [
+            "2 (12.5 fl oz) cans white meat chicken",
+            "1 cup sharp Cheddar cheese",
+            "1 cup plain Greek yogurt",
+            "\u00bc cup taco sauce",
+            "1 (1.25 ounce) package taco seasoning mix",
+            "\u00bd (1 ounce) package ranch dressing mix"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Mix chicken, Cheddar cheese, Greek yogurt, taco sauce, taco seasoning mix, and ranch dressing mix in a slow cooker.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cook on Low until warmed through, about 30 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks",
+            "Dips and Spreads Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Mary L"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Ranch Taco Chicken Dip",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "268.3 calories",
+            "carbohydrateContent": "5.6 g",
+            "cholesterolContent": "78 mg",
+            "fatContent": "15.2 g",
+            "fiberContent": null,
+            "proteinContent": "24.8 g",
+            "saturatedFatContent": "6.8 g",
+            "servingSize": null,
+            "sodiumContent": "1054.4 mg",
+            "sugarContent": "1.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2016-11-14T00:40:24.2Z",
+                "reviewBody": "Made as written except that I used fresh boiled chicken. This was pretty good. The ranch seemed to overpower to me so I ended up adding more taco sauce to tame the ranch. Not a pretty dip but it was easy and tasty.  It doesn't make a whole bunch so you might want to double the recipe if making for more than a couple of people. On that note, if making a single batch I will only use half of the ranch packet the next time I make this and only use the full packet if I am doubling the recipe.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

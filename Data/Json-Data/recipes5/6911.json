@@ -1,0 +1,116 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/364/desserts/frozen-desserts/",
+                    "name": "Frozen Dessert Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/256692/blueberry-frozen-yogurt/",
+        "name": "Blueberry Frozen Yogurt",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Blueberry Frozen Yogurt"
+        },
+        "datePublished": "2019-07-10T07:10:34.000Z",
+        "description": "Delicious yogurt worth making.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H25M",
+        "recipeYield": "4 cups",
+        "recipeIngredient": [
+            "2 cups blueberry jam",
+            "1\u2009\u00bd cups nonfat Greek yogurt",
+            "\u00bd cup almond milk",
+            "3 tablespoons stevia sweetener (such as Truvia\u00ae), or more to taste",
+            "1 tablespoon lemon juice",
+            "1 teaspoon vanilla extract",
+            "\u00bc teaspoon sea salt",
+            "\u215b teaspoon ground cinnamon"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Mix blueberry jam, Greek yogurt, almond milk, stevia sweetener, lemon juice, vanilla extract, salt, and cinnamon together in a bowl.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour mixture into an ice cream maker; churn to the consistency of frozen yogurt according to manufacturer's instructions, about 20 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Frozen Dessert Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Judy Sylvester"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Blueberry Frozen Yogurt",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "138.1 calories",
+            "carbohydrateContent": "33.3 g",
+            "cholesterolContent": null,
+            "fatContent": "0.2 g",
+            "fiberContent": "4.3 g",
+            "proteinContent": "3.8 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "91.3 mg",
+            "sugarContent": "25.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

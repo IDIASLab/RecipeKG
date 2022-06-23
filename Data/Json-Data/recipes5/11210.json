@@ -1,0 +1,130 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/143/breakfast-and-brunch/drinks/",
+                    "name": "Drinks",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/276616/banana-smoothie-with-yogurt-almond-butter-and-oats/",
+        "name": "Banana Smoothie with Yogurt, Almond Butter, and Oats",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7160232.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2019-10-18T03:07:02.000Z",
+        "description": "This banana-almond-oat smoothie is creamy and delicious.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "1 smoothie",
+        "recipeIngredient": [
+            "8 cubes  ice, or more to taste",
+            "1 cup plain whole-milk yogurt",
+            "1 medium frozen banana, cut into chunks",
+            "\u00bd cup old-fashioned rolled oats",
+            "1 teaspoon honey",
+            "1 tablespoon almond butter, or more to taste",
+            "2 drops almond extract"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine ice cubes, yogurt, banana, oats, honey, almond butter, and almond extract in a blender; blend until smooth. Pour into a serving glass.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Drinks"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Lourdes Valdes"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Banana Smoothie with Yogurt, Almond Butter, and Oats",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "541.8 calories",
+            "carbohydrateContent": "81.2 g",
+            "cholesterolContent": "14.7 mg",
+            "fatContent": "16.3 g",
+            "fiberContent": "7.8 g",
+            "proteinContent": "21.9 g",
+            "saturatedFatContent": "3.9 g",
+            "servingSize": null,
+            "sodiumContent": "252.5 mg",
+            "sugarContent": "39 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-05-12T06:15:18.447Z",
+                "reviewBody": "I really liked the almond butter and almond extract in this! Make sure to use a high powered blender as there isn't any liquid to get things going. I used vanilla yogurt and left out the honey, and I used about 4 more ice cubes. Mmmm",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Tammy Lynn",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3084624/"
+                }
+            }
+        ]
+    }
+]

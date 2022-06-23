@@ -1,0 +1,116 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/133/drinks/cocktails/",
+                    "name": "Cocktail Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/222880/cuzco-cocktail/",
+        "name": "Cuzco Cocktail",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Cuzco Cocktail"
+        },
+        "datePublished": "2019-07-10T07:03:29.000Z",
+        "description": "Considered a new classic among cocktail enthusiasts, the Cuzco cocktail includes a Peruvian spirit called Pisco and plenty of lemon and grapefruit juice, for a balanced and refreshing cocktail.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "1 cocktail",
+        "recipeIngredient": [
+            "1 cup ice",
+            "2 fluid ounces pisco",
+            "\u00be fluid ounce Aperol (bitter orange aperitif)",
+            "\u00be fluid ounce simple syrup",
+            "\u00bd fluid ounce lemon juice",
+            "\u00bd fluid ounce grapefruit juice",
+            "1 cup ice",
+            "1 twist grapefruit peel"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place 1 cup ice in a collins glass. Set aside in the freezer.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine pisco, Aperol, simple syrup, lemon juice, grapefruit juice, and 1 cup ice in a cocktail shaker. Cover and shake until chilled. Strain into the chilled Collins glass. Garnish with a grapefruit twist.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Cocktail Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Allrecipes"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Cuzco Cocktail",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "276.7 calories",
+            "carbohydrateContent": "27.5 g",
+            "cholesterolContent": null,
+            "fatContent": "0.1 g",
+            "fiberContent": "0.3 g",
+            "proteinContent": "0.2 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "18 mg",
+            "sugarContent": "9.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

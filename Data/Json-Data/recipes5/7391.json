@@ -1,0 +1,149 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/251/main-dish/sandwiches/",
+                    "name": "Sandwich Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/263658/tasty-vegan-guacamole-sandwich/",
+        "name": "Tasty Vegan Guacamole Sandwich",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5297556.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2019-07-10T07:11:50.000Z",
+        "description": "This vegan sandwich is delicious if you love guacamole (like I do) and are looking for something different for lunch. The layers stay together better when the sandwich is on a fresh roll. Serve with chips and salsa!",
+        "prepTime": "P0DT0H20M",
+        "cookTime": null,
+        "totalTime": "P0DT0H20M",
+        "recipeYield": "1 sandwich",
+        "recipeIngredient": [
+            "\u00bd ripe avocado, thinly sliced",
+            "\u00bd ripe tomato, thinly sliced",
+            "4 thin slices cucumber",
+            "1 thin slice red onion",
+            "1 hoagie roll, split lengthwise",
+            "1 dash lemon juice",
+            "salt and ground black pepper to taste",
+            "1 leaf Romaine lettuce",
+            "1 teaspoon vegan mayonnaise (such as Veganaise\u00ae)"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Layer avocado, tomato, cucumber, and red onion on the bottom half of the roll. Sprinkle with lemon juice, salt, and pepper. Place lettuce on top. Spread a thin layer of vegan mayonnaise onto the top half of the roll and place it on top of the sandwich.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Sandwich Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Julianne K."
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 2.5,
+            "ratingCount": 2,
+            "itemReviewed": "Tasty Vegan Guacamole Sandwich",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "601.4 calories",
+            "carbohydrateContent": "84.6 g",
+            "cholesterolContent": null,
+            "fatContent": "24.1 g",
+            "fiberContent": "12 g",
+            "proteinContent": "14.9 g",
+            "saturatedFatContent": "4.2 g",
+            "servingSize": null,
+            "sodiumContent": "941.2 mg",
+            "sugarContent": "9.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-04-08T22:26:59.84Z",
+                "reviewBody": "Instead of the optional vegan mayo I used a homemade pesto from this site and this turned out good. What would be even better is to make a pesto out of cilantro to get the guacamole vibe. Just a thought.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2019-07-19T02:02:06.93Z",
+                "reviewBody": "Why is this called guacamole it simply. Has avacado in sandwich",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 1
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Laurel Mastro",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/4193040/"
+                }
+            }
+        ]
+    }
+]

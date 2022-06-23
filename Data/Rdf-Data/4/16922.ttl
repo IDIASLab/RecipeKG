@@ -1,0 +1,48 @@
+@prefix ns1: <http://purl.org/heals/food/> .
+@prefix ns2: <http://purl.org/recipekg/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/best-vodka-gummies> a schema:Recipe ;
+    ns1:hasIngredient [ a <http://purl.org/recipekg/ingredient/Vodka> ;
+            ns2:hasQuantity "1" ;
+            ns2:ingredientName "vodka" ],
+        [ ] ;
+    ns2:belongsTo <http://purl.org/recipekg/categories/desserts/specialty-desserts/liqueur-desserts/> ;
+    ns2:hasFSAScore 3 ;
+    ns2:hasNutritionalInformation [ a ns2:NutritionalInformation ;
+            ns2:hasCalorificData [ a ns2:CalorificData ;
+                    ns2:hasAmount "220.0"^^xsd:float ;
+                    ns2:hasUnit "calories" ] ;
+            ns2:hasCarbohydrateData [ a ns2:CarbohydrateData ;
+                    ns2:hasAmount "34.6"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasSodiumData [ a ns2:SodiumData ;
+                    ns2:hasAmount "15.8"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSAGreen ;
+                    ns2:hasUnit "mg" ] ;
+            ns2:hasSugarData [ a ns2:SugarData ;
+                    ns2:hasAmount "20.6"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSAAmber ;
+                    ns2:hasUnit "g" ] ] ;
+    ns2:hasUSDAScore 2 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 3 ;
+            schema:ratingValue "3.6666666666666665"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2019-04-02T07:02:56.000Z"^^schema:date ;
+    schema:name "Best Vodka Gummies"^^xsd:string ;
+    schema:recipeYield "20 servings"^^xsd:string .
+
+ns2:FSAAmber a ns2:FSAColor .
+
+ns2:FSAGreen a ns2:FSAColor .
+
+<http://purl.org/recipekg/categories/desserts/> a ns2:RecipeCategory .
+
+<http://purl.org/recipekg/categories/desserts/specialty-desserts/> rdfs:subClassOf <http://purl.org/recipekg/categories/desserts/> .
+
+<http://purl.org/recipekg/categories/desserts/specialty-desserts/liqueur-desserts/> rdfs:subClassOf <http://purl.org/recipekg/categories/desserts/specialty-desserts/> .
+

@@ -1,0 +1,155 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/362/desserts/cookies/",
+                    "name": "Cookies",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/235222/hello-dolly-party-balls/",
+        "name": "Hello Dolly Party Balls",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3917838.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2017-04-05T13:01:27.000Z",
+        "description": "This is one of my family's favorite sweets, passed down from Aunt Sheryl. They're like a hello dolly or magic bar rolled up into a ball! My kids help me make them, especially if I let them eat a couple while they're still warm! We make them several times during the holidays and throughout the year, and they usually bring in quite a bit of money in our student ministry's dessert auction at church!",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H30M",
+        "totalTime": "P0DT0H45M",
+        "recipeYield": "3 dozen",
+        "recipeIngredient": [
+            "2 cups graham cracker crumbs",
+            "1 (14 ounce) can sweetened condensed milk",
+            "1 cup semisweet chocolate chips",
+            "1 cup chopped walnuts",
+            "1 cup shredded coconut",
+            "\u00bd cup butter, melted",
+            "1 cup confectioners' sugar"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat oven to 350 degrees F (175 degrees C). Grease an 8-inch square pan.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Mix graham cracker crumbs, sweetened condensed milk, chocolate chips, walnuts, coconut, and butter in a bowl; press into prepared pan.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated oven until golden brown, about 30 minutes. Pour confectioners' sugar into a shallow bowl. While still warm, shape mixture into 1-inch balls and roll in confectioners' sugar.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Cookies"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Amus"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Hello Dolly Party Balls",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "143.8 calories",
+            "carbohydrateContent": "17.4 g",
+            "cholesterolContent": "10.5 mg",
+            "fatContent": "8.1 g",
+            "fiberContent": "0.8 g",
+            "proteinContent": "2 g",
+            "saturatedFatContent": "3.9 g",
+            "servingSize": null,
+            "sodiumContent": "66.7 mg",
+            "sugarContent": "14.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-12-16T15:49:06.587Z",
+                "reviewBody": "I've made this 3 times in the last 2 weeks. These are very good & pretty but the recipe is wrong in 2 ways. First 1\" balls would make a LOT more than 36 balls. I'd say mine were 1 1/2 \" & made 40-44. Secondly it takes a lot longer than the time given to finish these! HINT: Use a heaping regular teaspoon & another teaspoon to aid in scooping out the warm mixture. Scoop from the sides 1st. Scoop a few at a time onto wax paper to cool enough to shape. To add a bit of color after rolling in confectioner's sugar I dipped the tops in melted butter then colored sugar.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Patricia Anne Peel",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2739489/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2016-12-03T02:29:38.01Z",
+                "reviewBody": "Easy to make and yummy.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Deb Bruss",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3767053/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,139 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/143/breakfast-and-brunch/drinks/",
+                    "name": "Drinks",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/256446/celtic-coffee/",
+        "name": "Celtic Coffee",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4395762.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2019-07-10T07:10:31.000Z",
+        "description": "All-natural, delicious, nutritious and energy-boosting Irish coffee variation! Enjoy! Happy St. Patrick's Day!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H13M",
+        "recipeYield": "1 coffee",
+        "recipeIngredient": [
+            "1 egg white",
+            "1 teaspoon lemon juice",
+            "\u00bd teaspoon stevia powder, or to taste",
+            "\u00bc teaspoon grated lemon zest, or to taste",
+            "3 tablespoons coarsely ground coffee beans",
+            "1 cup boiling water",
+            "2 tablespoons Scotch whiskey",
+            "2 teaspoons honey"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Beat egg white in a bowl using an electric mixer until soft peaks form; mix in lemon juice, stevia powder, and lemon zest.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Spoon ground coffee into a French press; add boiling water and cover. Let steep for 3 to 5 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine Scotch and honey in a glass; pour in coffee and mix well. Top coffee with lemon-flavored egg white.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Drinks"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Whole Food Chef"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Celtic Coffee",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "147.9 calories",
+            "carbohydrateContent": "16.4 g",
+            "cholesterolContent": null,
+            "fatContent": null,
+            "fiberContent": "0.1 g",
+            "proteinContent": "4.2 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "72.2 mg",
+            "sugarContent": "12.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2016-12-31T12:23:06.307Z",
+                "reviewBody": "I wimped out on the raw egg and used whipped cream instead. Made this for my husband and he really liked it. He did say that he would have preferred it with less honey. Word of advice, get your zest prior to slicing it up for the juice you need. I forgot to do so and my zest was more in clumps than evenly distributed over the cream as it should have been. This drink would be excellent if you had a cold.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

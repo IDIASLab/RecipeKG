@@ -1,0 +1,96 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/284379/oreo-ice-cream/",
+        "name": "Oreo&reg; Ice Cream",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Oreo&reg; Ice Cream"
+        },
+        "datePublished": "2020-07-07T05:14:05.000Z",
+        "description": "This is a super simple recipe make some delicious Oreo&reg; ice cream and you don't need an ice cream maker.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT4H10M",
+        "recipeYield": "10 servings",
+        "recipeIngredient": [
+            "1 (14 ounce) package chocolate sandwich cookies (such as Oreo\u00ae)",
+            "2 cups heavy whipping cream",
+            "\u00bd (14 ounce) can sweetened condensed milk",
+            "2 tablespoons white sugar",
+            "2 teaspoons vanilla extract"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Crush 20 Oreo&reg; cookies. Reserve remaining cookies for another use.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Beat cream in a chilled glass or metal bowl with an electric mixer until stiff peaks form. Gently fold in crushed Oreo's&reg;, condensed milk, sugar, and vanilla without destroying the fluff of the whipped cream.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Transfer into a freezer-safe container and freeze until firm, at least 4 hours.\n"
+            }
+        ],
+        "recipeCategory": [],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "dominictermine"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Oreo&reg; Ice Cream",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "431.5 calories",
+            "carbohydrateContent": "42.2 g",
+            "cholesterolContent": "71.9 mg",
+            "fatContent": "27.7 g",
+            "fiberContent": "1.2 g",
+            "proteinContent": "3.7 g",
+            "saturatedFatContent": "13.8 g",
+            "servingSize": null,
+            "sodiumContent": "307.3 mg",
+            "sugarContent": "28.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

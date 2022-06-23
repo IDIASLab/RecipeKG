@@ -1,0 +1,92 @@
+@prefix ns1: <http://purl.org/recipekg/> .
+@prefix ns2: <http://purl.org/heals/food/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/biscuit-bread-pudding-with-sausage-and-mushroom-custard> a schema:Recipe ;
+    ns2:hasIngredient [ a <http://purl.org/heals/ingredient/Butter> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "butter" ],
+        [ a <http://purl.org/recipekg/ingredient/Mushroom> ;
+            ns1:hasQuantity "2" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "mushroom" ],
+        [ ],
+        [ ],
+        [ a <http://purl.org/heals/ingredient/Onion> ;
+            ns1:hasQuantity "1" ;
+            ns1:ingredientName "onion" ],
+        [ a <http://purl.org/recipekg/ingredient/CheddarCheese> ;
+            ns1:hasQuantity "1 1/2" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "Cheddar cheese" ],
+        [ a <http://purl.org/recipekg/ingredient/Egg> ;
+            ns1:hasQuantity "6" ;
+            ns1:ingredientName "egg" ],
+        [ a <http://purl.org/recipekg/ingredient/Biscuit> ;
+            ns1:hasQuantity "6" ;
+            ns1:ingredientName "biscuit" ],
+        [ a <http://purl.org/heals/ingredient/Parsley> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "parsley" ],
+        [ a <http://purl.org/recipekg/ingredient/PorkSausage> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "pound" ;
+            ns1:ingredientName "Pork Sausage" ] ;
+    ns1:belongsTo <http://purl.org/recipekg/categories/breakfast-and-brunch/eggs/> ;
+    ns1:hasFSAScore 3 ;
+    ns1:hasNutritionalInformation [ a ns1:NutritionalInformation ;
+            ns1:hasCalorificData [ a ns1:CalorificData ;
+                    ns1:hasAmount "749.4"^^xsd:float ;
+                    ns1:hasUnit "calories" ] ;
+            ns1:hasCarbohydrateData [ a ns1:CarbohydrateData ;
+                    ns1:hasAmount "24.5"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasCholesterolData [ a ns1:CholesterolData ;
+                    ns1:hasAmount "321.2"^^xsd:float ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasFatData [ a ns1:FatData ;
+                    ns1:hasAmount "58.9"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSARed ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasFiberData [ a ns1:FiberData ;
+                    ns1:hasAmount "1.2"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasProteinData [ a ns1:ProteinData ;
+                    ns1:hasAmount "31.9"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSaturatedFatData [ a ns1:SaturatedFatData ;
+                    ns1:hasAmount "25.3"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSARed ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSodiumData [ a ns1:SodiumData ;
+                    ns1:hasAmount "1362.1"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasSugarData [ a ns1:SugarData ;
+                    ns1:hasAmount "2.9"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAGreen ;
+                    ns1:hasUnit "g" ] ] ;
+    ns1:hasUSDAScore 4 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 1 ;
+            schema:ratingValue "5"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2018-02-14T07:24:26.000Z"^^schema:date ;
+    schema:name "Biscuit Bread Pudding with Sausage and Mushroom Custard"^^xsd:string ;
+    schema:recipeYield "6 servings"^^xsd:string .
+
+ns1:FSAAmber a ns1:FSAColor .
+
+ns1:FSAGreen a ns1:FSAColor .
+
+<http://purl.org/recipekg/categories/breakfast-and-brunch/> a ns1:RecipeCategory .
+
+<http://purl.org/recipekg/categories/breakfast-and-brunch/eggs/> rdfs:subClassOf <http://purl.org/recipekg/categories/breakfast-and-brunch/> .
+
+ns1:FSARed a ns1:FSAColor .
+

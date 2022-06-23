@@ -1,0 +1,62 @@
+@prefix ns1: <http://purl.org/heals/food/> .
+@prefix ns2: <http://purl.org/recipekg/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/ham-fried-rice-with-eggs> a schema:Recipe ;
+    ns1:hasIngredient [ a <http://purl.org/recipekg/ingredient/Ham> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "ham" ],
+        [ a <http://purl.org/heals/ingredient/Carrot> ;
+            ns2:hasQuantity "3/4" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "carrot" ],
+        [ a <http://purl.org/heals/ingredient/SoySauce> ;
+            ns2:hasQuantity "3" ;
+            ns2:hasUnit "tablespoon" ;
+            ns2:ingredientName "soy sauce" ],
+        [ a <http://purl.org/heals/ingredient/GreenPepper> ;
+            ns2:hasQuantity "2/3" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "green pepper" ],
+        [ a <http://purl.org/heals/ingredient/GreenPepper> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "green pepper" ],
+        [ a <http://purl.org/recipekg/ingredient/JasmineRice> ;
+            ns2:hasQuantity "2" ;
+            ns2:ingredientName "Jasmine Rice" ],
+        [ a <http://purl.org/heals/ingredient/SesameOil> ;
+            ns2:hasQuantity "2" ;
+            ns2:hasUnit "tablespoon" ;
+            ns2:ingredientName "sesame oil" ],
+        [ a <http://purl.org/heals/ingredient/WhiteVinegar> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "tablespoon" ;
+            ns2:ingredientName "white vinegar" ],
+        [ a <http://purl.org/heals/ingredient/Onion> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "onion" ],
+        [ a <http://purl.org/recipekg/ingredient/Egg> ;
+            ns2:hasQuantity "4" ;
+            ns2:ingredientName "egg" ],
+        [ a <http://purl.org/heals/ingredient/Clove> ;
+            ns2:hasQuantity "4" ;
+            ns2:ingredientName "clove" ] ;
+    ns2:belongsTo <http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/uncle-bens/> ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 12 ;
+            schema:ratingValue "4.666666666666667"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2019-03-19T04:56:41.000Z"^^schema:date ;
+    schema:name "Ham Fried Rice with Eggs"^^xsd:string ;
+    schema:recipeYield "4 servings"^^xsd:string .
+
+<http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/> a ns2:RecipeCategory .
+
+<http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/uncle-bens/> rdfs:subClassOf <http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/> .
+

@@ -1,0 +1,144 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/211/salad/fruit-salads/",
+                    "name": "Fruit Salad Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/222534/tropical-island-fruit-salad/",
+        "name": "Tropical Island Fruit Salad",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F876301.jpg",
+            "width": 1440,
+            "height": 960
+        },
+        "datePublished": "2014-03-18T06:00:25.000Z",
+        "description": "A bright, beautiful, and delicious fruit salad. This goes well with jerk chicken or another island meal.",
+        "prepTime": "P0DT0H30M",
+        "cookTime": null,
+        "totalTime": "P0DT0H30M",
+        "recipeYield": "14 servings",
+        "recipeIngredient": [
+            "1 pineapple - peeled, cored, and cut into 1/2-inch cubes",
+            "2 mangos - peeled, pitted, and cut into small cubes",
+            "2 papayas - halved lengthwise, seeded, peeled, and cut into 1/2-inch cubes",
+            "3 bananas, sliced"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Toss pineapple, mangos, papayas, and bananas together in a large bowl.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad",
+            "Fruit Salad Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Devin"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Tropical Island Fruit Salad",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "94 calories",
+            "carbohydrateContent": "24.4 g",
+            "cholesterolContent": null,
+            "fatContent": "0.3 g",
+            "fiberContent": "2.8 g",
+            "proteinContent": "1.1 g",
+            "saturatedFatContent": "0.1 g",
+            "servingSize": null,
+            "sodiumContent": "2.3 mg",
+            "sugarContent": "17.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2012-08-18T13:50:44.387Z",
+                "reviewBody": "Simple and delicious! I like the addition of the banana. They balance out the tartness from the pineapple and mango. I'm not normally a huge fan of papaya but it's very good mixed with the other fruits. I think next time I might sprinkle some coconut over the top. Great recipe! Edited to add: I would recommend eating this the same day. It tends to get mushy when stored for more than a day.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "France C",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/francecevallos/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2018-06-18T01:56:00.027Z",
+                "reviewBody": "Delicious! I added strawberries and some shredded coconut for texture. A squeeze of lime and it was good!!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "michellew",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/759648/"
+                }
+            }
+        ]
+    }
+]

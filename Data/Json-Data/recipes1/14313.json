@@ -1,0 +1,131 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17146/appetizers-and-snacks/snacks/",
+                    "name": "Snacks",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/284194/chocolate-covered-coffee-beans/",
+        "name": "Chocolate-Covered Coffee Beans",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F9203408.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2003-04-27T01:44:31.000Z",
+        "description": "After some experimenting, I've finally found a way to reproduce the delicious chocolate-covered coffee beans that you often see in coffee shops. This recipes uses 2 two ingredients: coffee beans and chocolate.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT1H20M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "4 ounces milk chocolate, chopped, divided",
+            "\u00bd cup coffee beans"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place 1/2 of the chocolate in a microwave-safe bowl. Microwave on low until almost melted, about 1 minute; do not allow chocolate to burn. Remove from the microwave, stir to melt any remaining pieces, and let cool slightly.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Drop a small handful of coffee beans into the chocolate and drench until completely covered. Fish out with a fork and drop onto waxed paper, making sure beans are separated. Repeat with remaining beans. Let cool until chocolate is solid, about 30 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Meanwhile, melt remaining chocolate in the microwave; do not allow to burn. Stir once and cool slightly, about 2 minutes. Drop a small amount of chocolate-covered coffee beans into the melted chocolate at a time, until completely covered with a second coating. Place on a new sheet of waxed paper and let cool completely, about 30 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks",
+            "Snacks"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "AURYANE"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Chocolate-Covered Coffee Beans",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "155.7 calories",
+            "carbohydrateContent": "17.8 g",
+            "cholesterolContent": "6.4 mg",
+            "fatContent": "8.3 g",
+            "fiberContent": "1 g",
+            "proteinContent": "2.4 g",
+            "saturatedFatContent": "4.6 g",
+            "servingSize": null,
+            "sodiumContent": "28 mg",
+            "sugarContent": "14.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-05-14T07:15:05.567Z",
+                "reviewBody": "I have never thought to make chocolate covered coffee beans at home, and it was kinda fun! I made a half batch, and that still made a lot of beans! I found that I actually needed more chocolate for the second coating than the first, and needed to reheat it every so often to keep it thin enough to dunk the beans in. It was easier to use two forks to dunk the beans: use one fork to lift the beans out of the chocolate, then use the second fork to almost 'fling' the beans off the first fork individually. That helped prevent any clumping. I used dark chocolate, but I think that milk chocolate would make for a better sweet/bitter balance. And finally: to make the second chocolate coating 'shinier', try melting about 1 tsp of butter alongside the chocolate in the microwave. Great recipe, thank you for sharing it!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Kim",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/k-i-m/"
+                }
+            }
+        ]
+    }
+]

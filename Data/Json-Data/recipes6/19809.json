@@ -1,0 +1,144 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/363/desserts/custards-and-puddings/",
+                    "name": "Custards and Puddings",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/69601/egg-jelly/",
+        "name": "Egg Jelly",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Egg Jelly"
+        },
+        "datePublished": "2020-06-19T03:10:37.000Z",
+        "description": "Serve over hot, buttered biscuits, toast or waffles. A butter alternative with no dairy.",
+        "prepTime": "P0DT0H2M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H12M",
+        "recipeYield": "2 cups",
+        "recipeIngredient": [
+            "2 cups sugar",
+            "1 cup water",
+            "2 eggs, beaten"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Mix together the sugar and water in a small saucepan. Bring to a full rolling boil. Slowly whisk in the eggs. Remove from heat.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Custards and Puddings"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "KIMMYKIM1"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 2.5,
+            "ratingCount": 2,
+            "itemReviewed": "Egg Jelly",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "105.7 calories",
+            "carbohydrateContent": "25 g",
+            "cholesterolContent": "23.3 mg",
+            "fatContent": "0.6 g",
+            "fiberContent": null,
+            "proteinContent": "0.8 g",
+            "saturatedFatContent": "0.2 g",
+            "servingSize": null,
+            "sodiumContent": "9.2 mg",
+            "sugarContent": "25 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2016-01-20T23:03:19.917Z",
+                "reviewBody": "I remember a friend s mother making this with breakfast when I d spend the night at her house.. ah memories. But she added vanilla cinnamon and nutmeg to hers as well as using milk instead of water. We used it for dipping biscuits and French toast sticks; her dad ate it on his pancakes with butter and salt.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "campagnes",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/1484452/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2006-10-22T02:23:47.423Z",
+                "reviewBody": "I didn't really know what this was supposed to taste like or even look like so I can't exactly give it a proper review but it didn't taste good at all.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 2
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Marianne",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/1888156/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,100 @@
+@prefix ns1: <http://purl.org/recipekg/> .
+@prefix ns2: <http://purl.org/heals/food/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/cranberry-apple-and-fresh-ginger-chutney> a schema:Recipe ;
+    ns2:hasIngredient [ a <http://purl.org/recipekg/ingredient/Apple> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "apple" ],
+        [ a <http://purl.org/heals/ingredient/Celery> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "celery" ],
+        [ a <http://purl.org/heals/ingredient/Water> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "water" ],
+        [ a <http://purl.org/heals/ingredient/Onion> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "onion" ],
+        [ a <http://purl.org/heals/ingredient/WhiteSugar> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "white sugar" ],
+        [ a <http://purl.org/recipekg/ingredient/GingerRoot> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "ginger root" ],
+        [ a <http://purl.org/heals/ingredient/BrownSugar> ;
+            ns1:hasQuantity "3/4" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "brown sugar" ],
+        [ a <http://purl.org/heals/ingredient/DriedCranberry> ;
+            ns1:hasQuantity "4" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "dried cranberry" ],
+        [ a <http://purl.org/recipekg/ingredient/Cinnamon> ;
+            ns1:hasQuantity "2" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "cinnamon" ],
+        [ a <http://purl.org/recipekg/ingredient/Raisin> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "raisin" ],
+        [ a <http://purl.org/heals/ingredient/Clove> ;
+            ns1:hasQuantity "1/4" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "clove" ] ;
+    ns1:belongsTo <http://purl.org/recipekg/categories/side-dish/sauces-and-condiments/chutney/cranberry/> ;
+    ns1:hasFSAScore 4 ;
+    ns1:hasNutritionalInformation [ a ns1:NutritionalInformation ;
+            ns1:hasCalorificData [ a ns1:CalorificData ;
+                    ns1:hasAmount "224.4"^^xsd:float ;
+                    ns1:hasUnit "calories" ] ;
+            ns1:hasCarbohydrateData [ a ns1:CarbohydrateData ;
+                    ns1:hasAmount "58.5"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasFatData [ a ns1:FatData ;
+                    ns1:hasAmount "0.2"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAGreen ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasFiberData [ a ns1:FiberData ;
+                    ns1:hasAmount "4.1"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasProteinData [ a ns1:ProteinData ;
+                    ns1:hasAmount "1.1"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSodiumData [ a ns1:SodiumData ;
+                    ns1:hasAmount "17.0"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAGreen ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasSugarData [ a ns1:SugarData ;
+                    ns1:hasAmount "48.3"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSARed ;
+                    ns1:hasUnit "g" ] ] ;
+    ns1:hasUSDAScore 2 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 110 ;
+            schema:ratingValue "4.845454545454546"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2007-10-24T03:23:48.000Z"^^schema:date ;
+    schema:name "Cranberry, Apple, and Fresh Ginger Chutney"^^xsd:string ;
+    schema:recipeYield "8 servings"^^xsd:string .
+
+ns1:FSARed a ns1:FSAColor .
+
+<http://purl.org/recipekg/categories/side-dish/> a ns1:RecipeCategory .
+
+<http://purl.org/recipekg/categories/side-dish/sauces-and-condiments/> rdfs:subClassOf <http://purl.org/recipekg/categories/side-dish/> .
+
+<http://purl.org/recipekg/categories/side-dish/sauces-and-condiments/chutney/> rdfs:subClassOf <http://purl.org/recipekg/categories/side-dish/sauces-and-condiments/> .
+
+<http://purl.org/recipekg/categories/side-dish/sauces-and-condiments/chutney/cranberry/> rdfs:subClassOf <http://purl.org/recipekg/categories/side-dish/sauces-and-condiments/chutney/> .
+
+ns1:FSAGreen a ns1:FSAColor .
+

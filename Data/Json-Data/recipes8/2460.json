@@ -1,0 +1,134 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/242184/watermelon-fwang/",
+        "name": "Watermelon Fwang",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2287513.jpg",
+            "width": 1951,
+            "height": 2788
+        },
+        "datePublished": "2020-06-20T01:50:52.000Z",
+        "description": "This refreshing treat is good any time of the day, whether you're having it with breakfast, after lunch, or for dessert. It's sweet, nutritious, and has a bit of a spark that will make you just love it. I use less yogurt because that's how I personally like it, but you can add more to vary the taste.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "3 servings",
+        "recipeIngredient": [
+            "2\u2009\u00bd cups cubed seeded watermelon",
+            "1 cup crushed ice",
+            "\u00bc cup French vanilla yogurt",
+            "1 tablespoon white sugar"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Blend watermelon, ice, yogurt, and sugar together in a blender until smooth.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Jill"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Watermelon Fwang",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "72 calories",
+            "carbohydrateContent": "16.7 g",
+            "cholesterolContent": "1 mg",
+            "fatContent": "0.4 g",
+            "fiberContent": "0.5 g",
+            "proteinContent": "1.8 g",
+            "saturatedFatContent": "0.2 g",
+            "servingSize": null,
+            "sodiumContent": "14.8 mg",
+            "sugarContent": "14.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2015-05-23T19:49:58.67Z",
+                "reviewBody": "Very easy and delicious. I used Greek yogurt & didn't add the sugar.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Baking Nana",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/bakingnana/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2015-06-29T06:51:09.867Z",
+                "reviewBody": "No need for sugar in this naturally sweet drink! I used plain yogurt and still this was sweet and delicious. Thank you for the recipe.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Buckwheat Queen",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/melaniegiovenzana/"
+                }
+            }
+        ]
+    }
+]

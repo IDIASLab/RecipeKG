@@ -1,0 +1,78 @@
+@prefix ns1: <http://purl.org/recipekg/> .
+@prefix ns2: <http://purl.org/heals/food/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/peach-habanero-jam> a schema:Recipe ;
+    ns2:hasIngredient [ a <http://purl.org/heals/ingredient/LemonJuice> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "lemon juice" ],
+        [ a <http://purl.org/heals/ingredient/WhiteVinegar> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "white vinegar" ],
+        [ a <http://purl.org/recipekg/ingredient/Whiskey> ;
+            ns1:hasQuantity "3" ;
+            ns1:ingredientName "whiskey" ],
+        [ a <http://purl.org/heals/ingredient/AppleCiderVinegar> ;
+            ns1:hasQuantity "2" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "apple cider vinegar" ],
+        [ a <http://purl.org/heals/ingredient/BrownSugar> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "brown sugar" ],
+        [ a <http://purl.org/recipekg/ingredient/Jar> ;
+            ns1:hasQuantity "2" ;
+            ns1:ingredientName "jar" ],
+        [ a <http://purl.org/recipekg/ingredient/Peach> ;
+            ns1:hasQuantity "2" ;
+            ns1:hasUnit "pound" ;
+            ns1:ingredientName "peach" ],
+        [ a <http://purl.org/heals/ingredient/WhiteSugar> ;
+            ns1:hasQuantity "4" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "white sugar" ],
+        [ a <http://purl.org/recipekg/ingredient/HabaneroPeppers> ;
+            ns1:hasQuantity "5" ;
+            ns1:ingredientName "habanero peppers" ] ;
+    ns1:belongsTo <http://purl.org/recipekg/categories/side-dish/sauces-and-condiments/canning-and-preserving/jams-and-jellies/> ;
+    ns1:hasFSAScore 2 ;
+    ns1:hasNutritionalInformation [ a ns1:NutritionalInformation ;
+            ns1:hasCalorificData [ a ns1:CalorificData ;
+                    ns1:hasAmount "135.6"^^xsd:float ;
+                    ns1:hasUnit "calories" ] ;
+            ns1:hasCarbohydrateData [ a ns1:CarbohydrateData ;
+                    ns1:hasAmount "33.2"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSodiumData [ a ns1:SodiumData ;
+                    ns1:hasAmount "3.0"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAGreen ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasSugarData [ a ns1:SugarData ;
+                    ns1:hasAmount "33.0"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSARed ;
+                    ns1:hasUnit "g" ] ] ;
+    ns1:hasUSDAScore 2 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingValue "4"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2020-01-10T05:13:25.000Z"^^schema:date ;
+    schema:name "Peach-Habanero Jam"^^xsd:string ;
+    schema:recipeYield "2 pint-sized jars"^^xsd:string .
+
+ns1:FSAGreen a ns1:FSAColor .
+
+ns1:FSARed a ns1:FSAColor .
+
+<http://purl.org/recipekg/categories/side-dish/> a ns1:RecipeCategory .
+
+<http://purl.org/recipekg/categories/side-dish/sauces-and-condiments/> rdfs:subClassOf <http://purl.org/recipekg/categories/side-dish/> .
+
+<http://purl.org/recipekg/categories/side-dish/sauces-and-condiments/canning-and-preserving/> rdfs:subClassOf <http://purl.org/recipekg/categories/side-dish/sauces-and-condiments/> .
+
+<http://purl.org/recipekg/categories/side-dish/sauces-and-condiments/canning-and-preserving/jams-and-jellies/> rdfs:subClassOf <http://purl.org/recipekg/categories/side-dish/sauces-and-condiments/canning-and-preserving/> .
+

@@ -1,0 +1,131 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/143/breakfast-and-brunch/drinks/",
+                    "name": "Drinks",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/244694/lean-and-green/",
+        "name": "Lean and Green",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2519680.jpg",
+            "width": 2448,
+            "height": 3264
+        },
+        "datePublished": "2016-06-04T14:16:10.000Z",
+        "description": "Quick and easy. Great choice between meals or when mornings are rushed. Perfect pre-workout beverage.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "1 serving",
+        "recipeIngredient": [
+            "1 cup fresh spinach",
+            "1 banana",
+            "\u00bd green apple",
+            "4 hulled strawberries",
+            "4 (1 inch) pieces frozen mango",
+            "\u2153 cup whole milk",
+            "1 scoop vanilla protein powder",
+            "1 teaspoon honey"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Blend spinach, banana, apple, strawberries, mango, milk, protein powder, and honey together in a blender until smooth.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Drinks"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "GSXR_on_1"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Lean and Green",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "456.3 calories",
+            "carbohydrateContent": "66.9 g",
+            "cholesterolContent": "20.6 mg",
+            "fatContent": "4.9 g",
+            "fiberContent": "7.9 g",
+            "proteinContent": "43.3 g",
+            "saturatedFatContent": "3 g",
+            "servingSize": null,
+            "sodiumContent": "272.8 mg",
+            "sugarContent": "45.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-01-24T23:59:17.07Z",
+                "reviewBody": "Made this for a pre-workout drink. I didn't have frozen mango so I used fresh thus needed to add ice. I should have added more ice. I prefer these type of drinks very cold. Used unsweetened almond milk instead of whole milk and added chia seeds to help fill up the void in my stomach pre-workout. The recipe says it is one serving but I think it is more like 2 servings. Makes a large amount!! I will make it again!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Kelli W",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/20426855/"
+                }
+            }
+        ]
+    }
+]

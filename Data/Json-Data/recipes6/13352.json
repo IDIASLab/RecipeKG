@@ -1,0 +1,156 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/367/desserts/pies/",
+                    "name": "Pies",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/12276/carrot-spice-pie/",
+        "name": "Carrot Spice Pie",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Carrot Spice Pie"
+        },
+        "datePublished": "1998-07-05T12:46:27.000Z",
+        "description": "This carrot based pie is great to serve on Thanksgiving.",
+        "prepTime": null,
+        "cookTime": null,
+        "totalTime": null,
+        "recipeYield": "1 pie",
+        "recipeIngredient": [
+            "1 (15 ounce) can carrots, drained",
+            "\u00bc cup butter",
+            "\u00bc cup honey",
+            "\u00bd cup white sugar",
+            "\u00bd cup packed brown sugar",
+            "2 eggs",
+            "1 teaspoon vanilla extract",
+            "1 teaspoon ground cinnamon",
+            "1 teaspoon ground nutmeg",
+            "1 teaspoon salt",
+            "1 recipe pastry for a 9 inch single crust pie"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine carrots, butter, honey, vanilla extract, salt, eggs and spices in a mixing bowl.  Mix together thoroughly with an electric mixer; mix until smooth.  Fold in white and brown sugars.  Pour filling into pastry crust.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake at 350 degrees F ( 175 degrees C) for 50 to 60 minutes. To determine if pie is done, insert toothpick.  If it comes out clean it is ready.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Pies"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "P.L. Weiss"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 3,
+            "itemReviewed": "Carrot Spice Pie",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "328.4 calories",
+            "carbohydrateContent": "47.5 g",
+            "cholesterolContent": "61.8 mg",
+            "fatContent": "14.7 g",
+            "fiberContent": "1.6 g",
+            "proteinContent": "3.3 g",
+            "saturatedFatContent": "6 g",
+            "servingSize": null,
+            "sodiumContent": "485.3 mg",
+            "sugarContent": "35.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2003-10-08T16:56:54.903Z",
+                "reviewBody": "This recipe is so salty that I couldn't even eat it!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 1
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Gayle",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/331502/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2003-10-08T16:56:54.733Z",
+                "reviewBody": "It tasted a lot like pumpkin pie. My 17 year old really wouldn't try it since it had carrots in it but I think it tasted great. It would have been better if topped with whipped cream",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "LOLY",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/180905/"
+                }
+            }
+        ]
+    }
+]

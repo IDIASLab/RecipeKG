@@ -1,0 +1,142 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/215/salad/pasta-salad/",
+                    "name": "Pasta Salad",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/281752/classic-pasta-salad/",
+        "name": "Classic Pasta Salad",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8621957.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2019-10-04T21:38:26.000Z",
+        "description": "A classic, light pasta salad featuring Italian dressing. I much prefer it to a the heavy mayo-based varieties. Fast, simple, and easy to make in bulk for parties.",
+        "prepTime": "P0DT0H40M",
+        "cookTime": "P0DT0H15M",
+        "totalTime": "P0DT1H55M",
+        "recipeYield": "12 servings",
+        "recipeIngredient": [
+            "1 (16 ounce) package tricolor rotini pasta",
+            "1\u2009\u00bd cups Italian-style salad dressing",
+            "\u00bd cup diced pepperoni",
+            "\u00bd cup diced salami",
+            "\u00bd cup diced Cheddar cheese",
+            "\u00bd cup diced Monterey Jack cheese",
+            "\u00bd cup crumbled feta cheese",
+            "\u2153 cup sliced black olives",
+            "12 cherry tomatoes, halved",
+            "\u00bd medium cucumber, diced",
+            "\u2153 medium red onion, diced"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Bring a large pot of lightly salted water to a boil; cook rotini at a boil until tender yet firm to the bite, about 8 minutes. Strain pasta and run it under cold water to stop the cooking process; you don't want it to be mushy. Drain and transfer to a large bowl.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Add salad dressing, pepperoni, salami, Cheddar cheese, Monterey Jack cheese, feta cheese, black olives, cherry tomatoes, cucumber, and red onion to the pasta; toss to combine.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cover and let sit in the refrigerator for at least 1 hour before serving.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad",
+            "Pasta Salad"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Brian Genest"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Classic Pasta Salad",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "366.5 calories",
+            "carbohydrateContent": "33.6 g",
+            "cholesterolContent": "32.4 mg",
+            "fatContent": "20.3 g",
+            "fiberContent": "1.6 g",
+            "proteinContent": "12.5 g",
+            "saturatedFatContent": "6.7 g",
+            "servingSize": null,
+            "sodiumContent": "939.8 mg",
+            "sugarContent": "4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-10-11T02:08:00.393Z",
+                "reviewBody": "10.10.20 Made as written with the exception of using swiss instead of Monterey Jack (what I had on hand).  This certainly has a lot going on, and if I make again, I\u2019d use either pepperoni or salami, but don\u2019t  think both are needed.  Rather than mix in the feta, I just sprinkled it over the top (primarily for presentation).  Fair amount of prep work involved in chopping and slicing, but the Italian dressing was a nice change of pace.  Thanks for sharing your recipe.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "lutzflcat",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/lutzflcat/"
+                }
+            }
+        ]
+    }
+]

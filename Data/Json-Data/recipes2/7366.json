@@ -1,0 +1,137 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/133/drinks/cocktails/",
+                    "name": "Cocktail Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1742/drinks/cocktails/tequila-drinks/",
+                    "name": "Tequila Drinks Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/254306/gingerade-cadillac/",
+        "name": "Gingerade Cadillac",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4517576.jpg",
+            "width": 5428,
+            "height": 3619
+        },
+        "datePublished": "2016-06-23T00:41:57.000Z",
+        "description": "Impress your guests with this exciting new twist on a Cadillac Margarita. So delicious and refreshing! You can garnish with a lime wedge.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "1 drink",
+        "recipeIngredient": [
+            "4 fluid ounces gingerade",
+            "2 fluid ounces anejo (aged) tequila",
+            "1 tablespoon fresh lime juice",
+            "ice cubes"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine gingerade, tequila, and lime juice in a cocktail shaker; serve over ice.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Cocktail Recipes",
+            "Tequila Drinks Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Cari"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 2,
+            "ratingCount": 1,
+            "itemReviewed": "Gingerade Cadillac",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "181.7 calories",
+            "carbohydrateContent": "13.5 g",
+            "cholesterolContent": null,
+            "fatContent": "0.1 g",
+            "fiberContent": "0.1 g",
+            "proteinContent": "0.1 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "6.2 mg",
+            "sugarContent": "11.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-08-11T11:35:42.74Z",
+                "reviewBody": "While writing my reviews, the ice melted in this \u201cmargarita.\u201d I give it one more star now, ONLY, because the taste of tap water makes it better...*side note: I absolutely hate tap water...so...",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 2
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Jesse Crusing",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/22139537/"
+                }
+            }
+        ]
+    }
+]

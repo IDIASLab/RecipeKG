@@ -1,0 +1,168 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/94/soups-stews-and-chili/",
+                    "name": "Soups, Stews and Chili Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/171/soups-stews-and-chili/broth-and-stocks/",
+                    "name": "Broth and Stock Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/163613/manx-broth/",
+        "name": "Manx Broth",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Manx Broth"
+        },
+        "datePublished": "2019-04-04T03:45:59.000Z",
+        "description": "Beef shank, leek, celery and turnip flavor this hearty broth from Isle Of Man (where I grew up!)",
+        "prepTime": "P0DT0H25M",
+        "cookTime": "P0DT2H0M",
+        "totalTime": "P0DT2H25M",
+        "recipeYield": "8 servings",
+        "recipeIngredient": [
+            "3 quarts water",
+            "1 pound beef shank",
+            "\u00bd cup pearled barley",
+            "1 carrot, coarsely chopped",
+            "\u00bd turnip, peeled and chopped",
+            "1 leek, sliced",
+            "2 stalks celery, chopped",
+            "1 tablespoon dried thyme",
+            "\u00bd cup chopped fresh parsley",
+            "salt and pepper to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Bring the water to a boil in a large pot. Add the beef shank, barley, carrot, turnip, leek and celery. Season with thyme, salt and pepper. Bring to a boil, then simmer gently over medium heat for 2 hours. Remove the shank from the pot and cut the meat into small pieces. Return the meat to the pot, and discard the bone. Return to a boil and then stir in the parsley. Serve very hot.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Soups, Stews and Chili Recipes",
+            "Broth and Stock Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Saoirse"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 4,
+            "itemReviewed": "Manx Broth",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "157.6 calories",
+            "carbohydrateContent": "12.1 g",
+            "cholesterolContent": "25 mg",
+            "fatContent": "6 g",
+            "fiberContent": "3 g",
+            "proteinContent": "13.6 g",
+            "saturatedFatContent": "2.2 g",
+            "servingSize": null,
+            "sodiumContent": "69.1 mg",
+            "sugarContent": "1.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2011-01-25T22:31:55.4Z",
+                "reviewBody": "My husband has ancestors from the Isle of Man so he wanted to make this for a gathering. I couldn't find beef shank so we opted to use beef stew meat and simmered it with the rest of the vegetables and added some beef broth. It turned out very tasty!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Krista Bump",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/1555005/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2011-01-12T18:18:38.767Z",
+                "reviewBody": "Very good! My family is originally from the Isle of Mann so I had to try it and I wasn't disappointed!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "ravenhearted",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/6326488/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2012-02-14T13:26:09.3Z",
+                "reviewBody": "The thyme & leeks added a different flavor than a regular beef barley soup. Everyone ate it but no one raved. Overall I prefer beef barley with garlic & onion.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Jamie",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/1627708/"
+                }
+            }
+        ]
+    }
+]

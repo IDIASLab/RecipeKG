@@ -1,0 +1,143 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/134/drinks/coffee/",
+                    "name": "Coffee Drinks Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/236479/coconut-maple-coffee/",
+        "name": "Coconut Maple Coffee",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1935770.jpg",
+            "width": 2169,
+            "height": 2169
+        },
+        "datePublished": "2014-02-07T22:44:13.000Z",
+        "description": "Quick and delicious!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "1 serving",
+        "recipeIngredient": [
+            "2 tablespoons maple syrup",
+            "2 tablespoons unsweetened coconut milk",
+            "1 cup brewed coffee"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Stir maple syrup and coconut milk together in a large mug. Add coffee and stir.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Coffee Drinks Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "RachelleBrazil"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 2,
+            "itemReviewed": "Coconut Maple Coffee",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "165.9 calories",
+            "carbohydrateContent": "27.7 g",
+            "cholesterolContent": null,
+            "fatContent": "6.5 g",
+            "fiberContent": "0.3 g",
+            "proteinContent": "0.9 g",
+            "saturatedFatContent": "5.7 g",
+            "servingSize": null,
+            "sodiumContent": "12.2 mg",
+            "sugarContent": "23.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2015-01-11T18:25:28.027Z",
+                "reviewBody": "Although I drink my coffee black I decided to give this a try and was quite surprised that it was not too sweet with a hint of coconut flavor.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "bd.weld",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/bdweld/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2016-05-19T22:14:35.723Z",
+                "reviewBody": "I really liked the maple syrup flavor in coffee; I'll have to try that again sometime. However this was way too sweet for me and all I could taste was maple syrup. I think next time 2 teaspoons would be plenty for 1 cup of coffee.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Tammy Lynn",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3084624/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,146 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17106/drinks/juice/",
+                    "name": "Juice Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/235830/hot-carmel-apple-juice/",
+        "name": "Hot Carmel Apple Juice",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1078185.jpg",
+            "width": 3456,
+            "height": 3456
+        },
+        "datePublished": "2019-08-01T03:10:42.000Z",
+        "description": "A great warm fall drink. Great replacement for a winter's hot cocoa! My children love it. I came up with it when I wanted something warm and sweet but didn't want the caffeine. Like hot apple pie in a mug! Top with whipped cream.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "2 cups apple juice",
+            "3 tablespoons caramel syrup (such as Hershey's\u00ae)",
+            "1 teaspoon ground cinnamon",
+            "\u00bd teaspoon ground nutmeg",
+            "\u00bc teaspoon vanilla extract",
+            "\u00bc cup whipped cream, or to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Whisk apple juice, caramel syrup, cinnamon, and nutmeg together in a saucepan over medium-high heat. Cook and whisk briskly until mixture is hot but not boiling, about 3 minutes. Add vanilla; cook and stir for 1 more minute. Pour into mugs and top with whipped cream.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Juice Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Kelly Provost"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.333333333333333,
+            "ratingCount": 3,
+            "itemReviewed": "Hot Carmel Apple Juice",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "221.7 calories",
+            "carbohydrateContent": "51.5 g",
+            "cholesterolContent": "6 mg",
+            "fatContent": "2.3 g",
+            "fiberContent": "1.3 g",
+            "proteinContent": "0.9 g",
+            "saturatedFatContent": "1.3 g",
+            "servingSize": null,
+            "sodiumContent": "124.8 mg",
+            "sugarContent": "27.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2013-12-21T03:33:11.2Z",
+                "reviewBody": "This drink is ok but not my favorite of the spiced apple drinks I've tried on this site.The juice becomes thick (which doesn't appeal to me) and all the spices settle in the bottom of the cup.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Paula",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/paula1/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2014-11-01T02:43:45.25Z",
+                "reviewBody": "It was pretty good but a bit too sweet for me. I can have one glass and I'm good for awhile.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Kimber Wilson",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3901347/"
+                }
+            }
+        ]
+    }
+]

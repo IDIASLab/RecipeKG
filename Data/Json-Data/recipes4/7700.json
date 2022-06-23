@@ -1,0 +1,131 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/258/main-dish/roasts/",
+                    "name": "Roast Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/241361/ipa-corned-beef/",
+        "name": "IPA Corned Beef",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2151857.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2019-04-02T07:04:22.000Z",
+        "description": "This by far has been my most successful corned beef recipe that I've done. Instead of using Guinness&reg; or an American lager like most recipes call for, I used a hoppy Lagunitas Wilco Tango Foxtrot IPA which cooked some amazing flavors into the corned beef.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT8H0M",
+        "totalTime": "P0DT8H25M",
+        "recipeYield": "10 servings",
+        "recipeIngredient": [
+            "1 (4 pound) corned beef brisket with spice packet",
+            "1 tablespoon spicy brown mustard",
+            "2 cloves garlic, minced",
+            "22 fluid ounces IPA beer (such as Lagunitas\u00ae Wilco Tango Foxtrot)"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Coat corned beef with spicy brown mustard and place, fat-side down, into a slow cooker. Add garlic and seasoning packet to corned beef; pour in beer, covering beef completely.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cook on Low for 8 hours. Remove corned beef from slow cooker and allow to rest for 15 minutes before slicing across the grain.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Roast Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Stephen"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.5,
+            "ratingCount": 2,
+            "itemReviewed": "IPA Corned Beef",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "234.2 calories",
+            "carbohydrateContent": "3 g",
+            "cholesterolContent": "79.6 mg",
+            "fatContent": "15.5 g",
+            "fiberContent": null,
+            "proteinContent": "15.2 g",
+            "saturatedFatContent": "5.2 g",
+            "servingSize": null,
+            "sodiumContent": "943 mg",
+            "sugarContent": null,
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2015-03-28T19:24:28.383Z",
+                "reviewBody": "Made as written and loved every bite. The spicy brown mustard and IPA beer blended perfectly. I made 2 different corned beef recipes for St. Patrick's Day and hands down this one was my favorite.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

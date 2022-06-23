@@ -1,0 +1,137 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/148/breakfast-and-brunch/eggs/",
+                    "name": "Eggs",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/20651/chutney-eggs/",
+        "name": "Chutney Eggs",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Chutney Eggs"
+        },
+        "datePublished": "2000-04-06T07:23:06.000Z",
+        "description": "Here's a zesty variation on an old favorite that your guests will look forward to every time they visit. Bacon and chutney are the keys to these flavor packed eggs.",
+        "prepTime": "P0DT0H20M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H30M",
+        "recipeYield": "24 - appetizers",
+        "recipeIngredient": [
+            "12 eggs",
+            "\u00bc cup chutney",
+            "6 slices bacon",
+            "3 tablespoons mayonnaise",
+            "1 tablespoon chopped almonds"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place eggs in a medium saucepan and cover with cold water. Bring water to a boil and immediately remove from heat. Cover and let eggs stand in hot water for 10 to 12 minutes. Remove from hot water, cool and peel. Cut in half lengthwise. Remove and reserve yolks.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place bacon in a large, deep skillet. Cook over medium high heat until evenly brown; drain and crumble.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "In a medium bowl, mash egg yolks and mix with bacon, chutney, mayonnaise and almonds. Fill the egg whites with the mixture.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Eggs"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "KAREN"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Chutney Eggs",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "86 calories",
+            "carbohydrateContent": "1.5 g",
+            "cholesterolContent": "98.4 mg",
+            "fatContent": "7.1 g",
+            "fiberContent": "0.1 g",
+            "proteinContent": "4.1 g",
+            "saturatedFatContent": "2 g",
+            "servingSize": null,
+            "sodiumContent": "103.7 mg",
+            "sugarContent": "1.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2004-10-23T20:21:02.483Z",
+                "reviewBody": "Delicious! I used mango chutney so it was a bit sweet for my taste. Next time I'll experiment with a spicier chutney blend.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "INDRIANI",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/948956/"
+                }
+            }
+        ]
+    }
+]

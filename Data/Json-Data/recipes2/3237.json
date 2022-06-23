@@ -1,0 +1,169 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17245/main-dish/pasta/",
+                    "name": "Pasta",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/509/main-dish/pasta/macaroni-and-cheese/",
+                    "name": "Macaroni and Cheese Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 6,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/16831/main-dish/pasta/macaroni-and-cheese/stovetop-macaroni-and-cheese/",
+                    "name": "Stovetop Macaroni and Cheese Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/240223/kilens-ultimate-macaroni-n-cheese/",
+        "name": "Kilen's Ultimate Macaroni-n-Cheese",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3308689.jpg",
+            "width": 3629,
+            "height": 2721
+        },
+        "datePublished": "2015-06-17T06:02:15.000Z",
+        "description": "My 14-year-old son thought up this recipe. He likes mac-n-cheese but wanted something different, so he started to mix things up and came up with a great combination!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H20M",
+        "recipeYield": "5 servings",
+        "recipeIngredient": [
+            "1 (7.25 ounce) package macaroni and cheese mix ",
+            "\u00bc cup butter",
+            "\u00bc cup milk, or more to taste",
+            "1 cup crushed garlic and cheese croutons",
+            "\u00bd cup shredded mozzarella cheese, or more to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Bring a large pot of lightly salted water to a boil. Cook elbow macaroni in the boiling water, stirring occasionally until cooked through but firm to the bite, 8 minutes. Drain and return pasta to pot. Stir butter and milk into macaroni until sauce is smooth.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Mix croutons and mozzarella cheese into macaroni and cheese until cheese is melted.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Pasta",
+            "Macaroni and Cheese Recipes",
+            "Stovetop Macaroni and Cheese Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "staciw"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 2,
+            "itemReviewed": "Kilen's Ultimate Macaroni-n-Cheese",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "306.4 calories",
+            "carbohydrateContent": "34.2 g",
+            "cholesterolContent": "38.3 mg",
+            "fatContent": "13.9 g",
+            "fiberContent": "0.9 g",
+            "proteinContent": "11 g",
+            "saturatedFatContent": "7.9 g",
+            "servingSize": null,
+            "sodiumContent": "545.9 mg",
+            "sugarContent": "5.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2016-02-26T22:53:46.283Z",
+                "reviewBody": "This was ok. I really don't think that the mozzarella cheese added anything special as far as flavor to the dish. We did enjoy the croutons tho...Thanks for sharing.:)",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Christina",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/christina/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2020-02-16T12:52:51.613Z",
+                "reviewBody": "Yummy combo that sexies up the boxes stuff!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Erin C (Erilly)",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/26376984/"
+                }
+            }
+        ]
+    }
+]

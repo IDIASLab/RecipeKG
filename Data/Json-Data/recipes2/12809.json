@@ -1,0 +1,160 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/237/world-cuisine/latin-american/",
+                    "name": "Latin American",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/728/world-cuisine/latin-american/mexican/",
+                    "name": "Mexican",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/260835/authentic-mexican-hot-chocolate-with-chile/",
+        "name": "Authentic Mexican Hot Chocolate with Chile",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4700982.jpg",
+            "width": 2817,
+            "height": 2815
+        },
+        "datePublished": "2017-12-06T15:00:39.000Z",
+        "description": "To make this authentic Mexican hot chocolate, you need Mexican hot chocolate tablets or squares which gives it its unique taste. Eat the chile only if you can handle it!",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "1 hot chocolate",
+        "recipeIngredient": [
+            "1 cup whole milk",
+            "\u00bd Mexican hot chocolate drink tablet (such as Nestle\u00ae Abuelita\u00ae)",
+            "1 dried red chile de arbol, lightly toasted"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place milk and chocolate in a small saucepan over medium-low heat and simmer, stirring, until chocolate is melted but not boiling, about 5 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour chocolate mixture into a blender. Cover and hold lid down with a potholder; blend until foamy. Pour into a mug. Break the chile into 2 or 3 pieces, discarding seeds, and drop into the hot chocolate. Drink immediately.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Latin American",
+            "Mexican"
+        ],
+        "recipeCuisine": [
+            "Latin American",
+            "Mexican"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "gem"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Authentic Mexican Hot Chocolate with Chile",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "443.6 calories",
+            "carbohydrateContent": "62.5 g",
+            "cholesterolContent": "24.4 mg",
+            "fatContent": "14.8 g",
+            "fiberContent": null,
+            "proteinContent": "13.8 g",
+            "saturatedFatContent": "8.5 g",
+            "servingSize": null,
+            "sodiumContent": "107.6 mg",
+            "sugarContent": "11 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-01-09T06:27:13.453Z",
+                "reviewBody": "Very good. I used an immersion blender rather than a regular blender. Frothed up nicely.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Yoly",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/cookingbikerchick/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2017-12-15T21:50:33.21Z",
+                "reviewBody": "This is quite delicious. I don t have access to Mexican chocolate so I used 65g Sicilian cinnamon chocolate from Modica. It uses an Aztec recipe so it s almost exactly the same as Mexican chocolate. Thank you for the recipe.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Buckwheat Queen",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/melaniegiovenzana/"
+                }
+            }
+        ]
+    }
+]

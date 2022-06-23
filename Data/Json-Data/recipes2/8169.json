@@ -1,0 +1,152 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/227/world-cuisine/asian/",
+                    "name": "Asian",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/699/world-cuisine/asian/japanese/",
+                    "name": "Japanese",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/255417/beef-bowl-gyudon/",
+        "name": "Beef Bowl (Gyudon)",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6869394.jpg",
+            "width": 960,
+            "height": 960
+        },
+        "datePublished": "2016-09-16T04:40:30.000Z",
+        "description": "Gyudon is one of the most popular rice bowl dishes in Japan. Shall we cook Gyudon tonight?",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H25M",
+        "totalTime": "P0DT0H40M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "4 cups cooked rice",
+            "6 tablespoons mirin (Japanese sweet wine)",
+            "3 tablespoons soy sauce",
+            "2 tablespoons sake",
+            "1 onion, cut into wedges",
+            "10 ounces beef, thinly sliced",
+            "4 eggs",
+            "1 teaspoon pickled ginger (beni shoga), or to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Divide rice evenly between 4 donburi bowls.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bring mirin, soy sauce, and sake to a boil in a pot over medium heat. Add onion; cook and stir until onion is translucent, about 5 minutes. Stir in beef; simmer until no longer pink and cooked through, about 5 minutes. Spoon beef and onion over rice using a slotted spoon.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place eggs in the pot; bring to a boil. Cook until soft boiled, 5 to 7 minutes. Peel; add to bowls. Garnish with pickled ginger.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Asian",
+            "Japanese"
+        ],
+        "recipeCuisine": [
+            "Asian",
+            "Japanese"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Kurumi"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Beef Bowl (Gyudon)",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "448.2 calories",
+            "carbohydrateContent": "56.1 g",
+            "cholesterolContent": "223.4 mg",
+            "fatContent": "9.5 g",
+            "fiberContent": "1.2 g",
+            "proteinContent": "24.7 g",
+            "saturatedFatContent": "3.2 g",
+            "servingSize": null,
+            "sodiumContent": "786.2 mg",
+            "sugarContent": "9.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-07-26T06:20:23.873Z",
+                "reviewBody": "Loved the simplicity of this dish.  Easy few accessible ingredients results in big flavor.  I can cook and serve a few or a lot just by adding a side dish. It was fast and everyone loved it.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "nory",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/13589669/"
+                }
+            }
+        ]
+    }
+]

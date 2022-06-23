@@ -1,0 +1,158 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/251/main-dish/sandwiches/",
+                    "name": "Sandwich Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1032/main-dish/sandwiches/chicken/",
+                    "name": "Chicken",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/272808/chicken-napa-cabbage-wraps/",
+        "name": "Chicken Napa Cabbage Wraps",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6570302.jpg",
+            "width": 3024,
+            "height": 3024
+        },
+        "datePublished": "2019-04-13T02:52:05.000Z",
+        "description": "These chicken napa cabbage wraps make for a nice, light dinner. An excellent meal in warm weather.",
+        "prepTime": "P0DT0H20M",
+        "cookTime": null,
+        "totalTime": "P0DT0H20M",
+        "recipeYield": "6 wraps",
+        "recipeIngredient": [
+            "\u00bd (8 ounce) package cream cheese",
+            "\u00bd (8 ounce) container sour cream",
+            "6 tablespoons shredded Cheddar cheese",
+            "1 tablespoon sliced green onion",
+            "3 teaspoons mustard",
+            "6 (8 inch) flour tortillas",
+            "\u00bd pound diced cooked chicken ",
+            "1\u2009\u00bd cups shredded napa cabbage"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine cream cheese, sour cream, Cheddar cheese, green onion, and mustard in a bowl; stir well. Spread 2 tablespoons of the mixture over each tortilla. Top each tortilla with 1/4 cup chicken and 1/4 cup cabbage. Roll up and serve.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Sandwich Recipes",
+            "Chicken"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Pepperwood"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.666666666666667,
+            "ratingCount": 3,
+            "itemReviewed": "Chicken Napa Cabbage Wraps",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "395.6 calories",
+            "carbohydrateContent": "30 g",
+            "cholesterolContent": "67.1 mg",
+            "fatContent": "22.3 g",
+            "fiberContent": "2 g",
+            "proteinContent": "18.3 g",
+            "saturatedFatContent": "10.7 g",
+            "servingSize": null,
+            "sodiumContent": "516.8 mg",
+            "sugarContent": "1.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-08-02T19:49:35.267Z",
+                "reviewBody": "I made it for some of the kids I was baby sitting and they completely loved it including me. It went together perfectly with many sides. The children I was babysitting were picky eaters. I just gave their parents a new thing for them that they will actually eat!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Lillian Lambrecht",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/25258340/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2021-07-04T22:15:17.05Z",
+                "reviewBody": "This is a great spring/summer wrap. I made them with the 8\" tortilla and cut them in half for a church meal. I found that the cream cheese mixture makes way more than 6 wraps! But that is still a win.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Angel Alexander",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/4299204/"
+                }
+            }
+        ]
+    }
+]

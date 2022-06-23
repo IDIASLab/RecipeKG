@@ -1,0 +1,43 @@
+@prefix ns1: <http://purl.org/heals/food/> .
+@prefix ns2: <http://purl.org/recipekg/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/crispy-garlic-parmesan-chicken> a schema:Recipe ;
+    ns1:hasIngredient [ a <http://purl.org/heals/ingredient/ChickenBroth> ;
+            ns2:hasQuantity "4" ;
+            ns2:ingredientName "chicken broth" ],
+        [ a <http://purl.org/recipekg/ingredient/Pasta> ;
+            ns2:hasQuantity "⅛" ;
+            ns2:hasUnit "ounce" ;
+            ns2:ingredientName "pasta" ],
+        [ a <http://purl.org/heals/ingredient/Butter> ;
+            ns2:hasQuantity "1/4" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "butter" ],
+        [ a <http://purl.org/recipekg/ingredient/Parmesan> ;
+            ns2:hasQuantity "2/3" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "Parmesan" ],
+        [ a <http://purl.org/recipekg/ingredient/CookingSauce> ;
+            ns2:hasQuantity "1" ;
+            ns2:ingredientName "cooking sauce" ],
+        [ a <http://purl.org/recipekg/ingredient/BreadCrumbs> ;
+            ns2:hasQuantity "2/3" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "bread crumbs" ] ;
+    ns2:belongsTo <http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/progresso-recipe-starters/> ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 34 ;
+            schema:ratingValue "3.9411764705882355"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2012-08-18T00:32:14.000Z"^^schema:date ;
+    schema:name "Crispy Garlic-Parmesan Chicken"^^xsd:string ;
+    schema:recipeYield "4 servings"^^xsd:string .
+
+<http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/> a ns2:RecipeCategory .
+
+<http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/progresso-recipe-starters/> rdfs:subClassOf <http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/> .
+

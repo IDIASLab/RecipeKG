@@ -1,0 +1,146 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1199/drinks/hot-chocolate/",
+                    "name": "Hot Chocolate Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/237666/smooth-hot-chocolate/",
+        "name": "Smooth Hot Chocolate",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1130653.jpg",
+            "width": 3287,
+            "height": 3288
+        },
+        "datePublished": "2020-06-19T03:59:08.000Z",
+        "description": "A very quick, warm beverage for those cool nights!",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "5 mugs",
+        "recipeIngredient": [
+            "1 cup nonfat dry milk powder",
+            "5 tablespoons white sugar",
+            "3 tablespoons baking cocoa",
+            "\u215b teaspoon ground cinnamon, or more to taste",
+            "1 dash salt",
+            "3 cups boiling water"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Stir milk powder, sugar, cocoa, cinnamon, and salt together in a saucepan. Pour boiling water over the milk powder mixture; stir until mixture is dissolved into the liquid.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Hot Chocolate Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "eatnlight"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 2,
+            "itemReviewed": "Smooth Hot Chocolate",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "142.8 calories",
+            "carbohydrateContent": "26.8 g",
+            "cholesterolContent": "4.8 mg",
+            "fatContent": "0.6 g",
+            "fiberContent": "1.1 g",
+            "proteinContent": "9.3 g",
+            "saturatedFatContent": "0.4 g",
+            "servingSize": null,
+            "sodiumContent": "210.9 mg",
+            "sugarContent": "25 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2014-05-24T20:56:18.863Z",
+                "reviewBody": "I'm not a hot chocolate connoisseur but this is thinner and less sweet than other hot chocolates I've had. I'm ok with that.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Paula",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/paula1/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2015-10-26T01:46:30.64Z",
+                "reviewBody": "Made it without putting the cinnamon in but we put cinnamon on the top. VERY YUMMY!!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Sherrie Scott Weerheim",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/6292494/"
+                }
+            }
+        ]
+    }
+]

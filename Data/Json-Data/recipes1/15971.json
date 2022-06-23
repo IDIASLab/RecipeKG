@@ -1,0 +1,96 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/284809/crispy-jacket-potatoes/",
+        "name": "Crispy Jacket Potatoes",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Crispy Jacket Potatoes"
+        },
+        "datePublished": "2010-01-09T19:58:11.000Z",
+        "description": "These crispy jacket potatoes are like a baked potato, but better. Serve with butter and sour cream.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT1H0M",
+        "totalTime": "P0DT1H10M",
+        "recipeYield": "6 potatoes",
+        "recipeIngredient": [
+            "6 medium russet potatoes",
+            "1 tablespoon vegetable oil, or as needed",
+            "\u00bc teaspoon sea salt, or to taste",
+            "1 pinch lemon-pepper seasoning, or to taste",
+            "12 large squares aluminum foil"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat the oven to 400 degrees F (200 degrees C).\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Drizzle potatoes with a thin layer of oil. Sprinkle on sea salt and about 1/2 as much lemon-pepper seasoning. Wrap each potato in a square of foil, then wrap with a second square. Place foil-wrapped potatoes in a glass or ceramic baking dish.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated oven until the skins are crisp and the flesh is soft, 60 to 90 minutes.\n"
+            }
+        ],
+        "recipeCategory": [],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Matticus Finch"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Crispy Jacket Potatoes",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "184.3 calories",
+            "carbohydrateContent": "37.2 g",
+            "cholesterolContent": null,
+            "fatContent": "2.5 g",
+            "fiberContent": "4.7 g",
+            "proteinContent": "4.3 g",
+            "saturatedFatContent": "0.4 g",
+            "servingSize": null,
+            "sodiumContent": "124.5 mg",
+            "sugarContent": "1.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

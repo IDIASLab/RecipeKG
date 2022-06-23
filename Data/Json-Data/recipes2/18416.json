@@ -1,0 +1,156 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/133/drinks/cocktails/",
+                    "name": "Cocktail Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1739/drinks/cocktails/gin-drinks/",
+                    "name": "Gin Drinks Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/83562/iced-teani/",
+        "name": "Iced-Teani",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F937659.jpg",
+            "width": 250,
+            "height": 250
+        },
+        "datePublished": "2018-03-21T16:43:20.000Z",
+        "description": "All the flavors of a Martini mixed are mixed with iced-tea to make this wonderful drink.",
+        "prepTime": "P0DT0H2M",
+        "cookTime": null,
+        "totalTime": "P0DT0H2M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "6 fluid ounces gin",
+            "2 fluid ounces triple sec liqueur",
+            "2 fluid ounces sweet vermouth",
+            "2 cups iced tea",
+            "1 cup ice cubes",
+            "1 lemon, cut into wedges"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "In a drink shaker, combine the gin, triple sec, vermouth, iced tea and ice cubes. Shake until frost forms on the outside of the shaker. Pour into glasses and garnish with lemon wedges.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Cocktail Recipes",
+            "Gin Drinks Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Ed Grivner"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 2.5,
+            "ratingCount": 2,
+            "itemReviewed": "Iced-Teani",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "186.5 calories",
+            "carbohydrateContent": "8.9 g",
+            "cholesterolContent": "0 mg",
+            "fatContent": "0.1 g",
+            "fiberContent": "0 g",
+            "proteinContent": "0 g",
+            "saturatedFatContent": "0 g",
+            "servingSize": null,
+            "sodiumContent": "8.3 mg",
+            "sugarContent": "7.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2005-04-25T17:41:16.64Z",
+                "reviewBody": "awesome for the summer bar-b-que!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Brenny Cakes",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/1370517/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2007-01-27T03:33:58.01Z",
+                "reviewBody": "YUCK. WAY too much gin...and the iced tea adds absolutely nothing to it.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 1
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "MOLLYSCHMOLLY",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/295793/"
+                }
+            }
+        ]
+    }
+]

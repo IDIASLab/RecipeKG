@@ -1,0 +1,85 @@
+@prefix ns1: <http://purl.org/heals/food/> .
+@prefix ns2: <http://purl.org/recipekg/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/chicken-artichoke-and-spinach-stuffed-portobellos> a schema:Recipe ;
+    ns1:hasIngredient [ a <http://purl.org/recipekg/ingredient/ParmesanCheese> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "package" ;
+            ns2:ingredientName "Parmesan cheese" ],
+        [ ],
+        [ ],
+        [ a <http://purl.org/recipekg/ingredient/Spinach> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "package" ;
+            ns2:ingredientName "spinach" ],
+        [ a <http://purl.org/heals/ingredient/OliveOil> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "tablespoon" ;
+            ns2:ingredientName "olive oil" ],
+        [ a <http://purl.org/recipekg/ingredient/ArtichokeHearts> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "jar" ;
+            ns2:ingredientName "artichoke hearts" ],
+        [ a <http://purl.org/recipekg/ingredient/Portobello> ;
+            ns2:hasQuantity "4" ;
+            ns2:ingredientName "portobello" ],
+        [ ],
+        [ a <http://purl.org/heals/ingredient/ChickenBroth> ;
+            ns2:hasQuantity "1 1/2" ;
+            ns2:hasUnit "pound" ;
+            ns2:ingredientName "chicken broth" ] ;
+    ns2:belongsTo <http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/panasonic/> ;
+    ns2:hasFSAScore 2 ;
+    ns2:hasNutritionalInformation [ a ns2:NutritionalInformation ;
+            ns2:hasCalorificData [ a ns2:CalorificData ;
+                    ns2:hasAmount "761.9"^^xsd:float ;
+                    ns2:hasUnit "calories" ] ;
+            ns2:hasCarbohydrateData [ a ns2:CarbohydrateData ;
+                    ns2:hasAmount "16.0"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasCholesterolData [ a ns2:CholesterolData ;
+                    ns2:hasAmount "177.3"^^xsd:float ;
+                    ns2:hasUnit "mg" ] ;
+            ns2:hasFatData [ a ns2:FatData ;
+                    ns2:hasAmount "51.1"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSARed ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasFiberData [ a ns2:FiberData ;
+                    ns2:hasAmount "4.2"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasProteinData [ a ns2:ProteinData ;
+                    ns2:hasAmount "61.4"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasSaturatedFatData [ a ns2:SaturatedFatData ;
+                    ns2:hasAmount "21.1"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSARed ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasSodiumData [ a ns2:SodiumData ;
+                    ns2:hasAmount "2179.5"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSARed ;
+                    ns2:hasUnit "mg" ] ;
+            ns2:hasSugarData [ a ns2:SugarData ;
+                    ns2:hasAmount "4.4"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSAGreen ;
+                    ns2:hasUnit "g" ] ] ;
+    ns2:hasUSDAScore 4 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 11 ;
+            schema:ratingValue "4.363636363636363"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2016-12-22T06:27:27.000Z"^^schema:date ;
+    schema:name "Chicken, Artichoke, and Spinach-Stuffed Portobellos"^^xsd:string ;
+    schema:recipeYield "4 stuffed mushrooms"^^xsd:string .
+
+ns2:FSAGreen a ns2:FSAColor .
+
+<http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/> a ns2:RecipeCategory .
+
+<http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/panasonic/> rdfs:subClassOf <http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/> .
+
+ns2:FSARed a ns2:FSAColor .
+

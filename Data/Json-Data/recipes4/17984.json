@@ -1,0 +1,146 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/143/breakfast-and-brunch/drinks/",
+                    "name": "Drinks",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/246629/green-smoothie-by-karen/",
+        "name": "Green Smoothie by Karen",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3446737.jpg",
+            "width": 3247,
+            "height": 3247
+        },
+        "datePublished": "2019-04-04T04:01:17.000Z",
+        "description": "This is a good way to get fruits and veggies into your daily diet. Use a heavy-duty blender like Vitamix&reg; or Blendtec&reg;.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "8 1/2 cups",
+        "recipeIngredient": [
+            "3 cups water",
+            "2 cups packed baby kale",
+            "2 bananas",
+            "2\u2009\u00bc cups apples, seeded",
+            "2\u2009\u00be cups strawberries",
+            "1\u2009\u00bd cups frozen blackberries"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place water, baby kale, bananas, apples, strawberries, and blackberries, respectively, into a heavy-duty blender. Process on high until completely blended.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Drinks"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Karen B"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.333333333333333,
+            "ratingCount": 3,
+            "itemReviewed": "Green Smoothie by Karen",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "173.7 calories",
+            "carbohydrateContent": "43 g",
+            "cholesterolContent": null,
+            "fatContent": "1.1 g",
+            "fiberContent": "8.7 g",
+            "proteinContent": "3.3 g",
+            "saturatedFatContent": "0.1 g",
+            "servingSize": null,
+            "sodiumContent": "22.6 mg",
+            "sugarContent": "25.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2016-04-02T13:47:51.44Z",
+                "reviewBody": "I scaled this down to 1 serving. It was delicious sweet and fresh tasting.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Paula",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/paula1/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2016-09-17T00:55:52.317Z",
+                "reviewBody": "I scaled ths for 1 serving. Very nice combination. I used a fairly tart Apple which gave this an interesting flavor. I did add 2 oz. of Greek yogurt to add protein.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Sylvia C.",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2619469/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,176 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/227/world-cuisine/asian/",
+                    "name": "Asian",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/699/world-cuisine/asian/japanese/",
+                    "name": "Japanese",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/247031/japanese-minced-beef/",
+        "name": "Japanese Minced Beef",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3707286.jpg",
+            "width": 1843,
+            "height": 1843
+        },
+        "datePublished": "2020-06-19T04:06:40.000Z",
+        "description": "Ground beef is fried with ginger, soy sauce, sake and mirin for a quick and easy mid-week meal. Serve with rice.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H6M",
+        "totalTime": "P0DT0H16M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "\u00be pound ground beef",
+            "2 tablespoons freshly grated ginger",
+            "3 tablespoons soy sauce",
+            "3 tablespoons sake (Japanese rice wine)",
+            "2 tablespoons mirin (Japanese sweet wine)",
+            "1 tablespoon white sugar, or more to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat a skillet over medium heat; cook and stir beef until cooked through, 5 to 7 minutes. Add ginger and stir well. Stir soy sauce, sake, mirin, and sugar into beef mixture; bring to a boil and cook for 1 minute more.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Asian",
+            "Japanese"
+        ],
+        "recipeCuisine": [
+            "Asian",
+            "Japanese"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "ZAYO"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 3,
+            "itemReviewed": "Japanese Minced Beef",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "231.6 calories",
+            "carbohydrateContent": "7.4 g",
+            "cholesterolContent": "52.1 mg",
+            "fatContent": "13.2 g",
+            "fiberContent": "0.2 g",
+            "proteinContent": "14.9 g",
+            "saturatedFatContent": "5.2 g",
+            "servingSize": null,
+            "sodiumContent": "725.9 mg",
+            "sugarContent": "6.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2016-07-01T19:02:10.793Z",
+                "reviewBody": "Quick and easy and pretty tasty too. Alone with rice it is simple. The sauce gets 5 stars the finished dish gets 3 because it is just ok. To give it a kick I put it in lettuce wraps and also served it wrapped in rice wrappers with some fresh veggies and basil. That snazzed it up a bit. Make some extra sauce for dipping if you go the \"roll\" route. It is excellent.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Buckwheat Queen",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/melaniegiovenzana/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2019-06-09T06:01:56.917Z",
+                "reviewBody": "Didn\u2019t have saki or rice wine so used white wine and rice vinegar as substitutes. Served on a bed of lettuce with fresh cut bell pepper and white rice. Went down well and was a bit different to the usual ground beef options.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Ailsa Scott",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/17729819/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2019-11-01T15:32:20.067Z",
+                "reviewBody": "Had to substitute sweet sherry for the sake and mirin but enjoyed this dish. Adding it to my monthly repertoire and will buy some mirin for next time.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Susanne Bellamy",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/26364303/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,154 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/133/drinks/cocktails/",
+                    "name": "Cocktail Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1743/drinks/cocktails/vodka-drinks/",
+                    "name": "Vodka Drinks Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/231239/indiana-martini/",
+        "name": "Indiana Martini",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F970477.jpg",
+            "width": 957,
+            "height": 960
+        },
+        "datePublished": "2016-01-18T07:00:36.000Z",
+        "description": "A strong fruity mixed drink.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "1 martini",
+        "recipeIngredient": [
+            "3 fluid ounces lemon-lime flavored soda",
+            "1\u2009\u00bc fluid ounces raspberry-flavored vodka (such as Smirnoff\u00ae)",
+            "\u00bc fluid ounce triple sec",
+            "1 maraschino cherry"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Fill a cocktail shaker with ice and pour in lemon-lime soda, vodka, and triple sec. Cover, shake, and strain cocktail into martini glass. Garnish with a cherry.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Cocktail Recipes",
+            "Vodka Drinks Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Jenny Johnson"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Indiana Martini",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "151.4 calories",
+            "carbohydrateContent": "14.9 g",
+            "cholesterolContent": null,
+            "fatContent": null,
+            "fiberContent": "0.1 g",
+            "proteinContent": null,
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "11 mg",
+            "sugarContent": "3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2013-02-09T12:55:50.02Z",
+                "reviewBody": "I used Fresca soda in this recipe. Delicious!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Sarah Jo",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/doublewideskilletsinglewidebudget/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2013-02-24T19:46:53.24Z",
+                "reviewBody": "I used blueberry as that is what I had. Delish!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Arizona Desert Flower",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/arizonadesertflower/"
+                }
+            }
+        ]
+    }
+]

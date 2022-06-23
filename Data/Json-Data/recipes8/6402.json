@@ -1,0 +1,105 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1642/everyday-cooking/",
+                    "name": "Everyday Cooking",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/242319/shish-kaburgers/",
+        "name": "Shish Kaburgers",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2305937.jpg",
+            "width": 2272,
+            "height": 1704
+        },
+        "datePublished": "2017-10-07T13:02:42.000Z",
+        "description": "Delicious seasoned ground beef...on a stick! My kids love them! If you like cheese, you can remove the skewer and fill the center with squeeze cheese.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H25M",
+        "recipeYield": "10 servings",
+        "recipeIngredient": [
+            "2 pounds ground beef",
+            "\u00bc cup steak sauce, or more to taste",
+            "1 (1 ounce) package dry onion soup mix",
+            "10 skewers, or as needed"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat grill for medium heat and lightly oil the grate.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Stir ground beef, steak sauce, and onion soup mix together in a bowl until well combined. Roll small handfuls of beef mixture into hot dog shapes, 4- to 5-inches in length. Push skewers through lengthwise.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place skewers on preheated grill and cook about 4 minutes. Flip skewers and continue cooking until centers reach an internal temperature of at least 160 degrees F (70 degrees C).\n"
+            }
+        ],
+        "recipeCategory": [
+            "Everyday Cooking"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Bonfire!"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Shish Kaburgers",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "175.4 calories",
+            "carbohydrateContent": "2.7 g",
+            "cholesterolContent": "56.8 mg",
+            "fatContent": "11 g",
+            "fiberContent": "0.3 g",
+            "proteinContent": "15.6 g",
+            "saturatedFatContent": "4.3 g",
+            "servingSize": null,
+            "sodiumContent": "390.5 mg",
+            "sugarContent": "0.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

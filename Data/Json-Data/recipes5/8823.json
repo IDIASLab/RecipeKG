@@ -1,0 +1,138 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/227/world-cuisine/asian/",
+                    "name": "Asian",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/274969/asian-beef-lettuce-wraps/",
+        "name": "Asian Beef Lettuce Wraps",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Asian Beef Lettuce Wraps"
+        },
+        "datePublished": "2019-08-12T21:34:24.000Z",
+        "description": "These Asian-inspired lettuce wraps are filled with ground beef cooked in a hoisin-peanut sauce, and topped with crunchy cucumbers, carrots, and fresh mint.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H20M",
+        "recipeYield": "12 lettuce wraps",
+        "recipeIngredient": [
+            "1\u2009\u00bd pounds ground beef",
+            "\u00bd cup hoisin sauce",
+            "\u00bd cup peanut sauce",
+            "12 lettuce leaves",
+            "1 cucumber, seeded and finely chopped",
+            "\u00bd cup shredded carrot",
+            "\u00bc cup chopped fresh mint",
+            "salt and ground black pepper to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat a large skillet over medium-high heat. Cook and stir ground beef in the hot skillet until browned and crumbly, 5 to 7 minutes. Add hoisin sauce and peanut sauce; cook until heated through, 2 to 3 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Spoon beef mixture into the center of lettuce leaves, taco-style. Top with cucumber, carrot, and mint. Season with salt and pepper.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Asian"
+        ],
+        "recipeCuisine": [
+            "Asian"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Christine Simon Michener"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Asian Beef Lettuce Wraps",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "363.8 calories",
+            "carbohydrateContent": "15.4 g",
+            "cholesterolContent": "70.2 mg",
+            "fatContent": "23.7 g",
+            "fiberContent": "2.1 g",
+            "proteinContent": "22.7 g",
+            "saturatedFatContent": "8.1 g",
+            "servingSize": null,
+            "sodiumContent": "492.5 mg",
+            "sugarContent": "7.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-08-28T04:18:47.447Z",
+                "reviewBody": "I made it with diced chicken breast and added a tablespoon of corn starch with some of the sauce to thicken it.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Rose Vollmer",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/23625218/"
+                }
+            }
+        ]
+    }
+]

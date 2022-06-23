@@ -1,0 +1,122 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17140/desserts/fruit-desserts/",
+                    "name": "Fruit Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17526/desserts/fruit-desserts/lemon-desserts/",
+                    "name": "Lemon Dessert Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/280129/blueberry-sorbet/",
+        "name": "Blueberry Sorbet",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Blueberry Sorbet"
+        },
+        "datePublished": "2020-06-23T05:57:37.000Z",
+        "description": "A delicious blueberry sorbet that is very refreshing on a hot summer day.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT1H40M",
+        "recipeYield": "4 cups",
+        "recipeIngredient": [
+            "3 cups frozen blueberries",
+            "\u00be cup white sugar",
+            "\u00bd cup water",
+            "1 lemon, zested and juiced"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine blueberries, sugar, water, lemon zest, and juice in the bowl of a food processor and process until pureed.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour mixture into an ice cream maker and process for 30 minutes according to manufacturer's instructions. Transfer to a freezer-safe container and freeze for at least 1 hour.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Fruit Desserts",
+            "Lemon Dessert Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "QUILTBUGJ"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Blueberry Sorbet",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "105 calories",
+            "carbohydrateContent": "27.3 g",
+            "cholesterolContent": null,
+            "fatContent": "0.4 g",
+            "fiberContent": "2.2 g",
+            "proteinContent": "0.4 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "1.4 mg",
+            "sugarContent": "23.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

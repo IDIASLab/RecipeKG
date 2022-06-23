@@ -1,0 +1,130 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1642/everyday-cooking/",
+                    "name": "Everyday Cooking",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/255302/basic-egg-pasta/",
+        "name": "Basic Egg Pasta",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4441103.jpg",
+            "width": 2304,
+            "height": 4096
+        },
+        "datePublished": "2018-06-08T14:40:53.000Z",
+        "description": "Basic egg pasta ready to roll, extrude, or shape into whatever type of noodle you desire. This dough can be mixed by hand or with a stand mixer. Like any flour recipe, the amount of flour required isn't a given. It will change depending on the size of your eggs and the humidity of your region.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": null,
+        "totalTime": "P0DT1H15M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "3\u2009\u00bd cups Italian Tipo \"00\" flour, or more to taste",
+            "2 eggs",
+            "2 egg yolks, or more as needed",
+            "1 teaspoon olive oil",
+            "1 pinch salt"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Pile flour onto a work surface and make a small well in the center; place eggs, egg yolks, olive oil, and salt into the well. Gently stir the egg mixture with a fork, gradually drawing in flour until dough comes together.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Knead dough with hands until smooth and leathery, about 10 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Wrap dough in plastic wrap; let rest until malleable, 1 to 2 hours. Remove plastic wrap.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cut dough into four pieces; roll out with a rolling pin. Run flattened pieces through a pasta roller to create desired noodle shape.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Everyday Cooking"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Blerghhh"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 1,
+            "itemReviewed": "Basic Egg Pasta",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "72.6 calories",
+            "carbohydrateContent": "0.5 g",
+            "cholesterolContent": "195.4 mg",
+            "fatContent": "5.9 g",
+            "fiberContent": null,
+            "proteinContent": "4.5 g",
+            "saturatedFatContent": "1.7 g",
+            "servingSize": null,
+            "sodiumContent": "77.8 mg",
+            "sugarContent": "0.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-01-09T08:54:02.943Z",
+                "reviewBody": "As written this recipe doesn't work, the ratio of wet to dry is off. I started with the two eggs and two egg yolks and the dough had the consistency of a crumble. I proceeded to add another egg and it was still off so I added the two egg whites and still had to add a little water to make it come together. I make fresh pasta often and this took far longer than stated. As well,  I believe that it would serve closer to 10. The finished product is silky and delicious hence the three stars.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Bren",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/9292325/"
+                }
+            }
+        ]
+    }
+]

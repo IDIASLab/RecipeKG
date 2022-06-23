@@ -1,0 +1,42 @@
+@prefix ns1: <http://purl.org/recipekg/> .
+@prefix ns2: <http://purl.org/heals/food/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/savory-beef-tenderloin> a schema:Recipe ;
+    ns2:hasIngredient [ a <http://purl.org/heals/ingredient/Garlic> ;
+            ns1:hasQuantity "2" ;
+            ns1:hasUnit "clove" ;
+            ns1:ingredientName "garlic" ],
+        [ a <http://purl.org/heals/ingredient/Beef> ;
+            ns1:hasQuantity "4" ;
+            ns1:ingredientName "beef" ],
+        [ a <http://purl.org/heals/ingredient/OliveOil> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "olive oil" ],
+        [ a <http://purl.org/heals/ingredient/Butter> ;
+            ns1:hasQuantity "2" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "butter" ],
+        [ a <http://purl.org/recipekg/ingredient/Adobo> ;
+            ns1:ingredientName "Adobo" ],
+        [ a <http://purl.org/heals/ingredient/Parsley> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "parsley" ] ;
+    ns1:belongsTo <http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/goya/> ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 17 ;
+            schema:ratingValue "4.882352941176471"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2016-07-30T03:16:03.000Z"^^schema:date ;
+    schema:name "Savory Beef Tenderloin"^^xsd:string ;
+    schema:recipeYield "4 servings"^^xsd:string .
+
+<http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/> a ns1:RecipeCategory .
+
+<http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/goya/> rdfs:subClassOf <http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/> .
+

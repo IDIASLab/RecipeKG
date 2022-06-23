@@ -1,0 +1,111 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1642/everyday-cooking/",
+                    "name": "Everyday Cooking",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1227/everyday-cooking/vegan/",
+                    "name": "Vegan",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/273298/pea-and-celery-root-baby-food/",
+        "name": "Pea and Celery Root Baby Food",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6603852.jpg",
+            "width": 3040,
+            "height": 2280
+        },
+        "datePublished": "2019-05-04T07:26:50.000Z",
+        "description": "Celery root, also called celeriac, is combined with green peas and a touch of mint for a yummy puree that baby will love.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H15M",
+        "totalTime": "P0DT0H20M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "1 small celery root, peeled and diced",
+            "1 cup frozen green peas",
+            "4 leaves fresh mint",
+            "1 tablespoon extra virgin olive oil"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place celery root in a pan and add water to cover. Bring to a boil and simmer until soft, 5 to 10 minutes. Add peas towards the end of cooking and bring back to a simmer. Simmer until peas are tender, adding the mint leaves about 1 minute before removing from heat.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Remove pan from heat and drain, reserving about 1/2 cup of the water. Add olive oil to the vegetables and puree to desired consistency, adding some of the reserved water only if needed.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Everyday Cooking",
+            "Vegan"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Diana Moutsopoulos"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Pea and Celery Root Baby Food",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "81.7 calories",
+            "carbohydrateContent": "12.7 g",
+            "cholesterolContent": null,
+            "fatContent": "2.6 g",
+            "fiberContent": "2.9 g",
+            "proteinContent": "2.8 g",
+            "saturatedFatContent": "0.4 g",
+            "servingSize": null,
+            "sodiumContent": "128.2 mg",
+            "sugarContent": "3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

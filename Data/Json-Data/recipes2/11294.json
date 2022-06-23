@@ -1,0 +1,111 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/143/breakfast-and-brunch/drinks/",
+                    "name": "Drinks",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/259339/cashew-smoothie/",
+        "name": "Cashew Smoothie",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Cashew Smoothie"
+        },
+        "datePublished": "2017-08-04T03:23:14.000Z",
+        "description": "An easy, filling breakfast with no fruit. Can enjoy on the way to work!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "2 smoothies",
+        "recipeIngredient": [
+            "1 (8 ounce) package silken tofu",
+            "1 cup Greek yogurt",
+            "1 cup unsweetened almond milk",
+            "\u00bd cup granular sucralose sweetener (such as Splenda\u00ae)",
+            "\u00bd cup unsalted raw cashews",
+            "1 teaspoon vanilla extract",
+            "ice cubes"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place tofu, yogurt, almond milk, sweetener, cashews, and vanilla extract in a blender. Blend on grind setting until cashews are mostly broken. Select liquefy setting; add ice and blend until smooth. Pour smoothie into 2 tall glasses and sip through straws.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Drinks"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "DOREEN"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Cashew Smoothie",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "428.7 calories",
+            "carbohydrateContent": "23.2 g",
+            "cholesterolContent": "22.5 mg",
+            "fatContent": "29.3 g",
+            "fiberContent": "1.8 g",
+            "proteinContent": "20.5 g",
+            "saturatedFatContent": "8.1 g",
+            "servingSize": null,
+            "sodiumContent": "189.8 mg",
+            "sugarContent": "11.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

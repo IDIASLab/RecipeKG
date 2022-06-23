@@ -1,0 +1,152 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/133/drinks/cocktails/",
+                    "name": "Cocktail Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1743/drinks/cocktails/vodka-drinks/",
+                    "name": "Vodka Drinks Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/222998/ice-smoke-and-fire/",
+        "name": "Ice, Smoke, and Fire",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F855809.jpg",
+            "width": 250,
+            "height": 250
+        },
+        "datePublished": "2018-05-04T13:03:01.000Z",
+        "description": "A homemade chipotle-flavored vodka makes delicious shots, really unique screwdrivers, perfect bloody marys, and exceptional chocolate martinis.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": null,
+        "totalTime": "P20DT0H15M",
+        "recipeYield": "1 750ml bottle",
+        "recipeIngredient": [
+            "1 (750 milliliter) bottle vodka",
+            "1 (7 ounce) can chipotle peppers in adobo sauce, or more to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Pour vodka into a plastic or glass bowl with a tight-fitting lid and stir in chilies with their sauce. Save the empty vodka bottle. Store vodka mixture in refrigerator for 4 weeks, shaking or stirring once per day. Strain through several layers of cheesecloth and pour back into the vodka bottle using a funnel. Seal the bottle and store the flavored vodka in the freezer.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Cocktail Recipes",
+            "Vodka Drinks Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "hazelnut"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Ice, Smoke, and Fire",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "57.4 calories",
+            "carbohydrateContent": "0.4 g",
+            "cholesterolContent": null,
+            "fatContent": "0.1 g",
+            "fiberContent": "0.2 g",
+            "proteinContent": null,
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "29.7 mg",
+            "sugarContent": null,
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2012-06-20T18:32:42.723Z",
+                "reviewBody": "This is my favorite Mexican night drink. I do have a bottle of chipotle tequila marinating right now though. I'm thinking chipotle margaritas?",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "hazelnut",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/4308066/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2012-07-01T12:38:01.607Z",
+                "reviewBody": "I took a quick taste of this before I popped it in the fridge. Boy is it going to be good in Bloody Marys. Next time I'm going to try the raisins as noted in the Cook's Note on this recipe. I did this recipe as a part of the Western Region's Faceless Frenzy July 2012.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Cookin Up A Storm",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/jansrecipes/"
+                }
+            }
+        ]
+    }
+]

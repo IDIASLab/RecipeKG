@@ -1,0 +1,115 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/143/breakfast-and-brunch/drinks/",
+                    "name": "Drinks",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/273515/white-chocolate-cappuccino/",
+        "name": "White Chocolate Cappuccino",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3534553.jpg",
+            "width": 2494,
+            "height": 2854
+        },
+        "datePublished": "2019-05-22T06:31:49.000Z",
+        "description": "Four ingredients and you will be rewarded with this tasty coffee drink.",
+        "prepTime": "P0DT0H2M",
+        "cookTime": "P0DT0H3M",
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "1 serving",
+        "recipeIngredient": [
+            "2 tablespoons white chocolate chips",
+            "\u00bd cup milk",
+            "1 tablespoon white chocolate flavored syrup",
+            "\u00bd cup hot freshly brewed coffee"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place white chocolate chips in mug.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat milk and white chocolate syrup in a saucepan over medium heat over a low simmer. Froth hot milk using an immersion blender.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour hot coffee over chocolate chips. Carefully pour frothed milk over brewed coffee.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Drinks"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Yoly"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "White Chocolate Cappuccino",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "243 calories",
+            "carbohydrateContent": "31.9 g",
+            "cholesterolContent": "14.5 mg",
+            "fatContent": "10.3 g",
+            "fiberContent": null,
+            "proteinContent": "5.8 g",
+            "saturatedFatContent": "6.3 g",
+            "servingSize": null,
+            "sodiumContent": "81.6 mg",
+            "sugarContent": "27.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

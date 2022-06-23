@@ -1,0 +1,128 @@
+@prefix ns1: <http://purl.org/recipekg/> .
+@prefix ns2: <http://purl.org/heals/food/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/25-minute-tunisian-vegetable-couscous> a schema:Recipe ;
+    ns2:hasIngredient [ a <http://purl.org/heals/ingredient/Paprika> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "paprika" ],
+        [ a <http://purl.org/recipekg/ingredient/Cardamom> ;
+            ns1:hasQuantity "1/4" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "cardamom" ],
+        [ ],
+        [ a <http://purl.org/heals/ingredient/Salt> ;
+            ns1:hasQuantity "1/4" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "salt" ],
+        [ a <http://purl.org/heals/ingredient/Almond> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "almond" ],
+        [ a <http://purl.org/recipekg/ingredient/Couscous> ;
+            ns1:hasQuantity "2" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "couscous" ],
+        [ a <http://purl.org/heals/ingredient/VegetableOil> ;
+            ns1:hasQuantity "4" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "vegetable oil" ],
+        [ a <http://purl.org/heals/ingredient/Carrot> ;
+            ns1:hasQuantity "1" ;
+            ns1:ingredientName "carrot" ],
+        [ ],
+        [ a <http://purl.org/heals/ingredient/Tomato> ;
+            ns1:hasQuantity "2" ;
+            ns1:ingredientName "tomato" ],
+        [ a <http://purl.org/recipekg/ingredient/YellowSquash> ;
+            ns1:hasQuantity "1" ;
+            ns1:ingredientName "yellow squash" ],
+        [ a <http://purl.org/recipekg/ingredient/Chickpea> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "can" ;
+            ns1:ingredientName "chickpea" ],
+        [ a <http://purl.org/recipekg/ingredient/Mushroom> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "mushroom" ],
+        [ a <http://purl.org/recipekg/ingredient/Orange> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "orange" ],
+        [ a <http://purl.org/recipekg/ingredient/ParmesanCheese> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "Parmesan cheese" ],
+        [ a <http://purl.org/recipekg/ingredient/Zucchini> ;
+            ns1:hasQuantity "1" ;
+            ns1:ingredientName "zucchini" ],
+        [ a <http://purl.org/heals/ingredient/OliveOil> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "olive oil" ],
+        [ a <http://purl.org/heals/ingredient/Cilantro> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "cilantro" ],
+        [ a <http://purl.org/heals/ingredient/Paprika> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "paprika" ],
+        [ a <http://purl.org/heals/ingredient/Onion> ;
+            ns1:hasQuantity "1" ;
+            ns1:ingredientName "onion" ] ;
+    ns1:belongsTo <http://purl.org/recipekg/categories/world-cuisine/african/> ;
+    ns1:hasFSAScore 5 ;
+    ns1:hasNutritionalInformation [ a ns1:NutritionalInformation ;
+            ns1:hasCalorificData [ a ns1:CalorificData ;
+                    ns1:hasAmount "386.5"^^xsd:float ;
+                    ns1:hasUnit "calories" ] ;
+            ns1:hasCarbohydrateData [ a ns1:CarbohydrateData ;
+                    ns1:hasAmount "72.1"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasCholesterolData [ a ns1:CholesterolData ;
+                    ns1:hasAmount "0.7"^^xsd:float ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasFatData [ a ns1:FatData ;
+                    ns1:hasAmount "4.9"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasFiberData [ a ns1:FiberData ;
+                    ns1:hasAmount "8.8"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasProteinData [ a ns1:ProteinData ;
+                    ns1:hasAmount "13.6"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSaturatedFatData [ a ns1:SaturatedFatData ;
+                    ns1:hasAmount "0.7"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAGreen ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSodiumData [ a ns1:SodiumData ;
+                    ns1:hasAmount "698.6"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasSugarData [ a ns1:SugarData ;
+                    ns1:hasAmount "5.1"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "g" ] ] ;
+    ns1:hasUSDAScore 5 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 75 ;
+            schema:ratingValue "4.1466666666666665"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2020-03-10T02:51:26.000Z"^^schema:date ;
+    schema:name "25-Minute Tunisian Vegetable Couscous"^^xsd:string ;
+    schema:recipeYield "6 servings"^^xsd:string .
+
+ns1:FSAGreen a ns1:FSAColor .
+
+<http://purl.org/recipekg/categories/world-cuisine/> a ns1:RecipeCategory .
+
+<http://purl.org/recipekg/categories/world-cuisine/african/> rdfs:subClassOf <http://purl.org/recipekg/categories/world-cuisine/> .
+
+ns1:FSAAmber a ns1:FSAColor .
+

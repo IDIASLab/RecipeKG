@@ -1,0 +1,107 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/235097/mock-crookies/",
+        "name": "Mock 'Crookies'",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Mock 'Crookies'"
+        },
+        "datePublished": "2013-10-26T00:57:15.000Z",
+        "description": "After seeing on TV that 'crookies' were the latest sensation in Toronto and New York, I thought I would see what I could do. These are so easy and a huge favorite with the kids at parties.",
+        "prepTime": "P0DT0H20M",
+        "cookTime": "P0DT0H20M",
+        "totalTime": "P0DT1H0M",
+        "recipeYield": "30 crookies",
+        "recipeIngredient": [
+            "cooking spray",
+            "1 (17.5 ounce) package frozen puff pastry, thawed",
+            "5 tablespoons cream cheese, softened, or more as needed",
+            "30 chocolate sandwich cookies (such as Oreo\u00ae)",
+            "2 tablespoons confectioners' sugar, or as needed"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat oven to 375 degrees F (190 degrees C). Spray 2 baking sheets with cooking spray.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cut each pastry sheet into 15 equal rectangles for a total of 30 rectangles. Spread rectangles out using your fingers. Spoon about 1/2 teaspoon cream cheese onto 1 side of each cookie. Place each cookie, cream cheese-side down, onto 1 side of each pastry rectangle; fold opposite side over cookie, pressing the edges together to seal. Arrange 12 to 15 'crookies' on each baking sheet.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated oven until golden brown, 18 to 22 minutes. Let 'crookies' cool before dusting with confectioner's sugar.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Kay5103"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Mock 'Crookies'",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "294.1 calories",
+            "carbohydrateContent": "30.2 g",
+            "cholesterolContent": "5.3 mg",
+            "fatContent": "18 g",
+            "fiberContent": "1.1 g",
+            "proteinContent": "3.8 g",
+            "saturatedFatContent": "4.9 g",
+            "servingSize": null,
+            "sodiumContent": "192.3 mg",
+            "sugarContent": "9.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

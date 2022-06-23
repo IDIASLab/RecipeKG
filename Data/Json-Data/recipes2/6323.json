@@ -1,0 +1,139 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/219/salad/vegetable-salads/",
+                    "name": "Vegetable Salad Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/15094/salad/vegetable-salads/cucumber-salad/",
+                    "name": "Cucumber Salad Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/223247/lizs-strawberry-and-cucumber-salad/",
+        "name": "Liz's Strawberry and Cucumber Salad",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F968352.jpg",
+            "width": 2970,
+            "height": 2976
+        },
+        "datePublished": "2016-06-04T13:47:43.000Z",
+        "description": "With its seasonal red and green, this salad is perfect for a summertime Christmas in Australia.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT1H10M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "1 cucumber - peeled, seeded, and sliced",
+            "2 cups sliced fresh strawberries",
+            "1 cup plain yogurt",
+            "1 clove garlic, chopped",
+            "2 tablespoons minced fresh mint",
+            "1 tablespoon minced fresh parsley"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place cucumber and strawberries in a bowl. Mix yogurt, garlic, mint, and parsley together in a separate bowl; pour over cucumber and strawberries. Stir to combine. Chill for 1 hour before serving.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad",
+            "Vegetable Salad Recipes",
+            "Cucumber Salad Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "CarrieLou65"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 2,
+            "itemReviewed": "Liz's Strawberry and Cucumber Salad",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "72.9 calories",
+            "carbohydrateContent": "12.3 g",
+            "cholesterolContent": "3.7 mg",
+            "fatContent": "1.3 g",
+            "fiberContent": "2.1 g",
+            "proteinContent": "4.2 g",
+            "saturatedFatContent": "0.6 g",
+            "servingSize": null,
+            "sodiumContent": "45.4 mg",
+            "sugarContent": "8.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2013-02-18T01:35:05.197Z",
+                "reviewBody": "This was well received for Sunday night dinner and requested as a repeat.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Joey Joan",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/joeyk/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,129 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/259871/beet-salad-with-apple-and-tofu/",
+        "name": "Beet Salad with Apple and Tofu",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4552671.jpg",
+            "width": 960,
+            "height": 1280
+        },
+        "datePublished": "2018-06-08T14:44:46.000Z",
+        "description": "A super delicious beet salad with smoked tofu and apple in a creamy yogurt and horseradish dressing. Tasty and so nutritious.",
+        "prepTime": "P0DT0H20M",
+        "cookTime": "P0DT0H45M",
+        "totalTime": "P0DT1H20M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "6 beets",
+            "salt and ground black pepper to taste",
+            "1 tablespoon vegetable oil",
+            "\u00bd (7.5 ounce) package smoked tofu, diced",
+            "\u00bd apple, diced",
+            "1 (8 ounce) container plain yogurt",
+            "1 teaspoon prepared horseradish",
+            "1 teaspoon maple syrup"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place beets into a large pot, cover with cold, lightly salted water, and bring to a boil. Reduce heat, cover, and simmer until beets are soft and can easily be pierced with a fork, about 40 minutes. Drain and rinse under cold water. Peel and cut into cubes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat oil in a skillet over medium heat. Cook and stir smoked tofu until hot, 2 to 3 minutes. Combine tofu, beets, and apple in a bowl.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Mix yogurt, horseradish, and maple syrup in a small bowl and season with salt and pepper. Pour over salad and mix well. Let stand until flavors combine, about 15 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Francesca"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Beet Salad with Apple and Tofu",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "173.3 calories",
+            "carbohydrateContent": "20.9 g",
+            "cholesterolContent": "3.4 mg",
+            "fatContent": "5.5 g",
+            "fiberContent": "4.8 g",
+            "proteinContent": "10.3 g",
+            "saturatedFatContent": "1.1 g",
+            "servingSize": null,
+            "sodiumContent": "180.2 mg",
+            "sugarContent": "15.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-08-24T23:23:24.043Z",
+                "reviewBody": "loved this salad",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "barbara",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3031597/"
+                }
+            }
+        ]
+    }
+]

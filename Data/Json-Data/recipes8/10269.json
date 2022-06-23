@@ -1,0 +1,91 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/285943/chicken-thigh-marinade/",
+        "name": "Chicken Thigh Marinade",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Chicken Thigh Marinade"
+        },
+        "datePublished": "2021-09-27T06:17:46.000Z",
+        "description": "Great marinade for chicken thighs. This makes enough for 8 skinless, boneless chicken thighs.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "8 servings",
+        "recipeIngredient": [
+            "\u00bc cup olive oil",
+            "3 tablespoons soy sauce",
+            "3 tablespoons lemon juice",
+            "2 tablespoons brown sugar",
+            "1 tablespoon chopped fresh parsley",
+            "2 cloves garlic, minced",
+            "1 teaspoon salt",
+            "\u00bd teaspoon ground black pepper"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Whisk together olive oil, soy sauce, lemon juice, brown sugar, parsley, garlic, salt, and pepper.\n"
+            }
+        ],
+        "recipeCategory": [],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Kelly Fam Favourites"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Chicken Thigh Marinade",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "78.8 calories",
+            "carbohydrateContent": "4.6 g",
+            "cholesterolContent": null,
+            "fatContent": "6.8 g",
+            "fiberContent": "0.1 g",
+            "proteinContent": "0.5 g",
+            "saturatedFatContent": "0.9 g",
+            "servingSize": null,
+            "sodiumContent": "630.5 mg",
+            "sugarContent": "3.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

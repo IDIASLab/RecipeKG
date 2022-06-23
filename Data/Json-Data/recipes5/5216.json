@@ -1,0 +1,120 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/242/drinks/sangria/",
+                    "name": "Sangria Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/222315/sangria-a-la-nesto/",
+        "name": "Sangria a la Nesto",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Sangria a la Nesto"
+        },
+        "datePublished": "2019-07-10T07:03:23.000Z",
+        "description": "A favorite wine cocktail. Save some fruit to cut in a round and garnish each glass.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": null,
+        "totalTime": "P0DT8H15M",
+        "recipeYield": "8 servings",
+        "recipeIngredient": [
+            "1 (750 milliliter) bottle dry red wine",
+            "\u00bd cup brandy",
+            "\u00bd cup triple sec",
+            "\u2153 cup frozen lemonade concentrate",
+            "\u2153 cup orange juice",
+            "\u00bc cup lemon juice",
+            "1 orange, peeled and sliced into rounds",
+            "1 lemon, peeled and sliced into rounds",
+            "1 lime, peeled and sliced into rounds",
+            "2 cups club soda"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Mix red wine, brandy, triple sec, lemonade concentrate, orange juice, lemon juice, orange, lemon, and lime in a large pitcher. Refrigerate 8 hours or overnight.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour club soda into wine mixture to serve.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Sangria Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Nesto"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Sangria a la Nesto",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "211.9 calories",
+            "carbohydrateContent": "18.2 g",
+            "cholesterolContent": null,
+            "fatContent": "0.1 g",
+            "fiberContent": "0.3 g",
+            "proteinContent": "0.3 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "7.7 mg",
+            "sugarContent": "14 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

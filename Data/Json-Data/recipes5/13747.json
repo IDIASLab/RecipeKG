@@ -1,0 +1,132 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/81/side-dish/",
+                    "name": "Side Dish",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/917/side-dish/potatoes/",
+                    "name": "Potato",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/31587/stewed-potatoes/",
+        "name": "Stewed Potatoes",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7649317.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-01-24T08:50:03.000Z",
+        "description": "Diced potatoes stewed with onions, garlic, tomatoes, and rutabaga in broth. Chicken, beef, or vegetable broth may be used.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H20M",
+        "totalTime": "P0DT0H35M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "1 tablespoon vegetable oil",
+            "3 cloves garlic, minced",
+            "\u00bd large onion, chopped",
+            "1 plum tomato, chopped",
+            "6 potatoes, diced",
+            "\u00bd rutabaga, diced",
+            "dried oregano, to taste",
+            "salt and freshly ground black pepper to taste",
+            "2 cups chicken broth"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat the oil in a skillet over medium heat, and saute the garlic and onion until tender. Stir in the tomato, and cook until heated through. Mix in potatoes and rutabaga. Season with oregano, salt, and pepper. Pour in the broth, and bring to a boil. Reduce heat to low, and continue cooking 15 minutes, or until potatoes and rutabaga are tender.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Side Dish",
+            "Potato"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Marta Olynyk"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.5,
+            "ratingCount": 4,
+            "itemReviewed": "Stewed Potatoes",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "205.3 calories",
+            "carbohydrateContent": "42 g",
+            "cholesterolContent": null,
+            "fatContent": "2.6 g",
+            "fiberContent": "5.9 g",
+            "proteinContent": "5 g",
+            "saturatedFatContent": "0.4 g",
+            "servingSize": null,
+            "sodiumContent": "20.5 mg",
+            "sugarContent": "4.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2010-05-11T17:57:56.43Z",
+                "reviewBody": "This was pretty good. I doubled the onion and the rutabaga. Next time I will double the tomato as well. It took longer than 15 minutes to cook but that may have had to do with the size of my diced potato and rutabaga. Since the seasoning is all listed to taste you can suit it to your own taste buds. I would have prefered some added spices I just can't put my finger on which ones. I did feel like it was missing a little something. Hence the 4 star rating. It was a pretty good overall dish though. Thank You Marta.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "My4boys",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/my4boys/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,144 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/81/side-dish/",
+                    "name": "Side Dish",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/225/side-dish/vegetables/",
+                    "name": "Vegetables",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/925/side-dish/vegetables/green-beans/",
+                    "name": "Green Beans",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/275307/green-beans-with-bacon/",
+        "name": "Green Beans with Bacon",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2879900.jpg",
+            "width": 1788,
+            "height": 1656
+        },
+        "datePublished": "2020-03-05T05:20:26.000Z",
+        "description": "A green bean recipe with bacon that my kids love.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H30M",
+        "totalTime": "P0DT0H45M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "3 teaspoons olive oil",
+            "1 teaspoon minced garlic",
+            "2\u2009\u00bd cups fresh green beans, trimmed",
+            "1 tablespoon brown sugar",
+            "sea salt to taste",
+            "3 slices smoked bacon, cut into small strips, or to taste",
+            "4 tablespoons chicken broth, or more as needed"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat oil in a skillet over low heat. Add garlic and cook for 30 seconds. Stir in green beans and brown sugar, and season with sea salt. Add bacon, increase heat to medium, and stir.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour chicken broth into the pan, cover, and let simmer for 10 minutes. Stir, adding more broth if needed. Cover and cook for another 10 minutes. Stir, uncover, and simmer over low heat until liquid evaporates, about 10 minutes more. Serve.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Side Dish",
+            "Vegetables",
+            "Green Beans"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Susan Prestel"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.666666666666667,
+            "ratingCount": 3,
+            "itemReviewed": "Green Beans with Bacon",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "104.2 calories",
+            "carbohydrateContent": "8.6 g",
+            "cholesterolContent": "7.7 mg",
+            "fatContent": "6.5 g",
+            "fiberContent": "2.4 g",
+            "proteinContent": "3.9 g",
+            "saturatedFatContent": "1.4 g",
+            "servingSize": null,
+            "sodiumContent": "301.2 mg",
+            "sugarContent": "4.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-11-26T23:36:10.98Z",
+                "reviewBody": "This is a great recipe! I love cooking and this is the type of recipe that is basic, delicious, and easy to make. Love it!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Bella",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/15916535/"
+                }
+            }
+        ]
+    }
+]

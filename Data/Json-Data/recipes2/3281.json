@@ -1,0 +1,132 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/145/breakfast-and-brunch/cereals/",
+                    "name": "Cereals",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/244362/banana-chocolate-pb-oat-bran-cereal/",
+        "name": "Banana Chocolate PB Oat Bran Cereal",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6369578.jpg",
+            "width": 3264,
+            "height": 1836
+        },
+        "datePublished": "2015-06-26T17:35:10.000Z",
+        "description": "Only 5 ingredients! Add toppings (fruit, nuts, seeds, cinnamon, Greek yogurt) if desired.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H2M",
+        "totalTime": "P0DT0H7M",
+        "recipeYield": "1 serving",
+        "recipeIngredient": [
+            "\u00bd banana",
+            "\u2153 cup oat bran",
+            "1 teaspoon powdered peanut butter",
+            "1 teaspoon cocoa powder",
+            "\u00be cup milk"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Mash banana in a bowl; add oat bran, powdered peanut butter, and cocoa powder and stir to combine. Stir milk into banana mixture until blended.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Microwave banana mixture until hot, about 2 minutes. Let cereal rest until set, about 30 seconds.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Cereals"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Zayster"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Banana Chocolate PB Oat Bran Cereal",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "240.9 calories",
+            "carbohydrateContent": "46.9 g",
+            "cholesterolContent": "14.6 mg",
+            "fatContent": "6.5 g",
+            "fiberContent": "7.4 g",
+            "proteinContent": "13.2 g",
+            "saturatedFatContent": "2.9 g",
+            "servingSize": null,
+            "sodiumContent": "89 mg",
+            "sugarContent": "17.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-02-13T23:07:42.743Z",
+                "reviewBody": "I love that this has no added sugar. The banana is all it needs to sweeten it and the cocoa powder gives it a nice flavor. I used a spoon full of natural peanut butter instead of powder and I used almond milk.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Tammy Lynn",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3084624/"
+                }
+            }
+        ]
+    }
+]

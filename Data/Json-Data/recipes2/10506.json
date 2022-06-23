@@ -1,0 +1,145 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/251/main-dish/sandwiches/",
+                    "name": "Sandwich Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/240884/delicious-avocado-sandwich/",
+        "name": "Delicious Avocado Sandwich",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1977630.jpg",
+            "width": 2484,
+            "height": 2484
+        },
+        "datePublished": "2017-06-21T13:02:25.000Z",
+        "description": "This was always a lunchtime favorite with my gal pals. It's simple, delicious, and refreshing! The measurements for the ingredients are all approximate, as this sandwich is best when tailored to personal taste. Particularly scrumptious on potato, oat, or country white bread. Enjoy!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "1 sandwich",
+        "recipeIngredient": [
+            "2 slices bread",
+            "2 slices provolone cheese, or more as needed",
+            "\u00bc avocado - peeled, pitted, and thinly sliced",
+            "\u00bd tomato, sliced",
+            "1\u2009\u00bd teaspoons balsamic vinegar"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Lay 1 slice bread on a plate. Place provolone cheese on bread and top with avocado and tomato slices, respectively. Drizzle balsamic vinegar over tomato and top with remaining slice of bread.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Sandwich Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "LORIZKAELA"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Delicious Avocado Sandwich",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "428.4 calories",
+            "carbohydrateContent": "34.4 g",
+            "cholesterolContent": "39.1 mg",
+            "fatContent": "24.2 g",
+            "fiberContent": "5.3 g",
+            "proteinContent": "19.9 g",
+            "saturatedFatContent": "11.1 g",
+            "servingSize": null,
+            "sodiumContent": "845.7 mg",
+            "sugarContent": "5.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2015-01-22T16:52:37.49Z",
+                "reviewBody": "This quick and easy sandwich is a perfect lunch. I used balsamic & basil vinaigrette on lightly toasted San Francisco style extra sourdough bread.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "bd.weld",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/bdweld/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2016-07-12T05:16:43.837Z",
+                "reviewBody": "You can't go wrong with this! It's July here in Texas and about 500 degrees. Talk about a perfect summer sandwich! I made it exactly like the recipe but added a few basil leaves from my garden. Excellent. Oh! Toasted the bread to so that the bread won't get too soggy...",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Beth",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/1573626/"
+                }
+            }
+        ]
+    }
+]

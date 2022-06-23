@@ -1,0 +1,135 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/16348/drinks/slushies/",
+                    "name": "Slushie Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/84908/grandmas-whiskey-slush/",
+        "name": "Grandma's Whiskey Slush",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Grandma's Whiskey Slush"
+        },
+        "datePublished": "2020-06-19T03:12:03.000Z",
+        "description": "Iced tea is mixed with orange juice and whiskey, then frozen to make a slushy treat for summer.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H20M",
+        "recipeYield": "2 1/2 quarts",
+        "recipeIngredient": [
+            "6 black tea bags",
+            "2 cups boiling water",
+            "1 cup white sugar",
+            "1 (6 ounce) can frozen orange juice concentrate, thawed",
+            "5 cups water",
+            "2 cups whiskey",
+            "1 (12 fluid ounce) can grapefruit flavored soda"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Steep the tea bag in boiling water for about 2 minutes. Remove and discard bags. In a medium bowl, stir together the tea, sugar, orange juice concentrate and water until sugar is dissolved. Stir in whiskey. Cover and place in the freezer for at least 4 hours.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Scoop out spoonfuls into a glass and top with a little bit of grapefruit soda.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Slushie Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "STEPHKING1"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Grandma's Whiskey Slush",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "239.7 calories",
+            "carbohydrateContent": "31.9 g",
+            "cholesterolContent": "0 mg",
+            "fatContent": "0 g",
+            "fiberContent": "0.2 g",
+            "proteinContent": "0.5 g",
+            "saturatedFatContent": "0 g",
+            "servingSize": null,
+            "sodiumContent": "6.6 mg",
+            "sugarContent": "31.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2010-01-05T21:33:28.27Z",
+                "reviewBody": "yum",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "kittensandkids",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/4277129/"
+                }
+            }
+        ]
+    }
+]

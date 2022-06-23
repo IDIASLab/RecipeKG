@@ -1,0 +1,129 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/134/drinks/coffee/",
+                    "name": "Coffee Drinks Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/270687/hot-nutty-irish-coffee/",
+        "name": "Hot Nutty Irish Coffee",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6427239.jpg",
+            "width": 3947,
+            "height": 3923
+        },
+        "datePublished": "2020-06-19T04:35:00.000Z",
+        "description": "This is a great after-dinner coffee. I like to add a mixture of cinnamon and sugar to the rim before I make them. We sometimes use green sugar. Enjoy!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "1 mug",
+        "recipeIngredient": [
+            "\u00bd tablespoon white sugar, or as needed",
+            "\u00bc teaspoon ground cinnamon, or as needed",
+            "1 fluid ounce Irish cream liqueur (such as Baileys\u00ae)",
+            "1 fluid ounce hazelnut liqueur (such as Frangelico\u00ae)",
+            "\u00be cup brewed coffee, or more to taste",
+            "1 tablespoon whipped cream, or to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Mix sugar and cinnamon together on a flat dish. Wet the rim of a mug and dunk into the cinnamon-sugar mixture. Pour Irish cream and hazelnut liqueur into the mug. Add coffee. Top coffee with whipped cream and a sprinkle of cinnamon sugar.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Coffee Drinks Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "jean"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Hot Nutty Irish Coffee",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "251.1 calories",
+            "carbohydrateContent": "34.1 g",
+            "cholesterolContent": "2.3 mg",
+            "fatContent": "0.9 g",
+            "fiberContent": "0.3 g",
+            "proteinContent": "0.3 g",
+            "saturatedFatContent": "0.4 g",
+            "servingSize": null,
+            "sodiumContent": "11.5 mg",
+            "sugarContent": "31.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-03-04T01:46:38.337Z",
+                "reviewBody": "Hubby and I enjoyed this very much! I'll admit that I didn't exactly measure the amounts of Bailey's and hazelnut liqueur so much as eyeball the amount in each glass but it was still tasty! I'm a huge fan of cinnamon too--so rimming the glasses with cinnamon-sugar really adds to this drink (I might even sprinkle some directly into it next time!). Overall a nice delicious and warming way to start off a cold and snowy Sunday morning! Thank you!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Kim",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/k-i-m/"
+                }
+            }
+        ]
+    }
+]

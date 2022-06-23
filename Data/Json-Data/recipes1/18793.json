@@ -1,0 +1,156 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/133/drinks/cocktails/",
+                    "name": "Cocktail Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1739/drinks/cocktails/gin-drinks/",
+                    "name": "Gin Drinks Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/217222/monkey-gland-cocktail/",
+        "name": "Monkey Gland Cocktail",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F9343459.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2013-01-19T07:01:04.000Z",
+        "description": "Not the most appetizing of names, but a refreshing gin cocktail just the same. Swap out the Pernod with a dash of Benedictine if the mood strikes.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "1 cocktail",
+        "recipeIngredient": [
+            "1\u2009\u00bd cups ice",
+            "2 fluid ounces gin",
+            "1 fluid ounce fresh orange juice",
+            "\u215b teaspoon Pernod",
+            "2 dashes grenadine",
+            "1 (3 inch) piece orange peel"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Fill a cocktail shaker with ice. Pour in gin, orange juice, Pernod, and grenadine. Shake well and strain into a chilled glass. Garnish with a twist of orange peel.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Cocktail Recipes",
+            "Gin Drinks Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Lorem Ipsum"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 2,
+            "itemReviewed": "Monkey Gland Cocktail",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "183.8 calories",
+            "carbohydrateContent": "9.2 g",
+            "cholesterolContent": null,
+            "fatContent": "0.1 g",
+            "fiberContent": "2 g",
+            "proteinContent": "0.5 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "13.7 mg",
+            "sugarContent": "3.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-08-03T00:06:31.447Z",
+                "reviewBody": "I used dashes of real cherry juice in place of grenadine.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "CookingWithShelia",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/cookingwithshelia/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2021-08-10T05:32:39.333Z",
+                "reviewBody": "Cheers! Fresh summer cocktail with my favorite gin.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Natalie Titanov",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/13104903/"
+                }
+            }
+        ]
+    }
+]

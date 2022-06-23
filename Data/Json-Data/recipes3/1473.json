@@ -1,0 +1,152 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/133/drinks/cocktails/",
+                    "name": "Cocktail Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1743/drinks/cocktails/vodka-drinks/",
+                    "name": "Vodka Drinks Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/235679/beet-infused-vodka/",
+        "name": "Beet Infused Vodka",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1896895.jpg",
+            "width": 2448,
+            "height": 3264
+        },
+        "datePublished": "2018-05-04T13:03:16.000Z",
+        "description": "This is a full-flavored and earthy vodka that will keep you coming back.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": null,
+        "totalTime": "P3DT0H15M",
+        "recipeYield": "1 liter",
+        "recipeIngredient": [
+            "2 pounds beets, peeled and cubed",
+            "1 liter vodka"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place beets in a sealable container. Pour vodka over beets, seal container, and shake vigorously. Place container in a cool, dark place and store for 3 days, shaking twice per day.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Cocktail Recipes",
+            "Vodka Drinks Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "JonahLuck"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 3,
+            "itemReviewed": "Beet Infused Vodka",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "85.4 calories",
+            "carbohydrateContent": "2.9 g",
+            "cholesterolContent": null,
+            "fatContent": "0.1 g",
+            "fiberContent": "0.8 g",
+            "proteinContent": "0.5 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "23.9 mg",
+            "sugarContent": "2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2015-01-02T15:15:22.433Z",
+                "reviewBody": "We loved it in Bloody Marys!  Use the leftover beets to make borscht.  Fabulous!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Arizona Desert Flower",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/arizonadesertflower/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2020-11-24T01:35:14.693Z",
+                "reviewBody": "this recipe is earthy and delicious",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Leva",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/11122302/"
+                }
+            }
+        ]
+    }
+]

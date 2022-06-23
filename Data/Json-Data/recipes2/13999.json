@@ -1,0 +1,153 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/133/drinks/cocktails/",
+                    "name": "Cocktail Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1741/drinks/cocktails/rum-drinks/",
+                    "name": "Rum Drinks Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/18928/diamond/",
+        "name": "Diamond",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2829152.jpg",
+            "width": 1704,
+            "height": 1705
+        },
+        "datePublished": "2000-07-05T23:50:00.000Z",
+        "description": "This is an alcoholic drink I enjoyed at the Oriental Hotel in Bangkok during my honeymoon. It's made with rum and banana liqueur.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "1 serving",
+        "recipeIngredient": [
+            "2 fluid ounces white rum",
+            "\u00bc fluid ounce dry vermouth",
+            "\u00bc fluid ounce banana liqueur"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Fill a highball glass with ice cubes. Pour on rum, vermouth and banana liqueur. Stir.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Cocktail Recipes",
+            "Rum Drinks Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Goldie"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.5,
+            "ratingCount": 2,
+            "itemReviewed": "Diamond",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "166.2 calories",
+            "carbohydrateContent": "4.3 g",
+            "cholesterolContent": "0 mg",
+            "fatContent": "0 g",
+            "fiberContent": "0 g",
+            "proteinContent": "0 g",
+            "saturatedFatContent": "0 g",
+            "servingSize": null,
+            "sodiumContent": "1.7 mg",
+            "sugarContent": "3.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2009-09-21T15:28:00.053Z",
+                "reviewBody": "I'm not a hard liquor girl at all but it sounded so good I had to try it! I think it would also go well with club soda. It's a sweet hard drink that I think lots of ppl would like. I only gave it 4 stars cuz it did not convert me to hard liquor.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Jessi McAllister",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/4015908/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2015-12-09T21:02:54.78Z",
+                "reviewBody": "Ever wondered what a liquid banana runt would taste like? This is it. I would hazard to cut this with soda water both for the over the top sweetness and to cut the alcohol a bit.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Arizona Desert Flower",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/arizonadesertflower/"
+                }
+            }
+        ]
+    }
+]

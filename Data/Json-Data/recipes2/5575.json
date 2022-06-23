@@ -1,0 +1,136 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1642/everyday-cooking/",
+                    "name": "Everyday Cooking",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/247146/strawberry-apple-baby-food/",
+        "name": "Strawberry Apple Baby Food",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5335325.jpg",
+            "width": 2606,
+            "height": 2605
+        },
+        "datePublished": "2016-05-04T04:59:39.000Z",
+        "description": "Baby food is simple enough, but I was on the baby food diet and was in desperate need of yummy inspiration. I started making my own and put them into the empty jars I had. No extra liquid is needed, the fruit juices are enough.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H3M",
+        "totalTime": "P0DT0H18M",
+        "recipeYield": "4 4 1/2-ounce jars",
+        "recipeIngredient": [
+            "2 apples, cored and sliced into 8 wedges",
+            "4 strawberries, quartered, or more to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place apples in a microwave-safe container; cover and cook in the microwave until tender, about 2 minutes. Add strawberries; cover and cook in the microwave for 1 minute more.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Transfer apples and strawberries to a blender; pulse until smooth and mixture reaches a consistency similar to yogurt or applesauce.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Everyday Cooking"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Yogakat"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Strawberry Apple Baby Food",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "41.6 calories",
+            "carbohydrateContent": "10.9 g",
+            "cholesterolContent": null,
+            "fatContent": "0.2 g",
+            "fiberContent": "2 g",
+            "proteinContent": "0.3 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "0.9 mg",
+            "sugarContent": "8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-04-22T04:21:06.8Z",
+                "reviewBody": "I had to cook the apple longer to get it done. Next time I would dice the apple rather than cutting it in 8 sections. I did peel mine. This made good unsweetened applesauce for a baby...or for anyone.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Paula",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/paula1/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2020-04-02T06:27:46.21Z",
+                "reviewBody": "Easy & economical. Baby really enjoyed it.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "mark",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/6081722/"
+                }
+            }
+        ]
+    }
+]

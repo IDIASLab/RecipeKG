@@ -1,0 +1,149 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/13290/main-dish/seafood/",
+                    "name": "Seafood Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/13300/main-dish/seafood/lobster/",
+                    "name": "Lobster",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/282926/grilled-lobster-tails/",
+        "name": "Grilled Lobster Tails",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F9343862.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2013-10-03T16:17:58.000Z",
+        "description": "Quick and easy meal. Serve with your favorite grilled veggies, like asparagus.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H20M",
+        "recipeYield": "4 lobster tails",
+        "recipeIngredient": [
+            "4 whole lobster tails",
+            "\u00bd cup salted butter, melted",
+            "1 tablespoon seafood seasoning (such as Old Bay\u00ae)",
+            "1 tablespoon lemon juice",
+            "2 teaspoons minced fresh garlic",
+            "1 teaspoon ground black pepper"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat an outdoor grill for medium heat and lightly oil the grate.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cut down the tops of each lobster tail to prevent them from curling up as they cook.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Mix butter, seafood seasoning, lemon juice, garlic, and pepper together in a bowl.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place lobster tails, shell-sides down, on the preheated grill for 5 minutes. Turn over and brush with butter mixture. Continue to cook until shells are bright red and meat is opaque, 5 to 7 minutes more.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Seafood Main Dishes",
+            "Lobster"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "STEPHW"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Grilled Lobster Tails",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "384.2 calories",
+            "carbohydrateContent": "3.5 g",
+            "cholesterolContent": "174.3 mg",
+            "fatContent": "27.6 g",
+            "fiberContent": "0.6 g",
+            "proteinContent": "30 g",
+            "saturatedFatContent": "17 g",
+            "servingSize": null,
+            "sodiumContent": "1155.9 mg",
+            "sugarContent": "0.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-08-10T09:45:39.92Z",
+                "reviewBody": "Perfect as written!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

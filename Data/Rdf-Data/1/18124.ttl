@@ -1,0 +1,60 @@
+@prefix ns1: <http://purl.org/recipekg/> .
+@prefix ns2: <http://purl.org/heals/food/> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/broiled-mochi-with-nori-seaweed> a schema:Recipe ;
+    ns2:hasIngredient [ a <http://purl.org/recipekg/ingredient/Nori> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "sheet" ;
+            ns1:ingredientName "nori" ],
+        [ a <http://purl.org/heals/ingredient/SoySauce> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "soy sauce" ],
+        [ a <http://purl.org/recipekg/ingredient/MochiSquares> ;
+            ns1:hasQuantity "8" ;
+            ns1:ingredientName "mochi squares" ] ;
+    ns1:belongsTo <http://purl.org/recipekg/categories/appetizers-and-snacks/> ;
+    ns1:hasFSAScore 5 ;
+    ns1:hasNutritionalInformation [ a ns1:NutritionalInformation ;
+            ns1:hasCalorificData [ a ns1:CalorificData ;
+                    ns1:hasAmount "109.1"^^xsd:float ;
+                    ns1:hasUnit "calories" ] ;
+            ns1:hasCarbohydrateData [ a ns1:CarbohydrateData ;
+                    ns1:hasAmount "23.1"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasFatData [ a ns1:FatData ;
+                    ns1:hasAmount "0.2"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAGreen ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasFiberData [ a ns1:FiberData ;
+                    ns1:hasAmount "1.2"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasProteinData [ a ns1:ProteinData ;
+                    ns1:hasAmount "3.1"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSodiumData [ a ns1:SodiumData ;
+                    ns1:hasAmount "907.3"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasSugarData [ a ns1:SugarData ;
+                    ns1:hasAmount "0.3"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAGreen ;
+                    ns1:hasUnit "g" ] ] ;
+    ns1:hasUSDAScore 4 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 11 ;
+            schema:ratingValue "4.2727272727272725"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "1999-11-24T20:02:30.000Z"^^schema:date ;
+    schema:name "Broiled Mochi with Nori Seaweed"^^xsd:string ;
+    schema:recipeYield "8 servings"^^xsd:string .
+
+ns1:FSAAmber a ns1:FSAColor .
+
+<http://purl.org/recipekg/categories/appetizers-and-snacks/> a ns1:RecipeCategory .
+
+ns1:FSAGreen a ns1:FSAColor .
+

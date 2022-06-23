@@ -1,0 +1,40 @@
+@prefix ns1: <http://purl.org/recipekg/> .
+@prefix ns2: <http://purl.org/heals/food/> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/campbells-bbq-bacon-slow-cooker-chicken> a schema:Recipe ;
+    ns2:hasIngredient [ a <http://purl.org/recipekg/ingredient/BaconSoup> ;
+            ns1:hasQuantity "1" ;
+            ns1:ingredientName "Bacon Soup" ],
+        [ a <http://purl.org/recipekg/ingredient/EggNoodles> ;
+            ns1:hasQuantity "8" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "egg noodles" ],
+        [ a <http://purl.org/recipekg/ingredient/BbqSauce> ;
+            ns1:hasQuantity "1/4" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "BBQ sauce" ],
+        [ a <http://purl.org/recipekg/ingredient/DijonMustard> ;
+            ns1:hasQuantity "2" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "Dijon mustard" ],
+        [ a <http://purl.org/heals/ingredient/Parsley> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "parsley" ],
+        [ ],
+        [ a <http://purl.org/recipekg/ingredient/OnionPowder> ;
+            ns1:hasQuantity "2" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "onion powder" ] ;
+    ns1:belongsTo <http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/> ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2019-01-15T06:33:54.000Z"^^schema:date ;
+    schema:name "CAMPBELL'S&reg; BBQ Bacon Slow Cooker Chicken"^^xsd:string ;
+    schema:recipeYield "6 servings"^^xsd:string .
+
+<http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/> a ns1:RecipeCategory .
+

@@ -1,0 +1,128 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/251/main-dish/sandwiches/",
+                    "name": "Sandwich Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/266747/vegan-open-faced-alt-avocado-lettuce-tomato/",
+        "name": "Vegan Open-Faced ALT (Avocado, Lettuce, Tomato)",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4542318.jpg",
+            "width": 4032,
+            "height": 3024
+        },
+        "datePublished": "2018-07-27T02:56:23.000Z",
+        "description": "A delicious and wholesome open-faced ALT on a whole grain English muffin. Enjoy this for breakfast, lunch, or dinner - or just as a filling snack!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "1 sandwich",
+        "recipeIngredient": [
+            "2 tablespoons vegan mayonnaise (such as Fabanaise\u2122)",
+            "1 whole-grain English muffin, toasted",
+            "1 avocado, sliced",
+            "1 small tomato, sliced",
+            "\u00bd leaf lettuce, halved lengthwise"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Spread 1 tablespoon mayonnaise over each half of the English muffin. Add avocado and tomato slices. Top with lettuce.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Sandwich Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Sarah Stensberg"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Vegan Open-Faced ALT (Avocado, Lettuce, Tomato)",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "608.4 calories",
+            "carbohydrateContent": "52 g",
+            "cholesterolContent": null,
+            "fatContent": "44.5 g",
+            "fiberContent": "19 g",
+            "proteinContent": "10.7 g",
+            "saturatedFatContent": "6.6 g",
+            "servingSize": null,
+            "sodiumContent": "430.1 mg",
+            "sugarContent": "10.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-02-02T20:29:50.833Z",
+                "reviewBody": "I make this a lot but not with mayo. I mash the avocado and spread it on toast and then add tomato and lettuce. It s delicious.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Ann",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/13884936/"
+                }
+            }
+        ]
+    }
+]

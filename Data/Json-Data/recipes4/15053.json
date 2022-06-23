@@ -1,0 +1,129 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/81/side-dish/",
+                    "name": "Side Dish",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/224/side-dish/rice/",
+                    "name": "Rice Side Dish Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/222505/tamale-rice/",
+        "name": "Tamale Rice",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4551281.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2019-04-04T03:52:37.000Z",
+        "description": "My mom made this one night and we were hooked. Now we eat this all the time! Garnish with sharp Cheddar cheese and sliced green onions if desired.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H25M",
+        "totalTime": "P0DT0H35M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "2 (16 ounce) cans beef tamales",
+            "4 cups beef broth",
+            "2 cups water",
+            "1 tablespoon chili powder",
+            "3 dried bay leaves",
+            "3 cups parboiled long grain rice"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place tamales in a large pot; mash with a potato masher. Add beef broth, water, chili powder, and bay leaves. Bring to a boil. Stir in rice. Reduce heat to low; cook until rice is tender, about 20 minutes. Cover and let stand for about 5 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Side Dish",
+            "Rice Side Dish Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "KenderFriend"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Tamale Rice",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "588.2 calories",
+            "carbohydrateContent": "97.6 g",
+            "cholesterolContent": "22 mg",
+            "fatContent": "15.1 g",
+            "fiberContent": "5.3 g",
+            "proteinContent": "13.7 g",
+            "saturatedFatContent": "5.5 g",
+            "servingSize": null,
+            "sodiumContent": "979.4 mg",
+            "sugarContent": "0.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-08-27T21:10:43Z",
+                "reviewBody": "This turned out pretty good. After tasting it I did end up adding more chili powder but that was the only change I made. It would make a great filling for stuffed bell peppers. I hadn't had canned tamales since I was a kid and they've sure come a long way.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

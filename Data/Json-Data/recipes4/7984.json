@@ -1,0 +1,153 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/250/main-dish/pizza/",
+                    "name": "Pizza Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1036/main-dish/pizza/chicken/",
+                    "name": "Chicken",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/245158/chicken-and-pumpkin-pizza/",
+        "name": "Chicken and Pumpkin Pizza",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2897223.jpg",
+            "width": 3456,
+            "height": 3456
+        },
+        "datePublished": "2019-04-02T07:05:19.000Z",
+        "description": "A creation of my own out of the abundance of pumpkins I acquired after my neighbors found out I like to make my own pumpkin puree. I recommend using the Pizza Crust I recipe from Allrecipes.com for the crust. If you use canned pumpkin, make sure it is unsalted, unsweetened. I also prefer using dark meat chicken as it does not dry out in second cooking. Serve with wheat ale or light IPA beer.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H17M",
+        "totalTime": "P0DT0H37M",
+        "recipeYield": "1 12-inch pizza",
+        "recipeIngredient": [
+            "1 pizza crust dough",
+            "2 cups chopped cooked chicken ",
+            "1 cup pumpkin puree",
+            "\u00bd onion, minced",
+            "2 cloves garlic, crushed",
+            "salt and ground black pepper to taste",
+            "1 teaspoon olive oil, or as needed",
+            "2 cups shredded mozzarella cheese"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat oven to 425 degrees F (220 degrees C). Spread pizza dough onto a pizza stone or baking sheet.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated oven until just baked enough to hold together, about 8 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Mix chicken, pumpkin, onion, garlic, salt, and pepper together in a bowl. Coat pizza crust with olive oil and add chicken mixture in 1 even layer. Top pizza with mozzarella cheese.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the oven until crust is browned and cheese is melted, 9 to 11 minutes. Remove from oven and allow to rest for 5 minutes before slicing.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Pizza Recipes",
+            "Chicken"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "mrsjawshewa"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 1,
+            "itemReviewed": "Chicken and Pumpkin Pizza",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "336.5 calories",
+            "carbohydrateContent": "28.9 g",
+            "cholesterolContent": "59.1 mg",
+            "fatContent": "12.1 g",
+            "fiberContent": "2.2 g",
+            "proteinContent": "26.8 g",
+            "saturatedFatContent": "5 g",
+            "servingSize": null,
+            "sodiumContent": "703.9 mg",
+            "sugarContent": "5.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2015-11-30T18:45:27.377Z",
+                "reviewBody": "I must admit the only reason I made this pizza is because the unusual ingredient of pumpkin intrigued me...and I wanted lunch. I like pumpkin so I knew it wouldn't be something that just totally disgusted me. But I must say the pumpkin didn't do anything for the pizza. I made it on Joseph's Oat Bran and Whole Wheat Lavash Bread as is my custom for a single serve pizza and then scaled down the ingredients. I tasted it first and then added salt on the top which it needed because of the unsalted pumpkin. Not bad and certainly a way to use up left-over Thanksgiving chicken and canned pumpkin.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Paula",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/paula1/"
+                }
+            }
+        ]
+    }
+]

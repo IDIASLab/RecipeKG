@@ -1,0 +1,128 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/107/appetizers-and-snacks/meat-and-poultry/",
+                    "name": "Meat and Poultry",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/269879/hot-pepper-jelly-chips/",
+        "name": "Hot Pepper Jelly Chips",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6136871.jpg",
+            "width": 3456,
+            "height": 3456
+        },
+        "datePublished": "2019-04-03T06:33:38.000Z",
+        "description": "This great, easy, and delicious snack combines the very best of creamy, crunchy, tangy, sweet, and spicy.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": null,
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "24 chips",
+        "recipeIngredient": [
+            "1 (4 ounce) log goat cheese, softened",
+            "24 large, ridged potato chips (such as Ruffles\u00ae)",
+            "\u00bd cup hot red pepper jelly",
+            "4 slices bacon strips, cooked and crumbled",
+            "1 jalapeno pepper, thinly sliced"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Spread about 1/2 tablespoon of goat cheese onto each potato chip, being careful not to break the chips. Add about 1 teaspoon of red pepper jelly to each chip and top with crumbled bacon and a jalapeno slice. Serve immediately, so the chips don't get soggy.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks",
+            "Meat and Poultry"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "lutzflcat"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Hot Pepper Jelly Chips",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "40.9 calories",
+            "carbohydrateContent": "5.1 g",
+            "cholesterolContent": "3.7 mg",
+            "fatContent": "1.9 g",
+            "fiberContent": "0.1 g",
+            "proteinContent": "1.1 g",
+            "saturatedFatContent": "1.1 g",
+            "servingSize": null,
+            "sodiumContent": "34.3 mg",
+            "sugarContent": "3.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-02-06T02:33:01.833Z",
+                "reviewBody": "Pretty fast to prepare and delicious. Just the right tinges.It is in my files. for next time. Thank you",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Denyse Gagyi",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/18030812/"
+                }
+            }
+        ]
+    }
+]

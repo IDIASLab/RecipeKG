@@ -1,0 +1,63 @@
+@prefix ns1: <http://purl.org/heals/food/> .
+@prefix ns2: <http://purl.org/recipekg/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/earl-grey-tea-and-lime-ice-pops> a schema:Recipe ;
+    ns1:hasIngredient [ a <http://purl.org/heals/ingredient/Water> ;
+            ns2:hasQuantity "2" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "water" ],
+        [ a <http://purl.org/recipekg/ingredient/Lime> ;
+            ns2:hasQuantity "6" ;
+            ns2:ingredientName "lime" ],
+        [ a <http://purl.org/heals/ingredient/WhiteSugar> ;
+            ns2:hasQuantity "2" ;
+            ns2:hasUnit "tablespoon" ;
+            ns2:ingredientName "white sugar" ],
+        [ ],
+        [ a <http://purl.org/recipekg/ingredient/Lime> ;
+            ns2:hasQuantity "1" ;
+            ns2:ingredientName "lime" ] ;
+    ns2:belongsTo <http://purl.org/recipekg/categories/desserts/frozen-desserts/popsicles/> ;
+    ns2:hasFSAScore 4 ;
+    ns2:hasNutritionalInformation [ a ns2:NutritionalInformation ;
+            ns2:hasCalorificData [ a ns2:CalorificData ;
+                    ns2:hasAmount "21.9"^^xsd:float ;
+                    ns2:hasUnit "calories" ] ;
+            ns2:hasCarbohydrateData [ a ns2:CarbohydrateData ;
+                    ns2:hasAmount "6.2"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasFiberData [ a ns2:FiberData ;
+                    ns2:hasAmount "0.5"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasProteinData [ a ns2:ProteinData ;
+                    ns2:hasAmount "0.1"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasSodiumData [ a ns2:SodiumData ;
+                    ns2:hasAmount "2.8"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSAGreen ;
+                    ns2:hasUnit "mg" ] ;
+            ns2:hasSugarData [ a ns2:SugarData ;
+                    ns2:hasAmount "4.5"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSAGreen ;
+                    ns2:hasUnit "g" ] ] ;
+    ns2:hasUSDAScore 3 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 1 ;
+            schema:ratingValue "4"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2020-06-19T04:29:50.000Z"^^schema:date ;
+    schema:name "Earl Grey Tea and Lime Ice Pops"^^xsd:string ;
+    schema:recipeYield "6 (3-ounce) ice pops"^^xsd:string .
+
+<http://purl.org/recipekg/categories/desserts/> a ns2:RecipeCategory .
+
+<http://purl.org/recipekg/categories/desserts/frozen-desserts/> rdfs:subClassOf <http://purl.org/recipekg/categories/desserts/> .
+
+<http://purl.org/recipekg/categories/desserts/frozen-desserts/popsicles/> rdfs:subClassOf <http://purl.org/recipekg/categories/desserts/frozen-desserts/> .
+
+ns2:FSAGreen a ns2:FSAColor .
+

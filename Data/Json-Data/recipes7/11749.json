@@ -1,0 +1,161 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17140/desserts/fruit-desserts/",
+                    "name": "Fruit Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17530/desserts/fruit-desserts/peach-desserts/",
+                    "name": "Peach Dessert Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/239031/peaches-and-cream-pudding/",
+        "name": "Peaches and Cream Pudding",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1655348.jpg",
+            "width": 960,
+            "height": 960
+        },
+        "datePublished": "2020-06-19T04:00:27.000Z",
+        "description": "Delicious, refreshing, and oh-so-peachy! This summer pudding is a great alternative to banana pudding.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H20M",
+        "totalTime": "P0DT2H30M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "2 peaches, thinly sliced",
+            "1 pinch ground cinnamon, or more to taste",
+            "4 cups milk",
+            "6 egg yolks, beaten",
+            "1 cup white sugar",
+            "\u2154 cup all-purpose flour",
+            "1 tablespoon vanilla extract"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Arrange sliced peaches in the bottom of a serving bowl; sprinkle with cinnamon.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine milk, egg yolks, sugar, and flour together in a saucepan; cook and stir over medium-low heat until pudding thickens and clings to the back of a spoon, about 20 minutes. Remove from heat and stir in vanilla. Pour pudding over prepared peaches. Refrigerate until chilled, about 2 hours.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Fruit Desserts",
+            "Peach Dessert Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Karissa"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 2,
+            "itemReviewed": "Peaches and Cream Pudding",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "328.4 calories",
+            "carbohydrateContent": "54.5 g",
+            "cholesterolContent": "217.9 mg",
+            "fatContent": "7.7 g",
+            "fiberContent": "0.5 g",
+            "proteinContent": "9.5 g",
+            "saturatedFatContent": "3.7 g",
+            "servingSize": null,
+            "sodiumContent": "76.5 mg",
+            "sugarContent": "43.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-08-21T09:28:44.42Z",
+                "reviewBody": "Wow this is the most amazing pudding on this site! I microwaved the milk until it steamed which made the cooking faster. I will use this with any fresh fruit thankyou!!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Chuck N Christina Hoppe",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/20067300/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2020-04-26T10:39:20.64Z",
+                "reviewBody": "I'll make it again but use half the sugar.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Elizabeth Smith",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/25972708/"
+                }
+            }
+        ]
+    }
+]

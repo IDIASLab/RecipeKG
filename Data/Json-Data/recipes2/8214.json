@@ -1,0 +1,128 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17106/drinks/juice/",
+                    "name": "Juice Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/228911/sweet-potato-carrot-spiced-life-juice/",
+        "name": "Sweet Potato Carrot Spiced Life Juice",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7905462.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2016-09-26T13:02:37.000Z",
+        "description": "This spicy, fresh-pressed juice will give you the energy you need for the holidays!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "3 large sweet potatoes, peeled",
+            "3 large carrots",
+            "1 (1 inch) piece fresh ginger root, peeled",
+            "\u00bc teaspoon ground cinnamon",
+            "1 pinch ground nutmeg"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Juice sweet potatoes, carrots, and ginger in a juicer according to manufacturer's instructions. Stir ground cinnamon and nutmeg into juice.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Juice Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Ety Deutsch"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Sweet Potato Carrot Spiced Life Juice",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "317.8 calories",
+            "carbohydrateContent": "74.2 g",
+            "cholesterolContent": null,
+            "fatContent": "0.4 g",
+            "fiberContent": "11.9 g",
+            "proteinContent": "5.9 g",
+            "saturatedFatContent": "0.1 g",
+            "servingSize": null,
+            "sodiumContent": "224.8 mg",
+            "sugarContent": "16.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-04-04T07:46:27.613Z",
+                "reviewBody": "I love juicing, and the sweet potato caught my eye in this recipe.  The juice has a nice sweetness, and I really enjoyed the added spices. We commented how it would be a perfect autumn drink. I'd recommend using a whisk or blender to get the spices blended in properly as they tend to clump up. This also made small servings, you might want to make extra if you are expecting 4 servings.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "France C",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/francecevallos/"
+                }
+            }
+        ]
+    }
+]

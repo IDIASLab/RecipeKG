@@ -1,0 +1,115 @@
+@prefix ns1: <http://purl.org/recipekg/> .
+@prefix ns2: <http://purl.org/heals/food/> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/bacon-and-cranberry-bean-ragout> a schema:Recipe ;
+    ns2:hasIngredient [ a <http://purl.org/heals/ingredient/BlackPepper> ;
+            ns1:ingredientName "black pepper" ],
+        [ a <http://purl.org/recipekg/ingredient/Shallot> ;
+            ns1:hasQuantity "1/4" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "shallot" ],
+        [ a <http://purl.org/heals/ingredient/OliveOil> ;
+            ns1:hasQuantity "2" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "olive oil" ],
+        [ a <http://purl.org/recipekg/ingredient/Herb> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "herb" ],
+        [ a <http://purl.org/heals/ingredient/Salt> ;
+            ns1:ingredientName "salt" ],
+        [ a <http://purl.org/recipekg/ingredient/CayennePepper> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "pinch" ;
+            ns1:ingredientName "cayenne pepper" ],
+        [ a <http://purl.org/heals/ingredient/ChickenBroth> ;
+            ns1:hasQuantity "2" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "chicken broth" ],
+        [ a <http://purl.org/recipekg/ingredient/BaconDrippings> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "bacon drippings" ],
+        [ a <http://purl.org/heals/ingredient/Garlic> ;
+            ns1:hasQuantity "4" ;
+            ns1:hasUnit "clove" ;
+            ns1:ingredientName "garlic" ],
+        [ a <http://purl.org/heals/ingredient/LemonJuice> ;
+            ns1:hasQuantity "2" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "lemon juice" ],
+        [ a <http://purl.org/recipekg/ingredient/CranberryBeans> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "cranberry beans" ],
+        [ a <http://purl.org/recipekg/ingredient/ChilePaste> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "chile paste" ],
+        [ a <http://purl.org/heals/ingredient/Rosemary> ;
+            ns1:hasQuantity "2" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "rosemary" ],
+        [ a <http://purl.org/recipekg/ingredient/Lemon> ;
+            ns1:hasQuantity "2" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "lemon" ],
+        [ a <http://purl.org/heals/ingredient/OliveOil> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "olive oil" ],
+        [ a <http://purl.org/heals/ingredient/Bacon> ;
+            ns1:hasQuantity "4" ;
+            ns1:ingredientName "bacon" ] ;
+    ns1:belongsTo <http://purl.org/recipekg/categories/side-dish/> ;
+    ns1:hasFSAScore 6 ;
+    ns1:hasNutritionalInformation [ a ns1:NutritionalInformation ;
+            ns1:hasCalorificData [ a ns1:CalorificData ;
+                    ns1:hasAmount "273.0"^^xsd:float ;
+                    ns1:hasUnit "calories" ] ;
+            ns1:hasCarbohydrateData [ a ns1:CarbohydrateData ;
+                    ns1:hasAmount "33.9"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasCholesterolData [ a ns1:CholesterolData ;
+                    ns1:hasAmount "11.1"^^xsd:float ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasFatData [ a ns1:FatData ;
+                    ns1:hasAmount "9.4"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasFiberData [ a ns1:FiberData ;
+                    ns1:hasAmount "12.5"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasProteinData [ a ns1:ProteinData ;
+                    ns1:hasAmount "15.1"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSaturatedFatData [ a ns1:SaturatedFatData ;
+                    ns1:hasAmount "2.5"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSodiumData [ a ns1:SodiumData ;
+                    ns1:hasAmount "226.1"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAGreen ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasSugarData [ a ns1:SugarData ;
+                    ns1:hasAmount "0.8"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAGreen ;
+                    ns1:hasUnit "g" ] ] ;
+    ns1:hasUSDAScore 5 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 14 ;
+            schema:ratingValue "4.357142857142857"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2012-08-20T20:55:59.000Z"^^schema:date ;
+    schema:name "Bacon and Cranberry Bean Ragout"^^xsd:string ;
+    schema:recipeYield "4 servings"^^xsd:string .
+
+<http://purl.org/recipekg/categories/side-dish/> a ns1:RecipeCategory .
+
+ns1:FSAAmber a ns1:FSAColor .
+
+ns1:FSAGreen a ns1:FSAColor .
+

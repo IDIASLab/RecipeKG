@@ -1,0 +1,151 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/273217/healthy-honey-breakfast-cookies/",
+        "name": "Healthy Honey Breakfast Cookies",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6326175.jpg",
+            "width": 4608,
+            "height": 3456
+        },
+        "datePublished": "2019-05-01T03:21:31.000Z",
+        "description": "These healthy breakfast cookies are addictive, and there won't be any leftovers. The oatmeal, chocolate, and honey mixture is so powerfully yummy!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H20M",
+        "recipeYield": "60 cookies",
+        "recipeIngredient": [
+            "2 cups self-rising flour",
+            "1\u2009\u00bd cups quick oats",
+            "1 cup baking mix",
+            "1 cup sliced almonds",
+            "1 cup semisweet chocolate chips",
+            "1\u2009\u00bd cups milk",
+            "\u00bd cup honey",
+            "1 egg",
+            "2 tablespoons melted coconut oil"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat the oven to 350 degrees F (175 degrees C). Grease a cookie sheet.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Mix flour, oats, baking mix, almonds, and chocolate chips together in a large bowl using a spoon. Pour in milk and stir to combine. Stir in honey. Pour in egg and coconut oil and mix dough well.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place 1-inch spoonfuls of dough onto the prepared cookie sheet.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated oven until golden brown, about 8 minutes. Let cool for 1 minute before transferring to a wire rack.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Lydia"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 2,
+            "itemReviewed": "Healthy Honey Breakfast Cookies",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "70.1 calories",
+            "carbohydrateContent": "10.4 g",
+            "cholesterolContent": "3.2 mg",
+            "fatContent": "2.8 g",
+            "fiberContent": "0.7 g",
+            "proteinContent": "1.6 g",
+            "saturatedFatContent": "1.2 g",
+            "servingSize": null,
+            "sodiumContent": "82.2 mg",
+            "sugarContent": "4.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-08-19T06:22:52.393Z",
+                "reviewBody": "These were ok and were eaten, but they had a weird almost pancake like texture that was off-putting. Probably not one I would make again, though I did enjoy the almond-oat-chocolate combination.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "McEmmy",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/5459433/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2020-03-11T23:55:38.47Z",
+                "reviewBody": "Totally delicious!!!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Lydia",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/24949367/"
+                }
+            }
+        ]
+    }
+]

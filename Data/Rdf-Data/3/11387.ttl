@@ -1,0 +1,108 @@
+@prefix ns1: <http://purl.org/recipekg/> .
+@prefix ns2: <http://purl.org/heals/food/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/hearty-chicken-vegetable-soup-i> a schema:Recipe ;
+    ns2:hasIngredient [ a <http://purl.org/heals/ingredient/Chicken> ;
+            ns1:hasQuantity "2" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "chicken" ],
+        [ a <http://purl.org/heals/ingredient/Salt> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "salt" ],
+        [ a <http://purl.org/heals/ingredient/Chicken> ;
+            ns1:hasQuantity "1" ;
+            ns1:ingredientName "chicken" ],
+        [ ],
+        [ a <http://purl.org/heals/ingredient/Onion> ;
+            ns1:hasQuantity "1" ;
+            ns1:ingredientName "onion" ],
+        [ a <http://purl.org/heals/ingredient/Carrot> ;
+            ns1:hasQuantity "5" ;
+            ns1:ingredientName "carrot" ],
+        [ a <http://purl.org/recipekg/ingredient/Pasta> ;
+            ns1:hasQuantity "12" ;
+            ns1:hasUnit "ounce" ;
+            ns1:ingredientName "pasta" ],
+        [ a <http://purl.org/recipekg/ingredient/EggNoodles> ;
+            ns1:hasQuantity "2" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "egg noodles" ],
+        [ a <http://purl.org/recipekg/ingredient/YellowSquash> ;
+            ns1:hasQuantity "1" ;
+            ns1:ingredientName "yellow squash" ],
+        [ a <http://purl.org/recipekg/ingredient/Mushroom> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "pound" ;
+            ns1:ingredientName "mushroom" ],
+        [ a <http://purl.org/recipekg/ingredient/BasilLeaves> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "basil leaves" ],
+        [ a <http://purl.org/heals/ingredient/Celery> ;
+            ns1:hasQuantity "5" ;
+            ns1:ingredientName "celery" ],
+        [ a <http://purl.org/heals/ingredient/BlackPepper> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "black pepper" ],
+        [ a <http://purl.org/recipekg/ingredient/Zucchini> ;
+            ns1:hasQuantity "1" ;
+            ns1:ingredientName "zucchini" ] ;
+    ns1:belongsTo <http://purl.org/recipekg/categories/soups-stews-and-chili/soup/vegetable-soup/> ;
+    ns1:hasFSAScore 6 ;
+    ns1:hasNutritionalInformation [ a ns1:NutritionalInformation ;
+            ns1:hasCalorificData [ a ns1:CalorificData ;
+                    ns1:hasAmount "79.9"^^xsd:float ;
+                    ns1:hasUnit "calories" ] ;
+            ns1:hasCarbohydrateData [ a ns1:CarbohydrateData ;
+                    ns1:hasAmount "6.3"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasCholesterolData [ a ns1:CholesterolData ;
+                    ns1:hasAmount "18.7"^^xsd:float ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasFatData [ a ns1:FatData ;
+                    ns1:hasAmount "3.2"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasFiberData [ a ns1:FiberData ;
+                    ns1:hasAmount "0.9"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasProteinData [ a ns1:ProteinData ;
+                    ns1:hasAmount "6.6"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSaturatedFatData [ a ns1:SaturatedFatData ;
+                    ns1:hasAmount "1.1"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAGreen ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSodiumData [ a ns1:SodiumData ;
+                    ns1:hasAmount "328.0"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasSugarData [ a ns1:SugarData ;
+                    ns1:hasAmount "1.3"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAGreen ;
+                    ns1:hasUnit "g" ] ] ;
+    ns1:hasUSDAScore 5 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 28 ;
+            schema:ratingValue "4.714285714285714"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "1999-01-08T02:17:26.000Z"^^schema:date ;
+    schema:name "Hearty Chicken Vegetable Soup I"^^xsd:string ;
+    schema:recipeYield "10 quarts"^^xsd:string .
+
+<http://purl.org/recipekg/categories/soups-stews-and-chili/> a ns1:RecipeCategory .
+
+<http://purl.org/recipekg/categories/soups-stews-and-chili/soup/> rdfs:subClassOf <http://purl.org/recipekg/categories/soups-stews-and-chili/> .
+
+<http://purl.org/recipekg/categories/soups-stews-and-chili/soup/vegetable-soup/> rdfs:subClassOf <http://purl.org/recipekg/categories/soups-stews-and-chili/soup/> .
+
+ns1:FSAAmber a ns1:FSAColor .
+
+ns1:FSAGreen a ns1:FSAColor .
+

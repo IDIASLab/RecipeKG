@@ -1,0 +1,99 @@
+@prefix ns1: <http://purl.org/heals/food/> .
+@prefix ns2: <http://purl.org/recipekg/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/chocolate-chocolate-cake> a schema:Recipe ;
+    ns1:hasIngredient [ a <http://purl.org/recipekg/ingredient/Egg> ;
+            ns2:hasQuantity "6" ;
+            ns2:ingredientName "egg" ],
+        [ a <http://purl.org/recipekg/ingredient/ChocolateChips> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "package" ;
+            ns2:ingredientName "chocolate chips" ],
+        [ a <http://purl.org/recipekg/ingredient/CoffeeGranules> ;
+            ns2:hasQuantity "2" ;
+            ns2:hasUnit "tablespoon" ;
+            ns2:ingredientName "coffee granules" ],
+        [ a <http://purl.org/recipekg/ingredient/Egg> ;
+            ns2:hasQuantity "6" ;
+            ns2:ingredientName "egg" ],
+        [ a <http://purl.org/heals/ingredient/Water> ;
+            ns2:hasQuantity "5" ;
+            ns2:hasUnit "tablespoon" ;
+            ns2:ingredientName "water" ],
+        [ a <http://purl.org/recipekg/ingredient/Margarine> ;
+            ns2:hasQuantity "1/2" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "margarine" ],
+        [ a <http://purl.org/heals/ingredient/AllPurposeFlour> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "all purpose flour" ],
+        [ a <http://purl.org/recipekg/ingredient/Confectioners'Sugar> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "tablespoon" ;
+            ns2:ingredientName "confectioners' sugar" ],
+        [ a <http://purl.org/heals/ingredient/WhiteSugar> ;
+            ns2:hasQuantity "2" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "white sugar" ],
+        [ a <http://purl.org/heals/ingredient/Butter> ;
+            ns2:hasQuantity "1/2" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "butter" ] ;
+    ns2:belongsTo <http://purl.org/recipekg/categories/desserts/cakes/chocolate-cake/> ;
+    ns2:hasFSAScore 2 ;
+    ns2:hasNutritionalInformation [ a ns2:NutritionalInformation ;
+            ns2:hasCalorificData [ a ns2:CalorificData ;
+                    ns2:hasAmount "356.3"^^xsd:float ;
+                    ns2:hasUnit "calories" ] ;
+            ns2:hasCarbohydrateData [ a ns2:CarbohydrateData ;
+                    ns2:hasAmount "45.3"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasCholesterolData [ a ns2:CholesterolData ;
+                    ns2:hasAmount "92.1"^^xsd:float ;
+                    ns2:hasUnit "mg" ] ;
+            ns2:hasFatData [ a ns2:FatData ;
+                    ns2:hasAmount "19.5"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSARed ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasFiberData [ a ns2:FiberData ;
+                    ns2:hasAmount "1.5"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasProteinData [ a ns2:ProteinData ;
+                    ns2:hasAmount "4.2"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasSaturatedFatData [ a ns2:SaturatedFatData ;
+                    ns2:hasAmount "9.0"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSARed ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasSodiumData [ a ns2:SodiumData ;
+                    ns2:hasAmount "133.0"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSAGreen ;
+                    ns2:hasUnit "mg" ] ;
+            ns2:hasSugarData [ a ns2:SugarData ;
+                    ns2:hasAmount "37.2"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSARed ;
+                    ns2:hasUnit "g" ] ] ;
+    ns2:hasUSDAScore 1 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 19 ;
+            schema:ratingValue "3.3157894736842106"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2020-06-19T03:41:54.000Z"^^schema:date ;
+    schema:name "Chocolate Chocolate Cake"^^xsd:string ;
+    schema:recipeYield "1 9-inch round cake"^^xsd:string .
+
+ns2:FSAGreen a ns2:FSAColor .
+
+<http://purl.org/recipekg/categories/desserts/> a ns2:RecipeCategory .
+
+<http://purl.org/recipekg/categories/desserts/cakes/> rdfs:subClassOf <http://purl.org/recipekg/categories/desserts/> .
+
+<http://purl.org/recipekg/categories/desserts/cakes/chocolate-cake/> rdfs:subClassOf <http://purl.org/recipekg/categories/desserts/cakes/> .
+
+ns2:FSARed a ns2:FSAColor .
+

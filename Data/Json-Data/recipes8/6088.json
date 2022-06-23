@@ -1,0 +1,151 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/134/drinks/coffee/",
+                    "name": "Coffee Drinks Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/281746/pumpkin-cream-cold-brew/",
+        "name": "Pumpkin Cream Cold Brew",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8518335.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-09-07T02:14:18.000Z",
+        "description": "Every fall I eagerly await this iced coffee from that famous coffee shop. What I don't like is that it can be pricey. So I decided to make my own pumpkin cream to be able to enjoy it year round.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": null,
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "2 coffees",
+        "recipeIngredient": [
+            "\u00bd cup heavy whipping cream",
+            "\u00bc cup pumpkin puree",
+            "3 tablespoons pumpkin pie syrup (such as Torani(R)), or to taste",
+            "2 teaspoons pumpkin pie spice",
+            "ice",
+            "2 tablespoons sugar-free vanilla syrup (such as Torani\u00ae)",
+            "1 cup cold brew coffee, or as needed"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine heavy whipping cream, pumpkin puree, pumpkin pie syrup, and pumpkin spice in a bowl. Whip with a hand mixer until creamy and slightly thickened.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Fill 2 glasses with ice. Add 1 tablespoon vanilla syrup to each glass, fill 2/3 of the way with cold brew coffee, and divide pumpkin cream evenly between both.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Coffee Drinks Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Yoly"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Pumpkin Cream Cold Brew",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "222.7 calories",
+            "carbohydrateContent": "5.3 g",
+            "cholesterolContent": "81.5 mg",
+            "fatContent": "22.3 g",
+            "fiberContent": "1.1 g",
+            "proteinContent": "1.8 g",
+            "saturatedFatContent": "13.9 g",
+            "servingSize": null,
+            "sodiumContent": "105.9 mg",
+            "sugarContent": "1.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-02-10T10:06:09.48Z",
+                "reviewBody": "Delicious.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "1kid5kids",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/26320602/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2020-11-29T08:13:28.63Z",
+                "reviewBody": "Delicious! I need to add more coffee next time. I did 3/4 pumpkin cream and 1/4 coffee. Next time I'll do 1/2 and 1/2 of each.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Rider",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/24180125/"
+                }
+            }
+        ]
+    }
+]

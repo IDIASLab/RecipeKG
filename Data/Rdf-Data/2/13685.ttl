@@ -1,0 +1,94 @@
+@prefix ns1: <http://purl.org/recipekg/> .
+@prefix ns2: <http://purl.org/heals/food/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/chinese-corn-soup> a schema:Recipe ;
+    ns2:hasIngredient [ a <http://purl.org/heals/ingredient/AllPurposeFlour> ;
+            ns1:hasQuantity "1 1/2" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "all purpose flour" ],
+        [ ],
+        [ a <http://purl.org/heals/ingredient/ChickenBroth> ;
+            ns1:hasQuantity "5" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "chicken broth" ],
+        [ a <http://purl.org/recipekg/ingredient/Pepper> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "pinch" ;
+            ns1:ingredientName "pepper" ],
+        [ a <http://purl.org/recipekg/ingredient/Egg> ;
+            ns1:hasQuantity "1" ;
+            ns1:ingredientName "egg" ],
+        [ a <http://purl.org/recipekg/ingredient/Nutmeg> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "nutmeg" ],
+        [ a <http://purl.org/heals/ingredient/Onion> ;
+            ns1:hasQuantity "1" ;
+            ns1:ingredientName "onion" ],
+        [ a <http://purl.org/heals/ingredient/Celery> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "stalk" ;
+            ns1:ingredientName "celery" ],
+        [ a <http://purl.org/heals/ingredient/Butter> ;
+            ns1:hasQuantity "1/4" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "butter" ] ;
+    ns1:belongsTo <http://purl.org/recipekg/categories/soups-stews-and-chili/soup/vegetable-soup/> ;
+    ns1:hasFSAScore 4 ;
+    ns1:hasNutritionalInformation [ a ns1:NutritionalInformation ;
+            ns1:hasCalorificData [ a ns1:CalorificData ;
+                    ns1:hasAmount "177.4"^^xsd:float ;
+                    ns1:hasUnit "calories" ] ;
+            ns1:hasCarbohydrateData [ a ns1:CarbohydrateData ;
+                    ns1:hasAmount "19.6"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasCholesterolData [ a ns1:CholesterolData ;
+                    ns1:hasAmount "61.6"^^xsd:float ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasFatData [ a ns1:FatData ;
+                    ns1:hasAmount "10.8"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasFiberData [ a ns1:FiberData ;
+                    ns1:hasAmount "1.7"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasProteinData [ a ns1:ProteinData ;
+                    ns1:hasAmount "3.4"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSaturatedFatData [ a ns1:SaturatedFatData ;
+                    ns1:hasAmount "6.4"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSARed ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSodiumData [ a ns1:SodiumData ;
+                    ns1:hasAmount "322.3"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasSugarData [ a ns1:SugarData ;
+                    ns1:hasAmount "4.0"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAGreen ;
+                    ns1:hasUnit "g" ] ] ;
+    ns1:hasUSDAScore 3 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 5 ;
+            schema:ratingValue "4.2"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2015-11-19T07:11:43.000Z"^^schema:date ;
+    schema:name "Chinese Corn Soup"^^xsd:string ;
+    schema:recipeYield "5 servings"^^xsd:string .
+
+ns1:FSAGreen a ns1:FSAColor .
+
+ns1:FSARed a ns1:FSAColor .
+
+<http://purl.org/recipekg/categories/soups-stews-and-chili/> a ns1:RecipeCategory .
+
+<http://purl.org/recipekg/categories/soups-stews-and-chili/soup/> rdfs:subClassOf <http://purl.org/recipekg/categories/soups-stews-and-chili/> .
+
+<http://purl.org/recipekg/categories/soups-stews-and-chili/soup/vegetable-soup/> rdfs:subClassOf <http://purl.org/recipekg/categories/soups-stews-and-chili/soup/> .
+
+ns1:FSAAmber a ns1:FSAColor .
+

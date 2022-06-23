@@ -1,0 +1,148 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/227/world-cuisine/asian/",
+                    "name": "Asian",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/257914/taro-boba-tea/",
+        "name": "Taro Boba Tea",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3795714.jpg",
+            "width": 1301,
+            "height": 1811
+        },
+        "datePublished": "2020-06-19T04:21:03.000Z",
+        "description": "A cool, delicious drink for a summer day that includes tapioca pearls. Families will love this!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H34M",
+        "totalTime": "P0DT0H56M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "3 small taro roots, peeled and halved",
+            "2\u2009\u00bd cups ice, or to taste, divided",
+            "1 cup milk",
+            "\u00be cup water",
+            "\u00bc cup white sugar",
+            "1\u2009\u00bd teaspoons honey, divided",
+            "\u00bc cup tapioca pearls (boba)"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place taro roots in a small pot; cover with water. Bring to a boil. Cook taro until tender, about 12 minutes. Drain.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine taro roots with 1/2 cup ice in a bowl. Let cool.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine cooled taro roots, remaining 2 cups ice, milk, 3/4 cup water, sugar, and 1/2 teaspoon honey in a blender; blend until smooth.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bring 2 cups water to a boil in a saucepan. Add tapioca pearls; stir gently until they start floating to the surface. Cook for 12 to 15 minutes. Remove from heat, cover, and let stand until tender, 12 to 15 minutes more. Drain. Stir in remaining 1 teaspoon honey.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Divide blended mixture between 2 glasses. Divide tapioca pearls between the glasses.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Asian"
+        ],
+        "recipeCuisine": [
+            "Asian"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Amy"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 2,
+            "ratingCount": 1,
+            "itemReviewed": "Taro Boba Tea",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "256.5 calories",
+            "carbohydrateContent": "55.1 g",
+            "cholesterolContent": "9.8 mg",
+            "fatContent": "2.5 g",
+            "fiberContent": "0.2 g",
+            "proteinContent": "5.2 g",
+            "saturatedFatContent": "1.6 g",
+            "servingSize": null,
+            "sodiumContent": "54.3 mg",
+            "sugarContent": "35.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-03-25T10:59:21.703Z",
+                "reviewBody": "I wanted to like this, I really did... but honestly, this was gross. but better then the other recipe which got 1 star from me.\nno idea how to make it better... also I thought taro was supposed to be purple?",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 2
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Evan Morris",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/25355415/"
+                }
+            }
+        ]
+    }
+]

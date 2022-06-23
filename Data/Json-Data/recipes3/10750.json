@@ -1,0 +1,100 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/238094/cantaloupe-with-salami-salad/",
+        "name": "Cantaloupe with Salami Salad",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1212783.jpg",
+            "width": 960,
+            "height": 960
+        },
+        "datePublished": "2018-06-08T14:15:12.000Z",
+        "description": "A tasty refreshing summer salad that is easy to make and so delicious.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "\u00bd cantaloupe - peeled, seeded, and thinly sliced into strips",
+            "\u00bc pound thinly sliced spicy salami, cut into strips",
+            "2 ounces Parmesan cheese, thinly shaved",
+            "\u00bc cup arugula, chopped",
+            "salt and ground black pepper to taste",
+            "2 tablespoons extra-virgin olive oil",
+            "1 lime, juiced"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Arrange cantaloupe, salami, and Parmesan cheese on a platter. Sprinkle arugula over cantaloupe mixture; season with salt and pepper. Drizzle olive oil and lime juice over salad.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Chris Patti"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Cantaloupe with Salami Salad",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "257.2 calories",
+            "carbohydrateContent": "8.1 g",
+            "cholesterolContent": "40.8 mg",
+            "fatContent": "19.5 g",
+            "fiberContent": "0.6 g",
+            "proteinContent": "12.7 g",
+            "saturatedFatContent": "6.4 g",
+            "servingSize": null,
+            "sodiumContent": "798.6 mg",
+            "sugarContent": "5.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

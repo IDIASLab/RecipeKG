@@ -1,0 +1,61 @@
+@prefix ns1: <http://purl.org/heals/food/> .
+@prefix ns2: <http://purl.org/recipekg/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/apples-by-the-fire> a schema:Recipe ;
+    ns1:hasIngredient [ a <http://purl.org/heals/ingredient/BrownSugar> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "tablespoon" ;
+            ns2:ingredientName "brown sugar" ],
+        [ a <http://purl.org/recipekg/ingredient/Apple> ;
+            ns2:hasQuantity "1" ;
+            ns2:ingredientName "apple" ],
+        [ a <http://purl.org/recipekg/ingredient/Cinnamon> ;
+            ns2:hasQuantity "1/4" ;
+            ns2:hasUnit "teaspoon" ;
+            ns2:ingredientName "cinnamon" ] ;
+    ns2:belongsTo <http://purl.org/recipekg/categories/desserts/fruit-desserts/apple-desserts/> ;
+    ns2:hasFSAScore 2 ;
+    ns2:hasNutritionalInformation [ a ns2:NutritionalInformation ;
+            ns2:hasCalorificData [ a ns2:CalorificData ;
+                    ns2:hasAmount "113.7"^^xsd:float ;
+                    ns2:hasUnit "calories" ] ;
+            ns2:hasCarbohydrateData [ a ns2:CarbohydrateData ;
+                    ns2:hasAmount "30.9"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasFiberData [ a ns2:FiberData ;
+                    ns2:hasAmount "2.9"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasProteinData [ a ns2:ProteinData ;
+                    ns2:hasAmount "0.5"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasSodiumData [ a ns2:SodiumData ;
+                    ns2:hasAmount "5.2"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSAGreen ;
+                    ns2:hasUnit "mg" ] ;
+            ns2:hasSugarData [ a ns2:SugarData ;
+                    ns2:hasAmount "27.4"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSARed ;
+                    ns2:hasUnit "g" ] ] ;
+    ns2:hasUSDAScore 2 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 41 ;
+            schema:ratingValue "4.390243902439025"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2001-03-08T05:19:10.000Z"^^schema:date ;
+    schema:name "Apples by the Fire"^^xsd:string ;
+    schema:recipeYield "1 serving"^^xsd:string .
+
+ns2:FSAGreen a ns2:FSAColor .
+
+ns2:FSARed a ns2:FSAColor .
+
+<http://purl.org/recipekg/categories/desserts/> a ns2:RecipeCategory .
+
+<http://purl.org/recipekg/categories/desserts/fruit-desserts/> rdfs:subClassOf <http://purl.org/recipekg/categories/desserts/> .
+
+<http://purl.org/recipekg/categories/desserts/fruit-desserts/apple-desserts/> rdfs:subClassOf <http://purl.org/recipekg/categories/desserts/fruit-desserts/> .
+

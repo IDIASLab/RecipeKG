@@ -1,0 +1,53 @@
+@prefix ns1: <http://purl.org/recipekg/> .
+@prefix ns2: <http://purl.org/heals/food/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/southwest-chicken-bake> a schema:Recipe ;
+    ns2:hasIngredient [ a <http://purl.org/heals/ingredient/Onion> ;
+            ns1:hasQuantity "2" ;
+            ns1:ingredientName "onion" ],
+        [ a <http://purl.org/recipekg/ingredient/Home> ;
+            ns1:hasQuantity "2 1/2" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "HOME" ],
+        [ a <http://purl.org/heals/ingredient/BlackPepper> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "black pepper" ],
+        [ ],
+        [ a <http://purl.org/recipekg/ingredient/Home> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "HOME" ],
+        [ a <http://purl.org/heals/ingredient/Cheese> ;
+            ns1:hasQuantity "2" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "cheese" ],
+        [ a <http://purl.org/recipekg/ingredient/Dressing> ;
+            ns1:hasQuantity "2" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "Dressing" ],
+        [ a <http://purl.org/heals/ingredient/Brownies> ;
+            ns1:hasQuantity "2 2/3" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "brownies" ],
+        [ a <http://purl.org/heals/ingredient/ChickenBroth> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "pound" ;
+            ns1:ingredientName "chicken broth" ] ;
+    ns1:belongsTo <http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/kraft-natural-shredded-cheese/> ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 140 ;
+            schema:ratingValue "4.664285714285715"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2012-01-17T22:00:01.000Z"^^schema:date ;
+    schema:name "Southwest Chicken Bake"^^xsd:string ;
+    schema:recipeYield "4 servings"^^xsd:string .
+
+<http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/> a ns1:RecipeCategory .
+
+<http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/kraft-natural-shredded-cheese/> rdfs:subClassOf <http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/> .
+

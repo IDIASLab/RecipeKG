@@ -1,0 +1,155 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/133/drinks/cocktails/",
+                    "name": "Cocktail Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1744/drinks/cocktails/whiskey-drinks/",
+                    "name": "Whiskey Drinks Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/235784/orange-maple-cream-cocktail/",
+        "name": "Orange Maple Cream Cocktail",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Orange Maple Cream Cocktail"
+        },
+        "datePublished": "2013-12-06T19:18:32.000Z",
+        "description": "A great and delicious seasonal drink for autumn or Christmas. Omit cream soda for a light orange-maple drink.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "1 cocktail",
+        "recipeIngredient": [
+            "ice",
+            "2 fluid ounces maple-finished whiskey (such as Crown Royal\u00ae)",
+            "1 fluid ounce orange juice",
+            "1 fluid ounce cream soda"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Pour ice into a glass. Pour whiskey, orange juice, and cream soda over ice and stir.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Cocktail Recipes",
+            "Whiskey Drinks Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Allrecipes Member"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 2,
+            "itemReviewed": "Orange Maple Cream Cocktail",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "168.7 calories",
+            "carbohydrateContent": "7.4 g",
+            "cholesterolContent": null,
+            "fatContent": "0.1 g",
+            "fiberContent": "0.1 g",
+            "proteinContent": "0.2 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "11.4 mg",
+            "sugarContent": "6.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-09-23T08:45:46.237Z",
+                "reviewBody": "Not good unless you add A LOT more soda",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 1
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Aubrey Burch",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/10543757/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2021-05-22T11:03:49.757Z",
+                "reviewBody": "I made it. Instead of ice I used vanilla ice cream. I also used a blender and I added the cream soda last that\u2019s how I got it to foam.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Brizy",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/27947216/"
+                }
+            }
+        ]
+    }
+]

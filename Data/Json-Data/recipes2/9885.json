@@ -1,0 +1,114 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/364/desserts/frozen-desserts/",
+                    "name": "Frozen Dessert Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/257824/dessert-taco/",
+        "name": "Dessert Taco",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Dessert Taco"
+        },
+        "datePublished": "2017-04-14T01:56:48.000Z",
+        "description": "Delicious dessert taco. Eat right away or freeze before eating.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "1 dessert taco",
+        "recipeIngredient": [
+            "1 (4 inch) waffle",
+            "1 scoop vanilla ice cream",
+            "1 tablespoon peanut butter, or to taste",
+            "1 tablespoon chocolate syrup, or to taste",
+            "1 tablespoon chocolate shell ice cream topping, or to taste",
+            "1 tablespoon chopped peanuts, or to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place waffle on a work surface or plate; add ice cream. Spoon peanut butter and chocolate syrup over ice cream. Fold waffle around fillings creating a \"taco\" shape.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour enough chocolate shell over \"taco\" so the filling is completely covered and sealed in; top with peanuts. Allow shell to harden.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Frozen Dessert Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Dude"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Dessert Taco",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "405.5 calories",
+            "carbohydrateContent": "49.2 g",
+            "cholesterolContent": "14.3 mg",
+            "fatContent": "20 g",
+            "fiberContent": "3.6 g",
+            "proteinContent": "10.3 g",
+            "saturatedFatContent": "5.1 g",
+            "servingSize": null,
+            "sodiumContent": "462 mg",
+            "sugarContent": "24 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

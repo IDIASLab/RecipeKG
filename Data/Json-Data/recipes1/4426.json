@@ -1,0 +1,150 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/94/soups-stews-and-chili/",
+                    "name": "Soups, Stews and Chili Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/183/soups-stews-and-chili/stews/",
+                    "name": "Stews",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/13192/peruvian-lamb-soup/",
+        "name": "Peruvian Lamb Soup",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Peruvian Lamb Soup"
+        },
+        "datePublished": "1999-03-24T23:36:03.000Z",
+        "description": "Complicated but well worth the effort. Peruvian family recipe passed down since days of the Inca.",
+        "prepTime": null,
+        "cookTime": null,
+        "totalTime": null,
+        "recipeYield": "8 servings",
+        "recipeIngredient": [
+            "2 quarts water",
+            "1 pound lean lamb bones, neck or shank",
+            "1 bunch fresh cilantro",
+            "1 cup red bell pepper",
+            "1 onion, quartered",
+            "4 cloves garlic",
+            "2 tablespoons olive oil",
+            "1 cup dark beer",
+            "3 carrots, sliced",
+            "3 stalks celery, chopped",
+            "1 cup shredded banana squash",
+            "1 large cubed potatoes",
+            "1 cube chicken bouillon",
+            "1 tablespoon salt"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Rinse lamb, and put in pot with water.  Add squash, carrots, and celery.  Bring to a boil, and then simmer for half an hour.  Do not cover.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Twist stems off cilantro bunch.  Put in a blender with 1 cup water.  Blend till liquefied.  Add garlic cloves, onion, red pepper, bouillon cube; chop in blender.  Do not liquefy.  Should be fairly chunky.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Stir fry cilantro mixture in olive oil till onion is translucent.  Add to soup pot with beer, and simmer for 15 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Add potatoes, and simmer for final 15 minutes, or until potatoes are tender. Season to taste with salt.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Soups, Stews and Chili Recipes",
+            "Stews"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Kathleen Volner"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 1,
+            "itemReviewed": "Peruvian Lamb Soup",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "112.6 calories",
+            "carbohydrateContent": "16.7 g",
+            "cholesterolContent": "0.1 mg",
+            "fatContent": "3.6 g",
+            "fiberContent": "3 g",
+            "proteinContent": "2.2 g",
+            "saturatedFatContent": "0.5 g",
+            "servingSize": null,
+            "sodiumContent": "1061.9 mg",
+            "sugarContent": "3.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2003-11-03T11:29:22.78Z",
+                "reviewBody": "Fairly nice but ultimately basic soup. I found that the lamb bones needed to cook much longer (as I had suspected). The soup seemed much improved the following day when I added some barley a little balsamic vinegar and a drop or three of tobasco.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Kuldunia",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/156560/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,101 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/242340/dried-fruit-roll/",
+        "name": "Dried Fruit Roll",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Dried Fruit Roll"
+        },
+        "datePublished": "2018-06-08T14:21:09.000Z",
+        "description": "This is a wonderfully sweet treat without any added sugar! May be chilled, but isn't necessary. Serve sliced. Freezes well.",
+        "prepTime": "P0DT0H30M",
+        "cookTime": null,
+        "totalTime": "P0DT0H30M",
+        "recipeYield": "6 rolls",
+        "recipeIngredient": [
+            "1 pound raisins",
+            "1 pound pitted dates",
+            "1 pound dried figs, stems removed",
+            "1 pound pecan halves",
+            "1 pound unsweetened coconut flakes",
+            "1 tablespoon vanilla extract",
+            "1 teaspoon salt"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Run raisins, dates, figs, pecans, and coconut through a meat grinder into a bowl. Add vanilla extract and salt; mix with your hands and shape into logs. Wrap logs in plastic wrap.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "TGFROST"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Dried Fruit Roll",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "138.4 calories",
+            "carbohydrateContent": "16.2 g",
+            "cholesterolContent": null,
+            "fatContent": "8.7 g",
+            "fiberContent": "3.1 g",
+            "proteinContent": "1.6 g",
+            "saturatedFatContent": "4 g",
+            "servingSize": null,
+            "sodiumContent": "36.2 mg",
+            "sugarContent": "11.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

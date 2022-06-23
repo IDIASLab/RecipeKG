@@ -1,0 +1,160 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17203/desserts/specialty-desserts/",
+                    "name": "Specialty Dessert Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/373/desserts/specialty-desserts/dessert-salads/",
+                    "name": "Dessert Salad Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/242166/cookie-salad/",
+        "name": "Cookie Salad",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8233485.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2018-05-13T13:02:32.000Z",
+        "description": "Yummy whipped salad that the kids and adults love! Keep in the refrigerator.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": null,
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "12 servings",
+        "recipeIngredient": [
+            "1 (16 ounce) package fudge stripe cookies",
+            "1 cup buttermilk",
+            "1 (3.5 ounce) package instant vanilla pudding mix",
+            "3 bananas, cut into 1/2-inch pieces",
+            "1 (8 ounce) container frozen whipped topping (such as Cool Whip\u00ae), thawed",
+            "1 (8 ounce) can mandarin oranges, drained"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Break 2/3 of the fudge stripe cookies into quarters.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Beat buttermilk and pudding mix together in a large bowl until slightly thickened. Stir quartered cookies into pudding. Fold bananas, whipped topping, and oranges into pudding mixture. Top with remaining whole cookies.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Specialty Dessert Recipes",
+            "Dessert Salad Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "JBrent Petrie"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 4,
+            "itemReviewed": "Cookie Salad",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "323.5 calories",
+            "carbohydrateContent": "46.7 g",
+            "cholesterolContent": "0.8 mg",
+            "fatContent": "13.5 g",
+            "fiberContent": "1.8 g",
+            "proteinContent": "3.8 g",
+            "saturatedFatContent": "9 g",
+            "servingSize": null,
+            "sodiumContent": "277.5 mg",
+            "sugarContent": "29.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2016-04-11T02:25:09.62Z",
+                "reviewBody": "Good traditional salad!  I felt this got a little too \"soupy\" and when I make it again, I will cut down the milk.....concerned that the cookies will be completely soggy in a short time.  But very good flavor!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "RubyRoo",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/12600617/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2020-06-14T07:06:13.163Z",
+                "reviewBody": "Our grocery store was out of buttermilk - so I used 3/4 cup milk and 1/2 cup sour cream. Turned out WONDERFUL!!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Marti W. Minear Lyne",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/23505925/"
+                }
+            }
+        ]
+    }
+]

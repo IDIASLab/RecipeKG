@@ -1,0 +1,158 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/134/drinks/coffee/",
+                    "name": "Coffee Drinks Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/8181009/creamer/",
+                    "name": "Creamer",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/275881/homemade-vanilla-coffee-creamer/",
+        "name": "Homemade Vanilla Coffee Creamer",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7840809.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2019-09-13T01:10:19.000Z",
+        "description": "I love cream in my coffee, but I was tired of using scary non-foods in it. Here is what I came up with.",
+        "prepTime": null,
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "20 servings",
+        "recipeIngredient": [
+            "1 pint fat-free half-and-half",
+            "1 (14 ounce) can fat-free sweetened condensed milk",
+            "1 teaspoon cinnamon",
+            "1 teaspoon vanilla extract"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine half-and-half and condensed milk in a small pot over medium-low heat; warm until steaming. Add cinnamon and vanilla extract. Heat for 5 more minutes, being careful not to boil.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Remove from heat and let stand for 5 minutes. Pour in a glass container and store in the refrigerator for up to 10 days.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Coffee Drinks Recipes",
+            "Creamer"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Erinn Danna"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 2,
+            "itemReviewed": "Homemade Vanilla Coffee Creamer",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "70.6 calories",
+            "carbohydrateContent": "14.4 g",
+            "cholesterolContent": "3.7 mg",
+            "fatContent": "0.3 g",
+            "fiberContent": "0.1 g",
+            "proteinContent": "2.1 g",
+            "saturatedFatContent": "0.2 g",
+            "servingSize": null,
+            "sodiumContent": "55.4 mg",
+            "sugarContent": "13.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-11-17T03:40:02.2Z",
+                "reviewBody": "I love this, it is delicious but I will leave out the ground cinnamon the next time. It floated on the top initially then sunk to the bottom and got slimy. I\u2019ll add the cinnamon to my coffee grounds like I used to. Or maybe use a cinnamon stick instead of the ground cinnamon.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Judith Chaney",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/7869506/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2020-03-23T00:42:58.713Z",
+                "reviewBody": "I made this last night so that it would be ready for this mornings coffee. The cinnamon sinks to the bottom so you'll need to shake the container each time you use it. On that note, I didn't care for the cinnamon flavor with this. It just didn't belong in my opinion. This is a simple recipe and one I will make again but next time I will omit the cinnamon and add an extra teaspoon of vanilla.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

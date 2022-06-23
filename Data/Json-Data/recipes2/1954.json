@@ -1,0 +1,144 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/237/world-cuisine/latin-american/",
+                    "name": "Latin American",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/728/world-cuisine/latin-american/mexican/",
+                    "name": "Mexican",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/230884/beveritas311/",
+        "name": "Beveritas311",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F963233.jpg",
+            "width": 1073,
+            "height": 1077
+        },
+        "datePublished": "2014-10-12T06:00:59.000Z",
+        "description": "A different margarita, so smooth you can't do two. Drink slowly and responsibly. Dip the rim of the glass in equal parts white sugar and salt if desired.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "4 margaritas",
+        "recipeIngredient": [
+            "2 cups ice cubes",
+            "\u2153 cup triple sec",
+            "\u2153 cup tequila (such as Jose Cuervo\u00ae)",
+            "\u2153 cup freshly squeezed lime juice"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Fill 4 margarita glasses each with 1/2 cup ice.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Blend triple sec, tequila, and lime juice together in a blender; pour into the prepared margarita glasses.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Latin American",
+            "Mexican"
+        ],
+        "recipeCuisine": [
+            "Latin American",
+            "Mexican"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Beverly Fischer-Steel"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 1,
+            "itemReviewed": "Beveritas311",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "124 calories",
+            "carbohydrateContent": "11.1 g",
+            "cholesterolContent": null,
+            "fatContent": "0.1 g",
+            "fiberContent": "0.1 g",
+            "proteinContent": "0.1 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "5.7 mg",
+            "sugarContent": "8.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2013-02-04T15:18:35.57Z",
+                "reviewBody": "Lots of lime lots of pucker! I love lime I really do but it is so overwhelming in this drink I think the enjoyment gets lost. I jazzed it up with some tonic water--the sweetness from the tonic mellowed it out enough for us to really appreciate the drink.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Arizona Desert Flower",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/arizonadesertflower/"
+                }
+            }
+        ]
+    }
+]

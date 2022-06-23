@@ -1,0 +1,148 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/143/breakfast-and-brunch/drinks/",
+                    "name": "Drinks",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/236373/v-great-juice/",
+        "name": "V-Great Juice",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1100379.jpg",
+            "width": 960,
+            "height": 960
+        },
+        "datePublished": "2014-08-04T06:00:23.000Z",
+        "description": "This is the first juice I made, and I hit it out of the ballpark by just using what I had on hand.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": null,
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "1 serving",
+        "recipeIngredient": [
+            "4 tomatoes (such is Kumato\u00ae)",
+            "4 carrots",
+            "4 stalks celery",
+            "\u00bd cup mixed spring greens, or to taste",
+            "2 leaves kale",
+            "3 radishes",
+            "\u00bc lemon, with rind",
+            "\u00bc lemon, peeled"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Run tomatoes, carrots, celery, spring greens, kale, radishes, lemon with rind, and peeled lemon through a juicer according to  manufacturer's instructions.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Drinks"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Danielle Bourgeois"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 2,
+            "itemReviewed": "V-Great Juice",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "288.2 calories",
+            "carbohydrateContent": "66.8 g",
+            "cholesterolContent": null,
+            "fatContent": "2.7 g",
+            "fiberContent": "21.6 g",
+            "proteinContent": "11.5 g",
+            "saturatedFatContent": "0.4 g",
+            "servingSize": null,
+            "sodiumContent": "387.5 mg",
+            "sugarContent": "32.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2014-06-07T22:24:16.553Z",
+                "reviewBody": "While the taste only warrants a 3 star rating the overall variety of vegetables and nutrition value of this drink give it an extra star.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Jessica Preston",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/13733620/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2014-04-24T03:06:55.78Z",
+                "reviewBody": "I found this to be not good at all. I am going to have to work with these ingredient to see where I need to altar. I think one kale is more then enough.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 2
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Mylitta",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/13513715/"
+                }
+            }
+        ]
+    }
+]

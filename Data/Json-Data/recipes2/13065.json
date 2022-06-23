@@ -1,0 +1,156 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/408/salad/seafood-salad/",
+                    "name": "Seafood Salad Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/2812/salad/seafood-salad/salmon-salad/",
+                    "name": "Salmon Salad Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/236183/artichoke-and-salmon-salad/",
+        "name": "Artichoke and Salmon Salad",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2304005.jpg",
+            "width": 1536,
+            "height": 2048
+        },
+        "datePublished": "2018-01-09T15:00:53.000Z",
+        "description": "This creamy and tangy salad is delicious a dip for crackers or crudites! Great for low-carb diets!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "1 (4 ounce) package cream cheese, at room temperature  ",
+            "2 tablespoons chopped fresh parsley",
+            "\u00bd lemon, juiced",
+            "1 teaspoon Greek seasoning (such as Cavender's\u00ae)",
+            "1 (2.6 ounce) pouch skinless, boneless pink salmon",
+            "1 (14 ounce) can artichoke hearts, drained and chopped"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Mix cream cheese, parsley, lemon, and Greek seasoning together in a bowl; fold in salmon and artichoke hearts.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad",
+            "Seafood Salad Recipes",
+            "Salmon Salad Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "stephanie"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.75,
+            "ratingCount": 4,
+            "itemReviewed": "Artichoke and Salmon Salad",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "110.6 calories",
+            "carbohydrateContent": "6 g",
+            "cholesterolContent": "26.1 mg",
+            "fatContent": "7.5 g",
+            "fiberContent": "1.9 g",
+            "proteinContent": "5.9 g",
+            "saturatedFatContent": "4.3 g",
+            "servingSize": null,
+            "sodiumContent": "422.3 mg",
+            "sugarContent": null,
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2015-05-29T02:19:08.333Z",
+                "reviewBody": "I couldn't find a pouch of salmon in my area of Canada so purchased a small portion of lightly smoked salmon. Increased the Greek seasoning slightly as well as the lemon juice and mixed the salmon in with the cream cheese lemon juice parsley and seasoning. As you can see I ended up with a delightful antipasto lunch with crackers tomato pickles artichoke hearts (my fav) and black olives on the side!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Phoebe",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/phoebe1/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2015-06-01T02:14:22.573Z",
+                "reviewBody": "I sampled this recipe for the Virtual Reality event No 7. I used cilantro instead of parsley and missed adding the Greek seasoning to the recipe.  I enjoyed this dip with my favourite corn chips for a nice light dinner.I would recommend this to anyone who has a liking for homemade dips.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Cheerios",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/cheerios/"
+                }
+            }
+        ]
+    }
+]

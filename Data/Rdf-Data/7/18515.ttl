@@ -1,0 +1,40 @@
+@prefix ns1: <http://purl.org/heals/food/> .
+@prefix ns2: <http://purl.org/recipekg/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/kickin-turkey-club-wrap> a schema:Recipe ;
+    ns1:hasIngredient [ ],
+        [ a <http://purl.org/recipekg/ingredient/Avocado> ;
+            ns2:hasQuantity "1" ;
+            ns2:ingredientName "avocado" ],
+        [ a <http://purl.org/recipekg/ingredient/FlourTortillas> ;
+            ns2:hasQuantity "4" ;
+            ns2:ingredientName "flour tortillas" ],
+        [ a <http://purl.org/heals/ingredient/Bacon> ;
+            ns2:hasQuantity "4" ;
+            ns2:ingredientName "bacon" ],
+        [ a <http://purl.org/recipekg/ingredient/RedPepper> ;
+            ns2:hasQuantity "1/2" ;
+            ns2:ingredientName "red pepper" ],
+        [ a <http://purl.org/recipekg/ingredient/JalapenoCream> ;
+            ns2:hasQuantity "1/2" ;
+            ns2:ingredientName "Jalapeno Cream" ],
+        [ a <http://purl.org/recipekg/ingredient/TurkeyBreast> ;
+            ns2:hasQuantity "8" ;
+            ns2:ingredientName "Turkey Breast" ] ;
+    ns2:belongsTo <http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/philadelphia-cream-cheese/> ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 6 ;
+            schema:ratingValue "4.5"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2013-01-18T22:13:11.000Z"^^schema:date ;
+    schema:name "Kickin' Turkey Club Wrap"^^xsd:string ;
+    schema:recipeYield "4 wraps"^^xsd:string .
+
+<http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/> a ns2:RecipeCategory .
+
+<http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/philadelphia-cream-cheese/> rdfs:subClassOf <http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/> .
+

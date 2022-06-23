@@ -1,0 +1,144 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/143/breakfast-and-brunch/drinks/",
+                    "name": "Drinks",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/244126/raspberry-cantaloupe-smoothie/",
+        "name": "Raspberry Cantaloupe Smoothie",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3103002.jpg",
+            "width": 9288,
+            "height": 9288
+        },
+        "datePublished": "2015-05-22T20:07:22.000Z",
+        "description": "A simple dairy-free smoothie.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "1 cup frozen raspberries",
+            "1 cup chopped cantaloupe",
+            "1 cup vanilla soy milk",
+            "\u00bc cup silken tofu"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Blend raspberries, cantaloupe, soy milk, and tofu together in a blender until smooth.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Drinks"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Sarah-May"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.5,
+            "ratingCount": 2,
+            "itemReviewed": "Raspberry Cantaloupe Smoothie",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "235.6 calories",
+            "carbohydrateContent": "45.9 g",
+            "cholesterolContent": null,
+            "fatContent": "3.7 g",
+            "fiberContent": "6.7 g",
+            "proteinContent": "7.3 g",
+            "saturatedFatContent": "0.5 g",
+            "servingSize": null,
+            "sodiumContent": "70 mg",
+            "sugarContent": "36.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2016-01-10T16:30:30.627Z",
+                "reviewBody": "1.10.16 Very very thick had to add quite a bit more milk to get it to a consistency where I could use a straw instead of a spoon. You taste the raspberries much than the milder cantaloupe but these two flavors partner well. I liked it a lot more than my husband.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "lutzflcat",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/lutzflcat/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2016-12-30T06:26:23.297Z",
+                "reviewBody": "Well I made mine with reg. milk and lemon burst yogurt. Mine was REALLY seedy and I was like: ehhhh......",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Hot_stuff_pheonix",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/21140695/"
+                }
+            }
+        ]
+    }
+]

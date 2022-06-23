@@ -1,0 +1,95 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/280766/frozen-corn-salad/",
+        "name": "Frozen Corn Salad",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F547320.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-07-07T06:26:00.000Z",
+        "description": "This is a fresh, crisp, and colorful frozen corn salad. The cilantro and jalapenos give this salad a nice bite. A quick and super easy salad to have on a hot summer day. Also a great addition to a summer BBQ, though I eat this salad year round. Recipe inspired by Rita Reifenstein's Corn Salad recipe.",
+        "prepTime": "P0DT0H20M",
+        "cookTime": null,
+        "totalTime": "P0DT0H50M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "2 cups frozen corn",
+            "1 cup chopped cucumber",
+            "\u00be cup seeded and chopped Roma tomato",
+            "\u00be cup chopped green bell pepper",
+            "\u00bc cup diced red onion",
+            "\u00bd cup chopped fresh cilantro, or to taste",
+            "1 jalapeno pepper, seeded and diced, or more to taste",
+            "2 tablespoons lime juice",
+            "\u00bc cup ranch salad dressing"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine corn, cucumber, tomato, bell pepper, and red onion in a large salad bowl. Mix in cilantro and jalapeno.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Sprinkle lime juice over the salad. Add ranch dressing and stir. Cover and refrigerate until serving, at least 30 minutes.\n"
+            }
+        ],
+        "recipeCategory": [],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Angela H"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Frozen Corn Salad",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "167.3 calories",
+            "carbohydrateContent": "22.6 g",
+            "cholesterolContent": "4.1 mg",
+            "fatContent": "8.6 g",
+            "fiberContent": "3.4 g",
+            "proteinContent": "3.6 g",
+            "saturatedFatContent": "1.3 g",
+            "servingSize": null,
+            "sodiumContent": "151.9 mg",
+            "sugarContent": "5.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

@@ -1,0 +1,155 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17140/desserts/fruit-desserts/",
+                    "name": "Fruit Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17530/desserts/fruit-desserts/peach-desserts/",
+                    "name": "Peach Dessert Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/241988/stuffed-baked-peaches/",
+        "name": "Stuffed Baked Peaches",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2235525.jpg",
+            "width": 2322,
+            "height": 4128
+        },
+        "datePublished": "2020-03-05T05:13:12.000Z",
+        "description": "Quick and light peaches with a twist, served warm or at room temp.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H25M",
+        "totalTime": "P0DT0H40M",
+        "recipeYield": "4 peach halves",
+        "recipeIngredient": [
+            "\u00bc cup almonds",
+            "\u00bc cup brown sugar",
+            "\u00bc cup butter, cut into cubes",
+            "4 fresh peaches, peeled and halved",
+            "\u00bc cup brandy-based orange liqueur (such as Grand Marnier\u00ae)",
+            "\u00bc cup water"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat oven to 350 degrees F (175 degrees C).\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat a small skillet over medium heat. Toast almonds in hot skillet until fragrant and lightly browned, about 3 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Put almonds and brown sugar into a food processor bowl and process until almonds are chopped; add butter and pulse the mixture until completely blended.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Arrange peaches with the cut sides facing up into the baking dish. Spoon 1 tablespoon almond mixture into the center of each peach. Pour liqueur and water into the baking dish; cover with aluminum foil.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in preheated oven until the peaches are tender, 20 to 30 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Fruit Desserts",
+            "Peach Dessert Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Kim Nichols"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Stuffed Baked Peaches",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "279.5 calories",
+            "carbohydrateContent": "27.4 g",
+            "cholesterolContent": "30.5 mg",
+            "fatContent": "16 g",
+            "fiberContent": "1 g",
+            "proteinContent": "2.1 g",
+            "saturatedFatContent": "7.6 g",
+            "servingSize": null,
+            "sodiumContent": "90.9 mg",
+            "sugarContent": "25.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2015-04-25T05:58:42.903Z",
+                "reviewBody": "This was good and tasted better than it looked. Maybe some alterations would help. Definitely did not need to be in the oven for 30-40 minutes. 25 would be good.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Liz Dalton 'Lizzie'",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/lizzie/"
+                }
+            }
+        ]
+    }
+]

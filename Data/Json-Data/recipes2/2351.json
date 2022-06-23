@@ -1,0 +1,135 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/240731/chocolate-christmas/",
+        "name": "Chocolate Christmas",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4454104.jpg",
+            "width": 2520,
+            "height": 2520
+        },
+        "datePublished": "2015-01-06T21:54:43.000Z",
+        "description": "I created this on the spot and my family and I enjoy it so I hope you do too. For more than two cups, double ingredients.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "6 tablespoons milk",
+            "\u00bc cup chocolate syrup",
+            "1 cup ice",
+            "1 banana, cut into chunks",
+            "3 candy cane chocolate candy kisses, unwrapped"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Blend milk and chocolate syrup together in a blender. Add ice, banana, and candy kisses; blend until smooth.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "wise_goddess"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Chocolate Christmas",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "216.4 calories",
+            "carbohydrateContent": "44.2 g",
+            "cholesterolContent": "5.2 mg",
+            "fatContent": "3.7 g",
+            "fiberContent": "2.7 g",
+            "proteinContent": "3.4 g",
+            "saturatedFatContent": "2.1 g",
+            "servingSize": null,
+            "sodiumContent": "55.9 mg",
+            "sugarContent": "28 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-01-12T05:03:08.14Z",
+                "reviewBody": "Chocolatey minty and refreshing. Good for a quick fix. Quick and easy to make.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Yoly",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/cookingbikerchick/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2018-11-06T23:28:19.447Z",
+                "reviewBody": "Delicious minty and chocobanana love it just one thing it says blend until smooth and the pic doesn t look smooth but that doesn t matter five stars",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "bunnyboo",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/22599899/"
+                }
+            }
+        ]
+    }
+]

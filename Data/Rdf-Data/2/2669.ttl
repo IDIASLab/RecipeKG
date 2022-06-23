@@ -1,0 +1,73 @@
+@prefix ns1: <http://purl.org/recipekg/> .
+@prefix ns2: <http://purl.org/heals/food/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/italian-salami-appetizer-kebabs> a schema:Recipe ;
+    ns2:hasIngredient [ a <http://purl.org/recipekg/ingredient/BasilLeaves> ;
+            ns1:hasQuantity "12" ;
+            ns1:ingredientName "basil leaves" ],
+        [ a <http://purl.org/recipekg/ingredient/CherryTomatoes> ;
+            ns1:hasQuantity "12" ;
+            ns1:ingredientName "cherry tomatoes" ],
+        [ ],
+        [ a <http://purl.org/recipekg/ingredient/BambooSkewers> ;
+            ns1:hasQuantity "12" ;
+            ns1:ingredientName "bamboo skewers" ],
+        [ a <http://purl.org/recipekg/ingredient/Salami> ;
+            ns1:hasQuantity "6" ;
+            ns1:ingredientName "Salami" ],
+        [ a <http://purl.org/recipekg/ingredient/MozzarellaCheese> ;
+            ns1:hasQuantity "12" ;
+            ns1:ingredientName "mozzarella cheese" ] ;
+    ns1:belongsTo <http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/margherita-meats/> ;
+    ns1:hasFSAScore 3 ;
+    ns1:hasNutritionalInformation [ a ns1:NutritionalInformation ;
+            ns1:hasCalorificData [ a ns1:CalorificData ;
+                    ns1:hasAmount "241.9"^^xsd:float ;
+                    ns1:hasUnit "calories" ] ;
+            ns1:hasCarbohydrateData [ a ns1:CarbohydrateData ;
+                    ns1:hasAmount "5.5"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasCholesterolData [ a ns1:CholesterolData ;
+                    ns1:hasAmount "71.0"^^xsd:float ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasFatData [ a ns1:FatData ;
+                    ns1:hasAmount "16.9"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasFiberData [ a ns1:FiberData ;
+                    ns1:hasAmount "0.5"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasProteinData [ a ns1:ProteinData ;
+                    ns1:hasAmount "15.8"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSaturatedFatData [ a ns1:SaturatedFatData ;
+                    ns1:hasAmount "9.8"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSARed ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSodiumData [ a ns1:SodiumData ;
+                    ns1:hasAmount "177.4"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAGreen ;
+                    ns1:hasUnit "mg" ] ] ;
+    ns1:hasUSDAScore 3 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 1 ;
+            schema:ratingValue "3"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2013-10-21T18:53:58.000Z"^^schema:date ;
+    schema:name "Italian Salami Appetizer Kebabs"^^xsd:string ;
+    schema:recipeYield "12 skewers"^^xsd:string .
+
+ns1:FSAAmber a ns1:FSAColor .
+
+ns1:FSAGreen a ns1:FSAColor .
+
+ns1:FSARed a ns1:FSAColor .
+
+<http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/> a ns1:RecipeCategory .
+
+<http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/margherita-meats/> rdfs:subClassOf <http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/> .
+

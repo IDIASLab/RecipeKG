@@ -1,0 +1,142 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/156/bread/",
+                    "name": "Bread",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/360/bread/quick-bread/",
+                    "name": "Quick Bread Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/140020/moist-passover-bagel/",
+        "name": "Moist Passover Bagel",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7964865.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-06-19T03:29:50.000Z",
+        "description": "Moist Passover bagels that are soft and fluffy. They make matzoh take on a new light. You can still have a sandwich on Passover.",
+        "prepTime": "P0DT0H20M",
+        "cookTime": "P0DT0H50M",
+        "totalTime": "P0DT1H10M",
+        "recipeYield": "24 bagels",
+        "recipeIngredient": [
+            "cooking spray",
+            "1\u2009\u2153 cups water",
+            "\u2154 cup peanut oil",
+            "1 teaspoon salt",
+            "1 teaspoon white sugar",
+            "2 cups matzo meal",
+            "6 eggs"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat oven to 375 degrees F (190 degrees C). Lightly grease a baking sheet with cooking spray.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine water, oil, salt, and sugar in a saucepan and bring to a boil. Remove from heat. Add 2 cups matzoh meal; allow to cool for at least 5 minutes. Add eggs, 2 at a time, stirring to incorporate into dough.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Form 2 tablespoons of dough into a ball using wet hands. Transfer to the prepared baking sheet. Repeat with the remaining dough. Poke a hole into the middle of each ball.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated oven until lightly brown, 50 minutes to 1 hour.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Bread",
+            "Quick Bread Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Eva's Kitchen"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Moist Passover Bagel",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "220 calories",
+            "carbohydrateContent": "18.5 g",
+            "cholesterolContent": "93 mg",
+            "fatContent": "14.7 g",
+            "fiberContent": "0.7 g",
+            "proteinContent": "5.1 g",
+            "saturatedFatContent": "2.8 g",
+            "servingSize": null,
+            "sodiumContent": "231.2 mg",
+            "sugarContent": "0.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-08-09T08:10:29.897Z",
+                "reviewBody": "Very tasty.  Softer than a regular bagel, but expected that.  Only things I changed, was used Canola oil vs peanut oil (didn't have any) and let the mix rest for 15 minutes before I formed the balls.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Mark",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/5959746/"
+                }
+            }
+        ]
+    }
+]

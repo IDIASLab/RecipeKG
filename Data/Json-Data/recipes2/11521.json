@@ -1,0 +1,153 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/133/drinks/cocktails/",
+                    "name": "Cocktail Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1744/drinks/cocktails/whiskey-drinks/",
+                    "name": "Whiskey Drinks Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/217233/whiskey-ginger-cocktail/",
+        "name": "Whiskey Ginger Cocktail",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4559821.jpg",
+            "width": 3156,
+            "height": 3157
+        },
+        "datePublished": "2017-09-11T23:25:18.000Z",
+        "description": "The spicy snap of the ginger and rye whiskey together make a super simple cocktail seem complex.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "1 cocktail",
+        "recipeIngredient": [
+            "ice",
+            "2 fluid ounces rye whiskey",
+            "2 fluid ounces ginger ale, or to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Fill a tall cocktail glass with ice. Stir in whiskey and ginger ale.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Cocktail Recipes",
+            "Whiskey Drinks Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Lorem Ipsum"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Whiskey Ginger Cocktail",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "160.4 calories",
+            "carbohydrateContent": "5.3 g",
+            "cholesterolContent": null,
+            "fatContent": null,
+            "fiberContent": null,
+            "proteinContent": null,
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "15.4 mg",
+            "sugarContent": "5.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-09-19T09:06:52.05Z",
+                "reviewBody": "Delicious and easy. Also good with bourbon.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "dan g",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/1789242/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2017-09-20T20:31:01.23Z",
+                "reviewBody": "This drink has convinced me that I am a whiskey drinker.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Buckwheat Queen",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/melaniegiovenzana/"
+                }
+            }
+        ]
+    }
+]

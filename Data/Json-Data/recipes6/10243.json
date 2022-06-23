@@ -1,0 +1,105 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1642/everyday-cooking/",
+                    "name": "Everyday Cooking",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/280661/homemade-strawberry-vinegar/",
+        "name": "Homemade Strawberry Vinegar",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8235938.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-06-18T05:12:05.000Z",
+        "description": "Fruit-infused vinegar can brighten up a salad, and it's quick to make as well.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P2DT0H10M",
+        "recipeYield": "16 servings",
+        "recipeIngredient": [
+            "\u2153 cup fresh strawberries",
+            "1\u2009\u00bd cups white vinegar"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Slice tops of strawberries off. Place strawberries in a colander and wash off any debris. Pat dry and slice.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour vinegar into a sealable jar. Add strawberries to the vinegar. Allow the fruit to infuse at room temperature for 2 days.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Transfer mixture to a sealable bottle. Strain strawberries from the vinegar if desired.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Everyday Cooking"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "thedailygourmet"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Homemade Strawberry Vinegar",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "1.6 calories",
+            "carbohydrateContent": "0.3 g",
+            "cholesterolContent": null,
+            "fatContent": null,
+            "fiberContent": "0.1 g",
+            "proteinContent": null,
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": null,
+            "sugarContent": "0.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

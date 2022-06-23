@@ -1,0 +1,155 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/673/main-dish/pork/",
+                    "name": "Pork",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/670/main-dish/pork/ham/",
+                    "name": "Ham",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/276280/ham-and-cheese-stuffed-meatloaf/",
+        "name": "Ham and Cheese Stuffed Meatloaf",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7290897.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2019-10-05T20:56:52.000Z",
+        "description": "This is a quick and easy way to change up your favorite meatloaf recipe by stuffing it with ham and cheese!",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H45M",
+        "totalTime": "P0DT1H0M",
+        "recipeYield": "1 9x12-inch meatloaf",
+        "recipeIngredient": [
+            "1 pound ground beef",
+            "1 small onion, chopped",
+            "\u00bc cup crushed garlic-herb croutons",
+            "2 eggs",
+            "2 cloves garlic, minced, or to taste",
+            "1 tablespoon Italian seasoning",
+            "1 teaspoon Worcestershire sauce",
+            "1 teaspoon hot sauce",
+            "\u00bd (8 ounce) package block Cheddar cheese",
+            "10 slices deli ham"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat the oven to 350 degrees F (175 degrees C).\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine ground beef, onion, croutons, eggs, garlic, Italian seasoning, Worcestershire sauce, and hot sauce in a bowl until well blended. Scoop half of the meat mixture into a 9x12-inch baking dish and flatten.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cut cheese widthwise into 10 rectangles. Wrap each piece of cheese with ham. Layer the ham and cheese rolls side by side on top of the beef mixture. Place remaining beef mixture on top and press down.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated oven until meatloaf is cooked through, about 45 minutes. An instant-read thermometer inserted into the center should read at least 160 degrees F (70 degrees C).\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Pork",
+            "Ham"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Spaz"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Ham and Cheese Stuffed Meatloaf",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "514.4 calories",
+            "carbohydrateContent": "8 g",
+            "cholesterolContent": "232.9 mg",
+            "fatContent": "34.6 g",
+            "fiberContent": "1.9 g",
+            "proteinContent": "41.3 g",
+            "saturatedFatContent": "15.3 g",
+            "servingSize": null,
+            "sodiumContent": "1240 mg",
+            "sugarContent": "1.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-11-16T00:17:04.473Z",
+                "reviewBody": "Flavor was great but what didn't work for me was the 9x12 baking dish. There was not near enough mixture to cover the bottom let alone top with another layer. A small loaf pan would work better for this. What I really liked about this recipe is the small amount of breadcrumb it called for. It had a really nice consistency.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

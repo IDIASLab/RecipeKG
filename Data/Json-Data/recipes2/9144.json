@@ -1,0 +1,172 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/156/bread/",
+                    "name": "Bread",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/360/bread/quick-bread/",
+                    "name": "Quick Bread Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/350/bread/quick-bread/muffins/",
+                    "name": "Muffin Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/256601/quinoa-raisin-breakfast-bites/",
+        "name": "Quinoa Raisin Breakfast Bites",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4576216.jpg",
+            "width": 3264,
+            "height": 2448
+        },
+        "datePublished": "2017-01-21T01:36:12.000Z",
+        "description": "These protein-packed, dairy-free quinoa raisin muffin bites have no refined sugar. A perfect low-calorie anytime snack. Store in an airtight container in the refrigerator for up to 1 week.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H25M",
+        "totalTime": "P0DT0H55M",
+        "recipeYield": "1 dozen",
+        "recipeIngredient": [
+            "cooking spray",
+            "1 cup cooked quinoa",
+            "1 cup gluten-free oat flour",
+            "\u00bd cup unsweetened vanilla-flavored almond milk",
+            "\u00bc cup maple syrup",
+            "\u00bc cup raisins",
+            "1 egg white",
+            "1 teaspoon vanilla extract",
+            "\u00bc teaspoon ground cinnamon",
+            "1 pinch sea salt"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat oven to 350 degrees F (175 degrees C). Grease a muffin tin with cooking spray.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Mix cooked quinoa, oat flour, almond milk, maple syrup, raisins, egg white, vanilla extract, cinnamon, and salt together in a large bowl.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Fill each muffin cup to the top with quinoa mixture.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated oven until golden brown, about 25 minutes. Cool muffins completely in the tin, about 20 minutes, before removing.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Bread",
+            "Quick Bread Recipes",
+            "Muffin Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Megan Olson"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 2,
+            "ratingCount": 2,
+            "itemReviewed": "Quinoa Raisin Breakfast Bites",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "82.9 calories",
+            "carbohydrateContent": "16.5 g",
+            "cholesterolContent": null,
+            "fatContent": "1.2 g",
+            "fiberContent": "1.4 g",
+            "proteinContent": "2.1 g",
+            "saturatedFatContent": "0.1 g",
+            "servingSize": null,
+            "sodiumContent": "40.1 mg",
+            "sugarContent": "6.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-05-24T03:15:37.09Z",
+                "reviewBody": "I did not like it.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 2
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Alba Egetter Aguilar",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/10556707/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2018-03-09T00:09:29.673Z",
+                "reviewBody": "These proteins bites were really different than what I expected. I found them tasteless (but overly sweet) and the texture was just not to my liking (the quinoa made them somehow gooey). I won't make again. I ended up slicing them toasting them well and serving them with sharp cheddar to counterbalance the sweetness.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 2
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "virgi",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/virgi/"
+                }
+            }
+        ]
+    }
+]

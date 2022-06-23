@@ -1,0 +1,141 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/231/world-cuisine/european/",
+                    "name": "European",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/721/world-cuisine/european/french/",
+                    "name": "French",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/76044/frangipane/",
+        "name": "Frangipane",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4571330.jpg",
+            "width": 4032,
+            "height": 3024
+        },
+        "datePublished": "2020-06-19T03:11:16.000Z",
+        "description": "This can be used as a filling for coffeecake, Danish pastries, croissants, or mixed with fruit for pies. It can also be used plain as a tart filling. If you measure by weight, each ingredient is used in equal amounts.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": null,
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "2 cups",
+        "recipeIngredient": [
+            "\u00bd cup almond paste",
+            "\u00bd cup butter, softened",
+            "\u00bd cup beaten egg",
+            "\u00bd cup white sugar",
+            "1 cup all-purpose flour"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "In a medium bowl, mix together the almond paste, sugar and butter until smooth. Gradually mix in the eggs, and then the flour until well blended. Store in the refrigerator until ready to use.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "European",
+            "French"
+        ],
+        "recipeCuisine": [
+            "European",
+            "French"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "CHRISTINIBEANIE"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 2,
+            "ratingCount": 1,
+            "itemReviewed": "Frangipane",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "146.8 calories",
+            "carbohydrateContent": "15.7 g",
+            "cholesterolContent": "43.5 mg",
+            "fatContent": "8.6 g",
+            "fiberContent": "0.6 g",
+            "proteinContent": "2.5 g",
+            "saturatedFatContent": "4.1 g",
+            "servingSize": null,
+            "sodiumContent": "52.3 mg",
+            "sugarContent": "6.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-10-21T10:17:15.82Z",
+                "reviewBody": "I had some almond paste that was about to reach expiration date. so I decided to make little almond pastries. Instead of making my usual Frangipane that uses ground almond I picked to try this recipe to use up the almond paste. This Frangipane has very little almond flavor. The amount of four sounded like a lot but I went ahead and followed the recipe exactly! After the deceiving taste I went back to check the Frangipane recipe that I usually use for \"Galette des rois\" and it only calls for couple of spoons of flour! I had to cover my pastries with sliced almond to enhance little bit the almond flavor",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 2
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Casablancaise",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/1194262/"
+                }
+            }
+        ]
+    }
+]

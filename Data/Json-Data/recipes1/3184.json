@@ -1,0 +1,160 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/367/desserts/pies/",
+                    "name": "Pies",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/15142/desserts/pies/no-bake-pies/",
+                    "name": "No-Bake Pie Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/15966/millionaire-pie-iii/",
+        "name": "Millionaire Pie III",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Millionaire Pie III"
+        },
+        "datePublished": "1998-12-14T17:24:04.000Z",
+        "description": "Everyone will flip for this recipe; it's simple and good!",
+        "prepTime": null,
+        "cookTime": null,
+        "totalTime": null,
+        "recipeYield": "2 pies",
+        "recipeIngredient": [
+            "2 (9 inch)  prepared graham cracker crusts",
+            "2 (14 ounce) cans sweetened condensed milk",
+            "6 tablespoons lemon juice",
+            "1 (16 ounce) package frozen whipped topping, thawed",
+            "1 cup chopped walnuts"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "In a large bowl, mix together condensed milk and lemon juice. Fold in whipped topping, then stir in walnuts.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour half of mixture into each graham cracker crust. Freeze 4 to 6 hours before serving. Store leftovers in freezer.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Pies",
+            "No-Bake Pie Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Tina"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Millionaire Pie III",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "443.1 calories",
+            "carbohydrateContent": "54.1 g",
+            "cholesterolContent": "16.7 mg",
+            "fatContent": "23.6 g",
+            "fiberContent": "1 g",
+            "proteinContent": "6.6 g",
+            "saturatedFatContent": "10.8 g",
+            "servingSize": null,
+            "sodiumContent": "240 mg",
+            "sugarContent": "44.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2003-01-13T20:55:40.733Z",
+                "reviewBody": "It was pretty good. There isn't that much flavor and would be best served after a rich meal as a light dessert.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Christie Sims Brown",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/758592/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2002-08-29T23:53:15.42Z",
+                "reviewBody": "This recipe was very easy and delicious I especially liked how it sets like a pie and not too soft. I will be sure to take it to my next church and or work function.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "CHEFCAT",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/73477/"
+                }
+            }
+        ]
+    }
+]

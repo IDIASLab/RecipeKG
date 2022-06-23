@@ -1,0 +1,106 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/133/drinks/cocktails/",
+                    "name": "Cocktail Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/238524/hammerhead/",
+        "name": "Hammerhead",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1273807.jpg",
+            "width": 1704,
+            "height": 1705
+        },
+        "datePublished": "2014-07-11T18:55:46.000Z",
+        "description": "You can use whiskey or rum for this potent drink. As you sip the beer, the shot glass slowly empties into the glass. Like a hammerhead shark, this drink really has a bite!",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "1 cocktail",
+        "recipeIngredient": [
+            "1 fluid ounce spiced rum",
+            "1 (12 fluid ounce) can or bottle wheat beer",
+            "1 wedge lemon"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Invert shot glass filled with rum in a beer glass; slowly pour beer over shot glass. Garnish with a lemon wedge.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Cocktail Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "sonjagroset"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Hammerhead",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "230.4 calories",
+            "carbohydrateContent": "16 g",
+            "cholesterolContent": null,
+            "fatContent": null,
+            "fiberContent": "0.6 g",
+            "proteinContent": "2.3 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "9.6 mg",
+            "sugarContent": null,
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

@@ -1,0 +1,128 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/81/side-dish/",
+                    "name": "Side Dish",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/225/side-dish/vegetables/",
+                    "name": "Vegetables",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/256278/braised-cabbage-with-bacon/",
+        "name": "Braised Cabbage with Bacon",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4957140.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2018-03-02T08:30:54.000Z",
+        "description": "Great side dish for about anything. Quick and easy, you can change or add seasonings if desired... but is straight-up good as-is.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H12M",
+        "totalTime": "P0DT0H27M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "1 teaspoon oil",
+            "1 onion, thinly sliced",
+            "\u00bd (6 ounce) package Canadian-style bacon, chopped, or to taste",
+            "1 head white cabbage, thinly sliced",
+            "1 (12 fluid ounce) can or bottle beer"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat oil in a large stockpot over medium heat; cook and stir onion and bacon until fragrant, 2 to 4 minutes. Add cabbage and mix well; pour in beer. Cover stockpot and simmer, stirring occasionally, until cabbage is tender, 10 to 15 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Side Dish",
+            "Vegetables"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "RunningD"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Braised Cabbage with Bacon",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "178.1 calories",
+            "carbohydrateContent": "25.9 g",
+            "cholesterolContent": "10.6 mg",
+            "fatContent": "3 g",
+            "fiberContent": "8.3 g",
+            "proteinContent": "9.2 g",
+            "saturatedFatContent": "0.8 g",
+            "servingSize": null,
+            "sodiumContent": "358.3 mg",
+            "sugarContent": "11.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-01-09T08:31:09.89Z",
+                "reviewBody": "I used butter instead of oil to get a nice brown on the onion and Canadian bacon. Cutting cabbage is one of my least favorite things to do so I bought the already shredded in a bag. Problem with that is that it was super fine and burnt a little before I could get the beer in. My own fault and I did want a little brown on it so it was all good. I really liked the beer flavor with this. It was really good! I did think it could have used some heat so next time I will add some crushed chili flakes.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

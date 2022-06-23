@@ -1,0 +1,155 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17203/desserts/specialty-desserts/",
+                    "name": "Specialty Dessert Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/371/desserts/specialty-desserts/trifles/",
+                    "name": "Trifle Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/245661/cranberry-parfait/",
+        "name": "Cranberry Parfait",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2948858.jpg",
+            "width": 960,
+            "height": 1280
+        },
+        "datePublished": "2020-06-19T04:04:14.000Z",
+        "description": "My grandmother used to make this, but she used saltines and straight cranberry. I've adapted it to fit our family's taste.",
+        "prepTime": "P0DT0H20M",
+        "cookTime": null,
+        "totalTime": "P0DT3H35M",
+        "recipeYield": "10 servings",
+        "recipeIngredient": [
+            "1 (14.5 ounce) can whole berry cranberry sauce",
+            "1 (14 ounce) can jellied cranberry sauce",
+            "\u00bd (14.4 ounce) package graham crackers",
+            "8 ounces heavy whipping cream",
+            "2 teaspoons white sugar",
+            "\u00bd teaspoon vanilla extract"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Chill a large metal bowl in the refrigerator or freezer, about 15 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Mix whole berry cranberry sauce and jellied cranberry sauce together in a bowl.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place graham crackers in a large resealable plastic bag and crush with a rolling pin into crumbs.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour heavy cream into the chilled bowl and whip with an electric mixer on high speed until soft peaks form, about 2 minutes. Add sugar and vanilla extract; whip until medium peaks form, about 2 minutes more.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place half of the graham cracker crumbs in the bottom of a trifle bowl. Top with half of the cranberry mixture and whipped cream. Repeat layers, ending with whipped cream. Chill until set, at least 3 hours.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Specialty Dessert Recipes",
+            "Trifle Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Amy Lawler"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 3,
+            "itemReviewed": "Cranberry Parfait",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "286.5 calories",
+            "carbohydrateContent": "47.7 g",
+            "cholesterolContent": "31.1 mg",
+            "fatContent": "10.5 g",
+            "fiberContent": "1.6 g",
+            "proteinContent": "2 g",
+            "saturatedFatContent": "5.5 g",
+            "servingSize": null,
+            "sodiumContent": "152.3 mg",
+            "sugarContent": "32.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2015-12-12T16:47:30.417Z",
+                "reviewBody": "This is usually the first dish gone during the holidays. Kids love it. It's sweet so if too sweet with the graham crackers you can use the saltines.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Amy Lawler",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/amylawler/"
+                }
+            }
+        ]
+    }
+]

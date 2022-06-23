@@ -1,0 +1,119 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/251/main-dish/sandwiches/",
+                    "name": "Sandwich Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1033/main-dish/sandwiches/cheese/",
+                    "name": "Cheese",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/238894/apple-and-buffalo-monterey-jack-roll/",
+        "name": "Apple and Buffalo Monterey Jack Roll",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1365388.jpg",
+            "width": 960,
+            "height": 960
+        },
+        "datePublished": "2015-06-09T06:00:30.000Z",
+        "description": "Super quick, healthy, and absolutely delicious. I use an Enterprise apple.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "1 sandwich",
+        "recipeIngredient": [
+            "1 tablespoon Dijon mustard",
+            "1 onion roll, split",
+            "\u00bc apple, thinly sliced",
+            "1 slice Buffalo sauce-flavored Monterey jack cheese"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Spread mustard onto cut-sides of onion roll halves. Top one half with apple slices and cheese; sandwich with remaining half.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Sandwich Recipes",
+            "Cheese"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Carrie Reed"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Apple and Buffalo Monterey Jack Roll",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "289.3 calories",
+            "carbohydrateContent": "33.1 g",
+            "cholesterolContent": "25.2 mg",
+            "fatContent": "11.1 g",
+            "fiberContent": "1.8 g",
+            "proteinContent": "13 g",
+            "saturatedFatContent": "6.4 g",
+            "servingSize": null,
+            "sodiumContent": "777.3 mg",
+            "sugarContent": "6.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

@@ -1,0 +1,34 @@
+@prefix ns1: <http://purl.org/heals/food/> .
+@prefix ns2: <http://purl.org/recipekg/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/wilted-arugula-pork-salad> a schema:Recipe ;
+    ns1:hasIngredient [ a <http://purl.org/recipekg/ingredient/PorkLoin> ;
+            ns2:hasQuantity "2" ;
+            ns2:ingredientName "pork loin" ],
+        [ a <http://purl.org/recipekg/ingredient/DryCajunSeasoning> ;
+            ns2:ingredientName "Dry Cajun seasoning" ],
+        [ a <http://purl.org/heals/ingredient/Salt> ;
+            ns2:ingredientName "salt" ],
+        [ a <http://purl.org/heals/ingredient/OliveOil> ;
+            ns2:hasQuantity "1 1/2" ;
+            ns2:hasUnit "tablespoon" ;
+            ns2:ingredientName "olive oil" ],
+        [ ],
+        [ a <http://purl.org/recipekg/ingredient/Arugula> ;
+            ns2:hasQuantity "1" ;
+            ns2:ingredientName "Arugula" ] ;
+    ns2:belongsTo <http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/dole/> ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2011-04-13T20:44:23.000Z"^^schema:date ;
+    schema:name "Wilted Arugula Pork Salad"^^xsd:string ;
+    schema:recipeYield "2 servings"^^xsd:string .
+
+<http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/> a ns2:RecipeCategory .
+
+<http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/dole/> rdfs:subClassOf <http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/> .
+

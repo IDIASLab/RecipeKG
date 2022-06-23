@@ -1,0 +1,152 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/15455/main-dish/meatballs/",
+                    "name": "Meatball Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/268256/gluten-free-parmesan-meatballs/",
+        "name": "Gluten-Free Parmesan Meatballs",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5837100.jpg",
+            "width": 2457,
+            "height": 2455
+        },
+        "datePublished": "2018-09-28T00:55:30.000Z",
+        "description": "This gluten-free meatball recipe is easy to make. My kids loved them. (They couldn't tell the difference.) They are a fine substitute for those who cannot eat gluten. Use them in spaghetti or in meatball sandwiches (my kids' favorite).",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H35M",
+        "totalTime": "P0DT0H50M",
+        "recipeYield": "4 to 5 dozen meatballs",
+        "recipeIngredient": [
+            "2 pounds lean ground beef",
+            "3 eggs",
+            "\u00bd cup gluten-free bread crumbs",
+            "\u00bc cup dried onion flakes",
+            "\u00bc cup Parmesan cheese",
+            "1 tablespoon Italian seasoning, or more to taste",
+            "3 tablespoons olive oil",
+            "2 (24 ounce) jars spaghetti sauce"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine ground beef, eggs, bread crumbs, onion flakes, Parmesan cheese, and Italian seasoning in a large bowl. Mix well. Shape mixture into 4 to 5 dozen meatballs by hand or with a small scoop.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat olive oil in a deep skillet over medium heat. Cook meatballs in batches until browned, about 3 minutes per side. Drain off excess grease if needed. Return all cooked meatballs to the pan and add spaghetti sauce. Reduce heat and simmer until meatballs are no longer pink on the insides, about 20 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Meatball Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "MIS4MUSIC"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.5,
+            "ratingCount": 2,
+            "itemReviewed": "Gluten-Free Parmesan Meatballs",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "382.4 calories",
+            "carbohydrateContent": "23.1 g",
+            "cholesterolContent": "123.6 mg",
+            "fatContent": "21.5 g",
+            "fiberContent": "4 g",
+            "proteinContent": "23 g",
+            "saturatedFatContent": "6.7 g",
+            "servingSize": null,
+            "sodiumContent": "662.5 mg",
+            "sugarContent": "12.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-10-08T22:26:03.123Z",
+                "reviewBody": "These were ok. They weren t particularly tender. Everyone thought they were quite bland too. Next time I ll use half the meat for the same amount of other ingredients.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Buckwheat Queen",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/melaniegiovenzana/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2018-10-09T20:07:39.24Z",
+                "reviewBody": "I went ahead and made half this as meatballs and half as hamburgers. I made several larger meatballs. They will brown really fast so keep an eye. Can't go wrong adding more ingredients to the meats flavoring.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Chef Mo",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/chefmo/"
+                }
+            }
+        ]
+    }
+]

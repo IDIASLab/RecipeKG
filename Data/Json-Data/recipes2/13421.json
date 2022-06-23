@@ -1,0 +1,138 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/81/side-dish/",
+                    "name": "Side Dish",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/917/side-dish/potatoes/",
+                    "name": "Potato",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1457/side-dish/potatoes/mashed-potatoes/",
+                    "name": "Mashed Potato Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/258789/hot-beef-sundae/",
+        "name": "Hot Beef Sundae",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4555528.jpg",
+            "width": 3069,
+            "height": 3069
+        },
+        "datePublished": "2018-02-27T09:09:07.000Z",
+        "description": "We had this at the New York State Fair. When we saw the sign Hot Beef Sundae, we were both curious. Really, it looks just like a hot fudge sundae and when we got home we made our own version.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": null,
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "4 bowls",
+        "recipeIngredient": [
+            "2 cups roast beef with gravy",
+            "2 cups leftover mashed potatoes",
+            "1 cup shredded Cheddar cheese",
+            "\u00bd cup sour cream",
+            "4 cherry tomatoes"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Pile mashed potatoes in each serving bowl to resemble a scoop of vanilla ice cream. Top with roast beef with gravy to resemble hot fudge. Sprinkle Cheddar cheese on top. Dollop sour cream, the \"whipped cream,\" on top. Garnish each sundae with a cherry tomato.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Side Dish",
+            "Potato",
+            "Mashed Potato Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Cindi"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Hot Beef Sundae",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "361.7 calories",
+            "carbohydrateContent": "20.9 g",
+            "cholesterolContent": "70.5 mg",
+            "fatContent": "21.6 g",
+            "fiberContent": "1.8 g",
+            "proteinContent": "21.6 g",
+            "saturatedFatContent": "11.5 g",
+            "servingSize": null,
+            "sodiumContent": "1113.4 mg",
+            "sugarContent": "1.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-09-08T04:55:29.103Z",
+                "reviewBody": "Great way to use up leftover roast beef with gravy and mashed potatoes. Grand kids loved this idea.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "bd.weld",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/bdweld/"
+                }
+            }
+        ]
+    }
+]

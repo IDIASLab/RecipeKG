@@ -1,0 +1,161 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/673/main-dish/pork/",
+                    "name": "Pork",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/670/main-dish/pork/ham/",
+                    "name": "Ham",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/275957/ham-and-cheese-pretzel-panini/",
+        "name": "Ham and Cheese Pretzel Panini",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7072076.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2019-09-17T00:41:34.000Z",
+        "description": "Substitute soft pretzels in place of bread to create a delicious ham and Havarti cheese panini. Serve with mustard for dipping.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "8 panini",
+        "recipeIngredient": [
+            "16 slices deli ham",
+            "16 slices dill Havarti cheese",
+            "16 frozen soft pretzels (such as SuperPretzel\u00ae), thawed"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat an outdoor grill to medium heat (325 to 375 degrees F (160 to 190 degrees C). Lightly oil grill grate.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Divide ham and cheese among 8 pretzels arranged salt-sides down on a baking sheet. Top with remaining pretzels, salt-sides up.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Transfer pretzel panini to grill and top with a heavy oven-safe skillet or bricks wrapped in foil to weigh them down. Close lid; grill panini until cheese is melted, 2 to 3 minutes per side.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Pork",
+            "Ham"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Rachael Ray Every Day"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.6,
+            "ratingCount": 5,
+            "itemReviewed": "Ham and Cheese Pretzel Panini",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "754.7 calories",
+            "carbohydrateContent": "76.4 g",
+            "cholesterolContent": "106.1 mg",
+            "fatContent": "36.2 g",
+            "fiberContent": "1.9 g",
+            "proteinContent": "31.7 g",
+            "saturatedFatContent": "18.7 g",
+            "servingSize": null,
+            "sodiumContent": "2759.3 mg",
+            "sugarContent": "0.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-03-30T15:07:05.19Z",
+                "reviewBody": "Nice recipe,I appreciate your work Desi Food",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Abdul Salam",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/27223483/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2021-03-10T00:39:11.507Z",
+                "reviewBody": "I will try it",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Emily",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/29204423/"
+                }
+            }
+        ]
+    }
+]

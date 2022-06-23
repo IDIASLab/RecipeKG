@@ -1,0 +1,165 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/367/desserts/pies/",
+                    "name": "Pies",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/808/desserts/pies/fruit-pies/",
+                    "name": "Fruit Pies",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 6,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/12947/desserts/pies/fruit-pies/cherry-pie/",
+                    "name": "Cherry Pie Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/24123/mock-cheese-cake-pie/",
+        "name": "Mock Cheese Cake Pie",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1099669.jpg",
+            "width": 3264,
+            "height": 1840
+        },
+        "datePublished": "2020-06-19T03:05:20.000Z",
+        "description": "What could be simpler? Instant pudding mixed with cherry pie filling and yogurt! Excellent served with whipped topping.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": null,
+        "totalTime": "P0DT1H0M",
+        "recipeYield": "1 - 9 inch pie",
+        "recipeIngredient": [
+            "1 cup plain yogurt",
+            "1 (3.5 ounce) package instant vanilla pudding mix",
+            "1 (16 ounce) can cherry pie filling",
+            "3 tablespoons white sugar",
+            "1 (9 inch) prepared graham cracker crust"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "In a large bowl combine yogurt and instant vanilla pudding. Mix well. Stir in cherry pie filling.  Pour filling into pie crust and chill for 30 to 60 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Pies",
+            "Fruit Pies",
+            "Cherry Pie Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "B. H. Snellings"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 2,
+            "itemReviewed": "Mock Cheese Cake Pie",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "276.6 calories",
+            "carbohydrateContent": "51 g",
+            "cholesterolContent": "1.8 mg",
+            "fatContent": "7.1 g",
+            "fiberContent": "0.7 g",
+            "proteinContent": "2.9 g",
+            "saturatedFatContent": "1.7 g",
+            "servingSize": null,
+            "sodiumContent": "357.9 mg",
+            "sugarContent": "26.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2008-06-16T11:27:33.237Z",
+                "reviewBody": "This was okay but not the best. Texture was a little different. It wasn't runny but it wasn't fully set (like pudding). The flavor was okay the cherries were good but it didn't taste like cheesecake at all. My family's compliment was \"this is different it's okay\". I might try making this again with some changes. My thoughts... add 4 oz softened cream cheese in with the pudding and yogurt (to firm it) and add a topping of whipped cream with some marashino cherries (the pie didn't look very pretty).",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 2
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Ellie Limnios Zaccone",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2478417/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2014-06-11T02:12:32.74Z",
+                "reviewBody": "I made this for friends the said that it would be a great summer dessert. I made it with a Greek yogurt. and firm up just fine. But if your expecting cheese cake the flavor wasn't there. I could see making this with a peach or blueberry topping. If you want to save some calories use a fat free graham cracker crust. Thanks Happy Cooking",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "StickySue",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/12469100/"
+                }
+            }
+        ]
+    }
+]

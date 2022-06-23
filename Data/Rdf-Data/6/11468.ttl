@@ -1,0 +1,96 @@
+@prefix ns1: <http://purl.org/recipekg/> .
+@prefix ns2: <http://purl.org/heals/food/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/thai-lettuce-cups-with-red-curry-potatoes> a schema:Recipe ;
+    ns2:hasIngredient [ a <http://purl.org/heals/ingredient/Onion> ;
+            ns1:hasQuantity "2" ;
+            ns1:ingredientName "onion" ],
+        [ a <http://purl.org/heals/ingredient/Carrot> ;
+            ns1:hasQuantity "1" ;
+            ns1:ingredientName "carrot" ],
+        [ a <http://purl.org/recipekg/ingredient/MintLeaves> ;
+            ns1:hasQuantity "3" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "mint leaves" ],
+        [ a <http://purl.org/heals/ingredient/Cilantro> ;
+            ns1:hasQuantity "12" ;
+            ns1:ingredientName "cilantro" ],
+        [ a <http://purl.org/heals/ingredient/Potato> ;
+            ns1:hasQuantity "12" ;
+            ns1:hasUnit "ounce" ;
+            ns1:ingredientName "potato" ],
+        [ a <http://purl.org/heals/ingredient/LemonJuice> ;
+            ns1:hasQuantity "1/3" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "lemon juice" ],
+        [ a <http://purl.org/heals/ingredient/OliveOil> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "olive oil" ],
+        [ a <http://purl.org/recipekg/ingredient/Sugar> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "sugar" ],
+        [ a <http://purl.org/heals/ingredient/SoySauce> ;
+            ns1:hasQuantity "2" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "soy sauce" ],
+        [ a <http://purl.org/recipekg/ingredient/CurryPaste> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "curry paste" ],
+        [ a <http://purl.org/recipekg/ingredient/ButterLettuce> ;
+            ns1:hasQuantity "6" ;
+            ns1:ingredientName "butter lettuce" ] ;
+    ns1:belongsTo <http://purl.org/recipekg/categories/appetizers-and-snacks/wraps-and-rolls/> ;
+    ns1:hasFSAScore 6 ;
+    ns1:hasNutritionalInformation [ a ns1:NutritionalInformation ;
+            ns1:hasCalorificData [ a ns1:CalorificData ;
+                    ns1:hasAmount "144.3"^^xsd:float ;
+                    ns1:hasUnit "calories" ] ;
+            ns1:hasCarbohydrateData [ a ns1:CarbohydrateData ;
+                    ns1:hasAmount "30.4"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasFatData [ a ns1:FatData ;
+                    ns1:hasAmount "2.9"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAGreen ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasFiberData [ a ns1:FiberData ;
+                    ns1:hasAmount "1.8"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasProteinData [ a ns1:ProteinData ;
+                    ns1:hasAmount "2.2"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSaturatedFatData [ a ns1:SaturatedFatData ;
+                    ns1:hasAmount "0.4"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAGreen ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSodiumData [ a ns1:SodiumData ;
+                    ns1:hasAmount "401.7"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasSugarData [ a ns1:SugarData ;
+                    ns1:hasAmount "19.6"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "g" ] ] ;
+    ns1:hasUSDAScore 4 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 1 ;
+            schema:ratingValue "5"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2020-03-05T05:13:44.000Z"^^schema:date ;
+    schema:name "Thai Lettuce Cups with Red Curry Potatoes"^^xsd:string ;
+    schema:recipeYield "6 servings"^^xsd:string .
+
+<http://purl.org/recipekg/categories/appetizers-and-snacks/> a ns1:RecipeCategory .
+
+<http://purl.org/recipekg/categories/appetizers-and-snacks/wraps-and-rolls/> rdfs:subClassOf <http://purl.org/recipekg/categories/appetizers-and-snacks/> .
+
+ns1:FSAAmber a ns1:FSAColor .
+
+ns1:FSAGreen a ns1:FSAColor .
+

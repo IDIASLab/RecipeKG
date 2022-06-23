@@ -1,0 +1,114 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/148/breakfast-and-brunch/eggs/",
+                    "name": "Eggs",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/280888/23600/",
+        "name": "23600",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8323779.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-07-09T20:58:39.000Z",
+        "description": "This is how I fry an egg.",
+        "prepTime": "P0DT0H2M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT0H7M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "4  large eggs eggs",
+            "2 tablespoons butter",
+            "1 pinch salt and ground black pepper to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Melt butter in a saucepan.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Fry eggs in melted butter.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Season with salt and pepper.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Eggs"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "OneCMS User"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "23600",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "244.8 calories",
+            "carbohydrateContent": "0.8 g",
+            "cholesterolContent": "402.5 mg",
+            "fatContent": "21.5 g",
+            "fiberContent": null,
+            "proteinContent": "12.7 g",
+            "saturatedFatContent": "10.4 g",
+            "servingSize": null,
+            "sodiumContent": "299.3 mg",
+            "sugarContent": "0.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

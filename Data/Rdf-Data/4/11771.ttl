@@ -1,0 +1,86 @@
+@prefix ns1: <http://purl.org/recipekg/> .
+@prefix ns2: <http://purl.org/heals/food/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/apple-flavored-pot-roast> a schema:Recipe ;
+    ns2:hasIngredient [ a <http://purl.org/heals/ingredient/Garlic> ;
+            ns1:hasQuantity "3" ;
+            ns1:hasUnit "clove" ;
+            ns1:ingredientName "garlic" ],
+        [ a <http://purl.org/heals/ingredient/LemonJuice> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "can" ;
+            ns1:ingredientName "lemon juice" ],
+        [ a <http://purl.org/heals/ingredient/SoySauce> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "dash" ;
+            ns1:ingredientName "soy sauce" ],
+        [ a <http://purl.org/heals/ingredient/Potato> ;
+            ns1:hasQuantity "3" ;
+            ns1:ingredientName "potato" ],
+        [ a <http://purl.org/heals/ingredient/Carrot> ;
+            ns1:hasQuantity "2" ;
+            ns1:ingredientName "carrot" ],
+        [ a <http://purl.org/recipekg/ingredient/OnionSoup> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "envelope" ;
+            ns1:ingredientName "onion soup" ],
+        [ a <http://purl.org/recipekg/ingredient/BeefChuck> ;
+            ns1:hasQuantity "1" ;
+            ns1:ingredientName "beef chuck" ] ;
+    ns1:belongsTo <http://purl.org/recipekg/categories/main-dish/beef/pot-roast/> ;
+    ns1:hasFSAScore 1 ;
+    ns1:hasNutritionalInformation [ a ns1:NutritionalInformation ;
+            ns1:hasCalorificData [ a ns1:CalorificData ;
+                    ns1:hasAmount "792.1"^^xsd:float ;
+                    ns1:hasUnit "calories" ] ;
+            ns1:hasCarbohydrateData [ a ns1:CarbohydrateData ;
+                    ns1:hasAmount "51.1"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasCholesterolData [ a ns1:CholesterolData ;
+                    ns1:hasAmount "163.6"^^xsd:float ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasFatData [ a ns1:FatData ;
+                    ns1:hasAmount "46.2"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSARed ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasFiberData [ a ns1:FiberData ;
+                    ns1:hasAmount "3.5"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasProteinData [ a ns1:ProteinData ;
+                    ns1:hasAmount "41.8"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSaturatedFatData [ a ns1:SaturatedFatData ;
+                    ns1:hasAmount "18.5"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSARed ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSodiumData [ a ns1:SodiumData ;
+                    ns1:hasAmount "611.2"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasSugarData [ a ns1:SugarData ;
+                    ns1:hasAmount "27.7"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSARed ;
+                    ns1:hasUnit "g" ] ] ;
+    ns1:hasUSDAScore 2 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 82 ;
+            schema:ratingValue "4.585365853658536"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2019-04-02T06:48:08.000Z"^^schema:date ;
+    schema:name "Apple Flavored Pot Roast"^^xsd:string ;
+    schema:recipeYield "6 servings"^^xsd:string .
+
+ns1:FSAAmber a ns1:FSAColor .
+
+<http://purl.org/recipekg/categories/main-dish/> a ns1:RecipeCategory .
+
+<http://purl.org/recipekg/categories/main-dish/beef/> rdfs:subClassOf <http://purl.org/recipekg/categories/main-dish/> .
+
+<http://purl.org/recipekg/categories/main-dish/beef/pot-roast/> rdfs:subClassOf <http://purl.org/recipekg/categories/main-dish/beef/> .
+
+ns1:FSARed a ns1:FSAColor .
+

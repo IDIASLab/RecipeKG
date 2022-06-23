@@ -1,0 +1,101 @@
+@prefix ns1: <http://purl.org/recipekg/> .
+@prefix ns2: <http://purl.org/heals/food/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/holiday-cheese-spread> a schema:Recipe ;
+    ns2:hasIngredient [ a <http://purl.org/heals/ingredient/Salt> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "salt" ],
+        [ a <http://purl.org/recipekg/ingredient/Mustard> ;
+            ns1:hasQuantity "2" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "mustard" ],
+        [ a <http://purl.org/recipekg/ingredient/CreamCheese> ;
+            ns1:hasQuantity "3" ;
+            ns1:ingredientName "cream cheese" ],
+        [ a <http://purl.org/recipekg/ingredient/CelerySalt> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "celery salt" ],
+        [ a <http://purl.org/recipekg/ingredient/Chive> ;
+            ns1:hasQuantity "1 1/2" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "chive" ],
+        [ a <http://purl.org/recipekg/ingredient/ColbyCheese> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "pound" ;
+            ns1:ingredientName "Colby cheese" ],
+        [ a <http://purl.org/recipekg/ingredient/HamSpread> ;
+            ns1:hasQuantity "2" ;
+            ns1:hasUnit "can" ;
+            ns1:ingredientName "ham spread" ],
+        [ a <http://purl.org/heals/ingredient/GreenOnion> ;
+            ns1:hasQuantity "1/4" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "green onion" ],
+        [ a <http://purl.org/recipekg/ingredient/CayennePepper> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "cayenne pepper" ],
+        [ a <http://purl.org/recipekg/ingredient/DryMustard> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "dry mustard" ] ;
+    ns1:belongsTo <http://purl.org/recipekg/categories/appetizers-and-snacks/dips-and-spreads/cheese-dips-and-spreads/cream-cheese-spreads/> ;
+    ns1:hasFSAScore 5 ;
+    ns1:hasNutritionalInformation [ a ns1:NutritionalInformation ;
+            ns1:hasCalorificData [ a ns1:CalorificData ;
+                    ns1:hasAmount "101.9"^^xsd:float ;
+                    ns1:hasUnit "calories" ] ;
+            ns1:hasCarbohydrateData [ a ns1:CarbohydrateData ;
+                    ns1:hasAmount "0.8"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasCholesterolData [ a ns1:CholesterolData ;
+                    ns1:hasAmount "27.0"^^xsd:float ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasFatData [ a ns1:FatData ;
+                    ns1:hasAmount "9.3"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasProteinData [ a ns1:ProteinData ;
+                    ns1:hasAmount "4.1"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSaturatedFatData [ a ns1:SaturatedFatData ;
+                    ns1:hasAmount "5.4"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSARed ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSodiumData [ a ns1:SodiumData ;
+                    ns1:hasAmount "194.1"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAGreen ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasSugarData [ a ns1:SugarData ;
+                    ns1:hasAmount "0.1"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAGreen ;
+                    ns1:hasUnit "g" ] ] ;
+    ns1:hasUSDAScore 3 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 10 ;
+            schema:ratingValue "3.9"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2018-03-21T16:31:36.000Z"^^schema:date ;
+    schema:name "Holiday Cheese Spread"^^xsd:string ;
+    schema:recipeYield "48 servings"^^xsd:string .
+
+ns1:FSAAmber a ns1:FSAColor .
+
+ns1:FSARed a ns1:FSAColor .
+
+<http://purl.org/recipekg/categories/appetizers-and-snacks/> a ns1:RecipeCategory .
+
+<http://purl.org/recipekg/categories/appetizers-and-snacks/dips-and-spreads/> rdfs:subClassOf <http://purl.org/recipekg/categories/appetizers-and-snacks/> .
+
+<http://purl.org/recipekg/categories/appetizers-and-snacks/dips-and-spreads/cheese-dips-and-spreads/> rdfs:subClassOf <http://purl.org/recipekg/categories/appetizers-and-snacks/dips-and-spreads/> .
+
+<http://purl.org/recipekg/categories/appetizers-and-snacks/dips-and-spreads/cheese-dips-and-spreads/cream-cheese-spreads/> rdfs:subClassOf <http://purl.org/recipekg/categories/appetizers-and-snacks/dips-and-spreads/cheese-dips-and-spreads/> .
+
+ns1:FSAGreen a ns1:FSAColor .
+

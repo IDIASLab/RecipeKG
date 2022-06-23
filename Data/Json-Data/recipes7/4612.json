@@ -1,0 +1,143 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1642/everyday-cooking/",
+                    "name": "Everyday Cooking",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1227/everyday-cooking/vegan/",
+                    "name": "Vegan",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1663/everyday-cooking/vegan/side-dishes/",
+                    "name": "Side Dishes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/213676/moms-tzimus/",
+        "name": "Mom's Tzimus",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F627696.jpg",
+            "width": 250,
+            "height": 250
+        },
+        "datePublished": "2020-06-19T03:41:47.000Z",
+        "description": "My Mom developed this recipe which has become a holiday tradition in our family. It's different from many tzimuses because it is not made with sweet potatoes.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT1H10M",
+        "totalTime": "P0DT1H25M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "12 ounces pitted prunes",
+            "2 large potatoes, peeled and cut into chunks",
+            "3 carrots, peeled and sliced into rounds",
+            "1\u2009\u00bd teaspoons lemon juice",
+            "\u00bd cup white sugar",
+            "2 tablespoons matzo meal"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place the prunes in a large saucepan, and add water to barely cover while you peel and cut the potatoes and carrots. Add the potatoes, carrots, lemon juice, and sugar to the water, bring to a boil, and lower heat. Simmer the mixture until the carrots are very tender and the mixture is thick, about 1 hour, stirring every 20 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "If a thicker tzimus is desired, stir in the matzo meal and simmer an additional 30 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Everyday Cooking",
+            "Vegan",
+            "Side Dishes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "andee"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Mom's Tzimus",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "317.7 calories",
+            "carbohydrateContent": "79.1 g",
+            "cholesterolContent": null,
+            "fatContent": "0.5 g",
+            "fiberContent": "7.8 g",
+            "proteinContent": "4.5 g",
+            "saturatedFatContent": "0.1 g",
+            "servingSize": null,
+            "sodiumContent": "34.7 mg",
+            "sugarContent": "43.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2010-06-15T19:26:21.473Z",
+                "reviewBody": "I made this for Pesach past and it was mmm mmm good. I used less sugar and more prunes then it called for.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "menara",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3827711/"
+                }
+            }
+        ]
+    }
+]

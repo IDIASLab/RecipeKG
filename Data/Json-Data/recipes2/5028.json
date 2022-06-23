@@ -1,0 +1,93 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/274674/easy-roasted-brussels-sprouts/",
+        "name": "Easy Roasted Brussels Sprouts",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3167824.jpg",
+            "width": 2448,
+            "height": 3264
+        },
+        "datePublished": "2016-01-24T00:01:42.000Z",
+        "description": "Love the sweetness that comes out by roasting the Brussels sprouts. They go great with just about any main course dish!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H15M",
+        "totalTime": "P0DT0H25M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "1 pound Brussels sprouts",
+            "3 tablespoons extra-virgin olive oil, or as needed",
+            "salt to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat the oven to 425 degrees F (220 degrees C).\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Remove and discard the hard stems from the Brussels sprouts. Halve the sprouts and place on a baking sheet. Drizzle with olive oil and mix until coated. Season with salt.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Roast in the preheated oven until soft, 15 to 20 minutes.\n"
+            }
+        ],
+        "recipeCategory": [],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Nourishing Greens"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Easy Roasted Brussels Sprouts",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "139.9 calories",
+            "carbohydrateContent": "10.2 g",
+            "cholesterolContent": null,
+            "fatContent": "10.5 g",
+            "fiberContent": "4.3 g",
+            "proteinContent": "3.8 g",
+            "saturatedFatContent": "1.5 g",
+            "servingSize": null,
+            "sodiumContent": "28.4 mg",
+            "sugarContent": "2.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

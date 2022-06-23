@@ -1,0 +1,103 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/263692/vegan-raw-sunchoke-salad-with-apples/",
+        "name": "Vegan Raw Sunchoke Salad with Apples",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5287306.jpg",
+            "width": 2448,
+            "height": 2448
+        },
+        "datePublished": "2020-06-19T04:27:36.000Z",
+        "description": "You can eat sunchokes or Jerusalem artichokes raw and you don't even need to peel them. Just make sure you wash them well and then slice them really thinly, ideally with a mandoline.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": null,
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "3 servings",
+        "recipeIngredient": [
+            "1\u2009\u00bd cups thinly sliced sunchokes",
+            "1\u2009\u00be cups thinly sliced peeled apples",
+            "\u00bd cup olive oil",
+            "\u00bc cup orange juice",
+            "salt and freshly ground black pepper to taste",
+            "2 pinches white sugar"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Arrange sliced sunchokes and apples on a serving platter.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine olive oil, orange juice, salt, pepper, and sugar in a blender; blend until creamy. Drizzle over sunchoke-apple mixture.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Marianne"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Vegan Raw Sunchoke Salad with Apples",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "422.8 calories",
+            "carbohydrateContent": "26 g",
+            "cholesterolContent": null,
+            "fatContent": "36.2 g",
+            "fiberContent": "3 g",
+            "proteinContent": "1.8 g",
+            "saturatedFatContent": "5 g",
+            "servingSize": null,
+            "sodiumContent": "56.3 mg",
+            "sugarContent": "17.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

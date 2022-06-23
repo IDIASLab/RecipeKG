@@ -1,0 +1,147 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/133/drinks/cocktails/",
+                    "name": "Cocktail Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1744/drinks/cocktails/whiskey-drinks/",
+                    "name": "Whiskey Drinks Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/217224/cocktail-a-la-louisiane/",
+        "name": "Cocktail a la Louisiane",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F791134.jpg",
+            "width": 250,
+            "height": 250
+        },
+        "datePublished": "2012-02-16T00:47:57.000Z",
+        "description": "There's a lot going on in this complex rye whiskey cocktail named after an old restaurant in New Orleans.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "1 cocktail",
+        "recipeIngredient": [
+            "1\u2009\u00bd cups ice",
+            "1 fluid ounce rye whiskey",
+            "\u00be fluid ounce Benedictine\u00ae liqueur",
+            "\u00be fluid ounce sweet vermouth",
+            "3 dashes aromatic bitters (such as Peychaud's\u00ae)",
+            "1 Maraschino cherry for garnish"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Fill a cocktail shaker with ice.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour in whiskey, Benedictine, sweet vermouth, anise liqueur and bitters. Cover shaker and shake several times to combine.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Stir well and strain into a cocktail glass; garnish with a cherry.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Cocktail Recipes",
+            "Whiskey Drinks Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Lorem Ipsum"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Cocktail a la Louisiane",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "210.5 calories",
+            "carbohydrateContent": "12.6 g",
+            "cholesterolContent": null,
+            "fatContent": null,
+            "fiberContent": "0.1 g",
+            "proteinContent": "0.1 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "14 mg",
+            "sugarContent": "5.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2014-11-06T22:41:49.007Z",
+                "reviewBody": "Great drink I first had this drink at a bar on a recommendation. I've been looking for decent recipe ever since. Comparing different takes. most had equal part rye/bourbon Benedictine and Sweet Vermouth with a couple dashes of Peychauds. But most others add a small part Absinthe or Substitute like Herbsaint or other Pastis liquor.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "jzero29",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/7002758/"
+                }
+            }
+        ]
+    }
+]

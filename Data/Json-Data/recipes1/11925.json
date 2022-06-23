@@ -1,0 +1,162 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/133/drinks/cocktails/",
+                    "name": "Cocktail Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/20214/pina-colada-ii/",
+        "name": "Pina Colada II",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3824585.jpg",
+            "width": 960,
+            "height": 960
+        },
+        "datePublished": "2000-06-19T13:47:25.000Z",
+        "description": "This recipe is excellent for very hot days!",
+        "prepTime": "P0DT0H30M",
+        "cookTime": null,
+        "totalTime": "P0DT2H0M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "1 lemon",
+            "1 tablespoon white sugar",
+            "4 slices canned pineapple",
+            "1 (750 milliliter) bottle white wine",
+            "2 cups lemon-lime flavored carbonated beverage"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Wash lemon very well and cut into fine slices. Put in a gallon jar with sugar. Mince pineapple and put in jar. Pour in wine and soda. Mix with a spoon and refrigerate for 2 hours.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Cocktail Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "M\u00d4NICA"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.666666666666667,
+            "ratingCount": 3,
+            "itemReviewed": "Pina Colada II",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "145.1 calories",
+            "carbohydrateContent": "14.4 g",
+            "cholesterolContent": "0 mg",
+            "fatContent": "0 g",
+            "fiberContent": "0 g",
+            "proteinContent": "0.1 g",
+            "saturatedFatContent": "0 g",
+            "servingSize": null,
+            "sodiumContent": "15.8 mg",
+            "sugarContent": "3.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2009-07-07T17:20:43.01Z",
+                "reviewBody": "Excellent Summertime Drink. I added the wine to the fruit and let set for 2 hours before adding Sprite.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Dan The Man",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3828555/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2012-03-19T00:15:06.97Z",
+                "reviewBody": "Originally I gave this a three because it was pretty bland but it tastes much better after sitting in the fridge for 24 hours. I still think it would be even better with some ginger or coconut added.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "kellieann",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/kellieann/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2016-07-03T01:38:14.187Z",
+                "reviewBody": "Great summertime refresher for hot summer days in the south.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "healtyteach",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2305452/"
+                }
+            }
+        ]
+    }
+]

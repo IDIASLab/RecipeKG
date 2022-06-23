@@ -1,0 +1,281 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/248/main-dish/burgers/",
+                    "name": "Burger Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/473/main-dish/burgers/hamburgers/",
+                    "name": "Hamburgers",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/26604/fancy-hamburgers/",
+        "name": "Fancy Hamburgers",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1071042.jpg",
+            "width": 3264,
+            "height": 2448
+        },
+        "datePublished": "2020-03-05T04:56:55.000Z",
+        "description": "Not your ordinary burger.  A little brown sugar for sweetness and a kick of salsa make these mouth watering. Kids will love them!",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H25M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "1 pound ground beef",
+            "\u00bd cup diced onion",
+            "\u2154 cup chunky salsa",
+            "\u00bd cup ketchup",
+            "\u00bd cup packed brown sugar",
+            "1 egg",
+            "\u00bd cup quick cooking oats",
+            "salt and pepper to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "In a medium bowl, mix ground beef, diced onion, chunky salsa, ketchup, brown sugar, egg, oats, salt and pepper. Form the mixture into patties.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "In a medium skillet over medium heat, fry patties 4 to 5 minutes per side, or to desired doneness.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Burger Recipes",
+            "Hamburgers"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Jessica"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 2.0526315789473686,
+            "ratingCount": 38,
+            "itemReviewed": "Fancy Hamburgers",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "284.5 calories",
+            "carbohydrateContent": "30.8 g",
+            "cholesterolContent": "80.6 mg",
+            "fatContent": "10.6 g",
+            "fiberContent": "1.4 g",
+            "proteinContent": "17.3 g",
+            "saturatedFatContent": "4 g",
+            "servingSize": null,
+            "sodiumContent": "458.7 mg",
+            "sugarContent": "23.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2003-07-21T14:48:45.28Z",
+                "reviewBody": "The mixture was runny and I couldn't form a patty with it.  I ended up adding another 1/2 lb of hamburger and the patties still fell apart.  They were very sweet (too sweet imo).  If I were to cook this again I would add 1/3 c Salsa and a only Tablespoon or so of the brown sugar.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 2
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "BECKYSAYS",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/304309/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2003-05-30T08:59:12.147Z",
+                "reviewBody": "This recipe was a failure.  The burgers came apart and when you tried to cook them they burned on the outside.  I tried to cook them in an iron skillrt and they stuck to the skillet because of the brown sugar.  Because of this, I now cannot get the goo off my skillet.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 1
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "BARBRAP",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/660336/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2003-09-03T21:01:39.35Z",
+                "reviewBody": "Too much moisture. Kept falling apart,but very tasty, so I threw it in a loaf pan, baked it for an hour and we ate meatloaf!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 2
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "PANDABEAR01",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/819681/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2008-03-11T00:10:20.08Z",
+                "reviewBody": "Not too fancy that is for sure!  It was a mess.  Fell apart, burned, way to sweet.  Sounded good on paper but was really a disaster!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 1
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "knowsgoodtaste",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2225967/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2009-04-15T20:09:09.53Z",
+                "reviewBody": "This was a disaster and a total waste of good hamburger. The patties were runny, no way to form them into patties.  Do not try this recipe.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 1
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Gayla",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3523780/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2006-05-30T22:15:39.043Z",
+                "reviewBody": "I'm glad I only made a small batch of this for the kids.  It was a sloppy MESS!  They didn't even like it.  I couldn't stand the smell of them cooking.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 1
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Sean Lowe",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/814580/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2003-05-05T15:19:01.687Z",
+                "reviewBody": "Just didn't work out for me. While the flavor wasn't hideous, the burgers wouldn't hold together, and they burned before they were done even on lowered heat. Won't be trying this recipe again.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 1
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Whitey",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/786819/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2003-02-12T12:07:16.263Z",
+                "reviewBody": "I did not care for this recipe at all!  My children are complete sweet eaters and they were shocked by the outcome of this meal. I would never cook this again. (WAY TOO SWEET)",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 2
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "TONIA JAY",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/741639/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2002-11-26T01:55:47.123Z",
+                "reviewBody": "The raw burger came out too moist and wouldn't hold together.  I ended up frying one as per the recipe instructions and, when it didn't come out the way I expected, I broiled the rest, which worked out a little better.  My husband liked the spiciness of the taste, but we all agreed it was too sweet.  I wouldn't make this one again.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 1
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "mlansell",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/mlansell/"
+                }
+            }
+        ]
+    }
+]

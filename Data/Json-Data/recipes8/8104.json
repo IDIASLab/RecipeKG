@@ -1,0 +1,147 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/95/pasta-and-noodles/",
+                    "name": "Pasta and Noodles",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/530/pasta-and-noodles/noodles/",
+                    "name": "Noodle Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/562/pasta-and-noodles/noodles/egg-noodles/",
+                    "name": "Egg Noodle Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/282055/thanksgiving-egg-noodles/",
+        "name": "Thanksgiving Egg Noodles",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F511391.jpg",
+            "width": 250,
+            "height": 250
+        },
+        "datePublished": "2010-11-14T19:40:25.000Z",
+        "description": "This is drop dead simple, but absolutely delicious. We can't have a Thanksgiving without these classic egg noodles.",
+        "prepTime": "P0DT0H20M",
+        "cookTime": "P0DT0H20M",
+        "totalTime": "P0DT1H50M",
+        "recipeYield": "7 servings",
+        "recipeIngredient": [
+            "2\u2009\u00bd cups all-purpose flour",
+            "1 pinch salt",
+            "\u00bd cup milk",
+            "2 large eggs, beaten",
+            "1 tablespoon unsalted butter",
+            "1 (32 fluid ounce) container chicken stock, or as needed"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Stir flour and salt together in a large bowl. Add milk, beaten eggs, and butter. Knead dough until smooth, about 5 minutes. Let rest in a covered bowl for 10 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Roll dough out on a floured surface to 1/8 or 1/4 inch thickness. Cut into desired lengths and shapes. Allow to air dry before cooking, at least 1 hour.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bring chicken stock to a boil in a large pot. Add noodles; cook at a boil until noodles are salt with no bite and the broth has thickened, about 15 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Pasta and Noodles",
+            "Noodle Recipes",
+            "Egg Noodle Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "James Noble"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Thanksgiving Egg Noodles",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "212.2 calories",
+            "carbohydrateContent": "35.6 g",
+            "cholesterolContent": "59.3 mg",
+            "fatContent": "4.2 g",
+            "fiberContent": "1.2 g",
+            "proteinContent": "7.3 g",
+            "saturatedFatContent": "1.9 g",
+            "servingSize": null,
+            "sodiumContent": "439.7 mg",
+            "sugarContent": "1.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-11-13T11:21:39.87Z",
+                "reviewBody": "Made these noodles for a quick chicken noodle soup. I rolled them out thin1/4\u201d  between parchment paper and cut with pizza wheel into 1/2\u201d wide or less pieces. They cooked fast and were a nice chewy egg noodle. I usually add salt, pepper and onion powder for my palate.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Land of Yip",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/4659858/"
+                }
+            }
+        ]
+    }
+]

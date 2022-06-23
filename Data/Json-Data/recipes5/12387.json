@@ -1,0 +1,139 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/133/drinks/cocktails/",
+                    "name": "Cocktail Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1743/drinks/cocktails/vodka-drinks/",
+                    "name": "Vodka Drinks Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/277471/gingerbread-martini/",
+        "name": "Gingerbread Martini",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7471323.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2019-12-03T20:34:48.000Z",
+        "description": "This gingerbread martini is a yummy holiday treat.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "1 martini",
+        "recipeIngredient": [
+            "1 ounce Irish cream liqueur (such as Bailey's\u00ae)",
+            "1 ounce milk",
+            "\u00bd (1.5 fluid ounce) jigger coffee-flavored liqueur (such as Kahlua\u00ae)",
+            "\u00bd (1.5 fluid ounce) jigger vodka",
+            "\u00bd (1.5 fluid ounce) jigger gingerbread-flavored syrup (such as Monin\u00ae)",
+            "\u00bc cup ice, or as needed"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine Irish cream liqueur, milk, coffee-flavored liqueur, vodka, and gingerbread flavored syrup in a cocktail mixer. Fill with ice, cover, and shake vigorously until combined. Strain into a chilled martini glass.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Cocktail Recipes",
+            "Vodka Drinks Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "fran b"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 1,
+            "itemReviewed": "Gingerbread Martini",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "313.9 calories",
+            "carbohydrateContent": "42.1 g",
+            "cholesterolContent": "2.4 mg",
+            "fatContent": "0.7 g",
+            "fiberContent": null,
+            "proteinContent": "1 g",
+            "saturatedFatContent": "0.4 g",
+            "servingSize": null,
+            "sodiumContent": "25.4 mg",
+            "sugarContent": "34.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-12-19T07:39:31.62Z",
+                "reviewBody": "As much as I like Bailey's it's the only flavor I could detect. I used Torani Gingerbread syrup and I think it needs to be more maybe 1 oz or even more. Another thing I would do is omit the milk. I will play around with this until the gingerbread flavor comes through.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Yoly",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/cookingbikerchick/"
+                }
+            }
+        ]
+    }
+]

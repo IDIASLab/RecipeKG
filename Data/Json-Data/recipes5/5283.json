@@ -1,0 +1,157 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/93/seafood/",
+                    "name": "Seafood",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/411/seafood/fish/",
+                    "name": "Fish",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/415/seafood/fish/tuna/",
+                    "name": "Tuna",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/223139/guac-and-roll/",
+        "name": "Guac and Roll",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F881714.jpg",
+            "width": 250,
+            "height": 250
+        },
+        "datePublished": "2019-07-10T07:03:33.000Z",
+        "description": "Great sandwich for two, for those on a calorie-sensitive diet.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "1 (5 ounce) can light oil-packed tuna",
+            "\u2154 cup guacamole",
+            "\u00bc cup chopped tomatoes",
+            "1 tablespoon light mayonnaise",
+            "1 teaspoon lemon juice",
+            "1 teaspoon ground flax seed",
+            "2 (6 inch) hoagie rolls, halved and split lengthwise"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Mix tuna, guacamole, tomatoes, mayonnaise, lemon juice, and flax seed in a bowl with a fork. Fill split rolls with tuna mixture.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Seafood",
+            "Fish",
+            "Tuna"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "gp"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 3,
+            "itemReviewed": "Guac and Roll",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "415 calories",
+            "carbohydrateContent": "45.2 g",
+            "cholesterolContent": "21.5 mg",
+            "fatContent": "15.5 g",
+            "fiberContent": "5.6 g",
+            "proteinContent": "24.2 g",
+            "saturatedFatContent": "2.8 g",
+            "servingSize": null,
+            "sodiumContent": "519.8 mg",
+            "sugarContent": "3.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-06-25T05:55:38.923Z",
+                "reviewBody": "I added onions and mustard in the mixture for added flavor and crunch.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "purnellv",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/13554608/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2012-08-29T19:15:59.86Z",
+                "reviewBody": "This was an unusual combinaton. I had to add in a lot of salsa for my taste. The tuna threw me off. It did taste better the next day. My 7 year old liked it though.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Courtney Servantes",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/courtservantes/"
+                }
+            }
+        ]
+    }
+]

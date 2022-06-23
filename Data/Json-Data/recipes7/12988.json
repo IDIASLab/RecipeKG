@@ -1,0 +1,165 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/219/salad/vegetable-salads/",
+                    "name": "Vegetable Salad Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/15103/salad/vegetable-salads/broccoli-salad/",
+                    "name": "Broccoli Salad Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/242323/broccoli-and-bacon-salad/",
+        "name": "Broccoli and Bacon Salad",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2323068.jpg",
+            "width": 5184,
+            "height": 3888
+        },
+        "datePublished": "2020-06-19T04:03:06.000Z",
+        "description": "This is a great salad for picnics or potlucks! This version of broccoli salad uses more vinegar and less mayonnaise than most recipes. This gives you a slightly different, healthier option when choosing your next side dish. It's best if you wait until right before serving to add the dressing to keep bacon crisp.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H25M",
+        "recipeYield": "8 servings",
+        "recipeIngredient": [
+            "1 pound bacon",
+            "2 heads broccoli, cut into florets",
+            "1 cup sunflower seeds",
+            "\u00bd cup chopped green onions",
+            "\u00bd cup mayonnaise",
+            "6 tablespoons apple cider vinegar",
+            "\u00bc cup white sugar"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place bacon in a large skillet and cook over medium-high heat, turning occasionally, until evenly browned, about 10 minutes. Drain bacon slices on paper towels. Tear bacon into small pieces.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine broccoli, bacon, sunflower seeds, and green onions in a bowl.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Whisk mayonnaise, vinegar, and sugar together in a bowl; pour over broccoli mixture and toss to coat.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad",
+            "Vegetable Salad Recipes",
+            "Broccoli Salad Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Diana Bull"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.6666666666666665,
+            "ratingCount": 3,
+            "itemReviewed": "Broccoli and Bacon Salad",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "358.6 calories",
+            "carbohydrateContent": "16.1 g",
+            "cholesterolContent": "25.7 mg",
+            "fatContent": "28.2 g",
+            "fiberContent": "3.7 g",
+            "proteinContent": "13 g",
+            "saturatedFatContent": "5 g",
+            "servingSize": null,
+            "sodiumContent": "536.3 mg",
+            "sugarContent": "8.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2015-06-10T22:42:04.733Z",
+                "reviewBody": "Very good! I liked that this used less mayo (I used Hellmann's light mayo). I also used less bacon than called for just to keep it a little lighter. Made earlier in the day and kept in the fridge until ready to serve. I would make this again! Thanks for sharing.:)",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Christina",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/christina/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2016-07-04T08:20:54.877Z",
+                "reviewBody": "I followed the recipe exactly. Look it to a family BBQ and everybody raved on how good it tasted. I will definitely make this again. Maybe next time I will add some halved cherry or grape tomatoes and feta cheese to give it a little Mediterranean flare.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Jody Duvall Knutson",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/18259999/"
+                }
+            }
+        ]
+    }
+]

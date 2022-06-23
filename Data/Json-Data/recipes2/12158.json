@@ -1,0 +1,126 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1199/drinks/hot-chocolate/",
+                    "name": "Hot Chocolate Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/260823/maple-syrup-hot-chocolate/",
+        "name": "Maple Syrup Hot Chocolate",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4576335.jpg",
+            "width": 3456,
+            "height": 4608
+        },
+        "datePublished": "2017-10-14T03:53:41.000Z",
+        "description": "Delicious hot chocolate!",
+        "prepTime": null,
+        "cookTime": "P0DT0H7M",
+        "totalTime": "P0DT0H7M",
+        "recipeYield": "1 serving",
+        "recipeIngredient": [
+            "1 cup fat-free milk",
+            "2 teaspoons maple syrup",
+            "1\u2009\u00bd teaspoons cocoa powder "
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Bring milk to a boil in a small saucepan. Add maple syrup and cocoa powder, stirring occasionally, until completely dissolved.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Hot Chocolate Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "luckycharm416"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Maple Syrup Hot Chocolate",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "124.4 calories",
+            "carbohydrateContent": "22.6 g",
+            "cholesterolContent": "4.9 mg",
+            "fatContent": "0.6 g",
+            "fiberContent": "0.9 g",
+            "proteinContent": "8.8 g",
+            "saturatedFatContent": "0.4 g",
+            "servingSize": null,
+            "sodiumContent": "104.7 mg",
+            "sugarContent": "20.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-11-01T20:01:11.05Z",
+                "reviewBody": "This was super good! I used coconut milk instead and made as directed. Next time I'll up the cocoa to 2 teaspoon as well. Will try in microwave too mixing often.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Chef V",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/4562668/"
+                }
+            }
+        ]
+    }
+]

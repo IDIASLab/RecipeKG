@@ -1,0 +1,142 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/219/salad/vegetable-salads/",
+                    "name": "Vegetable Salad Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/256540/salat-yirakot/",
+        "name": "Salat Yirakot",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4473097.jpg",
+            "width": 3629,
+            "height": 2721
+        },
+        "datePublished": "2019-07-10T07:10:32.000Z",
+        "description": "A spiced and chilled Mediterranean salad.",
+        "prepTime": "P0DT0H35M",
+        "cookTime": null,
+        "totalTime": "P0DT1H0M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "2 tomatoes, diced",
+            "2 green bell peppers, diced",
+            "1 red bell pepper, diced, or more to taste",
+            "\u00bd cucumber, diced",
+            "\u00bd cup olive oil",
+            "\u00bd red onion, diced",
+            "2 scallions, chopped",
+            "2 tablespoons lemon juice",
+            "1 tablespoon chopped fresh parsley, or to taste",
+            "1 tablespoon chopped fresh mint, or to taste",
+            "1 tablespoon chopped fresh dill, or to taste",
+            "2 teaspoons vinegar",
+            "2 cloves garlic, minced",
+            "\u00bd teaspoon ground sumac",
+            "salt and ground black pepper to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine tomatoes, green bell peppers, red bell pepper, cucumber, olive oil, red onion, scallions, lemon juice, parsley, mint, dill, vinegar, garlic, sumac, salt, and pepper in a large bowl; mix thoroughly.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Chill tomato mixture until flavors combine, about 25 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad",
+            "Vegetable Salad Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Theophilus Floyd"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Salat Yirakot",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "289.7 calories",
+            "carbohydrateContent": "11.5 g",
+            "cholesterolContent": null,
+            "fatContent": "27.4 g",
+            "fiberContent": "3.1 g",
+            "proteinContent": "2.1 g",
+            "saturatedFatContent": "3.8 g",
+            "servingSize": null,
+            "sodiumContent": "49.3 mg",
+            "sugarContent": "5.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-02-16T05:03:13.36Z",
+                "reviewBody": "Nice! I did not have a red pepper on hand so I just omitted that. I liked the flavors here and I really enjoy anything w/ sumac. I will be making this again! Thanks for sharing.:)",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Christina",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/christina/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,142 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/94/soups-stews-and-chili/",
+                    "name": "Soups, Stews and Chili Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/171/soups-stews-and-chili/broth-and-stocks/",
+                    "name": "Broth and Stock Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/144301/hoshi-shiitake-dashi/",
+        "name": "Hoshi-Shiitake Dashi",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4461250.jpg",
+            "width": 2668,
+            "height": 2668
+        },
+        "datePublished": "2019-04-04T03:44:27.000Z",
+        "description": "This is a Japanese soup stock. This is one of the many ways to make Dashi soup. The mushrooms can be used for different recipes after used in this recipe. This soup stock is good for recipes like Nikujaga (Japanese meat and potatoes).",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT0H30M",
+        "recipeYield": "4 cups",
+        "recipeIngredient": [
+            "4 cups water",
+            "4 dried shiitake mushrooms"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine the water and mushrooms in a saucepan; let stand 10 minutes. Bring to a boil; remove from heat and  let stand another 20 minutes. Strain through a mesh strainer before using.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Soups, Stews and Chili Recipes",
+            "Broth and Stock Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Hinata"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Hoshi-Shiitake Dashi",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "10.7 calories",
+            "carbohydrateContent": "2.7 g",
+            "cholesterolContent": null,
+            "fatContent": null,
+            "fiberContent": "0.4 g",
+            "proteinContent": "0.3 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "7.6 mg",
+            "sugarContent": "0.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2011-01-25T23:53:27.027Z",
+                "reviewBody": "Perfect for Nikujaga!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "CajunCutie",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/6414964/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2017-01-21T11:02:14.477Z",
+                "reviewBody": "This is very flavorful from the shiitake. I will make nikujaga with it as well as a few other recipes.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "B. Tario",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/b_tario/"
+                }
+            }
+        ]
+    }
+]

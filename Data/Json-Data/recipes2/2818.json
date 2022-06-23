@@ -1,0 +1,149 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/92/meat-and-poultry/",
+                    "name": "Meat and Poultry",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/205/meat-and-poultry/pork/",
+                    "name": "Pork",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/669/meat-and-poultry/pork/bacon/",
+                    "name": "Bacon",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 6,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/14741/meat-and-poultry/pork/bacon/appetizers/",
+                    "name": "Appetizers",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/241783/bananas-wrapped-in-bacon/",
+        "name": "Bananas Wrapped in Bacon",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2189478.jpg",
+            "width": 3296,
+            "height": 2472
+        },
+        "datePublished": "2015-03-19T22:22:39.000Z",
+        "description": "This is an unlikely pairing. Any time I mention it, I get a weird face. But when I make it, everyone is shocked by how great they really are, and beg for more!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H15M",
+        "totalTime": "P0DT0H25M",
+        "recipeYield": "10 servings",
+        "recipeIngredient": [
+            "3 bananas, cut into 1/2-inch slices, or more to taste",
+            "10 slices bacon, cut in half"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Wrap each banana slice with a piece of bacon.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Fry wrapped banana in a skillet until bacon is desired crispness, 15 to 30 minutes. Remove wrapped bananas from skillet with a toothpick and place on a serving dish.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Meat and Poultry",
+            "Pork",
+            "Bacon",
+            "Appetizers"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Nattie"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 2,
+            "ratingCount": 1,
+            "itemReviewed": "Bananas Wrapped in Bacon",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "81.3 calories",
+            "carbohydrateContent": "8.2 g",
+            "cholesterolContent": "10.1 mg",
+            "fatContent": "4 g",
+            "fiberContent": "0.9 g",
+            "proteinContent": "3.8 g",
+            "saturatedFatContent": "1.3 g",
+            "servingSize": null,
+            "sodiumContent": "212.9 mg",
+            "sugarContent": "4.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2015-04-22T18:52:03.223Z",
+                "reviewBody": "I really wanted to like this dish. I used Maple bacon which i though would go nicely with the banana. I cooked for about 7 minutes and had to turn over to cook some more to get all sides crispy(total about 14-15 minutes)I removed them from pan and placed on a paper towel to drain off the extra grease and then transferred them to a plate. The banana was mushy and almost weird to eat.s) Perhaps if making this serve it over top of pancakes for a fun topping or even on a Peanut butter sandwich-it might actually taste okay like that!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 2
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Chef V",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/4562668/"
+                }
+            }
+        ]
+    }
+]

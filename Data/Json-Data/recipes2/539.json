@@ -1,0 +1,174 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/237/world-cuisine/latin-american/",
+                    "name": "Latin American",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/728/world-cuisine/latin-american/mexican/",
+                    "name": "Mexican",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/213704/mandarin-margaritas/",
+        "name": "Mandarin Margaritas",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F383480.jpg",
+            "width": 250,
+            "height": 250
+        },
+        "datePublished": "2014-01-16T07:00:24.000Z",
+        "description": "An old friend of mine, famous tequila maker, made this margarita for me. I like it because the fresh juice makes me feel healthy, while the tequila makes my spirit feel better. The agave honey is a delicious alternative to sugar, which makes this margarita even better!",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "1 cup fresh tangerine juice",
+            "1 cup ice",
+            "2 (1.5 fluid ounce) jiggers premium tequila blanco",
+            "1 tablespoon agave nectar"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Blend the tangerine juice, ice, tequila, and agave nectar in a blender until the ice is thoroughly crushed. Dispense into 2 margarita glasses to serve.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Latin American",
+            "Mexican"
+        ],
+        "recipeCuisine": [
+            "Latin American",
+            "Mexican"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "gem"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 3,
+            "itemReviewed": "Mandarin Margaritas",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "180.1 calories",
+            "carbohydrateContent": "20.5 g",
+            "cholesterolContent": null,
+            "fatContent": "0.2 g",
+            "fiberContent": "0.7 g",
+            "proteinContent": "0.6 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "5.4 mg",
+            "sugarContent": "19.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2010-08-23T18:38:10.343Z",
+                "reviewBody": "Made original which was just okay very weak. Added triple sec lime juice and more ice and it turned out much better!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 2
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Sarah",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/4099639/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2010-04-19T20:35:19.287Z",
+                "reviewBody": "Something was missing from this recipe. I think it needs to be made a little richer with some Grand Marnier perhaps.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Cindee Reynolds",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/4030958/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2010-05-10T15:57:05.143Z",
+                "reviewBody": "I liked this but my husband didn't at all... so I am currently enjoying the whole batch by myself. I did change the recipe a bit by juicing some clementines we got today rather than tangerines and I used the premium style agave tequila Costco sells. I'll make it again for myself or when I have company over so I'm not sucking down a ginormous drink on my own.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "rosyshell",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2379815/"
+                }
+            }
+        ]
+    }
+]

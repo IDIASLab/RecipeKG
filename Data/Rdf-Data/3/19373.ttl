@@ -1,0 +1,110 @@
+@prefix ns1: <http://purl.org/recipekg/> .
+@prefix ns2: <http://purl.org/heals/food/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/sweet-potato-gnudi-with-sage-butter> a schema:Recipe ;
+    ns2:hasIngredient [ a <http://purl.org/recipekg/ingredient/UnsaltedButter> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "unsalted butter" ],
+        [ a <http://purl.org/recipekg/ingredient/SageLeaves> ;
+            ns1:hasQuantity "10" ;
+            ns1:ingredientName "sage leaves" ],
+        [ a <http://purl.org/recipekg/ingredient/SageLeaves> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "sage leaves" ],
+        [ a <http://purl.org/heals/ingredient/Potato> ;
+            ns1:hasQuantity "2" ;
+            ns1:ingredientName "potato" ],
+        [ a <http://purl.org/recipekg/ingredient/SemolinaFlour> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "semolina flour" ],
+        [ a <http://purl.org/recipekg/ingredient/Parmigiano-ReggianoCheese> ;
+            ns1:hasQuantity "2" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "Parmigiano-Reggiano cheese" ],
+        [ a <http://purl.org/heals/ingredient/BlackPepper> ;
+            ns1:hasQuantity "1/4" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "black pepper" ],
+        [ a <http://purl.org/recipekg/ingredient/Egg> ;
+            ns1:hasQuantity "2" ;
+            ns1:ingredientName "egg" ],
+        [ a <http://purl.org/recipekg/ingredient/Parmigiano-ReggianoCheese> ;
+            ns1:hasQuantity "3/4" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "Parmigiano-Reggiano cheese" ],
+        [ a <http://purl.org/recipekg/ingredient/RicottaCheese> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "ricotta cheese" ],
+        [ a <http://purl.org/recipekg/ingredient/Nutmeg> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "nutmeg" ],
+        [ a <http://purl.org/heals/ingredient/Salt> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "salt" ],
+        [ a <http://purl.org/heals/ingredient/AllPurposeFlour> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "all purpose flour" ] ;
+    ns1:belongsTo <http://purl.org/recipekg/categories/main-dish/dumplings/> ;
+    ns1:hasFSAScore 4 ;
+    ns1:hasNutritionalInformation [ a ns1:NutritionalInformation ;
+            ns1:hasCalorificData [ a ns1:CalorificData ;
+                    ns1:hasAmount "272.9"^^xsd:float ;
+                    ns1:hasUnit "calories" ] ;
+            ns1:hasCarbohydrateData [ a ns1:CarbohydrateData ;
+                    ns1:hasAmount "27.2"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasCholesterolData [ a ns1:CholesterolData ;
+                    ns1:hasAmount "88.0"^^xsd:float ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasFatData [ a ns1:FatData ;
+                    ns1:hasAmount "15.3"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasFiberData [ a ns1:FiberData ;
+                    ns1:hasAmount "2.9"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasProteinData [ a ns1:ProteinData ;
+                    ns1:hasAmount "7.2"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSaturatedFatData [ a ns1:SaturatedFatData ;
+                    ns1:hasAmount "9.3"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSARed ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSodiumData [ a ns1:SodiumData ;
+                    ns1:hasAmount "481.9"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasSugarData [ a ns1:SugarData ;
+                    ns1:hasAmount "3.2"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAGreen ;
+                    ns1:hasUnit "g" ] ] ;
+    ns1:hasUSDAScore 3 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 17 ;
+            schema:ratingValue "3.9411764705882355"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2018-06-08T14:06:01.000Z"^^schema:date ;
+    schema:name "Sweet Potato Gnudi with Sage Butter"^^xsd:string ;
+    schema:recipeYield "8 servings"^^xsd:string .
+
+ns1:FSAGreen a ns1:FSAColor .
+
+ns1:FSARed a ns1:FSAColor .
+
+<http://purl.org/recipekg/categories/main-dish/> a ns1:RecipeCategory .
+
+<http://purl.org/recipekg/categories/main-dish/dumplings/> rdfs:subClassOf <http://purl.org/recipekg/categories/main-dish/> .
+
+ns1:FSAAmber a ns1:FSAColor .
+

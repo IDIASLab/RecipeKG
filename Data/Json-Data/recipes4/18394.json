@@ -1,0 +1,158 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/255698/apple-cinnamon-quinoa/",
+        "name": "Apple Cinnamon Quinoa",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4459393.jpg",
+            "width": 1769,
+            "height": 1769
+        },
+        "datePublished": "2019-04-04T04:07:14.000Z",
+        "description": "I love this recipe for a quick breakfast. I made it up as a quick alternative to oatmeal. I can set the quinoa to cook while I do my makeup in the mornings. I like the apple cinnamon version, but you can really change the mix-ins to suit your own tastes or for variation throughout the seasons.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H20M",
+        "totalTime": "P0DT0H30M",
+        "recipeYield": "1 serving",
+        "recipeIngredient": [
+            "\u00bd cup water",
+            "\u00bc cup quinoa",
+            "\u00bc cinnamon stick",
+            "\u00bc teaspoon ground nutmeg",
+            "1 small apple, diced",
+            "1 teaspoon honey",
+            "1 teaspoon chia seeds"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine water, quinoa, cinnamon stick, and nutmeg in a saucepan; bring to a boil. Reduce heat and simmer, covered, until water is absorbed and quinoa is tender, about 15 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Remove saucepan from heat and discard cinnamon stick. Mix apple, honey, and chia seeds into the quinoa. Let sit until flavors combine, about 5 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Spot"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.3333333333333335,
+            "ratingCount": 3,
+            "itemReviewed": "Apple Cinnamon Quinoa",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "251.6 calories",
+            "carbohydrateContent": "49.9 g",
+            "cholesterolContent": null,
+            "fatContent": "3.8 g",
+            "fiberContent": "6.9 g",
+            "proteinContent": "6.8 g",
+            "saturatedFatContent": "0.6 g",
+            "servingSize": null,
+            "sodiumContent": "7.7 mg",
+            "sugarContent": "17.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-01-16T23:14:41.45Z",
+                "reviewBody": "This was just okay to me. I did need to add a splash of almond milk to it before eating as it was really dry.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Kim's Cooking Now",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/kimscookingnow/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2018-05-25T06:35:12.983Z",
+                "reviewBody": "Used ground cinnamon instead and did not add chia seeds. Was surprisingly good to taste!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "RitaT",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/5614789/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2020-10-14T02:12:06.42Z",
+                "reviewBody": "I make this often using ground cinnamon. Add 1/2 cup frozen blueberries and heat until they are juicy and it takes it from a 4 to a 5.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "munchmouth",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/25449363/"
+                }
+            }
+        ]
+    }
+]

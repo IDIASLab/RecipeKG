@@ -1,0 +1,121 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/364/desserts/frozen-desserts/",
+                    "name": "Frozen Dessert Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1556/desserts/frozen-desserts/ice-cream/",
+                    "name": "Ice Cream",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/258738/coconut-milk-ice-cream/",
+        "name": "Coconut Milk Ice Cream",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Coconut Milk Ice Cream"
+        },
+        "datePublished": "2020-06-19T04:22:42.000Z",
+        "description": "This is a great 'ice cream' recipe for those who are allergic to milk and soy. You can use any kind of frozen or fresh fruit you like.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT5H0M",
+        "recipeYield": "1 pint",
+        "recipeIngredient": [
+            "2 cups fresh blueberries",
+            "1 cup white sugar",
+            "1 (14 ounce) can coconut milk"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine blueberries and sugar in a saucepan over medium heat; cook and stir until sugar has dissolved, about 5 minutes. Transfer syrup to a covered container and freeze for 30 to 40 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Stir coconut milk into syrup until uniform. Pour into an ice cream maker; freeze according to manufacturer's instructions, about 20 minutes. Transfer to an airtight container and freeze until firm, about 4 hours.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Frozen Dessert Recipes",
+            "Ice Cream"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "KARAMUR"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Coconut Milk Ice Cream",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "427.9 calories",
+            "carbohydrateContent": "63.2 g",
+            "cholesterolContent": null,
+            "fatContent": "21.1 g",
+            "fiberContent": "2.8 g",
+            "proteinContent": "2.5 g",
+            "saturatedFatContent": "18.6 g",
+            "servingSize": null,
+            "sodiumContent": "13.5 mg",
+            "sugarContent": "57.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

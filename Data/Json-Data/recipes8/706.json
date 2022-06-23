@@ -1,0 +1,130 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/143/breakfast-and-brunch/drinks/",
+                    "name": "Drinks",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/275521/strawberry-lime-cilantro-smoothie/",
+        "name": "Strawberry-Lime-Cilantro Smoothie",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6950247.jpg",
+            "width": 3264,
+            "height": 1836
+        },
+        "datePublished": "2020-06-19T04:40:29.000Z",
+        "description": "This refreshing strawberry and cilantro smoothie is packed with vitamins and minerals with the addition of a savory herb. A frozen banana makes it creamy and sweet.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "1 smoothie",
+        "recipeIngredient": [
+            "1 cup frozen strawberries, slightly thawed and chopped",
+            "1 frozen banana, chopped",
+            "\u00bd cup unsweetened almond milk",
+            "\u00bd cup ice",
+            "\u00bc cup chopped cilantro, leaves and stems, lightly packed",
+            "1 tablespoon lime juice",
+            "\u00bd teaspoon stevia powder"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine strawberries, banana, almond milk, ice, cilantro, lime juice, and stevia powder in a blender. Process until smooth, adding more almond milk or water for a smoother consistency.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Drinks"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Tammy Lynn"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Strawberry-Lime-Cilantro Smoothie",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "222.3 calories",
+            "carbohydrateContent": "54.5 g",
+            "cholesterolContent": null,
+            "fatContent": "2 g",
+            "fiberContent": "8.6 g",
+            "proteinContent": "3.1 g",
+            "saturatedFatContent": "0.1 g",
+            "servingSize": null,
+            "sodiumContent": "91.1 mg",
+            "sugarContent": "28.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-03-23T00:10:06.647Z",
+                "reviewBody": "Super refreshing and delicious! I added a few blueberries and raspberries to mine because I had extra berries in the fridge. I\u2019m not a huge cilantro person but this recipe I would 10/10 recommend!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Meg B",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/27171885/"
+                }
+            }
+        ]
+    }
+]

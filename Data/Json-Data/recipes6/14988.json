@@ -1,0 +1,149 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1555/drinks/liqueurs/",
+                    "name": "Liqueur Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/17942/peppermint-schnapps/",
+        "name": "Peppermint Schnapps",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Peppermint Schnapps"
+        },
+        "datePublished": "2000-05-01T04:06:06.000Z",
+        "description": "This is a great clone recipe for peppermint schnapps. It is very smooth and minty.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H15M",
+        "totalTime": "P0DT0H25M",
+        "recipeYield": "4 cups",
+        "recipeIngredient": [
+            "\u2153 cup white sugar",
+            "1 (16 ounce) jar light corn syrup",
+            "2 cups vodka",
+            "2 teaspoons peppermint extract"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine sugar and corn syrup in 2 quart pan over medium heat. Heat until sugar dissolves, stirring regularly.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "When the sugar has dissolved, pour in the vodka and stir well.  Remove the mixture from heat and cover tightly with a lid. Let the mixture cool before adding peppermint extract and pouring the mixture into a sealable bottle.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Liqueur Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Marjory"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Peppermint Schnapps",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "164.6 calories",
+            "carbohydrateContent": "25.7 g",
+            "cholesterolContent": null,
+            "fatContent": null,
+            "fiberContent": null,
+            "proteinContent": null,
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "17.7 mg",
+            "sugarContent": "11.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2004-02-12T23:07:20.483Z",
+                "reviewBody": "Thick and flavor varies due to how much extract you need to use.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "AUNTPT",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/33020/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2014-01-07T19:01:13.39Z",
+                "reviewBody": "Yum! Made this to go with a very nice container of hot chocolate as a nice little gift for a friend. Fortunately had extra left for me. Yeah! Thanks Marjory for sharing!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "terriyaki2",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/1563293/"
+                }
+            }
+        ]
+    }
+]

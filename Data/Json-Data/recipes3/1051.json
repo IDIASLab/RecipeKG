@@ -1,0 +1,101 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1642/everyday-cooking/",
+                    "name": "Everyday Cooking",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/279312/basic-homemade-baby-food/",
+        "name": "Basic Homemade Baby Food",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Basic Homemade Baby Food"
+        },
+        "datePublished": "2018-04-17T18:51:17.000Z",
+        "description": "I wanted to make my own baby food, and found that this base turned out a good product that the boys liked. And I could add variation depending on what was in season or in the cupboard.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H15M",
+        "totalTime": "P0DT0H30M",
+        "recipeYield": "8 servings",
+        "recipeIngredient": [
+            "1 large sweet potato, peeled and diced",
+            "1 large carrot, peeled and diced",
+            "1 medium apple - peeled, cored, and diced"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place sweet potato, carrot, and apple into a pot. Add water until food is 1/2 or 3/4 covered and bring to a boil. Cook until sweet potato and carrot pieces are soft and fall off a fork, about 10 minutes. Drain.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Puree with an immersion blender until smooth.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Everyday Cooking"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Jennette"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Basic Homemade Baby Food",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "61.5 calories",
+            "carbohydrateContent": "14.7 g",
+            "cholesterolContent": null,
+            "fatContent": "0.1 g",
+            "fiberContent": "2.4 g",
+            "proteinContent": "1 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "37.6 mg",
+            "sugarContent": "4.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

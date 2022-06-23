@@ -1,0 +1,92 @@
+@prefix ns1: <http://purl.org/recipekg/> .
+@prefix ns2: <http://purl.org/heals/food/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/citrusy-romaine-salad-with-shredded-chicken> a schema:Recipe ;
+    ns2:hasIngredient [ a <http://purl.org/recipekg/ingredient/Avocado> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:ingredientName "avocado" ],
+        [ a <http://purl.org/recipekg/ingredient/RomaineLettuce> ;
+            ns1:hasQuantity "2" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "romaine lettuce" ],
+        [ a <http://purl.org/recipekg/ingredient/Lime> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:ingredientName "lime" ],
+        [ a <http://purl.org/heals/ingredient/Cilantro> ;
+            ns1:hasQuantity "1/4" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "cilantro" ],
+        [ a <http://purl.org/recipekg/ingredient/Pepper> ;
+            ns1:ingredientName "pepper" ],
+        [ a <http://purl.org/recipekg/ingredient/BeanSprouts> ;
+            ns1:hasQuantity "1/4" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "bean sprouts" ],
+        [ a <http://purl.org/recipekg/ingredient/Cucumber> ;
+            ns1:hasQuantity "1/4" ;
+            ns1:ingredientName "cucumber" ],
+        [ a <http://purl.org/recipekg/ingredient/Dressing> ;
+            ns1:hasQuantity "3" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "dressing" ],
+        [ a <http://purl.org/heals/ingredient/Chicken> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "chicken" ],
+        [ a <http://purl.org/heals/ingredient/OliveOil> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "olive oil" ] ;
+    ns1:belongsTo <http://purl.org/recipekg/categories/salad/green-salads/> ;
+    ns1:hasFSAScore 4 ;
+    ns1:hasNutritionalInformation [ a ns1:NutritionalInformation ;
+            ns1:hasCalorificData [ a ns1:CalorificData ;
+                    ns1:hasAmount "352.2"^^xsd:float ;
+                    ns1:hasUnit "calories" ] ;
+            ns1:hasCarbohydrateData [ a ns1:CarbohydrateData ;
+                    ns1:hasAmount "10.8"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasCholesterolData [ a ns1:CholesterolData ;
+                    ns1:hasAmount "33.4"^^xsd:float ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasFatData [ a ns1:FatData ;
+                    ns1:hasAmount "30.5"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSARed ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasFiberData [ a ns1:FiberData ;
+                    ns1:hasAmount "5.6"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasProteinData [ a ns1:ProteinData ;
+                    ns1:hasAmount "11.4"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSaturatedFatData [ a ns1:SaturatedFatData ;
+                    ns1:hasAmount "5.1"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSARed ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSodiumData [ a ns1:SodiumData ;
+                    ns1:hasAmount "251.0"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAGreen ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasSugarData [ a ns1:SugarData ;
+                    ns1:hasAmount "3.2"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAGreen ;
+                    ns1:hasUnit "g" ] ] ;
+    ns1:hasUSDAScore 4 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2018-07-06T09:24:09.000Z"^^schema:date ;
+    schema:name "Citrusy Romaine Salad with Shredded Chicken"^^xsd:string ;
+    schema:recipeYield "2 servings"^^xsd:string .
+
+<http://purl.org/recipekg/categories/salad/> a ns1:RecipeCategory .
+
+<http://purl.org/recipekg/categories/salad/green-salads/> rdfs:subClassOf <http://purl.org/recipekg/categories/salad/> .
+
+ns1:FSAGreen a ns1:FSAColor .
+
+ns1:FSARed a ns1:FSAColor .
+

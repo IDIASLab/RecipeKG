@@ -1,0 +1,160 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/136/drinks/punch/",
+                    "name": "Punch Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/15047/drinks/punch/non-alcoholic-punch/",
+                    "name": "Non-Alcoholic Punch Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/240729/hawaiian-slush/",
+        "name": "Hawaiian Slush",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4576229.jpg",
+            "width": 1936,
+            "height": 1945
+        },
+        "datePublished": "2020-06-19T04:01:58.000Z",
+        "description": "Quick and easy and super tasty holiday slush.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT4H35M",
+        "recipeYield": "25 servings",
+        "recipeIngredient": [
+            "1 cup white sugar",
+            "5 cups water, divided",
+            "1 packet strawberry drink mix (such as Kool-Aid\u00ae)",
+            "1 (46 fluid ounce) can pineapple juice",
+            "1 (12 ounce) can frozen lemonade concentrate, thawed",
+            "1 (2 liter) bottle lemon-lime soda (such as Sprite\u00ae)"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine sugar and 1 cup water together in a saucepan; bring to a boil for 3 minutes. Remove saucepan from heat and stir in strawberry drink mix. Pour strawberry drink into a large stockpot and stir in pineapple juice, lemonade concentrate, lemon-lime soda, and 4 cups water. Pour mixture into a large freezer-safe container and freeze until solid, at least 4 hours.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Remove container from freezer and allow to thaw slightly, about 15 minutes. Break mixture apart with a spoon and place in a punch bowl and stir in lemon-lime soda.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Punch Recipes",
+            "Non-Alcoholic Punch Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "littleredhen"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 2,
+            "itemReviewed": "Hawaiian Slush",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "143.8 calories",
+            "carbohydrateContent": "37 g",
+            "cholesterolContent": null,
+            "fatContent": "0.1 g",
+            "fiberContent": "0.1 g",
+            "proteinContent": "0.2 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "12.3 mg",
+            "sugarContent": "26.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-04-22T01:19:05.39Z",
+                "reviewBody": "This is my recipe.  Allrecipes has altered my instructions.  Do NOT add the soda before freezing.  After making the simple syrup, add the Kool aid packet and juices, then freeze.  Remove from freezer and thaw about 1/2 hour, then chop with a fork.  Serve with soda.  Cheers.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "littleredhen",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/10120720/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2018-11-27T07:30:41.183Z",
+                "reviewBody": "Everyone loved it! I made it this without freezing the whole thing because we have a small freezer. I instead made lots of ice cubes with the different juices. This added to the look and our guests loved it. I also put the voka to the side so they could choice whether or not they wanted an adult beverage or not. This way even if they wanted the adult beverage they could decide how much to mix. I will be doing this again.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "sybil",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/24597222/"
+                }
+            }
+        ]
+    }
+]

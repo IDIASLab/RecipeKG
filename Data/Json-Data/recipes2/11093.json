@@ -1,0 +1,128 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1822/drinks/mocktails/",
+                    "name": "Mocktail Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/255557/pink-champagne-mocktail/",
+        "name": "Pink Champagne Mocktail",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6833973.jpg",
+            "width": 3264,
+            "height": 1836
+        },
+        "datePublished": "2017-07-13T13:01:27.000Z",
+        "description": "Fizzy non-alcoholic Champagne.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "20 servings",
+        "recipeIngredient": [
+            "2 quarts ginger ale",
+            "1 (46 fluid ounce) bottle cranberry juice",
+            "1 (46 fluid ounce) can pineapple juice",
+            "1 (12 fluid ounce) can frozen orange juice concentrate",
+            "ice cubes"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine ginger ale, cranberry juice, pineapple juice, and orange juice concentrate in a large punch bowl. Stir in ice.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Mocktail Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Karina Jones"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Pink Champagne Mocktail",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "148.3 calories",
+            "carbohydrateContent": "36.4 g",
+            "cholesterolContent": null,
+            "fatContent": "0.2 g",
+            "fiberContent": "0.3 g",
+            "proteinContent": "0.6 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "16.1 mg",
+            "sugarContent": "32.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-07-15T03:56:45.03Z",
+                "reviewBody": "Very good. Nice blend of flavors and fizz.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Tammy Lynn",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3084624/"
+                }
+            }
+        ]
+    }
+]

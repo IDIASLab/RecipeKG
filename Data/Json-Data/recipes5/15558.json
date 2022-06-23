@@ -1,0 +1,167 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/237/world-cuisine/latin-american/",
+                    "name": "Latin American",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/728/world-cuisine/latin-american/mexican/",
+                    "name": "Mexican",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/53141/vegetarian-bean-burritos/",
+        "name": "Vegetarian Bean Burritos",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F875013.jpg",
+            "width": 4608,
+            "height": 3456
+        },
+        "datePublished": "2020-02-26T05:50:28.000Z",
+        "description": "An alternative to using canned refried beans which usually contain lard. Add your favorite burrito fixings!",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT0H20M",
+        "recipeYield": "8 servings",
+        "recipeIngredient": [
+            "1 (15.5 ounce) can pinto beans, drained",
+            "2 tablespoons tomato sauce",
+            "2 tablespoons taco seasoning mix, or more to taste",
+            "8 flour tortillas",
+            "2 cups shredded lettuce",
+            "2 cups grated Colby Jack cheese"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Blend pinto beans, tomato sauce, and taco seasoning in a food processor until a paste forms.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cook and stir pinto bean mixture in a skillet over medium heat until warmed, about 5 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place tortillas on a plate and heat in microwave on high until warm, about 30 seconds. Spread warm pinto bean mixture, shredded lettuce, and Colby Jack cheese onto each warm tortilla. Roll the tortilla around the filling to form a burrito.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Latin American",
+            "Mexican"
+        ],
+        "recipeCuisine": [
+            "Latin American",
+            "Mexican"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Megan"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.333333333333333,
+            "ratingCount": 3,
+            "itemReviewed": "Vegetarian Bean Burritos",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "481.3 calories",
+            "carbohydrateContent": "63.6 g",
+            "cholesterolContent": "32.7 mg",
+            "fatContent": "15.2 g",
+            "fiberContent": "13.2 g",
+            "proteinContent": "23.5 g",
+            "saturatedFatContent": "8.7 g",
+            "servingSize": null,
+            "sodiumContent": "682.4 mg",
+            "sugarContent": "1.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2014-04-01T01:27:49.47Z",
+                "reviewBody": "This actually wasn't bad. It oddly even tasted like a Taco Bell bean burrito for some reason. Only change I made was using 1 Tblsp. of taco seasoning instead of 2. It was so quick to make for a lunch. I used Trader Joes homemade tortillas and Penzeys taco seasoning. I blended the ingredients in my blender and then microwaved it. I would make this again for a quick lunch. ty",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Holiday Baker",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/holidaybaker/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2018-04-20T08:15:12.987Z",
+                "reviewBody": "This is a good general guideline to follow for burritos. I made my own taco seasoning using the recipe posted on this site. Perhaps store bought pre-mixed seasoning is more bland (?) but using two tablespoons of the seasoning I made would have left the beans way too salty. I used only one tablespoon and it was still a bit too overpowering. Next time I ll try 1/2 - 3/4 teaspoon. I also like to mix a bit of ranch with the lettuce and add halved cherry tomatoes for a yummy topping. Delicious!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "ahong21",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/6788052/"
+                }
+            }
+        ]
+    }
+]

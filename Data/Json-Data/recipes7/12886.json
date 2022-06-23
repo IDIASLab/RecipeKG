@@ -1,0 +1,128 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/81/side-dish/",
+                    "name": "Side Dish",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17031/side-dish/sauces-and-condiments/",
+                    "name": "Sauces and Condiments",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/242106/texas-bbq-rub/",
+        "name": "Texas BBQ Rub",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2853573.jpg",
+            "width": 2448,
+            "height": 2448
+        },
+        "datePublished": "2020-06-19T04:02:51.000Z",
+        "description": "A staple at my house. We rub this on most anything we BBQ. It makes a glaze as it cooks. I like it best on slow smoked ribs. Rub into meat 10 to 30 minutes before cooking.",
+        "prepTime": null,
+        "cookTime": null,
+        "totalTime": null,
+        "recipeYield": "1 quart dry rub",
+        "recipeIngredient": [
+            "3 cups sugar",
+            "1 cup ground black pepper",
+            "1 cup paprika",
+            "1 cup monosodium glutamate (such as Ac'cent\u00ae)",
+            "\u00bd cup salt"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Whisk sugar, black pepper, paprika, monosodium glutamate, and salt together in a bowl. Store in an airtight container.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Side Dish",
+            "Sauces and Condiments"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "ATexasDarling"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 1,
+            "itemReviewed": "Texas BBQ Rub",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "53.2 calories",
+            "carbohydrateContent": "11.4 g",
+            "cholesterolContent": null,
+            "fatContent": "0.3 g",
+            "fiberContent": "1.1 g",
+            "proteinContent": "0.4 g",
+            "saturatedFatContent": "0.1 g",
+            "servingSize": null,
+            "sodiumContent": "348.5 mg",
+            "sugarContent": "9.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2015-11-24T17:54:50.07Z",
+                "reviewBody": "This was just okay. It needed something some garlic for sure and - maybe some spice to give it just a little kick - cayenne or hot pepper flakes would be a good addition to this otherwise fairly bland rub recipe.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Crikkitt",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/crikkitt/"
+                }
+            }
+        ]
+    }
+]

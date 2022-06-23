@@ -1,0 +1,117 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1642/everyday-cooking/",
+                    "name": "Everyday Cooking",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/237487/marys-beef-stroganoff/",
+        "name": "Mary's Beef Stroganoff",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Mary's Beef Stroganoff"
+        },
+        "datePublished": "2019-07-10T07:05:27.000Z",
+        "description": "My mother created this recipe to mimic a stroganoff we loved at a local steak restaurant in Toronto. Hope everyone enjoys it as much as we do. Serve over rice or noodles.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT1H15M",
+        "totalTime": "P0DT1H30M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "2 tablespoons flour",
+            "1 teaspoon salt",
+            "\u00bd teaspoon garlic powder",
+            "\u00bc teaspoon ground black pepper",
+            "1 pound round beef steak, cut into cubes",
+            "2 tablespoons olive oil",
+            "\u00bd cup diced onion",
+            "1\u2009\u00bd cups tomato juice",
+            "1 (4.5 ounce) can sliced mushrooms, drained",
+            "1 cup sour cream",
+            "1 tablespoon lemon juice"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Put flour, salt, garlic powder, and black pepper into a large, sealable plastic bag. Seal the bag and shake to mix. Add beef cubes to the bag, seal again, and shake to coat beef in the flour mixture.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat olive oil in a large skillet over medium heat. Cook beef in hot oil until completely browned on all sides, 7 to 10 minutes. Mix onion with the beef cubes; cook and stir until the onions are translucent, 5 to 7 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour the tomato juice into the skillet; add mushrooms and stir. Place a cover on the skillet, reduce heat to low, and simmer the mixture until the beef is completely tender, about 1 hour.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Stir sour cream into the beef mixture until the sauce is smooth and even in color; add lemon juice and stir.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Everyday Cooking"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "pickeringmom"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Mary's Beef Stroganoff",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "456.1 calories",
+            "carbohydrateContent": "13.4 g",
+            "cholesterolContent": "127.2 mg",
+            "fatContent": "24.7 g",
+            "fiberContent": "1.7 g",
+            "proteinContent": "44.7 g",
+            "saturatedFatContent": "10.4 g",
+            "servingSize": null,
+            "sodiumContent": "1043 mg",
+            "sugarContent": "5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

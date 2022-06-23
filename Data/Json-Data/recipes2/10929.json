@@ -1,0 +1,162 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/237/world-cuisine/latin-american/",
+                    "name": "Latin American",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/728/world-cuisine/latin-american/mexican/",
+                    "name": "Mexican",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/258910/vanilla-horchata-smoothie/",
+        "name": "Vanilla Horchata Smoothie",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4534662.jpg",
+            "width": 1976,
+            "height": 2842
+        },
+        "datePublished": "2017-07-04T05:15:37.000Z",
+        "description": "Instead of the regular rice milk used in horchata, I use 2%. I remember drinking horchata in high school all the time, I loved it. I decided to make it into a smoothie using vanilla ice cream, cinnamon, honey, vanilla extract, mint (just for fun), and milk. Garnish with mint leaves if desired.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H9M",
+        "totalTime": "P0DT0H44M",
+        "recipeYield": "1 smoothie",
+        "recipeIngredient": [
+            "1 cup milk",
+            "1\u2009\u00bd teaspoons ground cinnamon",
+            "2 drops vanilla extract, or more to taste",
+            "1 teaspoon mint leaves",
+            "3 scoops vanilla ice cream, or more to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Pour milk into a saucepan over medium heat. Add cinnamon, vanilla extract, and mint. Cook, stirring frequently, until flavors meld, 7 to 8 minutes. Reduce heat and simmer for 2 to 3 minutes. Pour into a bowl; cover and chill for 30 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour milk mixture and ice cream into a blender. Blend until smooth and thick.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Latin American",
+            "Mexican"
+        ],
+        "recipeCuisine": [
+            "Latin American",
+            "Mexican"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Devan S."
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 2,
+            "itemReviewed": "Vanilla Horchata Smoothie",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "262.4 calories",
+            "carbohydrateContent": "29.3 g",
+            "cholesterolContent": "47.2 mg",
+            "fatContent": "11.8 g",
+            "fiberContent": "2.3 g",
+            "proteinContent": "10.4 g",
+            "saturatedFatContent": "7.4 g",
+            "servingSize": null,
+            "sodiumContent": "151 mg",
+            "sugarContent": "25.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-07-09T05:31:37.313Z",
+                "reviewBody": "I was so excited to try this Horchata smoothie but alas it did not meet my expectations. Against my better judgement I included the mint leaves making this smoothie taste more of mint than anything else.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Yoly",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/cookingbikerchick/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2018-05-31T04:04:46.25Z",
+                "reviewBody": "was the best drink and was easy to make",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Deveraux Freeze-Holleman",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/23772262/"
+                }
+            }
+        ]
+    }
+]

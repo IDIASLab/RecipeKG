@@ -1,0 +1,148 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/230565/deep-fried-cabbage/",
+        "name": "Deep Fried Cabbage",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3553487.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2015-11-19T07:14:49.000Z",
+        "description": "A new twist on that New Year's Day must-have!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H20M",
+        "recipeYield": "8 servings",
+        "recipeIngredient": [
+            "4 eggs",
+            "2 cups all-purpose flour",
+            "2 cups bread crumbs",
+            "6 cups vegetable oil",
+            "1 head cabbage, cored and cut into 8 wedges",
+            "1 cup Parmesan cheese"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Whisk eggs in a small bowl. Combine flour and bread crumbs together in a separate bowl.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat oil in a deep-fryer or large saucepan to 375 degrees F (190 degrees C).\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Dip each cabbage wedge into the whisked eggs; press cabbage wedge into the flour mixture until fully coated. Shake off any excess flour mixture.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Fry the coated cabbage wedges in the hot oil until golden brown, about 10 minutes. Remove from the hot oil with a slotted spoon and drain on a paper towel-lined plate. Sprinkle Parmesan cheese onto each of the fried cabbage wedges.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "pattid"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.5,
+            "ratingCount": 2,
+            "itemReviewed": "Deep Fried Cabbage",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "482 calories",
+            "carbohydrateContent": "52.4 g",
+            "cholesterolContent": "101.8 mg",
+            "fatContent": "23.7 g",
+            "fiberContent": "5.7 g",
+            "proteinContent": "15.7 g",
+            "saturatedFatContent": "5 g",
+            "servingSize": null,
+            "sodiumContent": "412.7 mg",
+            "sugarContent": "6.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2013-01-08T12:49:04.313Z",
+                "reviewBody": "Really good basic recipe however it needs some work. First do not core the cabbage wedges (or at least not completely) in order to help keep them from possibly falling apart. Secondly there is a lack of flavor so I suggest to add about 1/4 cup of prepared mustard (I prefer Dijon) to the egg wash and increase the grated parmesan from 1 cup to 1 1/2 cups and mix that extra 1/2 cup in with the bread and flour mixture (fresh parmesan instead of the canister kind is best). And last but not least the wedges will absorb seasoning better if par boiled in salted water for about two or three minutes and then drained before coating and frying.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Deeli",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3816489/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2016-05-06T11:09:28.62Z",
+                "reviewBody": "Made as written and decided to read the reviews/review prior to adding mine. I agree 100% with what Deeli said and couldn't have written it better myself. Her review is SPOT On!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

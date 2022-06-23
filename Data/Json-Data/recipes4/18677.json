@@ -1,0 +1,137 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/364/desserts/frozen-desserts/",
+                    "name": "Frozen Dessert Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1556/desserts/frozen-desserts/ice-cream/",
+                    "name": "Ice Cream",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/257408/mango-ice-cream/",
+        "name": "Mango Ice Cream",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4488544.jpg",
+            "width": 2320,
+            "height": 3024
+        },
+        "datePublished": "2019-04-04T04:08:12.000Z",
+        "description": "This is phenomenal and gastroparesis-friendly!",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "1 serving",
+        "recipeIngredient": [
+            "\u00bd cup plain Greek yogurt",
+            "1 cup frozen mango chunks",
+            "\u00bd teaspoon ground ginger",
+            "2 tablespoons water, or as needed"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Layer Greek yogurt, mango chunks, ginger, and water in a blender in the order listed. Pulse 3 or 4 times; blend until smooth, adding more water to reach desired consistency.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Frozen Dessert Recipes",
+            "Ice Cream"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "HurdBird"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Mango Ice Cream",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "240.4 calories",
+            "carbohydrateContent": "32.7 g",
+            "cholesterolContent": "22.5 mg",
+            "fatContent": "10.5 g",
+            "fiberContent": "3.1 g",
+            "proteinContent": "6.9 g",
+            "saturatedFatContent": "5.1 g",
+            "servingSize": null,
+            "sodiumContent": "69.5 mg",
+            "sugarContent": "28.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-03-23T01:20:47.23Z",
+                "reviewBody": "Followed the recipe and in my opinion it would have been better without the ginger. I also added the water against my better judgement and had I not the ice cream would have been a bit sturdier. Overall tasty.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Yoly",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/cookingbikerchick/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,134 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/132/drinks/cider/",
+                    "name": "Cider Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/240733/spicy-apple-cider/",
+        "name": "Spicy Apple Cider",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6886285.jpg",
+            "width": 2184,
+            "height": 2969
+        },
+        "datePublished": "2019-04-04T03:59:04.000Z",
+        "description": "Easy and tasty soft apple cider appropriate for kids and adults. This is great on a cold winter day or for a Christmas party.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H20M",
+        "totalTime": "P0DT0H30M",
+        "recipeYield": "10 servings",
+        "recipeIngredient": [
+            "2 cups water",
+            "4 cinnamon sticks, or more to taste",
+            "1 tablespoon whole cloves",
+            "\u00bd teaspoon ground allspice",
+            "8 cups apple juice",
+            "2 oranges, thinly sliced into rounds",
+            "1 lemon, thinly sliced into rounds"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine water, cinnamon sticks, cloves, and allspice in a large pot; bring to a boil, reduce heat to medium-low, and simmer until flavors combine, about 10 minutes. Strain and discard spices. Return spiced water to the pot.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Stir apple juice, orange slices, and lemon slices into spiced water. Cook over medium-high heat until heated through, 10 to 15 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Cider Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Leo&Lucie"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Spicy Apple Cider",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "115.3 calories",
+            "carbohydrateContent": "29.4 g",
+            "cholesterolContent": null,
+            "fatContent": "0.3 g",
+            "fiberContent": "2.2 g",
+            "proteinContent": "0.6 g",
+            "saturatedFatContent": "0.1 g",
+            "servingSize": null,
+            "sodiumContent": "9.5 mg",
+            "sugarContent": "24.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-07-31T02:18:44.773Z",
+                "reviewBody": "Simple and easy to make. I enjoyed this very much and will make again. Thanks for the recipe.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Yoly",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/cookingbikerchick/"
+                }
+            }
+        ]
+    }
+]

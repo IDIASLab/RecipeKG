@@ -1,0 +1,172 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/133/drinks/cocktails/",
+                    "name": "Cocktail Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1741/drinks/cocktails/rum-drinks/",
+                    "name": "Rum Drinks Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/153002/california-surfer/",
+        "name": "California Surfer",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F287037.jpg",
+            "width": 250,
+            "height": 250
+        },
+        "datePublished": "2017-07-13T13:01:11.000Z",
+        "description": "Close your eyes and imagine being in sunny California with this great drink. Perfect for chilling down with on a hot summer day. Surf's up!",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "5 servings",
+        "recipeIngredient": [
+            "1 tray ice cubes",
+            "6 fluid ounces jagermeister liqueur",
+            "6 fluid ounces coconut-flavored rum",
+            "2\u2009\u00bd cups pineapple juice",
+            "1 orange slice"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Fill a pitcher with ice cubes. Pour the jagermeister, coconut rum and pineapple juice over the ice.  Stir and garnish with a slice of orange.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Cocktail Recipes",
+            "Rum Drinks Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Kevin"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.666666666666667,
+            "ratingCount": 3,
+            "itemReviewed": "California Surfer",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "197.4 calories",
+            "carbohydrateContent": "27.3 g",
+            "cholesterolContent": "20.5 mg",
+            "fatContent": "2.9 g",
+            "fiberContent": "0.3 g",
+            "proteinContent": "1.9 g",
+            "saturatedFatContent": "1.8 g",
+            "servingSize": null,
+            "sodiumContent": "25.4 mg",
+            "sugarContent": "17.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2008-04-17T18:06:01.263Z",
+                "reviewBody": "Love these! Tastes very tropical.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Nurse Ellen so not a",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/nurseellen/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2008-06-13T18:38:40.257Z",
+                "reviewBody": "Nice. Not sweet though a bit bitter to my taste nice coconut aftertaste.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "blackbodhi",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2714590/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2009-10-20T18:12:35.557Z",
+                "reviewBody": "Awesome drink. We call these Surfer on Acid on the central coast of CA",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Jean-Henri Weldon",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2697664/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,170 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/227/world-cuisine/asian/",
+                    "name": "Asian",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/695/world-cuisine/asian/chinese/",
+                    "name": "Chinese",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/168666/china-sun-chicken/",
+        "name": "China Sun Chicken",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F967973.jpg",
+            "width": 2456,
+            "height": 2448
+        },
+        "datePublished": "2020-03-31T00:50:01.000Z",
+        "description": "This sweet and savory dish is prepared wok-style. You can substitute the chicken for pork if you like. Serve it over rice. I hope you enjoy!",
+        "prepTime": "P0DT0H25M",
+        "cookTime": "P0DT0H15M",
+        "totalTime": "P0DT0H40M",
+        "recipeYield": "3 servings",
+        "recipeIngredient": [
+            "2 tablespoons vegetable oil",
+            "1 pound skinless, boneless chicken breast halves - cut into 1/2 inch pieces",
+            "2 carrots, julienned",
+            "2 cloves garlic, pressed",
+            "1 teaspoon ground ginger",
+            "4 shallots, chopped",
+            "1 bell pepper, slivered",
+            "1 (20 ounce) can pineapple chunks in natural juice, liquid drained and reserved",
+            "\u00bd cup water",
+            "2 tablespoons soy sauce",
+            "1 tablespoon cornstarch",
+            "1 teaspoon white vinegar",
+            "\u00bd teaspoon red pepper flakes"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat the oil in a wok or large skillet over medium-high heat; cook the chicken and carrots in the hot oil until the chicken is no longer pink in the center and the carrots are tender, about 5 minutes. Stir in the garlic and ginger; cook another 1 minute. Add the shallots and bell pepper; cook another 1 minute.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Whisk together 3 tablespoons of the reserved liquid from the canned pineapple chunks along with the pineapple chunks, the water, soy sauce, cornstarch, vinegar, and pepper flakes; stir into the chicken and vegetable mixture and bring to a boil, stirring until the sauce thickens.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Asian",
+            "Chinese"
+        ],
+        "recipeCuisine": [
+            "Asian",
+            "Chinese"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Jennifer Landry"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.7142857142857144,
+            "ratingCount": 7,
+            "itemReviewed": "China Sun Chicken",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "476.9 calories",
+            "carbohydrateContent": "51.4 g",
+            "cholesterolContent": "92.2 mg",
+            "fatContent": "14.4 g",
+            "fiberContent": "4.1 g",
+            "proteinContent": "38 g",
+            "saturatedFatContent": "2.8 g",
+            "servingSize": null,
+            "sodiumContent": "722.6 mg",
+            "sugarContent": "32.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2012-08-29T17:16:18.37Z",
+                "reviewBody": "Great! Lots of flavor with limited ingredients! I added a bit of curry powder too.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Allison",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/7566082/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2010-07-12T18:05:26.253Z",
+                "reviewBody": "Delicious!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Susie Schuppel-Paul",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2897671/"
+                }
+            }
+        ]
+    }
+]

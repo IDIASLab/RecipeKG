@@ -1,0 +1,76 @@
+@prefix ns1: <http://purl.org/heals/food/> .
+@prefix ns2: <http://purl.org/recipekg/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/simple-pesto-pasta> a schema:Recipe ;
+    ns1:hasIngredient [ a <http://purl.org/heals/ingredient/Butter> ;
+            ns2:hasQuantity "1/4" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "butter" ],
+        [ a <http://purl.org/recipekg/ingredient/FettuccinePasta> ;
+            ns2:hasQuantity "1/2" ;
+            ns2:ingredientName "fettuccine pasta" ],
+        [ a <http://purl.org/recipekg/ingredient/Pesto> ;
+            ns2:hasQuantity "1/4" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "pesto" ],
+        [ a <http://purl.org/heals/ingredient/Garlic> ;
+            ns2:hasQuantity "3" ;
+            ns2:hasUnit "tablespoon" ;
+            ns2:ingredientName "garlic" ] ;
+    ns2:belongsTo <http://purl.org/recipekg/categories/world-cuisine/european/italian/> ;
+    ns2:hasFSAScore 4 ;
+    ns2:hasNutritionalInformation [ a ns2:NutritionalInformation ;
+            ns2:hasCalorificData [ a ns2:CalorificData ;
+                    ns2:hasAmount "392.0"^^xsd:float ;
+                    ns2:hasUnit "calories" ] ;
+            ns2:hasCarbohydrateData [ a ns2:CarbohydrateData ;
+                    ns2:hasAmount "44.4"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasCholesterolData [ a ns2:CholesterolData ;
+                    ns2:hasAmount "35.5"^^xsd:float ;
+                    ns2:hasUnit "mg" ] ;
+            ns2:hasFatData [ a ns2:FatData ;
+                    ns2:hasAmount "19.9"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSARed ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasFiberData [ a ns2:FiberData ;
+                    ns2:hasAmount "2.5"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasProteinData [ a ns2:ProteinData ;
+                    ns2:hasAmount "10.9"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasSaturatedFatData [ a ns2:SaturatedFatData ;
+                    ns2:hasAmount "9.5"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSARed ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasSodiumData [ a ns2:SodiumData ;
+                    ns2:hasAmount "204.7"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSAGreen ;
+                    ns2:hasUnit "mg" ] ;
+            ns2:hasSugarData [ a ns2:SugarData ;
+                    ns2:hasAmount "2.0"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSAGreen ;
+                    ns2:hasUnit "g" ] ] ;
+    ns2:hasUSDAScore 4 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 34 ;
+            schema:ratingValue "4.294117647058823"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2016-06-04T13:44:00.000Z"^^schema:date ;
+    schema:name "Simple Pesto Pasta"^^xsd:string ;
+    schema:recipeYield "4 servings"^^xsd:string .
+
+<http://purl.org/recipekg/categories/world-cuisine/> a ns2:RecipeCategory .
+
+<http://purl.org/recipekg/categories/world-cuisine/european/> rdfs:subClassOf <http://purl.org/recipekg/categories/world-cuisine/> .
+
+<http://purl.org/recipekg/categories/world-cuisine/european/italian/> rdfs:subClassOf <http://purl.org/recipekg/categories/world-cuisine/european/> .
+
+ns2:FSAGreen a ns2:FSAColor .
+
+ns2:FSARed a ns2:FSAColor .
+

@@ -1,0 +1,111 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/137/drinks/shakes-and-floats/",
+                    "name": "Shakes and Floats Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/279652/skinny-strawberry-milkshake/",
+        "name": "Skinny Strawberry Milkshake",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7892063.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-04-09T06:51:31.000Z",
+        "description": "A guilt-free strawberry milkshake that both kids and adults will enjoy.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT1H5M",
+        "recipeYield": "2 shakes",
+        "recipeIngredient": [
+            "1 cup 2% milk, divided",
+            "2 cups hulled and halved strawberries",
+            "1 teaspoon fresh lime juice, or more to taste",
+            "1 teaspoon vanilla extract"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Pour 1/2 cup milk into an ice cube tray and freeze until firm.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine milk ice cubes, remaining 1/2 cup milk, strawberries, lime juice, and vanilla in a blender; blend until smooth. Serve immediately.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Shakes and Floats Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "lutzflcat"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Skinny Strawberry Milkshake",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "116.5 calories",
+            "carbohydrateContent": "17.9 g",
+            "cholesterolContent": "9.8 mg",
+            "fatContent": "2.9 g",
+            "fiberContent": "3.1 g",
+            "proteinContent": "5.1 g",
+            "saturatedFatContent": "1.6 g",
+            "servingSize": null,
+            "sodiumContent": "51.8 mg",
+            "sugarContent": "13.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

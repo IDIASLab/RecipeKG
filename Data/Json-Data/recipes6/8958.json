@@ -1,0 +1,173 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/156/bread/",
+                    "name": "Bread",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1035/bread/pizza-dough-and-crusts/",
+                    "name": "Pizza Dough and Crust Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/259150/sourdough-pizza-crust/",
+        "name": "Sourdough Pizza Crust",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7260684.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-05-07T02:02:32.000Z",
+        "description": "Yummy pizza with a sourdough kick!",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT0H50M",
+        "recipeYield": "1 pizza",
+        "recipeIngredient": [
+            "1\u2009\u00bd cups sourdough starter",
+            "1\u2009\u00bd cups all-purpose flour",
+            "1 teaspoon salt",
+            "2 tablespoons olive oil"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat oven to 500 degrees F (260 degrees C).\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine sourdough starter, flour, and salt in a bowl. Knead into a soft dough. Let rest for 30 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Form the dough into a circle of your desired thickness and size. Place on a circular oven-safe pan.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated oven until dough looks dry, about 5 minutes. Brush all over with olive oil.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Bread",
+            "Pizza Dough and Crust Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Lindsey"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.75,
+            "ratingCount": 4,
+            "itemReviewed": "Sourdough Pizza Crust",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "364.8 calories",
+            "carbohydrateContent": "61.9 g",
+            "cholesterolContent": "0.5 mg",
+            "fatContent": "7.8 g",
+            "fiberContent": "3.2 g",
+            "proteinContent": "11.1 g",
+            "saturatedFatContent": "1.1 g",
+            "servingSize": null,
+            "sodiumContent": "604 mg",
+            "sugarContent": "2.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-05-02T03:49:20.58Z",
+                "reviewBody": "I think this is a great recipe, but it seriously needs water. I tend to add anywhere from 1/2 cup to 1 cup of water. it allows more flexibility in the dough and not so stiff. I also let it rest for 3-4 hours.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "erin s.",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/17635816/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2021-01-04T01:34:44.95Z",
+                "reviewBody": "I thought it was really tasty and cooked up easily. Next time I'll probably leave more rise time for a fluffier crust. I was in a time crunch so this worked out. I cooked at 425 and for longer with the toppings on.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Trudy Beery",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3250699/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2019-11-10T04:09:15.153Z",
+                "reviewBody": "Great dough",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "JJP__Foods__",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/jjp__foods__/"
+                }
+            }
+        ]
+    }
+]

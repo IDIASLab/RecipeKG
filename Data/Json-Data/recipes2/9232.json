@@ -1,0 +1,169 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1557/desserts/chocolate/",
+                    "name": "Chocolate Dessert Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/257053/gooey-tortilla-smore/",
+        "name": "Gooey Tortilla S'more",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4545952.jpg",
+            "width": 1537,
+            "height": 2049
+        },
+        "datePublished": "2017-02-02T02:43:51.000Z",
+        "description": "It's easy and fun to make all year long. Kids can make it.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H4M",
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "4 tortilla s'mores",
+        "recipeIngredient": [
+            "1 (10 ounce) package large marshmallows, frozen",
+            "1 (13.5 ounce) package graham crackers, crumbled",
+            "1 (12 ounce) bag semisweet chocolate chips",
+            "8 (10 inch) flour tortillas"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Cut frozen marshmallows into smaller pieces.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Layer graham crackers, marshmallow pieces, and chocolate chips on 4 tortillas, leaving a 1-inch border uncovered. Top with remaining 4 tortillas.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat a lightly oiled griddle over medium heat. Cook tortillas until marshmallow pieces and chocolate chips are melted, about 2 minutes per side. Let cool for 1 minute; cut into 4 wedges.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Chocolate Dessert Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "carrie"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.666666666666667,
+            "ratingCount": 3,
+            "itemReviewed": "Gooey Tortilla S'more",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "732.5 calories",
+            "carbohydrateContent": "127.6 g",
+            "cholesterolContent": null,
+            "fatContent": "22.9 g",
+            "fiberContent": "6 g",
+            "proteinContent": "11.5 g",
+            "saturatedFatContent": "9.5 g",
+            "servingSize": null,
+            "sodiumContent": "764.1 mg",
+            "sugarContent": "59.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-08-16T01:48:20.34Z",
+                "reviewBody": "We've been making these at Boy Scout camp for years except we call the S'macos",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Gwen Druckrey",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/14115840/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2017-02-25T05:45:05.74Z",
+                "reviewBody": "It's really good and easy to make. I was a little unsure of what it would taste like in a tortilla but it adds to the flavor instead of taking away from it. I highly recommend using the uncooked tortillas instead of the regular flour variety you buy off the grocery shelf. The uncooked tortilla (that you heat in a pan at home) has a more refined and authentic taste. We swapped out the chocolate chips for milk chocolate peanut butter cups.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "House of Aqua",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/houseofaqua/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2020-08-08T07:53:41.44Z",
+                "reviewBody": "great for kids",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/26901556/"
+                }
+            }
+        ]
+    }
+]

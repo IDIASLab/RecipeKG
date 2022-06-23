@@ -1,0 +1,136 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/251/main-dish/sandwiches/",
+                    "name": "Sandwich Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/223097/ellies-fresh-vegetable-sandwich/",
+        "name": "Ellie's Fresh Vegetable Sandwich",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Ellie's Fresh Vegetable Sandwich"
+        },
+        "datePublished": "2014-04-19T06:00:19.000Z",
+        "description": "A delicious sandwich using fresh vegetables and adapted to my tastes from a sandwich offered at a local restaurant.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT0H20M",
+        "recipeYield": "1 sandwich",
+        "recipeIngredient": [
+            "2 slices whole wheat bread, toasted",
+            "2 tablespoons honey mustard salad dressing",
+            "\u00bd cup alfalfa sprouts",
+            "2 slices tomato",
+            "\u00bc cup chopped broccoli",
+            "2 tablespoons sliced fresh mushrooms",
+            "4 slices cucumber",
+            "1 slice Swiss cheese"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Toast 2 slices of bread until lightly golden brown on both sides.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Spread one tablespoon of honey mustard dressing on each slice of toast. Top one toast slice with alfalfa sprouts, tomato slices, chopped broccoli, sliced mushrooms, and sliced cucumber. Place Swiss cheese onto vegetables and top with second slice of toast to make a sandwich.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Sandwich Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "EACline"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 1,
+            "itemReviewed": "Ellie's Fresh Vegetable Sandwich",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "454.9 calories",
+            "carbohydrateContent": "41.9 g",
+            "cholesterolContent": "31.1 mg",
+            "fatContent": "25.4 g",
+            "fiberContent": "7 g",
+            "proteinContent": "19 g",
+            "saturatedFatContent": "7.5 g",
+            "servingSize": null,
+            "sodiumContent": "497.2 mg",
+            "sugarContent": "14.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2012-08-09T01:19:13.1Z",
+                "reviewBody": "Sandwich is relatively healthy but lacks a little flavor. I would prefer Gruyere over Swiss and pesto over the mustard.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "ShoeGalM",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/9175216/"
+                }
+            }
+        ]
+    }
+]

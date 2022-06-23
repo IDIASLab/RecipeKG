@@ -1,0 +1,155 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/215/salad/pasta-salad/",
+                    "name": "Pasta Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/16185/salad/pasta-salad/macaroni-salad/",
+                    "name": "Macaroni Salad Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/272277/ginas-pasta-salad/",
+        "name": "Gina's Pasta Salad",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1089576.jpg",
+            "width": 1152,
+            "height": 1536
+        },
+        "datePublished": "2020-06-19T04:35:49.000Z",
+        "description": "This pasta salad hits the spot and is a quick and easy addition to any meal!",
+        "prepTime": "P0DT0H20M",
+        "cookTime": "P0DT0H15M",
+        "totalTime": "P0DT0H45M",
+        "recipeYield": "8 servings",
+        "recipeIngredient": [
+            "10 ounces elbow macaroni",
+            "1 cup mayonnaise",
+            "1 cup sour cream",
+            "\u00bd cup cubed Cheddar cheese",
+            "10 slices bread-and-butter pickles, diced ",
+            "1 carrot, diced",
+            "1 rib celery, diced",
+            "\u00bd green bell pepper, diced",
+            "2 tablespoons diced red onion",
+            "1 tablespoon diced banana peppers",
+            "1 tablespoon salad seasoning mix (such as McCormick\u00ae Salad Supreme Seasoning)",
+            "1 teaspoon Dijon mustard",
+            "\u00bc teaspoon salt",
+            "\u00bc teaspoon white sugar"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Bring a large pot of lightly salted water to a boil. Cook elbow macaroni in the boiling water, stirring occasionally, until tender yet firm to the bite, about 8 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine mayonnaise, sour cream, Cheddar cheese, pickles, carrot, celery, bell pepper, onion, banana peppers, salad seasoning, mustard, salt, and sugar in a large bowl. Mix well.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Drain pasta and let cool for about 10 minutes. Toss pasta into the dressing; chill before serving.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad",
+            "Pasta Salad",
+            "Macaroni Salad Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Gina S"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Gina's Pasta Salad",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "442.4 calories",
+            "carbohydrateContent": "32.4 g",
+            "cholesterolContent": "32.1 mg",
+            "fatContent": "31.4 g",
+            "fiberContent": "1.8 g",
+            "proteinContent": "8.2 g",
+            "saturatedFatContent": "8.9 g",
+            "servingSize": null,
+            "sodiumContent": "451.6 mg",
+            "sugarContent": "4.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-04-14T19:35:08.167Z",
+                "reviewBody": "Has good but mild flavors. My family thought it needed more pickles for the contrast to the \"creaminess\" of the mayo and sour cream. Next time more pickles!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Becci",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/5528889/"
+                }
+            }
+        ]
+    }
+]

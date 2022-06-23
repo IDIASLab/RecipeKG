@@ -1,0 +1,141 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/133/drinks/cocktails/",
+                    "name": "Cocktail Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1741/drinks/cocktails/rum-drinks/",
+                    "name": "Rum Drinks Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/237867/mixed-fruit-daiquiri/",
+        "name": "Mixed Fruit Daiquiri",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1210166.jpg",
+            "width": 960,
+            "height": 960
+        },
+        "datePublished": "2014-06-09T06:00:18.000Z",
+        "description": "This very tasty drink tastes like a cherry smoothie!",
+        "prepTime": "P0DT0H15M",
+        "cookTime": null,
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "8 cups",
+        "recipeIngredient": [
+            "4 cups ice cubes",
+            "2 (10 ounce) cans frozen strawberry daiquiri mixer",
+            "1 apple, cut into chunks",
+            "\u00bc fresh pineapple, cut into chunks",
+            "\u00bd cup mango chunks",
+            "\u00bd orange, peeled and segmented",
+            "2 tablespoons lime juice",
+            "3 cups white rum (such as Bacardi\u00ae)"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Blend ice and daiquiri mixer together in a blender until smooth. Add apple, pineapple, mango, orange, and lime juice; blend until smooth. Pour rum into daiquiri mixture and blend well.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Cocktail Recipes",
+            "Rum Drinks Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Adrian Sumar"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Mixed Fruit Daiquiri",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "382.7 calories",
+            "carbohydrateContent": "51.9 g",
+            "cholesterolContent": null,
+            "fatContent": "0.1 g",
+            "fiberContent": "1.2 g",
+            "proteinContent": "0.3 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "5.4 mg",
+            "sugarContent": "48.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2014-06-08T19:09:39.357Z",
+                "reviewBody": "What a fantastic daiquiri! Very refreshing and creative I recommend this refreshing beverage to anyone! Cheers everyone",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Zjd123",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/13737525/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,150 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/81/side-dish/",
+                    "name": "Side Dish",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/225/side-dish/vegetables/",
+                    "name": "Vegetables",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/266129/stir-fried-broccolini/",
+        "name": "Stir-Fried Broccolini",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5508942.jpg",
+            "width": 3024,
+            "height": 4032
+        },
+        "datePublished": "2020-06-19T04:30:37.000Z",
+        "description": "This is a quick and easy recipe for stir-fried broccolini. Broccolini is a great side, just like broccoli, and goes well with fish dishes or any other main.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "2 tablespoons peanut oil",
+            "1 pound broccolini, bottoms trimmed",
+            "salt to taste",
+            "1 pinch white sugar",
+            "1 cup vegetable broth",
+            "1 tablespoon soy sauce, or more to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat oil in a wok or large skillet over medium-high heat. Add broccolini to the hot oil. Cook and stir until broccolini has softened and is green and glossy, 3 to 5 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Add broth. Season with salt and sugar. Continue to cook until most of the broth has evaporated and broccolini is tender, about 5 minutes. Stir in soy sauce.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Side Dish",
+            "Vegetables"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "barbara"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Stir-Fried Broccolini",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "117 calories",
+            "carbohydrateContent": "9.8 g",
+            "cholesterolContent": null,
+            "fatContent": "6.9 g",
+            "fiberContent": "1.6 g",
+            "proteinContent": "4.5 g",
+            "saturatedFatContent": "1.1 g",
+            "servingSize": null,
+            "sodiumContent": "412.6 mg",
+            "sugarContent": "3.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-06-08T01:28:35.723Z",
+                "reviewBody": "Great quick and easy broccolini recipe",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Marianne",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/22170712/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2018-06-29T23:36:11.54Z",
+                "reviewBody": "I sauteed 2 garlic cloves with it as well and used chicken broth. came out really good.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Lena",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/23461559/"
+                }
+            }
+        ]
+    }
+]

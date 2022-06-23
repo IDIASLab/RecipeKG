@@ -1,0 +1,175 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/156/bread/",
+                    "name": "Bread",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/360/bread/quick-bread/",
+                    "name": "Quick Bread Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/342/bread/quick-bread/cornbread/",
+                    "name": "Cornbread Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/261731/moist-vegan-cornbread/",
+        "name": "Moist Vegan Cornbread",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5262562.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2020-03-10T06:52:46.000Z",
+        "description": "This is a basic cornbread that's great with vegan chili. It's nice for anyone who's vegan or if you just happen to be out of eggs. It tastes best when cooked in a cast iron skillet that's been preheated in the oven.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H25M",
+        "totalTime": "P0DT0H40M",
+        "recipeYield": "1 10-inch skillet",
+        "recipeIngredient": [
+            "2 cups soy milk",
+            "2 teaspoons apple cider vinegar",
+            "2 cups cornmeal",
+            "1 cup all-purpose flour",
+            "2 teaspoons baking powder",
+            "\u00bd teaspoon salt",
+            "\u2153 cup canola oil",
+            "2 tablespoons maple syrup",
+            "1 cup frozen corn kernels"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat oven to 350 degrees F (175 degrees C). Place a greased, 10-inch cast iron skillet in the preheating oven.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Mix soy milk and vinegar together in a bowl. Let stand until curdled, about 5 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Mix cornmeal, flour, baking powder, and salt together in a bowl.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour oil and maple syrup into the soy milk mixture. Whisk with a fork until foamy, about 3 minutes. Pour over cornmeal mixture and mix until combined. Fold in corn kernels. Pour batter into the hot skillet.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated oven until a toothpick inserted into the center comes out clean, 25 to 35 minutes. Slice into squares or wedges.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Bread",
+            "Quick Bread Recipes",
+            "Cornbread Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Caiti Ann"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 2,
+            "itemReviewed": "Moist Vegan Cornbread",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "209.7 calories",
+            "carbohydrateContent": "31.4 g",
+            "cholesterolContent": null,
+            "fatContent": "7.9 g",
+            "fiberContent": "2.3 g",
+            "proteinContent": "4.5 g",
+            "saturatedFatContent": "0.7 g",
+            "servingSize": null,
+            "sodiumContent": "206.9 mg",
+            "sugarContent": "4.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-03-27T10:00:57.507Z",
+                "reviewBody": "Made as written and this turned out good. It looked dense but it wasn't. It was light and fluffy and full of flavor. It actually turned out so soft that it didn't hold it's shape once cut and crumbled. While the corn added texture I'm not sure I liked it and probably wouldn't add it next time. This was one of the better vegan versions I have tried.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2018-09-17T20:19:55.083Z",
+                "reviewBody": "I added a 8 oz. can of sliced jalape\u00f1o peppers. I like their flavor when cooked in cornbread.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Rich Maloy",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/23196040/"
+                }
+            }
+        ]
+    }
+]

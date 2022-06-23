@@ -1,0 +1,141 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/218/salad/coleslaw/",
+                    "name": "Coleslaw Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/16684/salad/coleslaw/no-mayo/",
+                    "name": "No Mayo",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/238207/cranberry-poppy-seed-coleslaw/",
+        "name": "Cranberry-Poppy Seed Coleslaw",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1896859.jpg",
+            "width": 2448,
+            "height": 3264
+        },
+        "datePublished": "2017-06-24T02:15:10.000Z",
+        "description": "Napa cabbage slaw made with poppy seed dressing, cranberries, and sliced almonds.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "1 (2.25 ounce) package sliced almonds",
+            "1 head napa cabbage, thinly sliced",
+            "1 (12 ounce) bottle poppy seed dressing, or as needed",
+            "1 (6 ounce) package dried cranberries"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Cook and stir almonds in a skillet over medium-high heat until lightly browned, 3 to 5 minutes. Cool completely.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Toss cabbage with just enough dressing to coat in a large bowl. Add cranberries and almonds; stir.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad",
+            "Coleslaw Recipes",
+            "No Mayo"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "NGIBSON1"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.5,
+            "ratingCount": 2,
+            "itemReviewed": "Cranberry-Poppy Seed Coleslaw",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "479.5 calories",
+            "carbohydrateContent": "44.9 g",
+            "cholesterolContent": "21.3 mg",
+            "fatContent": "31.3 g",
+            "fiberContent": "3.6 g",
+            "proteinContent": "3.3 g",
+            "saturatedFatContent": "3.7 g",
+            "servingSize": null,
+            "sodiumContent": "431.9 mg",
+            "sugarContent": "32.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2015-01-02T15:11:22.653Z",
+                "reviewBody": "This needed a ton of pepper. The preparation was easy however the taste was overwhelming of 'bottled dressing'. We definitely prefer a homemade sauce...but in a pinch this works fine!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Arizona Desert Flower",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/arizonadesertflower/"
+                }
+            }
+        ]
+    }
+]

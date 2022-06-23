@@ -1,0 +1,143 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17245/main-dish/pasta/",
+                    "name": "Pasta",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/11946/nutritious-and-delicious-pasta/",
+        "name": "Nutritious and Delicious Pasta",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Nutritious and Delicious Pasta"
+        },
+        "datePublished": "1999-05-22T13:58:54.000Z",
+        "description": "A healthy and tasty pasta dish, filled with vegetables galore! Try your favorite pasta shape to add variety.",
+        "prepTime": null,
+        "cookTime": null,
+        "totalTime": null,
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "8 ounces pasta",
+            "3 onions, minced",
+            "8 fresh mushrooms, sliced",
+            "1 teaspoon onion powder",
+            "1 teaspoon garlic powder",
+            "1 (5.5 ounce) can low-sodium, tomato-vegetable juice cocktail",
+            "\u00bd cup port wine",
+            "1 teaspoon dried oregano",
+            "1 bay leaf",
+            "1 teaspoon arrowroot powder",
+            "1 cup water"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Cook pasta in a large pot with boiling salted water until al dente. Drain well.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Meanwhile, in a large saucepan saute the mushrooms and onions in1/2 cup of water. Add the garlic, onion powder, Port wine, tomato vegetable juice, oregano and basil. After first dissolving the arrowroot in a bowl with 1/2 cup  of water, add slowly to saucepan, stirring frequently. Thickening will occur within a minute.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Add the cooked and drained pasta to the large saucepan and stir. Place lid on for 3 minutes, then serve warm.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Pasta"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Jack"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.5,
+            "ratingCount": 2,
+            "itemReviewed": "Nutritious and Delicious Pasta",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "161.5 calories",
+            "carbohydrateContent": "29.1 g",
+            "cholesterolContent": "27.3 mg",
+            "fatContent": "1 g",
+            "fiberContent": "2.9 g",
+            "proteinContent": "5.9 g",
+            "saturatedFatContent": "0.2 g",
+            "servingSize": null,
+            "sodiumContent": "29.2 mg",
+            "sugarContent": "4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2002-08-29T23:52:00.45Z",
+                "reviewBody": "this was great. I made it for siblings and friends a huge hit all around. we doubled teh recipe used merlot instead of port and only half what we should that's all we had. used parsley instead of mushrooms and added banana peppers and basil. it was great super easy and tasty.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "LEAHDEROSE",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/664735/"
+                }
+            }
+        ]
+    }
+]

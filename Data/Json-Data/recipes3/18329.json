@@ -1,0 +1,171 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/92/meat-and-poultry/",
+                    "name": "Meat and Poultry",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/205/meat-and-poultry/pork/",
+                    "name": "Pork",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/672/meat-and-poultry/pork/sausage/",
+                    "name": "Sausage",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/270294/japanese-style-spaghetti/",
+        "name": "Japanese-Style Spaghetti",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7955823.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2019-01-26T10:15:24.000Z",
+        "description": "This spaghetti dish is good for serving a large group of people. You get your meat, pasta, and vegetable all in one dish.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H20M",
+        "totalTime": "P0DT0H35M",
+        "recipeYield": "12 servings",
+        "recipeIngredient": [
+            "1 pound ground beef",
+            "1 pound bulk pork sausage",
+            "1 onion, chopped",
+            "2 cloves garlic, minced",
+            "2 tablespoons olive oil",
+            "1 head cabbage, shredded",
+            "\u00bd stick butter",
+            "1 (16 ounce) package spaghetti",
+            "\u00bd cup soy sauce"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine beef, sausage, and onion in a large pot over medium heat. Cook and stir until browned, 5 to 10 minutes. Stir in garlic.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Meanwhile, heat olive oil in a large skillet. Add cabbage and cook until starting to wilt, 5 to 10 minutes. Stir cabbage into the meat mixture and add butter. Simmer until cabbage is tender, about 15 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "While cabbage is simmering, bring a large pot of salted water to a boil. Add spaghetti; cook, stirring occasionally, until tender yet firm to the bite, about 12 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Drain pasta and return to the pot. Stir in meat and cabbage mixture. Mix in soy sauce until combined.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Meat and Poultry",
+            "Pork",
+            "Sausage"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Ryan McDonald"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 3,
+            "itemReviewed": "Japanese-Style Spaghetti",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "403 calories",
+            "carbohydrateContent": "35.7 g",
+            "cholesterolContent": "55 mg",
+            "fatContent": "20.8 g",
+            "fiberContent": "3.9 g",
+            "proteinContent": "18.3 g",
+            "saturatedFatContent": "8 g",
+            "servingSize": null,
+            "sodiumContent": "1008.4 mg",
+            "sugarContent": "4.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-04-12T06:31:49.93Z",
+                "reviewBody": "Came out delicious. I added carrots and siracha.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "sfchollon",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/6070981/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2020-06-30T21:17:57.757Z",
+                "reviewBody": "I followed the recipe as written, except for the meat: I had 2 lbs of spicy Italian bulk sausage on hand, so that's what I used. Worked just fine!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Lin",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/25622197/"
+                }
+            }
+        ]
+    }
+]

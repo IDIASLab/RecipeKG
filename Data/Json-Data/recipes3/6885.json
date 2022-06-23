@@ -1,0 +1,161 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/673/main-dish/pork/",
+                    "name": "Pork",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/670/main-dish/pork/ham/",
+                    "name": "Ham",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 6,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17511/main-dish/pork/ham/honey/",
+                    "name": "Honey",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/145891/grilled-havarti-and-ham/",
+        "name": "Grilled Havarti and Ham",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4563830.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2018-06-08T13:48:23.000Z",
+        "description": "This grilled cheese uses creamy plain Havarti, honey ham slices, and spinach on potato bread.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H12M",
+        "totalTime": "P0DT0H23M",
+        "recipeYield": "1 sandwich",
+        "recipeIngredient": [
+            "4 thin slices  smoked honey ham",
+            "\u00bc cup chopped spinach",
+            "salt and ground black pepper to taste",
+            "2 slices potato bread",
+            "4 slices Havarti cheese",
+            "1 tablespoon butter"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place ham in a skillet over medium-high heat. Saute until lightly browned, about 2 minutes per side. Remove and transfer to a plate.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cook spinach in the same skillet until heated through, about 2 minutes. Season with salt and pepper.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place ham on a slice of bread. Add Havarti cheese and spinach. Cover with the second slice. Allow cheese to melt slightly, about 1 minute.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Melt butter in the skillet over medium heat. Place sandwich in the hot butter; cook until golden brown, about 3 minutes per side.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Pork",
+            "Ham",
+            "Honey"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Katie"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Grilled Havarti and Ham",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "836.2 calories",
+            "carbohydrateContent": "29.7 g",
+            "cholesterolContent": "217.1 mg",
+            "fatContent": "60.7 g",
+            "fiberContent": "1.5 g",
+            "proteinContent": "46.7 g",
+            "saturatedFatContent": "37 g",
+            "servingSize": null,
+            "sodiumContent": "2346.7 mg",
+            "sugarContent": "5.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-10-02T00:23:16.7Z",
+                "reviewBody": "Made as written and this was great! My honey ham had a peppered crust on it which made for even more deliciousness. If my ham wouldn't have had the pepper I probably would have added some crushed red chili flakes to the spinach for some kick. Regardless this is excellent as written.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

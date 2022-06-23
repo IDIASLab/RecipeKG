@@ -1,0 +1,137 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/116/appetizers-and-snacks/spicy/",
+                    "name": "Spicy",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/241385/sweet-and-spicy-sausage-balls/",
+        "name": "Sweet and Spicy Sausage Balls",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4503078.jpg",
+            "width": 960,
+            "height": 960
+        },
+        "datePublished": "2020-03-05T05:13:01.000Z",
+        "description": "This is one of my favorite recipes handed down from my mother in-law.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H30M",
+        "totalTime": "P0DT0H45M",
+        "recipeYield": "100 sausage balls",
+        "recipeIngredient": [
+            "2 pounds bulk hot Italian sausage",
+            "\u00bd cup red wine vinegar",
+            "\u00bd cup ketchup",
+            "\u00bd cup brown sugar",
+            "1 tablespoon soy sauce",
+            "\u00bd teaspoon ground ginger"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Roll sausage into 100 very small balls using no more than 1 1/2 teaspoons meat per ball.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Stir red wine vinegar, ketchup, brown sugar, soy sauce, and ground ginger together in a large saucepan over medium heat; bring to a simmer, reduce heat to low, and cook at a simmer until beginning to thicken, about 15 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat a skillet over medium heat. Fry sausage balls in batches in the hot skillet until browned on all sides and no longer pink in the center, 3 to 5 minutes per batch. Remove cooked sausage balls with a slotted spoon to the saucepan and stir into the sauce to coat.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks",
+            "Spicy"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "bhull"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Sweet and Spicy Sausage Balls",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "273.4 calories",
+            "carbohydrateContent": "17.5 g",
+            "cholesterolContent": "35.7 mg",
+            "fatContent": "17.1 g",
+            "fiberContent": "0.1 g",
+            "proteinContent": "12.3 g",
+            "saturatedFatContent": "6 g",
+            "servingSize": null,
+            "sodiumContent": "982.6 mg",
+            "sugarContent": "14 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-02-05T07:07:48.71Z",
+                "reviewBody": "Used my hands to mix sausage & cheese the added 1 cup Bisquick. Cooked in 350 for 30 minutes. Very tasty enjoyed by all. The next time I will definitely add some spices or use hot sausage.. they were a little too bland.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Patricia Marselle",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/8937121/"
+                }
+            }
+        ]
+    }
+]

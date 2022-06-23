@@ -1,0 +1,141 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/213/salad/green-salads/",
+                    "name": "Green Salad Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/16351/salad/green-salads/mixed-greens-salad/",
+                    "name": "Mixed Greens Salad Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/270284/basic-keto-summer-salad/",
+        "name": "Basic Keto Summer Salad",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8194170.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2019-01-25T09:42:50.000Z",
+        "description": "My low-carb summer lunch salad.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": null,
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "1 salad",
+        "recipeIngredient": [
+            "2 cups spring mix",
+            "\u00be cup cherry tomatoes, halved",
+            "\u2154 cup chopped cucumber",
+            "\u00bd cup sliced salami",
+            "\u2153 cup chopped red onion",
+            "\u2153 cup blue cheese",
+            "\u2153 cup red wine vinegar",
+            "1 tablespoon extra-virgin olive oil"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine spring mix, tomatoes, cucumber, salami, onion, and blue cheese in a bowl. Whisk vinegar and oil together in a small bowl and pour over salad; toss to coat.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad",
+            "Green Salad Recipes",
+            "Mixed Greens Salad Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "ZOMBYCHIK3"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Basic Keto Summer Salad",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "693.4 calories",
+            "carbohydrateContent": "27.8 g",
+            "cholesterolContent": "113.8 mg",
+            "fatContent": "51.3 g",
+            "fiberContent": "5.3 g",
+            "proteinContent": "32.3 g",
+            "saturatedFatContent": "18.9 g",
+            "servingSize": null,
+            "sodiumContent": "2279.8 mg",
+            "sugarContent": "4.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-06-02T05:21:21.677Z",
+                "reviewBody": "This was really good and simple too. It had tons of flavor, texture, and great eye appeal. 5 stars all the way!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

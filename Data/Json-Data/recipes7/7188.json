@@ -1,0 +1,147 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/219/salad/vegetable-salads/",
+                    "name": "Vegetable Salad Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/15102/salad/vegetable-salads/tomato-salad/",
+                    "name": "Tomato Salad Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/222914/pickled-herring-and-cucumber-salad/",
+        "name": "Pickled Herring and Cucumber Salad",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1118329.jpg",
+            "width": 2575,
+            "height": 1720
+        },
+        "datePublished": "2020-06-19T03:49:56.000Z",
+        "description": "It just so happens I like cucumber salad and pickled herring, so I decided to try this combination and the results are great. You can add your own seasoning to give it some zip, but I prefer just to leave it alone. The prep time and cook time are about the same.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT1H50M",
+        "recipeYield": "8 servings",
+        "recipeIngredient": [
+            "4 seedless English cucumbers, thinly sliced",
+            "4 vine-ripened tomatoes, diced",
+            "1 onion, thinly sliced",
+            "1 cup apple cider vinegar",
+            "\u00bd cup granulated sugar",
+            "2 (12 ounce) jars herring pickled in wine sauce (such as VitaR)), liquid drained and reserved"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine cucumbers, tomatoes, and onion in a large glass mixing bowl.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Stir vinegar and sugar together in a small saucepan over medium-low and bring to a boil; cook and stir until the sugar dissolves. Pour over the vegetable mixture. Marinate mixture in the refrigerator for 30 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Stir the reserved liquid from the herring into the vegetable mixture. Fold herring into the vegetable mixture. Refrigerate 1 hour more before serving.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad",
+            "Vegetable Salad Recipes",
+            "Tomato Salad Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Thor"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Pickled Herring and Cucumber Salad",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "317.1 calories",
+            "carbohydrateContent": "30.2 g",
+            "cholesterolContent": "11.1 mg",
+            "fatContent": "15.6 g",
+            "fiberContent": "1.9 g",
+            "proteinContent": "13.7 g",
+            "saturatedFatContent": "2.1 g",
+            "servingSize": null,
+            "sodiumContent": "748.3 mg",
+            "sugarContent": "17.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2014-04-07T21:11:27.583Z",
+                "reviewBody": "A great twist on refrigerator cucumber and onion salad. Very yummy! Mycket bra Thor!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Mic Hendrickson",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/6322698/"
+                }
+            }
+        ]
+    }
+]

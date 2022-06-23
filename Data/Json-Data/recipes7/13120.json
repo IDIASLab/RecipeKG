@@ -1,0 +1,151 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17106/drinks/juice/",
+                    "name": "Juice Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/244318/chai-limeade/",
+        "name": "Chai Limeade",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2342501.jpg",
+            "width": 3264,
+            "height": 2448
+        },
+        "datePublished": "2020-06-19T04:03:18.000Z",
+        "description": "Get ready to spice up your summer with this extraordinary flavor combination even your kids will love. Sweet, tart, spicy, exotic and so easy to make. Great for brunches, pool-side, or sitting reading a book. Healthy and flavorful. Serve over ice in coffee mugs for a feel of exotica!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "1 pitcher",
+        "recipeIngredient": [
+            "1\u2009\u00bd cups boiling water",
+            "3 chai tea bags, or more to taste",
+            "10 limes, juiced",
+            "1 lime, zested",
+            "4 cups ice, or as desired",
+            "water, or as needed",
+            "\u00bc cup white sugar, or to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Pour boiling water into a mug and add chai tea bags. Allow tea to steep for at least 5 minutes. Remove tea bags.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine lime juice and lime zest in a pitcher; add enough ice to fill pitcher halfway. Slowly pour chai tea over ice; stir. Add enough water to fill pitcher; stir in sugar.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Juice Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "MitchJGray"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 2,
+            "itemReviewed": "Chai Limeade",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "50.1 calories",
+            "carbohydrateContent": "14.1 g",
+            "cholesterolContent": null,
+            "fatContent": null,
+            "fiberContent": "0.3 g",
+            "proteinContent": "0.3 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "7.8 mg",
+            "sugarContent": "9.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-08-10T20:43:52.523Z",
+                "reviewBody": "This was really nice and refreshing! I d definitely like to make it again. Thanks for the idea of putting these two drinks together.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Abby B",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/14320901/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2015-06-20T14:58:06.757Z",
+                "reviewBody": "A very different drink indeed. The tart lime and spicy tea combination really blend well together. I made ice cubes out of some of the tea and lime juice so this helped keep the tea tasty as well as cool while it sat. I used rock cane sugar crystals instead of white sugar and made up my own chai blend. Definitely an extraordinary drink for a summer day. Thank you MitchJGray for your recipe.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Buckwheat Queen",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/melaniegiovenzana/"
+                }
+            }
+        ]
+    }
+]

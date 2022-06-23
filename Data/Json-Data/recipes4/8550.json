@@ -1,0 +1,136 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/81/side-dish/",
+                    "name": "Side Dish",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/247140/rebellion-sauerkraut/",
+        "name": "Rebellion Sauerkraut",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4448328.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2019-04-02T07:07:03.000Z",
+        "description": "Rebellion&reg; Hard Cider makes this sauerkraut the most delicious sauerkraut you will ever eat. I used Bittersweet Liberty Dry Hard Cider and the result was amazing.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT3H0M",
+        "totalTime": "P0DT3H5M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "1 (16 ounce) jar sauerkraut",
+            "1 cup hard apple cider"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine sauerkraut and hard cider in a small slow cooker.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cook on High until very tender, about 3 hours.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Side Dish"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "jillkellogg"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Rebellion Sauerkraut",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "55.8 calories",
+            "carbohydrateContent": "8.7 g",
+            "cholesterolContent": null,
+            "fatContent": "0.2 g",
+            "fiberContent": "3 g",
+            "proteinContent": "1 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "755.2 mg",
+            "sugarContent": "5.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-01-11T09:15:43.027Z",
+                "reviewBody": "Okay this is good! I did not fix it in my slow cooker but let it simmer in a covered skillet for an hour. The key is to use a hard cider that you are familiar with and like. This was tarty goodness!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2020-05-13T06:05:31.077Z",
+                "reviewBody": "This came out great! I used Angry Orchard cider and was worried that this would come out too sweet but it came out perfect!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Jenn",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/25638365/"
+                }
+            }
+        ]
+    }
+]

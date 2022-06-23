@@ -1,0 +1,135 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/133/drinks/cocktails/",
+                    "name": "Cocktail Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1743/drinks/cocktails/vodka-drinks/",
+                    "name": "Vodka Drinks Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/256375/chia-seed-cocktail/",
+        "name": "Chia Seed Cocktail",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4460663.jpg",
+            "width": 1652,
+            "height": 1652
+        },
+        "datePublished": "2019-06-11T23:33:06.000Z",
+        "description": "A healthy and digestively stimulating combination of your favorite super food and alcohol. Best consumed before lunch, but after brunch.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "1 cocktail",
+        "recipeIngredient": [
+            "3 tablespoons chia seeds",
+            "6\u2009\u00bd tablespoons 80-proof vodka (such as Tito's\u00ae)"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place chia seeds in a glass; pour in vodka. Stir to combine.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Cocktail Recipes",
+            "Vodka Drinks Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Wistopher Walken"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 1,
+            "itemReviewed": "Chia Seed Cocktail",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "319 calories",
+            "carbohydrateContent": "9.9 g",
+            "cholesterolContent": null,
+            "fatContent": "6.9 g",
+            "fiberContent": "8.5 g",
+            "proteinContent": "3.5 g",
+            "saturatedFatContent": "0.7 g",
+            "servingSize": null,
+            "sodiumContent": "5.2 mg",
+            "sugarContent": null,
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-01-19T10:48:07.133Z",
+                "reviewBody": "This was interesting. I recommend using good vodka so it will be smooth going down. Tasting immediately after mixing with the chia seeds it gives it a gritty taste. This is definitely a generous single serving at 3oz of vodka.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "B. Tario",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/b_tario/"
+                }
+            }
+        ]
+    }
+]

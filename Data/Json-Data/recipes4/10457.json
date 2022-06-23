@@ -1,0 +1,151 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/13290/main-dish/seafood/",
+                    "name": "Seafood Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/13302/main-dish/seafood/crab/",
+                    "name": "Crab",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/21278/crab-stuff/",
+        "name": "Crab Stuff",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5355188.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "1999-07-02T16:31:34.000Z",
+        "description": "A yummy, healthy delight. Multiply ingredients for number of servings desired.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H20M",
+        "totalTime": "P0DT0H30M",
+        "recipeYield": "1 serving",
+        "recipeIngredient": [
+            "1 cup uncooked white rice",
+            "2 cups water",
+            "\u00bd cup frozen green peas",
+            "1 tablespoon butter",
+            "2 tablespoons onion, diced",
+            "\u215b pound crabmeat",
+            "2 ounces green bell pepper, diced",
+            ".166 cup chicken broth",
+            ".166 cup 1% milk",
+            "\u215b cup grated fat-free Parmesan cheese"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "In a saucepan bring water to a boil. Add rice and frozen peas then stir. Bring the water back to a boil then reduce heat. Cover and simmer for 20 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "In a medium skillet, melt butter and add the diced onion and minced garlic. Saute until onions are transparent.  Add crab to mixture and saute briefly. Stir in bell peppers chicken broth, milk, and parmesan.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bring to a boil then turn off the heat  Serve over rice when done\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Seafood Main Dishes",
+            "Crab"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Mary Jay"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 1,
+            "itemReviewed": "Crab Stuff",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "965 calories",
+            "carbohydrateContent": "165.3 g",
+            "cholesterolContent": "75.7 mg",
+            "fatContent": "14.2 g",
+            "fiberContent": "6.9 g",
+            "proteinContent": "35.1 g",
+            "saturatedFatContent": "8.1 g",
+            "servingSize": null,
+            "sodiumContent": "612 mg",
+            "sugarContent": "8.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-04-29T20:30:44.133Z",
+                "reviewBody": "This was pretty good. I used fresh jalapeno instead of the green bell pepper to give it some kick. The one thing I did not like is how watery it was. Crab is expensive and although this was okay it didn't stand out to me as crab should.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

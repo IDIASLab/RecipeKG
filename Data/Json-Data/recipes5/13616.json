@@ -1,0 +1,141 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/278242/greek-yogurt-peanut-butter-bites/",
+        "name": "Greek Yogurt Peanut Butter Bites",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7666885.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-01-17T04:12:50.000Z",
+        "description": "With peanut butter, Greek yogurt, oats, and flax seeds, these little bites are packed with protein and fiber. Eat them any time you need a healthier way to curb your sweet tooth. The cacao nibs give these a hint of chocolate flavor and a great crunch. Store in the refrigerator or freezer.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": null,
+        "totalTime": "P0DT1H15M",
+        "recipeYield": "12 peanut butter bites",
+        "recipeIngredient": [
+            "\u00bc cup natural peanut butter",
+            "\u00bc cup nonfat vanilla Greek yogurt",
+            "3 tablespoons honey",
+            "\u00bd cup rolled oats",
+            "\u00bc cup almond flour",
+            "\u00bc cup flaxseed meal",
+            "2 tablespoons cacao nibs"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine peanut butter, Greek yogurt, and honey in a medium bowl. Stir with a spoon until smooth. Add oats, almond flour, flaxseed meal, and cacao nibs. Stir until well incorporated.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Scoop up about 1 tablespoon of the mixture with a small cookie scoop or spoon and roll lightly into a ball with your hands. Place in an airtight container and refrigerate for about 1 hour before serving.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Tammy Lynn"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.666666666666667,
+            "ratingCount": 3,
+            "itemReviewed": "Greek Yogurt Peanut Butter Bites",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "102 calories",
+            "carbohydrateContent": "10.3 g",
+            "cholesterolContent": "0.3 mg",
+            "fatContent": "5.9 g",
+            "fiberContent": "2.2 g",
+            "proteinContent": "3.2 g",
+            "saturatedFatContent": "1.1 g",
+            "servingSize": null,
+            "sodiumContent": "30 mg",
+            "sugarContent": "5.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-05-25T05:49:19.28Z",
+                "reviewBody": "They are good and easy!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "theowl",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/theowl/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2020-03-10T06:50:34.667Z",
+                "reviewBody": "These were really good, but were missing something. The nibs are crunchy and full of good stuff, but bitter eaten alone. Maybe add some chocolate chips.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Joe Walton",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/26732254/"
+                }
+            }
+        ]
+    }
+]

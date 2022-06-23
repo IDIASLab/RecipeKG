@@ -1,0 +1,170 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/213/salad/green-salads/",
+                    "name": "Green Salad Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17250/salad/green-salads/kale-salad/",
+                    "name": "Kale Salad Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/267710/tangy-and-tasty-kale-salad/",
+        "name": "Tangy and Tasty Kale Salad",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F912999.jpg",
+            "width": 250,
+            "height": 250
+        },
+        "datePublished": "2019-07-10T07:12:43.000Z",
+        "description": "This nutritious Brussels sprout and kale salad tastes way better than it sounds!",
+        "prepTime": "P0DT0H20M",
+        "cookTime": "P0DT0H1M",
+        "totalTime": "P0DT0H21M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "\u00bd cup olive oil",
+            "\u00bc cup lemon juice",
+            "2 tablespoons Dijon mustard",
+            "1 tablespoon minced shallot",
+            "1 small garlic clove, finely minced",
+            "\u00bc teaspoon salt, or more to taste ",
+            "ground black pepper to taste",
+            "1 teaspoon olive oil",
+            "\u2153 cup sliced almonds",
+            "1 bunch kale, center stems discarded and leaves thinly sliced",
+            "8 ounces Brussels sprouts, shredded",
+            "1 cup grated Pecorino Romano cheese"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine olive oil, lemon juice, mustard, shallot, garlic, salt, and pepper in a bowl. Set dressing aside.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat olive oil in a skillet over medium heat. Add almonds and cook until just browned, 1 to 2 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Toss kale, Brussels sprouts, and toasted almonds in a bowl with the dressing. Add Pecorino Romano cheese and serve immediately or allow to sit about 30 minutes for flavors to meld.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad",
+            "Green Salad Recipes",
+            "Kale Salad Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "CAROLYNBASS"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Tangy and Tasty Kale Salad",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "352 calories",
+            "carbohydrateContent": "15.6 g",
+            "cholesterolContent": "20.6 mg",
+            "fatContent": "28.8 g",
+            "fiberContent": "3.9 g",
+            "proteinContent": "11.8 g",
+            "saturatedFatContent": "6.4 g",
+            "servingSize": null,
+            "sodiumContent": "502.2 mg",
+            "sugarContent": "1.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-10-17T00:25:40.483Z",
+                "reviewBody": "Made it as is and loved it!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Pat Dreiling",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/13393374/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2021-07-02T03:12:34.32Z",
+                "reviewBody": "Dense and delicious, just a different salad when you're bored with tossed.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Barbara Roberts",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/22366904/"
+                }
+            }
+        ]
+    }
+]

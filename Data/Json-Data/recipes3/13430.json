@@ -1,0 +1,145 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/259/main-dish/stir-fry/",
+                    "name": "Stir-Fry",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/259475/cabbage-stir-fry-with-smoked-turkey-sausage/",
+        "name": "Cabbage Stir-Fry with Smoked Turkey Sausage",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5246992.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2018-06-08T14:44:25.000Z",
+        "description": "Just a small amount of ingredients, but you will be shocked at the amount of flavor in this dish!",
+        "prepTime": "P0DT0H20M",
+        "cookTime": "P0DT0H14M",
+        "totalTime": "P0DT0H34M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "2 (16 ounce) packages smoked turkey sausage, thinly sliced",
+            "1 large yellow onion, chopped",
+            "\u00bd tablespoon chopped garlic",
+            "1 large head cabbage, sliced into strips",
+            "salt and freshly ground black pepper to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat a large skillet over medium-high heat. Add sausage; saute until lightly browned, about 3 minutes. Add onion and garlic; saute until the onion has softened and turned translucent, about 5 minutes. Add cabbages season with salt and pepper. Cook and stir until cabbage is translucent and limp, 6 to 10 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Stir-Fry"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Julie Hanson"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Cabbage Stir-Fry with Smoked Turkey Sausage",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "465.3 calories",
+            "carbohydrateContent": "21.9 g",
+            "cholesterolContent": "171.4 mg",
+            "fatContent": "23.1 g",
+            "fiberContent": "8.5 g",
+            "proteinContent": "46.7 g",
+            "saturatedFatContent": "6.7 g",
+            "servingSize": null,
+            "sodiumContent": "1978 mg",
+            "sugarContent": "11.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-03-22T07:41:16.26Z",
+                "reviewBody": "This was simple and good but I felt it could have used a little more. The cabbage was on the bland side. If I were to make again I'd add some beer chicken broth cider or something to help flavor the cabbage. Overall good recipe though and great for nights you are short on time.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2019-04-20T06:10:18.687Z",
+                "reviewBody": "A really great comfort food on a cold dreary day!!1",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Pamela",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/11350585/"
+                }
+            }
+        ]
+    }
+]

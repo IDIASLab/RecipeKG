@@ -1,0 +1,97 @@
+@prefix ns1: <http://purl.org/heals/food/> .
+@prefix ns2: <http://purl.org/recipekg/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/raisin-soy-bread> a schema:Recipe ;
+    ns1:hasIngredient [ a <http://purl.org/heals/ingredient/WholeWheatFlour> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "whole wheat flour" ],
+        [ a <http://purl.org/heals/ingredient/CowMilk> ;
+            ns2:hasQuantity "1 1/4" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "cow milk" ],
+        [ a <http://purl.org/recipekg/ingredient/SoyFlour> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "soy flour" ],
+        [ a <http://purl.org/recipekg/ingredient/Cinnamon> ;
+            ns2:hasQuantity "2" ;
+            ns2:hasUnit "teaspoon" ;
+            ns2:ingredientName "cinnamon" ],
+        [ a <http://purl.org/recipekg/ingredient/BreadFlour> ;
+            ns2:hasQuantity "2" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "bread flour" ],
+        [ a <http://purl.org/recipekg/ingredient/Raisin> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "raisin" ],
+        [ a <http://purl.org/heals/ingredient/Honey> ;
+            ns2:hasQuantity "2" ;
+            ns2:hasUnit "tablespoon" ;
+            ns2:ingredientName "honey" ],
+        [ a <http://purl.org/recipekg/ingredient/DryYeast> ;
+            ns2:hasQuantity "2 1/4" ;
+            ns2:hasUnit "teaspoon" ;
+            ns2:ingredientName "dry yeast" ],
+        [ a <http://purl.org/heals/ingredient/Salt> ;
+            ns2:hasQuantity "1 1/2" ;
+            ns2:hasUnit "teaspoon" ;
+            ns2:ingredientName "salt" ],
+        [ a <http://purl.org/heals/ingredient/Butter> ;
+            ns2:hasQuantity "2" ;
+            ns2:hasUnit "tablespoon" ;
+            ns2:ingredientName "butter" ] ;
+    ns2:belongsTo <http://purl.org/recipekg/categories/breakfast-and-brunch/breakfast-bread/> ;
+    ns2:hasFSAScore 8 ;
+    ns2:hasNutritionalInformation [ a ns2:NutritionalInformation ;
+            ns2:hasCalorificData [ a ns2:CalorificData ;
+                    ns2:hasAmount "105.7"^^xsd:float ;
+                    ns2:hasUnit "calories" ] ;
+            ns2:hasCarbohydrateData [ a ns2:CarbohydrateData ;
+                    ns2:hasAmount "17.6"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasCholesterolData [ a ns2:CholesterolData ;
+                    ns2:hasAmount "4.1"^^xsd:float ;
+                    ns2:hasUnit "mg" ] ;
+            ns2:hasFatData [ a ns2:FatData ;
+                    ns2:hasAmount "2.5"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSAGreen ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasFiberData [ a ns2:FiberData ;
+                    ns2:hasAmount "2.2"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasProteinData [ a ns2:ProteinData ;
+                    ns2:hasAmount "4.9"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasSaturatedFatData [ a ns2:SaturatedFatData ;
+                    ns2:hasAmount "1.1"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSAGreen ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasSodiumData [ a ns2:SodiumData ;
+                    ns2:hasAmount "256.5"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSAGreen ;
+                    ns2:hasUnit "mg" ] ;
+            ns2:hasSugarData [ a ns2:SugarData ;
+                    ns2:hasAmount "4.3"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSAGreen ;
+                    ns2:hasUnit "g" ] ] ;
+    ns2:hasUSDAScore 5 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 7 ;
+            schema:ratingValue "4.285714285714286"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2000-07-08T23:06:01.000Z"^^schema:date ;
+    schema:name "Raisin Soy Bread"^^xsd:string ;
+    schema:recipeYield "1 - 2 pound loaf"^^xsd:string .
+
+<http://purl.org/recipekg/categories/breakfast-and-brunch/> a ns2:RecipeCategory .
+
+<http://purl.org/recipekg/categories/breakfast-and-brunch/breakfast-bread/> rdfs:subClassOf <http://purl.org/recipekg/categories/breakfast-and-brunch/> .
+
+ns2:FSAGreen a ns2:FSAColor .
+

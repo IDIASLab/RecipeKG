@@ -1,0 +1,168 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/94/soups-stews-and-chili/",
+                    "name": "Soups, Stews and Chili Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/16369/soups-stews-and-chili/soup/",
+                    "name": "Soup Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/445/soups-stews-and-chili/soup/beef-soup/",
+                    "name": "Beef Soup Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/268260/prime-rib-stew/",
+        "name": "Prime Rib Stew",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6267244.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2019-04-04T04:14:07.000Z",
+        "description": "This is a great stew recipe to use up any prime rib leftovers after Christmas. Serve with garlic rolls.",
+        "prepTime": "P0DT0H30M",
+        "cookTime": "P0DT6H0M",
+        "totalTime": "P0DT6H30M",
+        "recipeYield": "8 servings",
+        "recipeIngredient": [
+            "5 cups water",
+            "2 tablespoons beef soup base (such as LeGout\u00ae)",
+            "4 cups cubed cooked prime rib",
+            "4 large potatoes, peeled and diced",
+            "2 cups frozen mixed vegetables",
+            "1 cup red wine",
+            "1 large onion, diced",
+            "\u00bd cup ketchup",
+            "3 stalks celery, diced",
+            "2 carrots, peeled and diced",
+            "1 tablespoon minced garlic",
+            "1 teaspoon dried parsley",
+            "\u00bd teaspoon dried thyme",
+            "salt and ground black pepper to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine water and beef base in a 6-quart slow cooker and stir well.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Add prime rib, potatoes, frozen vegetables, red wine, onion, ketchup, celery, carrots, garlic, parsley, thyme, salt, and pepper. Cook on Low until vegetables are tender, 6 to 8 hours.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Soups, Stews and Chili Recipes",
+            "Soup Recipes",
+            "Beef Soup Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Hapygrl"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 2,
+            "itemReviewed": "Prime Rib Stew",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "539.6 calories",
+            "carbohydrateContent": "46.4 g",
+            "cholesterolContent": "63.8 mg",
+            "fatContent": "27 g",
+            "fiberContent": "6.8 g",
+            "proteinContent": "23.5 g",
+            "saturatedFatContent": "11.1 g",
+            "servingSize": null,
+            "sodiumContent": "1055.2 mg",
+            "sugarContent": "6.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-01-16T08:49:53.993Z",
+                "reviewBody": "I made one change and that was to replace the ketchup with tomato sauce. It might not have been but I was afraid of it being too sweet. This turned out good and is one I would make again.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2021-01-02T23:25:15.55Z",
+                "reviewBody": "May be because I used burgundy, but was way too sweet. If I make again, will used drier red wine, and diced tomato instead of ketchup. Added a couple tablespoons of flour to thicken up the sauce.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 2
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Wes",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/4337314/"
+                }
+            }
+        ]
+    }
+]

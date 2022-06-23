@@ -1,0 +1,133 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/143/breakfast-and-brunch/drinks/",
+                    "name": "Drinks",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/273514/white-chocolate-raspberry-latte/",
+        "name": "White Chocolate Raspberry Latte",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3531730.jpg",
+            "width": 2883,
+            "height": 2615
+        },
+        "datePublished": "2019-06-08T13:58:24.000Z",
+        "description": "This latte is made with sugar-free syrup and soy milk for a low in calories delicious latte (but you need to omit the chocolate chips).",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "1 serving",
+        "recipeIngredient": [
+            "1 tablespoon sugar-free white chocolate-flavored syrup (such as Torani\u00ae)",
+            "1 tablespoon sugar-free raspberry syrup (such as Torani\u00ae)",
+            "1 cup soy milk",
+            "2 tablespoons white chocolate chips",
+            "1 teaspoon vanilla extract",
+            "1 cup coffee"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Pour white chocolate and raspberry flavored syrups into a mug.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat soy milk in a sauce pan over medium heat and bring to a simmer. Add white chocolate chips and vanilla extract. Using an immersion blender, froth milk. Pour into mug, holding the foam back with a spoon. Pour in coffee and add foam on top.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Drinks"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Yoly"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "White Chocolate Raspberry Latte",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "272.8 calories",
+            "carbohydrateContent": "28.5 g",
+            "cholesterolContent": "4.8 mg",
+            "fatContent": "12.2 g",
+            "fiberContent": "1.5 g",
+            "proteinContent": "9.8 g",
+            "saturatedFatContent": "5.3 g",
+            "servingSize": null,
+            "sodiumContent": "157.8 mg",
+            "sugarContent": "22.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-11-17T05:17:11.99Z",
+                "reviewBody": "Modified to iced for my daughter and changed vanilla extract to 1 Tbsp vanilla syrup.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Jaimie Larson",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/7915069/"
+                }
+            }
+        ]
+    }
+]

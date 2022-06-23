@@ -1,0 +1,98 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/254344/beach-hammock/",
+        "name": "Beach Hammock",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3715976.jpg",
+            "width": 2272,
+            "height": 1704
+        },
+        "datePublished": "2017-07-13T13:01:28.000Z",
+        "description": "A tasty tropical wine cocktail.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "1 wine cocktail",
+        "recipeIngredient": [
+            "ice cubes",
+            "\u00bc (750 milliliter) bottle Chardonnay wine",
+            "4 fluid ounces pineapple juice",
+            "2 fluid ounces orange juice",
+            "2 fluid ounces cream of coconut"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Fill a cocktail shaker with ice; add Chardonnay wine, pineapple juice, orange juice, and cream of coconut. Cover and shake until the outside of shaker has frosted. Strain into a chilled glass.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Shane Allen"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Beach Hammock",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "534.8 calories",
+            "carbohydrateContent": "71.8 g",
+            "cholesterolContent": null,
+            "fatContent": "13.3 g",
+            "fiberContent": "0.4 g",
+            "proteinContent": "1 g",
+            "saturatedFatContent": "10.5 g",
+            "servingSize": null,
+            "sodiumContent": "55.3 mg",
+            "sugarContent": "63.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

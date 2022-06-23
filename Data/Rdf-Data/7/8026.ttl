@@ -1,0 +1,142 @@
+@prefix ns1: <http://purl.org/recipekg/> .
+@prefix ns2: <http://purl.org/heals/food/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/buddhas-delight-vegan-stir-fry> a schema:Recipe ;
+    ns2:hasIngredient [ ],
+        [ a <http://purl.org/heals/ingredient/Water> ;
+            ns1:hasQuantity "2" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "water" ],
+        [ a <http://purl.org/heals/ingredient/Cabbage> ;
+            ns1:hasQuantity "7" ;
+            ns1:hasUnit "ounce" ;
+            ns1:ingredientName "cabbage" ],
+        [ a <http://purl.org/heals/ingredient/Salt> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "salt" ],
+        [ a <http://purl.org/recipekg/ingredient/Tofu> ;
+            ns1:hasQuantity "4" ;
+            ns1:hasUnit "ounce" ;
+            ns1:ingredientName "tofu" ],
+        [ a <http://purl.org/recipekg/ingredient/MushroomSeasoning> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "mushroom seasoning" ],
+        [ a <http://purl.org/heals/ingredient/BlackPepper> ;
+            ns1:ingredientName "black pepper" ],
+        [ a <http://purl.org/recipekg/ingredient/BlackMoss> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "ounce" ;
+            ns1:ingredientName "black moss" ],
+        [ a <http://purl.org/recipekg/ingredient/Ginger> ;
+            ns1:hasQuantity "2" ;
+            ns1:ingredientName "ginger" ],
+        [ a <http://purl.org/heals/ingredient/Carrot> ;
+            ns1:hasQuantity "1" ;
+            ns1:ingredientName "carrot" ],
+        [ a <http://purl.org/recipekg/ingredient/SnowPeas> ;
+            ns1:hasQuantity "2" ;
+            ns1:hasUnit "ounce" ;
+            ns1:ingredientName "snow peas" ],
+        [ ],
+        [ a <http://purl.org/heals/ingredient/Salt> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "salt" ],
+        [ a <http://purl.org/recipekg/ingredient/GojiBerries> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "goji berries" ],
+        [ a <http://purl.org/recipekg/ingredient/BlackFungus> ;
+            ns1:hasQuantity "2" ;
+            ns1:hasUnit "ounce" ;
+            ns1:ingredientName "black fungus" ],
+        [ a <http://purl.org/recipekg/ingredient/LotusRoot> ;
+            ns1:hasQuantity "2" ;
+            ns1:hasUnit "ounce" ;
+            ns1:ingredientName "lotus root" ],
+        [ a <http://purl.org/heals/ingredient/Cornstarch> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "cornstarch" ],
+        [ a <http://purl.org/heals/ingredient/WhiteSugar> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "white sugar" ],
+        [ a <http://purl.org/recipekg/ingredient/ShiitakeMushrooms> ;
+            ns1:hasQuantity "5" ;
+            ns1:ingredientName "shiitake mushrooms" ],
+        [ ],
+        [ a <http://purl.org/heals/ingredient/VegetableOil> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "vegetable oil" ],
+        [ a <http://purl.org/heals/ingredient/SoySauce> ;
+            ns1:hasQuantity "3" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "soy sauce" ],
+        [ a <http://purl.org/recipekg/ingredient/CellophaneNoodles> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "package" ;
+            ns1:ingredientName "cellophane noodles" ],
+        [ a <http://purl.org/heals/ingredient/SesameOil> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "sesame oil" ],
+        [ a <http://purl.org/recipekg/ingredient/Date> ;
+            ns1:hasQuantity "8" ;
+            ns1:ingredientName "date" ] ;
+    ns1:belongsTo <http://purl.org/recipekg/categories/main-dish/stir-fry/> ;
+    ns1:hasFSAScore 3 ;
+    ns1:hasNutritionalInformation [ a ns1:NutritionalInformation ;
+            ns1:hasCalorificData [ a ns1:CalorificData ;
+                    ns1:hasAmount "542.3"^^xsd:float ;
+                    ns1:hasUnit "calories" ] ;
+            ns1:hasCarbohydrateData [ a ns1:CarbohydrateData ;
+                    ns1:hasAmount "98.6"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasCholesterolData [ a ns1:CholesterolData ;
+                    ns1:hasAmount "0.1"^^xsd:float ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasFatData [ a ns1:FatData ;
+                    ns1:hasAmount "14.5"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasFiberData [ a ns1:FiberData ;
+                    ns1:hasAmount "11.0"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasProteinData [ a ns1:ProteinData ;
+                    ns1:hasAmount "13.4"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSaturatedFatData [ a ns1:SaturatedFatData ;
+                    ns1:hasAmount "2.2"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSodiumData [ a ns1:SodiumData ;
+                    ns1:hasAmount "1321.1"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasSugarData [ a ns1:SugarData ;
+                    ns1:hasAmount "52.4"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSARed ;
+                    ns1:hasUnit "g" ] ] ;
+    ns1:hasUSDAScore 3 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2020-06-19T04:26:00.000Z"^^schema:date ;
+    schema:name "Buddha's Delight Vegan Stir-Fry"^^xsd:string ;
+    schema:recipeYield "3 servings"^^xsd:string .
+
+ns1:FSARed a ns1:FSAColor .
+
+<http://purl.org/recipekg/categories/main-dish/> a ns1:RecipeCategory .
+
+<http://purl.org/recipekg/categories/main-dish/stir-fry/> rdfs:subClassOf <http://purl.org/recipekg/categories/main-dish/> .
+
+ns1:FSAAmber a ns1:FSAColor .
+

@@ -1,0 +1,173 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/81/side-dish/",
+                    "name": "Side Dish",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17031/side-dish/sauces-and-condiments/",
+                    "name": "Sauces and Condiments",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1976/side-dish/sauces-and-condiments/sauces/",
+                    "name": "Sauces",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 6,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/2257/side-dish/sauces-and-condiments/sauces/bbq-sauce/",
+                    "name": "BBQ Sauce Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/241605/basic-barbeque-sauce/",
+        "name": "Basic Barbeque Sauce",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3301125.jpg",
+            "width": 2988,
+            "height": 5312
+        },
+        "datePublished": "2020-03-05T05:13:05.000Z",
+        "description": "This is a good basic barbeque. I personally like this sauce.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H55M",
+        "recipeYield": "2 .5 cups",
+        "recipeIngredient": [
+            "1 cup ketchup",
+            "6 fluid ounces tomato-vegetable juice cocktail (such as V8\u00ae), or more to taste",
+            "\u00be cup molasses",
+            "2 tablespoons Meyer lemon juice",
+            "1 tablespoon Worcestershire sauce",
+            "1 tablespoon brown sugar",
+            "1 tablespoon minced fresh onion",
+            "1 tablespoon minced garlic",
+            "2 teaspoons ground black pepper"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Stir ketchup, tomato-vegetable juice cocktail, molasses, Meyer lemon juice, Worcestershire sauce, brown sugar, onion, garlic, and black pepper together in a bowl.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cover bowl with plastic wrap and refrigerate to let the flavors blend, at least 45 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Side Dish",
+            "Sauces and Condiments",
+            "Sauces",
+            "BBQ Sauce Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Brandon Squige Johnson"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Basic Barbeque Sauce",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "180.1 calories",
+            "carbohydrateContent": "46.1 g",
+            "cholesterolContent": null,
+            "fatContent": "0.2 g",
+            "fiberContent": "0.6 g",
+            "proteinContent": "1.1 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "561.3 mg",
+            "sugarContent": "35.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2016-02-24T21:27:45.65Z",
+                "reviewBody": "This was delicious on ribs! I think next time I would let this simmer on the stove to thicken a bit instead of just marinating in the fridge. It's ok as the flavors were there just a bit thin for my liking.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Amanda",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/arich01/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2016-08-04T06:39:54.82Z",
+                "reviewBody": "Little spicey so you might want to cut down on the black pepper a bit. I used 1 cup molasses and 2 TBS brown sugar and it's excellent!!! Will definitely make again:)",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Gaetana Eades",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/4016791/"
+                }
+            }
+        ]
+    }
+]

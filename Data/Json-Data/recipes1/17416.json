@@ -1,0 +1,138 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/81/side-dish/",
+                    "name": "Side Dish",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/214786/pineapple-mustard-sauce/",
+        "name": "Pineapple Mustard Sauce",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Pineapple Mustard Sauce"
+        },
+        "datePublished": "2011-12-15T20:50:17.000Z",
+        "description": "Serve with pork chops or pork tenderloin.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H1M",
+        "totalTime": "P0DT0H6M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "2 tablespoons pineapple topping",
+            "1 tablespoon coarse-grain Dijon-style mustard",
+            "2 teaspoons soy sauce"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Stir the pineapple topping, Dijon mustard, and soy sauce together in a microwave-safe bowl.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat on High for 1 minute. Serve hot.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Side Dish"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "ZELDA3333"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Pineapple Mustard Sauce",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "63.8 calories",
+            "carbohydrateContent": "15.9 g",
+            "cholesterolContent": null,
+            "fatContent": null,
+            "fiberContent": "0.1 g",
+            "proteinContent": "0.4 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "495.1 mg",
+            "sugarContent": "4.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2010-08-02T18:45:49.997Z",
+                "reviewBody": "The recipe should state 3 Tbs of the pineapple topping (the smuckers brand for ice cream). I baste thick cute pork chops with the sauce just before I take them off the grill and serve whats left for dipping it's soo good.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "ZELDA3333",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/zelda3333/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2020-05-19T07:28:09.023Z",
+                "reviewBody": "Used this as a sauce to cook my pork tenderloin.  Perfect!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Denise Turner Spreen",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/21656440/"
+                }
+            }
+        ]
+    }
+]

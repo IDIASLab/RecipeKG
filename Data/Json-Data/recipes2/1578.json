@@ -1,0 +1,128 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/143/breakfast-and-brunch/drinks/",
+                    "name": "Drinks",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/238956/chocolate-spinach-milkshake/",
+        "name": "Chocolate Spinach Milkshake",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1365455.jpg",
+            "width": 960,
+            "height": 960
+        },
+        "datePublished": "2014-08-08T20:00:25.000Z",
+        "description": "I learned this recipe from a friend and expected it to be disgusting considering it was filled with spinach. But it's delicious! It tastes just like a peanut-butter chocolate milkshake but it's healthy for you as well!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "3 cups packed fresh spinach",
+            "1 cup chocolate soy milk",
+            "\u00bd banana",
+            "1\u2009\u00bd tablespoons peanut butter",
+            "\u00bd teaspoon ground cinnamon"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Blend spinach, soy milk, banana, peanut butter, and cinnamon together in a blender until smooth.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Drinks"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "tutifruticupcake39"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Chocolate Spinach Milkshake",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "189.4 calories",
+            "carbohydrateContent": "30.9 g",
+            "cholesterolContent": null,
+            "fatContent": "6.8 g",
+            "fiberContent": "2.8 g",
+            "proteinContent": "7.4 g",
+            "saturatedFatContent": "1.3 g",
+            "servingSize": null,
+            "sodiumContent": "91.9 mg",
+            "sugarContent": "4.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2016-02-24T19:20:58.02Z",
+                "reviewBody": "tasted yummooooooooooooooo",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Alesha Horst",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/17445147/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,159 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/364/desserts/frozen-desserts/",
+                    "name": "Frozen Dessert Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/2410/desserts/frozen-desserts/ice-cream-pie/",
+                    "name": "Ice Cream Pie Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/233132/amazing-grasshopper-pie/",
+        "name": "Amazing Grasshopper Pie",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1020389.jpg",
+            "width": 3264,
+            "height": 2448
+        },
+        "datePublished": "2018-03-20T03:19:27.000Z",
+        "description": "This is an amazing recipe for mint lovers!",
+        "prepTime": "P0DT0H20M",
+        "cookTime": null,
+        "totalTime": "P0DT1H20M",
+        "recipeYield": "1 9x13-inch baking dish",
+        "recipeIngredient": [
+            "1 (14 ounce) package chocolate sandwich cookies (such as Oreo\u00ae), crushed",
+            "\u00bd cup butter, melted",
+            "\u00bd gallon mint chocolate chip ice cream, cut into rectangular blocks",
+            "1 (8 ounce) container frozen whipped topping (such as Cool Whip\u00ae), thawed",
+            "2 cups hot fudge topping"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Mix crushed cookies and melted butter in a 9x13-inch baking dish; spread into an even layer. Arrange ice cream blocks atop the cookie layer. Spread whipped topping over the ice cream layer. Drizzle hot fudge topping over the whipped topping.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Store in freezer until solid, at least 1 hour.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Frozen Dessert Recipes",
+            "Ice Cream Pie Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Kayli Householder"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Amazing Grasshopper Pie",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "753.8 calories",
+            "carbohydrateContent": "82.8 g",
+            "cholesterolContent": "137.4 mg",
+            "fatContent": "43.2 g",
+            "fiberContent": "2.6 g",
+            "proteinContent": "8.7 g",
+            "saturatedFatContent": "24.8 g",
+            "servingSize": null,
+            "sodiumContent": "406 mg",
+            "sugarContent": "62.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-01-14T21:37:45.307Z",
+                "reviewBody": "This was made for Christmas dessert this year and everyone loved it. We made a light version using reduced fat sandwich cookies- light churned mint chocolate ice cream - we splashed a little peppermint extract in the FAT FREE topping and it was great!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Pamela",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/4327938/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2018-03-20T03:19:59.813Z",
+                "reviewBody": "This was good but I ve had a few issues with the steps. How would one add 2 Cups of fudge on top of the cool whip/. You have to add it after placing the ice cream.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "FrackFamily5 CA\u2014>CT",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/frackfamily5/"
+                }
+            }
+        ]
+    }
+]

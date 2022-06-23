@@ -1,0 +1,152 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/107/appetizers-and-snacks/meat-and-poultry/",
+                    "name": "Meat and Poultry",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1234/appetizers-and-snacks/meat-and-poultry/chicken/",
+                    "name": "Chicken",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/219271/austins-best-white-wings/",
+        "name": "Austin's Best White Wings",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F729814.jpg",
+            "width": 250,
+            "height": 250
+        },
+        "datePublished": "2020-03-20T06:50:10.000Z",
+        "description": "This is a great appetizer recipe I created after eating White Wings at one of my favorite places in Austin. They are very tasty with or without the cheese.",
+        "prepTime": "P0DT0H20M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H30M",
+        "recipeYield": "16 appetizers",
+        "recipeIngredient": [
+            "4 fresh jalapeno peppers, quartered and seeded",
+            "2 skinless, boneless chicken breast halves - pounded to about 3/4-inch thickness and cut into 8 strips each",
+            "2 slices pepperjack cheese, each sliced into 8 strips",
+            "8 slices bacon, cut in half",
+            "toothpicks",
+            "1 cup buffalo wing sauce",
+            "1 cup blue cheese salad dressing"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat the oven broiler.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place quartered jalapenos on a baking sheet, and broil just until they start to brown, about 5 minutes per side. Remove from heat, and allow to cool enough to handle. Leave the broiler on.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Stuff each jalapeno quarter with a pepperjack cheese strip, and wrap with chicken and bacon strips, securing with toothpicks. Arrange on the baking sheet.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Broil wrapped jalapenos until cheese is melted and bacon and chicken are cooked through, about 5 minutes on each side. Serve on a platter with buffalo wing sauce and bleu cheese dressing for dipping.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks",
+            "Meat and Poultry",
+            "Chicken"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Lisawas"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Austin's Best White Wings",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "141.2 calories",
+            "carbohydrateContent": "4 g",
+            "cholesterolContent": "17.9 mg",
+            "fatContent": "11.4 g",
+            "fiberContent": "0.1 g",
+            "proteinContent": "6.4 g",
+            "saturatedFatContent": "2.6 g",
+            "servingSize": null,
+            "sodiumContent": "706 mg",
+            "sugarContent": "0.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2011-11-04T21:31:55.453Z",
+                "reviewBody": "Great served with blue cheese dressing to cut the bite, epspecially if kids are eating them too.  Awesome appetizer during football season as a substitute or in addition to other wing recipes!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Lisawas",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2386717/"
+                }
+            }
+        ]
+    }
+]

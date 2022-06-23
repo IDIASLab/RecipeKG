@@ -1,0 +1,121 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/92/meat-and-poultry/",
+                    "name": "Meat and Poultry",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/202/meat-and-poultry/game-meats/",
+                    "name": "Game Meats",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/666/meat-and-poultry/game-meats/goose/",
+                    "name": "Goose",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/229861/slow-cooker-goose/",
+        "name": "Slow Cooker Goose",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Slow Cooker Goose"
+        },
+        "datePublished": "2019-04-04T03:53:59.000Z",
+        "description": "A very simple slow cooker recipe, but a very tasty one! I have to fish the bones out at the end because the meat just falls right off them!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT8H0M",
+        "totalTime": "P0DT8H10M",
+        "recipeYield": "1 whole goose",
+        "recipeIngredient": [
+            "1 (10 pound) goose, cut up",
+            "4 whole onions",
+            "water, to cover"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine goose and onions in a slow cooker. Pour enough water into the slow cooker to cover.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cook on Low until goose meat is tender enough to shred easily with a pair of forks, 8 to 10 hours.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Meat and Poultry",
+            "Game Meats",
+            "Goose"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "ruthee"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Slow Cooker Goose",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "721.1 calories",
+            "carbohydrateContent": "12.1 g",
+            "cholesterolContent": "199.7 mg",
+            "fatContent": "48.2 g",
+            "fiberContent": "2.2 g",
+            "proteinContent": "56.6 g",
+            "saturatedFatContent": "15.1 g",
+            "servingSize": null,
+            "sodiumContent": "166.9 mg",
+            "sugarContent": "5.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

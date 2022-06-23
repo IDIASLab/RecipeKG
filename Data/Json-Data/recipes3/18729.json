@@ -1,0 +1,111 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1642/everyday-cooking/",
+                    "name": "Everyday Cooking",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/270723/quinoa-with-sausage-kale-and-white-beans/",
+        "name": "Quinoa with Sausage, Kale, and White Beans",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Quinoa with Sausage, Kale, and White Beans"
+        },
+        "datePublished": "2019-03-06T09:28:49.000Z",
+        "description": "This quinoa dish with sausage and kale is full of flavor and good for you too! Great alone as a meal or used to stuff zucchini or squash.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H20M",
+        "totalTime": "P0DT0H35M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "2 cups chicken stock, or more as needed",
+            "1 cup quinoa",
+            "1 tablespoon extra-virgin olive oil",
+            "1 pound bulk pork sausage",
+            "1 onion, finely chopped",
+            "1 (14.5 ounce) can petite diced tomatoes, drained",
+            "1 (14.5 ounce) can great Northern beans, drained",
+            "2 cups chopped kale",
+            "salt and ground black pepper to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Bring chicken stock and quinoa to a boil in a saucepan. Reduce heat to medium-low, cover, and simmer until quinoa is tender, 15 to 20 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Meanwhile, heat olive oil in a large skillet over medium heat. Add sausage and onion and cook, breaking sausage up as it browns, 5 to 10 minutes. Mix in tomatoes, beans, and kale. Add a splash of chicken stock if needed to wilt kale. Cook until tomatoes and beans are heated through, 10 to 15 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Stir cooked quinoa into the skillet. Season with salt and pepper.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Everyday Cooking"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Leah Murphy"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Quinoa with Sausage, Kale, and White Beans",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "649 calories",
+            "carbohydrateContent": "59.3 g",
+            "cholesterolContent": "68 mg",
+            "fatContent": "31.3 g",
+            "fiberContent": "9.9 g",
+            "proteinContent": "31.7 g",
+            "saturatedFatContent": "9.4 g",
+            "servingSize": null,
+            "sodiumContent": "1814.2 mg",
+            "sugarContent": "4.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

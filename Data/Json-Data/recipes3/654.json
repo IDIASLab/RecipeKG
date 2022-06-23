@@ -1,0 +1,134 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/141/drinks/eggnog/",
+                    "name": "Eggnog Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/9496/mock-eggnog/",
+        "name": "Mock Eggnog",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Mock Eggnog"
+        },
+        "datePublished": "1999-12-05T16:38:00.000Z",
+        "description": "You will enjoy this Christmas beverage because you can change the flavor of ice cream to what ever you like or leave out the peppermint candies without any adverse results. Peppermint ice cream can be substituted for vanilla.",
+        "prepTime": null,
+        "cookTime": null,
+        "totalTime": null,
+        "recipeYield": "1.5 gallons",
+        "recipeIngredient": [
+            "\u00bd gallon vanilla ice cream",
+            "2 quarts eggnog, chilled",
+            "2 liters lemon-lime flavored carbonated beverage",
+            "\u00bc cup crushed peppermint hard candies",
+            "1 cup heavy whipping cream, whipped",
+            "10 chocolate mint candies, coarsely crushed"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "In a large punch bowl, combine the ice cream, eggnog, carbonated beverage, and finely crushed candy; mix well.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place dollops of whipped cream on top of eggnog, and sprinkle with coarsely chopped peppermint candies for garnish.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Eggnog Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "MARBALET"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Mock Eggnog",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "137.6 calories",
+            "carbohydrateContent": "17.6 g",
+            "cholesterolContent": "38.1 mg",
+            "fatContent": "6.7 g",
+            "fiberContent": "0.2 g",
+            "proteinContent": "2.5 g",
+            "saturatedFatContent": "4.1 g",
+            "servingSize": null,
+            "sodiumContent": "46.3 mg",
+            "sugarContent": "10.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2003-12-25T08:56:10.25Z",
+                "reviewBody": "I needed a quick recipe for a \"progressive\" dinner and although I wasn't sure about this recipe I decided to give it a shot. Not liking mints I omitted those altogether. I sprinkled some cinnamon on top of the punch and with the dollops of whipped cream it made a pretty presentation. The punch was a huge hit and the punchbowl was drained twice! The carbonated beverage gives the punch a very light flavor. Even people who don't like eggnog will like this drink. If you like a little pizzazz add a touch of brandy.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "MANGELO1",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/963451/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,148 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1822/drinks/mocktails/",
+                    "name": "Mocktail Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/242177/watermelon-fizz/",
+        "name": "Watermelon Fizz",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2316582.jpg",
+            "width": 9936,
+            "height": 9936
+        },
+        "datePublished": "2020-06-20T01:50:51.000Z",
+        "description": "Mouth-watering nutritious mocktail with the power of coconut water and watermelon. Garnish with an orange twist, watermelon wedge, and grapes with two blending straws.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "1 drink",
+        "recipeIngredient": [
+            "1 cup coconut water",
+            "\u00bd cup watermelon puree",
+            "1 teaspoon stevia",
+            "\u00bd cup ice cubes, or as desired"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Blend coconut water, watermelon, and stevia together in a blender until smooth.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Fill a cocktail shaker with ice; add watermelon mixture. Cover shaker and shake until chilled; pour into a poco grande glass.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Mocktail Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Christian Sidiangco"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 2.5,
+            "ratingCount": 2,
+            "itemReviewed": "Watermelon Fizz",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "81.6 calories",
+            "carbohydrateContent": "20.1 g",
+            "cholesterolContent": null,
+            "fatContent": "0.6 g",
+            "fiberContent": "3.1 g",
+            "proteinContent": "2.4 g",
+            "saturatedFatContent": "0.4 g",
+            "servingSize": null,
+            "sodiumContent": "253.1 mg",
+            "sugarContent": "6.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2015-06-07T18:55:30.103Z",
+                "reviewBody": "Didn't know what a poco grande glass was so I just poured this into an old-fashioned glass. I didn't add the stevia because my melon was plenty sweet and I didn't think that it needed any additional sweetness. The coconut water definitely is what you first taste but then the subtle flavor of the watermelon kicks in. Pretty tasty for a hot Florida day!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "lutzflcat",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/lutzflcat/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2016-07-16T09:02:54.513Z",
+                "reviewBody": "I love watermelon but this was not a tasteful treat. I don't like the aftertaste of this drink.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 1
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "gwen",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/5926023/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,113 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/227/world-cuisine/asian/",
+                    "name": "Asian",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/257578/1234-taiwanese-spare-ribs/",
+        "name": "1234 Taiwanese Spare Ribs",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "1234 Taiwanese Spare Ribs"
+        },
+        "datePublished": "2020-06-19T04:20:41.000Z",
+        "description": "This was one of the most popular college potluck dishes among Taiwanese students studying at American universities back in the 70s. It's continued to be everyone's absolute favorite, and just couldn't be easier to make since it's just 1-2-3-4! Serve over white rice.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H35M",
+        "totalTime": "P0DT0H45M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "1 large tomato, sliced into wedges",
+            "1 pound pork spare ribs, sliced crosswise into 2-inch pieces",
+            "2 tablespoons white vinegar",
+            "3 tablespoons white sugar",
+            "\u00bc cup soy sauce"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place tomato wedges in the bottom of a large pot over medium heat. Lay pork ribs on top. Add vinegar, sugar, and soy sauce in that order. Bring to a boil. Stir and cover pot partially with a lid. Reduce heat and simmer, stirring occasionally, until pork is tender, 30 to 40 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Asian"
+        ],
+        "recipeCuisine": [
+            "Asian"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Jessica"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "1234 Taiwanese Spare Ribs",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "249.6 calories",
+            "carbohydrateContent": "12.4 g",
+            "cholesterolContent": "59.9 mg",
+            "fatContent": "15.1 g",
+            "fiberContent": "0.7 g",
+            "proteinContent": "15.8 g",
+            "saturatedFatContent": "5.5 g",
+            "servingSize": null,
+            "sodiumContent": "950.2 mg",
+            "sugarContent": "10.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

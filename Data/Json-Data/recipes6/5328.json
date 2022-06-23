@@ -1,0 +1,109 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1642/everyday-cooking/",
+                    "name": "Everyday Cooking",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/270063/beef-tenderloin-fondue/",
+        "name": "Beef Tenderloin Fondue",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Beef Tenderloin Fondue"
+        },
+        "datePublished": "2020-03-10T02:53:44.000Z",
+        "description": "Delicious beef tenderloin fondue using broth, instead of messy peanut oil. Perfect dinner for two, especially when paired with a hazelnut blue cheese salad.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H15M",
+        "totalTime": "P0DT4H30M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "\u00bc cup soy sauce",
+            "1 tablespoon Worcestershire sauce",
+            "1 small garlic clove, minced",
+            "1\u2009\u00bc pounds beef tenderloin, cut into 1/2-inch cubes",
+            "1 (32 fluid ounce) container vegetable broth (such as Emeril's\u00ae)",
+            "\u00bd cup dry red wine",
+            "3 green onions, chopped"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Mix soy sauce, Worcestershire sauce, and garlic in a resealable plastic bag. Add cubed beef and seal bag. Lay flat in the refrigerator for a minimum of 4 hours, turning occasionally.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Remove beef from the marinade and pat dry with paper towels.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour vegetable broth into a fondue pot and heat to 225 degrees F (105 degrees C). Add wine and green onions to the simmering broth. Use fondue forks to dip beef cubes into the broth until cooked, 1 to 2 minutes per forkful.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Everyday Cooking"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "betsyjane"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Beef Tenderloin Fondue",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "497.2 calories",
+            "carbohydrateContent": "17.8 g",
+            "cholesterolContent": "141.1 mg",
+            "fatContent": "17.9 g",
+            "fiberContent": "2.9 g",
+            "proteinContent": "52 g",
+            "saturatedFatContent": "6.3 g",
+            "servingSize": null,
+            "sodiumContent": "2919.2 mg",
+            "sugarContent": "8.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

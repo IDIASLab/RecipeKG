@@ -1,0 +1,155 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/273486/sloppy-joe-baked-potatoes/",
+        "name": "Sloppy Joe Baked Potatoes",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6662374.jpg",
+            "width": 2860,
+            "height": 2089
+        },
+        "datePublished": "2019-05-16T06:35:26.000Z",
+        "description": "These Sloppy Joe baked potatoes are from a recipe that was given to me, and I made some changes to suit my family. Quick, hearty, and easy!",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H20M",
+        "totalTime": "P0DT0H35M",
+        "recipeYield": "4 potatoes",
+        "recipeIngredient": [
+            "4 russet potatoes, scrubbed",
+            "1 tablespoon olive oil",
+            "1 small onion, finely chopped",
+            "\u00bd green bell pepper, finely chopped",
+            "1 teaspoon minced garlic",
+            "1 pound ground beef",
+            "\u00bc teaspoon kosher salt",
+            "\u00bc teaspoon freshly ground black pepper",
+            "\u2154 cup ketchup",
+            "\u00bd cup sweet chili sauce",
+            "1 tablespoon chili powder",
+            "\u00bc teaspoon garlic powder",
+            "1 cup shredded Cheddar cheese"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Prick potatoes several times with a fork and place onto a microwave-safe plate. Microwave for 8 minutes. Turn potatoes over and microwave until tender, about 7 minutes more.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "While the potatoes are cooking, heat olive oil in a large skillet over medium heat. Add onion, bell pepper, and garlic; cook, stirring occasionally until vegetables are tender, about 7 minutes. Add ground beef, salt, and pepper. Cook, breaking up the meat with a wooden spoon, until no longer pink on the surface, about 6 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Stir in the ketchup, chili sauce, chili powder, and garlic powder; continue cooking until the ground beef is cooked through, 3 to 5 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Split the baked potatoes open lengthwise and gently fluff the flesh with a fork. Top with the hot beef mixture and sprinkle with Cheddar cheese.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Michelle Kline"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.333333333333333,
+            "ratingCount": 3,
+            "itemReviewed": "Sloppy Joe Baked Potatoes",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "699.5 calories",
+            "carbohydrateContent": "74 g",
+            "cholesterolContent": "99.3 mg",
+            "fatContent": "31.2 g",
+            "fiberContent": "5.5 g",
+            "proteinContent": "34 g",
+            "saturatedFatContent": "13.5 g",
+            "servingSize": null,
+            "sodiumContent": "1298.7 mg",
+            "sugarContent": "16 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-10-31T04:16:16.617Z",
+                "reviewBody": "Really good, great way to avoid a bun and the same old slopy joe. We ate ours without cheese and it's still good.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "abbyz2000",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/13356091/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2019-05-22T03:18:14.65Z",
+                "reviewBody": "Great combination of flavors for the perfect meal. Definitely a keeper.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "bd.weld",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/bdweld/"
+                }
+            }
+        ]
+    }
+]

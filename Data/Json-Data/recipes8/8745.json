@@ -1,0 +1,152 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/92/meat-and-poultry/",
+                    "name": "Meat and Poultry",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/201/meat-and-poultry/chicken/",
+                    "name": "Chicken",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/661/meat-and-poultry/chicken/chicken-thighs/",
+                    "name": "Chicken Thigh Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/272633/slow-cooker-pseudo-paella/",
+        "name": "Slow Cooker Pseudo Paella",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5204610.jpg",
+            "width": 3024,
+            "height": 4032
+        },
+        "datePublished": "2019-06-15T05:46:19.000Z",
+        "description": "This is not paella, but it has all of the ingredients of my basic paella recipe and makes for a great wintertime alternative. The slow cooker makes it easy to prepare; adding the rice at the end keeps it from getting overcooked. It is not paella, but it stands up on its own.",
+        "prepTime": "P0DT0H20M",
+        "cookTime": "P0DT4H45M",
+        "totalTime": "P0DT5H5M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "4 cups chicken stock",
+            "1 large onion, finely chopped",
+            "1 poblano pepper, finely chopped",
+            "1 tomato, finely chopped",
+            "3 cloves garlic, minced",
+            "1 teaspoon smoked paprika",
+            "1 teaspoon liquid smoke flavoring",
+            "12 saffron strands",
+            "6 boneless, skinless chicken thighs",
+            "1 pound mild Italian sausage, shaped into 1-inch balls",
+            "2 cups long-grain white rice"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat a slow cooker on Low. Add chicken stock, onion, poblano pepper, tomato, garlic, paprika, liquid smoke, and saffron strands. Stir to mix. Add chicken thighs and sausage balls and stir again.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cover and cook on Low for 4 to 5 hours.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Turn slow cooker to High and add rice; stir to mix. Cover and cook until rice absorbs all of the liquid, about 45 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Meat and Poultry",
+            "Chicken",
+            "Chicken Thigh Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "EriK Anderson"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 2,
+            "ratingCount": 1,
+            "itemReviewed": "Slow Cooker Pseudo Paella",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "590 calories",
+            "carbohydrateContent": "57 g",
+            "cholesterolContent": "99.5 mg",
+            "fatContent": "23.5 g",
+            "fiberContent": "2.2 g",
+            "proteinContent": "34.9 g",
+            "saturatedFatContent": "7.4 g",
+            "servingSize": null,
+            "sodiumContent": "1152 mg",
+            "sugarContent": "2.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-07-25T08:49:35.29Z",
+                "reviewBody": "Nice and quick but monotone flavors. Needs more vegetables for color and taste.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 2
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "ti",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/5091733/"
+                }
+            }
+        ]
+    }
+]

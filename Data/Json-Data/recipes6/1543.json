@@ -1,0 +1,131 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/82/trusted-brands-recipes-and-tips/",
+                    "name": "Trusted Brands: Recipes and Tips",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/14934/trusted-brands-recipes-and-tips/kikkoman/",
+                    "name": "Kikkoman",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/237748/asian-style-soy-burger/",
+        "name": "Asian Style Soy Burger",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Asian Style Soy Burger"
+        },
+        "datePublished": "2020-03-05T05:11:59.000Z",
+        "description": "Soy sauce, sesame oil, green onion, and spices bring incredible flavor to grilled hamburgers.",
+        "prepTime": null,
+        "cookTime": null,
+        "totalTime": null,
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "2 tablespoons Kikkoman Less Sodium Soy Sauce",
+            "1 teaspoon sesame oil",
+            "4 green onions, thinly sliced (plus extra for garnish)",
+            "\u00bd teaspoon garlic powder",
+            "\u00bd teaspoon ground ginger",
+            "1 tablespoon dark brown sugar",
+            "1 pound favorite ground beef mixture"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine all ingredients with ground beef* in a bowl and mix well. Shape burger patties and grill burger following your favorite method.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Trusted Brands: Recipes and Tips",
+            "Kikkoman"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Kikkoman"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Asian Style Soy Burger",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "264.4 calories",
+            "carbohydrateContent": "5.8 g",
+            "cholesterolContent": "68.5 mg",
+            "fatContent": "16.8 g",
+            "fiberContent": "0.5 g",
+            "proteinContent": "21.1 g",
+            "saturatedFatContent": "6.3 g",
+            "servingSize": null,
+            "sodiumContent": "641.3 mg",
+            "sugarContent": "3.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-11-04T01:47:18.783Z",
+                "reviewBody": "Very juicy and flavorful--will make again!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Jeanna Brown",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/7224029/"
+                }
+            }
+        ]
+    }
+]

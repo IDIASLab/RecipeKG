@@ -1,0 +1,37 @@
+@prefix ns1: <http://purl.org/recipekg/> .
+@prefix ns2: <http://purl.org/heals/food/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/mini-sausage-and-waffle-bites> a schema:Recipe ;
+    ns2:hasIngredient [ a <http://purl.org/recipekg/ingredient/MuensterCheese> ;
+            ns1:hasQuantity "4" ;
+            ns1:ingredientName "Muenster cheese" ],
+        [ a <http://purl.org/recipekg/ingredient/Oil> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "oil" ],
+        [ a <http://purl.org/recipekg/ingredient/PorkSausage> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "package" ;
+            ns1:ingredientName "Pork Sausage" ],
+        [ a <http://purl.org/recipekg/ingredient/StrawberryJam> ;
+            ns1:hasQuantity "1/4" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "strawberry jam" ],
+        [ a <http://purl.org/recipekg/ingredient/MiniWaffles> ;
+            ns1:hasQuantity "4" ;
+            ns1:ingredientName "mini waffles" ] ;
+    ns1:belongsTo <http://purl.org/recipekg/categories/breakfast-and-brunch/waffles/> ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2021-07-28T03:42:08.000Z"^^schema:date ;
+    schema:name "Mini Sausage and Waffle Bites"^^xsd:string ;
+    schema:recipeYield "8 waffle bites"^^xsd:string .
+
+<http://purl.org/recipekg/categories/breakfast-and-brunch/> a ns1:RecipeCategory .
+
+<http://purl.org/recipekg/categories/breakfast-and-brunch/waffles/> rdfs:subClassOf <http://purl.org/recipekg/categories/breakfast-and-brunch/> .
+

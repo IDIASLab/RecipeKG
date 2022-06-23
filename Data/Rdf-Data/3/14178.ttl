@@ -1,0 +1,93 @@
+@prefix ns1: <http://purl.org/recipekg/> .
+@prefix ns2: <http://purl.org/heals/food/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/one-two-three-mexican-macaroni-salad> a schema:Recipe ;
+    ns2:hasIngredient [ a <http://purl.org/heals/ingredient/Mayonnaise> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "mayonnaise" ],
+        [ a <http://purl.org/recipekg/ingredient/Salsa> ;
+            ns1:hasQuantity "1 1/2" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "salsa" ],
+        [ a <http://purl.org/heals/ingredient/Garlic> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "garlic" ],
+        [ a <http://purl.org/heals/ingredient/Salt> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "salt" ],
+        [ a <http://purl.org/heals/ingredient/GreenPepper> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "green pepper" ],
+        [ a <http://purl.org/recipekg/ingredient/BlackOlives> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "can" ;
+            ns1:ingredientName "black olives" ],
+        [ a <http://purl.org/recipekg/ingredient/DryMacaroni> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "package" ;
+            ns1:ingredientName "dry macaroni" ],
+        [ a <http://purl.org/heals/ingredient/BlackPepper> ;
+            ns1:ingredientName "black pepper" ] ;
+    ns1:belongsTo <http://purl.org/recipekg/categories/salad/pasta-salad/vegetarian-pasta-salad/> ;
+    ns1:hasFSAScore 4 ;
+    ns1:hasNutritionalInformation [ a ns1:NutritionalInformation ;
+            ns1:hasCalorificData [ a ns1:CalorificData ;
+                    ns1:hasAmount "367.6"^^xsd:float ;
+                    ns1:hasUnit "calories" ] ;
+            ns1:hasCarbohydrateData [ a ns1:CarbohydrateData ;
+                    ns1:hasAmount "39.3"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasCholesterolData [ a ns1:CholesterolData ;
+                    ns1:hasAmount "8.4"^^xsd:float ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasFatData [ a ns1:FatData ;
+                    ns1:hasAmount "20.4"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSARed ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasFiberData [ a ns1:FiberData ;
+                    ns1:hasAmount "3.4"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasProteinData [ a ns1:ProteinData ;
+                    ns1:hasAmount "7.6"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSaturatedFatData [ a ns1:SaturatedFatData ;
+                    ns1:hasAmount "3.1"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSodiumData [ a ns1:SodiumData ;
+                    ns1:hasAmount "740.6"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasSugarData [ a ns1:SugarData ;
+                    ns1:hasAmount "2.3"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAGreen ;
+                    ns1:hasUnit "g" ] ] ;
+    ns1:hasUSDAScore 4 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 92 ;
+            schema:ratingValue "4.282608695652174"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2018-06-08T13:22:14.000Z"^^schema:date ;
+    schema:name "One - Two - Three - Mexican Macaroni Salad"^^xsd:string ;
+    schema:recipeYield "10 servings"^^xsd:string .
+
+ns1:FSAGreen a ns1:FSAColor .
+
+ns1:FSARed a ns1:FSAColor .
+
+<http://purl.org/recipekg/categories/salad/> a ns1:RecipeCategory .
+
+<http://purl.org/recipekg/categories/salad/pasta-salad/> rdfs:subClassOf <http://purl.org/recipekg/categories/salad/> .
+
+<http://purl.org/recipekg/categories/salad/pasta-salad/vegetarian-pasta-salad/> rdfs:subClassOf <http://purl.org/recipekg/categories/salad/pasta-salad/> .
+
+ns1:FSAAmber a ns1:FSAColor .
+

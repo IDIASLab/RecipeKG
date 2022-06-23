@@ -1,0 +1,147 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17140/desserts/fruit-desserts/",
+                    "name": "Fruit Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1254/desserts/fruit-desserts/apple-desserts/",
+                    "name": "Apple Dessert Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/257665/deconstructed-apple-pie-sundae/",
+        "name": "Deconstructed Apple Pie Sundae",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Deconstructed Apple Pie Sundae"
+        },
+        "datePublished": "2020-03-05T05:16:15.000Z",
+        "description": "This tasty sundae is like eating apple pie ala mode without all the work.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H12M",
+        "totalTime": "P0DT0H22M",
+        "recipeYield": "4 small sundaes",
+        "recipeIngredient": [
+            "2 Granny Smith apples - peeled, cored, and chopped",
+            "\u00bc cup brown sugar",
+            "3 tablespoons butter",
+            "1 teaspoon ground cinnamon",
+            "\u00bc teaspoon salt",
+            "\u00bd cup pecans",
+            "1 teaspoon vanilla extract",
+            "4 scoops vanilla ice cream",
+            "\u00bc cup toffee baking bits"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine apples, brown sugar, butter, cinnamon, and salt in a saucepan over medium heat; cook, stirring occasionally, until apples begin to soften, about 10 minutes. Add pecans and cook 2 minutes more. Remove from heat and cool slightly.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Scoop ice cream into 4 bowls and top with apple topping. Sprinkle toffee bits over apple topping.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Fruit Desserts",
+            "Apple Dessert Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "natalie"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 1,
+            "itemReviewed": "Deconstructed Apple Pie Sundae",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "394.3 calories",
+            "carbohydrateContent": "38.2 g",
+            "cholesterolContent": "44.4 mg",
+            "fatContent": "27.2 g",
+            "fiberContent": "3.2 g",
+            "proteinContent": "2.4 g",
+            "saturatedFatContent": "10.9 g",
+            "servingSize": null,
+            "sodiumContent": "301.7 mg",
+            "sugarContent": "25.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-10-28T21:21:52Z",
+                "reviewBody": "I was expecting that it had a crust so i had to go to another website for the crust",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "slayrsarah",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/24450849/"
+                }
+            }
+        ]
+    }
+]

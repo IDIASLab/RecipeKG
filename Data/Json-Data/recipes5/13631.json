@@ -1,0 +1,151 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/673/main-dish/pork/",
+                    "name": "Pork",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/16543/main-dish/pork/pulled-pork/",
+                    "name": "Pulled Pork",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/278057/mojo-pork/",
+        "name": "Mojo Pork",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7667986.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-01-17T09:41:37.000Z",
+        "description": "This mojo pork is super good and super easy...",
+        "prepTime": "P0DT0H20M",
+        "cookTime": "P0DT8H0M",
+        "totalTime": "P0DT8H20M",
+        "recipeYield": "10 servings",
+        "recipeIngredient": [
+            "1 (3 1/2) pound boneless pork butt, trimmed of excess fat and cut into big chunks",
+            "\u00be cup chicken broth",
+            "\u00bd cup orange juice",
+            "\u00bc cup lime juice",
+            "\u00bc cup lemon juice",
+            "1 onion, cut into big chunks",
+            "1 jalapeno pepper, halved",
+            "1 head garlic, cloves separated and peeled",
+            "1\u2009\u00bd teaspoons salt",
+            "1 teaspoon dried oregano",
+            "\u00bd teaspoon ground black pepper",
+            "\u00bd teaspoon ground cumin",
+            "\u00bd teaspoon smoked paprika",
+            "2 bay leaves"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine pork, chicken broth, orange juice, lime juice, lemon juice, onion, jalapeno, garlic, salt, oregano, black pepper, cumin, paprika, and bay leaves in a slow cooker. Stir to combine.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cover and cook on Low until pork shreds easily with a fork, 8 to 10 hours.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Pork",
+            "Pulled Pork"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "richgator"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Mojo Pork",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "176.7 calories",
+            "carbohydrateContent": "6.8 g",
+            "cholesterolContent": "60.2 mg",
+            "fatContent": "6.9 g",
+            "fiberContent": "0.7 g",
+            "proteinContent": "21.3 g",
+            "saturatedFatContent": "2.4 g",
+            "servingSize": null,
+            "sodiumContent": "479.6 mg",
+            "sugarContent": "2.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-01-29T08:34:36.343Z",
+                "reviewBody": "Delish! The meat was unbelievably tender. We used it for tacos but it would be delicious on a sandwich in enchiladas or over rice.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "fabeveryday",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/fabeveryday/"
+                }
+            }
+        ]
+    }
+]

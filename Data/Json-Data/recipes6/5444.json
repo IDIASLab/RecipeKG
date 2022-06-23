@@ -1,0 +1,171 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17743/main-dish/rice/",
+                    "name": "Rice",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/14362/main-dish/rice/risotto/",
+                    "name": "Risotto Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/277770/arugula-risotto/",
+        "name": "Arugula Risotto",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F999927.jpg",
+            "width": 1940,
+            "height": 1944
+        },
+        "datePublished": "2013-03-31T18:04:24.000Z",
+        "description": "A delicious way to use arugula outside of salads or pastas. This risotto recipe uses only one pot and is especially great in early spring or late fall when arugula is abundant.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H35M",
+        "totalTime": "P0DT0H45M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "6 cups loosely packed arugula, or more to taste",
+            "3 tablespoons olive oil",
+            "2 cups Arborio rice",
+            "\u00bd cup finely chopped yellow onion",
+            "\u00bd cup white wine",
+            "6 cups vegetable broth",
+            "\u00bc cup grated Parmesan cheese",
+            "2 tablespoons butter",
+            "1 pinch salt and freshly ground black pepper to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Finely chop arugula and set aside.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat oil in a large saucepan over medium heat. Saute rice in the hot oil until it begins to look toasted, about 1 minute. Add onion and cook until softened, about 5 minutes. Pour in wine and stir frequently until most of the liquid is absorbed, 5 to 7 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Stir in vegetable broth, 1 cup at a time, stirring almost constantly. Add arugula with the 5th cup of vegetable broth; pour in remaining broth, stirring almost constantly, until rice is tender yet firm to the bite, 20 to 25 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Remove from heat and stir in Parmesan cheese and butter. Add salt and pepper to taste.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Rice",
+            "Risotto Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "thespoonful"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Arugula Risotto",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "653.8 calories",
+            "carbohydrateContent": "102.8 g",
+            "cholesterolContent": "19.7 mg",
+            "fatContent": "18.3 g",
+            "fiberContent": "3.6 g",
+            "proteinContent": "12.1 g",
+            "saturatedFatContent": "5.9 g",
+            "servingSize": null,
+            "sodiumContent": "856.8 mg",
+            "sugarContent": "6.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-05-27T06:52:08.043Z",
+                "reviewBody": "This was pretty tasty. Would make again.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Chon Hallback",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/14159404/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2021-03-02T03:06:27.043Z",
+                "reviewBody": "This is very easy and delicious! The only change to the recipe I would suggest is cooking onions first, and then adding rice.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "yellaveth",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/13130971/"
+                }
+            }
+        ]
+    }
+]

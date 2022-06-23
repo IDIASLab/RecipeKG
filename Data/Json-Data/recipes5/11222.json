@@ -1,0 +1,95 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/284790/parmesan-roasted-fennel/",
+        "name": "Parmesan-Roasted Fennel",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Parmesan-Roasted Fennel"
+        },
+        "datePublished": "2019-10-18T06:01:31.000Z",
+        "description": "Fennel is tossed with olive oil, salt, pepper, and Parmesan cheese and roasted for a delicious veggie side dish.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H25M",
+        "totalTime": "P0DT0H30M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "2 medium fennel bulbs",
+            "2 tablespoons grated Parmesan cheese",
+            "1 tablespoon extra-virgin olive oil",
+            "salt and ground black pepper to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat the oven to 400 degrees F (200 degrees C). Line a baking sheet with parchment paper or nonstick aluminum foil.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Remove stems and core from fennel bulbs. Reserve a handful of fronds. Dice fennel into bite-sized pieces. Toss fennel and fronds with Parmesan cheese, oil, salt, and pepper. Spread in a single layer on the prepared baking sheet.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Roast in the preheated oven for 20 minutes. Turn fennel with a spatula and roast until crisp-tender and browned on both sides, 5 to 10 more minutes.\n"
+            }
+        ],
+        "recipeCategory": [],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Marcia"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Parmesan-Roasted Fennel",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "77.4 calories",
+            "carbohydrateContent": "8.6 g",
+            "cholesterolContent": "2.2 mg",
+            "fatContent": "4.3 g",
+            "fiberContent": "3.6 g",
+            "proteinContent": "2.4 g",
+            "saturatedFatContent": "0.9 g",
+            "servingSize": null,
+            "sodiumContent": "99.1 mg",
+            "sugarContent": "0.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

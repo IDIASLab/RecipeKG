@@ -1,0 +1,155 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/107/appetizers-and-snacks/meat-and-poultry/",
+                    "name": "Meat and Poultry",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1234/appetizers-and-snacks/meat-and-poultry/chicken/",
+                    "name": "Chicken",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/258176/chicken-cakes/",
+        "name": "Chicken Cakes",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5168964.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2018-06-08T14:43:21.000Z",
+        "description": "Spicy chicken cakes, great with or without sauce!",
+        "prepTime": "P0DT0H25M",
+        "cookTime": "P0DT0H6M",
+        "totalTime": "P0DT0H31M",
+        "recipeYield": "8 servings",
+        "recipeIngredient": [
+            "1 cup bread crumbs",
+            "1 (1.5 ounce) package stackable potato chips (such as Pringles\u00ae), crushed",
+            "1 tablespoon ground black pepper",
+            "1 tablespoon dried dill",
+            "1 teaspoon salt",
+            "1 teaspoon garlic powder",
+            "4\u2009\u00bc cups shredded cooked chicken",
+            "\u00bd cup ranch dressing",
+            "\u00bd cup tartar sauce",
+            "\u00bc cup hot sauce",
+            "4 green onions, minced",
+            "3 tablespoons vegetable oil, or as needed",
+            "2 tablespoons honey",
+            "2 tablespoons hot sauce"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Mix bread crumbs, crushed potato chips, pepper, dill, salt, and garlic together in a large bowl. Mix in chicken, ranch dressing, tartar sauce, 1/4 cup hot sauce, and green onions. Form mixture into 2-inch or 3-inch balls; press down into patties.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat oil in a large skillet over medium-high heat. Place patties in a single layer in the hot oil; cook until dark golden brown, about 3 minutes per side. Drain on paper towels. Repeat with remaining patties.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Whisk honey and 2 tablespoons hot sauce together to make dipping sauce. Serve dipping sauce with patties.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks",
+            "Meat and Poultry",
+            "Chicken"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "ohwhatamess"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Chicken Cakes",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "462.4 calories",
+            "carbohydrateContent": "19.7 g",
+            "cholesterolContent": "69.2 mg",
+            "fatContent": "33.2 g",
+            "fiberContent": "1.5 g",
+            "proteinContent": "21.3 g",
+            "saturatedFatContent": "6.9 g",
+            "servingSize": null,
+            "sodiumContent": "989.6 mg",
+            "sugarContent": "6.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-02-27T08:02:11.763Z",
+                "reviewBody": "I LOVED LOVED LOVED the flavor in these but I did have issues with execution as written. As soon as the cakes hit the oil they completely disintegrated into the grease. The first skillet full was a waste and it was getting late so I stuck the rest on a cookie sheet and stuck them in the freezer and forgot about them for a couple of days. I was hoping the freezer alone would cure the issue but it didn't. I ended up dipping the cakes in egg and then flour/breadcrumb mixture and that did the trick. You definitely need a binder for this recipe. Normally I wouldn't mess with a recipe again if it gave me trouble but the flavor of these are so good that I will most definitely make these again. I'll just be sure to use a binder next time. These are delicious!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

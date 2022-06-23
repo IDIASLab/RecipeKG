@@ -1,0 +1,108 @@
+@prefix ns1: <http://purl.org/recipekg/> .
+@prefix ns2: <http://purl.org/heals/food/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/apple-cider-pepper-pot-roast-pressure-cooker-recipe> a schema:Recipe ;
+    ns2:hasIngredient [ a <http://purl.org/recipekg/ingredient/BayLeaves> ;
+            ns1:hasQuantity "4" ;
+            ns1:ingredientName "bay leaves" ],
+        [ a <http://purl.org/recipekg/ingredient/PotRoast> ;
+            ns1:hasQuantity "1" ;
+            ns1:ingredientName "pot roast" ],
+        [ a <http://purl.org/recipekg/ingredient/Mushroom> ;
+            ns1:hasQuantity "4" ;
+            ns1:hasUnit "ounce" ;
+            ns1:ingredientName "mushroom" ],
+        [ a <http://purl.org/recipekg/ingredient/SweetRedWine> ;
+            ns1:hasQuantity "1/4" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "sweet red wine" ],
+        [ a <http://purl.org/heals/ingredient/Carrot> ;
+            ns1:hasQuantity "8" ;
+            ns1:ingredientName "carrot" ],
+        [ a <http://purl.org/heals/ingredient/Onion> ;
+            ns1:hasQuantity "1" ;
+            ns1:ingredientName "onion" ],
+        [ a <http://purl.org/heals/ingredient/BlackPepper> ;
+            ns1:ingredientName "black pepper" ],
+        [ a <http://purl.org/heals/ingredient/Thyme> ;
+            ns1:hasQuantity "6" ;
+            ns1:hasUnit "sprig" ;
+            ns1:ingredientName "thyme" ],
+        [ a <http://purl.org/recipekg/ingredient/BeefBroth> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "beef broth" ],
+        [ a <http://purl.org/recipekg/ingredient/AppleCider> ;
+            ns1:hasQuantity "1/3" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "apple cider" ],
+        [ a <http://purl.org/heals/ingredient/OliveOil> ;
+            ns1:hasQuantity "1/4" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "olive oil" ],
+        [ a <http://purl.org/heals/ingredient/Garlic> ;
+            ns1:hasQuantity "6" ;
+            ns1:hasUnit "clove" ;
+            ns1:ingredientName "garlic" ],
+        [ a <http://purl.org/heals/ingredient/Celery> ;
+            ns1:hasQuantity "4" ;
+            ns1:ingredientName "celery" ],
+        [ a <http://purl.org/heals/ingredient/Salt> ;
+            ns1:ingredientName "salt" ] ;
+    ns1:belongsTo <http://purl.org/recipekg/categories/main-dish/beef/pot-roast/> ;
+    ns1:hasFSAScore 4 ;
+    ns1:hasNutritionalInformation [ a ns1:NutritionalInformation ;
+            ns1:hasCalorificData [ a ns1:CalorificData ;
+                    ns1:hasAmount "299.8"^^xsd:float ;
+                    ns1:hasUnit "calories" ] ;
+            ns1:hasCarbohydrateData [ a ns1:CarbohydrateData ;
+                    ns1:hasAmount "5.4"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasCholesterolData [ a ns1:CholesterolData ;
+                    ns1:hasAmount "64.6"^^xsd:float ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasFatData [ a ns1:FatData ;
+                    ns1:hasAmount "22.0"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSARed ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasFiberData [ a ns1:FiberData ;
+                    ns1:hasAmount "1.0"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasProteinData [ a ns1:ProteinData ;
+                    ns1:hasAmount "18.2"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSaturatedFatData [ a ns1:SaturatedFatData ;
+                    ns1:hasAmount "7.0"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSARed ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSodiumData [ a ns1:SodiumData ;
+                    ns1:hasAmount "208.7"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAGreen ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasSugarData [ a ns1:SugarData ;
+                    ns1:hasAmount "2.6"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAGreen ;
+                    ns1:hasUnit "g" ] ] ;
+    ns1:hasUSDAScore 4 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 2 ;
+            schema:ratingValue "4"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2020-06-19T04:04:31.000Z"^^schema:date ;
+    schema:name "Apple Cider Pepper Pot Roast (Pressure Cooker Recipe)"^^xsd:string ;
+    schema:recipeYield "8 servings"^^xsd:string .
+
+<http://purl.org/recipekg/categories/main-dish/> a ns1:RecipeCategory .
+
+<http://purl.org/recipekg/categories/main-dish/beef/> rdfs:subClassOf <http://purl.org/recipekg/categories/main-dish/> .
+
+<http://purl.org/recipekg/categories/main-dish/beef/pot-roast/> rdfs:subClassOf <http://purl.org/recipekg/categories/main-dish/beef/> .
+
+ns1:FSAGreen a ns1:FSAColor .
+
+ns1:FSARed a ns1:FSAColor .
+

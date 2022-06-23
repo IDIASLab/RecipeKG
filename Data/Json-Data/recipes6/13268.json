@@ -1,0 +1,281 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/367/desserts/pies/",
+                    "name": "Pies",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/808/desserts/pies/fruit-pies/",
+                    "name": "Fruit Pies",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/12153/easiest-pie-ever/",
+        "name": "Easiest Pie Ever",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4957188.jpg",
+            "width": 1280,
+            "height": 1280
+        },
+        "datePublished": "1998-05-05T13:40:46.000Z",
+        "description": "This is the easiest, quickest, yummiest pie I ever made.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H35M",
+        "totalTime": "P0DT2H40M",
+        "recipeYield": "1 9-inch pie",
+        "recipeIngredient": [
+            "1 (9 inch) prepared graham cracker crust",
+            "1 pint sour cream",
+            "1 (16 ounce) can fruit cocktail, drained",
+            "\u2153 cup white sugar"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat oven to 350 degrees F (175 degrees C).\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Stir together sour cream, fruit cocktail, and sugar. Pour filling into pie crust.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in preheated oven for 35 minutes.  Refrigerate after baking until cool and firm.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Pies",
+            "Fruit Pies"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Lois"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.733333333333333,
+            "ratingCount": 15,
+            "itemReviewed": "Easiest Pie Ever",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "352.2 calories",
+            "carbohydrateContent": "43.1 g",
+            "cholesterolContent": "25.3 mg",
+            "fatContent": "19.5 g",
+            "fiberContent": "1.1 g",
+            "proteinContent": "3.3 g",
+            "saturatedFatContent": "9.1 g",
+            "servingSize": null,
+            "sodiumContent": "204.4 mg",
+            "sugarContent": "19.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2004-01-10T23:44:49.59Z",
+                "reviewBody": "This is a pretty good pie but I think one I'll have to play with a little to get it to the point where I say \"WOW\". The one mistake I made with this recipe is that I used 8oz of sour cream instead of 16oz--I was a little confused because pint is typically a term used for liquid measure. I think I'm going to definitely try spreading Cool Whip on top of the cake as one reviewer mentioned. Also I think I want to try making my own graham cracker crust.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "T. MARTIN",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/276099/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2003-08-05T04:30:14.937Z",
+                "reviewBody": "Very easy and very tasty. Spread CoolWhip on top after pie is chilled.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "DISCIPLE",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/30473/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2004-01-10T23:45:04.64Z",
+                "reviewBody": "My husband's mother used to make this when he was young and he was thrilled that I found a recipe and it was delicious. Every time I make the pie it doesn't last very long.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "CYNDIZJ",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/77118/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2005-05-31T14:21:57.793Z",
+                "reviewBody": "I followed the instructions exactly as written and this pie turned out wonderfully. It is so delicious that my family and I had 2 - 3 slices each. It is a great summer pie since it is chilled. VERY easy to make. The recipe title is completely accurate. Excellent recipe thank you!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "REBECCA1978",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/1036787/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2004-01-10T23:44:39.543Z",
+                "reviewBody": "So easy and so yummy. I did spread cool whip on top and it was perfect!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "CULMOM37",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/265740/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2004-01-10T23:44:59.95Z",
+                "reviewBody": "I've made this a number of times and it is always good and ALWAYS easy!! Thanks!!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "AUNTPT",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/33020/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2004-01-14T20:11:49.09Z",
+                "reviewBody": "This was the best easiest pie i have ever made!! it was soo simple and tasted incredible! i will be making this pie for all of my family get together from now on!! I made my own crust with graham cracker crumbs! Thank you for the recipe!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "SMITTY2244",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/975776/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2004-09-11T17:19:28.67Z",
+                "reviewBody": "Easy yes; yummy no. It wasn't too our liking. Sounds like the other reviewers liked it though.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "AROEL",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/872357/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2005-12-25T03:45:26.217Z",
+                "reviewBody": "very different taste but good just not wow.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Ann Peterson",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/965977/"
+                }
+            }
+        ]
+    }
+]

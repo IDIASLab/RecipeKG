@@ -1,0 +1,125 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/280109/chicken-salad-with-crushed-pineapple/",
+        "name": "Chicken Salad with Crushed Pineapple",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F9320534.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-05-14T10:23:42.000Z",
+        "description": "This is a really great recipe for chicken salad that I always get compliments on at family gatherings. I hope you like it. Makes about 6 good-sized sandwiches; approximately 5 cups.",
+        "prepTime": "P0DT0H30M",
+        "cookTime": null,
+        "totalTime": "P0DT0H30M",
+        "recipeYield": "5 cups",
+        "recipeIngredient": [
+            "1 rotisserie chicken, boned and chopped",
+            "1 (8 ounce) can crushed pineapple, drained",
+            "2 stalks celery, finely chopped",
+            "1 cup creamy salad dressing (such as Miracle Whip\u00ae)",
+            "\u00bd cup sweetened dried cranberries (such as Craisins\u00ae)",
+            "\u00bd cup mayonnaise",
+            "\u00bd cup chopped apple",
+            "\u00bc cup chopped green onion",
+            "1 tablespoon finely chopped fresh rosemary",
+            "1 tablespoon chopped fresh dill",
+            "1 pinch seasoned salt, or to taste",
+            "salt and ground black pepper to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Mix chicken, pineapple, celery, salad dressing, sweetened cranberries, mayonnaise, apple, green onion, rosemary, dill, seasoned salt, salt, and pepper together in a large bowl. Refrigerate until ready to serve.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "luv2cook"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Chicken Salad with Crushed Pineapple",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "332.9 calories",
+            "carbohydrateContent": "13.4 g",
+            "cholesterolContent": "64.8 mg",
+            "fatContent": "23.3 g",
+            "fiberContent": "0.8 g",
+            "proteinContent": "16.7 g",
+            "saturatedFatContent": "4.4 g",
+            "servingSize": null,
+            "sodiumContent": "357.3 mg",
+            "sugarContent": "12.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-07-26T23:25:40.18Z",
+                "reviewBody": "I really enjoyed this recipe and it was great with my garden fresh tomatoes. However, I prefer eggs in chicken salad. The only thing I did differently was:\n1. Omitted dried cranberries\n2. Used a shallot instead of green onions.\n3. I used fresh thyme instead of rosemary",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "CookingWithShelia",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/cookingwithshelia/"
+                }
+            }
+        ]
+    }
+]

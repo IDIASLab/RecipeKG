@@ -1,0 +1,190 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/231/world-cuisine/european/",
+                    "name": "European",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/723/world-cuisine/european/italian/",
+                    "name": "Italian",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/155981/italian-holiday-pie/",
+        "name": "Italian Holiday Pie",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Italian Holiday Pie"
+        },
+        "datePublished": "2020-06-19T03:33:32.000Z",
+        "description": "This is an Italian take on cheesecake, only so much richer. It was always served by my grandma at Christmas, and it's the perfect dessert to end a holiday meal!",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT1H0M",
+        "totalTime": "P0DT1H15M",
+        "recipeYield": "16 servings",
+        "recipeIngredient": [
+            "8 eggs",
+            "\u00be cup white sugar",
+            "1 tablespoon lemon zest",
+            "1 teaspoon vanilla extract",
+            "1 cup milk",
+            "1 cup cream",
+            "2 (16 ounce) containers ricotta cheese",
+            "1 cup finely chopped red and green candied cherries",
+            "2 (9 inch)  unbaked pie crusts",
+            "2 whole candied cherries",
+            "confectioners' sugar for dusting"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat oven to 350 degrees F (175 degrees C).\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Beat the eggs, sugar, lemon zest, and vanilla together in a mixing bowl until light colored and fluffy, about 10 minutes. Pour in the milk and cream; continue beating to make a smooth mixture. Stir in the ricotta cheese and cherries until evenly blended. Pour into the pie shells.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in preheated oven for 10 minutes. Reduce heat to 325 degrees F (165 degrees C), and bake until set, about 50 minutes more. Cool on racks. When pies are completely cool, dust with confectioners' sugar, and decorate by placing 1 whole cherry in the center of each pie.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "European",
+            "Italian"
+        ],
+        "recipeCuisine": [
+            "European",
+            "Italian"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "KMOMMYZ"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 3,
+            "itemReviewed": "Italian Holiday Pie",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "353.9 calories",
+            "carbohydrateContent": "31.5 g",
+            "cholesterolContent": "132.2 mg",
+            "fatContent": "20.2 g",
+            "fiberContent": "0.9 g",
+            "proteinContent": "11.8 g",
+            "saturatedFatContent": "9 g",
+            "servingSize": null,
+            "sodiumContent": "241.8 mg",
+            "sugarContent": "16.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2007-12-24T16:14:53.59Z",
+                "reviewBody": "I halfed this recipe and served it at a Christmas party with friends. The ricotta made a very nice texture with good flavor but we did not care too much for the candied cherries. I think it would be just fine without them.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Steve Cook",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2453406/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2008-04-03T00:50:58.967Z",
+                "reviewBody": "I made this for easter and instead of using cherries I used a can of crushed pineapple What a fabulous pie!!! My husband has requested it for his birthday instead of cake!!! Top it with some whipped cream and strawberries...I think I'll do that next!!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "sweeppy",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2885227/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2010-05-21T16:15:57.64Z",
+                "reviewBody": "This pie was nice for something different to make for the holidays. I followed the directions as they were except I omitted the candied cherries. It came out really well my family really liked it. The lemon flavor was really a nice touch because without it the pie wouldn't have had much flavor.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "balder",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2649842/"
+                }
+            }
+        ]
+    }
+]

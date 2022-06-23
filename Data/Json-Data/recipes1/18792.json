@@ -1,0 +1,138 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/133/drinks/cocktails/",
+                    "name": "Cocktail Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1744/drinks/cocktails/whiskey-drinks/",
+                    "name": "Whiskey Drinks Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/217213/brainstorm-cocktail/",
+        "name": "Brainstorm Cocktail",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1141464.jpg",
+            "width": 1152,
+            "height": 2048
+        },
+        "datePublished": "2013-01-19T07:01:04.000Z",
+        "description": "Rye whiskey and Benedictine work well together. Add some dry vermouth, and it's a full-on brainstorming session, on the topic of deliciousness.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "1 cocktail",
+        "recipeIngredient": [
+            "1\u2009\u00bd cups ice",
+            "2 ounces rye whiskey",
+            "\u00bd fluid ounce Benedictine\u00ae liqueur",
+            "\u00bd fluid ounce dry vermouth",
+            "1 (3 inch) piece orange peel"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Fill a cocktail shaker with ice. Pour in whiskey, Benedictine, and vermouth. Strain into a chilled glass and garnish with an orange peel.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Cocktail Recipes",
+            "Whiskey Drinks Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Lorem Ipsum"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Brainstorm Cocktail",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "224 calories",
+            "carbohydrateContent": "9 g",
+            "cholesterolContent": null,
+            "fatContent": null,
+            "fiberContent": "1.9 g",
+            "proteinContent": "0.3 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "13.5 mg",
+            "sugarContent": "1.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-04-03T09:01:40.43Z",
+                "reviewBody": "Just as good as the Death and Company version. I used Bushmills and Dolin Dry vermouth. I added a couple drops of Reagan s orange bitters to tie it together. Served in an ice packed cup. Make sure you express the orange oils and flaming the peel is a nice flourish.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "justgwuckie",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/17299460/"
+                }
+            }
+        ]
+    }
+]

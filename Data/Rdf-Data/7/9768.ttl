@@ -1,0 +1,98 @@
+@prefix ns1: <http://purl.org/recipekg/> .
+@prefix ns2: <http://purl.org/heals/food/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/fall-corn-rotisserie-chicken-soup> a schema:Recipe ;
+    ns2:hasIngredient [ a <http://purl.org/heals/ingredient/Carrot> ;
+            ns1:hasQuantity "5" ;
+            ns1:ingredientName "carrot" ],
+        [ a <http://purl.org/heals/ingredient/Onion> ;
+            ns1:hasQuantity "1" ;
+            ns1:ingredientName "onion" ],
+        [ ],
+        [ a <http://purl.org/heals/ingredient/Potato> ;
+            ns1:hasQuantity "10" ;
+            ns1:ingredientName "potato" ],
+        [ a <http://purl.org/recipekg/ingredient/ChickenBouillon> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "chicken bouillon" ],
+        [ ],
+        [ a <http://purl.org/heals/ingredient/ChickenBroth> ;
+            ns1:hasQuantity "2" ;
+            ns1:ingredientName "chicken broth" ],
+        [ a <http://purl.org/recipekg/ingredient/PoultrySeasoning> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "poultry seasoning" ],
+        [ a <http://purl.org/heals/ingredient/WhiteSugar> ;
+            ns1:hasQuantity "1 1/2" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "white sugar" ],
+        [ a <http://purl.org/heals/ingredient/OliveOil> ;
+            ns1:hasQuantity "2" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "olive oil" ],
+        [ a <http://purl.org/heals/ingredient/Potato> ;
+            ns1:hasQuantity "1" ;
+            ns1:ingredientName "potato" ],
+        [ a <http://purl.org/heals/ingredient/Chicken> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "pound" ;
+            ns1:ingredientName "chicken" ] ;
+    ns1:belongsTo <http://purl.org/recipekg/categories/soups-stews-and-chili/soup/chicken-soup/> ;
+    ns1:hasFSAScore 5 ;
+    ns1:hasNutritionalInformation [ a ns1:NutritionalInformation ;
+            ns1:hasCalorificData [ a ns1:CalorificData ;
+                    ns1:hasAmount "244.8"^^xsd:float ;
+                    ns1:hasUnit "calories" ] ;
+            ns1:hasCarbohydrateData [ a ns1:CarbohydrateData ;
+                    ns1:hasAmount "34.6"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasCholesterolData [ a ns1:CholesterolData ;
+                    ns1:hasAmount "31.8"^^xsd:float ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasFatData [ a ns1:FatData ;
+                    ns1:hasAmount "7.2"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasFiberData [ a ns1:FiberData ;
+                    ns1:hasAmount "5.1"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasProteinData [ a ns1:ProteinData ;
+                    ns1:hasAmount "11.7"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSaturatedFatData [ a ns1:SaturatedFatData ;
+                    ns1:hasAmount "1.4"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAGreen ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSodiumData [ a ns1:SodiumData ;
+                    ns1:hasAmount "982.7"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasSugarData [ a ns1:SugarData ;
+                    ns1:hasAmount "7.2"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "g" ] ] ;
+    ns1:hasUSDAScore 6 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 4 ;
+            schema:ratingValue "5"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2020-06-19T04:33:16.000Z"^^schema:date ;
+    schema:name "Fall Corn Rotisserie Chicken Soup"^^xsd:string ;
+    schema:recipeYield "10 servings"^^xsd:string .
+
+ns1:FSAGreen a ns1:FSAColor .
+
+<http://purl.org/recipekg/categories/soups-stews-and-chili/> a ns1:RecipeCategory .
+
+<http://purl.org/recipekg/categories/soups-stews-and-chili/soup/> rdfs:subClassOf <http://purl.org/recipekg/categories/soups-stews-and-chili/> .
+
+<http://purl.org/recipekg/categories/soups-stews-and-chili/soup/chicken-soup/> rdfs:subClassOf <http://purl.org/recipekg/categories/soups-stews-and-chili/soup/> .
+
+ns1:FSAAmber a ns1:FSAColor .
+

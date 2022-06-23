@@ -1,0 +1,66 @@
+@prefix ns1: <http://purl.org/recipekg/> .
+@prefix ns2: <http://purl.org/heals/food/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/teriyaki-chicken-and-rice-balls> a schema:Recipe ;
+    ns2:hasIngredient [ a <http://purl.org/heals/ingredient/Water> ;
+            ns1:hasQuantity "2" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "water" ],
+        [ a <http://purl.org/heals/ingredient/SoySauce> ;
+            ns1:hasQuantity "2" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "soy sauce" ],
+        [ a <http://purl.org/heals/ingredient/Cornstarch> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "cornstarch" ],
+        [ a <http://purl.org/heals/ingredient/WhiteVinegar> ;
+            ns1:hasQuantity "1 1/2" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "white vinegar" ],
+        [ a <http://purl.org/recipekg/ingredient/Furikake> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "furikake" ],
+        [ a <http://purl.org/heals/ingredient/BrownSugar> ;
+            ns1:hasQuantity "4" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "brown sugar" ],
+        [ a <http://purl.org/recipekg/ingredient/Jasmine> ;
+            ns1:hasQuantity "1" ;
+            ns1:ingredientName "Jasmine" ],
+        [ a <http://purl.org/heals/ingredient/Salt> ;
+            ns1:hasQuantity "1/4" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "salt" ],
+        [ a <http://purl.org/heals/ingredient/BlackPepper> ;
+            ns1:hasQuantity "1/4" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "black pepper" ],
+        [ a <http://purl.org/recipekg/ingredient/Ginger> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "ginger" ],
+        [ a <http://purl.org/heals/ingredient/BakedChickenTender> ;
+            ns1:hasQuantity "1 1/2" ;
+            ns1:hasUnit "pound" ;
+            ns1:ingredientName "baked chicken tender" ],
+        [ a <http://purl.org/recipekg/ingredient/Mirin> ;
+            ns1:hasQuantity "1 1/2" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "mirin" ] ;
+    ns1:belongsTo <http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/uncle-bens/> ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2019-07-02T06:07:53.000Z"^^schema:date ;
+    schema:name "Teriyaki Chicken and Rice Balls"^^xsd:string ;
+    schema:recipeYield "4 servings"^^xsd:string .
+
+<http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/> a ns1:RecipeCategory .
+
+<http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/uncle-bens/> rdfs:subClassOf <http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/> .
+

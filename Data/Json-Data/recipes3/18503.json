@@ -1,0 +1,118 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/270619/peanut-butter-energy-bites/",
+        "name": "Peanut Butter Energy Bites",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7716130.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2019-02-14T02:52:02.000Z",
+        "description": "This no-cook, no-bake, one-bowl snack is a great option for a protein-packed snack on the go.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "15 energy bites",
+        "recipeIngredient": [
+            "1 cup all-natural peanut butter",
+            "1 cup quick-cooking oats (such as British Class\u00ae)",
+            "\u2153 cup cocoa nibs",
+            "2 tablespoons honey",
+            "1 teaspoon vanilla extract (such as Cool Runnings\u00ae)"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine peanut butter, quick cooking oats, cocoa nubs, honey, and vanilla extract in a bowl. Use a tablespoon to scoop out small portions and roll into balls using your hands.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Cool Runnings Foods"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 1,
+            "itemReviewed": "Peanut Butter Energy Bites",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "153.3 calories",
+            "carbohydrateContent": "11.3 g",
+            "cholesterolContent": null,
+            "fatContent": "10.6 g",
+            "fiberContent": "2.8 g",
+            "proteinContent": "5.2 g",
+            "saturatedFatContent": "2.4 g",
+            "servingSize": null,
+            "sodiumContent": "83.6 mg",
+            "sugarContent": "4.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-02-12T08:43:30.683Z",
+                "reviewBody": "I like the cacao nibs in this snack. But overall, it has too much peanut butter. It's just OK.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Tammy Lynn",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3084624/"
+                }
+            }
+        ]
+    }
+]

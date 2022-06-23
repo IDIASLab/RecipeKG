@@ -1,0 +1,167 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/92/meat-and-poultry/",
+                    "name": "Meat and Poultry",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/205/meat-and-poultry/pork/",
+                    "name": "Pork",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17198/meat-and-poultry/pork/shoulder/",
+                    "name": "Pork Shoulder Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/14789/pork-afelia/",
+        "name": "Pork Afelia",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6602096.jpg",
+            "width": 1536,
+            "height": 1536
+        },
+        "datePublished": "1999-10-20T04:19:39.000Z",
+        "description": "Serve with hot, cooked rice. Tender, wine marinated braised chunks of pork.",
+        "prepTime": null,
+        "cookTime": null,
+        "totalTime": null,
+        "recipeYield": "2 to 4 servings",
+        "recipeIngredient": [
+            "1 pound pork tenderloin",
+            "\u00be cup red wine",
+            "2 tablespoons olive oil",
+            "2 teaspoons coarsely crushed coriander seed",
+            "salt and pepper to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Trim the pork and cut into chunks. Put in a nonporous glass dish or bowl; cover with red wine, refrigerate and marinate for at least 2 hours.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Remove the pork from the marinade with a slotted spoon, reserving the marinade. Dry pork with paper towels and brown in the olive oil in a heavy-based saucepan, in batches if necessary. Remove pork from saucepan and set aside.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour most of the oil out of the saucepan, leaving just enough to gently saute the coriander seeds until they are fragrant. Pour in the marinade, deglaze the pan and return the reserved pork. Add salt and pepper to taste.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bring the liquid to a boil; reduce heat to low and let simmer, covered, for about 40 minutes or until internal temperature of the meat has reached 145 degrees F (63 degrees C). When the meat is cooked, the liquid should be reduced and thick. If it is too thin, remove the meat temporarily and reduce the sauce by raising the heat.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Meat and Poultry",
+            "Pork",
+            "Pork Shoulder Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Pandora"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 2,
+            "itemReviewed": "Pork Afelia",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "263.9 calories",
+            "carbohydrateContent": "2.1 g",
+            "cholesterolContent": "65.2 mg",
+            "fatContent": "12.7 g",
+            "fiberContent": "0.5 g",
+            "proteinContent": "23.4 g",
+            "saturatedFatContent": "2.5 g",
+            "servingSize": null,
+            "sodiumContent": "53.8 mg",
+            "sugarContent": "0.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2003-08-21T19:04:08.93Z",
+                "reviewBody": "Very good. Simple yet flavourful.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Sue",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/868124/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2003-11-11T22:04:25.827Z",
+                "reviewBody": "I hate to give a bad review but I did not enjoy this recipe. I think the Coriander was just not my type or spice nor was it my husband's. I could however see how some people would like this. Sorry will not make this again!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 1
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "HMILANO",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/881394/"
+                }
+            }
+        ]
+    }
+]

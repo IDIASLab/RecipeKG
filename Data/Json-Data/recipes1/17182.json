@@ -1,0 +1,159 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/16421/drinks/shots/",
+                    "name": "Shot Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/153120/apple-jack-shot/",
+        "name": "Apple Jack Shot",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F871381.jpg",
+            "width": 1520,
+            "height": 2288
+        },
+        "datePublished": "2011-12-15T20:36:45.000Z",
+        "description": "Can you handle it?",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "1 shot",
+        "recipeIngredient": [
+            "1 fluid ounce whiskey",
+            "1 fluid ounce sour apple schnapps"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Pour whiskey and sour apple schnapps into a shot glass and serve.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Shot Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Dudelander"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 3,
+            "itemReviewed": "Apple Jack Shot",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "175.6 calories",
+            "carbohydrateContent": "13.3 g",
+            "cholesterolContent": "0 mg",
+            "fatContent": "0.1 g",
+            "fiberContent": "0 g",
+            "proteinContent": "0 g",
+            "saturatedFatContent": "0 g",
+            "servingSize": null,
+            "sodiumContent": "2 mg",
+            "sugarContent": "12.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2009-03-23T21:52:07.223Z",
+                "reviewBody": "I liked that the apple Pucker tamed the bite of the Crown. I made sure to shake this very well in my cocktail shaker. The colder the better. Not my favorite but drinkable.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Sarah Jo",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/doublewideskilletsinglewidebudget/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2011-04-22T02:08:08.833Z",
+                "reviewBody": "This is very good. I usually serve it over ice instead of as a shot.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "kellieann",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/kellieann/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2012-08-05T02:12:33.03Z",
+                "reviewBody": "I thought this was just ok. Maybe I am just not a sour girl! I was looking for shot recipes for a party I am hosting next week. I don't think is is what I am looking for.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "TheBritishBaker",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/apple-strudel/"
+                }
+            }
+        ]
+    }
+]

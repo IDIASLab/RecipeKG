@@ -1,0 +1,144 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/217/salad/potato-salad/",
+                    "name": "Potato Salad Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/16151/salad/potato-salad/no-mayo/",
+                    "name": "No Mayo",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/231102/warm-fingerling-potato-salad/",
+        "name": "Warm Fingerling Potato Salad",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F971197.jpg",
+            "width": 1604,
+            "height": 1604
+        },
+        "datePublished": "2018-06-08T14:07:03.000Z",
+        "description": "Lemony mustard potato salad with greens added. Healthy and delicious!",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H35M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "2 pounds fingerling potatoes, cut into large chunks",
+            "1 (8 ounce) container lowfat plain yogurt",
+            "\u00bc cup sour cream",
+            "1 lemon, zested and juiced",
+            "1 tablespoon coarse-grained mustard, or more to taste",
+            "salt and ground black pepper to taste",
+            "2 cups torn arugula leaves"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Bring a large pot of lightly salted water to a boil and add potatoes. Boil until potatoes are tender, 10 to 13 minutes; drain. Let cool until potatoes are warm.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Whisk yogurt, sour cream, lemon zest, lemon juice, mustard, salt, and black pepper together in a bowl. Gently fold potatoes into dressing. Stir arugula leaves into potato mixture and serve.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad",
+            "Potato Salad Recipes",
+            "No Mayo"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Tammi"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 1,
+            "itemReviewed": "Warm Fingerling Potato Salad",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "168.7 calories",
+            "carbohydrateContent": "32.3 g",
+            "cholesterolContent": "6.5 mg",
+            "fatContent": "2.8 g",
+            "fiberContent": "4.3 g",
+            "proteinContent": "5.7 g",
+            "saturatedFatContent": "1.7 g",
+            "servingSize": null,
+            "sodiumContent": "72.6 mg",
+            "sugarContent": "2.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2013-03-07T00:16:58.143Z",
+                "reviewBody": "I didn't care much for this. The sour cream and yogurt came off as tasting like mayonnaise which I really didn't want once the mustard was added. There was also way too much of the dressing texture wise. Only changes I made was making 1/2 recipe using a different lettuce and I used the lemon juice but left out the rind so it wasn't too tart. The lettuce mayo taste and potatoes was just too much confusion for my taste buds. I can see others liking this though.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Holiday Baker",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/holidaybaker/"
+                }
+            }
+        ]
+    }
+]

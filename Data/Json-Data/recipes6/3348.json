@@ -1,0 +1,130 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1642/everyday-cooking/",
+                    "name": "Everyday Cooking",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/267896/50-minute-corned-beef-brisket/",
+        "name": "50-Minute Corned Beef Brisket",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5687768.jpg",
+            "width": 3024,
+            "height": 4032
+        },
+        "datePublished": "2020-03-05T05:18:27.000Z",
+        "description": "Quick and easy tender corned beef brisket done in the Instant Pot&reg; - no need to cook it for hours the old-fashioned way!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT1H0M",
+        "totalTime": "P0DT9H20M",
+        "recipeYield": "3 pounds corned beef",
+        "recipeIngredient": [
+            "1 (3 pound) corned beef brisket with spice packet",
+            "1 tablespoon brown sugar",
+            "water",
+            "2 teaspoons pickling spice",
+            "2 teaspoons garlic powder"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Fill a covered container with enough water to immerse the corned beef. Add brown sugar and stir to dissolve. Remove corned beef from the packaging and rinse well to remove curing residue. Place into the water in the container; reserve spice packet. Add more water to cover if needed. Let soak, 8 hours to overnight.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine 1 1/2 cups water, spice packet, and pickling spice in a multi-functional pressure cooker (such as Instant Pot&reg;). Place a rack insert in the pot.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Remove beef from the soaking liquid and season both sides with garlic powder. Place beef on the rack, fat-side up, cutting in half if necessary to fit. Close and lock the pressure cooker lid. Select high pressure according to manufacturer's instructions; set timer for 50 minutes. Allow 10 to 15 minutes for pressure to build.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Release pressure using the natural-release method according to manufacturer's instructions, about 10 minutes. Transfer corned beef to a cutting board. Cover with aluminum foil and let rest for a few minutes before carving.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Everyday Cooking"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Merle24"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "50-Minute Corned Beef Brisket",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "262 calories",
+            "carbohydrateContent": "3.6 g",
+            "cholesterolContent": "97.3 mg",
+            "fatContent": "18.9 g",
+            "fiberContent": "0.1 g",
+            "proteinContent": "18.2 g",
+            "saturatedFatContent": "6.3 g",
+            "servingSize": null,
+            "sodiumContent": "1129.1 mg",
+            "sugarContent": "2.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-03-13T04:00:21.44Z",
+                "reviewBody": "Great.  Did not dry out",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "jeanette landwehr",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/13097799/"
+                }
+            }
+        ]
+    }
+]

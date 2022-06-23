@@ -1,0 +1,137 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/133/drinks/cocktails/",
+                    "name": "Cocktail Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1742/drinks/cocktails/tequila-drinks/",
+                    "name": "Tequila Drinks Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/237437/riverbank-margaritas/",
+        "name": "Riverbank Margaritas",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1160816.jpg",
+            "width": 6336,
+            "height": 6336
+        },
+        "datePublished": "2014-04-23T20:52:10.000Z",
+        "description": "It's called riverbank margaritas because you can carry everything you need to the riverbank! Very tasty! You can have it on the rocks or we sometimes put it in resealable bags in the freezer and it becomes slushy.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "8 servings",
+        "recipeIngredient": [
+            "1 (12 fluid ounce) can frozen limeade concentrate",
+            "12 fluid ounces tequila",
+            "1 (12 fluid ounce) can or bottle lemon-lime soda (such as Sprite\u00ae)",
+            "1 (12 fluid ounce) can or bottle Mexican beer"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Mix limeade, tequila, lemon-lime soda, and beer together in a pitcher.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Cocktail Recipes",
+            "Tequila Drinks Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "RobG"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Riverbank Margaritas",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "270.9 calories",
+            "carbohydrateContent": "40.4 g",
+            "cholesterolContent": null,
+            "fatContent": null,
+            "fiberContent": null,
+            "proteinContent": "0.2 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "7.3 mg",
+            "sugarContent": "32.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2014-06-14T20:37:03.147Z",
+                "reviewBody": "Well we didn't take them to the riverbank but we did take them to the screened porch and they disappeared quickly! Pretty mellow and I did miss a little bit of triple sec so I may add that in the future. It well could be the flavor is somewhat dependent on the type of Mexican beer that you use (I used Tecate). This is just so easy to remember that even my pea brain can handle it: equal parts of tequila lemon-lime soda Mexican beer and lime concentrate. Thanks Rob G this was a nice cocktail before a hot Saturday evening dinner!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "lutzflcat",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/lutzflcat/"
+                }
+            }
+        ]
+    }
+]

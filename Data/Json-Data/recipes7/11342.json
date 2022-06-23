@@ -1,0 +1,128 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/237986/jamaican-ginger-beer/",
+        "name": "Jamaican Ginger Beer",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Jamaican Ginger Beer"
+        },
+        "datePublished": "2020-06-19T03:59:27.000Z",
+        "description": "My friend from St. Kitts says to skip the yeast to avoid the carbonated alcohol. He laughs at America's fascination with bubbles in their drinks. For Mel Torme I added the 'tiny bubbles'. Add flavors of your choice (vanilla, almond, bay leaves, cloves, allspice, etc.).",
+        "prepTime": "P0DT0H15M",
+        "cookTime": null,
+        "totalTime": "P3DT0H15M",
+        "recipeYield": "16 servings",
+        "recipeIngredient": [
+            "4 quarts boiling water",
+            "3 cups white sugar, divided",
+            "\u00bd pound ginger root with skin, grated",
+            "\u00bd cup honey",
+            "\u00bd cup lime juice",
+            "1 cup fresh brewers' yeast"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Remove 1/2 cup of the boiling water and set aside to cool to lukewarm.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine remaining boiling water, 2 cups sugar, ginger, honey, and lime juice in a large plastic container.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Mix the 1/2 cup lukewarm water, 1 cup sugar, and yeast together in a separate bowl. Let stand until the yeast softens and begins to form a creamy paste, about 5 minutes; stir into ginger mixture. Cover container and let sit for 3 days. Skim foam from top, strain liquid, and pour ginger beer into clean storage containers; chill.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "David Ulmer"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Jamaican Ginger Beer",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "213.2 calories",
+            "carbohydrateContent": "52.5 g",
+            "cholesterolContent": null,
+            "fatContent": "0.2 g",
+            "fiberContent": "2.9 g",
+            "proteinContent": "3.4 g",
+            "saturatedFatContent": "0.1 g",
+            "servingSize": null,
+            "sodiumContent": "19.2 mg",
+            "sugarContent": "46.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-01-26T03:05:19.533Z",
+                "reviewBody": "I am making this as I write.I hope it works out well as I love ginger beer.  I have put it into the plastic container to brew for a few days now and will update as I go. It did seem like a lot of yeast though! We shall see. I have attached a photo of how it looks on day 1...",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Sondra",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/5275103/"
+                }
+            }
+        ]
+    }
+]

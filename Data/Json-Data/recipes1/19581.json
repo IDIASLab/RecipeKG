@@ -1,0 +1,105 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/285817/grandma-birdies-broccoli-salad/",
+        "name": "Grandma Birdie's Broccoli Salad",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Grandma Birdie's Broccoli Salad"
+        },
+        "datePublished": "2013-07-13T19:44:06.000Z",
+        "description": "This is so good! This broccoli salad recipe comes from my Nana Birdie.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H30M",
+        "recipeYield": "8 servings",
+        "recipeIngredient": [
+            "2 heads broccoli, cut into florets",
+            "1 head cauliflower, cut into florets",
+            "1 medium carrot, shredded",
+            "\u00bc medium red onion, minced",
+            "5 slices cooked and crumbled bacon",
+            "1 cup mayonnaise",
+            "\u00bc cup red wine vinegar",
+            "1 tablespoon cayenne pepper sauce (such as Frank's\u00ae RedHot\u00ae)",
+            "\u00bd teaspoon garlic powder",
+            "salt and ground black pepper to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Bring a large pot of water to a boil. Add broccoli and cauliflower florets to the boiling water and cook for 3 minutes. Drain, then transfer florets to a bowl of ice water to cool.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Whisk mayonnaise, vinegar, pepper sauce, garlic powder, salt, and pepper for dressing together in a bowl.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Remove florets from the ice water and put on paper towels to dry.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "When ready to serve, transfer florets to a large bowl. Mix in carrot, onion, and bacon. Pour in dressing and toss until well distributed. Let rest for 5 minutes before serving.\n"
+            }
+        ],
+        "recipeCategory": [],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Audrey"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Grandma Birdie's Broccoli Salad",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "288.9 calories",
+            "carbohydrateContent": "11.5 g",
+            "cholesterolContent": "18.7 mg",
+            "fatContent": "25.3 g",
+            "fiberContent": "4 g",
+            "proteinContent": "6.7 g",
+            "saturatedFatContent": "4.3 g",
+            "servingSize": null,
+            "sodiumContent": "427.4 mg",
+            "sugarContent": "3.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

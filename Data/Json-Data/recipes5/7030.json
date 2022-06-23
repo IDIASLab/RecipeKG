@@ -1,0 +1,143 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/105/appetizers-and-snacks/dips-and-spreads/",
+                    "name": "Dips and Spreads Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/436/appetizers-and-snacks/dips-and-spreads/salsa/",
+                    "name": "Salsa Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/258020/mild-pineapple-salsa/",
+        "name": "Mild Pineapple Salsa",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4560304.jpg",
+            "width": 2304,
+            "height": 4096
+        },
+        "datePublished": "2019-07-10T07:10:52.000Z",
+        "description": "A very simple salsa that pairs well with grilled salmon.",
+        "prepTime": "P0DT0H20M",
+        "cookTime": null,
+        "totalTime": "P0DT1H20M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "1 cup chopped fresh pineapple",
+            "\u2153 cup chopped red bell pepper",
+            "\u00bc cup chopped shallots",
+            "1 tablespoon fresh lemon juice",
+            "\u00bc teaspoon dried basil",
+            "1 pinch red pepper flakes"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place pineapple, red bell pepper, shallots, lemon juice, basil, and red pepper flakes in a glass bowl; stir well.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Refrigerate for at least 1 hour to allow the flavors to mingle.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks",
+            "Dips and Spreads Recipes",
+            "Salsa Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Bren"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Mild Pineapple Salsa",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "32.9 calories",
+            "carbohydrateContent": "8.1 g",
+            "cholesterolContent": null,
+            "fatContent": "0.1 g",
+            "fiberContent": "1 g",
+            "proteinContent": "0.6 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "2.2 mg",
+            "sugarContent": "4.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-02-04T10:10:32.157Z",
+                "reviewBody": "I added Cilantro and liked it better.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Kathy",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2145029/"
+                }
+            }
+        ]
+    }
+]

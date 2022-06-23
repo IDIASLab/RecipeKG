@@ -1,0 +1,166 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/365/desserts/mousse/",
+                    "name": "Mousse Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/237802/cake-batter-mousse/",
+        "name": "Cake Batter Mousse",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1172332.jpg",
+            "width": 960,
+            "height": 960
+        },
+        "datePublished": "2019-04-04T03:57:47.000Z",
+        "description": "This mousse-like dessert allows you to enjoy the flavor of cake batter without the risk of raw eggs. The recipe is flexible and can be used with other flavors of cake mix. The cookies can be left out and/or other other mix-ins used (such as candy bars, etc.).",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P1DT0H10M",
+        "recipeYield": "12 servings",
+        "recipeIngredient": [
+            "1 (15.25 ounce) package yellow cake mix",
+            "1 cup water",
+            "\u2153 cup vegetable oil",
+            "1 (8 ounce) container frozen whipped topping, thawed",
+            "20 chocolate cream-filled sandwich cookies, crushed"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Beat cake mix, water, and vegetable oil together in a bowl with an electric mixer on medium speed until smooth. Fold whipped topping and crushed cookies into batter.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cover the bowl with plastic wrap and refrigerate until cookies are softened and mousse firms, about 24 hours.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Mousse Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Liam D"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 5,
+            "itemReviewed": "Cake Batter Mousse",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "346.1 calories",
+            "carbohydrateContent": "44.4 g",
+            "cholesterolContent": "0.7 mg",
+            "fatContent": "18.1 g",
+            "fiberContent": "0.9 g",
+            "proteinContent": "2.7 g",
+            "saturatedFatContent": "6.3 g",
+            "servingSize": null,
+            "sodiumContent": "322.3 mg",
+            "sugarContent": "26.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-01-14T09:37:33.85Z",
+                "reviewBody": "Very good would definately make again",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Tim",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/16028208/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2019-07-15T05:54:58.65Z",
+                "reviewBody": "FAAAAABULOUS!!! The only thing I didn't like was the step to let it sit in the fridge for 24 hours lol! That's not gonna happen.... (I used half-n-half instead of water. It is VERY rich.)",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Jamie",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/25739040/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2014-07-18T21:24:20.983Z",
+                "reviewBody": "Unusual but amazing!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Liam D",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/11799444/"
+                }
+            }
+        ]
+    }
+]

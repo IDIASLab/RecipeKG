@@ -1,0 +1,151 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/231/world-cuisine/european/",
+                    "name": "European",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/725/world-cuisine/european/scandinavian/",
+                    "name": "Scandinavian",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/233251/berry-saft/",
+        "name": "Berry Saft",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6826248.jpg",
+            "width": 3264,
+            "height": 1836
+        },
+        "datePublished": "2020-06-19T03:55:18.000Z",
+        "description": "A Scandinavian recipe for a delicious berry drink, translated for me by a friend. Good for any kind of berry. When ready to drink, add small amount of saft to a glass of water, to taste. Add more sugar as needed; stir well.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H20M",
+        "totalTime": "P0DT1H0M",
+        "recipeYield": "50 servings",
+        "recipeIngredient": [
+            "2 quarts fresh blackberries",
+            "1\u2009\u00bc cups water, or more as needed",
+            "1 pound white sugar, or as needed"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Bring blackberries and water to a boil in a large pot until blackberries are softened, about 15 minutes. Remove from heat and mash berries using a potato masher.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Line a sieve with cheese cloth; place over a large pot. Pour mashed berries through cheese cloth-line sieve; let sit until all liquid has drained through cheese cloth, about 30 minutes. Stir 1 pound sugar per 1/2 gallon of drained blackberry juice.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bring blackberry juice and sugar to a boil in a pot; cook until sugar is dissolved, about 5 minutes. Skim off any residue accumulated on top.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Sterilize jars and lids in boiling water for at least 5 minutes. Pack hot saft into the hot, sterilized jars, filling the jars to within 1/4 inch of the top. Run a knife or a thin spatula around the insides of the jars after they have been filled to remove any air bubbles. Wipe the rims of the jars with a moist paper towel to remove any food residue. Top with lids, and screw on rings. Store in refrigerator.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "European",
+            "Scandinavian"
+        ],
+        "recipeCuisine": [
+            "European",
+            "Scandinavian"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Heather Green"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Berry Saft",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "45 calories",
+            "carbohydrateContent": "11.3 g",
+            "cholesterolContent": null,
+            "fatContent": "0.1 g",
+            "fiberContent": "1.2 g",
+            "proteinContent": "0.3 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "0.4 mg",
+            "sugarContent": "10.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-07-13T00:44:17.697Z",
+                "reviewBody": "Makes a great syrup for whatever you want to use it in. I put it in sparkling water. I plan to try it in coconut water next.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Tammy Lynn",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3084624/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,174 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/237/world-cuisine/latin-american/",
+                    "name": "Latin American",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/728/world-cuisine/latin-american/mexican/",
+                    "name": "Mexican",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/241037/manly-margarita/",
+        "name": "Manly Margarita",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2303657.jpg",
+            "width": 2319,
+            "height": 2319
+        },
+        "datePublished": "2015-01-31T07:00:23.000Z",
+        "description": "No blender, salt, or silly glass.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "1 margarita",
+        "recipeIngredient": [
+            "\u00bd cup ice cubes, or as desired",
+            "2 (1.5 fluid ounce) jiggers tequila plata",
+            "1 (1.5 fluid ounce) jigger triple sec",
+            "1 (1.5 fluid ounce) jigger lime juice"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Fill a rocks glass with ice; add tequila, triple sec, and lime juice. Stir. Let margarita rest for 2 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Latin American",
+            "Mexican"
+        ],
+        "recipeCuisine": [
+            "Latin American",
+            "Mexican"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "CorinneBL"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 3,
+            "itemReviewed": "Manly Margarita",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "364 calories",
+            "carbohydrateContent": "23.5 g",
+            "cholesterolContent": null,
+            "fatContent": "0.2 g",
+            "fiberContent": "0.2 g",
+            "proteinContent": "0.2 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "8.3 mg",
+            "sugarContent": "18.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2015-06-01T08:17:01.863Z",
+                "reviewBody": "Wonderful! Easy, No Sugary mixes and my husband loved this margarita. I added slices of lime and some bing cherries.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Lela",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/lela/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2017-08-27T06:37:48.48Z",
+                "reviewBody": "Perfect! traditional margarita!!!!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Barb Myers",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/4118390/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2017-05-06T19:36:43.597Z",
+                "reviewBody": "Way too strong! Maybe that's why it's called a manly margarita? My guests thought so too though! On the plus side it's a good base to work off of.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 2
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Susan",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2600239/"
+                }
+            }
+        ]
+    }
+]

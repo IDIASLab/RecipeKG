@@ -1,0 +1,129 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/16348/drinks/slushies/",
+                    "name": "Slushie Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/242220/strawberry-kiwi-slush/",
+        "name": "Strawberry-Kiwi Slush",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2266989.jpg",
+            "width": 8784,
+            "height": 8784
+        },
+        "datePublished": "2020-06-19T04:03:00.000Z",
+        "description": "This delicious slush has a rich flavor and is a perfect alternative for a smoothie or other dairy dessert!",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "24 ounces",
+        "recipeIngredient": [
+            "2 cups crushed ice",
+            "\u00be pint fresh strawberries, hulled",
+            "\u00be cup grape juice (such as Welch's\u00ae)",
+            "1 large kiwi fruit, peeled",
+            "\u00bc cup water",
+            "\u00bc cup lemon juice"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Blend ice, strawberries, grape juice, kiwi fruit, water, and lemon juice in a blender until it reaches an even slush consistency, 25 to 35 seconds.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Slushie Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "GoodCook"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Strawberry-Kiwi Slush",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "90.7 calories",
+            "carbohydrateContent": "22.5 g",
+            "cholesterolContent": null,
+            "fatContent": "0.5 g",
+            "fiberContent": "2.8 g",
+            "proteinContent": "1.4 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "4.5 mg",
+            "sugarContent": "17 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2015-05-12T19:07:04.743Z",
+                "reviewBody": "Hard to believe it's 97 degrees F on the back porch this early in May. I'm ready for something to cool me down and this did the trick. I was expecting something a bit \"fruitier\" tasting so next time I'll just eliminate the water; as the ice melts diluting the fruit flavor will happen naturally. Hubs thought it was a little tart so I'll try cutting the lemon juice in half next time (admittedly all of this is personal taste preference). This was very refreshing and you don't need to worry about calories and fat (which is often the case with smoothies) so you can sip without guilt! GoodCook thanks for a great afternoon snack!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "lutzflcat",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/lutzflcat/"
+                }
+            }
+        ]
+    }
+]

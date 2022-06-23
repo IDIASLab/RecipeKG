@@ -1,0 +1,145 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/151/breakfast-and-brunch/pancakes/",
+                    "name": "Pancake Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/15005/breakfast-and-brunch/pancakes/baked-pancakes/",
+                    "name": "Baked Pancake Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/283096/sheet-pan-pancakes/",
+        "name": "Sheet Pan Pancakes",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F9254110.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-03-02T09:21:13.000Z",
+        "description": "Pancakes in the oven? They're all done at the same time on a sheet pan!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H15M",
+        "totalTime": "P0DT0H30M",
+        "recipeYield": "8 servings",
+        "recipeIngredient": [
+            "cooking spray",
+            "4 cups pancake mix (such as Bisquick\u00ae)",
+            "4 large eggs",
+            "2 cups whole milk",
+            "1 cup sliced strawberries",
+            "1 cup blueberries"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat the oven to 425 degrees F (220 degrees C). Generously spray a sheet pan with cooking spray.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Mix pancake mix, milk, and eggs together in a large bowl; let sit for 5 minutes. Pour into the prepared sheet pan. Top with strawberries and blueberries.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated oven until the center of the pancake is springy to the touch and a toothpick inserted in the middle comes out clean, about 15 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Pancake Recipes",
+            "Baked Pancake Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Houstonchef"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Sheet Pan Pancakes",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "329.2 calories",
+            "carbohydrateContent": "58.2 g",
+            "cholesterolContent": "99.1 mg",
+            "fatContent": "5.8 g",
+            "fiberContent": "0.8 g",
+            "proteinContent": "11.2 g",
+            "saturatedFatContent": "1.9 g",
+            "servingSize": null,
+            "sodiumContent": "1027 mg",
+            "sugarContent": "5.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-06-19T16:52:07.56Z",
+                "reviewBody": "If you are hosting breakfast or brunch for a big crowd this is your answer! 15 minutes and you can feed a crowd pancakes! Made as written and they turned out perfect!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Chef Mo",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/chefmo/"
+                }
+            }
+        ]
+    }
+]

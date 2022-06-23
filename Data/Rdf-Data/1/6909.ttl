@@ -1,0 +1,69 @@
+@prefix ns1: <http://purl.org/recipekg/> .
+@prefix ns2: <http://purl.org/heals/food/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/home-style-tacos-al-pastor-chile-and-pineapple-pork-tacos> a schema:Recipe ;
+    ns2:hasIngredient [ a <http://purl.org/heals/ingredient/VegetableOil> ;
+            ns1:hasQuantity "2" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "vegetable oil" ],
+        [ a <http://purl.org/recipekg/ingredient/Chiles> ;
+            ns1:hasQuantity "5" ;
+            ns1:ingredientName "Chiles" ],
+        [ a <http://purl.org/recipekg/ingredient/GuajilloChiles> ;
+            ns1:hasQuantity "5" ;
+            ns1:ingredientName "Guajillo Chiles" ],
+        [ a <http://purl.org/heals/ingredient/WhiteVinegar> ;
+            ns1:hasQuantity "1/4" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "white vinegar" ],
+        [ a <http://purl.org/recipekg/ingredient/WhiteOnion> ;
+            ns1:hasQuantity "1" ;
+            ns1:ingredientName "white onion" ],
+        [ a <http://purl.org/recipekg/ingredient/ChipotleChile> ;
+            ns1:hasQuantity "1" ;
+            ns1:ingredientName "Chipotle Chile" ],
+        [ a <http://purl.org/heals/ingredient/Cilantro> ;
+            ns1:hasQuantity "2" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "cilantro" ],
+        [ a <http://purl.org/recipekg/ingredient/Tortillas> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "package" ;
+            ns1:ingredientName "Tortillas" ],
+        [ a <http://purl.org/recipekg/ingredient/PorkButt> ;
+            ns1:hasQuantity "1" ;
+            ns1:ingredientName "pork butt" ],
+        [ a <http://purl.org/recipekg/ingredient/Adobo> ;
+            ns1:ingredientName "Adobo" ],
+        [ a <http://purl.org/recipekg/ingredient/Cumin> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "Cumin" ],
+        [ a <http://purl.org/recipekg/ingredient/Pineapple> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "can" ;
+            ns1:ingredientName "Pineapple" ],
+        [ a <http://purl.org/heals/ingredient/Garlic> ;
+            ns1:hasQuantity "2" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "garlic" ],
+        [ a <http://purl.org/recipekg/ingredient/Lime> ;
+            ns1:hasQuantity "1" ;
+            ns1:ingredientName "lime" ] ;
+    ns1:belongsTo <http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/goya/> ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 39 ;
+            schema:ratingValue "4.538461538461538"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2010-07-20T22:21:06.000Z"^^schema:date ;
+    schema:name "Home-style Tacos al Pastor (Chile and Pineapple Pork Tacos)"^^xsd:string ;
+    schema:recipeYield "6 servings"^^xsd:string .
+
+<http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/> a ns1:RecipeCategory .
+
+<http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/goya/> rdfs:subClassOf <http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/> .
+

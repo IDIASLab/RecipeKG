@@ -1,0 +1,165 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17203/desserts/specialty-desserts/",
+                    "name": "Specialty Dessert Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/14443/desserts/specialty-desserts/bread-pudding/",
+                    "name": "Bread Pudding Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/17067/eves-bread-pudding/",
+        "name": "Eve's Bread Pudding",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1090902.jpg",
+            "width": 2352,
+            "height": 1851
+        },
+        "datePublished": "2000-03-13T01:22:57.000Z",
+        "description": "This is a wonderful old fashioned recipe with apples, currants and just a little spice. Add a scoop of vanilla ice cream or whip cream for a special treat.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H40M",
+        "totalTime": "P0DT0H55M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "3 apples - peeled, cored and diced",
+            "3 cups bread crumbs",
+            "\u2153 cup white sugar",
+            "\u00bd cup currants",
+            "\u215b teaspoon ground nutmeg",
+            "\u215b teaspoon ground cinnamon",
+            "3 eggs, beaten"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat oven to 350 degrees F (175 degrees C). Grease a 2 quart casserole dish.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "In a large mixing bowl, combine the apples, bread crumbs and sugar. Add currants, nutmeg and cinnamon; mix well. Add the eggs; stir gently to combine. Pour into the prepared casserole dish.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated oven for 30 to 40 minutes, or until solid and golden brown.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Specialty Dessert Recipes",
+            "Bread Pudding Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "sal"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.5,
+            "ratingCount": 4,
+            "itemReviewed": "Eve's Bread Pudding",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "543.4 calories",
+            "carbohydrateContent": "103 g",
+            "cholesterolContent": "139.5 mg",
+            "fatContent": "8.3 g",
+            "fiberContent": "7.4 g",
+            "proteinContent": "16.5 g",
+            "saturatedFatContent": "2.2 g",
+            "servingSize": null,
+            "sodiumContent": "647.9 mg",
+            "sugarContent": "44.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2007-02-03T01:55:11.867Z",
+                "reviewBody": "I followed this recipe exactly and it turned out very bad--it was so dry and has no taste or consistency. I am not sure if an ingredient is missing or what the problem was.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 1
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "uvaseg",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2272502/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2014-01-20T13:29:41.907Z",
+                "reviewBody": "I added about 1 and 1/2 cup of milk as well as a 4th egg. The end result was a moist bread pudding that was very bland. The spices need to be increased.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Joey Joan",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/joeyk/"
+                }
+            }
+        ]
+    }
+]

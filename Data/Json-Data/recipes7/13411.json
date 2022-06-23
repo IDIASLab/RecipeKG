@@ -1,0 +1,172 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/367/desserts/pies/",
+                    "name": "Pies",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/15142/desserts/pies/no-bake-pies/",
+                    "name": "No-Bake Pie Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 6,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/12959/desserts/pies/no-bake-pies/peanut-butter-pie/",
+                    "name": "Peanut Butter Pie Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/245167/charlie-brown-pie/",
+        "name": "Charlie Brown Pie",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Charlie Brown Pie"
+        },
+        "datePublished": "2020-06-19T04:03:47.000Z",
+        "description": "This is a simple but delicious dessert that doesn't take much time to throw together.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": null,
+        "totalTime": "P0DT2H15M",
+        "recipeYield": "1 9x13-inch baking dish",
+        "recipeIngredient": [
+            "\u00bd cup peanut butter",
+            "2 cups crushed graham crackers",
+            "\u2153 cup white sugar",
+            "\u00bc cup butter",
+            "3\u2009\u00bd cups cold milk",
+            "1 (5.9 ounce) package instant chocolate pudding mix",
+            "1 (8 ounce) container frozen whipped topping (such as Cool Whip\u00ae), thawed"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place peanut butter in a microwave-safe bowl; heat in microwave until smooth and creamy, 20 to 30 seconds. Stir graham cracker crumbs, sugar, and butter into peanut butter until evenly combined. Transfer to a 9x13-inch baking dish and press to form a crust. Refrigerate until chilled, about 2 hours.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Beat milk and pudding mix together in a bowl until thick and creamy; pour over crust. Top pie with whipped topping to serve.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Pies",
+            "No-Bake Pie Recipes",
+            "Peanut Butter Pie Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Kristin"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 3,
+            "itemReviewed": "Charlie Brown Pie",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "324.8 calories",
+            "carbohydrateContent": "38.1 g",
+            "cholesterolContent": "15.9 mg",
+            "fatContent": "17.1 g",
+            "fiberContent": "1.5 g",
+            "proteinContent": "6.6 g",
+            "saturatedFatContent": "8.8 g",
+            "servingSize": null,
+            "sodiumContent": "391.9 mg",
+            "sugarContent": "27.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2016-08-27T05:06:37.66Z",
+                "reviewBody": "I is amazing",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "21_DALTON FABER",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/17277347/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2019-04-13T05:48:53.147Z",
+                "reviewBody": "My family loved this Charlie Brown Pie recipe! Great childhood memories!!!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Beth McCulloch",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/18270081/"
+                }
+            }
+        ]
+    }
+]

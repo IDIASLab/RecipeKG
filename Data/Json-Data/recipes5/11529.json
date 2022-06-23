@@ -1,0 +1,143 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/219/salad/vegetable-salads/",
+                    "name": "Vegetable Salad Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17370/salad/vegetable-salads/avocado-salad/",
+                    "name": "Avocado Salad Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/220921/avocado-and-ham-salad/",
+        "name": "Avocado and Ham Salad",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1104227.jpg",
+            "width": 2205,
+            "height": 2205
+        },
+        "datePublished": "2019-10-30T01:33:16.000Z",
+        "description": "This is really light and refreshing. It's also very filling. The mixed beans I used were left over from the night before, but if you are making them fresh, soak them overnight in water, then boil for at least 20 minutes. Leave to cool before adding to the salad.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": null,
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "1 large salad",
+        "recipeIngredient": [
+            "1 cup shredded Romaine lettuce",
+            "\u00bd cup mixed salad greens",
+            "\u00bd cup arugula",
+            "\u00bd cup cooked mixed beans, drained",
+            "\u00bd cup chopped cucumber",
+            "\u2153 cup chopped sweet red pepper",
+            "3 radishes, sliced",
+            "1 tomato, sliced",
+            "1 small avocado, peeled, pitted, and chopped",
+            "1 slice ham, chopped"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Toss Romaine lettuce, mixed salad greens, arugula, mixed beans, cucumber, sweet red pepper, radishes, tomato, avocado, and ham together in a large bowl. Serve cold.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad",
+            "Vegetable Salad Recipes",
+            "Avocado Salad Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "PaulaM11"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Avocado and Ham Salad",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "261.2 calories",
+            "carbohydrateContent": "24.1 g",
+            "cholesterolContent": "7.9 mg",
+            "fatContent": "15.5 g",
+            "fiberContent": "11.3 g",
+            "proteinContent": "9.7 g",
+            "saturatedFatContent": "2.8 g",
+            "servingSize": null,
+            "sodiumContent": "453 mg",
+            "sugarContent": "4.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2014-05-14T22:46:51.47Z",
+                "reviewBody": "Loved it! All my favorite ingredients in one place!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Baking Nana",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/bakingnana/"
+                }
+            }
+        ]
+    }
+]

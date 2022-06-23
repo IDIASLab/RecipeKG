@@ -1,0 +1,94 @@
+@prefix ns1: <http://purl.org/recipekg/> .
+@prefix ns2: <http://purl.org/heals/food/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/pan-fried-pork-chops-with-sweet-bbq-sauce> a schema:Recipe ;
+    ns2:hasIngredient [ a <http://purl.org/heals/ingredient/Salt> ;
+            ns1:ingredientName "salt" ],
+        [ a <http://purl.org/heals/ingredient/Parsley> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "parsley" ],
+        [ a <http://purl.org/heals/ingredient/BrownSugar> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "brown sugar" ],
+        [ a <http://purl.org/recipekg/ingredient/PorkChops> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "pound" ;
+            ns1:ingredientName "pork chops" ],
+        [ a <http://purl.org/heals/ingredient/BlackPepper> ;
+            ns1:ingredientName "black pepper" ],
+        [ a <http://purl.org/heals/ingredient/Garlic> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "garlic" ],
+        [ a <http://purl.org/recipekg/ingredient/Lime> ;
+            ns1:hasQuantity "2" ;
+            ns1:ingredientName "lime" ],
+        [ a <http://purl.org/recipekg/ingredient/BarbequeSauce> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "barbeque sauce" ],
+        [ a <http://purl.org/heals/ingredient/OliveOil> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "olive oil" ] ;
+    ns1:belongsTo <http://purl.org/recipekg/categories/main-dish/pork/pork-chops/pan-fried/> ;
+    ns1:hasFSAScore 1 ;
+    ns1:hasNutritionalInformation [ a ns1:NutritionalInformation ;
+            ns1:hasCalorificData [ a ns1:CalorificData ;
+                    ns1:hasAmount "796.0"^^xsd:float ;
+                    ns1:hasUnit "calories" ] ;
+            ns1:hasCarbohydrateData [ a ns1:CarbohydrateData ;
+                    ns1:hasAmount "107.8"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasCholesterolData [ a ns1:CholesterolData ;
+                    ns1:hasAmount "130.3"^^xsd:float ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasFatData [ a ns1:FatData ;
+                    ns1:hasAmount "18.3"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSARed ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasFiberData [ a ns1:FiberData ;
+                    ns1:hasAmount "3.0"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasProteinData [ a ns1:ProteinData ;
+                    ns1:hasAmount "50.8"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSaturatedFatData [ a ns1:SaturatedFatData ;
+                    ns1:hasAmount "4.7"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSodiumData [ a ns1:SodiumData ;
+                    ns1:hasAmount "1698.7"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSARed ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasSugarData [ a ns1:SugarData ;
+                    ns1:hasAmount "87.4"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSARed ;
+                    ns1:hasUnit "g" ] ] ;
+    ns1:hasUSDAScore 2 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 9 ;
+            schema:ratingValue "4.444444444444445"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2020-03-05T05:18:07.000Z"^^schema:date ;
+    schema:name "Pan-Fried Pork Chops with Sweet BBQ Sauce"^^xsd:string ;
+    schema:recipeYield "2 servings"^^xsd:string .
+
+ns1:FSAAmber a ns1:FSAColor .
+
+<http://purl.org/recipekg/categories/main-dish/> a ns1:RecipeCategory .
+
+<http://purl.org/recipekg/categories/main-dish/pork/> rdfs:subClassOf <http://purl.org/recipekg/categories/main-dish/> .
+
+<http://purl.org/recipekg/categories/main-dish/pork/pork-chops/> rdfs:subClassOf <http://purl.org/recipekg/categories/main-dish/pork/> .
+
+<http://purl.org/recipekg/categories/main-dish/pork/pork-chops/pan-fried/> rdfs:subClassOf <http://purl.org/recipekg/categories/main-dish/pork/pork-chops/> .
+
+ns1:FSARed a ns1:FSAColor .
+

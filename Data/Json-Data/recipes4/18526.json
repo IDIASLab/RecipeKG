@@ -1,0 +1,99 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/256380/hot-green-water/",
+        "name": "Hot Green Water",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4236610.jpg",
+            "width": 2448,
+            "height": 2448
+        },
+        "datePublished": "2019-04-04T04:07:37.000Z",
+        "description": "This water has a cool, fresh taste thanks to the mint and cucumber then there is a bit of spark aftertaste from the jalapeno. It's fantastic!",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT2H5M",
+        "recipeYield": "4 cups",
+        "recipeIngredient": [
+            "4 cups water",
+            "6 1/4-inch thick cucumber slices",
+            "1 large jalapeno pepper, halved and seeded",
+            "2 sprigs fresh mint"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine water, cucumber, jalapeno pepper, and mint in a pitcher and refrigerate until chilled, about 2 hours.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Buckwheat Queen"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 3,
+            "itemReviewed": "Hot Green Water",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "6 calories",
+            "carbohydrateContent": "1.4 g",
+            "cholesterolContent": null,
+            "fatContent": "0.1 g",
+            "fiberContent": "0.2 g",
+            "proteinContent": "0.3 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "7.8 mg",
+            "sugarContent": "0.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

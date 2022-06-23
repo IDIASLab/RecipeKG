@@ -1,0 +1,155 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/81/side-dish/",
+                    "name": "Side Dish",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17031/side-dish/sauces-and-condiments/",
+                    "name": "Sauces and Condiments",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1563/side-dish/sauces-and-condiments/chutney/",
+                    "name": "Chutney Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/212880/minty-mint-chutney/",
+        "name": "Minty Mint Chutney",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F319347.jpg",
+            "width": 250,
+            "height": 250
+        },
+        "datePublished": "2019-07-10T07:02:02.000Z",
+        "description": "Gives anything a nice little kick. Particularly good with Chaat Masala.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "cup",
+        "recipeIngredient": [
+            "1 onion, quartered",
+            "2 fresh green chile peppers",
+            "\u00bd cup fresh mint leaves",
+            "1 tablespoon fresh lemon juice",
+            "1 teaspoon salt"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Blend the onion, green chile peppers, mint, lemon juice, and salt together in a blender until smooth.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Side Dish",
+            "Sauces and Condiments",
+            "Chutney Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "vburrito"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.25,
+            "ratingCount": 4,
+            "itemReviewed": "Minty Mint Chutney",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "22.4 calories",
+            "carbohydrateContent": "5.3 g",
+            "cholesterolContent": null,
+            "fatContent": "0.1 g",
+            "fiberContent": "0.9 g",
+            "proteinContent": "0.8 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "390.2 mg",
+            "sugarContent": "2.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2010-09-14T17:48:40.66Z",
+                "reviewBody": "This was tasty but like others it did not blend well like I've had in Indian restaurants. I added a bit more liquid which helped. Tasted good but the texture wasn't the best.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "TexasJG",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/5353395/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2021-01-02T00:11:52.973Z",
+                "reviewBody": "Maybe a little to much of a kick. Next time I'd try taking seeds out of one of chile and double up on lemon. Overall the mint flavor prevailed.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "James",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/18102589/"
+                }
+            }
+        ]
+    }
+]

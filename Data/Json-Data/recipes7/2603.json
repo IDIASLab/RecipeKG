@@ -1,0 +1,153 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/81/side-dish/",
+                    "name": "Side Dish",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/225/side-dish/vegetables/",
+                    "name": "Vegetables",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/149423/hot-and-sour-white-cabbage/",
+        "name": "Hot and Sour White Cabbage",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Hot and Sour White Cabbage"
+        },
+        "datePublished": "2020-06-19T03:32:28.000Z",
+        "description": "This is an original recipe from North China using white cabbage, which in the United States, is referred to as bok choy. The recipe has an interesting flavor, and is for everyone who likes it hot! It's also quick and easy to make! To be authentic, serve the dish with unsalted Chinese or Japanese rice.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H7M",
+        "totalTime": "P0DT0H22M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "1\u2009\u00bd tablespoons white sugar",
+            "1 tablespoon brown rice vinegar, or amount to taste",
+            "1\u2009\u00bd tablespoons cornstarch",
+            "3 tablespoons cold water",
+            "\u00bc cup vegetable oil",
+            "3 dried red chile peppers, seeded and thinly sliced",
+            "\u00bd pound baby bok choy, trimmed and chopped",
+            "salt to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Stir together the sugar, brown rice vinegar, cornstarch, and cold water in a small bowl.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat the oil in a large skillet or wok over high heat. When hot, add the chile peppers; cook and stir until browned, about 4 minutes. Remove from the pan using a slotted spoon. Add the bok choy to the pan and cook for 1 to 2 minutes, until wilted and tender. Pour in the vinegar sauce and bring to a boil. Cook and stir briefly until thickened, about 30 seconds. Remove from heat, and season with salt.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Side Dish",
+            "Vegetables"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Ingrid"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 2.5,
+            "ratingCount": 2,
+            "itemReviewed": "Hot and Sour White Cabbage",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "317.4 calories",
+            "carbohydrateContent": "17.9 g",
+            "cholesterolContent": null,
+            "fatContent": "27.5 g",
+            "fiberContent": "1.4 g",
+            "proteinContent": "1.8 g",
+            "saturatedFatContent": "4.3 g",
+            "servingSize": null,
+            "sodiumContent": "76.1 mg",
+            "sugarContent": "10.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2009-03-03T19:39:14.07Z",
+                "reviewBody": "Less vinegar would have been better and really follow the suggested amount of the chili. Don't go over because it will actually burn!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Cindy",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3592883/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2010-06-30T01:32:26.433Z",
+                "reviewBody": "Way too oily the cabbage was great but to much oil! I think if I do this again I will try 1/4 or less of the amount of oil that it calls for.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 1
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Terry Oelmann",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/5006735/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,132 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/138/drinks/smoothies/",
+                    "name": "Smoothie Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/273543/avocado-shake/",
+        "name": "Avocado Shake",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6723143.jpg",
+            "width": 3456,
+            "height": 3456
+        },
+        "datePublished": "2020-06-19T04:37:09.000Z",
+        "description": "Avocado is not common in sweet drinks, but it's delicious. Try this shake and you won't regret it.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "2 shakes",
+        "recipeIngredient": [
+            "4 pods cardamom pods",
+            "2 cups cold milk",
+            "1 ripe avocado, peeled and chopped",
+            "6 teaspoons white sugar, or to taste",
+            "1 pinch salt"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Pop cardamom pods open and crush or grind seeds into a powder.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine cardamom, milk, avocado, sugar, and salt in a food processor. Blend until smooth. Divide between 2 glasses.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Smoothie Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Anu"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Avocado Shake",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "331.5 calories",
+            "carbohydrateContent": "32.6 g",
+            "cholesterolContent": "19.5 mg",
+            "fatContent": "19.5 g",
+            "fiberContent": "6.8 g",
+            "proteinContent": "10.1 g",
+            "saturatedFatContent": "5.2 g",
+            "servingSize": null,
+            "sodiumContent": "184.6 mg",
+            "sugarContent": "24.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-06-11T02:26:19.29Z",
+                "reviewBody": "6.10.19 I make smoothies with avocados occasionally so I was pretty sure that I d like this and I wasn t wrong. The avocado brings incredible creaminess but I d suggest that you start out modestly with the sugar. I m not into super sweet these days so I did cut it back quite a bit to suit my taste and it was still plenty sweet for me. You always can add more to the blender if you want it sweeter.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "lutzflcat",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/lutzflcat/"
+                }
+            }
+        ]
+    }
+]

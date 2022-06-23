@@ -1,0 +1,113 @@
+@prefix ns1: <http://purl.org/recipekg/> .
+@prefix ns2: <http://purl.org/heals/food/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/minced-beef-with-black-eyed-beans> a schema:Recipe ;
+    ns2:hasIngredient [ a <http://purl.org/recipekg/ingredient/ChiliPowder> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "chili powder" ],
+        [ a <http://purl.org/heals/ingredient/Onion> ;
+            ns1:hasQuantity "1" ;
+            ns1:ingredientName "onion" ],
+        [ a <http://purl.org/heals/ingredient/Garlic> ;
+            ns1:hasQuantity "1/4" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "garlic" ],
+        [ a <http://purl.org/heals/ingredient/VegetableOil> ;
+            ns1:hasQuantity "5" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "vegetable oil" ],
+        [ a <http://purl.org/recipekg/ingredient/Turmeric> ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "turmeric" ],
+        [ a <http://purl.org/heals/ingredient/Tomato> ;
+            ns1:hasQuantity "1" ;
+            ns1:ingredientName "tomato" ],
+        [ a <http://purl.org/heals/ingredient/Water> ;
+            ns1:hasQuantity "3/4" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "water" ],
+        [ ],
+        [ a <http://purl.org/heals/ingredient/LemonJuice> ;
+            ns1:hasQuantity "2" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "lemon juice" ],
+        [ a <http://purl.org/recipekg/ingredient/GaramMasala> ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "garam masala" ],
+        [ a <http://purl.org/recipekg/ingredient/ChilePeppers> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "chile peppers" ],
+        [ a <http://purl.org/recipekg/ingredient/Cumin> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "cumin" ],
+        [ a <http://purl.org/heals/ingredient/Beef> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "pound" ;
+            ns1:ingredientName "beef" ],
+        [ a <http://purl.org/heals/ingredient/Salt> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "salt" ],
+        [ a <http://purl.org/heals/ingredient/Cilantro> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "cilantro" ] ;
+    ns1:belongsTo <http://purl.org/recipekg/categories/world-cuisine/asian/pakistani/> ;
+    ns1:hasFSAScore 4 ;
+    ns1:hasNutritionalInformation [ a ns1:NutritionalInformation ;
+            ns1:hasCalorificData [ a ns1:CalorificData ;
+                    ns1:hasAmount "371.7"^^xsd:float ;
+                    ns1:hasUnit "calories" ] ;
+            ns1:hasCarbohydrateData [ a ns1:CarbohydrateData ;
+                    ns1:hasAmount "17.6"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasFatData [ a ns1:FatData ;
+                    ns1:hasAmount "27.0"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSARed ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasFiberData [ a ns1:FiberData ;
+                    ns1:hasAmount "4.3"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasProteinData [ a ns1:ProteinData ;
+                    ns1:hasAmount "16.2"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSaturatedFatData [ a ns1:SaturatedFatData ;
+                    ns1:hasAmount "2.9"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSodiumData [ a ns1:SodiumData ;
+                    ns1:hasAmount "950.9"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasSugarData [ a ns1:SugarData ;
+                    ns1:hasAmount "1.5"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAGreen ;
+                    ns1:hasUnit "g" ] ] ;
+    ns1:hasUSDAScore 5 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 36 ;
+            schema:ratingValue "4.361111111111111"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2019-07-10T06:53:00.000Z"^^schema:date ;
+    schema:name "Minced Beef with Black-Eyed Beans"^^xsd:string ;
+    schema:recipeYield "4 servings"^^xsd:string .
+
+ns1:FSAGreen a ns1:FSAColor .
+
+ns1:FSARed a ns1:FSAColor .
+
+<http://purl.org/recipekg/categories/world-cuisine/> a ns1:RecipeCategory .
+
+<http://purl.org/recipekg/categories/world-cuisine/asian/> rdfs:subClassOf <http://purl.org/recipekg/categories/world-cuisine/> .
+
+<http://purl.org/recipekg/categories/world-cuisine/asian/pakistani/> rdfs:subClassOf <http://purl.org/recipekg/categories/world-cuisine/asian/> .
+
+ns1:FSAAmber a ns1:FSAColor .
+

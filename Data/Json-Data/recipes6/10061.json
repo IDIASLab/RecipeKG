@@ -1,0 +1,162 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/133/drinks/cocktails/",
+                    "name": "Cocktail Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1743/drinks/cocktails/vodka-drinks/",
+                    "name": "Vodka Drinks Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/280067/titos-red-white-boozy/",
+        "name": "Tito's Red, White & Boozy",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F9232458.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-06-12T01:32:31.000Z",
+        "description": "America's Original Craft Vodka, a splash of color, fresh blueberries, all topped with bubbles. No matter how you're celebrating the season, raise a Tito's Red, White & Boozy for a summer well spent.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "1 cocktail",
+        "recipeIngredient": [
+            "1\u2009\u00bd ounces Tito's Handmade Vodka",
+            "3 ounces sparkling water",
+            "2 ounces cranberry juice",
+            "Blueberries to garnish"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Add Tito's Handmade Vodka and cranberry juice to a glass with ice.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Slowly pour sparkling water for a layering effect.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Drop in a few blueberries and enjoy.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Cocktail Recipes",
+            "Vodka Drinks Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Tito's Handmade Vodka"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.4,
+            "ratingCount": 5,
+            "itemReviewed": "Tito's Red, White & Boozy",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "130.9 calories",
+            "carbohydrateContent": "8.7 g",
+            "cholesterolContent": null,
+            "fatContent": "0.1 g",
+            "fiberContent": "0.2 g",
+            "proteinContent": "0.1 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "5.2 mg",
+            "sugarContent": "7.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-12-13T12:19:48.677Z",
+                "reviewBody": "Good comination, balanced",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "John Fellmer",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/18218323/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2020-09-11T05:15:12.223Z",
+                "reviewBody": "made for 4th of july good",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "bonnie",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/13199162/"
+                }
+            }
+        ]
+    }
+]

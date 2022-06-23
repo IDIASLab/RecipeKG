@@ -1,0 +1,134 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/213/salad/green-salads/",
+                    "name": "Green Salad Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/239773/als-favorite-spinach-power-salad/",
+        "name": "Al's Favorite Spinach Power Salad",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1566442.jpg",
+            "width": 5184,
+            "height": 3888
+        },
+        "datePublished": "2019-07-10T07:05:51.000Z",
+        "description": "Topping this salad with baked salmon and sauteed snap peas is our favorite weeknight meal. It all comes together quickly and easily, and the flavors really complement each other. Best of all, it's very healthy and delicious.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT0H20M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "\u00bc cup slivered almonds",
+            "1 tablespoon fresh lemon juice",
+            "2 tablespoons extra-virgin olive oil",
+            "1 avocado - peeled, pitted, and chopped",
+            "1 pound baby spinach leaves",
+            "1 (10 ounce) can mandarin orange segments, drained",
+            "\u00bc cup crumbled feta cheese, or to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat a small skillet over medium-high heat. Toast almonds in hot skillet until lightly browned and fragrant, about 5 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour lemon juice into a large glass bowl. Drizzle olive oil into the lemon juice while vigorously whisking to make a dressing; add chopped avocado and stir to coat. Gently stir spinach and orange segments with the dressing and avocado; top with feta cheese.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad",
+            "Green Salad Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "LivesToEat"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.5,
+            "ratingCount": 2,
+            "itemReviewed": "Al's Favorite Spinach Power Salad",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "258.2 calories",
+            "carbohydrateContent": "17.2 g",
+            "cholesterolContent": "8.3 mg",
+            "fatContent": "20 g",
+            "fiberContent": "7.2 g",
+            "proteinContent": "7.5 g",
+            "saturatedFatContent": "3.8 g",
+            "servingSize": null,
+            "sodiumContent": "201.5 mg",
+            "sugarContent": "7.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2014-10-19T23:35:57.337Z",
+                "reviewBody": "This was tasty! I really enjoyed the combo of flavors and textures. I wasn't sure about the dressing at first but once combined with everything else it was fine. I did add some sea salt and fresh cracked pepper. This was nice and I felt good eating it. I would make this again and add some thinly sliced red onion too! Thanks for sharing.:)",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Christina",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/christina/"
+                }
+            }
+        ]
+    }
+]

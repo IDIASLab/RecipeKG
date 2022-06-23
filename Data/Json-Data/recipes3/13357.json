@@ -1,0 +1,134 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/81/side-dish/",
+                    "name": "Side Dish",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/225/side-dish/vegetables/",
+                    "name": "Vegetables",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/259155/grilled-garlic-scapes/",
+        "name": "Grilled Garlic Scapes",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5505160.jpg",
+            "width": 2305,
+            "height": 2305
+        },
+        "datePublished": "2018-06-08T14:44:09.000Z",
+        "description": "I got some garlic scapes in my veg box and wondered if I could just throw them on the grill. Success! They came out yummy and made a nice side dish to burgers.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H2M",
+        "totalTime": "P0DT0H27M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "8 garlic scapes",
+            "2 tablespoons olive oil",
+            "salt and freshly ground black pepper to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine garlic scapes, olive oil, salt, and pepper in a bowl and turn to coat evenly. Marinate for 20 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Preheat an outdoor grill for medium-high heat and lightly oil the grate.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place garlic scapes on the grill and grill until well charred and tender at the thickest part, 1 to 2 minutes per side.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Side Dish",
+            "Vegetables"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "barbara"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Grilled Garlic Scapes",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "104.4 calories",
+            "carbohydrateContent": "9.9 g",
+            "cholesterolContent": null,
+            "fatContent": "6.9 g",
+            "fiberContent": "0.6 g",
+            "proteinContent": "1.9 g",
+            "saturatedFatContent": "1 g",
+            "servingSize": null,
+            "sodiumContent": "44 mg",
+            "sugarContent": "0.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-06-26T20:55:51.64Z",
+                "reviewBody": "I made these to serve with garlic balsamic grilled chicken. We devoured them!!!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Kayleigh8714",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/5339098/"
+                }
+            }
+        ]
+    }
+]

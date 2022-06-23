@@ -1,0 +1,137 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/113/appetizers-and-snacks/pastries/",
+                    "name": "Pastries",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/283541/yummy-pizza-cupcakes/",
+        "name": "Yummy Pizza Cupcakes",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1519455.jpg",
+            "width": 960,
+            "height": 960
+        },
+        "datePublished": "2014-10-03T18:28:40.000Z",
+        "description": "All the yummy things in pizza rolled in with a biscuit to make one tasty little pizza cupcake.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H25M",
+        "totalTime": "P0DT0H45M",
+        "recipeYield": "12 servings",
+        "recipeIngredient": [
+            "nonstick cooking spray",
+            "1 cup pizza sauce",
+            "1 (10 ounce) can refrigerated biscuit dough",
+            "1 cup grated mozzarella cheese",
+            "1 cup mini pepperoni",
+            "\u00bd cup chopped mushrooms",
+            "\u00bd cup chopped olives",
+            "1 tablespoon Italian seasoning"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat the oven to 350 degrees F (175 degrees C). Line a 12-cup muffin tin with paper liners and spray with cooking spray.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour pizza sauce into a large bowl. Cut each biscuit into 10 to 15 small pieces and stir into the pizza sauce. Add mozzarella, pepperoni, mushrooms, olives, and Italian seasoning and mix to combine well. Spoon the pizza mixture equally into the prepared muffin tin.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated oven until golden brown and cheese has melted, 25 to 30 minutes. Remove from the oven; let cool for 5 minutes before removing muffins from the tin.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks",
+            "Pastries"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Rebecca Van"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Yummy Pizza Cupcakes",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "210.7 calories",
+            "carbohydrateContent": "13 g",
+            "cholesterolContent": "26.1 mg",
+            "fatContent": "13.7 g",
+            "fiberContent": "0.9 g",
+            "proteinContent": "8.6 g",
+            "saturatedFatContent": "4.7 g",
+            "servingSize": null,
+            "sodiumContent": "765 mg",
+            "sugarContent": "2.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-04-19T22:24:20.88Z",
+                "reviewBody": "I liked them alot. I added mini pepperoni  pieces. I want to try them again with some other toppings.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Elizabeth Byrd",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/16751572/"
+                }
+            }
+        ]
+    }
+]

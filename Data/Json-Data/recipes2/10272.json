@@ -1,0 +1,133 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/247230/paleo-trail-mix/",
+        "name": "Paleo Trail Mix",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3634110.jpg",
+            "width": 2055,
+            "height": 2055
+        },
+        "datePublished": "2017-06-14T03:28:56.000Z",
+        "description": "Quick and easy snack.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "2 1/2 cups",
+        "recipeIngredient": [
+            "1 cup almonds",
+            "1 cup sunflower seeds",
+            "\u00bd cup unsweetened shredded coconut"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine almonds, sunflower seeds, and coconut together in a bowl.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "RACH7H"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Paleo Trail Mix",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "196.9 calories",
+            "carbohydrateContent": "6.8 g",
+            "cholesterolContent": null,
+            "fatContent": "17.6 g",
+            "fiberContent": "3.7 g",
+            "proteinContent": "6.3 g",
+            "saturatedFatContent": "3.9 g",
+            "servingSize": null,
+            "sodiumContent": "3.2 mg",
+            "sugarContent": "1.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2016-06-05T20:52:17.5Z",
+                "reviewBody": "Ok this \"recipe\" seems simple enough I know. However the proportions are key as not to get too much of one thing. This recipe does it. The only thing I will do differently the next time is to chop the almonds before mixing. This will help you grab a balanced handful. With the almonds being larger than the sunflower seeds and heavier than the coconut you end up eating them separately. Also I added some cocoa bits...purely medicinal though.:-) Thank you for sharing this with us.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Buckwheat Queen",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/melaniegiovenzana/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2019-01-27T04:43:19.37Z",
+                "reviewBody": "Very good I used coconut chips in place of shredded coconut. My sunflower seeds were salted but my almonds were not the salt level was good this way.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Madison Ling",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/24505160/"
+                }
+            }
+        ]
+    }
+]

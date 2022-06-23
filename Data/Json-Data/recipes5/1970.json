@@ -1,0 +1,90 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/274021/spicy-kimchi-chipotle-barbecue-sauce/",
+        "name": "Spicy Kimchi-Chipotle Barbecue Sauce",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Spicy Kimchi-Chipotle Barbecue Sauce"
+        },
+        "datePublished": "2019-06-03T10:39:37.000Z",
+        "description": "Barbecue sauce made with kimchi and chipotle peppers.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "16 ounces",
+        "recipeIngredient": [
+            "6 ounces kimchi",
+            "6 ounces chipotle peppers in adobo sauce",
+            "3 tablespoons molasses",
+            "3 tablespoons apple cider vinegar",
+            "2 tablespoons ketchup",
+            "1 tablespoon smoked paprika",
+            "1 clove garlic, peeled"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine kimchi, chipotle peppers in adobo, molasses, vinegar, ketchup, smoked paprika, and garlic in a blender. Puree until mixture has a sauce-like consistency. Transfer to a 16-ounce mason jar and keep refrigerated. Sauce will keep for 3 months in the fridge.\n"
+            }
+        ],
+        "recipeCategory": [],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Blake Smith"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Spicy Kimchi-Chipotle Barbecue Sauce",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "44.3 calories",
+            "carbohydrateContent": "9.5 g",
+            "cholesterolContent": null,
+            "fatContent": "0.5 g",
+            "fiberContent": "1.1 g",
+            "proteinContent": "0.6 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "280.7 mg",
+            "sugarContent": "5.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

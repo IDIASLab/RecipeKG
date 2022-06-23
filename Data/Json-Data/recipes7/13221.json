@@ -1,0 +1,127 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/143/breakfast-and-brunch/drinks/",
+                    "name": "Drinks",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/244627/acai-berry-smoothie/",
+        "name": "Acai Berry Smoothie",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4457943.jpg",
+            "width": 3024,
+            "height": 4032
+        },
+        "datePublished": "2020-06-19T04:03:29.000Z",
+        "description": "Just the perfect smoothie.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "1 serving",
+        "recipeIngredient": [
+            "2 cups orange juice",
+            "1 banana, sliced",
+            "\u00bd cup acai berry pulp",
+            "1 pinch white sugar, or to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Blend orange juice, banana, acai pulp, and sugar together in a blender until smooth.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Drinks"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "belalegre"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Acai Berry Smoothie",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "405.6 calories",
+            "carbohydrateContent": "83.7 g",
+            "cholesterolContent": null,
+            "fatContent": "6.6 g",
+            "fiberContent": "7.2 g",
+            "proteinContent": "4.8 g",
+            "saturatedFatContent": "1.8 g",
+            "servingSize": null,
+            "sodiumContent": "32.4 mg",
+            "sugarContent": "57.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-01-14T13:34:35.767Z",
+                "reviewBody": "This is delicious! I usually make this smoothie with apple juice because it is the closest substitute I can find for guarana which is what is traditionally used with acai in Brazil (Brasil). I loved it with the OJ too:) Great recipe!! PS no need to add sugar!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Diana71",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/diana71/"
+                }
+            }
+        ]
+    }
+]

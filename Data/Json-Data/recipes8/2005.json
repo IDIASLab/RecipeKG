@@ -1,0 +1,107 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1642/everyday-cooking/",
+                    "name": "Everyday Cooking",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1227/everyday-cooking/vegan/",
+                    "name": "Vegan",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/279172/strawberry-mint-protein-smoothie/",
+        "name": "Strawberry-Mint Protein Smoothie",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7793752.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-06-19T04:44:54.000Z",
+        "description": "A minty strawberry protein smoothie made with fresh mint and frozen strawberries.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "1 smoothie",
+        "recipeIngredient": [
+            "1 cup <a href=\"https://www.allrecipes.com/article/how-to-freeze-strawberries/\" aria-label=\"frozen strawberries\">frozen strawberries</a>",
+            "\u00be cup soy milk",
+            "1 scoop vanilla protein powder",
+            "8 leaves fresh mint, or more to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine strawberries, soy milk, protein powder, and mint leaves in a blender; blend until smooth.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Everyday Cooking",
+            "Vegan"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Yoly"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Strawberry-Mint Protein Smoothie",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "350.9 calories",
+            "carbohydrateContent": "35.4 g",
+            "cholesterolContent": "12.5 mg",
+            "fatContent": "4.7 g",
+            "fiberContent": "5.7 g",
+            "proteinContent": "44.4 g",
+            "saturatedFatContent": "1.6 g",
+            "servingSize": null,
+            "sodiumContent": "309.9 mg",
+            "sugarContent": "18.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

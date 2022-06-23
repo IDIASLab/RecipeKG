@@ -1,0 +1,36 @@
+@prefix ns1: <http://purl.org/recipekg/> .
+@prefix ns2: <http://purl.org/heals/food/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/slow-and-easy-beef-stock> a schema:Recipe ;
+    ns2:hasIngredient [ a <http://purl.org/heals/ingredient/Water> ;
+            ns1:ingredientName "water" ],
+        [ a <http://purl.org/recipekg/ingredient/BeefSoup> ;
+            ns1:hasQuantity "10" ;
+            ns1:hasUnit "pound" ;
+            ns1:ingredientName "beef soup" ] ;
+    ns1:belongsTo <http://purl.org/recipekg/categories/soups-stews-and-chili/broth-and-stocks/> ;
+    ns1:hasFSAScore 2 ;
+    ns1:hasNutritionalInformation [ a ns1:NutritionalInformation ;
+            ns1:hasSodiumData [ a ns1:SodiumData ;
+                    ns1:hasAmount "28.4"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAGreen ;
+                    ns1:hasUnit "mg" ] ] ;
+    ns1:hasUSDAScore 1 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 19 ;
+            schema:ratingValue "4.947368421052632"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2019-04-04T03:44:50.000Z"^^schema:date ;
+    schema:name "Slow and Easy Beef Stock"^^xsd:string ;
+    schema:recipeYield "1 quart"^^xsd:string .
+
+ns1:FSAGreen a ns1:FSAColor .
+
+<http://purl.org/recipekg/categories/soups-stews-and-chili/> a ns1:RecipeCategory .
+
+<http://purl.org/recipekg/categories/soups-stews-and-chili/broth-and-stocks/> rdfs:subClassOf <http://purl.org/recipekg/categories/soups-stews-and-chili/> .
+

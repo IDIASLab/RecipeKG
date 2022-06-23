@@ -1,0 +1,114 @@
+@prefix ns1: <http://purl.org/recipekg/> .
+@prefix ns2: <http://purl.org/heals/food/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/najlepsza-zupa-ogorkowa-polish-pickled-cucumber-soup> a schema:Recipe ;
+    ns2:hasIngredient [ a <http://purl.org/recipekg/ingredient/Marjoram> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "marjoram" ],
+        [ a <http://purl.org/heals/ingredient/Celery> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "bunch" ;
+            ns1:ingredientName "celery" ],
+        [ a <http://purl.org/recipekg/ingredient/Cucumber> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "jar" ;
+            ns1:ingredientName "cucumber" ],
+        [ a <http://purl.org/heals/ingredient/AllPurposeFlour> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "all purpose flour" ],
+        [ a <http://purl.org/recipekg/ingredient/HamBone> ;
+            ns1:hasQuantity "1" ;
+            ns1:ingredientName "ham bone" ],
+        [ ],
+        [ a <http://purl.org/heals/ingredient/Garlic> ;
+            ns1:hasQuantity "4" ;
+            ns1:hasUnit "clove" ;
+            ns1:ingredientName "garlic" ],
+        [ a <http://purl.org/recipekg/ingredient/AllspiceBerries> ;
+            ns1:hasQuantity "3" ;
+            ns1:ingredientName "allspice berries" ],
+        [ a <http://purl.org/heals/ingredient/Onion> ;
+            ns1:hasQuantity "1" ;
+            ns1:ingredientName "onion" ],
+        [ a <http://purl.org/recipekg/ingredient/HeavyWhippingCream> ;
+            ns1:hasQuantity "2" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "heavy whipping cream" ],
+        [ a <http://purl.org/heals/ingredient/Potato> ;
+            ns1:hasQuantity "3" ;
+            ns1:ingredientName "potato" ],
+        [ a <http://purl.org/heals/ingredient/Carrot> ;
+            ns1:hasQuantity "2" ;
+            ns1:ingredientName "carrot" ],
+        [ a <http://purl.org/heals/ingredient/Parsley> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "bunch" ;
+            ns1:ingredientName "parsley" ],
+        [ a <http://purl.org/heals/ingredient/Water> ;
+            ns1:ingredientName "water" ],
+        [ a <http://purl.org/recipekg/ingredient/Leek> ;
+            ns1:hasQuantity "1" ;
+            ns1:ingredientName "leek" ],
+        [ a <http://purl.org/heals/ingredient/Water> ;
+            ns1:hasQuantity "1/4" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "water" ] ;
+    ns1:belongsTo <http://purl.org/recipekg/categories/soups-stews-and-chili/soup/vegetable-soup/> ;
+    ns1:hasFSAScore 3 ;
+    ns1:hasNutritionalInformation [ a ns1:NutritionalInformation ;
+            ns1:hasCalorificData [ a ns1:CalorificData ;
+                    ns1:hasAmount "258.3"^^xsd:float ;
+                    ns1:hasUnit "calories" ] ;
+            ns1:hasCarbohydrateData [ a ns1:CarbohydrateData ;
+                    ns1:hasAmount "52.5"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasCholesterolData [ a ns1:CholesterolData ;
+                    ns1:hasAmount "10.2"^^xsd:float ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasFatData [ a ns1:FatData ;
+                    ns1:hasAmount "3.8"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasFiberData [ a ns1:FiberData ;
+                    ns1:hasAmount "9.9"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasProteinData [ a ns1:ProteinData ;
+                    ns1:hasAmount "7.1"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSaturatedFatData [ a ns1:SaturatedFatData ;
+                    ns1:hasAmount "2.0"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSodiumData [ a ns1:SodiumData ;
+                    ns1:hasAmount "3024.8"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSARed ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasSugarData [ a ns1:SugarData ;
+                    ns1:hasAmount "9.0"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "g" ] ] ;
+    ns1:hasUSDAScore 4 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 1 ;
+            schema:ratingValue "4"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2019-04-04T04:09:01.000Z"^^schema:date ;
+    schema:name "Najlepsza Zupa Ogorkowa (Polish Pickled Cucumber Soup)"^^xsd:string ;
+    schema:recipeYield "4 servings"^^xsd:string .
+
+ns1:FSARed a ns1:FSAColor .
+
+<http://purl.org/recipekg/categories/soups-stews-and-chili/> a ns1:RecipeCategory .
+
+<http://purl.org/recipekg/categories/soups-stews-and-chili/soup/> rdfs:subClassOf <http://purl.org/recipekg/categories/soups-stews-and-chili/> .
+
+<http://purl.org/recipekg/categories/soups-stews-and-chili/soup/vegetable-soup/> rdfs:subClassOf <http://purl.org/recipekg/categories/soups-stews-and-chili/soup/> .
+
+ns1:FSAAmber a ns1:FSAColor .
+

@@ -1,0 +1,127 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/219/salad/vegetable-salads/",
+                    "name": "Vegetable Salad Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/242160/easy-texas-caviar/",
+        "name": "Easy Texas Caviar",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3432287.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2015-04-14T23:44:42.000Z",
+        "description": "Super simple classic dish. Keeps very well in refrigerator and flavors best when allowed to sit overnight.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "8 servings",
+        "recipeIngredient": [
+            "2 (15 ounce) cans black-eyed peas, rinsed and drained",
+            "1 (10 ounce) can diced tomatoes and green chiles (such as RO*TEL\u00ae Chunky), partially drained",
+            "\u2153 (12 ounce) jar banana peppers, drained and sliced",
+            "1 tablespoon balsamic vinaigrette salad dressing"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Stir black-eyed peas, diced tomatoes and green chiles, banana peppers, and balsamic vinaigrette salad dressing together in a bowl.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad",
+            "Vegetable Salad Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "irishgallawyer"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 1,
+            "ratingCount": 1,
+            "itemReviewed": "Easy Texas Caviar",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "95.6 calories",
+            "carbohydrateContent": "16.4 g",
+            "cholesterolContent": null,
+            "fatContent": "1.3 g",
+            "fiberContent": "4.2 g",
+            "proteinContent": "5.3 g",
+            "saturatedFatContent": "0.2 g",
+            "servingSize": null,
+            "sodiumContent": "713 mg",
+            "sugarContent": "0.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2016-12-30T13:26:47.28Z",
+                "reviewBody": "How do you vote no stars? This may be loosely labeled salad but this is NOT Texas Caviar.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 1
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "colormebeth",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2627260/"
+                }
+            }
+        ]
+    }
+]

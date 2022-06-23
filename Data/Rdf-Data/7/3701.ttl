@@ -1,0 +1,67 @@
+@prefix ns1: <http://purl.org/recipekg/> .
+@prefix ns2: <http://purl.org/heals/food/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/almond-punch> a schema:Recipe ;
+    ns2:hasIngredient [ a <http://purl.org/heals/ingredient/Water> ;
+            ns1:hasQuantity "4" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "water" ],
+        [ a <http://purl.org/recipekg/ingredient/GingerAle> ;
+            ns1:hasQuantity "6" ;
+            ns1:ingredientName "ginger ale" ],
+        [ a <http://purl.org/heals/ingredient/WhiteSugar> ;
+            ns1:hasQuantity "5" ;
+            ns1:hasUnit "pound" ;
+            ns1:ingredientName "white sugar" ],
+        [ a <http://purl.org/heals/ingredient/VanillaExtract> ;
+            ns1:hasQuantity "2" ;
+            ns1:hasUnit "ounce" ;
+            ns1:ingredientName "vanilla extract" ],
+        [ a <http://purl.org/heals/ingredient/LemonJuice> ;
+            ns1:hasQuantity "4" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "lemon juice" ],
+        [ a <http://purl.org/recipekg/ingredient/AlmondExtract> ;
+            ns1:hasQuantity "2" ;
+            ns1:hasUnit "ounce" ;
+            ns1:ingredientName "almond extract" ] ;
+    ns1:belongsTo <http://purl.org/recipekg/categories/drinks/punch/non-alcoholic-punch/> ;
+    ns1:hasFSAScore 2 ;
+    ns1:hasNutritionalInformation [ a ns1:NutritionalInformation ;
+            ns1:hasCalorificData [ a ns1:CalorificData ;
+                    ns1:hasAmount "367.8"^^xsd:float ;
+                    ns1:hasUnit "calories" ] ;
+            ns1:hasCarbohydrateData [ a ns1:CarbohydrateData ;
+                    ns1:hasAmount "91.6"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSodiumData [ a ns1:SodiumData ;
+                    ns1:hasAmount "40.7"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAGreen ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasSugarData [ a ns1:SugarData ;
+                    ns1:hasAmount "91.5"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSARed ;
+                    ns1:hasUnit "g" ] ] ;
+    ns1:hasUSDAScore 1 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 2 ;
+            schema:ratingValue "5"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2020-06-19T04:03:40.000Z"^^schema:date ;
+    schema:name "Almond Punch"^^xsd:string ;
+    schema:recipeYield "6 punch bowls"^^xsd:string .
+
+ns1:FSAGreen a ns1:FSAColor .
+
+ns1:FSARed a ns1:FSAColor .
+
+<http://purl.org/recipekg/categories/drinks/> a ns1:RecipeCategory .
+
+<http://purl.org/recipekg/categories/drinks/punch/> rdfs:subClassOf <http://purl.org/recipekg/categories/drinks/> .
+
+<http://purl.org/recipekg/categories/drinks/punch/non-alcoholic-punch/> rdfs:subClassOf <http://purl.org/recipekg/categories/drinks/punch/> .
+

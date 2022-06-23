@@ -1,0 +1,146 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/81/side-dish/",
+                    "name": "Side Dish",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17031/side-dish/sauces-and-condiments/",
+                    "name": "Sauces and Condiments",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/256830/super-simple-raita/",
+        "name": "Super Simple Raita",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4460170.jpg",
+            "width": 2701,
+            "height": 2336
+        },
+        "datePublished": "2017-01-13T05:17:18.000Z",
+        "description": "This yogurt-y condiment goes perfectly with spicier dishes, and takes just a few minutes to toss together. You can use either fresh fruit or veggies.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "2 3/4 cups",
+        "recipeIngredient": [
+            "2 cups plain whole-milk yogurt",
+            "1 teaspoon freshly toasted cumin seeds",
+            "\u00bd teaspoon kosher salt",
+            "\u00bc teaspoon cayenne pepper",
+            "1 cup chopped red or green grapes",
+            "2 tablespoons chopped fresh mint or cilantro"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Whisk together yogurt, cumin seeds, salt, and cayenne pepper. Stir in fruit (or vegetables) and herbs. Adjust seasoning to taste. Chill thoroughly.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Side Dish",
+            "Sauces and Condiments"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Raghavan Iyer"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 3,
+            "itemReviewed": "Super Simple Raita",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "43.3 calories",
+            "carbohydrateContent": "6.4 g",
+            "cholesterolContent": "2.9 mg",
+            "fatContent": "0.9 g",
+            "fiberContent": "0.2 g",
+            "proteinContent": "2.7 g",
+            "saturatedFatContent": "0.5 g",
+            "servingSize": null,
+            "sodiumContent": "131 mg",
+            "sugarContent": "6.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-01-21T03:58:43.27Z",
+                "reviewBody": "So simple so good. I'd never thought to do it with grapes before but it's excellent.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Nicholio",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/nicholio/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2017-01-28T04:00:37.04Z",
+                "reviewBody": "I started out pairing this with a spicy chicken dish but before long I was eating it on its own. Delicious!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "LucyFitz46",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/lucyfitz46/"
+                }
+            }
+        ]
+    }
+]

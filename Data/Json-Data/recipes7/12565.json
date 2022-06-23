@@ -1,0 +1,146 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/219/salad/vegetable-salads/",
+                    "name": "Vegetable Salad Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/15107/salad/vegetable-salads/corn-salad/",
+                    "name": "Corn Salad Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/241270/edamame-and-corn-salad/",
+        "name": "Edamame and Corn Salad",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8248416.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-06-19T04:02:17.000Z",
+        "description": "A wonderful summer salad. Tastes especially good with fresh edamame.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": null,
+        "totalTime": "P0DT1H15M",
+        "recipeYield": "4 cups",
+        "recipeIngredient": [
+            "2 tomatoes, diced",
+            "1 cup shelled, cooked edamame",
+            "1 cup frozen sweet corn kernels, thawed",
+            "4 green onions, sliced",
+            "2 tablespoons fresh lime juice",
+            "2 tablespoons olive oil",
+            "1 tablespoon chopped fresh cilantro",
+            "2 cloves garlic, minced, or to taste",
+            "1 pinch coarse sea salt to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Mix tomatoes, edamame, corn, green onions, lime juice, olive oil, cilantro, and garlic together in a bowl. Season with sea salt.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cover bowl with plastic wrap and refrigerate until flavors blend, at least 1 hour.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad",
+            "Vegetable Salad Recipes",
+            "Corn Salad Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Carla W"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Edamame and Corn Salad",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "90.8 calories",
+            "carbohydrateContent": "9.3 g",
+            "cholesterolContent": null,
+            "fatContent": "5.1 g",
+            "fiberContent": "2.1 g",
+            "proteinContent": "3.9 g",
+            "saturatedFatContent": "0.7 g",
+            "servingSize": null,
+            "sodiumContent": "100.4 mg",
+            "sugarContent": "1.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-05-07T05:53:40.947Z",
+                "reviewBody": "Loved this! I did end up adding some more lime, salt, and cilantro but that's the beauty of this one, Make it as written and then add to suit your tastes. This would make a great side dish for a backyard BBQ.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

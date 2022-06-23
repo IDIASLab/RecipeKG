@@ -1,0 +1,143 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/143/breakfast-and-brunch/drinks/",
+                    "name": "Drinks",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/272512/pog-juice/",
+        "name": "POG Juice",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6476824.jpg",
+            "width": 2048,
+            "height": 2048
+        },
+        "datePublished": "2020-01-10T03:49:38.000Z",
+        "description": "If you've eaten breakfast at Walt Disney&reg; World or visited Hawaii, then you've probably had P.O.G juice. It's an amazingly refreshing blend of passion fruit juice, orange juice, and guava nectar. Enjoy!",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "15 servings",
+        "recipeIngredient": [
+            "6 cups passion fruit juice (such as Welch's\u00ae)",
+            "6 cups guava nectar (such as Goya\u00ae)",
+            "3 cups fresh squeezed orange juice"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine passion fruit juice, guava nectar, and orange juice in a large glass pitcher and stir well. Chill until ready to serve.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Drinks"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "RainbowJewels"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "POG Juice",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "141.2 calories",
+            "carbohydrateContent": "34.6 g",
+            "cholesterolContent": null,
+            "fatContent": "0.4 g",
+            "fiberContent": "1.1 g",
+            "proteinContent": "1.1 g",
+            "saturatedFatContent": "0.1 g",
+            "servingSize": null,
+            "sodiumContent": "9.2 mg",
+            "sugarContent": "32.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-10-19T11:15:27.337Z",
+                "reviewBody": "Tasted like a scone but not really...\nExpensive tho",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "SconeLover84",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/28206349/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2020-06-04T02:40:00.757Z",
+                "reviewBody": "Fab!! Whole family was happy. Reminds us of Hawaii.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "duckwidow",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/4973709/"
+                }
+            }
+        ]
+    }
+]

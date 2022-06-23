@@ -1,0 +1,107 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/244550/breakfast-trail-mix/",
+        "name": "Breakfast Trail Mix",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Breakfast Trail Mix"
+        },
+        "datePublished": "2015-07-17T18:06:01.000Z",
+        "description": "Great snack and low in sugar. Yummy!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "1 9x13-inch baking dish",
+        "recipeIngredient": [
+            "\u00bd cup butter",
+            "2 teaspoons stevia powder",
+            "1 cup almonds",
+            "1 cup walnuts",
+            "1 cup pecans",
+            "1 cup pine nuts",
+            "1 cup natural peanut butter",
+            "1 cup unsweetened shredded coconut",
+            "1 cup cocoa nibs"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Melt butter in a saucepan over medium-low heat; stir in stevia until dissolved.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine almonds, walnuts, pecans, pine nuts, and peanut butter in a bowl. Pour butter mixture over nut mixture and stir to coat. Fold coconut and cocoa nibs into mixture.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "TSLOWIK"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Breakfast Trail Mix",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "295.6 calories",
+            "carbohydrateContent": "10.5 g",
+            "cholesterolContent": "10.2 mg",
+            "fatContent": "27 g",
+            "fiberContent": "5.4 g",
+            "proteinContent": "7 g",
+            "saturatedFatContent": "7.7 g",
+            "servingSize": null,
+            "sodiumContent": "65.2 mg",
+            "sugarContent": "2.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

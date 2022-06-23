@@ -1,0 +1,161 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/143/breakfast-and-brunch/drinks/",
+                    "name": "Drinks",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/108443/fresh-pineapple-berry-fiasco/",
+        "name": "Fresh Pineapple-Berry Fiasco",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F664082.jpg",
+            "width": 250,
+            "height": 250
+        },
+        "datePublished": "2020-06-19T03:13:46.000Z",
+        "description": "This is a refreshing summer cool off drink which is also great to serve at parties!  I serve mine with whipped cream on top!",
+        "prepTime": "P0DT0H15M",
+        "cookTime": null,
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "4 cups",
+        "recipeIngredient": [
+            "2 fresh pineapples, peeled, cored and cubed",
+            "4 cups fresh strawberries, washed",
+            "2 cups blueberries",
+            "1 cup ice cubes"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Juice the pineapple, strawberries, and blueberries together in a juice machine.  Pour the juice into a blender along with the ice cubes.  Puree until smooth.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Drinks"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "sarah stephens"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.666666666666667,
+            "ratingCount": 3,
+            "itemReviewed": "Fresh Pineapple-Berry Fiasco",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "205.4 calories",
+            "carbohydrateContent": "52.5 g",
+            "cholesterolContent": null,
+            "fatContent": "1 g",
+            "fiberContent": "7.9 g",
+            "proteinContent": "2.8 g",
+            "saturatedFatContent": "0.1 g",
+            "servingSize": null,
+            "sodiumContent": "4.5 mg",
+            "sugarContent": "37.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2011-07-02T18:09:23.137Z",
+                "reviewBody": "This makes a delicious smoothie. I have to admit that I skipped the juicing part... for one because I don't have a juicer and two because I didn't think it was necessary. This has just a few simple ingredients and the pineapple does make it frothy and thick. Sooo good! I will definitely make this again. Be warned that each serving is huge not that it's a bad thing!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Caroline",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/caroline/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2007-01-17T21:49:07.893Z",
+                "reviewBody": "Always make this on weekends. The pineapple makes it foamy. (why do you call it a fiasco -- it means an utter disaster?)",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "LaserStar",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2248237/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2018-05-19T08:12:14.277Z",
+                "reviewBody": "Excellently refreshing!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Chris",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/13383282/"
+                }
+            }
+        ]
+    }
+]

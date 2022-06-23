@@ -1,0 +1,134 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/238340/watermelon-soda/",
+        "name": "Watermelon Soda",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1199844.jpg",
+            "width": 1856,
+            "height": 1856
+        },
+        "datePublished": "2020-06-20T01:50:50.000Z",
+        "description": "Yummy punch for a party!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "6 slices watermelon, cubed",
+            "1 cup ice cubes",
+            "6 watermelon wedges",
+            "3 cups sparkling water, or as needed"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Blend cubed watermelon and ice cubes together in a blender until smooth; pour into 6 cups. Pour enough sparkling water into each cup to fill to the top; stir. Garnish each cup with a watermelon wedge.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Ally"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Watermelon Soda",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "171.6 calories",
+            "carbohydrateContent": "43.2 g",
+            "cholesterolContent": null,
+            "fatContent": "0.9 g",
+            "fiberContent": "2.3 g",
+            "proteinContent": "3.5 g",
+            "saturatedFatContent": "0.1 g",
+            "servingSize": null,
+            "sodiumContent": "9.5 mg",
+            "sugarContent": "35.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2014-06-28T17:49:17.77Z",
+                "reviewBody": "A great use of fresh watermelon making a light and not overly sweet refreshing drink perfect on a hot summer s day.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Deb C",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2702518/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2021-07-26T22:05:09.333Z",
+                "reviewBody": "I absolutely loved this! It is easy and fun to do, (Trust me I am 12). Instead of using sparkling water I used my soda machine. And also made a lime/lemon version",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "libby",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/30216903/"
+                }
+            }
+        ]
+    }
+]

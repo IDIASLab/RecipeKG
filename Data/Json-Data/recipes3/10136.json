@@ -1,0 +1,159 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/218/salad/coleslaw/",
+                    "name": "Coleslaw Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/16680/salad/coleslaw/with-mayo/",
+                    "name": "With Mayo",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/234165/kohl-slaw/",
+        "name": "Kohl Slaw",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6864434.jpg",
+            "width": 3024,
+            "height": 3024
+        },
+        "datePublished": "2018-06-08T14:10:09.000Z",
+        "description": "A terrific way to add kohlrabi into your menu. Serve with wrap and stir-fried tempeh for a yummy lunch. Yummy!",
+        "prepTime": "P0DT0H15M",
+        "cookTime": null,
+        "totalTime": "P0DT1H15M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "2 tablespoons cherry vinegar",
+            "1 tablespoon vegan mayonnaise (such as Follow Your Heart\u00ae Veganaise\u00ae)",
+            "1 tablespoon agave nectar",
+            "1 tablespoon brown mustard seeds",
+            "1 teaspoon Dijon mustard",
+            "salt and ground black pepper to taste",
+            "2 crisp apples, shredded",
+            "2 kohlrabi bulbs, peeled and shredded",
+            "4 carrots, shredded"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Whisk vinegar, vegan mayonnaise, agave nectar, mustard seeds, Dijon mustard, salt, and pepper together in a bowl until dressing is smooth. Stir apples, kohlrabi, and carrots into dressing until evenly coated. Cover bowl with plastic wrap and refrigerate for flavors to blend, at least 1 hour.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad",
+            "Coleslaw Recipes",
+            "With Mayo"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Alen's Grams"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.75,
+            "ratingCount": 4,
+            "itemReviewed": "Kohl Slaw",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "138.4 calories",
+            "carbohydrateContent": "29.4 g",
+            "cholesterolContent": null,
+            "fatContent": "2.6 g",
+            "fiberContent": "8.2 g",
+            "proteinContent": "3.2 g",
+            "saturatedFatContent": "0.4 g",
+            "servingSize": null,
+            "sodiumContent": "116.1 mg",
+            "sugarContent": "18.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-02-10T01:57:52.623Z",
+                "reviewBody": "This is so tasty!  It really hits so many flavors - sweet, sour, fatty & crunchy (not a flavor, but still). I made it once and couldn't wait to make it again.  For a little something extra, I sprinkled it with toasted sunflower seeds.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Laurie Finch",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/24714488/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2019-07-24T06:34:46.873Z",
+                "reviewBody": "Pretty tasty. Very different than any I\u2019ve had before. I chopped a kohlrabi leaf and threw in for the color contrast too.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "cookie39",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/1345351/"
+                }
+            }
+        ]
+    }
+]

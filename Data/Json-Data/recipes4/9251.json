@@ -1,0 +1,121 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/82/trusted-brands-recipes-and-tips/",
+                    "name": "Trusted Brands: Recipes and Tips",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/270083/campbells-beef-and-orange-stir-fry/",
+        "name": "CAMPBELL'S&reg; Beef and Orange Stir-Fry",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6297045.jpg",
+            "width": 960,
+            "height": 960
+        },
+        "datePublished": "2019-01-15T06:33:54.000Z",
+        "description": "CAMPBELL'S&reg; Beef Broth with Red Wine makes this restaurant\u00a0favorite\u00a0easy to make at home. It works well with broccoli, snap peas, green beans, or Asian greens too.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H15M",
+        "totalTime": "P0DT0H25M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "2 oranges, peeled and cut into segments",
+            "2 cloves garlic, minced",
+            "2 tablespoons soy sauce",
+            "\u00bc cup hoisin sauce",
+            "2 cups CAMPBELL'S\u00ae 30% Less Sodium Beef Broth With Red Wine",
+            "1 pound trimmed boneless beef sirloin steak, cut into 1/2-inch-thick strips",
+            "1 tablespoon cornstarch",
+            "1 tablespoon vegetable oil",
+            "4 cups broccoli florets",
+            "4 green onions, cut into 1-inch pieces"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "In a small bowl, whisk together oranges, garlic, soy sauce, hoisin sauce, and broth. In a medium bowl, toss beef with cornstarch until well coated.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "In a large non-stick skillet, heat oil over high heat. Working in batches, brown beef on all sides, 3 to 5 minutes; transfer to a plate.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour broth mixture into skillet and boil until slightly thickened, about 1 minute. Add broccoli and cook just until tender-crisp, about 3 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Return beef to skillet with the orange segments and green onions. Toss until coated and heated through. Serve hot over rice.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Trusted Brands: Recipes and Tips"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Campbell's Canada"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "CAMPBELL'S&reg; Beef and Orange Stir-Fry",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": null,
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-05-18T01:57:11.373Z",
+                "reviewBody": "I followed the recipe exactly. It was really food even my fussy grandson asked if we could have it again sometime for dinner.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Judy",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/25454036/"
+                }
+            }
+        ]
+    }
+]

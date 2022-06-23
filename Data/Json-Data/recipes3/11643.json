@@ -1,0 +1,156 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/148/breakfast-and-brunch/eggs/",
+                    "name": "Eggs",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/244427/breakfast-nachos/",
+        "name": "Breakfast Nachos!",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2416954.jpg",
+            "width": 4608,
+            "height": 3456
+        },
+        "datePublished": "2018-06-08T14:21:34.000Z",
+        "description": "Using just a few ingredients, you can make this delicious breakfast meal. It's super easy, delicious, different, and filling!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H15M",
+        "totalTime": "P0DT0H25M",
+        "recipeYield": "2 serving",
+        "recipeIngredient": [
+            "2 teaspoons butter",
+            "2 eggs",
+            "salt to taste",
+            "1 pinch cayenne pepper, or to taste",
+            "\u00bc pound beef chorizo",
+            "2 cups potato chips (such as Lay's\u00ae)",
+            "1 slice smoked sharp Cheddar cheese, torn into pieces",
+            "1 pinch dried oregano"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat butter in a skillet over medium-low heat. Gently crack eggs into pan and cook, undisturbed, just until whites turn opaque, about 2 minutes. Season eggs with salt and cayenne pepper; flip, taking care to not break yolks, and cook until set, about 30 seconds.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cook chorizo in a skillet over medium-high heat until browned, about 10 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Arrange potato chips on a plate and lay eggs over top. Cover eggs and chips with chorizo and top with Cheddar cheese and oregano.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Eggs"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Joey Partee"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.666666666666667,
+            "ratingCount": 3,
+            "itemReviewed": "Breakfast Nachos!",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "744.2 calories",
+            "carbohydrateContent": "31.8 g",
+            "cholesterolContent": "239.2 mg",
+            "fatContent": "57.4 g",
+            "fiberContent": "2.9 g",
+            "proteinContent": "26.8 g",
+            "saturatedFatContent": "21.7 g",
+            "servingSize": null,
+            "sodiumContent": "1271.8 mg",
+            "sugarContent": "0.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2015-08-06T01:38:10.403Z",
+                "reviewBody": "This was delicious. I would never have thought to use potato chips but I liked it.. kind of like very crunchy hash browns",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Linda T",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/lindat/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2018-05-21T21:33:10.413Z",
+                "reviewBody": "Used pork sausage instead of beef",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "RonGoings",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/4984010/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,108 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/217250/homemade-tonic-water/",
+        "name": "Homemade Tonic Water",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Homemade Tonic Water"
+        },
+        "datePublished": "2020-06-19T03:44:31.000Z",
+        "description": "This homemade tonic syrup makes the most delicious gin and tonics. To make a gin and tonic, use 1/2 ounce or so of tonic syrup with 2 ounces of gin and top off with several ounces of soda water. Syrup can stay refrigerated in a resealable container for about 1 month.",
+        "prepTime": "P0DT0H20M",
+        "cookTime": "P0DT0H35M",
+        "totalTime": "P0DT1H10M",
+        "recipeYield": "24 servings",
+        "recipeIngredient": [
+            "4 cups water",
+            "3 cups white sugar",
+            "3 limes, zested and juiced",
+            "3 stalks lemon grass, chopped into 1/2-inch pieces",
+            "6 tablespoons citric acid powder",
+            "3 tablespoons powdered cinchona bark"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Bring water and sugar to a boil in a saucepan, stirring until sugar dissolves.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Reduce heat to low; stir in lime zest, lime juice, lemon grass, citric acid, and powdered cinchona bark. Simmer until cinchona is thoroughly dissolved, about 30 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Remove from heat; let mixture cool, about 15 minutes. Strain through a colander. Run the syrup through coffee filters or cheesecloth to remove sandy bits of bark.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Lorem Ipsum"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Homemade Tonic Water",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "101.7 calories",
+            "carbohydrateContent": "28.9 g",
+            "cholesterolContent": null,
+            "fatContent": null,
+            "fiberContent": "0.2 g",
+            "proteinContent": "0.1 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "1.5 mg",
+            "sugarContent": "25.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

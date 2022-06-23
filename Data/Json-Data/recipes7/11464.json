@@ -1,0 +1,147 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/237/world-cuisine/latin-american/",
+                    "name": "Latin American",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/728/world-cuisine/latin-american/mexican/",
+                    "name": "Mexican",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/238241/mexican-chocolate-frozen-yogurt/",
+        "name": "Mexican Chocolate Frozen Yogurt",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1238896.jpg",
+            "width": 2346,
+            "height": 2346
+        },
+        "datePublished": "2020-06-19T03:59:41.000Z",
+        "description": "Silky chocolate frozen yogurt with a kick of heat. The cinnamon and cayenne accent the flavor of the chocolate, but don't be surprised if this tastes a lot like chocolate cheesecake.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT3H10M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "3 cups Greek yogurt",
+            "\u2154 cup white sugar",
+            "\u00bd cup sifted cocoa powder",
+            "\u00bc cup half-and-half",
+            "1 tablespoon ground cinnamon",
+            "\u00bd teaspoon cayenne pepper",
+            "1 pinch salt"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine yogurt, sugar, cocoa powder, half-and-half, cinnamon, cayenne pepper, and salt together in a bowl until smooth. Refrigerate yogurt mixture until completely chilled, at least 2 hours.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Transfer yogurt mixture to your ice cream maker and process for 1/2 the amount of time recommended in manufacturers' instructions for ice cream until firm and creamy, 1 to 2 hours.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Latin American",
+            "Mexican"
+        ],
+        "recipeCuisine": [
+            "Latin American",
+            "Mexican"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "dana"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 2,
+            "itemReviewed": "Mexican Chocolate Frozen Yogurt",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "248.8 calories",
+            "carbohydrateContent": "31.6 g",
+            "cholesterolContent": "26.2 mg",
+            "fatContent": "12.2 g",
+            "fiberContent": "3 g",
+            "proteinContent": "7.8 g",
+            "saturatedFatContent": "6.3 g",
+            "servingSize": null,
+            "sodiumContent": "70.8 mg",
+            "sugarContent": "26.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2014-07-09T22:43:15.06Z",
+                "reviewBody": "Wanted to like this one but after giving it a few bites I decided that was more than enough. I went with my instinct and cut the cayenne in half but it was quite spicy even halved; I did not find it enjoyable. Also there is a faint gritty-ness to the mouth feel of this yogurt recipe which I'm guessing comes from either the high amount of cinnamon and/or the cocoa powder. My husband only had a little taste and exclaimed \"blech it's got too much of something.\" It definitely does NOT taste anything like chocolate cheesecake as stated in the description. Sorry we did not care for this.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 2
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Melissa Conger",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/lissa13/"
+                }
+            }
+        ]
+    }
+]

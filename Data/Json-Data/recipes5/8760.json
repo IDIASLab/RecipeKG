@@ -1,0 +1,152 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/149/breakfast-and-brunch/french-toast/",
+                    "name": "French Toast Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/275216/french-toast-for-one/",
+        "name": "French Toast for One",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F9109744.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2019-08-09T05:47:26.000Z",
+        "description": "Tasty, quick breakfast--perfect when you're cooking for one.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "1 serving",
+        "recipeIngredient": [
+            "\u00bc cup milk",
+            "1 egg",
+            "\u215b teaspoon salt",
+            "\u215b teaspoon vanilla extract",
+            "2 thick slices bread",
+            "1 tablespoon olive oil",
+            "2 tablespoons maple syrup",
+            "1 pinch ground cinnamon"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine milk, egg, salt, and vanilla extract in a shallow bowl. Dip both sides of each piece of bread in egg mixture.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat a large frying pan over medium-low heat. Add oil to the hot pan and cook both pieces of toast until lightly browned, 2 to 3 minutes per side. Top with maple syrup and sprinkle with cinnamon.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "French Toast Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "RAZZZYRENATA"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 2,
+            "itemReviewed": "French Toast for One",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "480.8 calories",
+            "carbohydrateContent": "61.3 g",
+            "cholesterolContent": "168.6 mg",
+            "fatContent": "21.1 g",
+            "fiberContent": "2 g",
+            "proteinContent": "12.2 g",
+            "saturatedFatContent": "4.4 g",
+            "servingSize": null,
+            "sodiumContent": "789.9 mg",
+            "sugarContent": "29.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-03-28T19:27:03.287Z",
+                "reviewBody": "Just the the way I like making French toast, with no sugar added to the egg mixture. I didn't measure out 1 tsp salt, just used a dash. I don't think a tablespoon of oil is needed to cook it in, just a teaspoon. Other than small personal preferences, this is a perfect recipe for 2 thick slices of bread or 3 thinner slices.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Tammy Lynn",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3084624/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2021-05-02T03:11:50.73Z",
+                "reviewBody": "Nothing unique about this recipe.  Same recipe in Better Homes and Gardens Cookbook, except ingredients cut in half to serve one.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Margo Barron",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3472168/"
+                }
+            }
+        ]
+    }
+]

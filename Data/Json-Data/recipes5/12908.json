@@ -1,0 +1,151 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/81/side-dish/",
+                    "name": "Side Dish",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/917/side-dish/potatoes/",
+                    "name": "Potato",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1458/side-dish/potatoes/roasted-potatoes/",
+                    "name": "Roasted Potato Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/277808/baked-potato-wedges/",
+        "name": "Baked Potato Wedges",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7626719.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2019-12-30T22:05:53.000Z",
+        "description": "Made these potato wedges on a whim, just threw some spices together! Great alternative to French fries! You may need to adjust the cooking time, depending on how thick your wedges are.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H20M",
+        "totalTime": "P0DT0H35M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "1 pound potatoes",
+            "\u00bc cup olive oil",
+            "1 tablespoon ground black pepper",
+            "1 tablespoon dried oregano",
+            "1 teaspoon garlic powder",
+            "1 teaspoon seasoned salt"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat the oven to 400 degrees F (200 degrees C). Line a baking sheet with aluminum foil.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cut potatoes into wedges. Rinse and pat dry. Pour olive oil into a large bowl. Add wedges to the oil; mix until coated.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Mix black pepper, oregano, garlic powder, and seasoned salt together in another bowl or a large zip-top bag. Add potato wedges and mix around until evenly coated. Spread wedges on the prepared baking sheet.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated oven until golden brown and starting to crisp, 20 to 25 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Side Dish",
+            "Potato",
+            "Roasted Potato Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "jenny1991"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.5,
+            "ratingCount": 2,
+            "itemReviewed": "Baked Potato Wedges",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "217.7 calories",
+            "carbohydrateContent": "22.4 g",
+            "cholesterolContent": null,
+            "fatContent": "13.8 g",
+            "fiberContent": "3.5 g",
+            "proteinContent": "2.7 g",
+            "saturatedFatContent": "1.9 g",
+            "servingSize": null,
+            "sodiumContent": "237.5 mg",
+            "sugarContent": "1.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-01-19T02:22:42.037Z",
+                "reviewBody": "Simple and delicious! The flavor was excellent but they didn't crisp up as much as I would have liked so I'll cut back on the oil next time.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

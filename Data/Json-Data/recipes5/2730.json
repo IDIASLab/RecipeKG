@@ -1,0 +1,144 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/143/breakfast-and-brunch/drinks/",
+                    "name": "Drinks",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/234879/mango-tahini-smoothie/",
+        "name": "Mango Tahini Smoothie",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2519462.jpg",
+            "width": 960,
+            "height": 969
+        },
+        "datePublished": "2019-07-10T01:50:13.000Z",
+        "description": "Vegan, gluten- and nut-free.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "2 cups frozen mango chunks, slightly thawed",
+            "1 cup water",
+            "2 tablespoons tahini",
+            "2 tablespoons lime juice"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Blend mango, water, tahini, and lime juice together in a blender until smooth.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Drinks"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Carolyn Brent"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.5,
+            "ratingCount": 2,
+            "itemReviewed": "Mango Tahini Smoothie",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "200.3 calories",
+            "carbohydrateContent": "32.5 g",
+            "cholesterolContent": null,
+            "fatContent": "8.5 g",
+            "fiberContent": "4.4 g",
+            "proteinContent": "3.5 g",
+            "saturatedFatContent": "1.2 g",
+            "servingSize": null,
+            "sodiumContent": "24.4 mg",
+            "sugarContent": "24.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2014-01-30T13:55:19.23Z",
+                "reviewBody": "Great smoothie! I was looking for a way to use tahini other than hummus and this was a good option. My grocery store only had frozen mango with pineapple and strawberry so that's what I used. My fruit was fully thawed so I just poured all the juice from the bag in the blender and then only used 1/2 cup of water. If you use fully thawed fruit you may want to throw in a few ice cubes. I also added about 1/2 cup of spinach which you can't even taste with the fruit in there but adds more nutrients! There was too much lime juice for me so I'd cut that in half next time. Otherwise a perfect breakfast!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Heather Pulley",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/hkp123/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2015-08-21T14:07:59.55Z",
+                "reviewBody": "This was a very refreshing smoothie pretty mild on taste. I used fresh mango and I would up the tahini next time for a more bold flavour. Second time I made it I added yogurt to make it a little more creamy and some cinnamon for a kick.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "CoachJen",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/coachjen/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,134 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17807/appetizers-and-snacks/tapas/",
+                    "name": "Tapas",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/236492/mango-ceviche/",
+        "name": "Mango Ceviche",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1101134.jpg",
+            "width": 960,
+            "height": 960
+        },
+        "datePublished": "2018-08-31T13:03:08.000Z",
+        "description": "Ceviche is a Peruvian dish that is usually made with rocoto peppers. Since rocoto peppers are difficult to obtain outside of Peru, jalapeno peppers are an adequate substitute. Excellent as dip for tortilla chips. Excellent served in any option with blackened fish (i.e. ahi tuna), blackened chicken, or char-grilled steak.",
+        "prepTime": "P0DT0H20M",
+        "cookTime": null,
+        "totalTime": "P0DT1H20M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "3 mangos - peeled, seeded, and diced",
+            "1 yellow onion, diced",
+            "1 green bell pepper, diced",
+            "1 red bell pepper, diced",
+            "3 jalapeno peppers, minced",
+            "\u00bd bunch fresh cilantro, minced",
+            "2 limes, juiced (with pulp)"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Mix mangos, onion, green bell pepper, red bell pepper, jalapeno peppers, cilantro, and lime juice together in a bowl.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cover bowl with plastic wrap and refrigerate until the ceviche is completely chilled, at least 1 hour.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks",
+            "Tapas"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Steven Marshall"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 2,
+            "itemReviewed": "Mango Ceviche",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "80.3 calories",
+            "carbohydrateContent": "20.1 g",
+            "cholesterolContent": null,
+            "fatContent": "0.4 g",
+            "fiberContent": "3.1 g",
+            "proteinContent": "1.4 g",
+            "saturatedFatContent": "0.1 g",
+            "servingSize": null,
+            "sodiumContent": "6.9 mg",
+            "sugarContent": "14.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2015-01-23T01:45:51.387Z",
+                "reviewBody": "add salt to taste and some olive oil...",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Beatriz Manrique",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/15203301/"
+                }
+            }
+        ]
+    }
+]

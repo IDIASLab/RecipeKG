@@ -1,0 +1,142 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/363/desserts/custards-and-puddings/",
+                    "name": "Custards and Puddings",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/256274/mango-matcha-chia-seed-pudding/",
+        "name": "Mango Matcha Chia Seed Pudding",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4483746.jpg",
+            "width": 2335,
+            "height": 2715
+        },
+        "datePublished": "2020-06-19T04:18:56.000Z",
+        "description": "Mango matcha chia seed pudding is a super tasty and super healthy treat that can be eaten as a light breakfast or filling snack! Garnish with some unsweetened coconut flakes if desired.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT4H10M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "1 cup plain low-fat Greek yogurt",
+            "\u00bc cup raw honey",
+            "4 teaspoons matcha tea powder (such as Full Leaf Tea Company)",
+            "1 teaspoon vanilla extract",
+            "1 cup unsweetened coconut milk",
+            "\u00bc cup chia seeds",
+            "2 cups mango chunks"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Whisk yogurt, honey, matcha powder, and vanilla extract together in a bowl. Stir in coconut milk gently; whisk in chia seeds.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cover yogurt mixture with plastic wrap and refrigerate until thick, at least 4 hours or overnight.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place mango chunks in a blender; puree until smooth.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour yogurt mixture into 4 serving bowls or glasses; distribute mango puree evenly on top.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Custards and Puddings"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "FullLeafTea"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.5,
+            "ratingCount": 2,
+            "itemReviewed": "Mango Matcha Chia Seed Pudding",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "255.5 calories",
+            "carbohydrateContent": "25.2 g",
+            "cholesterolContent": "2.8 mg",
+            "fatContent": "15.5 g",
+            "fiberContent": "3.5 g",
+            "proteinContent": "7.5 g",
+            "saturatedFatContent": "11.8 g",
+            "servingSize": null,
+            "sodiumContent": "28.8 mg",
+            "sugarContent": "19.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-03-12T04:29:06.55Z",
+                "reviewBody": "Turned out just ok. I think it would be much better without the yogurt.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Yoly",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/cookingbikerchick/"
+                }
+            }
+        ]
+    }
+]

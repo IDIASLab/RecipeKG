@@ -1,0 +1,164 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/227/world-cuisine/asian/",
+                    "name": "Asian",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/246937/egg-fried-tofu/",
+        "name": "Egg-Fried Tofu",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4482853.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2020-06-19T04:06:34.000Z",
+        "description": "Another simple, quick, and tasty tofu recipe taught to me by my wife, who is Korean. The dipping sauce described is quite spicy, so temper the ingredients to your taste. Eat with chopsticks.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H6M",
+        "totalTime": "P0DT0H21M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "1 (16 ounce) package firm tofu",
+            "1 pinch sea salt to taste",
+            "1 egg, lightly beaten",
+            "1 cup vegetable oil for frying",
+            "\u2153 cup soy sauce",
+            "2 green onions, chopped",
+            "2 serrano chile peppers, chopped",
+            "2 teaspoons white vinegar",
+            "2 teaspoons white sugar",
+            "1 teaspoon red pepper flakes"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Slice tofu into 12 equal rectangular pieces. Sprinkle salt on both sides of tofu slices.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat vegetable oil in a large, deep saucepan over medium heat.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Dip tofu slices into bowl of beaten egg and fry in hot oil until lightly browned, about 3 minutes per side.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Mix soy sauce, green onions, chile peppers, vinegar, sugar, and red pepper flakes together in a small bowl. Dip fried tofu into dipping sauce.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Asian"
+        ],
+        "recipeCuisine": [
+            "Asian"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "CCA"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.25,
+            "ratingCount": 4,
+            "itemReviewed": "Egg-Fried Tofu",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "340.2 calories",
+            "carbohydrateContent": "13.8 g",
+            "cholesterolContent": "93 mg",
+            "fatContent": "23.2 g",
+            "fiberContent": "3.4 g",
+            "proteinContent": "24.7 g",
+            "saturatedFatContent": "4.2 g",
+            "servingSize": null,
+            "sodiumContent": "2630.5 mg",
+            "sugarContent": "7.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-12-31T00:57:10.187Z",
+                "reviewBody": "Sometimes you need a quick easy and delicious recipe for tofu and this recipe is it. We cooked the tofu while the rice cooked and in no time at all dinner was done and delicious. Used sauce out of a bottle. An inexpensive and easy dinner option-- thank you for the recipe!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Joan-Marie",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/9603610/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2017-03-11T09:24:26.243Z",
+                "reviewBody": "This turned out pretty good. A little on the salty side but still good. Loved the heat in the sauce.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

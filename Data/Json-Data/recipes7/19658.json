@@ -1,0 +1,148 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/151/breakfast-and-brunch/pancakes/",
+                    "name": "Pancake Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/272866/rocky-road-pancakes/",
+        "name": "Rocky Road Pancakes",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1101006.jpg",
+            "width": 3264,
+            "height": 2448
+        },
+        "datePublished": "2020-06-19T04:36:17.000Z",
+        "description": "Serve with maple syrup or indulge with chocolate syrup and whipped cream. Yummy rocky road pancakes either way!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H15M",
+        "totalTime": "P0DT0H30M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "1\u2009\u00bd cups milk",
+            "\u00bc cup white vinegar",
+            "2 cups all-purpose flour",
+            "\u00bc cup white sugar",
+            "\u00bc cup unsweetened cocoa powder",
+            "2 teaspoons baking powder",
+            "1 teaspoon baking soda",
+            "1 teaspoon salt",
+            "2 eggs",
+            "\u00bc cup butter, melted",
+            "2 teaspoons vanilla extract",
+            "1 cup mini marshmallows",
+            "1 cup chopped walnuts"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine milk and vinegar in a large bowl. Set aside for 5 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Meanwhile, combine flour, sugar, cocoa powder, baking powder, baking soda, and salt in a medium bowl.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Whisk eggs, butter, and vanilla extract into the milk-vinegar mixture. Add flour mixture and whisk until no lumps remain. Gently fold in marshmallows and walnuts.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat a lightly oiled griddle over medium-high heat. Drop 1/3 cup of batter onto the griddle for each pancake; cook until tops begin to bubble, 3 to 4 minutes. Flip and cook until browned on the other side, 2 to 3 minutes. Repeat with remaining batter.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Pancake Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Shanna"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Rocky Road Pancakes",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "476.7 calories",
+            "carbohydrateContent": "55.2 g",
+            "cholesterolContent": "87.2 mg",
+            "fatContent": "24.1 g",
+            "fiberContent": "3.6 g",
+            "proteinContent": "12.2 g",
+            "saturatedFatContent": "7.7 g",
+            "servingSize": null,
+            "sodiumContent": "875.2 mg",
+            "sugarContent": "16.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-05-28T08:08:58.787Z",
+                "reviewBody": "One change I would make is to not add the marshmallows to the batter ahead of time. Save for sprinkling on top when serving. Otherwise they came out great:)",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "jennywinn",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/13506213/"
+                }
+            }
+        ]
+    }
+]

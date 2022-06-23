@@ -1,0 +1,180 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/237/world-cuisine/latin-american/",
+                    "name": "Latin American",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/730/world-cuisine/latin-american/south-american/",
+                    "name": "South American",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 6,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1278/world-cuisine/latin-american/south-american/brazilian/",
+                    "name": "Brazilian",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/263554/easy-brazilian-spiced-salmon/",
+        "name": "Easy Brazilian Spiced Salmon",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4549341.jpg",
+            "width": 1436,
+            "height": 1200
+        },
+        "datePublished": "2020-03-05T05:17:32.000Z",
+        "description": "A South American twist on North American fish, with Brazilian-inspired spices.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H15M",
+        "totalTime": "P0DT0H20M",
+        "recipeYield": "4 fillets",
+        "recipeIngredient": [
+            "4 salmon fillets",
+            "2 tablespoons olive oil",
+            "2 tablespoons brown sugar",
+            "4 cloves garlic, minced",
+            "1 teaspoon smoked paprika",
+            "1 teaspoon paprika",
+            "1 teaspoon chili powder",
+            "\u00bd lemon"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat the oven to 425 degrees F (220 degrees C). Grease a baking sheet.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place salmon fillets on the prepared baking sheet. Mix olive oil, brown sugar, garlic, smoked paprika, paprika, and chile powder together in a bowl. Spread mixture over salmon fillets. Squeeze lemon juice on top.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated oven until fish flakes easily with a fork, 13 to 15 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Latin American",
+            "South American",
+            "Brazilian"
+        ],
+        "recipeCuisine": [
+            "Latin American",
+            "South American",
+            "Brazilian"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Robbie Wise"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.333333333333333,
+            "ratingCount": 3,
+            "itemReviewed": "Easy Brazilian Spiced Salmon",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "222.7 calories",
+            "carbohydrateContent": "10.1 g",
+            "cholesterolContent": "49.4 mg",
+            "fatContent": "10.9 g",
+            "fiberContent": "1.4 g",
+            "proteinContent": "21.7 g",
+            "saturatedFatContent": "1.9 g",
+            "servingSize": null,
+            "sodiumContent": "62.1 mg",
+            "sugarContent": "6.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-12-03T00:06:20.943Z",
+                "reviewBody": "I think lemon might be a lime because in Brazil they call a lime a lemon vise versa just a thought to this recipe or they use scilian lemon which is kinda like in the US",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Jeremy Madden",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/4075324/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2020-04-18T06:49:15.213Z",
+                "reviewBody": "Super easy and everyone loved it. I am making it again this as it is a favorite already. Might add just a few red pepper flakes to ad a little kick",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Paul",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3648587/"
+                }
+            }
+        ]
+    }
+]

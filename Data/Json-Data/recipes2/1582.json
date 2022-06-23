@@ -1,0 +1,134 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/238915/summer-salad-on-a-stick/",
+        "name": "Summer Salad on a Stick",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1328409.jpg",
+            "width": 3456,
+            "height": 5184
+        },
+        "datePublished": "2014-08-08T20:19:02.000Z",
+        "description": "Summer salad on a stick.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": null,
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "8 servings",
+        "recipeIngredient": [
+            "8 honeydew melon balls",
+            "16 salami",
+            "24 baby arugula leaves",
+            "8 bamboo toothpicks"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Thread 1 melon ball, 2 slices salami, and 3 arugula leaves, respectively, onto a toothpick. Repeat with remaining toothpicks.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Lindsey"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Summer Salad on a Stick",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "88.6 calories",
+            "carbohydrateContent": "3.5 g",
+            "cholesterolContent": "20 mg",
+            "fatContent": "6.1 g",
+            "fiberContent": "0.3 g",
+            "proteinContent": "4.9 g",
+            "saturatedFatContent": "2.1 g",
+            "servingSize": null,
+            "sodiumContent": "408.7 mg",
+            "sugarContent": "2.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-07-06T20:27:29.89Z",
+                "reviewBody": "It was difficult to get the arugula on the stick",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "stephenie ",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/12964907/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2019-06-12T10:11:54.65Z",
+                "reviewBody": "Surprisingly tasty - made for a summer potluck and heard many compliments. Make sure the melon pieces are small enough to eat the whole pick in one bite because it s the combination of flavors that makes this good. I got 1/2 pound of salami sliced thin and used a little more than half a medium-sized honeydew to make about 60 picks. Skewering the arugula was the slowest part but it still only took about 35 minutes to assemble them all.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Kathy WMtA",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/12992747/"
+                }
+            }
+        ]
+    }
+]

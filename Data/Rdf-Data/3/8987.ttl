@@ -1,0 +1,103 @@
+@prefix ns1: <http://purl.org/recipekg/> .
+@prefix ns2: <http://purl.org/heals/food/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/instant-pot-cajun-jambalaya> a schema:Recipe ;
+    ns2:hasIngredient [ a <http://purl.org/recipekg/ingredient/Shrimp> ;
+            ns1:hasQuantity "12" ;
+            ns1:ingredientName "shrimp" ],
+        [ a <http://purl.org/heals/ingredient/Tomato> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "can" ;
+            ns1:ingredientName "tomato" ],
+        [ a <http://purl.org/heals/ingredient/Onion> ;
+            ns1:hasQuantity "1" ;
+            ns1:ingredientName "onion" ],
+        [ a <http://purl.org/heals/ingredient/ChickenBroth> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "chicken broth" ],
+        [ a <http://purl.org/heals/ingredient/ChickenBroth> ;
+            ns1:hasQuantity "2" ;
+            ns1:ingredientName "chicken broth" ],
+        [ a <http://purl.org/heals/ingredient/GreenPepper> ;
+            ns1:hasQuantity "1" ;
+            ns1:ingredientName "green pepper" ],
+        [ a <http://purl.org/recipekg/ingredient/AndouilleSausages> ;
+            ns1:hasQuantity "2" ;
+            ns1:ingredientName "andouille sausages" ],
+        [ a <http://purl.org/heals/ingredient/Celery> ;
+            ns1:hasQuantity "2" ;
+            ns1:ingredientName "celery" ],
+        [ a <http://purl.org/recipekg/ingredient/GrapeseedOil> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "grapeseed oil" ],
+        [ a <http://purl.org/recipekg/ingredient/CreoleSeasoning> ;
+            ns1:hasQuantity "2" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "Creole seasoning" ],
+        [ a <http://purl.org/recipekg/ingredient/CajunSeasoning> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "Cajun seasoning" ],
+        [ a <http://purl.org/heals/ingredient/WhiteBread> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "white bread" ] ;
+    ns1:belongsTo <http://purl.org/recipekg/categories/soups-stews-and-chili/stews/jambalaya/> ;
+    ns1:hasFSAScore 5 ;
+    ns1:hasNutritionalInformation [ a ns1:NutritionalInformation ;
+            ns1:hasCalorificData [ a ns1:CalorificData ;
+                    ns1:hasAmount "380.0"^^xsd:float ;
+                    ns1:hasUnit "calories" ] ;
+            ns1:hasCarbohydrateData [ a ns1:CarbohydrateData ;
+                    ns1:hasAmount "47.5"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasCholesterolData [ a ns1:CholesterolData ;
+                    ns1:hasAmount "133.1"^^xsd:float ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasFatData [ a ns1:FatData ;
+                    ns1:hasAmount "7.9"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasFiberData [ a ns1:FiberData ;
+                    ns1:hasAmount "2.9"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasProteinData [ a ns1:ProteinData ;
+                    ns1:hasAmount "27.9"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSaturatedFatData [ a ns1:SaturatedFatData ;
+                    ns1:hasAmount "1.6"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSodiumData [ a ns1:SodiumData ;
+                    ns1:hasAmount "1016.0"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasSugarData [ a ns1:SugarData ;
+                    ns1:hasAmount "4.7"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAGreen ;
+                    ns1:hasUnit "g" ] ] ;
+    ns1:hasUSDAScore 5 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 6 ;
+            schema:ratingValue "4.5"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2019-01-12T02:16:52.000Z"^^schema:date ;
+    schema:name "Instant Pot&reg; Cajun Jambalaya"^^xsd:string ;
+    schema:recipeYield "4 servings"^^xsd:string .
+
+ns1:FSAGreen a ns1:FSAColor .
+
+<http://purl.org/recipekg/categories/soups-stews-and-chili/> a ns1:RecipeCategory .
+
+<http://purl.org/recipekg/categories/soups-stews-and-chili/stews/> rdfs:subClassOf <http://purl.org/recipekg/categories/soups-stews-and-chili/> .
+
+<http://purl.org/recipekg/categories/soups-stews-and-chili/stews/jambalaya/> rdfs:subClassOf <http://purl.org/recipekg/categories/soups-stews-and-chili/stews/> .
+
+ns1:FSAAmber a ns1:FSAColor .
+

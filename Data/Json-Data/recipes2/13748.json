@@ -1,0 +1,167 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/81/side-dish/",
+                    "name": "Side Dish",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17031/side-dish/sauces-and-condiments/",
+                    "name": "Sauces and Condiments",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1976/side-dish/sauces-and-condiments/sauces/",
+                    "name": "Sauces",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 6,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/2257/side-dish/sauces-and-condiments/sauces/bbq-sauce/",
+                    "name": "BBQ Sauce Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/17090/my-dads-bbq-sauce/",
+        "name": "My Dad's BBQ Sauce",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4455491.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "1999-09-21T02:26:40.000Z",
+        "description": "This is my father's BBQ sauce. The wine adds to the tangy flavor. Make sure you use a dry table wine, not a sweet wine. You can adjust any of the spices to your taste.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "4 cups",
+        "recipeIngredient": [
+            "2 cups barbeque sauce",
+            "2 cups red wine",
+            "2 tablespoons onion powder",
+            "2 tablespoons garlic powder",
+            "\u00bc cup Worcestershire sauce",
+            "2 tablespoons monosodium glutamate",
+            "1 teaspoon hot pepper sauce"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "In a medium bowl, thoroughly mix the barbeque sauce, wine, onion powder, garlic powder, Worcestershire sauce, meat tenderizer and hot pepper sauce.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Side Dish",
+            "Sauces and Condiments",
+            "Sauces",
+            "BBQ Sauce Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Steve Dale"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 3,
+            "itemReviewed": "My Dad's BBQ Sauce",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "341.3 calories",
+            "carbohydrateContent": "57.3 g",
+            "cholesterolContent": null,
+            "fatContent": "0.4 g",
+            "fiberContent": "1.4 g",
+            "proteinContent": "1.1 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "2274.7 mg",
+            "sugarContent": "37.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2008-02-17T16:25:40.2Z",
+                "reviewBody": "unfortunately i found this to be over powered by the taste of the pre-made bbq sauce base i tried it again with a mix of ketchup and tomato paste and it was wonderful!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 1
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Dunner",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2765126/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2017-01-12T11:45:41.62Z",
+                "reviewBody": "The ingredient list calls for MSG however the instructions call for meat tenderizer so there appears to be a typo here. With that being said I left that step out altogether. This was okay but I feel it would have benefited if cooked on the stove awhile. The red wine really needed some time to cook down in my opinion.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

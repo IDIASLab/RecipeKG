@@ -1,0 +1,105 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/280795/banana-golden-milk/",
+        "name": "Banana Golden Milk",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8286077.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-07-03T06:55:12.000Z",
+        "description": "This is a different take on golden milk that ups the 'help-you-sleep factor' by adding in a banana (which naturally contains Tryptophan). You can serve this at room temp, warm it up, refrigerate, or even freeze it for an anytime, any- season drink.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "1 drink",
+        "recipeIngredient": [
+            "1\u2009\u00bd cups unsweetened almond milk",
+            "1 medium very ripe banana",
+            "\u00bd cup unsweetened coconut milk",
+            "1\u2009\u00bd teaspoons maple syrup",
+            "\u00bd teaspoon vanilla extract",
+            "1 pinch ground turmeric, or to taste",
+            "1 pinch ground cinnamon, or to taste",
+            "1 pinch ground ginger, or to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine almond milk, banana, coconut milk, maple syrup, vanilla extract, turmeric, cinnamon, and ginger in a blender; blend until completely smooth.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour mixture into a small saucepan over medium-low heat. Cook, stirring constantly, just until milk is warm. Do not bring to a simmer, or milk will curdle. Serve immediately.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Kim"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Banana Golden Milk",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "465.2 calories",
+            "carbohydrateContent": "52 g",
+            "cholesterolContent": null,
+            "fatContent": "28.7 g",
+            "fiberContent": "6.8 g",
+            "proteinContent": "5.4 g",
+            "saturatedFatContent": "21.6 g",
+            "servingSize": null,
+            "sodiumContent": "257.5 mg",
+            "sugarContent": "31.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

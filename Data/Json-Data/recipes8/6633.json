@@ -1,0 +1,138 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17140/desserts/fruit-desserts/",
+                    "name": "Fruit Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17533/desserts/fruit-desserts/raspberry-desserts/",
+                    "name": "Raspberry Dessert Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/215328/orange-surprise-pops/",
+        "name": "Orange Surprise Pops",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Orange Surprise Pops"
+        },
+        "datePublished": "2014-01-11T07:01:25.000Z",
+        "description": "My son loves cold treats in the summer! This simple twist on a classic summer chiller gives 'em something they can sink their teeth into!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT2H10M",
+        "recipeYield": "8 servings",
+        "recipeIngredient": [
+            "2 bananas, peeled",
+            "1 8-piece ice pop mold",
+            "1 (12 ounce) package frozen unsweetened raspberries",
+            "5 cups orange juice"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Cut the bananas in half crosswise then lengthwise. Insert 1 ice pop stick into the end of each banana. Roll the bananas in the frozen berries, and place the sticks into the mold.  Fill each mold with the orange juice and freeze until solid, about 2 to 3 hours.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Fruit Desserts",
+            "Raspberry Dessert Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Nikki"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.5,
+            "ratingCount": 2,
+            "itemReviewed": "Orange Surprise Pops",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "115 calories",
+            "carbohydrateContent": "27 g",
+            "cholesterolContent": null,
+            "fatContent": "0.4 g",
+            "fiberContent": "2.2 g",
+            "proteinContent": "2 g",
+            "saturatedFatContent": "0.1 g",
+            "servingSize": null,
+            "sodiumContent": "2.5 mg",
+            "sugarContent": "18.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2011-01-18T21:00:27.253Z",
+                "reviewBody": "This was mediocre at best.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 2
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "funkyfresh",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/6372017/"
+                }
+            }
+        ]
+    }
+]

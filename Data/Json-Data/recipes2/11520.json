@@ -1,0 +1,138 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/133/drinks/cocktails/",
+                    "name": "Cocktail Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1744/drinks/cocktails/whiskey-drinks/",
+                    "name": "Whiskey Drinks Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/217241/algonquin-cocktail/",
+        "name": "Algonquin Cocktail",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7856935.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2017-09-11T23:25:07.000Z",
+        "description": "Named after the NYC hotel where Dorothy Parker's crowd enjoyed a cocktail or two &ndash; though not this particular one.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "1 serving",
+        "recipeIngredient": [
+            "ice",
+            "2 fluid ounces rye whiskey",
+            "1 fluid ounce pineapple juice",
+            "1 fluid ounce sweet vermouth",
+            "2 dashes orange bitters "
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Put ice in a cocktail shaker. Add whiskey, pineapple juice, vermouth, and bitters; stir to combine. Strain into a chilled glass.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Cocktail Recipes",
+            "Whiskey Drinks Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Lorem Ipsum"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 1,
+            "itemReviewed": "Algonquin Cocktail",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "210.2 calories",
+            "carbohydrateContent": "9.5 g",
+            "cholesterolContent": null,
+            "fatContent": null,
+            "fiberContent": "0.1 g",
+            "proteinContent": "0.2 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "10.7 mg",
+            "sugarContent": "5.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-03-26T06:17:28.383Z",
+                "reviewBody": "Whew....this is STRONG. If you like stiff whiskey drinks, this is probably for you. I would have liked more pineapple flavor, since I couldn't really taste it and for a bit more sweetness. For my own personal tastes, I'd cut back on the whiskey and increase the juice. A nice old-timey cocktail.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "France C",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/francecevallos/"
+                }
+            }
+        ]
+    }
+]

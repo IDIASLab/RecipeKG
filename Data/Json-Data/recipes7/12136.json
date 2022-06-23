@@ -1,0 +1,138 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/240036/instant-swiss-mocha-bliss/",
+        "name": "Instant Swiss Mocha Bliss",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1924453.jpg",
+            "width": 1747,
+            "height": 1747
+        },
+        "datePublished": "2020-06-19T04:01:22.000Z",
+        "description": "A mixture of instant flavored coffee and instant hot cocoa that looks and tastes like it came from a cafe! Top with a dollop of whipped cream and a pinch of cinnamon!",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "1 serving",
+        "recipeIngredient": [
+            "8 fluid ounces milk",
+            "1 tablespoon mocha-flavored instant coffee mix (such as International Coffee\u00ae Suisse Mocha)",
+            "2 teaspoons white sugar",
+            "1 teaspoon powdered chocolate drink mix (such as Nesquik\u00ae)"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Microwave milk in an microwave-safe glass or bowl until almost boiling, about 1 minute 45 seconds.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Stir coffee mix, sugar, and chocolate mix together in a mug. Pour hot milk over coffee mixture and stir until mixture is dissolved.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Risa B"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.666666666666667,
+            "ratingCount": 3,
+            "itemReviewed": "Instant Swiss Mocha Bliss",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "164.7 calories",
+            "carbohydrateContent": "21.8 g",
+            "cholesterolContent": "19.5 mg",
+            "fatContent": "5 g",
+            "fiberContent": "0.1 g",
+            "proteinContent": "8.2 g",
+            "saturatedFatContent": "3.1 g",
+            "servingSize": null,
+            "sodiumContent": "105.7 mg",
+            "sugarContent": "21.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2016-01-30T18:46:56.683Z",
+                "reviewBody": "This was pretty good for a quick warmer-upper and very easy to make. My only substitution was using Splenda in place of sugar.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Yoly",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/cookingbikerchick/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2015-01-08T22:13:28.547Z",
+                "reviewBody": "An Arctic blast has hit the south and this was a great way to warm up the kids when they got home from the bus stop! I initially made 2 servings then ended up making 2 more - it was that good. I did top it with some whipped cream and chocolate shavings just to make it extra special.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Kim's Cooking Now",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/kimscookingnow/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,111 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/280133/any-fruit-frozen-margaritas/",
+        "name": "Any-Fruit Frozen Margaritas",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F9108200.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-07-06T22:20:35.000Z",
+        "description": "A watermelon margarita? How about peach, strawberry, or even a cantaloupe margarita? You pick any fruit you desire for this recipe for frozen margaritas.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "8 margaritas",
+        "recipeIngredient": [
+            "3 tablespoons water",
+            "2 tablespoons white sugar",
+            "2\u2009\u00bc cups frozen diced watermelon",
+            "\u00be cup prepared lemonade",
+            "\u00bc cup lime juice",
+            "1 cup tequila",
+            "\u00bd cup orange-flavored liqueur (such as Cointreau\u00ae)"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Boil water and sugar together in a small pot until sugar has dissolved into a syrup. Remove from heat and let cool briefly.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine syrup, watermelon, lemonade, and lime juice in a blender; blend until smooth. Pour in tequila and orange-flavored liqueur. Blend until combined.\n"
+            }
+        ],
+        "recipeCategory": [],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Allison S.F."
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Any-Fruit Frozen Margaritas",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "153.9 calories",
+            "carbohydrateContent": "15.9 g",
+            "cholesterolContent": null,
+            "fatContent": "0.1 g",
+            "fiberContent": "0.2 g",
+            "proteinContent": "0.3 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "2.9 mg",
+            "sugarContent": "14.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-03-23T00:16:01.993Z",
+                "reviewBody": "3.22.21  I used watermelon but, unfortunately, the orange-flavored liqueur overpowered its flavor., and I could not taste the watermelon.  And I had a perfectly ripe and sweet watermelon.  If I were to make this again, I\u2019d probably reduce the liqueur 25%.   I think strawberries might work better than watermelon, but honestly, I miss the predominant lime flavor of a traditional margarita, This was OK, but doubtful I\u2019ll make again.  Thanks for sharing.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "lutzflcat",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/lutzflcat/"
+                }
+            }
+        ]
+    }
+]

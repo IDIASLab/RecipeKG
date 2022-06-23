@@ -1,0 +1,29 @@
+@prefix ns1: <http://purl.org/recipekg/> .
+@prefix ns2: <http://purl.org/heals/food/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/edys-peppermint-sundaes> a schema:Recipe ;
+    ns2:hasIngredient [ a <http://purl.org/heals/ingredient/Brownies> ;
+            ns1:ingredientName "brownies" ],
+        [ a <http://purl.org/recipekg/ingredient/Chocolate> ;
+            ns1:ingredientName "Chocolate" ],
+        [ a <http://purl.org/recipekg/ingredient/CandyCanes> ;
+            ns1:ingredientName "candy canes" ],
+        [ a <http://purl.org/heals/ingredient/Creamy> ;
+            ns1:ingredientName "creamy" ] ;
+    ns1:belongsTo <http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/edys/> ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 2 ;
+            schema:ratingValue "5"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2013-11-25T22:48:58.000Z"^^schema:date ;
+    schema:name "Edy's Peppermint Sundaes"^^xsd:string ;
+    schema:recipeYield "1 serving"^^xsd:string .
+
+<http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/> a ns1:RecipeCategory .
+
+<http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/edys/> rdfs:subClassOf <http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/> .
+

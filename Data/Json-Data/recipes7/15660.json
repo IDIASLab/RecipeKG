@@ -1,0 +1,133 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17106/drinks/juice/",
+                    "name": "Juice Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/257623/honeydew-juice-with-chocolate-syrup/",
+        "name": "Honeydew Juice With Chocolate Syrup",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6811618.jpg",
+            "width": 1909,
+            "height": 3205
+        },
+        "datePublished": "2020-06-19T04:20:44.000Z",
+        "description": "This is the best!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "6 honeydew wedges, cut into cubes",
+            "1 cup water",
+            "8 ice cubes",
+            "2 tablespoons white sugar",
+            "2 tablespoons hot water",
+            "\u00bc cup chocolate syrup"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place honeydew in a blender and top with 1 cup water. Blend until juice smooth, about 2 minutes. Add ice cubes and blend for 2 minutes more. Pour honeydew juice into 2 glasses.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Mix white sugar and hot water together in a bowl until sugar is dissolved; stir into juice. Stir 2 tablespoons chocolate syrup into each glass.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Juice Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Shuk22"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 1,
+            "ratingCount": 1,
+            "itemReviewed": "Honeydew Juice With Chocolate Syrup",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "288 calories",
+            "carbohydrateContent": "71 g",
+            "cholesterolContent": null,
+            "fatContent": "0.9 g",
+            "fiberContent": "4 g",
+            "proteinContent": "2.8 g",
+            "saturatedFatContent": "0.3 g",
+            "servingSize": null,
+            "sodiumContent": "101 mg",
+            "sugarContent": "61.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-07-08T04:23:11.247Z",
+                "reviewBody": "I really did not care for this. I thought the combo sounded totally out of the box which it was. Flavor wise it did not work. I took 3 sips and wound up pouring it down the sink. Sorry for such a harsh review but I just could not drink it.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 1
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Yoly",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/cookingbikerchick/"
+                }
+            }
+        ]
+    }
+]

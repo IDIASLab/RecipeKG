@@ -1,0 +1,147 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/92/meat-and-poultry/",
+                    "name": "Meat and Poultry",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/201/meat-and-poultry/chicken/",
+                    "name": "Chicken",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/659/meat-and-poultry/chicken/chicken-breasts/",
+                    "name": "Breast",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/260030/grilled-hot-wings/",
+        "name": "Grilled Hot Wings",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5270510.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2017-09-01T00:00:42.000Z",
+        "description": "Hot-wing-style chicken breasts made on a barbeque.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT4H20M",
+        "recipeYield": "4 chicken breasts",
+        "recipeIngredient": [
+            "4 (6 ounce) chicken breasts",
+            "\u00bd (17 ounce) bottle sriracha sauce",
+            "1\u2009\u00bd tablespoons grated habanero peppers, or to taste",
+            "1 tablespoon butter, melted",
+            "1 dash ground paprika",
+            "1 dash ground black pepper"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine chicken, sriracha sauce, habanero peppers, butter, paprika, and black pepper together in a resealable container. Marinate in the refrigerator, 4 to 5 hours.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Preheat grill for high heat and lightly oil the grate. Lay a sheet of aluminum foil over the grill and cut slits into it.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place the marinated chicken on the aluminum-foil lined grill. Cook until no longer pink in the center and the juices run clear, about 5 minutes per side. An instant-read thermometer inserted into the center should read at least 165 degrees F (74 degrees C).\n"
+            }
+        ],
+        "recipeCategory": [
+            "Meat and Poultry",
+            "Chicken",
+            "Breast"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "David Vincent"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Grilled Hot Wings",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "243.3 calories",
+            "carbohydrateContent": "6 g",
+            "cholesterolContent": "104.5 mg",
+            "fatContent": "7 g",
+            "fiberContent": "2 g",
+            "proteinContent": "35.5 g",
+            "saturatedFatContent": "3 g",
+            "servingSize": null,
+            "sodiumContent": "2496.1 mg",
+            "sugarContent": "0.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-03-30T23:03:15.51Z",
+                "reviewBody": "This was excellent! The title is deceiving but I'm thinking this would work great with wings too. If you are sensitive to heat I recommend leaving out the hot pepper altogether. I liked the flavor it added but it did pack a punch. This was super simple and one I will definitely make again. 5 stars all the way!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

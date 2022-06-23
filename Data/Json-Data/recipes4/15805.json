@@ -1,0 +1,155 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17245/main-dish/pasta/",
+                    "name": "Pasta",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/653/main-dish/pasta/chicken/",
+                    "name": "Chicken",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/231516/pasta-alla-igor/",
+        "name": "Pasta alla Igor",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1095559.jpg",
+            "width": 960,
+            "height": 960
+        },
+        "datePublished": "2019-04-04T03:54:46.000Z",
+        "description": "This recipe is really simple and easy to make and the guys love it!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H40M",
+        "totalTime": "P0DT0H50M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "1 teaspoon butter",
+            "2 skinless, boneless chicken breast halves",
+            "3 quarts water",
+            "1 (12 ounce) package seashell pasta",
+            "6 large asparagus spears, trimmed and cut into thirds",
+            "\u00be cup peas",
+            "1 teaspoon butter",
+            "\u00bd onion, chopped",
+            "1 cup heavy whipping cream",
+            "\u2153 cup grated Parmesan cheese"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat 1 teaspoon butter in a skillet over medium heat; cook chicken in the melted butter until no longer pink in the center and juices run clear, 5 to 7 minutes per side. Set aside to cool; chop chicken into bite-sized pieces.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bring a large pot of lightly salted water to a boil. Cook seashell pasta in the boiling water, stirring occasionally until cooked through but firm to the bite, 10 to 12 minutes. Drain and return pasta to pot.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place a steamer insert into a saucepan and fill with water to just below the bottom of the steamer. Bring water to a boil. Add asparagus and peas, cover, and steam until tender, 3 to 4 minutes. Remove vegetables from heat and keep covered.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat 1 teaspoon butter in a saucepan over medium heat; cook and stir onion in the melted butter until translucent, about 10 minutes. Stir cream into onion; add vegetables and chicken. Simmer until cream reduced slightly, 2 to 3 minutes. Fold Parmesan cheese into mixture. Remove from heat and cover saucepan until cheese is melted, about 2 minutes. Toss pasta in the cream sauce.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Pasta",
+            "Chicken"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "ashp"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Pasta alla Igor",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "432.6 calories",
+            "carbohydrateContent": "46.3 g",
+            "cholesterolContent": "83.4 mg",
+            "fatContent": "19.6 g",
+            "fiberContent": "3.3 g",
+            "proteinContent": "19.4 g",
+            "saturatedFatContent": "11.3 g",
+            "servingSize": null,
+            "sodiumContent": "150.4 mg",
+            "sugarContent": "3.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-01-15T07:12:07.1Z",
+                "reviewBody": "It was delicious I also adde cream cheese to it!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Mary Helen Mercado-Torres",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/16406431/"
+                }
+            }
+        ]
+    }
+]

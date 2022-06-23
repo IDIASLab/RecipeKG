@@ -1,0 +1,111 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1199/drinks/hot-chocolate/",
+                    "name": "Hot Chocolate Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/273743/vegan-peanut-butter-hot-chocolate/",
+        "name": "Vegan Peanut Butter Hot Chocolate",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4507088.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2017-04-23T05:36:36.000Z",
+        "description": "A rich, thick, and full-of-flavor hot chocolate made with only 3 ingredients.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "1 hot chocolate",
+        "recipeIngredient": [
+            "\u00be cup unsweetened almond milk",
+            "2 tablespoons vegan chocolate chips (such as Enjoy Life\u00ae)",
+            "2 tablespoons powdered peanut butter (such as PB2\u00ae)",
+            "fat-free whipped cream (optional)"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine almond milk, chocolate chips, and powdered peanut butter in a saucepan. Bring to a simmer over medium heat, stirring constantly until chocolate chips are melted and peanut butter powder is incorporated.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour into a mug and top with fat-free whipped cream if desired.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Hot Chocolate Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Yoly"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Vegan Peanut Butter Hot Chocolate",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "242.3 calories",
+            "carbohydrateContent": "29.5 g",
+            "cholesterolContent": null,
+            "fatContent": "15.8 g",
+            "fiberContent": "6.1 g",
+            "proteinContent": "6.9 g",
+            "saturatedFatContent": "7.5 g",
+            "servingSize": null,
+            "sodiumContent": "189.9 mg",
+            "sugarContent": "5.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

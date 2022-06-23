@@ -1,0 +1,127 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/81/side-dish/",
+                    "name": "Side Dish",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/224/side-dish/rice/",
+                    "name": "Rice Side Dish Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/281216/perfect-brown-rice/",
+        "name": "Perfect Brown Rice",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8496819.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2017-12-20T00:44:11.000Z",
+        "description": "This is the perfect way to cook brown rice: it isn't hard, mushy, and you don't need a rice cooker!",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H45M",
+        "totalTime": "P0DT0H50M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "2 cups uncooked brown rice",
+            "2 cups water",
+            "2 cups vegetable broth",
+            "1 tablespoon taco seasoning mix",
+            "1 pinch salt and ground black pepper to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine rice, water, broth, taco seasoning, salt, and pepper in a saucepan. Bring to a boil. Cover and reduce to a simmer; cook until all liquid is absorbed, about 40 minutes. If some liquid remains, cover and cook for 5 to 10 minutes more. Fluff with a fork and remove from heat.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Side Dish",
+            "Rice Side Dish Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "TheBlondeBaker"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "itemReviewed": "Perfect Brown Rice",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "244.4 calories",
+            "carbohydrateContent": "50.9 g",
+            "cholesterolContent": null,
+            "fatContent": "1.9 g",
+            "fiberContent": "2.5 g",
+            "proteinContent": "5.1 g",
+            "saturatedFatContent": "0.3 g",
+            "servingSize": null,
+            "sodiumContent": "293.4 mg",
+            "sugarContent": "1.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-08-31T00:44:21.003Z",
+                "reviewBody": "Made as written and the liquid was absorbed after 30 minutes but the rice was still crunchy and not near done. Added another cup of broth and let go 15 minutes but it still wasn't done. The taco seasoning was also overpowering. This recipe needs some tweaks. Rinsing the rice first would be the first thing I would do differently next time.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

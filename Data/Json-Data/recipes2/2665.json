@@ -1,0 +1,169 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/227/world-cuisine/asian/",
+                    "name": "Asian",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/233/world-cuisine/asian/indian/",
+                    "name": "Indian",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/241481/lamb-shoulder-vindaloo/",
+        "name": "Lamb Shoulder Vindaloo",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Lamb Shoulder Vindaloo"
+        },
+        "datePublished": "2015-02-26T23:37:02.000Z",
+        "description": "This is a recipe that I cobbled together from three others, two from Madhur Jaffrey's At Home with Madhur Jaffrey. Enjoy with Basmati rice, naan, or other Indian side dish.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT1H15M",
+        "totalTime": "P0DT1H20M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "1 tablespoon olive oil",
+            "\u215b teaspoon brown mustard seeds",
+            "\u00bc teaspoon whole black peppercorns",
+            "1 pinch whole fenugreek seeds",
+            "1\u2009\u00bc pounds lamb shoulder chops",
+            "1 (3 ounce) package curry sauce (such as Sukhi's\u00ae)",
+            "2 leaves basil, torn"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat a large skillet over medium-high heat. Pour olive oil into hot pan and heat until shimmering. Cook mustard seeds in hot oil until they begin to pop, about 1 minute; immediately add peppercorns and fenugreek seeds.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Gently lay the lamb chops in a single layer into the skillet; add curry sauce and basil and stir. Bring the sauce to a boil, place a tight-fitting lid on the skillet, reduce heat to low, and cook until the lamb is tender, 60 to 70 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Remove lid from skillet. Continue to cook and stir until most of the liquid has been reduced and the meat has a brownish look on all sides, 10 to 15 minutes more.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Asian",
+            "Indian"
+        ],
+        "recipeCuisine": [
+            "Asian",
+            "Indian"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Elizabeth Heffernan"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Lamb Shoulder Vindaloo",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "485 calories",
+            "carbohydrateContent": "0.9 g",
+            "cholesterolContent": "105 mg",
+            "fatContent": "42.2 g",
+            "fiberContent": "0.2 g",
+            "proteinContent": "23.7 g",
+            "saturatedFatContent": "17.3 g",
+            "servingSize": null,
+            "sodiumContent": "152.2 mg",
+            "sugarContent": "0.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-02-22T12:51:06.683Z",
+                "reviewBody": "I was surpised at how good it was. But at the same time I felt like it was going to taste really good. But I didn't think it'd be that good.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Mahayla Huff",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/22535603/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2020-11-15T10:58:35.6Z",
+                "reviewBody": "I thought the recipe was delicious. The sauce could be used with other cuts of lamb like shanks as well.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Cathy Wickholm",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/28376910/"
+                }
+            }
+        ]
+    }
+]

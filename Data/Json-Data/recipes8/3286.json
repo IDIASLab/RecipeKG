@@ -1,0 +1,161 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/237/world-cuisine/latin-american/",
+                    "name": "Latin American",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/728/world-cuisine/latin-american/mexican/",
+                    "name": "Mexican",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/275554/quesadillas-de-flor-de-calabaza-zucchini-blossom-quesadillas/",
+        "name": "Quesadillas de Flor de Calabaza (Zucchini Blossom Quesadillas)",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7675571.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-06-23T21:53:14.000Z",
+        "description": "These quesadillas de flor de calabaza are very popular in Mexico. The bacon grease gives the quesadillas another level of tastiness plus they crisp up beautifully. If bacon grease is unavailable, feel free to use lard, oil, or butter.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "1 teaspoon bacon drippings",
+            "2 corn tortillas",
+            "2 slices Manchego cheese",
+            "6 zucchini blossoms"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Melt bacon grease in a cast iron skillet over medium heat. Place tortillas in the skillet. Top each tortilla with 1 slice of Manchego cheese and 3 zucchini blossoms. Fold tortillas in half.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cook until tortillas are lightly browned and cheese starts to melt, 2 to 3 minutes. Turn and cook until the other side is crispy, lightly browned, and the cheese has melted, 1 more minute.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Latin American",
+            "Mexican"
+        ],
+        "recipeCuisine": [
+            "Latin American",
+            "Mexican"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Yoly"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Quesadillas de Flor de Calabaza (Zucchini Blossom Quesadillas)",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "174.3 calories",
+            "carbohydrateContent": "13.2 g",
+            "cholesterolContent": "22.6 mg",
+            "fatContent": "10 g",
+            "fiberContent": "1.7 g",
+            "proteinContent": "6.9 g",
+            "saturatedFatContent": "5.1 g",
+            "servingSize": null,
+            "sodiumContent": "407.2 mg",
+            "sugarContent": "1.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-09-06T04:29:44.273Z",
+                "reviewBody": "Loved this! I was a little unprepared when I found this recipe but we made it work with butter and mozzarella! This was quick to make, light and delicious - will defiantly make again.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Jamie",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2262588/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2020-01-31T19:36:22.7Z",
+                "reviewBody": "I absolutely loved these. No need to change a thing. Simply delicious as is.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Buckwheat Queen",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/melaniegiovenzana/"
+                }
+            }
+        ]
+    }
+]

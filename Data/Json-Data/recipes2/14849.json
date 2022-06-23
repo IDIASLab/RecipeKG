@@ -1,0 +1,152 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/231/world-cuisine/european/",
+                    "name": "European",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/723/world-cuisine/european/italian/",
+                    "name": "Italian",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/23844/whole-wheat-pasta-marinara/",
+        "name": "Whole Wheat Pasta Marinara",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Whole Wheat Pasta Marinara"
+        },
+        "datePublished": "2018-03-21T16:16:46.000Z",
+        "description": "This is a fat-free, sugar-free variation on a recipe I use a lot. If you're not hell-bent on making it totally fat-free, I recommend cooking the onions and mushrooms and garlic in olive oil. Serve with fat-free Parmesan cheese and, if desired, hot sauce.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H15M",
+        "totalTime": "P0DT0H25M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "1 pound whole-wheat spaghetti",
+            "1 (14.5 ounce) can peeled and diced tomatoes",
+            "1 small onion, chopped",
+            "2 cloves garlic, pressed",
+            "\u00bd pound sliced mushrooms",
+            "1 (15 ounce) can tomato sauce",
+            "3 tablespoons Italian seasoning"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Bring a large pot of lightly salted water to a boil. Add pasta and cook for 8 to 10 minutes or until al dente; drain.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Drain diced tomatoes, reserving 2 tablespoons of the liquid. Microwave onion, garlic and mushrooms, and reserved liquid in a large, loosely covered dish for 2 to 3 minutes until onions are clear.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Add tomato sauce, Italian seasoning and tomatoes to onion mixture and microwave 5 to 6 minutes more or until heated through.  Pour over cooked pasta.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "European",
+            "Italian"
+        ],
+        "recipeCuisine": [
+            "European",
+            "Italian"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Emily Priddy"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 1.5,
+            "ratingCount": 2,
+            "itemReviewed": "Whole Wheat Pasta Marinara",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "476.1 calories",
+            "carbohydrateContent": "101.4 g",
+            "cholesterolContent": null,
+            "fatContent": "2.4 g",
+            "fiberContent": "19.6 g",
+            "proteinContent": "20.7 g",
+            "saturatedFatContent": "0.4 g",
+            "servingSize": null,
+            "sodiumContent": "721 mg",
+            "sugarContent": "12.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-12-05T07:30:31.697Z",
+                "reviewBody": "It was bland. I added salt and pepper to it and black olives to the recipe but it didn t really have any flavor. I was thinking about adding spinach but i didn t have any. It probably needed some cheese and maybe chicken... although this is more like a vegetarian dish???????",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 1
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "dobos",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/22874483/"
+                }
+            }
+        ]
+    }
+]

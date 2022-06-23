@@ -1,0 +1,180 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/364/desserts/frozen-desserts/",
+                    "name": "Frozen Dessert Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/16184/desserts/frozen-desserts/sorbet/",
+                    "name": "Sorbet Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/254190/dark-chocolate-sorbet/",
+        "name": "Dark Chocolate Sorbet",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6296996.jpg",
+            "width": 960,
+            "height": 960
+        },
+        "datePublished": "2020-06-19T04:16:13.000Z",
+        "description": "Sorbet for dark chocolate lovers!",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H50M",
+        "recipeYield": "4 cups",
+        "recipeIngredient": [
+            "1 cup water",
+            "2 tablespoons water",
+            "1 cup white sugar",
+            "1 cup unsweetened cocoa powder",
+            "1 pinch salt"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Whisk 1 cup plus 2 tablespoons water, sugar, cocoa powder, and salt together in a large bowl.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Refrigerate mixture until chilled, 30 minutes to 1 hour.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour mixture into an ice cream maker. Freeze according to manufacturer's instructions, about 15 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Frozen Dessert Recipes",
+            "Sorbet Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "TeenChef14"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 4,
+            "itemReviewed": "Dark Chocolate Sorbet",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "121.4 calories",
+            "carbohydrateContent": "30.8 g",
+            "cholesterolContent": null,
+            "fatContent": "1.5 g",
+            "fiberContent": "3.6 g",
+            "proteinContent": "2.1 g",
+            "saturatedFatContent": "0.9 g",
+            "servingSize": null,
+            "sodiumContent": "22.6 mg",
+            "sugarContent": "25.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2016-07-17T18:27:28.583Z",
+                "reviewBody": "I like dark chocolate but this is really dark dark chocolate. It could have used a little more sugar to me. I mixed the ingredients over the stove to be sure the sugar was thoroughly dissolved. It came out smooth and creamy and very rich.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Deb C",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2702518/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2019-01-24T03:33:26.65Z",
+                "reviewBody": "REALLY rich and sweet!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Hope Wallace",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/21445385/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2020-05-26T07:59:29.037Z",
+                "reviewBody": "Really easy to make and very, very tasty!  The only thing I'd do differently is give it more time in the ice cream maker.  Next time I make this, I'll make sure that I have some raspberries in the house.  They would taste so good with this sorbet.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "cmj",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/5526623/"
+                }
+            }
+        ]
+    }
+]

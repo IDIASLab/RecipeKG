@@ -1,0 +1,143 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/133/drinks/cocktails/",
+                    "name": "Cocktail Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/22361/angry-dan/",
+        "name": "Angry Dan",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F235516.jpg",
+            "width": 250,
+            "height": 250
+        },
+        "datePublished": "2000-10-09T20:33:14.000Z",
+        "description": "HEY! Don't drink too many of these! Southern Comfort and cinnamon schnapps mixed with cola.",
+        "prepTime": "P0DT0H1M",
+        "cookTime": null,
+        "totalTime": "P0DT0H1M",
+        "recipeYield": "1 serving",
+        "recipeIngredient": [
+            "2 fluid ounces Southern Comfort",
+            "2 fluid ounces cinnamon schnapps",
+            "4 fluid ounces cola-flavored carbonated beverage"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "In a glass full of ice, pour Southern Comfort and cinnamon schnapps. Fill glass with Cola.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Cocktail Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Dan"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.333333333333333,
+            "ratingCount": 3,
+            "itemReviewed": "Angry Dan",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "412.9 calories",
+            "carbohydrateContent": "39.5 g",
+            "cholesterolContent": "0 mg",
+            "fatContent": "0.2 g",
+            "fiberContent": "0 g",
+            "proteinContent": "0 g",
+            "saturatedFatContent": "0 g",
+            "servingSize": null,
+            "sodiumContent": "9.5 mg",
+            "sugarContent": "37.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2005-03-13T16:59:01.577Z",
+                "reviewBody": "Make Dave angry taste good.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "IRONCITYDAVE",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/1354894/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2013-04-21T10:37:35.117Z",
+                "reviewBody": "I used Diet Coke and Black Velvet in this recipe. Very interesting drink. Strong like I like my drinks but I can't say that I loved it.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Sarah Jo",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/doublewideskilletsinglewidebudget/"
+                }
+            }
+        ]
+    }
+]

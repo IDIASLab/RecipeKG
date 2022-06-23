@@ -1,0 +1,161 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1642/everyday-cooking/",
+                    "name": "Everyday Cooking",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/87/everyday-cooking/vegetarian/",
+                    "name": "Vegetarian",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/264/everyday-cooking/vegetarian/side-dishes/",
+                    "name": "Side Dishes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/265912/spiced-corn/",
+        "name": "Spiced Corn",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7898282.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-05-01T07:07:44.000Z",
+        "description": "A spicy and tangy chaat corn side dish for African pilli pilli chicken.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H15M",
+        "totalTime": "P0DT0H25M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "2 cups fresh corn kernels",
+            "salt as needed",
+            "4 teaspoons butter",
+            "2 tablespoons lemon juice, or more to taste",
+            "\u00bd teaspoon garam masala",
+            "\u00bd teaspoon chaat masala",
+            "\u00bc teaspoon chili powder"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Fill a deep pan with water and bring to a boil. Add corn and salt and cook until corn is tender, 5 to 7 minutes. Drain.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Melt butter in a skillet over medium heat. Add boiled corn, lemon juice, garam masala, chaat masala, chili powder, and salt and cook until corn turns light brown in color, about 5 minutes\n"
+            }
+        ],
+        "recipeCategory": [
+            "Everyday Cooking",
+            "Vegetarian",
+            "Side Dishes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "YOLANDA"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Spiced Corn",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "41.5 calories",
+            "carbohydrateContent": "1.1 g",
+            "cholesterolContent": "10.8 mg",
+            "fatContent": "4.1 g",
+            "fiberContent": "0.2 g",
+            "proteinContent": "0.1 g",
+            "saturatedFatContent": "2.6 g",
+            "servingSize": null,
+            "sodiumContent": "107.4 mg",
+            "sugarContent": "0.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-04-03T02:19:54.333Z",
+                "reviewBody": "Really good, it was hard to stop eating it! The seasonings are perfect and you could serve this with all sorts of dishes.  It took about 2 large ears of corn to make up 2 cups worth.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "France C",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/francecevallos/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2021-09-08T05:46:32.883Z",
+                "reviewBody": "Really much better than I thought it would be! Pretty innovative using Indian spices!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Kevin",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/21905647/"
+                }
+            }
+        ]
+    }
+]

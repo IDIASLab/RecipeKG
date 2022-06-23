@@ -1,0 +1,143 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/105/appetizers-and-snacks/dips-and-spreads/",
+                    "name": "Dips and Spreads Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1335/appetizers-and-snacks/dips-and-spreads/bean-dips/",
+                    "name": "Bean Dip Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/246672/mashed-edamame/",
+        "name": "Mashed Edamame",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3483719.jpg",
+            "width": 2560,
+            "height": 2560
+        },
+        "datePublished": "2019-09-06T22:50:31.000Z",
+        "description": "My fiance and I have started eating healthier, and have added edamame to our regular diet. While they taste fine, I found the texture unappealing. After some experimentation, I've come up with a delicious and healthy way to prepare it. Drizzle a small amount of olive oil over mashed edamame to serve.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H35M",
+        "totalTime": "P0DT0H40M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "1 (12 ounce) package frozen shelled edamame (green soybeans)",
+            "2 cloves garlic, smashed and peeled",
+            "\u00bd teaspoon kosher salt",
+            "water to cover",
+            "\u00bd teaspoon freshly ground black pepper",
+            "3 tablespoons extra-virgin olive oil, or more as needed"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine edamame, garlic, and salt in a saucepan; add enough water to cover edamame. Bring to a low boil and cook for 30 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Drain liquid from edamame and transfer edamame and garlic to a food processor; season with black pepper. Process mixture on high, adding olive oil while continuing to mix, until smooth.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks",
+            "Dips and Spreads Recipes",
+            "Bean Dip Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "JimFromJersey"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 2,
+            "itemReviewed": "Mashed Edamame",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "219 calories",
+            "carbohydrateContent": "10.1 g",
+            "cholesterolContent": null,
+            "fatContent": "15.9 g",
+            "fiberContent": "3.7 g",
+            "proteinContent": "11.1 g",
+            "saturatedFatContent": "2.1 g",
+            "servingSize": null,
+            "sodiumContent": "254.9 mg",
+            "sugarContent": null,
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2016-04-20T03:02:31.383Z",
+                "reviewBody": "Not bad but probably not something I will make again.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Paula",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/paula1/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,147 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/219/salad/vegetable-salads/",
+                    "name": "Vegetable Salad Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/15107/salad/vegetable-salads/corn-salad/",
+                    "name": "Corn Salad Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/267706/creamy-corn-slaw/",
+        "name": "Creamy Corn Slaw",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8401733.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-06-19T04:31:57.000Z",
+        "description": "One of my favorite go-to summer corn recipes.",
+        "prepTime": "P0DT0H20M",
+        "cookTime": null,
+        "totalTime": "P0DT2H20M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "2 cups cooked corn kernels",
+            "1 cup diced carrots",
+            "1 cup diced green pepper",
+            "\u00bd cup chopped onions",
+            "\u00bc cup sour cream",
+            "\u00bc cup mayonnaise",
+            "2 teaspoons white vinegar",
+            "1 teaspoon white sugar",
+            "1 teaspoon prepared yellow mustard",
+            "\u00bc teaspoon salt"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Toss corn, carrots, green pepper, and onions in a salad bowl.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine sour cream, mayonnaise, vinegar, sugar, mustard, and salt in a small bowl. Pour over corn mixture and mix well. Refrigerate for several hours before serving.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad",
+            "Vegetable Salad Recipes",
+            "Corn Salad Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Tante"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 2,
+            "ratingCount": 1,
+            "itemReviewed": "Creamy Corn Slaw",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "251.9 calories",
+            "carbohydrateContent": "29.5 g",
+            "cholesterolContent": "11.5 mg",
+            "fatContent": "15.2 g",
+            "fiberContent": "4.2 g",
+            "proteinContent": "4.2 g",
+            "saturatedFatContent": "3.7 g",
+            "servingSize": null,
+            "sodiumContent": "269.7 mg",
+            "sugarContent": "7.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-08-05T05:20:07.08Z",
+                "reviewBody": "I really hate giving a low rating but there wasn't a single person in my house that liked this.  I did sub red bell pepper for green because my store was out. I used salt-free, canned corn for the corn, I assumed the recipe was wanting fresh cooked corn that is cooled for the salad? Pre-grated carrots for the raw carrots (later discovered the original recipe specifies diced) and red onion for the unspecified onion type. The dressing was  simple but also pretty bland as well. As previously stated my family was not fans.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 2
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "My Hot Southern Mess",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/myhotsouthernmess/"
+                }
+            }
+        ]
+    }
+]

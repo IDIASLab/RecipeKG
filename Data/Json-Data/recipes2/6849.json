@@ -1,0 +1,187 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17743/main-dish/rice/",
+                    "name": "Rice",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/14362/main-dish/rice/risotto/",
+                    "name": "Risotto Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/235859/red-wine-risotto/",
+        "name": "Red Wine Risotto",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3469954.jpg",
+            "width": 1977,
+            "height": 1977
+        },
+        "datePublished": "2016-06-04T14:05:04.000Z",
+        "description": "A rich twist on the classic risotto.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H30M",
+        "totalTime": "P0DT0H40M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "2 tablespoons olive oil",
+            "1\u2009\u00bd ounces prosciutto",
+            "1 large shallot, minced",
+            "1 clove garlic, chopped",
+            "2 chanterelle mushrooms, sliced",
+            "1 cup arborio rice",
+            "1 cup red wine",
+            "3 cups beef stock, or more as needed, divided",
+            "\u00bd cup arugula",
+            "\u2153 cup freshly grated Parmesan cheese",
+            "1 tablespoon chopped fresh thyme",
+            "ground black pepper to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat olive oil in a Dutch oven or heavy pot over medium heat; cook prosciutto until edges begin to curl and fat is rendered, 2 to 3 minutes. Add shallot and cook until fragrant, about 2 minutes. Add garlic and cook until fragrant, about 1 minute. Add mushrooms and cook for 30 seconds.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cook and stir rice into prosciutto mixture, stirring continually, until rice is translucent around edges, 1 to 2 minutes. Pour red wine into rice mixture; cook, stirring every 30 seconds, until wine is absorbed, about 5 minutes. Stir 1 cup broth into rice mixture, cooking and stirring until broth is almost completely absorbed, 3 to 5 minutes. Continue adding 1 cup broth at a time, stirring constantly, until rice is tender, 15 to 20 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Mix arugula, Parmesan cheese, thyme, and black pepper into rice mixture; cook and stir until cheese is melted, 2 to 3 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Rice",
+            "Risotto Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "craig_08"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 3,
+            "itemReviewed": "Red Wine Risotto",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "407.9 calories",
+            "carbohydrateContent": "48.7 g",
+            "cholesterolContent": "15.2 mg",
+            "fatContent": "12.9 g",
+            "fiberContent": "1.3 g",
+            "proteinContent": "11.8 g",
+            "saturatedFatContent": "3.6 g",
+            "servingSize": null,
+            "sodiumContent": "380.5 mg",
+            "sugarContent": "3.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2016-04-08T12:12:51.557Z",
+                "reviewBody": "Delicious! Add a bit of balsamic vinegar on top at the end. Thank you for sharing the recipe.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Buckwheat Queen",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/melaniegiovenzana/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2019-05-26T20:34:51.4Z",
+                "reviewBody": "Delicious! I added an extra 1/3 cup gruyere cheese to the recipe. I also made a second batch with shredded beef instead of prosciutto and cooked it for 8 min in a pressure cooker. Again it was wonderful!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Wendy Chupp Gossett",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/12003383/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2021-02-15T18:58:05.417Z",
+                "reviewBody": "Delicious! Thank you for this recipe!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Nisa Ortiz",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/29061171/"
+                }
+            }
+        ]
+    }
+]

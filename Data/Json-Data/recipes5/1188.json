@@ -1,0 +1,146 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/104/appetizers-and-snacks/cheese/",
+                    "name": "Cheese",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1228/appetizers-and-snacks/cheese/nachos/",
+                    "name": "Nachos Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/273239/chicken-nachos-with-refried-beans/",
+        "name": "Chicken Nachos with Refried Beans",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6631108.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2019-05-02T14:06:12.000Z",
+        "description": "A basic recipe for nachos with refried beans that can be modified to anything you have on hand, including leftovers!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H20M",
+        "recipeYield": "8 servings",
+        "recipeIngredient": [
+            "1 (14.5 ounce) package tortilla chips",
+            "1 (16 ounce) can refried beans",
+            "2 cooked skinless, boneless chicken breast halves, cut into bite-sized pieces",
+            "1 cup canned jalapeno pepper slices",
+            "12 ounces shredded Cheddar cheese"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat the oven to 350 degrees F (175 degrees C). Line a large rimmed baking sheet with parchment paper.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour tortilla chips onto the prepared baking sheet. Spread refried beans over the chips. Layer on chicken and jalapenos. Top with Cheddar cheese.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated oven until cheese is melted and bubbly, about 6 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks",
+            "Cheese",
+            "Nachos Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Jennifer Dunn"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Chicken Nachos with Refried Beans",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "520.5 calories",
+            "carbohydrateContent": "43.3 g",
+            "cholesterolContent": "66.9 mg",
+            "fatContent": "28.6 g",
+            "fiberContent": "6.1 g",
+            "proteinContent": "24.3 g",
+            "saturatedFatContent": "11.2 g",
+            "servingSize": null,
+            "sodiumContent": "944 mg",
+            "sugarContent": "1.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-05-11T21:29:15.003Z",
+                "reviewBody": "Who doesn't love nachos? This is simple to throw together and will be devoured in minutes. I've been making these since I was a kid (minus the chicken) and the chicken added a nice touch. This recipe can easily be adapted to individual servings that can even be done in the microwave if you choose. The chips will stay crisp but they will not get that nice brown color that they get in the oven. Either way this recipe is simple and good.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

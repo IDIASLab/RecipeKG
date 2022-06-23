@@ -1,0 +1,117 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/285104/lemongrass-and-ginger-rice/",
+        "name": "Lemongrass and Ginger Rice",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F9418646.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2009-10-17T23:28:07.000Z",
+        "description": "Long-grain rice with hints of lemongrass and ginger.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H30M",
+        "totalTime": "P0DT0H40M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "2\u2009\u00bd cups water",
+            "1 cup long-grain white rice",
+            "2 tablespoons chopped lemongrass",
+            "2 tablespoons water",
+            "2 tablespoons vegetable oil, divided",
+            "1 tablespoon chopped fresh ginger",
+            "1 medium jalapeno pepper, seeded and chopped",
+            "1 small shallot, chopped",
+            "3 cloves garlic, chopped"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Bring 2 1/2 cups water and rice to a boil in a saucepan. Reduce heat to medium-low, cover, and simmer until rice is tender and water has been absorbed, 20 to 25 minutes. Set aside.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Puree lemongrass, 2 tablespoons water, 1 tablespoon oil, ginger, jalapeno pepper, shallot, and garlic in a food processor.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat remaining 1 tablespoon oil in a large skillet over medium-high heat; tilt skillet to coat with hot oil. Add pureed mixture to the skillet and cook until fragrant, 2 to 3 minutes. Add cooked rice and mix well.\n"
+            }
+        ],
+        "recipeCategory": [],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "mrogers"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Lemongrass and Ginger Rice",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "160.4 calories",
+            "carbohydrateContent": "26.4 g",
+            "cholesterolContent": null,
+            "fatContent": "4.8 g",
+            "fiberContent": "0.5 g",
+            "proteinContent": "2.5 g",
+            "saturatedFatContent": "0.8 g",
+            "servingSize": null,
+            "sodiumContent": "5.5 mg",
+            "sugarContent": "0.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-11-09T10:26:38.393Z",
+                "reviewBody": "Made as written and this was pretty good except I felt it lacked in flavor a bit. Next time I would either cut the amount of rice in half or double the blended mixture. As written I think this serves 4 at most and not 6. Just something to keep in mind.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

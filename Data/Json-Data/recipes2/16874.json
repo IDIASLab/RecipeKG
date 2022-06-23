@@ -1,0 +1,256 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/231/world-cuisine/european/",
+                    "name": "European",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/723/world-cuisine/european/italian/",
+                    "name": "Italian",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/52160/pizzaghetti/",
+        "name": "Pizzaghetti",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F828138.jpg",
+            "width": 250,
+            "height": 250
+        },
+        "datePublished": "2018-03-21T16:30:03.000Z",
+        "description": "This is a fun and super easy cross between pizza and spaghetti.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H40M",
+        "totalTime": "P0DT0H50M",
+        "recipeYield": "8 servings",
+        "recipeIngredient": [
+            "1 (16 ounce) package spaghetti",
+            "1 (28 ounce) jar spaghetti sauce",
+            "1 (6 ounce) package sliced pepperoni",
+            "1 (6 ounce) can sliced black olives",
+            "1 (8 ounce) package sliced fresh mushrooms",
+            "8 ounces shredded mozzarella cheese"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Bring a large pot of lightly salted water to a boil. Cook spaghetti in the boiling water, stirring occasionally until cooked through but firm to the bite, about 12 minutes. Drain and transfer to a 7x11-inch baking dish.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Preheat oven to 350 degrees F (175 degrees C).\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Stir spaghetti sauce into pasta until coated; add 2 to 3 layers of pepperoni, olives, and mushrooms on top of spaghetti. Cover the baking dish with aluminum foil.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated oven until heated through, about 20 minutes; uncover and sprinkle with mozzarella cheese. Return to oven and continue baking until cheese is melted, about 10 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "European",
+            "Italian"
+        ],
+        "recipeCuisine": [
+            "European",
+            "Italian"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Susan Bradley"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.111111111111111,
+            "ratingCount": 9,
+            "itemReviewed": "Pizzaghetti",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "500.7 calories",
+            "carbohydrateContent": "58.3 g",
+            "cholesterolContent": "42.4 mg",
+            "fatContent": "19.7 g",
+            "fiberContent": "5.3 g",
+            "proteinContent": "21.8 g",
+            "saturatedFatContent": "7.2 g",
+            "servingSize": null,
+            "sodiumContent": "1119.2 mg",
+            "sugarContent": "10.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2012-04-27T10:09:01.637Z",
+                "reviewBody": "My husband and kids absolutely love this dish. It can really bend to whatever kind of \"pizza\" you want really. My family's favorite is a combination of turkey sausage turkey pepperoni olives mushrooms and onions. When I make this I usually will make my own \"sauce\" and use whole wheat pasta. I like to serve this with Copycat Olive Garden salad and breadsticks or garlic bread.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Sarah Jo",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/doublewideskilletsinglewidebudget/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2012-05-03T20:25:24.587Z",
+                "reviewBody": "We used Italian sausage instead and it was good. However next time I would mix the pizza ingredients into the spaghetti and use a jar sauce specializing in Italian seasonings. That will get even more rave reviews from my family.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "ZoeLife",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/5114058/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2012-05-02T03:59:48.18Z",
+                "reviewBody": "This was really good! I left off the black olives because my daughter really doesn't like them and I probably could have added more cheese but it was delish! Thank you!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "sharpjr",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/7698942/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2012-04-27T13:15:36.157Z",
+                "reviewBody": "Easy and satisfying. You can tweek it by adding more than the pizza topping mentioned here. Yummy!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Lilcat",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3549535/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2012-05-20T02:03:09.843Z",
+                "reviewBody": "This was delicious. I think I'll use more sauce and more cheese next time though. The cheese seemed to slip off the noodles when I served it so a lot of the cheese would fall back into the pan. This was much better than normal spaghetti and more interesting than normal pizza. It was very easy to prepare and didn't take much effort to cook either. I really recommend this for someone with children as I could see it being fun AND delicious for the kids. The only thing that takes away the fifth star for this is that the noodles tasted just a little dry after baking - hence why I might use more sauce next time.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "oddballcook",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/9202592/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2012-11-12T00:42:54.633Z",
+                "reviewBody": "Idea was awesome. My boyfriend and I gave it a shot last night and it was delicious but there are a few things we would like to tweak next time we make it: - Instead of long spaghetti noodles next time we want to use shells or rotini because it will make it easier to scoop up and serve. -We'd like to experiment with more toppings of course:) -Also we think it would be good to mix some of the toppings into the pasta as well as sitting on top of it.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "caitslove",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/5516280/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2012-08-22T13:18:28.787Z",
+                "reviewBody": "My kids liked it but to me tastes like something from a school cafeteria",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 2
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "hiserodtm",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/5182624/"
+                }
+            }
+        ]
+    }
+]

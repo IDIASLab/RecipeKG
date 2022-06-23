@@ -1,0 +1,155 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/211/salad/fruit-salads/",
+                    "name": "Fruit Salad Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/269282/easy-frog-eye-salad/",
+        "name": "Easy Frog Eye Salad",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Easy Frog Eye Salad"
+        },
+        "datePublished": "2020-06-19T04:33:39.000Z",
+        "description": "This is a great potluck dish that uses instant vanilla pudding to cut down on preparation time.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": null,
+        "totalTime": "P0DT5H15M",
+        "recipeYield": "12 servings",
+        "recipeIngredient": [
+            "1\u2009\u2153 cups acini di pepe pasta",
+            "1 (20 ounce) can pineapple chunks, drained and 1/4 cup juice reserved",
+            "1\u2009\u2153 cups milk",
+            "\u00bc cup white sugar",
+            "1 (3.5 ounce) package instant vanilla pudding mix",
+            "3 cups miniature marshmallows",
+            "2 (11 ounce) cans mandarin oranges, drained",
+            "2 cups frozen whipped topping, thawed",
+            "1 (8 ounce) can crushed pineapple",
+            "\u00bd cup flaked coconut"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Bring a large pot of lightly salted water to a boil. Cook acini de pepe in the boiling water, stirring occasionally until tender yet firm to the bite, about 11 minutes. Drain and rinse well with cold water.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Beat reserved pineapple juice, milk, sugar, and pudding mix together in a large bowl for about 2 minutes. Stir pineapple chunks, marshmallows, mandarin oranges, whipped topping, crushed pineapple, and coconut into the bowl with the juice mixture carefully. Cover and refrigerate at least 5 hours to overnight.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad",
+            "Fruit Salad Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Mindy"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 2,
+            "itemReviewed": "Easy Frog Eye Salad",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "290.2 calories",
+            "carbohydrateContent": "62.9 g",
+            "cholesterolContent": "2.2 mg",
+            "fatContent": "1.9 g",
+            "fiberContent": "1.8 g",
+            "proteinContent": "4.8 g",
+            "saturatedFatContent": "1.2 g",
+            "servingSize": null,
+            "sodiumContent": "165.3 mg",
+            "sugarContent": "36.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-08-07T10:11:31.23Z",
+                "reviewBody": "This recipe forgets to tell you to put in the cooked pasta. I just made it with banana pudding and fruit cocktail instead of pineapple and vanilla.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Sam Coulson",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/30308540/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2019-11-29T03:45:29.847Z",
+                "reviewBody": "I make a version of this with no sugar or coconut for my picky eaters. Really simple & sweet!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Lori Brady Miller",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/5185332/"
+                }
+            }
+        ]
+    }
+]

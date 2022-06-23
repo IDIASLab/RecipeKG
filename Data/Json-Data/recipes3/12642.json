@@ -1,0 +1,171 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/213/salad/green-salads/",
+                    "name": "Green Salad Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17250/salad/green-salads/kale-salad/",
+                    "name": "Kale Salad Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/256059/kale-salad-with-balsamic-dressing/",
+        "name": "Kale Salad with Balsamic Dressing",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4140062.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2018-06-08T14:41:34.000Z",
+        "description": "Simple and healthy!",
+        "prepTime": "P0DT0H20M",
+        "cookTime": null,
+        "totalTime": "P0DT0H50M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "1 bunch fresh kale, stems removed and leaves thinly sliced",
+            "1 teaspoon olive oil",
+            "1 pinch salt",
+            "5 slices bacon",
+            "\u00bc cup olive oil",
+            "\u00bc cup balsamic vinegar",
+            "1 teaspoon soy sauce",
+            "\u00bd clove garlic, crushed",
+            "\u00bd cup sunflower seeds"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place kale in a resealable plastic bag; add 1 teaspoon olive oil and salt. Mix thoroughly until leaves are coated. Seal bag and let sit for 30 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place bacon in a large skillet and cook over medium-high heat, turning occasionally, until evenly browned, about 10 minutes. Drain bacon slices on paper towels; crumble into small pieces.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Whisk 1/4 cup olive oil, balsamic vinegar, soy sauce, and garlic together in a bowl until dressing is evenly mixed.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Transfer kale to a bowl; add dressing and toss to coat. Top salad with bacon and sunflower seeds.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad",
+            "Green Salad Recipes",
+            "Kale Salad Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "kerokero"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.666666666666667,
+            "ratingCount": 3,
+            "itemReviewed": "Kale Salad with Balsamic Dressing",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "242.8 calories",
+            "carbohydrateContent": "11.7 g",
+            "cholesterolContent": "8.4 mg",
+            "fatContent": "19.7 g",
+            "fiberContent": "2.5 g",
+            "proteinContent": "7.9 g",
+            "saturatedFatContent": "3 g",
+            "servingSize": null,
+            "sodiumContent": "288.7 mg",
+            "sugarContent": "1.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2016-11-17T10:55:11.053Z",
+                "reviewBody": "3 words. Simple straight-forward and good!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2019-01-27T05:55:32.88Z",
+                "reviewBody": "I m giving this five stars for how easy it was. It is a good but tart salad. I halved the amount of sunflower seeds and added almonds and dried cranberries. We didn t have any bacon so I omitted it. This might be why it was so tart.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Wuurimala",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/12990242/"
+                }
+            }
+        ]
+    }
+]

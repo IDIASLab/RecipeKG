@@ -1,0 +1,173 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/156/bread/",
+                    "name": "Bread",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/360/bread/quick-bread/",
+                    "name": "Quick Bread Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/347/bread/quick-bread/pumpkin-bread/",
+                    "name": "Pumpkin Bread Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/255622/toffee-pumpkin-spice-bread/",
+        "name": "Toffee Pumpkin Spice Bread",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4077557.jpg",
+            "width": 1704,
+            "height": 1704
+        },
+        "datePublished": "2020-06-19T04:18:24.000Z",
+        "description": "These started as muffins but I thought they were a tad bland, so I made it into a bread.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H30M",
+        "totalTime": "P0DT0H55M",
+        "recipeYield": "1 loaf",
+        "recipeIngredient": [
+            "cooking spray",
+            "2 cups all-purpose flour",
+            "1\u2009\u00bd cups white sugar",
+            "1 tablespoon cinnamon sugar",
+            "2 teaspoons ground nutmeg",
+            "1 teaspoon baking powder",
+            "1 cup milk",
+            "2 eggs",
+            "\u00bc cup pumpkin butter",
+            "\u00bc cup canola oil",
+            "\u00bd cup toffee bits"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat oven to 375 degrees F (190 degrees C). Grease a loaf pan with cooking spray.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Mix flour, white sugar, cinnamon sugar, nutmeg, and baking powder together in a bowl.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Whisk milk, eggs, pumpkin butter, and canola oil in a bowl until eggs are lightly beaten. Add flour mixture and mix until flour is no longer visible. Pour into the prepared loaf pan; sprinkle toffee bits on top.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated oven until a toothpick inserted into the center comes out clean, about 30 minutes. Cool in the pan, about 10 minutes. Invert onto a wire rack to cool completely.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Bread",
+            "Quick Bread Recipes",
+            "Pumpkin Bread Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Randy the Chef"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.5,
+            "ratingCount": 2,
+            "itemReviewed": "Toffee Pumpkin Spice Bread",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "372.4 calories",
+            "carbohydrateContent": "61.8 g",
+            "cholesterolContent": "49 mg",
+            "fatContent": "12 g",
+            "fiberContent": "0.9 g",
+            "proteinContent": "4.7 g",
+            "saturatedFatContent": "3.7 g",
+            "servingSize": null,
+            "sodiumContent": "132.5 mg",
+            "sugarContent": "33.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-11-21T01:44:48.7Z",
+                "reviewBody": "Since the previous review said they tasted bland I space them up a bit",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "SharoninTN",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/sharonincb/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2021-11-17T00:28:47.913Z",
+                "reviewBody": "Needs, at least, salt.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 2
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Cecilia Ranger",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/11571880/"
+                }
+            }
+        ]
+    }
+]

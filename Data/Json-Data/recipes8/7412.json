@@ -1,0 +1,145 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/107/appetizers-and-snacks/meat-and-poultry/",
+                    "name": "Meat and Poultry",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/238907/blt-on-a-stick/",
+        "name": "BLT on a Stick",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1328415.jpg",
+            "width": 3456,
+            "height": 5184
+        },
+        "datePublished": "2019-04-03T06:31:32.000Z",
+        "description": "Best. Party. Food. Ever.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "8 servings",
+        "recipeIngredient": [
+            "16 (1-inch) squares rye bread, divided",
+            "8 (1/2-inch) wedges iceberg lettuce",
+            "8 slices cooked bacon",
+            "4 grape tomatoes, halved",
+            "8 bamboo toothpicks"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Thread 1 rye bread square, lettuce wedge, bacon slice, tomato half, and 1 rye bread square onto each toothpick, respectively.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks",
+            "Meat and Poultry"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Lindsey"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.5,
+            "ratingCount": 2,
+            "itemReviewed": "BLT on a Stick",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "40 calories",
+            "carbohydrateContent": "7.6 g",
+            "cholesterolContent": null,
+            "fatContent": "0.5 g",
+            "fiberContent": "1.1 g",
+            "proteinContent": "1.4 g",
+            "saturatedFatContent": "0.1 g",
+            "servingSize": null,
+            "sodiumContent": "94.7 mg",
+            "sugarContent": "0.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2014-08-11T20:28:10.18Z",
+                "reviewBody": "Nobody loves BLTs more than me so I thought this sounded like a great idea. But it needs a good sauce to make it five stars. Otherwise it's kind of bland. I made three sticks by skewering a third of a slice of bacon per toothpick microwaved them a minute then add the bread tomato and lettuce wedge. Worked like a charm but it is awkward to eat as an hors d'oeuvres and would have tasted better with some mayo or other special sauce. Still four stars for the idea!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "BethS",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2941434/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2014-08-31T04:33:08.747Z",
+                "reviewBody": "Yes these little sandwiches definately need mayo or dressing of some kind on them to \"tasty\" them up...OR...simply make regular-sized BLTs on rye using mayo/dressing stick toothpicks every inch or so and then cut them into smaller pieces. Good idea for canapes/hors d'oeuvres however.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "KittStarr",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/714598/"
+                }
+            }
+        ]
+    }
+]

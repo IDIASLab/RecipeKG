@@ -1,0 +1,159 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/227/world-cuisine/asian/",
+                    "name": "Asian",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/233/world-cuisine/asian/indian/",
+                    "name": "Indian",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 6,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1877/world-cuisine/asian/indian/side-dishes/",
+                    "name": "Side Dishes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/278214/indian-kale-and-moong-dal/",
+        "name": "Indian Kale and Moong Dal",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F9158581.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-01-22T08:48:52.000Z",
+        "description": "Indian kale and moong dal for veggie lovers.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H15M",
+        "totalTime": "P0DT0H55M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "\u00bd cup dried moong dal",
+            "1 tablespoon olive oil",
+            "\u00bd tablespoon ground turmeric",
+            "\u00bc tablespoon cumin seeds",
+            "3 cups chopped kale",
+            "1 pinch chili powder",
+            "salt to taste",
+            "\u00bc cup water"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Soak moong dal in water for 30 minutes. Drain.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat oil in a large pan over medium-low heat. Add turmeric and cumin seeds; cook until seeds start crackling. Add kale and soaked dal, followed by chili powder and salt. Pour in 1/4 cup water; bring to a boil. Reduce heat back to medium-low and cover the pan. Cook, mixing every 5 minutes, until desired tenderness is reached, 10 to 20 minutes total.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Asian",
+            "Indian",
+            "Side Dishes"
+        ],
+        "recipeCuisine": [
+            "Asian",
+            "Indian",
+            "Side Dishes"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "VegFoodlover"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Indian Kale and Moong Dal",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "130.5 calories",
+            "carbohydrateContent": "17.4 g",
+            "cholesterolContent": null,
+            "fatContent": "4 g",
+            "fiberContent": "8.1 g",
+            "proteinContent": "7.1 g",
+            "saturatedFatContent": "0.6 g",
+            "servingSize": null,
+            "sodiumContent": "53.4 mg",
+            "sugarContent": "0.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-04-18T04:45:00.923Z",
+                "reviewBody": "I love lentils but had never cooked with moong dal - I ended up using double the amount of water than the beans (a whole cup). The dish is simple and tasty, I liked it best with some lime squeezed on top.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Rita",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3163497/"
+                }
+            }
+        ]
+    }
+]

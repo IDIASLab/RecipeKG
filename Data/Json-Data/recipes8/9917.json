@@ -1,0 +1,109 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/284673/easy-canned-green-beans-mushrooms-and-bacon/",
+        "name": "Easy Canned Green Beans, Mushrooms, and Bacon",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F9237002.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2021-06-06T09:55:45.000Z",
+        "description": "The added bacon to this recipe kicks it up a notch. Quick, easy, and delicious.",
+        "prepTime": null,
+        "cookTime": "P0DT0H20M",
+        "totalTime": "P0DT0H20M",
+        "recipeYield": "3 servings",
+        "recipeIngredient": [
+            "1 (14.5 ounce) can green beans, drained",
+            "2 tablespoons bacon drippings",
+            "1 (4 ounce) can sliced mushrooms, drained",
+            "salt and freshly cracked pepper, to taste",
+            "3 slices bacon, cooked and crumbled"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Drain most of the water from the green beans. Combine beans and bacon drippings in a saucepan over medium heat and bring to a boil. Reduce heat and simmer for 10 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Add mushrooms and cook an additional 3 to 5 minutes. Season with salt and pepper. Top with crumbled bacon just before serving.\n"
+            }
+        ],
+        "recipeCategory": [],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Yoly"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Easy Canned Green Beans, Mushrooms, and Bacon",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "194.4 calories",
+            "carbohydrateContent": "8.1 g",
+            "cholesterolContent": "22.6 mg",
+            "fatContent": "15.1 g",
+            "fiberContent": "4 g",
+            "proteinContent": "6.7 g",
+            "saturatedFatContent": "5.6 g",
+            "servingSize": null,
+            "sodiumContent": "807.6 mg",
+            "sugarContent": "1.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-07-02T04:24:12.433Z",
+                "reviewBody": "Easy and tasty!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "daBilbo",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/28528877/"
+                }
+            }
+        ]
+    }
+]

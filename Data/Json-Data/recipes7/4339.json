@@ -1,0 +1,148 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17698/drinks/mulled-wine/",
+                    "name": "Mulled Wine Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/212764/christmas-bishop/",
+        "name": "Christmas Bishop",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2833184.jpg",
+            "width": 2322,
+            "height": 4128
+        },
+        "datePublished": "2020-06-19T03:41:01.000Z",
+        "description": "An old Christmas hot mulled wine.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT1H0M",
+        "totalTime": "P0DT1H10M",
+        "recipeYield": "3 cups",
+        "recipeIngredient": [
+            "20 whole cloves",
+            "1 lemon, washed and dried",
+            "1 orange, washed and dried",
+            "1 pinch ground mace",
+            "1 pinch saffron",
+            "1 (750 milliliter) bottle red wine",
+            "2 tablespoons white sugar",
+            "1 cinnamon stick"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Insert 10 cloves into each lemon and orange. Place the mace and saffron onto the center of a 8 inch square piece of cheesecloth. Gather together the edges of the cheesecloth, and tie with kitchen twine to secure. Combine wine, sugar, lemon, orange, cinnamon stick, and mace and saffron sachet in a large pot. Cover and bring to a boil over medium heat. Reduce heat to low and allow the wine to simmer for 1 hour. Remove the sachet, cinnamon stick, and fruit. Serve hot.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Mulled Wine Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Joseph Dimas"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Christmas Bishop",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "151.7 calories",
+            "carbohydrateContent": "15.2 g",
+            "cholesterolContent": null,
+            "fatContent": "0.3 g",
+            "fiberContent": "2.9 g",
+            "proteinContent": "0.8 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "14.8 mg",
+            "sugarContent": "7.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2011-12-28T18:13:19.693Z",
+                "reviewBody": "I used what I had: mandarin orange no lemon ground cinnamon. It tasted good with a great aftertaste. Sweet and spicy!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "CHELLEOXFORD",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/1017168/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2015-11-22T06:54:21.893Z",
+                "reviewBody": "This is very good! I did not simmer it for an hour though because all the alcohol would burn off. Low for 10-15 minutes without it boiling still gives all the flavor.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Liz Dalton 'Lizzie'",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/lizzie/"
+                }
+            }
+        ]
+    }
+]

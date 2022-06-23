@@ -1,0 +1,151 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/81/side-dish/",
+                    "name": "Side Dish",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/225/side-dish/vegetables/",
+                    "name": "Vegetables",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/16382/side-dish/vegetables/roasted-vegetables/",
+                    "name": "Roasted Vegetable Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/245663/beet-puree/",
+        "name": "Beet Puree",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3574623.jpg",
+            "width": 3668,
+            "height": 3668
+        },
+        "datePublished": "2015-12-09T22:43:40.000Z",
+        "description": "Roasting beets intensifies their flavor, but can take a long time. Here they're peeled, cut into small wedges, drizzled with oil, and seasoned with orange, garlic, ginger, and coriander before being wrapped in foil. They pick up flavor from the seasonings and bake in only 30 minutes.",
+        "prepTime": "P0DT0H25M",
+        "cookTime": "P0DT0H30M",
+        "totalTime": "P0DT0H55M",
+        "recipeYield": "3 cups",
+        "recipeIngredient": [
+            "2 pounds fresh beets (without greens), peeled and cut into 1/2-inch-thick wedges",
+            "2 cloves garlic, thinly sliced",
+            "1 (1 inch) piece fresh ginger root, peeled and thinly sliced",
+            "1\u2009\u00bd teaspoons ground coriander",
+            "1 teaspoon salt",
+            "1 tablespoon olive oil",
+            "\u00be teaspoon finely grated orange zest",
+            "3 tablespoons orange juice",
+            "1 tablespoon apple cider vinegar",
+            "2 tablespoons butter, cut into bits"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat oven to 425 degrees F.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place a large sheet of aluminum foil on a rimmed baking sheet. Scatter beets on the baking sheet along with garlic and ginger. Sprinkle with coriander and salt, and drizzle with oil. Cover with another sheet of aluminum foil and seal edges to form a packet.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake until beets are tender enough to be pierced with a knife, about 30 minutes,. Remove from oven and let beets steam in foil packet for 10 minutes. Unwrap packet and transfer beets, garlic, ginger, and any juices into a food processor. Puree with zest, juice, and vinegar until almost smooth with only small lumps. Add butter and puree until incorporated.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Side Dish",
+            "Vegetables",
+            "Roasted Vegetable Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "SandyG"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 4,
+            "itemReviewed": "Beet Puree",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "31.9 calories",
+            "carbohydrateContent": "4 g",
+            "cholesterolContent": "2.5 mg",
+            "fatContent": "1.6 g",
+            "fiberContent": "1.1 g",
+            "proteinContent": "0.7 g",
+            "saturatedFatContent": "0.7 g",
+            "servingSize": null,
+            "sodiumContent": "133.4 mg",
+            "sugarContent": "2.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-10-31T08:33:03.15Z",
+                "reviewBody": "Followed the recipe exactly, and  loved it.  Creamy texture and wonderful orange flavor.  I personally thought the orange flavor stood out so much that my beet- hating family might like it, but I guess not.  I will probably still make it again just for myself.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Katie",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/26926152/"
+                }
+            }
+        ]
+    }
+]

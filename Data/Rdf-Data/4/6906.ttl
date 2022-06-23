@@ -1,0 +1,78 @@
+@prefix ns1: <http://purl.org/recipekg/> .
+@prefix ns2: <http://purl.org/heals/food/> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/classic-cocktail-meatballs> a schema:Recipe ;
+    ns2:hasIngredient [ a <http://purl.org/heals/ingredient/Beef> ;
+            ns1:hasQuantity "2" ;
+            ns1:hasUnit "pound" ;
+            ns1:ingredientName "beef" ],
+        [ a <http://purl.org/heals/ingredient/Water> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "water" ],
+        [ a <http://purl.org/recipekg/ingredient/Egg> ;
+            ns1:hasQuantity "2" ;
+            ns1:ingredientName "egg" ],
+        [ a <http://purl.org/recipekg/ingredient/GrapeJelly> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "jar" ;
+            ns1:ingredientName "grape jelly" ],
+        [ a <http://purl.org/recipekg/ingredient/ChiliSauce> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "bottle" ;
+            ns1:ingredientName "chili sauce" ],
+        [ a <http://purl.org/recipekg/ingredient/Stuffing> ;
+            ns1:hasQuantity "1" ;
+            ns1:ingredientName "Stuffing" ] ;
+    ns1:belongsTo <http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/> ;
+    ns1:hasFSAScore 5 ;
+    ns1:hasNutritionalInformation [ a ns1:NutritionalInformation ;
+            ns1:hasCalorificData [ a ns1:CalorificData ;
+                    ns1:hasAmount "137.8"^^xsd:float ;
+                    ns1:hasUnit "calories" ] ;
+            ns1:hasCarbohydrateData [ a ns1:CarbohydrateData ;
+                    ns1:hasAmount "14.4"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasCholesterolData [ a ns1:CholesterolData ;
+                    ns1:hasAmount "40.2"^^xsd:float ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasFatData [ a ns1:FatData ;
+                    ns1:hasAmount "5.1"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasFiberData [ a ns1:FiberData ;
+                    ns1:hasAmount "0.5"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasProteinData [ a ns1:ProteinData ;
+                    ns1:hasAmount "8.4"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSaturatedFatData [ a ns1:SaturatedFatData ;
+                    ns1:hasAmount "1.9"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSodiumData [ a ns1:SodiumData ;
+                    ns1:hasAmount "134.8"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAGreen ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasSugarData [ a ns1:SugarData ;
+                    ns1:hasAmount "8.7"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "g" ] ] ;
+    ns1:hasUSDAScore 5 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 25 ;
+            schema:ratingValue "4.88"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2019-04-04T03:56:08.000Z"^^schema:date ;
+    schema:name "Classic Cocktail Meatballs"^^xsd:string ;
+    schema:recipeYield "50 meatballs"^^xsd:string .
+
+ns1:FSAGreen a ns1:FSAColor .
+
+<http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/> a ns1:RecipeCategory .
+
+ns1:FSAAmber a ns1:FSAColor .
+

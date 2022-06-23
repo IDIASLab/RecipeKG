@@ -1,0 +1,102 @@
+@prefix ns1: <http://purl.org/recipekg/> .
+@prefix ns2: <http://purl.org/heals/food/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/easy-beer-bratwurst> a schema:Recipe ;
+    ns2:hasIngredient [ ],
+        [ a <http://purl.org/recipekg/ingredient/Lettuce> ;
+            ns1:hasQuantity "1 1/2" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "lettuce" ],
+        [ a <http://purl.org/heals/ingredient/WhiteVinegar> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "white vinegar" ],
+        [ a <http://purl.org/recipekg/ingredient/Beer> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "bottle" ;
+            ns1:ingredientName "beer" ],
+        [ a <http://purl.org/recipekg/ingredient/WorcestershireSauce> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "Worcestershire sauce" ],
+        [ a <http://purl.org/recipekg/ingredient/MapleSyrup> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "maple syrup" ],
+        [ a <http://purl.org/recipekg/ingredient/HoagieBuns> ;
+            ns1:hasQuantity "6" ;
+            ns1:ingredientName "hoagie buns" ],
+        [ a <http://purl.org/recipekg/ingredient/Liner> ;
+            ns1:hasQuantity "1" ;
+            ns1:ingredientName "Liner" ],
+        [ a <http://purl.org/heals/ingredient/Onion> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "onion" ],
+        [ a <http://purl.org/heals/ingredient/Thyme> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "thyme" ],
+        [ a <http://purl.org/recipekg/ingredient/CheddarCheese> ;
+            ns1:hasQuantity "1 1/2" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "Cheddar cheese" ],
+        [ a <http://purl.org/recipekg/ingredient/CarawaySeeds> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "caraway seeds" ] ;
+    ns1:belongsTo <http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/reynolds/> ;
+    ns1:hasFSAScore 1 ;
+    ns1:hasNutritionalInformation [ a ns1:NutritionalInformation ;
+            ns1:hasCalorificData [ a ns1:CalorificData ;
+                    ns1:hasAmount "814.9"^^xsd:float ;
+                    ns1:hasUnit "calories" ] ;
+            ns1:hasCarbohydrateData [ a ns1:CarbohydrateData ;
+                    ns1:hasAmount "79.1"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasCholesterolData [ a ns1:CholesterolData ;
+                    ns1:hasAmount "81.2"^^xsd:float ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasFatData [ a ns1:FatData ;
+                    ns1:hasAmount "39.5"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSARed ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasFiberData [ a ns1:FiberData ;
+                    ns1:hasAmount "4.2"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasProteinData [ a ns1:ProteinData ;
+                    ns1:hasAmount "29.4"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSaturatedFatData [ a ns1:SaturatedFatData ;
+                    ns1:hasAmount "16.6"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSARed ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSodiumData [ a ns1:SodiumData ;
+                    ns1:hasAmount "1751.1"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSARed ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasSugarData [ a ns1:SugarData ;
+                    ns1:hasAmount "8.2"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "g" ] ] ;
+    ns1:hasUSDAScore 3 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 8 ;
+            schema:ratingValue "4.625"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2015-01-21T21:37:10.000Z"^^schema:date ;
+    schema:name "Easy Beer Bratwurst"^^xsd:string ;
+    schema:recipeYield "6 servings"^^xsd:string .
+
+ns1:FSAAmber a ns1:FSAColor .
+
+<http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/> a ns1:RecipeCategory .
+
+<http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/reynolds/> rdfs:subClassOf <http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/> .
+
+ns1:FSARed a ns1:FSAColor .
+

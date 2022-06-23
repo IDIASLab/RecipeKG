@@ -1,0 +1,142 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/108/appetizers-and-snacks/seafood/",
+                    "name": "Seafood",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1237/appetizers-and-snacks/seafood/shrimp/",
+                    "name": "Shrimp",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/257409/embrochette/",
+        "name": "Embrochette",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5132813.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2017-03-08T05:07:03.000Z",
+        "description": "This is a recipe that has been enjoyed by my family for many years. The combination of shrimp and oysters mixed with the flavor of bacon is unique and unforgettable.",
+        "prepTime": "P0DT0H20M",
+        "cookTime": "P0DT0H20M",
+        "totalTime": "P0DT0H40M",
+        "recipeYield": "12 embrochettes",
+        "recipeIngredient": [
+            "1 pound extra large shrimp (16-20), peeled and deveined",
+            "12 shucked oysters",
+            "1 (12 ounce) package bacon slices, halved ",
+            "ground black pepper to taste",
+            "1  serving cooking spray"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Tuck 1 oyster into the curve of a shrimp; wrap half a bacon slice around both. Place on a metal skewer, making sure to run the skewer through the oyster to keep it from sliding out during cooking. Repeat with remaining shrimp, oysters, and bacon slices. Season with black pepper.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Preheat a gas or wood grill for medium heat. Spray grate lightly with cooking spray. Cook skewers, flipping at least twice, until bacon is almost crispy, about 20 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks",
+            "Seafood",
+            "Shrimp"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Dave Sandel"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Embrochette",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "332.8 calories",
+            "carbohydrateContent": "9.1 g",
+            "cholesterolContent": "247.8 mg",
+            "fatContent": "15.2 g",
+            "fiberContent": "0.1 g",
+            "proteinContent": "37.1 g",
+            "saturatedFatContent": "4.9 g",
+            "servingSize": null,
+            "sodiumContent": "1035.9 mg",
+            "sugarContent": null,
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-02-17T00:07:55.7Z",
+                "reviewBody": "This turned out pretty good. I had issues getting the oysters to stay with the shrimp. I wasn't confident that they were going to stay on the skewer once they hit the grill. At 2 a piece I couldn't risk them ending up at the bottom of the grill so I decided to wrap them with the bacon and skewer the shrimp on separately. Because the shrimp were by themselves I gave them a sprinkle of seasoning and I'm glad I did. The oysters could have used some seasoning too. Overall good recipe but I highly recommend giving all of the seafood a dash of your favorite seasoning (Old Bay was my choice) prior to skewering. The bacon was good but it didn't flavor it enough in my opinion.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

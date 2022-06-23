@@ -1,0 +1,91 @@
+@prefix ns1: <http://purl.org/heals/food/> .
+@prefix ns2: <http://purl.org/recipekg/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/great-n-easy-gazpacho> a schema:Recipe ;
+    ns1:hasIngredient [ a <http://purl.org/heals/ingredient/Onion> ;
+            ns2:hasQuantity "1" ;
+            ns2:ingredientName "onion" ],
+        [ ],
+        [ ],
+        [ a <http://purl.org/heals/ingredient/Tomato> ;
+            ns2:hasQuantity "1/2" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "tomato" ],
+        [ a <http://purl.org/heals/ingredient/Celery> ;
+            ns2:hasQuantity "3" ;
+            ns2:ingredientName "celery" ],
+        [ a <http://purl.org/heals/ingredient/WhiteVinegar> ;
+            ns2:hasQuantity "2" ;
+            ns2:hasUnit "tablespoon" ;
+            ns2:ingredientName "white vinegar" ],
+        [ a <http://purl.org/heals/ingredient/Garlic> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "teaspoon" ;
+            ns2:ingredientName "garlic" ],
+        [ a <http://purl.org/heals/ingredient/OliveOil> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "tablespoon" ;
+            ns2:ingredientName "olive oil" ],
+        [ ],
+        [ a <http://purl.org/recipekg/ingredient/Cucumber> ;
+            ns2:hasQuantity "1" ;
+            ns2:ingredientName "cucumber" ],
+        [ a <http://purl.org/heals/ingredient/Tomato> ;
+            ns2:hasQuantity "2" ;
+            ns2:hasUnit "can" ;
+            ns2:ingredientName "tomato" ],
+        [ ] ;
+    ns2:belongsTo <http://purl.org/recipekg/categories/soups-stews-and-chili/soup/vegetable-soup/gazpacho/> ;
+    ns2:hasFSAScore 8 ;
+    ns2:hasNutritionalInformation [ a ns2:NutritionalInformation ;
+            ns2:hasCalorificData [ a ns2:CalorificData ;
+                    ns2:hasAmount "46.9"^^xsd:float ;
+                    ns2:hasUnit "calories" ] ;
+            ns2:hasCarbohydrateData [ a ns2:CarbohydrateData ;
+                    ns2:hasAmount "8.0"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasFatData [ a ns2:FatData ;
+                    ns2:hasAmount "1.6"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSAGreen ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasFiberData [ a ns2:FiberData ;
+                    ns2:hasAmount "1.9"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasProteinData [ a ns2:ProteinData ;
+                    ns2:hasAmount "1.4"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasSaturatedFatData [ a ns2:SaturatedFatData ;
+                    ns2:hasAmount "0.2"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSAGreen ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasSodiumData [ a ns2:SodiumData ;
+                    ns2:hasAmount "160.4"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSAGreen ;
+                    ns2:hasUnit "mg" ] ;
+            ns2:hasSugarData [ a ns2:SugarData ;
+                    ns2:hasAmount "4.4"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSAGreen ;
+                    ns2:hasUnit "g" ] ] ;
+    ns2:hasUSDAScore 5 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 15 ;
+            schema:ratingValue "4.533333333333333"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2018-06-08T14:04:37.000Z"^^schema:date ;
+    schema:name "Great 'n Easy Gazpacho"^^xsd:string ;
+    schema:recipeYield "10 servings"^^xsd:string .
+
+<http://purl.org/recipekg/categories/soups-stews-and-chili/> a ns2:RecipeCategory .
+
+<http://purl.org/recipekg/categories/soups-stews-and-chili/soup/> rdfs:subClassOf <http://purl.org/recipekg/categories/soups-stews-and-chili/> .
+
+<http://purl.org/recipekg/categories/soups-stews-and-chili/soup/vegetable-soup/> rdfs:subClassOf <http://purl.org/recipekg/categories/soups-stews-and-chili/soup/> .
+
+<http://purl.org/recipekg/categories/soups-stews-and-chili/soup/vegetable-soup/gazpacho/> rdfs:subClassOf <http://purl.org/recipekg/categories/soups-stews-and-chili/soup/vegetable-soup/> .
+
+ns2:FSAGreen a ns2:FSAColor .
+

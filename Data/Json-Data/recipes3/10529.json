@@ -1,0 +1,133 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/105/appetizers-and-snacks/dips-and-spreads/",
+                    "name": "Dips and Spreads Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/236858/green-avocado-leek-dip/",
+        "name": "Green Avocado Leek Dip",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2144764.jpg",
+            "width": 2351,
+            "height": 2351
+        },
+        "datePublished": "2018-06-08T14:13:27.000Z",
+        "description": "This is a unique green dip. The dip can be prepared well in advance and stores well. It is especially good with carrots. Cooking the avocado and adding lemon juice keeps the dip from turning brown. Store dip in a covered container in the fridge.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H20M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "1 tablespoon olive oil",
+            "1 leek, chopped",
+            "1 avocado, peeled and pitted",
+            "\u00bc cup prepared horseradish, or to taste",
+            "1 lemon, juiced",
+            "salt to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat olive oil in a skillet over medium heat; cook and stir leek until lightly browned, 5 to 10 minutes. Add avocado and horseradish; cook, mashing avocado with a wooden spoon, until heated through, 2 to 3 minutes. Stir lemon juice and salt into avocado-leek mixture.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Blend avocado-leek mixture in a blender until desired consistency is reached.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks",
+            "Dips and Spreads Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "sixsnowflakes"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 1,
+            "itemReviewed": "Green Avocado Leek Dip",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "136.3 calories",
+            "carbohydrateContent": "12 g",
+            "cholesterolContent": null,
+            "fatContent": "11 g",
+            "fiberContent": "5.5 g",
+            "proteinContent": "1.8 g",
+            "saturatedFatContent": "1.6 g",
+            "servingSize": null,
+            "sodiumContent": "55.6 mg",
+            "sugarContent": "2.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2015-03-13T21:10:58.817Z",
+                "reviewBody": "This recipe has promise but it should be 'lemon juice to taste'. The juice of a whole lemon was too over powering. Next time I'll start with a half of a lemon. I don't think it's necessary to cook the avocado since the lemon juice will keep it from oxidizing.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "bd.weld",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/bdweld/"
+                }
+            }
+        ]
+    }
+]

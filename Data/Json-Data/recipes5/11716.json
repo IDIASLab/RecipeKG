@@ -1,0 +1,114 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/277056/vegan-pumpkin-potato-chowder/",
+        "name": "Vegan Pumpkin-Potato Chowder",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7235865.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2019-11-06T06:26:33.000Z",
+        "description": "This vegan pumpkin-potato chowder is flavored with sweet pumpkin and nutty coconut milk, along with earthy thyme and sage.",
+        "prepTime": "PT15M",
+        "cookTime": "PT25M",
+        "totalTime": "PT40M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "\u00bd white onion, diced",
+            "1 clove garlic, minced",
+            "1 tablespoon oil",
+            "8 medium red-skinned potatoes, chopped",
+            "3 cups vegetable broth",
+            "1 teaspoon dried thyme",
+            "1 teaspoon dried sage",
+            "salt and ground black pepper to taste",
+            "1 cup pumpkin puree",
+            "1 cup coconut milk"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine onion, garlic, and oil in a large pot over medium heat. Cook, stirring frequently, until onions are soft and translucent, about 5 minutes. Add potatoes, vegetable broth, thyme, sage, salt, and pepper. Bring to a simmer, then reduce heat to medium-low and cover. Simmer until potatoes are fork-tender, about 8 minutes."
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Stir in pumpkin puree and coconut milk until well combined. Simmer until warmed through, 3 to 5 minutes. Adjust seasonings and serve."
+            }
+        ],
+        "recipeCategory": [],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "zephyrusne"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Vegan Pumpkin-Potato Chowder",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "486 calories",
+            "carbohydrateContent": "78.6 g",
+            "cholesterolContent": "0 mg",
+            "fatContent": "16.7 g",
+            "fiberContent": "10.6 g",
+            "proteinContent": "10.7 g",
+            "saturatedFatContent": "11.4 g",
+            "servingSize": null,
+            "sodiumContent": "565 mg",
+            "sugarContent": "9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-11-10T05:14:30.07Z",
+                "reviewBody": "This is a simple little chowder and it's just right for a cold New England day. Thank you for such a healthy lovely use of pumpkin. I give it a 5 star (10)!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "look at me cooking",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/24509700/"
+                }
+            }
+        ]
+    }
+]

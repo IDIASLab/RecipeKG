@@ -1,0 +1,145 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1642/everyday-cooking/",
+                    "name": "Everyday Cooking",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/186/everyday-cooking/seasonal/",
+                    "name": "Seasonal",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/629/everyday-cooking/seasonal/spring/",
+                    "name": "Spring",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/283835/garlic-sesame-purple-sprouting-broccoli/",
+        "name": "Garlic-Sesame Purple Sprouting Broccoli",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F9122888.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2021-03-30T08:30:12.000Z",
+        "description": "This was my first time cooking purple sprouting broccoli (it came in my CSA box) and it turned out delicious. You can eat the entire vegetable, I just trimmed the ends of the thicker stalks and some of the leaves that were a bit wilted. Great healthy spring vegetable!",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H15M",
+        "totalTime": "P0DT0H20M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "1 pound purple sprouting broccoli",
+            "2 tablespoons vegetable oil",
+            "2 tablespoons toasted sesame oil",
+            "6 cloves garlic, thinly sliced",
+            "salt to taste",
+            "2 teaspoons toasted sesame seeds, or to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Bring a large wide pot of salted water to a boil. Drop in broccoli and boil until dark green, 3 to 4 minutes. Drain.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat vegetable and sesame oils in a large skillet over medium-low heat. Add garlic and cook, stirring frequently, until fragrant and light brown, 2 to 3 minutes. Add broccoli and stir-fry until well seasoned with garlic oil, 2 to 3 minutes. Season with salt.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Serve sprinkled with sesame seeds.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Everyday Cooking",
+            "Seasonal",
+            "Spring"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "barbara"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Garlic-Sesame Purple Sprouting Broccoli",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "177.2 calories",
+            "carbohydrateContent": "9.4 g",
+            "cholesterolContent": null,
+            "fatContent": "15 g",
+            "fiberContent": "3.2 g",
+            "proteinContent": "3.8 g",
+            "saturatedFatContent": "2.1 g",
+            "servingSize": null,
+            "sodiumContent": "38.8 mg",
+            "sugarContent": "2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-05-15T09:12:25.4Z",
+                "reviewBody": "soo good!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Lena",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/23461559/"
+                }
+            }
+        ]
+    }
+]

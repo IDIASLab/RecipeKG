@@ -1,0 +1,129 @@
+@prefix ns1: <http://purl.org/recipekg/> .
+@prefix ns2: <http://purl.org/heals/food/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/squash-blossom-chile-relleno-with-walnut-cream-sauce> a schema:Recipe ;
+    ns2:hasIngredient [ a <http://purl.org/heals/ingredient/VegetableOil> ;
+            ns1:ingredientName "vegetable oil" ],
+        [ a <http://purl.org/heals/ingredient/AllPurposeFlour> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "all purpose flour" ],
+        [ a <http://purl.org/heals/ingredient/Walnut> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "walnut" ],
+        [ a <http://purl.org/recipekg/ingredient/SquashBlossoms> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "squash blossoms" ],
+        [ a <http://purl.org/recipekg/ingredient/PomegranateSeeds> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "pomegranate seeds" ],
+        [ a <http://purl.org/recipekg/ingredient/Cinnamon> ;
+            ns1:hasQuantity "1/4" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "cinnamon" ],
+        [ a <http://purl.org/recipekg/ingredient/MexicanCheese> ;
+            ns1:hasQuantity "1 1/2" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "Mexican cheese" ],
+        [ a <http://purl.org/recipekg/ingredient/Egg> ;
+            ns1:hasQuantity "3" ;
+            ns1:ingredientName "egg" ],
+        [ a <http://purl.org/recipekg/ingredient/QuesoFresco> ;
+            ns1:hasQuantity "1/4" ;
+            ns1:hasUnit "pound" ;
+            ns1:ingredientName "queso fresco" ],
+        [ a <http://purl.org/heals/ingredient/BlackPepper> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "black pepper" ],
+        [ a <http://purl.org/recipekg/ingredient/ChorizoSausage> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "pound" ;
+            ns1:ingredientName "chorizo sausage" ],
+        [ a <http://purl.org/heals/ingredient/Cilantro> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "cilantro" ],
+        [ a <http://purl.org/recipekg/ingredient/PoblanoPeppers> ;
+            ns1:hasQuantity "6" ;
+            ns1:ingredientName "poblano peppers" ],
+        [ a <http://purl.org/heals/ingredient/AllPurposeFlour> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "all purpose flour" ],
+        [ a <http://purl.org/recipekg/ingredient/Milk> ;
+            ns1:hasQuantity "2" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "milk" ],
+        [ a <http://purl.org/recipekg/ingredient/KernelCorn> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "kernel corn" ],
+        [ a <http://purl.org/heals/ingredient/WhiteSugar> ;
+            ns1:hasQuantity "1 1/2" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "white sugar" ],
+        [ a <http://purl.org/recipekg/ingredient/SourCream> ;
+            ns1:hasQuantity "1 1/2" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "sour cream" ] ;
+    ns1:belongsTo <http://purl.org/recipekg/categories/world-cuisine/latin-american/mexican/> ;
+    ns1:hasFSAScore 3 ;
+    ns1:hasNutritionalInformation [ a ns1:NutritionalInformation ;
+            ns1:hasCalorificData [ a ns1:CalorificData ;
+                    ns1:hasAmount "647.3"^^xsd:float ;
+                    ns1:hasUnit "calories" ] ;
+            ns1:hasCarbohydrateData [ a ns1:CarbohydrateData ;
+                    ns1:hasAmount "21.7"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasCholesterolData [ a ns1:CholesterolData ;
+                    ns1:hasAmount "109.3"^^xsd:float ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasFatData [ a ns1:FatData ;
+                    ns1:hasAmount "53.7"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSARed ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasFiberData [ a ns1:FiberData ;
+                    ns1:hasAmount "3.3"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasProteinData [ a ns1:ProteinData ;
+                    ns1:hasAmount "21.8"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSaturatedFatData [ a ns1:SaturatedFatData ;
+                    ns1:hasAmount "17.8"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSARed ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSodiumData [ a ns1:SodiumData ;
+                    ns1:hasAmount "721.2"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasSugarData [ a ns1:SugarData ;
+                    ns1:hasAmount "5.0"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAGreen ;
+                    ns1:hasUnit "g" ] ] ;
+    ns1:hasUSDAScore 4 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2020-06-19T04:40:31.000Z"^^schema:date ;
+    schema:name "Squash Blossom Chile Relleno with Walnut Cream Sauce"^^xsd:string ;
+    schema:recipeYield "12 peppers"^^xsd:string .
+
+ns1:FSAAmber a ns1:FSAColor .
+
+ns1:FSAGreen a ns1:FSAColor .
+
+<http://purl.org/recipekg/categories/world-cuisine/> a ns1:RecipeCategory .
+
+<http://purl.org/recipekg/categories/world-cuisine/latin-american/> rdfs:subClassOf <http://purl.org/recipekg/categories/world-cuisine/> .
+
+<http://purl.org/recipekg/categories/world-cuisine/latin-american/mexican/> rdfs:subClassOf <http://purl.org/recipekg/categories/world-cuisine/latin-american/> .
+
+ns1:FSARed a ns1:FSAColor .
+

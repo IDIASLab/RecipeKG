@@ -1,0 +1,159 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/150/breakfast-and-brunch/meat-and-seafood/",
+                    "name": "Meat and Seafood",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/2426/breakfast-and-brunch/meat-and-seafood/beef/",
+                    "name": "Beef",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/163901/steamed-corned-beef/",
+        "name": "Steamed Corned Beef",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4227619.jpg",
+            "width": 4160,
+            "height": 3120
+        },
+        "datePublished": "2019-04-04T03:46:00.000Z",
+        "description": "Steamed corned beef is a classic Bahamian dish also known as 'Fire Engine'. Traditionally served with grits for breakfast or with white rice for lunch or dinner. Steam is a Bahamian term for anything fried down and simmered in a tomato base (bologna, pork chops or chicken can also be served this way).",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H20M",
+        "totalTime": "P0DT0H35M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "1 (12 ounce) can corned beef",
+            "\u00bc green bell pepper, chopped",
+            "\u00bc onion, chopped",
+            "1 teaspoon vegetable oil",
+            "2 teaspoons tomato paste",
+            "\u00bc cup water",
+            "\u00bc teaspoon crushed red pepper flakes",
+            "\u00bc teaspoon dried thyme",
+            "salt and pepper to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat the oil in a skillet over medium heat. Add onion, green pepper, red pepper flakes and dried thyme; cook and stir until the onion is beginning to brown, about 7 minutes. Reduce the heat to low and stir in the tomato paste and season with salt and pepper. Simmer for 3 minutes then stir in the water. Mix in the corned beef and then let it simmer until most of the liquid has evaporated.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Meat and Seafood",
+            "Beef"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Kristal"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 2,
+            "itemReviewed": "Steamed Corned Beef",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "227.5 calories",
+            "carbohydrateContent": "1.7 g",
+            "cholesterolContent": "72.2 mg",
+            "fatContent": "13.7 g",
+            "fiberContent": "0.4 g",
+            "proteinContent": "23.1 g",
+            "saturatedFatContent": "5.4 g",
+            "servingSize": null,
+            "sodiumContent": "869 mg",
+            "sugarContent": "0.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2008-05-31T21:03:43.57Z",
+                "reviewBody": "Sounds yummm",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Izzi",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2954693/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2015-01-11T14:41:51.127Z",
+                "reviewBody": "very tasty served it with grits for breakfast. I added a little more red pepper as I like hot, but didn't add any salt as I find corned beef salty enough (Y)",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Jackie Carroll",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/12180680/"
+                }
+            }
+        ]
+    }
+]

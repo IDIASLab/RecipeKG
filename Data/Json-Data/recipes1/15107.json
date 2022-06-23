@@ -1,0 +1,143 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/231/world-cuisine/european/",
+                    "name": "European",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/721/world-cuisine/european/french/",
+                    "name": "French",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/284262/easy-escalope-normande/",
+        "name": "Easy Escalope Normande",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F9202240.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2008-02-03T13:52:15.000Z",
+        "description": "My sister brought back this escalope Normande recipe after a trip to France. This is a well known dish in St Lo.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H15M",
+        "totalTime": "P0DT0H20M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "2 tablespoons butter",
+            "1 (1 1/2) pound beef top sirloin, thinly sliced",
+            "1 pint fresh mushrooms, sliced",
+            "1 cup whipping cream",
+            "salt and ground black pepper to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Melt butter in a large skillet over low heat. Saute he beef in the hot butter until only slightly pink in the centers, 7 to 8 minutes. Cook slowly on low heat to keep meat tender.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Add mushrooms, cream, salt, and pepper and simmer 5 to 10 minutes more.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "European",
+            "French"
+        ],
+        "recipeCuisine": [
+            "European",
+            "French"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "SD,RD"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Easy Escalope Normande",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "486.2 calories",
+            "carbohydrateContent": "4.1 g",
+            "cholesterolContent": "170.3 mg",
+            "fatContent": "37.8 g",
+            "fiberContent": "0.7 g",
+            "proteinContent": "33.1 g",
+            "saturatedFatContent": "21.2 g",
+            "servingSize": null,
+            "sodiumContent": "128.7 mg",
+            "sugarContent": "1.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-05-13T08:44:27.36Z",
+                "reviewBody": "Against my better judgement, I made this as written. 100% fail. Zero flavor, unappealing grey meat, cream separated instantly, and the mushrooms were underdone. I ended up adding parsley and a few very generous shakes of Worcestershire sauce to make it edible. I could go on as to what I would do differently next time but there will not be a next time. This is the only recipe I have ever given 1 star and I'm sorry but this is is no good as written and a waste of $16 worth of beef.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 1
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

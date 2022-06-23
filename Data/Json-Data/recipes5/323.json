@@ -1,0 +1,159 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/94/soups-stews-and-chili/",
+                    "name": "Soups, Stews and Chili Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/16369/soups-stews-and-chili/soup/",
+                    "name": "Soup Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/181/soups-stews-and-chili/soup/noodle-soup/",
+                    "name": "Noodle Soup Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/270020/quick-and-easy-chicken-soup/",
+        "name": "Quick and Easy Chicken Soup",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6306116.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2019-04-04T04:15:37.000Z",
+        "description": "A nice soup that's easy to make on busy nights.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H15M",
+        "totalTime": "P0DT0H25M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "5 cups water",
+            "3 tablespoons chicken soup base",
+            "1 pound egg noodles",
+            "1\u2009\u00bd pounds boneless chicken breast cut into 1-inch cubes",
+            "1\u2009\u00bd cups frozen peas",
+            "1 cup chopped carrot",
+            "1 tablespoon ginger",
+            "1 teaspoon ground mustard",
+            "1 teaspoon garlic salt"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine water and soup base in a 2-quart pan and bring to a boil, about 5 minutes. Add noodles. Add chicken, peas, and carrots. Add ginger, mustard, and salt. Boil soup until noodles are tender, about 10 minutes more.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Soups, Stews and Chili Recipes",
+            "Soup Recipes",
+            "Noodle Soup Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Klayr Clark"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.5,
+            "ratingCount": 2,
+            "itemReviewed": "Quick and Easy Chicken Soup",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "653.5 calories",
+            "carbohydrateContent": "87.2 g",
+            "cholesterolContent": "185.9 mg",
+            "fatContent": "9.8 g",
+            "fiberContent": "5 g",
+            "proteinContent": "51.5 g",
+            "saturatedFatContent": "2.6 g",
+            "servingSize": null,
+            "sodiumContent": "2195.5 mg",
+            "sugarContent": "5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-01-27T01:41:24.963Z",
+                "reviewBody": "Quick and simple but I think this was a bit bland as written. I ended up adding some herbs and next time I would replace the water with chicken broth. I also recommend cutting the ginger in half. Overall good recipe that just needs a couple of tweaks.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2019-02-13T10:47:44.84Z",
+                "reviewBody": "I have a question. The picture of the soup clearly shows celery in it. The recipe does not call for celery. Why not?",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Kerrye4",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/23309002/"
+                }
+            }
+        ]
+    }
+]

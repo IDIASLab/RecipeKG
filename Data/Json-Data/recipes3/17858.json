@@ -1,0 +1,127 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/283328/muldowneys-irish-potato-candy/",
+        "name": "Muldowney's Irish Potato Candy",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6109469.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2018-12-13T23:09:14.000Z",
+        "description": "Classic St. Patrick's Day candy that looks like little potatoes.",
+        "prepTime": "P0DT0H25M",
+        "cookTime": null,
+        "totalTime": "P0DT0H25M",
+        "recipeYield": "72 candies",
+        "recipeIngredient": [
+            "1 cup unsalted butter, softened",
+            "2 (16 ounce) packages confectioners' sugar, or to taste",
+            "1 (14 ounce) package shredded coconut, or to taste",
+            "\u2153 cup light corn syrup (such as Karo\u00ae)",
+            "2 tablespoons vanilla extract",
+            "\u00bd cup ground cinnamon, or as needed"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place softened butter in a large bowl. Add confectioners' sugar, coconut, corn syrup, and vanilla extract; mix using your hands until combined. Knead until it holds together but is not too sticky, adding more sugar and coconut, if needed.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place cinnamon on a plate. Form the mixture into small, round balls and roll in the cinnamon until coated and they look like tiny potatoes.\n"
+            }
+        ],
+        "recipeCategory": [],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Shane Klingonsmith"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Muldowney's Irish Potato Candy",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "103.1 calories",
+            "carbohydrateContent": "17 g",
+            "cholesterolContent": "6.8 mg",
+            "fatContent": "4.1 g",
+            "fiberContent": "0.9 g",
+            "proteinContent": "0.2 g",
+            "saturatedFatContent": "3.1 g",
+            "servingSize": null,
+            "sodiumContent": "17 mg",
+            "sugarContent": "14.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-03-14T01:24:41.753Z",
+                "reviewBody": "I made some with cinnamon, and some with dark choc, they were both good.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Chris",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/27665274/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2021-03-13T08:16:05.873Z",
+                "reviewBody": "Just like Mom use to make.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Priscilla",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/28022219/"
+                }
+            }
+        ]
+    }
+]

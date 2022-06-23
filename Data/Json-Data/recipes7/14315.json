@@ -1,0 +1,136 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/136/drinks/punch/",
+                    "name": "Punch Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/15047/drinks/punch/non-alcoholic-punch/",
+                    "name": "Non-Alcoholic Punch Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/247357/strawberry-fizz/",
+        "name": "Strawberry Fizz",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4475963.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2020-06-19T04:07:02.000Z",
+        "description": "Our creation of a drink described in a popular book. A cold refreshing drink, fizzy and light, something that tickles your nose and your fancy.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "68 fluid ounces",
+        "recipeIngredient": [
+            "68 fluid ounces ginger beer, divided",
+            "2 cups frozen strawberries",
+            "2 tablespoons white sugar"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Pour 1 cup ginger beer into a blender; add strawberries and sugar and blend until strawberries are pureed. Pour puree into a pitcher or punch bowl and stir in remaining ginger beer.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Punch Recipes",
+            "Non-Alcoholic Punch Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "The Redwall Kitchen"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Strawberry Fizz",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "31.4 calories",
+            "carbohydrateContent": "8.2 g",
+            "cholesterolContent": null,
+            "fatContent": "0.1 g",
+            "fiberContent": "1.2 g",
+            "proteinContent": "0.2 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "1.1 mg",
+            "sugarContent": "5.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-02-21T08:12:06.447Z",
+                "reviewBody": "I used ginger ale as the recipe submitter and I am giving this 5 stars due to how fun the drink was. It was a little sweet for my liking but this is one your kiddos will love. Some of the strawberry puree stays on the bottom while some floats to the top. Once you start drinking it the bottom layer starts making its way to the top creating a lava lamp effect. This was super cool. Be sure to serve it in a clear glass so that you don't miss out on the show.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

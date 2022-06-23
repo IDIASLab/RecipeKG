@@ -1,0 +1,139 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/133/drinks/cocktails/",
+                    "name": "Cocktail Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1739/drinks/cocktails/gin-drinks/",
+                    "name": "Gin Drinks Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/222893/the-pink-lady-cocktail/",
+        "name": "The Pink Lady Cocktail",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1132689.jpg",
+            "width": 1536,
+            "height": 2048
+        },
+        "datePublished": "2019-07-10T07:03:29.000Z",
+        "description": "This pink drink isn't just for ladies. A heady combination of gin and applejack are shaken together with egg white and lemon juice for a frothy drink that's given a pink hue thanks to a few drops of grenadine.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "1 cocktail",
+        "recipeIngredient": [
+            "1\u2009\u00bd fluid ounces gin",
+            "\u00bd fluid ounce applejack",
+            "\u00be fluid ounce lemon juice",
+            "\u00bc fluid ounce grenadine",
+            "1 egg white",
+            "1 cup ice"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine gin, applejack, lemon juice, grenadine, and egg white in a cocktail shaker. Cover and shake for 10 to 20 seconds to emulsify the egg white. Add ice; cover and shake until chilled. Strain into chilled wine glass.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Cocktail Recipes",
+            "Gin Drinks Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Allrecipes"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "The Pink Lady Cocktail",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "196.8 calories",
+            "carbohydrateContent": "8.5 g",
+            "cholesterolContent": null,
+            "fatContent": null,
+            "fiberContent": "0.1 g",
+            "proteinContent": "3.7 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "66.7 mg",
+            "sugarContent": "5.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2014-06-01T13:38:15.397Z",
+                "reviewBody": "This was a bit strong (but tasty) for our tastes. I would caution that you should use pasteurized egg whites to avoid any chance of salmonella. Thanks for the happy hour libation!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "mauigirl",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/mauigirl1/"
+                }
+            }
+        ]
+    }
+]

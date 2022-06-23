@@ -1,0 +1,122 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/262352/tofu-fries-with-sesame/",
+        "name": "Tofu Fries with Sesame",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5119675.jpg",
+            "width": 2711,
+            "height": 2710
+        },
+        "datePublished": "2018-01-19T08:40:24.000Z",
+        "description": "Fried tofu fries with spicy brown mustard and sesame. Excellent for appetizer.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H15M",
+        "totalTime": "P0DT1H15M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "1 (12 ounce) package firm tofu",
+            "2 tablespoons all-purpose flour",
+            "2 tablespoons vegetable oil",
+            "2 tablespoons sesame seeds",
+            "\u00bc cup spicy brown mustard"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Drain tofu paper towels for about 45 minutes. Cut block into 1/4-inch-thick slices; cut slices in half. Arrange slices into a single layer over dry paper towels and sprinkle 1 tablespoon flour on top. Flip slices over and sprinkle with remaining flour.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat oil in a skillet over medium-high heat. Saute tofu until light brown, 3 to 5 minutes per side. Add sesame seeds and toss with mustard, using a rubber spatula to avoid breaking tofu slices. Serve warm.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Hungarian"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Tofu Fries with Sesame",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "177.6 calories",
+            "carbohydrateContent": "6.4 g",
+            "cholesterolContent": null,
+            "fatContent": "14 g",
+            "fiberContent": "0.9 g",
+            "proteinContent": "8.9 g",
+            "saturatedFatContent": "2.1 g",
+            "servingSize": null,
+            "sodiumContent": "200.9 mg",
+            "sugarContent": "0.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-02-15T02:17:00.98Z",
+                "reviewBody": "I like the result of cooking the tofu with the mustard. The texture was crispy. The flavor was tangy. Thank you for the recipe.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Buckwheat Queen",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/melaniegiovenzana/"
+                }
+            }
+        ]
+    }
+]

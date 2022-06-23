@@ -1,0 +1,151 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/211/salad/fruit-salads/",
+                    "name": "Fruit Salad Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/215115/summer-fruit-salad/",
+        "name": "Summer Fruit Salad",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F895539.jpg",
+            "width": 250,
+            "height": 250
+        },
+        "datePublished": "2017-06-22T07:33:07.000Z",
+        "description": "YUMMY YUMMY!!!",
+        "prepTime": "P0DT0H40M",
+        "cookTime": null,
+        "totalTime": "P0DT1H40M",
+        "recipeYield": "1 fruit salad",
+        "recipeIngredient": [
+            "1 fresh pineapple - peeled, cored, and chopped",
+            "\u00bd cantaloupe - peeled, seeded, and chopped",
+            "2 fresh peaches, pitted and chopped",
+            "3 plums, pitted and chopped",
+            "2 bananas, chopped",
+            "2 oranges, peeled and cut into bite size pieces",
+            "2 kiwi fruit, peeled and chopped",
+            "2 fresh apricots, pitted and chopped",
+            "10 cherries, pitted and halved",
+            "15 seedless grapes",
+            "7 strawberries, chopped"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "In a large salad bowl, lightly stir together the pineapple, cantaloupe, peaches, plums, bananas, oranges, kiwi fruit, apricots, cherries, grapes, and strawberries; chill for 1 hour before serving.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad",
+            "Fruit Salad Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "patbabb"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.8,
+            "ratingCount": 5,
+            "itemReviewed": "Summer Fruit Salad",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "155 calories",
+            "carbohydrateContent": "39.3 g",
+            "cholesterolContent": null,
+            "fatContent": "0.6 g",
+            "fiberContent": "4.9 g",
+            "proteinContent": "2.2 g",
+            "saturatedFatContent": "0.1 g",
+            "servingSize": null,
+            "sodiumContent": "7.6 mg",
+            "sugarContent": "29.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2011-08-22T13:13:38.797Z",
+                "reviewBody": "Yum! Simple but delicious! I love this kind of fruit salad when there's an abundance of fresh fruit. No honey or sugar necessary - the juice from the pineapple was enough. Only thing I omitted was the bananas.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "ChristineM",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/1958749/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2011-07-06T23:19:30.477Z",
+                "reviewBody": "This is by FAR the best fruit salad I have ever had! Thanks!!!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "cookingqueen",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/7298471/"
+                }
+            }
+        ]
+    }
+]

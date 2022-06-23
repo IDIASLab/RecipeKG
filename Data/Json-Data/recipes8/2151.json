@@ -1,0 +1,127 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/143/breakfast-and-brunch/drinks/",
+                    "name": "Drinks",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/279599/super-immunity-boost-juice/",
+        "name": "Super Immunity Boost Juice",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7855122.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-06-19T04:45:12.000Z",
+        "description": "Orange, ginger, and turmeric, well-known immunity powerhouses, combine to make this tasty and healthy juice that is loaded with Vitamin C, antioxidants, and anti-inflammatory properties.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "1 drink",
+        "recipeIngredient": [
+            "1 (2 inch) piece fresh ginger root",
+            "2 (1 1/2 inch) pieces fresh turmeric",
+            "3 large  naval oranges, peeled",
+            "ice cubes"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Process ginger, turmeric, and oranges through a juicer in the order listed. Pour over ice and drink immediately.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Drinks"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "France C"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Super Immunity Boost Juice",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "281.8 calories",
+            "carbohydrateContent": "69.8 g",
+            "cholesterolContent": null,
+            "fatContent": "0.9 g",
+            "fiberContent": "13.8 g",
+            "proteinContent": "5.7 g",
+            "saturatedFatContent": "0.1 g",
+            "servingSize": null,
+            "sodiumContent": "3.6 mg",
+            "sugarContent": "52.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-05-13T22:15:55.86Z",
+                "reviewBody": "No changes and yes I will make it again and share with my teenage grandchildren",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "mary",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/6290604/"
+                }
+            }
+        ]
+    }
+]

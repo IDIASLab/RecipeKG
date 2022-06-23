@@ -1,0 +1,150 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/23682/luscious-lucy/",
+        "name": "Luscious Lucy",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2829725.jpg",
+            "width": 1704,
+            "height": 1705
+        },
+        "datePublished": "2020-06-19T03:05:03.000Z",
+        "description": "A luscious mixture of strawberry liqueur, Blue Curacao, and lemonade which I made up - hence the name Luscious Lucy.",
+        "prepTime": "P0DT0H2M",
+        "cookTime": null,
+        "totalTime": "P0DT0H2M",
+        "recipeYield": "1 serving",
+        "recipeIngredient": [
+            "1 (1.5 fluid ounce) jigger strawberry liqueur",
+            "1 (1.5 fluid ounce) jigger Blue Curacao",
+            "4 fluid ounces prepared lemonade"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Pour strawberry liqueur and Blue Curacao into a glass with ice. Fill with lemonade. Stir.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "STARGIRL"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.666666666666667,
+            "ratingCount": 3,
+            "itemReviewed": "Luscious Lucy",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "369.2 calories",
+            "carbohydrateContent": "49.5 g",
+            "cholesterolContent": "0 mg",
+            "fatContent": "0.2 g",
+            "fiberContent": "0 g",
+            "proteinContent": "0.1 g",
+            "saturatedFatContent": "0 g",
+            "servingSize": null,
+            "sodiumContent": "7.6 mg",
+            "sugarContent": "47.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2013-04-27T22:35:34.217Z",
+                "reviewBody": "No strawberry liqueur I used Raspberry Pucker instead. The lemonade I used was homemade. Sweet but delicious and refreshing.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Sarah Jo",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/doublewideskilletsinglewidebudget/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2009-06-26T23:59:20.723Z",
+                "reviewBody": "dddddddeeeeeeelicus. Instead of strawberry schnapps (or liquer try Stoli strawberry (smirnoff is too sweet) and add a shot of sprite for the fizz and to thin up the liqours blue and lemonade tend to be very acidy i found (as a bartender) adding a quick shot of ginge or sprite tends to a huge differencein drinks. i even add it to my margaritas",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Christina",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2813277/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2015-11-23T18:49:51.59Z",
+                "reviewBody": "I didn't have strawberry so I used raspberry liqueur. It was sweet but very refreshing. Adult koolaid at it's finest.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Arizona Desert Flower",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/arizonadesertflower/"
+                }
+            }
+        ]
+    }
+]

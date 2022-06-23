@@ -1,0 +1,205 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/231/world-cuisine/european/",
+                    "name": "European",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/720/world-cuisine/european/dutch/",
+                    "name": "Dutch",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/11154/dutch-ice-box-cookies/",
+        "name": "Dutch Ice Box Cookies",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F456146.jpg",
+            "width": 250,
+            "height": 250
+        },
+        "datePublished": "1998-12-10T20:36:17.000Z",
+        "description": "My Grandmother's recipe, may be refrigerated or frozen.",
+        "prepTime": null,
+        "cookTime": null,
+        "totalTime": null,
+        "recipeYield": "5 dozen",
+        "recipeIngredient": [
+            "1 cup butter",
+            "2 cups white sugar",
+            "1 cup sour cream",
+            "4 cups all-purpose flour",
+            "1\u2009\u00bc teaspoons ground cinnamon",
+            "1\u2009\u00bd teaspoons ground nutmeg",
+            "\u00bd teaspoon ground cloves",
+            "1 teaspoon baking soda",
+            "\u00bc cup chopped walnuts",
+            "\u00bc teaspoon salt"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Cream the butter with the sugar. Stir in the sour cream, flour, cinnamon, nutmeg, cloves, salt and chopped nuts. Mix well and form into logs. Wrap logs with plastic wrap and refrigerate for several hours or overnight.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Preheat oven to 375 degrees F (190 degrees C).\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Slice cookies into 1/4 inch rounds and bake at 375 degrees F (190 degrees C) for 10 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "European",
+            "Dutch"
+        ],
+        "recipeCuisine": [
+            "European",
+            "Dutch"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Peggy Cunningham"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.5,
+            "ratingCount": 6,
+            "itemReviewed": "Dutch Ice Box Cookies",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "190.4 calories",
+            "carbohydrateContent": "26.7 g",
+            "cholesterolContent": "19.6 mg",
+            "fatContent": "8.6 g",
+            "fiberContent": "0.6 g",
+            "proteinContent": "2.2 g",
+            "saturatedFatContent": "5 g",
+            "servingSize": null,
+            "sodiumContent": "109.4 mg",
+            "sugarContent": "13.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2003-12-05T23:56:48.95Z",
+                "reviewBody": "These cookies came out great and were so easy to make!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "paginal",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/443014/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2006-12-19T23:40:34.243Z",
+                "reviewBody": "The dough was difficult to work with. The cookies did taste good but they looked dreadful as they crumbled to bits trying to slice the logs. This is probably due to chef error but I can't seem to find where I went off track.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 1
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Jen van Buren",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/800600/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2010-08-24T18:27:28.617Z",
+                "reviewBody": "I grew up enjoying these cookies with my great-grandmother. They're not your typical cookie, more spice than sugar, but still delicious.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "shmanders84",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/4208299/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2010-09-28T17:35:49.753Z",
+                "reviewBody": "Very close to my grandmothers recipe. She used pecans instead of walnuts.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "grace b",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/5457773/"
+                }
+            }
+        ]
+    }
+]

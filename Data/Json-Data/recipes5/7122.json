@@ -1,0 +1,157 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/251/main-dish/sandwiches/",
+                    "name": "Sandwich Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1031/main-dish/sandwiches/beef/",
+                    "name": "Beef",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/259046/easy-beef-shawarma/",
+        "name": "Easy Beef Shawarma",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6590016.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2019-07-10T07:11:03.000Z",
+        "description": "Delicious thin-cut beef strips (shawarma) with tahini sauce in a tortilla wrap.",
+        "prepTime": "P0DT0H20M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT0H25M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "1 tablespoon olive oil",
+            "1 pound beef top sirloin, thinly sliced",
+            "1 tablespoon shawarma seasoning",
+            "1 teaspoon ground allspice",
+            "\u00bd teaspoon salt",
+            "\u00bd cup tahini",
+            "3 tablespoons plain yogurt",
+            "\u00bd lemon, juiced",
+            "\u00bd teaspoon salt",
+            "1 (10 ounce) package large flour tortillas",
+            "2 tomatoes, halved and sliced",
+            "1 onion, thinly sliced"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat olive oil in a large skillet over medium heat. Add beef, shawarma seasoning, allspice, and 1/2 teaspoon salt; cook, turning occasionally, until beef is browned and tender, 3 to 5 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Whisk tahini, yogurt, lemon juice, and 1/2 teaspoon salt together in a small bowl until creamy.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Spread 1 to 2 tablespoons tahini sauce in the center of each tortilla. Divide beef slices, tomato slices, and onion slices evenly among tortillas. Roll up tortillas.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Preheat a panini press according to manufacturer's instructions. Press rolled tortillas seam side-down until grill marks appear, about 2 minutes. Cut each tortilla into 4 to 5 pieces.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Sandwich Recipes",
+            "Beef"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Sarah Qennah"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Easy Beef Shawarma",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "637.3 calories",
+            "carbohydrateContent": "50.3 g",
+            "cholesterolContent": "61 mg",
+            "fatContent": "35.7 g",
+            "fiberContent": "6.7 g",
+            "proteinContent": "31.2 g",
+            "saturatedFatContent": "8.4 g",
+            "servingSize": null,
+            "sodiumContent": "1122.3 mg",
+            "sugarContent": "5.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-04-27T22:12:13.063Z",
+                "reviewBody": "Made as written and this turned out pretty good. The sauce was bland though and needed more salt and something else but I can't quite put my finger on what that would be. I ended up adding Sriracha and that definitely gave it some kick. Overall good recipe and easy to make, I just think the sauce needs some tweaking.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

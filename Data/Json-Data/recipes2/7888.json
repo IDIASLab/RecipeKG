@@ -1,0 +1,117 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/227/world-cuisine/asian/",
+                    "name": "Asian",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/255032/sardines-with-ginger/",
+        "name": "Sardines with Ginger",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Sardines with Ginger"
+        },
+        "datePublished": "2016-08-18T04:45:38.000Z",
+        "description": "A nice lunch or light supper for two. Fresh sardines or mackerel are pan-fried and served in a Japanese-style ginger sake sauce. Garnish with more spring\u00a0onion, if you like.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H6M",
+        "totalTime": "P0DT0H16M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "1 teaspoon sesame oil",
+            "4 fresh sardines",
+            "3 tablespoons sake",
+            "2 spring onions, finely chopped",
+            "1\u2009\u00bd tablespoons soy sauce",
+            "1\u2009\u00bd tablespoons mirin (Japanese sweet rice wine)",
+            "2 teaspoons chopped ginger"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat oil in a skillet over high heat. Add sardines; cook, flipping occasionally, until golden, about 3 minutes per side. Transfer to a serving plate.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Mix sake, spring onions, soy sauce, mirin, and chopped ginger together in a small bowl to make sauce. Pour over sardines.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Asian"
+        ],
+        "recipeCuisine": [
+            "Asian"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "madhatter"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Sardines with Ginger",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "451.3 calories",
+            "carbohydrateContent": "7 g",
+            "cholesterolContent": null,
+            "fatContent": "25.9 g",
+            "fiberContent": "0.5 g",
+            "proteinContent": "33.9 g",
+            "saturatedFatContent": "0.4 g",
+            "servingSize": null,
+            "sodiumContent": "679.1 mg",
+            "sugarContent": "5.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

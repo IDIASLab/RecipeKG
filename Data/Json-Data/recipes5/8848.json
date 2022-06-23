@@ -1,0 +1,139 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/274774/easy-hard-boiled-eggs/",
+        "name": "Easy Hard-Boiled Eggs",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7655667.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2019-08-14T03:20:55.000Z",
+        "description": "I've tried many different ways to make a great, easy, hard-boiled egg with a soft white and a nice fluffy yolk that's not grey on the outside. After lots of trial and error, I've finally done it. After cooking I usually keep them in the shell until I need them. Enjoy!",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H35M",
+        "recipeYield": "6 eggs",
+        "recipeIngredient": [
+            "6 eggs"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place eggs into a saucepan and fill with water until eggs are just barely covered.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bring water to a boil. Boil eggs for 4 1/2 minutes. Remove from heat and let eggs sit in hot water for 20 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Transfer eggs to a bowl and either peel and serve, or keep shells on and place in the refrigerator until you are ready to serve.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Dan.Ryan"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 2,
+            "itemReviewed": "Easy Hard-Boiled Eggs",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "71.5 calories",
+            "carbohydrateContent": "0.4 g",
+            "cholesterolContent": "186 mg",
+            "fatContent": "5 g",
+            "fiberContent": null,
+            "proteinContent": "6.3 g",
+            "saturatedFatContent": "1.5 g",
+            "servingSize": null,
+            "sodiumContent": "70 mg",
+            "sugarContent": "0.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-01-26T05:44:54.72Z",
+                "reviewBody": "Not quite all the way done in the center but I'll take that over an overdone gray yolk.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2020-05-27T03:38:50.38Z",
+                "reviewBody": "Worked for me",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Dex",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/23830024/"
+                }
+            }
+        ]
+    }
+]

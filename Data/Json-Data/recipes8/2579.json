@@ -1,0 +1,102 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/280641/lime-poblano-chicken-salad/",
+        "name": "Lime-Poblano Chicken Salad",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6523898.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-06-20T02:53:11.000Z",
+        "description": "A quick and easy change-up to the traditional chicken salad. I was experimenting when I created this for a light lunch to go on a salad. Can be made mild or spicy! This is not meant to be very creamy, I use it mostly on top of salad or with crackers, but if you'd like a sandwich be sure to add more mayo so it sticks together.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": null,
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "1 cup shredded rotisserie chicken",
+            "\u00bd poblano pepper, diced",
+            "\u00bc cup chopped fresh cilantro",
+            "3 tablespoons mayonnaise",
+            "2 tablespoons diced onion",
+            "\u00bc lime, juiced",
+            "\u215b teaspoon ground cumin",
+            "\u215b teaspoon ground white pepper",
+            "1 pinch salt, or to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Mix chicken, poblano pepper, cilantro, mayonnaise, onion, lime juice, cumin, white pepper, and salt together in a bowl or a container with a fork. Taste and adjust spices as necessary.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Christy Blaker"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Lime-Poblano Chicken Salad",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "292 calories",
+            "carbohydrateContent": "4 g",
+            "cholesterolContent": "60.4 mg",
+            "fatContent": "21.8 g",
+            "fiberContent": "1.3 g",
+            "proteinContent": "20 g",
+            "saturatedFatContent": "3.9 g",
+            "servingSize": null,
+            "sodiumContent": "244.7 mg",
+            "sugarContent": "1.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

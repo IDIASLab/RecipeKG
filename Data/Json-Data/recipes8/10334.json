@@ -1,0 +1,115 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/133/drinks/cocktails/",
+                    "name": "Cocktail Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/8287039/cranberry-rum-mimosa/",
+        "name": "Cranberry Rum Mimosa",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F43%2F2021%2F10%2F18%2F9408644-2000.jpg",
+            "width": 1500,
+            "height": 2000
+        },
+        "datePublished": "2021-10-18T16:35:29.000Z",
+        "description": "The sweetness of the coconut rum and tartness of the cranberry juice are a perfect pair combined with your favorite champagne!",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "1 mimosa",
+        "recipeIngredient": [
+            "2 cups ice, or as needed",
+            "1 fluid ounce coconut-flavored rum",
+            "1 fluid ounce cranberry juice",
+            "2 fluid ounces champagne"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Fill a cocktail shaker with ice. Add rum and cranberry juice and shake well.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Strain mixture into a champagne glass, filling the glass halfway.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Top off the glass with champagne.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Cocktail Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "CookingWithShelia"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Cranberry Rum Mimosa",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "115.3 calories",
+            "carbohydrateContent": "10.7 g",
+            "cholesterolContent": null,
+            "fatContent": "0 g",
+            "fiberContent": null,
+            "proteinContent": "0 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "24.5 mg",
+            "sugarContent": null,
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

@@ -1,0 +1,152 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17203/desserts/specialty-desserts/",
+                    "name": "Specialty Dessert Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/375/desserts/specialty-desserts/tiramisu/",
+                    "name": "Tiramisu Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/254476/tiramisu-ice-pops/",
+        "name": "Tiramisu Ice Pops",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4506747.jpg",
+            "width": 2319,
+            "height": 2303
+        },
+        "datePublished": "2020-06-19T04:17:00.000Z",
+        "description": "Creamy, cool, and not too sweet. Adapted it from another recipe through trial and error.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT5H10M",
+        "recipeYield": "6 ice pops",
+        "recipeIngredient": [
+            "\u00bd (8 ounce) container mascarpone cheese, at room temperature",
+            "1 cup half-and-half",
+            "\u00bc cup espresso",
+            "\u00bc cup coffee-flavored liqueur (such as Kahlua\u00ae)",
+            "2\u2009\u00bd tablespoons white sugar",
+            "1 tablespoon cocoa powder ",
+            "\u00be teaspoon vanilla bean paste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Whisk mascarpone cheese, half-and-half, espresso, coffee-flavor liqueur, sugar, cocoa powder, and vanilla bean paste gently in a bowl until smooth.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Divide mascarpone cheese mixture among ice pop molds. Cover and freeze until slightly firm, about 1 hour.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Insert ice pop sticks 2/3 of the way into the molds. Freeze until firm, about 4 hours more.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Run molds under warm water to release and pull out ice pops.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Specialty Dessert Recipes",
+            "Tiramisu Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Lourdes Valdes"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Tiramisu Ice Pops",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "195.2 calories",
+            "carbohydrateContent": "11.8 g",
+            "cholesterolContent": "38.3 mg",
+            "fatContent": "13.5 g",
+            "fiberContent": "0.3 g",
+            "proteinContent": "2.7 g",
+            "saturatedFatContent": "7.6 g",
+            "servingSize": null,
+            "sodiumContent": "29.1 mg",
+            "sugarContent": "9.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-04-22T07:52:58.933Z",
+                "reviewBody": "I made two changes to this recipe. I used trivia instead of sugar and I used a vanilla bean instead of vanilla bean paste. Not very sweet but very refreshing and tasty.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Yoly",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/cookingbikerchick/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,103 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/285507/fried-mushrooms/",
+        "name": "Fried Mushrooms",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Fried Mushrooms"
+        },
+        "datePublished": "2011-05-09T22:38:04.000Z",
+        "description": "I grew up eating these fried mushrooms and they always bring up great memories of growing up in Zimbabwe. Here is my mom's recipe, it makes a great snack!",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H30M",
+        "totalTime": "P0DT0H45M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "1 cup all-purpose flour",
+            "\u00bd cup cornstarch",
+            "\u00be teaspoon baking powder",
+            "\u00bc teaspoon garlic salt",
+            "1 cup water",
+            "1 (10 ounce) package whole fresh mushrooms",
+            "2 cups panko bread crumbs",
+            "2 cups vegetable oil for frying, or as needed"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Mix flour, cornstarch, baking powder, and garlic salt together in a large bowl. Add water and mix until batter is smooth.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Dip mushrooms into the batter and coat evenly. Allow excess batter to drip off. Roll mushrooms in bread crumbs until thoroughly coated.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat oil in a deep-fryer or large saucepan to 365 degrees F (185 degrees C).\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Deep-fry mushrooms in batches until golden brown. Drain on paper towels.\n"
+            }
+        ],
+        "recipeCategory": [],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "drcook"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Fried Mushrooms",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "192 calories",
+            "carbohydrateContent": "27.3 g",
+            "cholesterolContent": null,
+            "fatContent": "7.7 g",
+            "fiberContent": "1.1 g",
+            "proteinContent": "3.6 g",
+            "saturatedFatContent": "1 g",
+            "servingSize": null,
+            "sodiumContent": "141.4 mg",
+            "sugarContent": "0.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

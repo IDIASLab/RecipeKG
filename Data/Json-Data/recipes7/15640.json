@@ -1,0 +1,130 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/143/breakfast-and-brunch/drinks/",
+                    "name": "Drinks",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/257584/chef-vs-smoothie-bowl/",
+        "name": "Chef V's Smoothie Bowl",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4495389.jpg",
+            "width": 2485,
+            "height": 2457
+        },
+        "datePublished": "2020-06-19T04:20:41.000Z",
+        "description": "A delightful and healthy smoothie bowl. Great for breakfast on a hot day or an afternoon snack. I garnish mine with coconut chips, extra fruit, and sometimes granola. Fresh fruit can be used in place of frozen; add 1 cup of ice for blending.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "1 smoothie bowl",
+        "recipeIngredient": [
+            "\u00bd cup low-fat Greek yogurt",
+            "\u2153 cup coconut water",
+            "\u00bc cup frozen strawberries",
+            "\u00bc cup frozen peaches",
+            "\u00bc cup frozen mango chunks",
+            "\u00bd banana, chopped",
+            "2 tablespoons chia seeds, divided"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine yogurt, coconut water, strawberries, peaches, mango, banana, and 1 tablespoon chia seeds in a blender; blend until smooth. Pour smoothie into a bowl and top with remaining 1 tablespoon chia seeds.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Drinks"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Chef V"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Chef V's Smoothie Bowl",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "235.4 calories",
+            "carbohydrateContent": "32.5 g",
+            "cholesterolContent": "5.7 mg",
+            "fatContent": "7.4 g",
+            "fiberContent": "8.8 g",
+            "proteinContent": "13.5 g",
+            "saturatedFatContent": "2.4 g",
+            "servingSize": null,
+            "sodiumContent": "126 mg",
+            "sugarContent": "15.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-03-29T23:26:59.74Z",
+                "reviewBody": "I used Silk coconut milk because I realized I was out of coconut water after I had started making the smoothie bowl. I actually got two nice sized servings instead of one. Very good will make again.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Yoly",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/cookingbikerchick/"
+                }
+            }
+        ]
+    }
+]

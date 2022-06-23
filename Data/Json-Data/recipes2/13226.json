@@ -1,0 +1,149 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1199/drinks/hot-chocolate/",
+                    "name": "Hot Chocolate Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/257236/heavenly-drinkable-chocolate/",
+        "name": "Heavenly Drinkable Chocolate",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4693587.jpg",
+            "width": 2853,
+            "height": 2851
+        },
+        "datePublished": "2018-01-23T02:32:42.000Z",
+        "description": "This is the most divine indulgence of velvety smooth melted chocolate with a hint of spice that you drink from a cup... You deserve this! Optional: Add a dollop of chilled freshly whipped cream and a light sprinkle of cayenne to make it look pretty.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "\u00bd cup whole milk",
+            "\u00bc cup chopped dark chocolate",
+            "\u00bc cup chopped milk chocolate (such as Dairy Milk)",
+            "3 pinches ground ginger",
+            "1 pinch cayenne pepper, or more to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Pour milk into a double boiler over simmering water; heat until hot and steaming. Reduce heat to very low. Add dark chocolate and milk chocolate bit by bit, whisking gently to melt into the milk. Add ginger and cayenne once chocolate is velvety smooth with no unmelted bits.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour melted chocolate into espresso cups or other small-sized cups. Wipe steam off the bottom of the pan to prevent it from dripping into the cups as you pour.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Hot Chocolate Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "CoachJen"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.666666666666667,
+            "ratingCount": 3,
+            "itemReviewed": "Heavenly Drinkable Chocolate",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "121.3 calories",
+            "carbohydrateContent": "13.4 g",
+            "cholesterolContent": "5.5 mg",
+            "fatContent": "7.1 g",
+            "fiberContent": "1 g",
+            "proteinContent": "2 g",
+            "saturatedFatContent": "2.7 g",
+            "servingSize": null,
+            "sodiumContent": "18 mg",
+            "sugarContent": "11.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-12-15T01:38:48.553Z",
+                "reviewBody": "This is pretty good. I added extra cayenne. I also opted for the whipped cream and cayenne on top. Thank you for the recipe.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Buckwheat Queen",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/melaniegiovenzana/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2018-10-19T03:29:00.1Z",
+                "reviewBody": "Dying cause",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Robert Hartman",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/15662080/"
+                }
+            }
+        ]
+    }
+]

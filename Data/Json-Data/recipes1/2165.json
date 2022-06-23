@@ -1,0 +1,149 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/367/desserts/pies/",
+                    "name": "Pies",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/2411/desserts/pies/pecan-pie/",
+                    "name": "Pecan Pie Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/12336/cathys-pecan-pie/",
+        "name": "Cathy's Pecan Pie",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Cathy's Pecan Pie"
+        },
+        "datePublished": "1998-07-26T03:40:39.000Z",
+        "description": "It is a very easy pie to make.",
+        "prepTime": null,
+        "cookTime": null,
+        "totalTime": null,
+        "recipeYield": "1 - 9 inch pie",
+        "recipeIngredient": [
+            "4 eggs",
+            "1 cup corn syrup   ",
+            "4 (1 gram) packets granulated artificial sweetener",
+            "2 tablespoons dry milk powder",
+            "\u00bc cup butter",
+            "1\u2009\u00bd cups chopped pecans",
+            "1 tablespoon wheat germ"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Mix syrup, sugar substitute and butter in saucepan; bring to rolling boil 3-4 minutes.  Beat whole eggs until thick.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Fold in wheat germ and powdered milk.  Pour hot syrup into egg mixture.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Spread pecans in unbaked pie shell.  Pour syrup mixture over pecans.  Bake 25-30 minutes at 400 degrees F (205 degrees C).\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Pies",
+            "Pecan Pie Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Cathy"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.5,
+            "ratingCount": 2,
+            "itemReviewed": "Cathy's Pecan Pie",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "348.5 calories",
+            "carbohydrateContent": "33.9 g",
+            "cholesterolContent": "108.6 mg",
+            "fatContent": "23 g",
+            "fiberContent": "2.1 g",
+            "proteinContent": "6.4 g",
+            "saturatedFatContent": "5.7 g",
+            "servingSize": null,
+            "sodiumContent": "86.8 mg",
+            "sugarContent": "2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2004-01-21T02:54:26.123Z",
+                "reviewBody": "Tasted good! Be warned it is technically \"lower in sugar \" but it contains a cup of corn syrup-- that stuff is another form of sugar and just as bad for you as regular sugar.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "ARUBAFORLIFE",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/958304/"
+                }
+            }
+        ]
+    }
+]

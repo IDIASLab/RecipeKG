@@ -1,0 +1,148 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/227/world-cuisine/asian/",
+                    "name": "Asian",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/247323/grilled-lemongrass-chicken/",
+        "name": "Grilled Lemongrass Chicken",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4482822.jpg",
+            "width": 2099,
+            "height": 2328
+        },
+        "datePublished": "2020-06-19T04:07:00.000Z",
+        "description": "Fragrant lemongrass chicken grilled on a stick. Serve with vermicelli noodle salad.",
+        "prepTime": "P0DT0H30M",
+        "cookTime": "P0DT0H4M",
+        "totalTime": "P0DT1H34M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "1 shallot, minced",
+            "2 stalks lemongrass, peeled and chopped",
+            "1 Thai bird's eye chile pepper, seeded and chopped",
+            "1 clove garlic, chopped",
+            "1 teaspoon grated ginger",
+            "1 tablespoon fish sauce",
+            "1 tablespoon vegetable oil",
+            "1 tablespoon white sugar",
+            "1\u2009\u00bd teaspoons oyster sauce",
+            "1 pound skinless, boneless chicken breasts, cut into thin strips",
+            "skewers"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Pound shallot, lemongrass, chile pepper, garlic, and ginger into a coarse paste in a mortar and pestle. Mix in fish sauce, vegetable oil, sugar, and oyster sauce.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place chicken strips in a large resealable plastic bag; add paste and toss to coat. Let chicken marinate in the refrigerator, at least 1 hour.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Preheat an outdoor grill for medium-high heat and lightly oil the grate.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Thread marinated chicken onto skewers. Grill until chicken is golden brown, 2 to 4 minutes per side.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Asian"
+        ],
+        "recipeCuisine": [
+            "Asian"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Frankie"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 2,
+            "ratingCount": 1,
+            "itemReviewed": "Grilled Lemongrass Chicken",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "194 calories",
+            "carbohydrateContent": "9.3 g",
+            "cholesterolContent": "64.6 mg",
+            "fatContent": "6.2 g",
+            "fiberContent": "0.3 g",
+            "proteinContent": "24.5 g",
+            "saturatedFatContent": "1.3 g",
+            "servingSize": null,
+            "sodiumContent": "346.6 mg",
+            "sugarContent": "4.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-03-10T02:15:08.623Z",
+                "reviewBody": "I used a dried stalk of lemongrass instead of fresh as that is what I had on hand. I also omitted the pepper. I left it marinating for a few hours before grilling. This didn't do it for us though I enjoyed the method. Slice your chicken a bit thicker instead of thinner - it'll stay on the skewer better.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 2
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Arizona Desert Flower",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/arizonadesertflower/"
+                }
+            }
+        ]
+    }
+]

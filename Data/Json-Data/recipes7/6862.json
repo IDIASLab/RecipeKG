@@ -1,0 +1,163 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/251/main-dish/sandwiches/",
+                    "name": "Sandwich Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1030/main-dish/sandwiches/pork/",
+                    "name": "Pork",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/222143/healthier-bbq-pork-for-sandwiches/",
+        "name": "Healthier BBQ Pork for Sandwiches",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F881634.jpg",
+            "width": 3264,
+            "height": 2448
+        },
+        "datePublished": "2020-06-19T03:49:03.000Z",
+        "description": "This meat is so good for sandwiches. I like to add a little fiber to it with some carrots and cut out some sugar by using mesquite sauce.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT4H30M",
+        "totalTime": "P0DT4H45M",
+        "recipeYield": "12 servings",
+        "recipeIngredient": [
+            "1 (14 ounce) can beef broth",
+            "3 pounds boneless pork ribs",
+            "1 cup shredded carrot",
+            "4\u2009\u00bd fluid ounces barbeque sauce",
+            "4\u2009\u00bd ounces mesquite sauce"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Pour beef broth into slow cooker and add pork ribs. Cook on High until meat shreds easily, about 4 hours. Remove meat and shred with two forks.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Preheat oven to 350 degrees F (175 degrees C). Transfer shredded pork to a Dutch oven or skillet and stir in carrots, barbecue sauce, and mesquite sauce.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in preheated oven until heated through, about 30 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Sandwich Recipes",
+            "Pork"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "MakeItHealthy"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 2,
+            "itemReviewed": "Healthier BBQ Pork for Sandwiches",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "322.4 calories",
+            "carbohydrateContent": "7.6 g",
+            "cholesterolContent": "82.9 mg",
+            "fatContent": "18.1 g",
+            "fiberContent": "0.3 g",
+            "proteinContent": "30.3 g",
+            "saturatedFatContent": "7 g",
+            "servingSize": null,
+            "sodiumContent": "541.1 mg",
+            "sugarContent": "6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2012-08-29T17:27:26.71Z",
+                "reviewBody": "So good and yet so easy! Left out the carrots because I didn't have any in the house. Makes great sandwiches. You could also use beef for this and it would be delicious!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Tracey Ferrari Posner",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/6476442/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2015-07-11T02:33:05.88Z",
+                "reviewBody": "Followed this recipe exactly. It was very dry. There may be too much beef broth in this recipe as it almost looked like a soup when done. I won't be making this again.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "GRINGORN",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/1324215/"
+                }
+            }
+        ]
+    }
+]

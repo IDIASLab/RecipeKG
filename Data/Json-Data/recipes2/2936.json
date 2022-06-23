@@ -1,0 +1,110 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17100/desserts/frostings-and-icings/",
+                    "name": "Frostings and Icings",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/242033/pistachio-frosting/",
+        "name": "Pistachio Frosting",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7698308.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2015-04-09T22:35:49.000Z",
+        "description": "This pistachio frosting is creamy and delicious.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": null,
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "12 servings",
+        "recipeIngredient": [
+            "2 (8 ounce) packages cream cheese, softened",
+            "1 cup confectioners' sugar",
+            "\u00bd cup cold milk, or more as needed",
+            "1 (1 ounce) package instant sugar-free pistachio pudding mix",
+            "1 cup frozen whipped topping (such as Cool Whip\u00ae), thawed"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Beat cream cheese in a bowl with an electric mixer until smooth and creamy, about 3 minutes. Gradually beat confectioners' sugar into cream cheese. Beat in pudding mix; add milk until desired consistency is reached. Fold in whipped topping.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Frostings and Icings"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Laura Yessenia Kissel"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Pistachio Frosting",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "204.8 calories",
+            "carbohydrateContent": "15.1 g",
+            "cholesterolContent": "41.9 mg",
+            "fatContent": "14.8 g",
+            "fiberContent": null,
+            "proteinContent": "3.2 g",
+            "saturatedFatContent": "9.7 g",
+            "servingSize": null,
+            "sodiumContent": "211 mg",
+            "sugarContent": "12.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

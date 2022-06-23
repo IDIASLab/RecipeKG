@@ -1,0 +1,105 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1642/everyday-cooking/",
+                    "name": "Everyday Cooking",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1227/everyday-cooking/vegan/",
+                    "name": "Vegan",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/261746/vegan-parmesan-cheese/",
+        "name": "Vegan Parmesan Cheese",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4589936.jpg",
+            "width": 960,
+            "height": 960
+        },
+        "datePublished": "2017-11-29T03:47:05.000Z",
+        "description": "When I started eating vegan, one of the hardest was finding a substitute for cheese and especially Parmesan cheese. After experimenting a lot, I came up with this Parmesan alternative. Store in the refrigerator to keep fresh.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "2 cups",
+        "recipeIngredient": [
+            "1 cup nutritional yeast",
+            "1 cup sesame seeds"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine nutritional yeast and sesame seeds in a spice grinder and grind very finely.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Everyday Cooking",
+            "Vegan"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "k\u00f6rnermamsell"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Vegan Parmesan Cheese",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "38.2 calories",
+            "carbohydrateContent": "2.3 g",
+            "cholesterolContent": null,
+            "fatContent": "2.4 g",
+            "fiberContent": "1.5 g",
+            "proteinContent": "2.8 g",
+            "saturatedFatContent": "0.3 g",
+            "servingSize": null,
+            "sodiumContent": "1.7 mg",
+            "sugarContent": null,
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

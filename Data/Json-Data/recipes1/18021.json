@@ -1,0 +1,142 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/133/drinks/cocktails/",
+                    "name": "Cocktail Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/14933/drinks/cocktails/margaritas/",
+                    "name": "Margarita Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/281874/classic-margarita/",
+        "name": "Classic Margarita",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8647441.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2012-05-28T19:24:58.000Z",
+        "description": "This classic margarita can be served frozen or on the rocks.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "1 serving",
+        "recipeIngredient": [
+            "1 teaspoon coarse salt, or as needed",
+            "1 wedge lime",
+            "1 cup ice cubes",
+            "1\u2009\u00bd fluid ounces tequila",
+            "1 fluid ounce triple sec",
+            "1 medium lime, juiced",
+            "1 teaspoon white sugar, or more to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place a small layer of salt on a small plate. Rub the rim of a glass with lime wedge, then dip the rim in salt to coat.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine ice, tequila, triple sec, lime juice, and sugar in a blender; blend on the highest setting until slushy, 15 to 20 seconds. Pour into the prepared glass.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Cocktail Recipes",
+            "Margarita Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Patrick Washburn"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Classic Margarita",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "242.2 calories",
+            "carbohydrateContent": "25 g",
+            "cholesterolContent": null,
+            "fatContent": "0.2 g",
+            "fiberContent": "2 g",
+            "proteinContent": "0.5 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "1930.3 mg",
+            "sugarContent": "17.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-10-19T01:08:39.353Z",
+                "reviewBody": "Excellent balance of flavors - just how I like my margaritas, tart and not overly sweet! I made mine 'on the rocks' as noted in the cook's notes, since I don't care for frozen drinks. I wouldn't change a thing! Some may want to add more sugar, but it was perfect for me.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "France C",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/francecevallos/"
+                }
+            }
+        ]
+    }
+]

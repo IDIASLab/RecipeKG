@@ -1,0 +1,39 @@
+@prefix ns1: <http://purl.org/heals/food/> .
+@prefix ns2: <http://purl.org/recipekg/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/easy-frozen-margaritas> a schema:Recipe ;
+    ns1:hasIngredient [ ],
+        [ a <http://purl.org/recipekg/ingredient/Cointreau> ;
+            ns2:hasQuantity "1/4" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "Cointreau" ],
+        [ a <http://purl.org/heals/ingredient/Salt> ;
+            ns2:ingredientName "salt" ],
+        [ a <http://purl.org/recipekg/ingredient/LimeadeConcentrate> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "can" ;
+            ns2:ingredientName "limeade concentrate" ],
+        [ a <http://purl.org/recipekg/ingredient/Lime> ;
+            ns2:ingredientName "lime" ],
+        [ a <http://purl.org/recipekg/ingredient/Tequila> ;
+            ns2:hasQuantity "12" ;
+            ns2:ingredientName "tequila" ] ;
+    ns2:belongsTo <http://purl.org/recipekg/categories/world-cuisine/latin-american/mexican/> ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 72 ;
+            schema:ratingValue "4.902777777777778"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2018-06-08T13:24:37.000Z"^^schema:date ;
+    schema:name "Easy Frozen Margaritas"^^xsd:string ;
+    schema:recipeYield "8 6-ounce drinks"^^xsd:string .
+
+<http://purl.org/recipekg/categories/world-cuisine/> a ns2:RecipeCategory .
+
+<http://purl.org/recipekg/categories/world-cuisine/latin-american/> rdfs:subClassOf <http://purl.org/recipekg/categories/world-cuisine/> .
+
+<http://purl.org/recipekg/categories/world-cuisine/latin-american/mexican/> rdfs:subClassOf <http://purl.org/recipekg/categories/world-cuisine/latin-american/> .
+

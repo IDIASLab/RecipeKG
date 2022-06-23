@@ -1,0 +1,158 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/226/world-cuisine/african/",
+                    "name": "African",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/276242/tunisian-pasta-with-lentils-hlalem/",
+        "name": "Tunisian Pasta with Lentils (Hlalem)",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5305419.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2019-10-06T21:37:01.000Z",
+        "description": "A hearty vegetarian Tunisian dish of pasta with lentils that is satisfying and delicious.",
+        "prepTime": "P0DT0H20M",
+        "cookTime": "P0DT0H25M",
+        "totalTime": "P0DT1H15M",
+        "recipeYield": "8 servings",
+        "recipeIngredient": [
+            "1 tablespoon olive oil, or as needed",
+            "1 large onion, chopped",
+            "1 large carrot, grated",
+            "3 cloves garlic, crushed",
+            "1 (28 ounce) can crushed tomatoes",
+            "4 cups cold water",
+            "1 (19 ounce) can lentils, drained and rinsed",
+            "1 teaspoon paprika",
+            "1 teaspoon ground cumin",
+            "1 teaspoon salt",
+            "\u00bc teaspoon ground black pepper",
+            "1 (16 ounce) package spaghetti, broken into 1 1/2-inch pieces"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat oil in a large pot over medium heat. Saute onion, carrot, and garlic in the hot oil until soft, about 5 minutes. Add tomatoes, reduce heat to low, and continue to cook until carrots and onions are mushy, about 10 minutes. Stir in water, lentils, paprika, cumin, salt, and pepper; bring to a boil over high heat, about 5 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Stir in pasta and bring to a boil once more, about 5 minutes. Cover the pot, turn off heat, and leave on the burner. Let sit for 15 minutes. Stir, cover again, and let sit until pasta is tender yet firm to the bite, about 15 minutes more. Stir and serve.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "African"
+        ],
+        "recipeCuisine": [
+            "African"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Tina Kauffman"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Tunisian Pasta with Lentils (Hlalem)",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "320.6 calories",
+            "carbohydrateContent": "61.1 g",
+            "cholesterolContent": null,
+            "fatContent": "3 g",
+            "fiberContent": "9.1 g",
+            "proteinContent": "13.5 g",
+            "saturatedFatContent": "0.5 g",
+            "servingSize": null,
+            "sodiumContent": "512.4 mg",
+            "sugarContent": "3.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-02-28T01:56:50.793Z",
+                "reviewBody": "No change perfect this way.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Sandra Gehrman",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3922401/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2020-05-21T08:18:22.75Z",
+                "reviewBody": "very tasty and quite easy to make!!  I couldn't find canned lentils, so just cooked some up instead.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "StuartEldridge",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/11294631/"
+                }
+            }
+        ]
+    }
+]

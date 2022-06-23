@@ -1,0 +1,153 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1642/everyday-cooking/",
+                    "name": "Everyday Cooking",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/87/everyday-cooking/vegetarian/",
+                    "name": "Vegetarian",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/264/everyday-cooking/vegetarian/side-dishes/",
+                    "name": "Side Dishes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/236194/tempeh-bacon/",
+        "name": "Tempeh Bacon",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4981998.jpg",
+            "width": 2526,
+            "height": 2528
+        },
+        "datePublished": "2014-01-16T01:39:03.000Z",
+        "description": "Easiest way to prepare tempeh. Pile it on a BLT (or, more accurately, a TLT).  Even non-vegetarians will (maybe) like this. Soy sauce can be used in place of tamari if desired. Stores well in a covered container in the refrigerator.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "1 tablespoon vegetable oil, or more as needed",
+            "1 (8 ounce) package tempeh, cut into 1/8-inch thick strips",
+            "2 dashes tamari, or more to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat oil in a skillet over medium heat. Cook tempeh in the hot oil until browned, 2 to 3 minutes per side. Drizzle tamari over cooked tempeh.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Everyday Cooking",
+            "Vegetarian",
+            "Side Dishes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Mary"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 2.5,
+            "ratingCount": 2,
+            "itemReviewed": "Tempeh Bacon",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "138.5 calories",
+            "carbohydrateContent": "5.3 g",
+            "cholesterolContent": null,
+            "fatContent": "9.5 g",
+            "fiberContent": null,
+            "proteinContent": "10.4 g",
+            "saturatedFatContent": "1.8 g",
+            "servingSize": null,
+            "sodiumContent": "33 mg",
+            "sugarContent": null,
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-01-12T02:16:26.617Z",
+                "reviewBody": "This is good. I used a pastry brush to spread the tamari sauce evenly. I think adding a couple of drops of liquid smoke would give it more of a bacon flavor. I added a few dashes of bitters and that upped the flavor a bit. Thank you for the recipe.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Buckwheat Queen",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/melaniegiovenzana/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2020-06-30T06:06:12.887Z",
+                "reviewBody": "There are more tempeh bacon recipes than there are stars in the Sky.  This one is the worst.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 1
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Melissa Churchill",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/1621501/"
+                }
+            }
+        ]
+    }
+]

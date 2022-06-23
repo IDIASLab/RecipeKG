@@ -1,0 +1,152 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/227/world-cuisine/asian/",
+                    "name": "Asian",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/233/world-cuisine/asian/indian/",
+                    "name": "Indian",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/274035/tandoori-chicken-breast/",
+        "name": "Tandoori Chicken Breast",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6762788.jpg",
+            "width": 3014,
+            "height": 3014
+        },
+        "datePublished": "2019-06-07T02:28:25.000Z",
+        "description": "Low-cal and flavorful. Goes well with brown rice, roasted eggplant, cauliflower, and a green salad.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H25M",
+        "totalTime": "P0DT4H35M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "2 tablespoons tandoori masala powder",
+            "1 teaspoon onion powder",
+            "1 teaspoon garlic powder",
+            "\u00bd teaspoon ground ginger",
+            "\u00bd teaspoon amchur powder",
+            "\u00bd teaspoon cayenne pepper, or to taste",
+            "1\u2009\u00bd pounds chicken breasts",
+            "\u00bd cup whole-milk buttermilk"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine tandoori masala, onion powder, garlic powder, ginger, amchur powder, and cayenne pepper in a bowl. Rub mixture onto chicken breasts and coat with buttermilk in a bowl. Cover and let marinate in the refrigerator, 4 hours to overnight.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Preheat the oven to 400 degrees F (200 degrees C). Remove chicken from marinade and arrange over a greased or lined sheet pan. Discard any extra marinade.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Roast chicken in the preheated oven until no longer pink in the center and an instant-read thermometer inserted into the center reads at least 160 degrees F (71 degrees C), 25 to 30 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Asian",
+            "Indian"
+        ],
+        "recipeCuisine": [
+            "Asian",
+            "Indian"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "vpecchia"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 1,
+            "itemReviewed": "Tandoori Chicken Breast",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "153.4 calories",
+            "carbohydrateContent": "3.2 g",
+            "cholesterolContent": "66.7 mg",
+            "fatContent": "3.8 g",
+            "fiberContent": "0.9 g",
+            "proteinContent": "24.5 g",
+            "saturatedFatContent": "1.3 g",
+            "servingSize": null,
+            "sodiumContent": "82 mg",
+            "sugarContent": "0.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-06-23T06:44:44.617Z",
+                "reviewBody": "I made this as directed. My chicken breasts were pretty big (2 breasts equaled 1-1/2 lbs) and they took close to an hour to reach an internal temp of 165 degrees. We thought this was just OK. Not something that I'd make again.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Kim's Cooking Now",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/kimscookingnow/"
+                }
+            }
+        ]
+    }
+]

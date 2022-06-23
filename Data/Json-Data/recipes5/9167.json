@@ -1,0 +1,125 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/257389/chocolate-overload-smores/",
+        "name": "Chocolate Overload S'mores",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5030307.jpg",
+            "width": 3629,
+            "height": 2721
+        },
+        "datePublished": "2019-08-30T06:00:02.000Z",
+        "description": "S'mores are a way of life for my family. We are always looking for a new way to enjoy them while camping. This variation is one of our favorites. If you have a sweet tooth for chocolate and an average s'more just won't cut it, this one definitely will!",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H1M",
+        "totalTime": "P0DT0H7M",
+        "recipeYield": "1 serving",
+        "recipeIngredient": [
+            "1 tablespoon chocolate-hazelnut spread (such as Nutella\u00ae)",
+            "2 chocolate chip cookies",
+            "1 tablespoon chocolate sprinkles",
+            "1 marshmallow"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Spread chocolate-hazelnut spread on the underside of each chocolate chip cookie. Cover with chocolate sprinkles.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place marshmallow on a stick and heat over an open campfire flame until it begins to brown and melt, 1 to 2 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Sandwich the marshmallow between the cookies. Let marshmallow cool briefly before eating, 1 to 2 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Faith N"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Chocolate Overload S'mores",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "300.8 calories",
+            "carbohydrateContent": "42.6 g",
+            "cholesterolContent": "0.1 mg",
+            "fatContent": "14 g",
+            "fiberContent": "0.8 g",
+            "proteinContent": "2.9 g",
+            "saturatedFatContent": "2.7 g",
+            "servingSize": null,
+            "sodiumContent": "106.8 mg",
+            "sugarContent": "22.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-01-21T09:41:29.587Z",
+                "reviewBody": "We LOVED these! I totally forgot the sprinkles so I will have to add those next time. As you will see in my pic the kids went crazy for them...a definite keeper YUM!!!!! Thanks for sharing.:)",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Christina",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/christina/"
+                }
+            }
+        ]
+    }
+]

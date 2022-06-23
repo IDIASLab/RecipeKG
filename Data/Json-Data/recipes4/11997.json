@@ -1,0 +1,164 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/145/breakfast-and-brunch/cereals/",
+                    "name": "Cereals",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/71752/jelly-cheese-porridge/",
+        "name": "Jelly-Cheese Porridge",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F351716.jpg",
+            "width": 250,
+            "height": 250
+        },
+        "datePublished": "2019-04-04T03:32:24.000Z",
+        "description": "Cornmeal is simmered in a thick pudding sweetened with maple syrup. I'm not sure where this recipe came from, my mother would make it for us before school on cold winter days.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H40M",
+        "totalTime": "P0DT0H45M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "2\u2009\u00bd cups water",
+            "1 cup cornmeal",
+            "1 cup water",
+            "\u00bc cup maple syrup, or more to taste",
+            "\u00bd teaspoon ground cinnamon",
+            "\u00bc cup cottage cheese",
+            "2 tablespoons grape jelly"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "In a saucepan, bring 2 1/2 cups of water to a boil. In a small bowl, stir together the remaining water and cornmeal. When the water boils, gradually add the cornmeal mixture so that the water stays at a boil. Cook, stirring frequently to prevent lumps, for 30 to 40 minutes. Mix in the maple syrup and cinnamon, adjusting to taste if desired. Spoon into bowls to serve and top with cottage cheese and grape jelly.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Cereals"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "PEPPERMYNTS"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.5,
+            "ratingCount": 4,
+            "itemReviewed": "Jelly-Cheese Porridge",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "218.9 calories",
+            "carbohydrateContent": "47.6 g",
+            "cholesterolContent": "2.1 mg",
+            "fatContent": "1.3 g",
+            "fiberContent": "1.5 g",
+            "proteinContent": "4.3 g",
+            "saturatedFatContent": "0.5 g",
+            "servingSize": null,
+            "sodiumContent": "65.6 mg",
+            "sugarContent": "18.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2010-02-16T23:44:22.47Z",
+                "reviewBody": "I had never sweetened my corn meal mush before. This tasted good with the all fruit grape jelly on top of Greek yogurt (I didn't have any cottage cheese).",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "sueb",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2719400/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2009-06-01T16:56:28.257Z",
+                "reviewBody": "This recipe was more labor intensive than some of my entrees. This MIGHT work with oatmeal but not cornmeal.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 1
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Will VanHook",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3726322/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2011-12-16T14:04:07.673Z",
+                "reviewBody": "This is good. My son hates oatmeal but loves this. I made it today with milk and used ricotta cheese in the topping which made it a little more luxurious. I have seen an Italian recipe in a magazine for sweet polenta with milk (polenta cremosa con latte freddo). Both this recipe and the polenta recipe call for 45 min cooking times. However I am usually running late in the morning- I don't know if these recipes are using a coarser ground cornmeal but I have gotten away with bringing to a boil and simmering maybe 5 min and it is smooth and creamy.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "aijj",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/8371218/"
+                }
+            }
+        ]
+    }
+]

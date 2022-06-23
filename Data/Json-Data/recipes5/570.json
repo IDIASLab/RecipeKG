@@ -1,0 +1,128 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/81/side-dish/",
+                    "name": "Side Dish",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/224/side-dish/rice/",
+                    "name": "Rice Side Dish Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/272602/coconut-water-rice/",
+        "name": "Coconut Water Rice",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F491340.jpg",
+            "width": 250,
+            "height": 250
+        },
+        "datePublished": "2019-04-06T05:54:24.000Z",
+        "description": "This is a better version of your everyday, regular white rice. It has a nice flavor to it. Follow the directions exactly, and you'll always get fluffy rice.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H20M",
+        "totalTime": "P0DT0H25M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "2 cups uncooked long-grain rice",
+            "2 cups coconut water (such as Goya\u00ae) ",
+            "1 cup water",
+            "1 tablespoon olive oil",
+            "1 teaspoon salt"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine rice, coconut water, water, olive oil, and salt in a saucepan. Bring to a boil; reduce to simmer and cook, covered, until liquid is absorbed, about 15 minutes. Do not lift the lid while rice is cooking. Fluff with a fork.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Side Dish",
+            "Rice Side Dish Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "sandra007"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Coconut Water Rice",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "260.2 calories",
+            "carbohydrateContent": "52.3 g",
+            "cholesterolContent": null,
+            "fatContent": "2.8 g",
+            "fiberContent": "1.7 g",
+            "proteinContent": "5 g",
+            "saturatedFatContent": "0.6 g",
+            "servingSize": null,
+            "sodiumContent": "475.9 mg",
+            "sugarContent": "0.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-04-26T00:49:00.12Z",
+                "reviewBody": "I've made a version of this rice with coconut water in place of tap and it is so delicous! If you're eating rice with a curry or a stirfry you should definitely make this but if you're eating the rice plain some might not (I like it plain!) enjoy it as much. Some of my family members disliked it so it really is a matter of taste! Thanks submitter!!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Briellephant",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/24366663/"
+                }
+            }
+        ]
+    }
+]

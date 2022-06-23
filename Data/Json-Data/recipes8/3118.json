@@ -1,0 +1,153 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/237/world-cuisine/latin-american/",
+                    "name": "Latin American",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/728/world-cuisine/latin-american/mexican/",
+                    "name": "Mexican",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/260317/vegan-potato-soy-chorizo-tacos/",
+        "name": "Vegan Potato Soy Chorizo Tacos",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4574624.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2020-06-23T21:52:26.000Z",
+        "description": "This is a vegan version of popular Mexican tacos made are traditionally made with potatoes and pork chorizo that are deep fried, but I prefer this healthier version where you just heat the tortillas on the griddle with a very small amount of oil until they are crispy.  [Recipe originally submitted to Allrecipes.com.mx]",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H43M",
+        "totalTime": "P0DT0H53M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "2 pounds Yukon Gold potatoes, peeled",
+            "salt and ground black pepper to taste",
+            "2 tablespoons vegetable oil, divided",
+            "12 ounces soy chorizo, crumbled",
+            "12 (6 inch) corn tortillas"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place potatoes in a large pot and cover with salted water; bring to a boil. Cook, covered, until potatoes are easily pierced with a knife, about 30 minutes. Drain, reserving 1 cup cooking water.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Transfer boiled potatoes to a bowl and season with salt and pepper. Mash with a potato masher, adding reserved cooking water to reach desired consistency.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat 1 tablespoon oil in a large skillet. Cook soy chorizo for 5 minutes. Add mashed potatoes and mix well.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat tortillas on a hot griddle over medium heat to soften them. Fill them with equal amounts of potato-chorizo mixture. Fold them in half and brush the outside of the tortillas with the remaining 1 tablespoon oil. Place tacos on the hot griddle and cook, turning once, until crisp, 3 to 5 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Latin American",
+            "Mexican"
+        ],
+        "recipeCuisine": [
+            "Latin American",
+            "Mexican"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "gem"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Vegan Potato Soy Chorizo Tacos",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "596.6 calories",
+            "carbohydrateContent": "85.2 g",
+            "cholesterolContent": null,
+            "fatContent": "21.2 g",
+            "fiberContent": "12.3 g",
+            "proteinContent": "22.2 g",
+            "saturatedFatContent": "3.9 g",
+            "servingSize": null,
+            "sodiumContent": "961.9 mg",
+            "sugarContent": "2.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-10-29T21:31:18.047Z",
+                "reviewBody": "Excellent! I've never had any luck in folding corn tortilla's without them tearing in half so I used mini tortilla's and piled it all on top instead. These came out really good and the tortilla's crisped up real nice. Doing them the way I did them I was afraid they would be soft and just fall apart when we went to pick them up but they held together like a pro. Thanks for sharing this healthier version!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

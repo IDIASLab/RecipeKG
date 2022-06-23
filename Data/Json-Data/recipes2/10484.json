@@ -1,0 +1,144 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/219/salad/vegetable-salads/",
+                    "name": "Vegetable Salad Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/200575/who-needs-lettuce-salad/",
+        "name": "'Who Needs Lettuce?' Salad",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F934107.jpg",
+            "width": 250,
+            "height": 250
+        },
+        "datePublished": "2017-06-21T13:02:13.000Z",
+        "description": "Great as a side dish with steak or chicken.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "2 cups",
+        "recipeIngredient": [
+            "1 large avocado - peeled, pitted, and cut into 1/2-inch cubes",
+            "2 Roma tomatoes, cut into 1/2-inch cubes",
+            "\u00bc red onion, cut into 1/2-inch cubes",
+            "2 tablespoons red wine vinaigrette dressing"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Stir together the avocado, Roma tomatoes, red onion, and red wine vinaigrette dressing in a bowl.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad",
+            "Vegetable Salad Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Bellamie"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.75,
+            "ratingCount": 4,
+            "itemReviewed": "'Who Needs Lettuce?' Salad",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "174.2 calories",
+            "carbohydrateContent": "13.2 g",
+            "cholesterolContent": null,
+            "fatContent": "14 g",
+            "fiberContent": "7 g",
+            "proteinContent": "2.4 g",
+            "saturatedFatContent": "2 g",
+            "servingSize": null,
+            "sodiumContent": "162.4 mg",
+            "sugarContent": "4.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2009-07-07T23:40:21.793Z",
+                "reviewBody": "I love serving this as a side dish in the summer when the New Jersey tomatoes are in season. I always toss in some fresh basil from my garden and use balsamic vinegar in place of the red wine vinegar. So simple yet so delicious!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "KOALAGIRL",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/742713/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2012-12-09T22:45:35.877Z",
+                "reviewBody": "Delicious, simple but oh so good.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Baking Nana",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/bakingnana/"
+                }
+            }
+        ]
+    }
+]

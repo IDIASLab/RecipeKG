@@ -1,0 +1,149 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/151/breakfast-and-brunch/pancakes/",
+                    "name": "Pancake Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/16068/breakfast-and-brunch/pancakes/whole-grain-pancakes/",
+                    "name": "Whole Grain Pancake Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/260543/tasty-protein-pancakes/",
+        "name": "Tasty Protein Pancakes",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F9025163.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2018-06-08T14:45:20.000Z",
+        "description": "Pancakes that have loads of protein and yet taste great! Serve with either maple syrup or a spoonful of Greek yogurt with honey.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H2M",
+        "totalTime": "P0DT0H12M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "1 cup whole wheat flour",
+            "\u00bd teaspoon baking soda",
+            "\u00bd teaspoon ground cinnamon",
+            "\u00bc teaspoon salt",
+            "1 cup low-fat cottage cheese",
+            "\u00be cup low-fat milk",
+            "2 eggs",
+            "2 tablespoons vegetable oil"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Stir flour, baking soda, cinnamon, and salt together in a large bowl.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Whisk cottage cheese, milk, eggs, and oil together in a separate bowl. Pour into the flour mixture; whisk until batter is just combined; it will be thick.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat an oiled griddle over medium-high heat; when a water drop on the surface dances and sizzles, it's ready. Drop 1/4 cup batter onto the griddle. Cook until golden brown and bubbles break the surface, 1 to 2 minutes. Turn and cook until set, about 1 minute more. Repeat with remaining batter.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Pancake Recipes",
+            "Whole Grain Pancake Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "judykins"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Tasty Protein Pancakes",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "272.7 calories",
+            "carbohydrateContent": "26.4 g",
+            "cholesterolContent": "101.2 mg",
+            "fatContent": "11.9 g",
+            "fiberContent": "3.8 g",
+            "proteinContent": "16.5 g",
+            "saturatedFatContent": "3 g",
+            "servingSize": null,
+            "sodiumContent": "587.3 mg",
+            "sugarContent": "2.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-02-12T23:17:18.513Z",
+                "reviewBody": "Theae are good with some fruit on top. My batter wasn't very thick, just medium consistency. They spread out in the pan and wouldn't stay perfectly round. The cottage cheese burns slightly and gets very crispy on the outside and the edges, but that's OK because the edges were the best part.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Tammy Lynn",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3084624/"
+                }
+            }
+        ]
+    }
+]

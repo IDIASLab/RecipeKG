@@ -1,0 +1,145 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/237/world-cuisine/latin-american/",
+                    "name": "Latin American",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/728/world-cuisine/latin-american/mexican/",
+                    "name": "Mexican",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/270933/paloma-picante/",
+        "name": "Paloma Picante",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4562205.jpg",
+            "width": 2592,
+            "height": 1728
+        },
+        "datePublished": "2019-10-18T21:45:50.000Z",
+        "description": "My friends and I used to enjoy a similar drink at a local Mexican restaurant, but they suddenly stopped making it one day. I decided to try recreating it at home with delicious results! Perfect for a Mexican brunch!",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "1 serving",
+        "recipeIngredient": [
+            "1 pinch chili-lime seasoning (such as Tajin\u00ae)",
+            "ice",
+            "2 ounces habanero-infused tequila",
+            "1 lime wedge",
+            "5 ounces grapefruit-flavored soda (such as Fresca\u00ae)"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Rim a highball glass with chili-lime seasoning and fill halfway with ice.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine tequila, lime juice, and 1 cup ice in a cocktail shaker. Shake for 1 minute. Strain into the glass. Top with grapefruit soda.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Latin American",
+            "Mexican"
+        ],
+        "recipeCuisine": [
+            "Latin American",
+            "Mexican"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "France C"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Paloma Picante",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "189.2 calories",
+            "carbohydrateContent": "14.9 g",
+            "cholesterolContent": null,
+            "fatContent": null,
+            "fiberContent": "0.1 g",
+            "proteinContent": null,
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "205.6 mg",
+            "sugarContent": "14.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-03-05T23:50:34.027Z",
+                "reviewBody": "Recipe creator here....my preferred mixer is grapefruit Jarritos, found in the Hispanic section of your grocery store or international market.  Squirt or Fresca will do if you can't find Jarritos.   You can easily make a smaller amount of habanero-infused tequila in a small jar. Leave the pepper(s) til you're happy with the amount of heat. Don't forget the heat factor will mellow once mixed with the rest of the ingredients.  Enjoy!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "France C",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/francecevallos/"
+                }
+            }
+        ]
+    }
+]

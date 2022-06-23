@@ -1,0 +1,138 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/149/breakfast-and-brunch/french-toast/",
+                    "name": "French Toast Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/280407/bagel-french-toast/",
+        "name": "Bagel French Toast",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8234549.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-06-04T07:18:47.000Z",
+        "description": "Don't throw away your stale bagels! I've found that they make wonderful French toast.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H15M",
+        "totalTime": "P0DT0H50M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "\u00bd cup milk",
+            "2 large eggs",
+            "1 teaspoon vanilla extract",
+            "\u00bc teaspoon ground cinnamon",
+            "\u00bc teaspoon ground nutmeg",
+            "4 stale bagels, split",
+            "1 tablespoon powdered sugar, or to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Beat milk, eggs, vanilla extract, cinnamon, and nutmeg together in a large, flat container.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place bagels, insides-down, into the egg mixture. Let sit for 30 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat a large skillet over medium heat. Add bagel slices and cook, working in batches if needed, until browned on both sides, about 5 minutes. Sprinkle with powdered sugar and serve warm.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "French Toast Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Suzette Runyon"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 1,
+            "itemReviewed": "Bagel French Toast",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "219.4 calories",
+            "carbohydrateContent": "34.2 g",
+            "cholesterolContent": "95.4 mg",
+            "fatContent": "4.1 g",
+            "fiberContent": "1.4 g",
+            "proteinContent": "10.2 g",
+            "saturatedFatContent": "1.3 g",
+            "servingSize": null,
+            "sodiumContent": "352 mg",
+            "sugarContent": "3.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-06-14T19:04:45.007Z",
+                "reviewBody": "I cut the dipping mixture in half, which was really only enough for 1 bagel. Because bagels that are already split do not really have flat insides, the out edge was cooked before the inner edge towards the hole. For this reason, I suggest you use a spatula to press down and flatten the bagel while cooking. While this might be a good way to use up slightly stale bagels, I prefer regular french toast to this recipe. Probably would not make this again.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Kim's Cooking Now",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/kimscookingnow/"
+                }
+            }
+        ]
+    }
+]

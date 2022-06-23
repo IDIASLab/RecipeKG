@@ -1,0 +1,169 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/227/world-cuisine/asian/",
+                    "name": "Asian",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/699/world-cuisine/asian/japanese/",
+                    "name": "Japanese",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/239021/buffalo-chicken-sushi-roll/",
+        "name": "Buffalo Chicken Sushi Roll",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3792008.jpg",
+            "width": 3629,
+            "height": 2722
+        },
+        "datePublished": "2015-02-28T02:21:04.000Z",
+        "description": "I made this recipe for my wife who is not into raw fish sushi. Now the whole family is totally hooked on it!",
+        "prepTime": "P0DT0H25M",
+        "cookTime": null,
+        "totalTime": "P0DT0H25M",
+        "recipeYield": "4 rolls",
+        "recipeIngredient": [
+            "\u00bd pound fully cooked breaded chicken breast tenderloins",
+            "\u00bc cup hot pepper sauce",
+            "4 sheets nori (dry seaweed)",
+            "4 cups cooked sushi rice",
+            "1 carrot, peeled and cut into 4-inch matchsticks",
+            "1 celery stalk, cut into 4-inch matchsticks",
+            "\u00bc cup spicy mayonnaise",
+            "\u00bc cup French-fried onions (such as French's\u00ae)"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Mix chicken and hot sauce in a bowl and toss to coat.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place 1 nori sheet onto a bamboo sushi rolling mat. Spread 1 cup rice onto the nori, leaving a 1/2-inch strip along one edge. Arrange 1/4 each of the chicken, carrot, and celery in a line near one edge of the rice. Use the mat to carefully lift the edge near the filling and roll tightly around the ingredients. Moisten the remaining edge of the nori with a finger dipped in water and press to seal; repeat with remaining ingredients.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cut each roll into 8 slices using a sharp, wet knife. Top each piece with a dollop of mayonnaise and a small amount of French-fried onion.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Asian",
+            "Japanese"
+        ],
+        "recipeCuisine": [
+            "Asian",
+            "Japanese"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Bennyh614"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Buffalo Chicken Sushi Roll",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "522.3 calories",
+            "carbohydrateContent": "54.7 g",
+            "cholesterolContent": "33.9 mg",
+            "fatContent": "26 g",
+            "fiberContent": "3.6 g",
+            "proteinContent": "14.8 g",
+            "saturatedFatContent": "5.8 g",
+            "servingSize": null,
+            "sodiumContent": "1082.1 mg",
+            "sugarContent": "2.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2016-07-27T00:57:33.287Z",
+                "reviewBody": "I like it, but the guys loved it! I used leftover cooked chicken breast in place of the breaded tenders. Nice, mild flavor. I would make this again! Thanks for sharing. :)",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Christina",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/christina/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2017-01-22T09:50:42.55Z",
+                "reviewBody": "Never made sushi rolls of any type before but bought the needed utensils and have this a try. They were GREAT! My boys even liked them! Definitely going to use this for next get together.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "gmd393",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/gmd393/"
+                }
+            }
+        ]
+    }
+]

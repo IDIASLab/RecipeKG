@@ -1,0 +1,134 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/211/salad/fruit-salads/",
+                    "name": "Fruit Salad Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/270424/mango-papaya-fruit-salad/",
+        "name": "Mango Papaya Fruit Salad",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6794131.jpg",
+            "width": 3159,
+            "height": 3159
+        },
+        "datePublished": "2020-06-19T04:34:45.000Z",
+        "description": "Papaya and mango salad. Serve garnished with fresh mint and sweetened coconut, if desired.",
+        "prepTime": "P0DT0H20M",
+        "cookTime": null,
+        "totalTime": "P0DT1H20M",
+        "recipeYield": "8 servings",
+        "recipeIngredient": [
+            "\u00bc cup freshly squeezed lime juice",
+            "\u00bc cup honey",
+            "1 tablespoon finely grated lime zest",
+            "1 tablespoon balsamic vinegar",
+            "1 tablespoon brown sugar",
+            "2 mangos, peeled and diced, or to taste",
+            "1 large papaya, peeled and diced"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Whisk lime juice, honey, lime zest, balsamic vinegar, and brown sugar together in a small bowl.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place mangos and papaya in a large bowl. Stir lime dressing again and pour over fruit. Lightly stir fruit and dressing, cover, and refrigerate for 1 hour.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad",
+            "Fruit Salad Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "NerdMom"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Mango Papaya Fruit Salad",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "76.3 calories",
+            "carbohydrateContent": "20.3 g",
+            "cholesterolContent": null,
+            "fatContent": "0.1 g",
+            "fiberContent": "1.3 g",
+            "proteinContent": "0.4 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "3.1 mg",
+            "sugarContent": "17.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-07-03T01:38:43.683Z",
+                "reviewBody": "This is very similar to how we usually eat papaya (with lime juice and honey). The addition of balsamic vinegar scared me a bit so I cut that back to just a sprinkle (probably more like 1 tsp). It wasn't that noticeable so maybe it would have been fine with the entire amount but I was afraid it would ruin it for us. I did add some toasted coconut on top and garnished it with fresh mint. Very pretty and refreshing. I'd gladly serve this to dinner guests.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Kim's Cooking Now",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/kimscookingnow/"
+                }
+            }
+        ]
+    }
+]

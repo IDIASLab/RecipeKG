@@ -1,0 +1,183 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1986/salad/egg-salad/",
+                    "name": "Egg Salad Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/241671/creamy-deviled-egg-salad/",
+        "name": "Creamy Deviled Egg Salad",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3300099.jpg",
+            "width": 3629,
+            "height": 2721
+        },
+        "datePublished": "2020-06-19T04:02:32.000Z",
+        "description": "A friend brought this to a party and everyone loved it. She shared the recipe with me, and I was unable to find one just like it online, so thought I would share it. Garnish with favorite deviled egg toppings (such as paprika), as desired.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H40M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "2\u2009\u00bd cups creamy salad dressing (such as Miracle Whip\u00ae)",
+            "\u00be cup prepared yellow mustard",
+            "\u00bc cup white sugar",
+            "2 tablespoons white vinegar",
+            "12 hard-boiled eggs, peeled and cut into 1/4-inch slices"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Mix creamy salad dressing, mustard, sugar, and vinegar together with a whisk in a large bowl; add egg slices and gently stir to coat.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cover bowl with plastic wrap and refrigerate until chilled, at least 30 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad",
+            "Egg Salad Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Michael Flagler"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 2.2,
+            "ratingCount": 5,
+            "itemReviewed": "Creamy Deviled Egg Salad",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "508.3 calories",
+            "carbohydrateContent": "24.5 g",
+            "cholesterolContent": "457.3 mg",
+            "fatContent": "38.5 g",
+            "fiberContent": "1 g",
+            "proteinContent": "13.9 g",
+            "saturatedFatContent": "6.7 g",
+            "servingSize": null,
+            "sodiumContent": "1312 mg",
+            "sugarContent": "23 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2015-04-07T18:45:25.243Z",
+                "reviewBody": "i tried this recipe last night and i did not like it at all.. way too sweet and the flavors did not work together.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 1
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Rebecca Rude",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/15560748/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2016-02-24T16:57:19.827Z",
+                "reviewBody": "This was ok. Too sweet for my tastes so I would either cut down or delete the sugar all together (the Miracle Whip is sweet enough IMO). I used Light Miracle Whip...I did eat it but I most likely wont be making it again. Thanks for sharing.:)",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Christina",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/christina/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2019-08-01T03:24:30.68Z",
+                "reviewBody": "Was not a fan in any way there was way too much salad dressing in it I'm not sure what the point of the sugar in the vinegar were but they definitely did not make it taste better it tasted way way too sweet. the blend of flavors just. Did not work together and yeah everybody in my family opted for a grilled cheese sandwich instead",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 1
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Nina Becar",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/24757190/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2016-06-29T06:19:34.127Z",
+                "reviewBody": "Mine came out mostly just the mayo and mustard and very little egg.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 1
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Samantha McKnight",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/5433986/"
+                }
+            }
+        ]
+    }
+]

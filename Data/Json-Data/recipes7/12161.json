@@ -1,0 +1,145 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/81/side-dish/",
+                    "name": "Side Dish",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/240128/grandma-freels-cranberry-salad/",
+        "name": "Grandma Freel's Cranberry Salad",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7326511.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-06-19T04:01:26.000Z",
+        "description": "This is a recipe my grandma made for a local JELL-O&reg; contest. She won first place! It is a delicious salad like nothing I have ever seen. I grew up eating this cranberry salad every year at Thanksgiving. It reminds me of my grandma, who I loved so much!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H20M",
+        "totalTime": "P0DT10H30M",
+        "recipeYield": "1 9x13-inch dish",
+        "recipeIngredient": [
+            "1 pound fresh cranberries",
+            "2 cups white sugar",
+            "1\u2009\u00bd cups water",
+            "2 (3 ounce) packages cherry-flavored gelatin (such as JELL-O\u00ae)",
+            "1\u2009\u00bd cups chopped celery",
+            "1\u2009\u00bd cups chopped, peeled apple",
+            "1 cup chopped pecans"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Stir cranberries, sugar, and water together in a saucepan; cook over medium heat, stirring often, until most of the berries have popped open, about 20 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Remove saucepan from heat. Stir gelatin into the cranberries mixture until dissolved completely; add celery, apple, and pecans and stir. Pour into a glass 13x9-inch dish.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Refrigerate until set in the center, 10 to 12 hours.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Side Dish"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Kristy"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.666666666666667,
+            "ratingCount": 3,
+            "itemReviewed": "Grandma Freel's Cranberry Salad",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "203 calories",
+            "carbohydrateContent": "40.4 g",
+            "cholesterolContent": null,
+            "fatContent": "5 g",
+            "fiberContent": "2.4 g",
+            "proteinContent": "1.8 g",
+            "saturatedFatContent": "0.4 g",
+            "servingSize": null,
+            "sodiumContent": "58.1 mg",
+            "sugarContent": "36.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2015-11-14T01:33:02.53Z",
+                "reviewBody": "I've been making this for years and although many don't care for it since its more of an acquired taste those who do like it are crazy about it! This was totally my favorite dish at thanksgiving.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "caitykin",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/15542042/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2016-12-11T13:01:23.477Z",
+                "reviewBody": "We liked it but it was way too sweet. I will use half the sugar next time",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Cathy Weast",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/15759568/"
+                }
+            }
+        ]
+    }
+]

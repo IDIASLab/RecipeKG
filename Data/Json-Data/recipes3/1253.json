@@ -1,0 +1,190 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/133/drinks/cocktails/",
+                    "name": "Cocktail Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1743/drinks/cocktails/vodka-drinks/",
+                    "name": "Vodka Drinks Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/35622/a-fuzzy-thing/",
+        "name": "A Fuzzy Thing",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F639800.jpg",
+            "width": 640,
+            "height": 480
+        },
+        "datePublished": "2018-05-04T13:00:47.000Z",
+        "description": "A fruity cocktail of orange juice and pineapple juice adequately spiked with vodka, triple sec and peach schnapps.",
+        "prepTime": "P0DT0H1M",
+        "cookTime": null,
+        "totalTime": "P0DT0H1M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "2 fluid ounces vodka",
+            "1 fluid ounce triple sec liqueur",
+            "1 (1.5 fluid ounce) jigger peach schnapps",
+            "2 fluid ounces orange juice",
+            "2 fluid ounces pineapple juice",
+            "2 tablespoons sweet and sour mix"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "In a cocktail mixer full of ice, combine vodka, triple sec, schnapps, orange juice, pineapple juice and sour mix. Shake vigorously and strain into glasses.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Cocktail Recipes",
+            "Vodka Drinks Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "brooke"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.875,
+            "ratingCount": 8,
+            "itemReviewed": "A Fuzzy Thing",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "257.3 calories",
+            "carbohydrateContent": "29.8 g",
+            "cholesterolContent": "0 mg",
+            "fatContent": "0.2 g",
+            "fiberContent": "0.1 g",
+            "proteinContent": "0.3 g",
+            "saturatedFatContent": "0 g",
+            "servingSize": null,
+            "sodiumContent": "3.7 mg",
+            "sugarContent": "26.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2005-11-20T23:32:24.483Z",
+                "reviewBody": "simply awful",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 1
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Pumpkin",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/646606/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2007-04-08T01:54:36.233Z",
+                "reviewBody": "Mmmmm....really good!!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "BunnyButt",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2337531/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2011-05-05T04:22:21Z",
+                "reviewBody": "This is pretty good. I prefer it without the sweet and sour mix.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "kellieann",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/kellieann/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2012-04-01T23:49:29.06Z",
+                "reviewBody": "I agree with kellieann it's better without the sweet and sour mix.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Cagunders",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/7248319/"
+                }
+            }
+        ]
+    }
+]

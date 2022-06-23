@@ -1,0 +1,147 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/81/side-dish/",
+                    "name": "Side Dish",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/225/side-dish/vegetables/",
+                    "name": "Vegetables",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/925/side-dish/vegetables/green-beans/",
+                    "name": "Green Beans",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/239132/grilled-fresh-green-beans/",
+        "name": "Grilled Fresh Green Beans",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8263846.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-07-02T02:03:42.000Z",
+        "description": "Fresh veggies with a fresh grilled flavor just doesn't get any better.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H40M",
+        "totalTime": "P0DT0H50M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "1 pound fresh green beans",
+            "1 small onion, sliced",
+            "2 slices bacon, cut into quarters, or more to taste",
+            "1 tablespoon olive oil, or as needed",
+            "1 pinch salt-free seasoning blend (such as Mrs. Dash), or to taste",
+            "1 portobello mushroom, sliced"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat an outdoor grill for medium-high heat and lightly oil the grate.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine green beans, onion, and bacon in a bowl. Drizzle olive oil over green beans mixture and season with seasoning blend; stir to coat. Transfer green beans mixture to a grilling basket or wok.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place green beans mixture on the preheated grill and cook, stirring every 10 minutes, until tender, about 30 minutes. Add mushroom to green beans mixture and cook until tender, about 10 minutes more.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Side Dish",
+            "Vegetables",
+            "Green Beans"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Lynns Kitchen"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.4,
+            "ratingCount": 5,
+            "itemReviewed": "Grilled Fresh Green Beans",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "103.6 calories",
+            "carbohydrateContent": "11.2 g",
+            "cholesterolContent": "5 mg",
+            "fatContent": "5.5 g",
+            "fiberContent": "4.6 g",
+            "proteinContent": "4.6 g",
+            "saturatedFatContent": "1.1 g",
+            "servingSize": null,
+            "sodiumContent": "113.2 mg",
+            "sugarContent": "2.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-06-23T09:15:50.12Z",
+                "reviewBody": "This is a basic recipe and a good starting off point. I made this on the side burner of my grill. I rendered the bacon and removed it when crispy. Then I sauteed the onions and mushrooms until they were soft. I added the green beans and seasoned with salt and pepper. I only cooked mine for probably 20 minutes total. When the beans were almost done, I added some fresh garlic, fresh thyme and about a tablespoon of red wine vinegar. It turned out great!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Elizabeth",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/459689/"
+                }
+            }
+        ]
+    }
+]

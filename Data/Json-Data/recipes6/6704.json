@@ -1,0 +1,125 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/248/main-dish/burgers/",
+                    "name": "Burger Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1987/main-dish/burgers/veggie/",
+                    "name": "Veggie",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/279348/vegetarian-taco-burgers/",
+        "name": "Vegetarian Taco Burgers",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Vegetarian Taco Burgers"
+        },
+        "datePublished": "2020-03-27T20:38:11.000Z",
+        "description": "These taco burgers will delight anyone at your table, whether they're vegetarian or not. Serve them in hamburger buns with whatever dressings/toppings you desire!",
+        "prepTime": "P0DT0H20M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT0H25M",
+        "recipeYield": "4 burgers",
+        "recipeIngredient": [
+            "1 (14.5 ounce) can kidney beans, rinsed and drained",
+            "4 tablespoons taco seasoning mix",
+            "1 pinch freshly ground black pepper",
+            "1 (12 ounce) package firm tofu, drained",
+            "1 cup crushed cheese-flavored tortilla chips",
+            "4 tablespoons all-purpose flour",
+            "2 tablespoons canola oil, or as needed"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine beans, taco seasoning mix, and pepper in a large bowl with an electric mixer. Add tofu and mash into the bean paste until mostly smooth but with some chunks remaining. Mix in 1/2 of the crushed chips and flour. Divide mixture into 4 patties and press together firmly so they hold their shape. Turn them over in the remaining crushed chips to coat.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat oil in a large skillet over medium-high heat. Add burgers and fry until crispy, 2 to 3 minutes per side.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Burger Recipes",
+            "Veggie"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Madeleine"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Vegetarian Taco Burgers",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "304.7 calories",
+            "carbohydrateContent": "33.7 g",
+            "cholesterolContent": "0.2 mg",
+            "fatContent": "13.1 g",
+            "fiberContent": "7.2 g",
+            "proteinContent": "13.7 g",
+            "saturatedFatContent": "1.7 g",
+            "servingSize": null,
+            "sodiumContent": "923.8 mg",
+            "sugarContent": "2.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

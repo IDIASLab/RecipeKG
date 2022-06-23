@@ -1,0 +1,162 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/145/breakfast-and-brunch/cereals/",
+                    "name": "Cereals",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1315/breakfast-and-brunch/cereals/oatmeal/",
+                    "name": "Oatmeal Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/229379/pumpkin-spice-oatmeal/",
+        "name": "Pumpkin Spice Oatmeal",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F929382.jpg",
+            "width": 250,
+            "height": 250
+        },
+        "datePublished": "2020-06-19T03:51:37.000Z",
+        "description": "This recipe will be able to bring all the wonderful flavors of fall together. It's really good.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT0H12M",
+        "recipeYield": "1 serving",
+        "recipeIngredient": [
+            "1\u2009\u00bd cups milk",
+            "\u00be cup rolled oats",
+            "2 tablespoons brown sugar",
+            "1 tablespoon white sugar",
+            "2 teaspoons ground cinnamon",
+            "1 teaspoon pumpkin pie spice",
+            "\u00bc teaspoon salt",
+            "\u00bc cup canned pumpkin"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Bring milk to boil in a small pot over medium-high. Stir oats, brown sugar, white sugar, cinnamon, pumpkin pie spice, and salt into the boiling milk. Place a cover on the pot, reduce heat to medium-low, and cook, stirring occasionally, for 3 minutes. Stir pumpkin puree into oat mixture until smooth; cook and stir continually another 2 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Remove from heat; let oatmeal set 2 minutes before serving.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Cereals",
+            "Oatmeal Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "sgonzalez"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 3,
+            "itemReviewed": "Pumpkin Spice Oatmeal",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "602.7 calories",
+            "carbohydrateContent": "107.2 g",
+            "cholesterolContent": "29.3 mg",
+            "fatContent": "11.6 g",
+            "fiberContent": "10.6 g",
+            "proteinContent": "21.1 g",
+            "saturatedFatContent": "5.5 g",
+            "servingSize": null,
+            "sodiumContent": "891.6 mg",
+            "sugarContent": "58.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2012-10-23T14:34:04.96Z",
+                "reviewBody": "This was a fast and filling breakfast that is a nice way to use canned pumpkin. I made this with skim milk and had to leave out the pumpkin pie spice as I did not have any on hand.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "mkstevens09",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/mkstevens09/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2012-11-20T01:23:53.23Z",
+                "reviewBody": "Good. Personally I like to top it with Pumpkin Spice coffee creamer and sprinkle with sunflower seeds.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "ZOINKS",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2274915/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,141 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/251/main-dish/sandwiches/",
+                    "name": "Sandwich Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1884/main-dish/sandwiches/grilled-cheese/",
+                    "name": "Grilled Cheese",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/274920/ratatouille-grilled-cheese-sandwiches/",
+        "name": "Ratatouille Grilled Cheese Sandwiches",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F9402811.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2019-07-24T02:44:09.000Z",
+        "description": "Whether made fresh or leftover, roasted ratatouille-style vegetables not only lend exciting flavor to these Gouda grilled cheese sandwiches but also boost the nutrition factor.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "4 sandwiches",
+        "recipeIngredient": [
+            "8 (1/2 inch thick) slices soft Italian bread",
+            "\u2153 cup mayonnaise",
+            "8 ounces thinly sliced young goat Gouda cheese",
+            "1\u2009\u2153 cups Sheet-Pan Ratatouille, or other prepared ratatouille"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Spread both sides of each bread slice with mayonnaise. Layer 1/2 of the cheese, all of the ratatouille, and remaining cheese on 4 bread slices. Top with remaining bread slices.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat an extra-large skillet, grill pan, or griddle over medium heat. Cook sandwiches until golden and cheese melts, 2 to 3 minutes per side.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Sandwich Recipes",
+            "Grilled Cheese"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Juliana Hale"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Ratatouille Grilled Cheese Sandwiches",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "452.1 calories",
+            "carbohydrateContent": "23.9 g",
+            "cholesterolContent": "71.6 mg",
+            "fatContent": "31.5 g",
+            "fiberContent": "1.1 g",
+            "proteinContent": "18.3 g",
+            "saturatedFatContent": "12.5 g",
+            "servingSize": null,
+            "sodiumContent": "904.1 mg",
+            "sugarContent": "2.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-09-29T21:53:46.867Z",
+                "reviewBody": "This sandwich is perfect for using up leftover ratatouille. I used smoked gouda and plain.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Buckwheat Queen",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/melaniegiovenzana/"
+                }
+            }
+        ]
+    }
+]

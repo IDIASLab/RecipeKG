@@ -1,0 +1,138 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/133/drinks/cocktails/",
+                    "name": "Cocktail Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1741/drinks/cocktails/rum-drinks/",
+                    "name": "Rum Drinks Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/235524/mississippi-ice-tea/",
+        "name": "Mississippi Ice Tea",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1213348.jpg",
+            "width": 980,
+            "height": 980
+        },
+        "datePublished": "2013-11-21T19:16:26.000Z",
+        "description": "it is sort of like a Long Island ice tea but a different taste. Be careful though, you may not realize how much alcohol you are are consuming!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "1 drink",
+        "recipeIngredient": [
+            "\u00bd cup ice cubes, or as needed",
+            "5 fluid ounces amaretto liqueur (such as Disaronno\u00ae)",
+            "1 fluid ounce triple sec",
+            "1 fluid ounce rum",
+            "1 (12 fluid ounce) can or bottle cola-flavored carbonated beverage"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Fill a large glass with ice; add amaretto liqueur, triple sec, rum, and cola. Stir.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Cocktail Recipes",
+            "Rum Drinks Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "streetracer"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 2,
+            "itemReviewed": "Mississippi Ice Tea",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "880.9 calories",
+            "carbohydrateContent": "121.6 g",
+            "cholesterolContent": null,
+            "fatContent": "0.6 g",
+            "fiberContent": null,
+            "proteinContent": "0.1 g",
+            "saturatedFatContent": "0.1 g",
+            "servingSize": null,
+            "sodiumContent": "31 mg",
+            "sugarContent": "114.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2014-07-01T20:34:43.637Z",
+                "reviewBody": "This is a good drink as long as you don't go into expecting \"iced tea\" or a drink similar to a Long Island. It's pretty sweet and and as the tagline suggests you certainly don't taste the alcohol so it'd be easy to end up dancing on the table if you're not a drinker and you have a few of these. Cheers!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "lovestohost",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/lovestohost/"
+                }
+            }
+        ]
+    }
+]

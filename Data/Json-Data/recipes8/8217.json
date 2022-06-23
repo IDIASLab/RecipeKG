@@ -1,0 +1,133 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/14966/appetizers-and-snacks/garlic-bread/",
+                    "name": "Garlic Bread Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/282285/herbed-garlic-bread/",
+        "name": "Herbed Garlic Bread",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8717688.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-11-10T04:45:49.000Z",
+        "description": "Our recipe for Herbed Garlic Bread is the perfect addition to round out just about any meal. Use your favorite fresh or dried herbs to enhance the flavor of the garlic.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H2M",
+        "totalTime": "P0DT0H12M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "1/4 cup Country Crock\u00ae Spread",
+            "1 teaspoon mixed herbs, dry",
+            "\u00bd teaspoon garlic powder",
+            "1 (12 ounce) loaf French or Italian bread "
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Set an oven rack about 6 inches from the heat source and preheat the oven's broiler.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine all ingredients except bread in small bowl. Arrange bread on baking sheet; spread with herb mixture.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Broil until golden, about 2 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks",
+            "Garlic Bread Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Country Crock\u00ae"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Herbed Garlic Bread",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "165.4 calories",
+            "carbohydrateContent": "32.3 g",
+            "cholesterolContent": null,
+            "fatContent": "1.1 g",
+            "fiberContent": "1.5 g",
+            "proteinContent": "6.7 g",
+            "saturatedFatContent": "0.3 g",
+            "servingSize": null,
+            "sodiumContent": "368.6 mg",
+            "sugarContent": "1.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-12-08T11:09:16.313Z",
+                "reviewBody": "You can\u2019t go wrong with buttery bread! Very good!  The Country Crock didn\u2019t get as brown and toasty as butter does, but, the flavor was very good.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Happyschmoopies",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/happyschmoopies/"
+                }
+            }
+        ]
+    }
+]

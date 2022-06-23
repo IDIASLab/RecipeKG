@@ -1,0 +1,150 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/227/world-cuisine/asian/",
+                    "name": "Asian",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/702/world-cuisine/asian/thai/",
+                    "name": "Thai",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/266096/sweet-sticky-rice-and-mango/",
+        "name": "Sweet Sticky Rice and Mango",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5561366.jpg",
+            "width": 2709,
+            "height": 2709
+        },
+        "datePublished": "2020-06-19T04:30:34.000Z",
+        "description": "Absolutely delicious! My mom had something similar to this in a Thai restaurant and started searching for a similar recipe.",
+        "prepTime": null,
+        "cookTime": "P0DT0H30M",
+        "totalTime": "P0DT9H0M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "8 cups water, divided",
+            "1 cup sweet rice",
+            "1 (15 ounce) can coconut milk",
+            "\u00bd cup white sugar",
+            "\u00be teaspoon salt",
+            "1 ripe mango, peeled and sliced"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine 6 cups water and rice in a large bowl and soak 8 hours to overnight.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Drain rice and rinse with fresh water. Combine 2 cups water and rice in a saucepan and bring to a boil. Reduce heat to medium-low, cover, and simmer until rice is tender and water has been absorbed, 15 to 20 minutes. Transfer cooked rice to a bowl.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine coconut milk, sugar, and salt in a small saucepan. Heat until just boiling; pour mixture over cooked rice. Let stand 30 minutes. Serve warm with sliced mango.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Asian",
+            "Thai"
+        ],
+        "recipeCuisine": [
+            "Asian",
+            "Thai"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "kerry"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Sweet Sticky Rice and Mango",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "334.4 calories",
+            "carbohydrateContent": "48.1 g",
+            "cholesterolContent": null,
+            "fatContent": "15.3 g",
+            "fiberContent": "2.1 g",
+            "proteinContent": "3.7 g",
+            "saturatedFatContent": "13.4 g",
+            "servingSize": null,
+            "sodiumContent": "312 mg",
+            "sugarContent": "20.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-07-16T09:22:23.51Z",
+                "reviewBody": "I love Sticky Thai rice but had no idea how easy it was to make at home. This came together very quickly and tasted just like what I get at my local Thai restaurant. Next time I will put a little less rice in because it soaked up the majority of the coconut milk mixture.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Happyschmoopies",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/happyschmoopies/"
+                }
+            }
+        ]
+    }
+]

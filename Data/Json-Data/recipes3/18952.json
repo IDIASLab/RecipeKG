@@ -1,0 +1,154 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/81/side-dish/",
+                    "name": "Side Dish",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/225/side-dish/vegetables/",
+                    "name": "Vegetables",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/269010/grilled-sesame-ginger-bok-choy/",
+        "name": "Grilled Sesame-Ginger Bok Choy",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6490106.jpg",
+            "width": 3888,
+            "height": 2592
+        },
+        "datePublished": "2019-03-23T08:30:42.000Z",
+        "description": "Try bok choy a different way - marinated in olive oil, soy sauce, sesame oil, and fresh ginger, grilled for a couple of minutes, and served with sesame seeds.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "2 teaspoons olive oil",
+            "1 teaspoon soy sauce",
+            "1 teaspoon sesame oil",
+            "1 tablespoon fresh ginger, grated",
+            "1 large head bok choy",
+            "1 teaspoon sesame seeds"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "In a small bowl, whisk together olive oil, soy sauce, sesame oil, and ginger. Set aside.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pull the leaves off the base of the bok choy and slice off the very bottom of the stem to remove any tough pieces. Wash the leaves individually and let them dry completely on a clean kitchen towel. Brush individual bok choy leaves with olive oil mixture.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat a grill pan over medium heat. Add bok choy leaves and grill until wilted and grill marks appear on stems and leaves, 30 to 45 seconds per side. Sprinkle with sesame seeds and serve warm.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Side Dish",
+            "Vegetables"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Heather"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 2,
+            "itemReviewed": "Grilled Sesame-Ginger Bok Choy",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "105.1 calories",
+            "carbohydrateContent": "6 g",
+            "cholesterolContent": null,
+            "fatContent": "8.4 g",
+            "fiberContent": "2.5 g",
+            "proteinContent": "3.9 g",
+            "saturatedFatContent": "1.2 g",
+            "servingSize": null,
+            "sodiumContent": "297.6 mg",
+            "sugarContent": "2.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-01-13T09:59:27.913Z",
+                "reviewBody": "Delicious",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Jill Lean",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2496338/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2019-04-04T08:18:57.037Z",
+                "reviewBody": "Quick and flavorful way to make boy choy. Next time I'll just throw it on the outdoor grill for added flavor and one less pan to clean.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "France C",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/francecevallos/"
+                }
+            }
+        ]
+    }
+]

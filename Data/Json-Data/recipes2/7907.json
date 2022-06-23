@@ -1,0 +1,127 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/81/side-dish/",
+                    "name": "Side Dish",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/255084/arizona-cactus-and-beans/",
+        "name": "Arizona Cactus and Beans",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3973761.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2016-08-24T03:23:37.000Z",
+        "description": "Being surrounded by land filled with wild prickly pear cactus in Arizona, I was inspired to find different ways to enjoy this local plant. This is a simple but tasty recipe that is best if served with warm cornbread.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H18M",
+        "totalTime": "P0DT0H33M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "2 teaspoons vegetable oil",
+            "2 potatoes, cut into small rectangles",
+            "1 cup shredded carrots",
+            "2\u2009\u00bd (15 ounce) jars nopalitos cactus, drained",
+            "1 tablespoon chili powder",
+            "2 cloves garlic, minced",
+            "2 teaspoons fenugreek seeds",
+            "2 teaspoons ground coriander",
+            "\u00bd teaspoon ground cumin",
+            "1 (15 ounce) can pinto beans"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat oil in a skillet over medium heat. Add potatoes and carrots; cook and stir until potatoes are tender, about 10 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Stir cactus, chili powder, garlic, fenugreek seeds, coriander, and cumin into the potato mixture. Cook, stirring frequently, until cactus is softened, about 5 minutes. Add pinto beans; cook, stirring gently, until just heated through, about 3 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Side Dish"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "CERAWALLACE"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Arizona Cactus and Beans",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "159.9 calories",
+            "carbohydrateContent": "30 g",
+            "cholesterolContent": null,
+            "fatContent": "2.7 g",
+            "fiberContent": "9.6 g",
+            "proteinContent": "6.9 g",
+            "saturatedFatContent": "0.4 g",
+            "servingSize": null,
+            "sodiumContent": "216.7 mg",
+            "sugarContent": "1.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2016-10-02T00:32:12.303Z",
+                "reviewBody": "Made as written minus the fenugreek seeds because my little market didn't carry them. I'm a bean lover and I enjoyed these very much. I do think fresh cactus would have been better than the jarred (less slimy) but that is the only change I'd make next time.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

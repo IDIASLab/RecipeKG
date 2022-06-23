@@ -1,0 +1,153 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1116/fruits-and-vegetables/",
+                    "name": "Fruits and Vegetables",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1059/fruits-and-vegetables/vegetables/",
+                    "name": "Vegetables",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1881/fruits-and-vegetables/vegetables/squash/",
+                    "name": "Squash",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/275684/chocolate-pumpkin-brownies/",
+        "name": "Chocolate-Pumpkin Brownies",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7063040.jpg",
+            "width": 3453,
+            "height": 3453
+        },
+        "datePublished": "2020-03-05T05:20:32.000Z",
+        "description": "These brownies are a nice mixture of chocolate and pumpkin.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H20M",
+        "totalTime": "P0DT0H30M",
+        "recipeYield": "1 9x13-inch pan",
+        "recipeIngredient": [
+            "1 (15 ounce) can pumpkin puree",
+            "\u2154 cup brown sugar",
+            "3 tablespoons applesauce",
+            "2 egg whites",
+            "1 large egg",
+            "2 cups all-purpose flour",
+            "3 teaspoons unsweetened cocoa powder",
+            "1 teaspoon baking powder",
+            "1 teaspoon ground cinnamon",
+            "\u00bd teaspoon ground nutmeg",
+            "\u00bd teaspoon ground cloves",
+            "\u00bc teaspoon salt"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat the oven to 350 degrees F (175 degrees C). Grease a 9x13-inch baking pan.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine pumpkin, brown sugar, applesauce, egg whites, and egg in a large mixing bowl. Beat using an electric mixer on medium speed until blended. Add flour, cocoa, baking powder, cinnamon, nutmeg, cloves, and salt. Beat on low speed until batter is smooth. Spread evenly into the prepared pan.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated oven until a toothpick inserted into the center comes out clean, 20 to 25 minutes. Remove from the oven and let cool completely in the pan on a wire rack.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Fruits and Vegetables",
+            "Vegetables",
+            "Squash"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "chernobletink"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 2,
+            "ratingCount": 1,
+            "itemReviewed": "Chocolate-Pumpkin Brownies",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "157.8 calories",
+            "carbohydrateContent": "33.4 g",
+            "cholesterolContent": "18.6 mg",
+            "fatContent": "1 g",
+            "fiberContent": "2.3 g",
+            "proteinContent": "4.6 g",
+            "saturatedFatContent": "0.3 g",
+            "servingSize": null,
+            "sodiumContent": "231.4 mg",
+            "sugarContent": "11.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-09-21T23:25:39.81Z",
+                "reviewBody": "I really wanted to like these \"brownies\" but not a single person in my house liked them even after sprinkling with pumpkin spice- confectioners sugar. They were rather meh and bland. There was an aftertaste of cocoa powder but other than that, no real cocoa flavor. Same with the spices. They do get points for having a brownie-like texture. I made the recipe as written subbing Cup 4 Cup GF flour blend for all-purpose flour.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 2
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "My Hot Southern Mess",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/myhotsouthernmess/"
+                }
+            }
+        ]
+    }
+]

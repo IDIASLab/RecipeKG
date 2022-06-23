@@ -1,0 +1,157 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/138/drinks/smoothies/",
+                    "name": "Smoothie Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/16128/drinks/smoothies/banana/",
+                    "name": "Banana",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/241825/easy-power-smoothie/",
+        "name": "Easy Power Smoothie",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2213849.jpg",
+            "width": 2592,
+            "height": 1944
+        },
+        "datePublished": "2020-03-05T05:13:09.000Z",
+        "description": "A good source of protein and carbs. The apple helps to keep you fueled-up for hours. Surprisingly tasty, too!",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "1 smoothie",
+        "recipeIngredient": [
+            "1 cup milk",
+            "2 eggs",
+            "1 banana",
+            "1 apple - peeled, cored, and cut into chunks",
+            "1 teaspoon brown sugar",
+            "\u00bd teaspoon ground cinnamon",
+            "\u00bd teaspoon vanilla extract"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Put milk, eggs, banana, apple, brown sugar, cinnamon, and vanilla extract into a blender bowl, respectively; blend until smooth, about 30 seconds.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Smoothie Recipes",
+            "Banana"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Ben McLeod"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.75,
+            "ratingCount": 4,
+            "itemReviewed": "Easy Power Smoothie",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "468.4 calories",
+            "carbohydrateContent": "63.9 g",
+            "cholesterolContent": "391.5 mg",
+            "fatContent": "15.4 g",
+            "fiberContent": "7 g",
+            "proteinContent": "22.3 g",
+            "saturatedFatContent": "6.3 g",
+            "servingSize": null,
+            "sodiumContent": "244.2 mg",
+            "sugarContent": "45.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-02-18T05:24:56.22Z",
+                "reviewBody": "I loved it. I made a few changes: exchanged  brown sugar for honey, milk for almond milk, plain cinnamon for Ceylon cinnamon, vanilla extract for sugar free vanilla creamer, and added 2 cups of crushed ice. 3rd time",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Valerie",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/10462524/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2015-04-12T17:36:28.827Z",
+                "reviewBody": "This is pretty tasty. I didn't use raw egg and also reduced the cinnamon as a preference. This makes a really large drink--good for breakfast.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Irene Y",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/irene/"
+                }
+            }
+        ]
+    }
+]

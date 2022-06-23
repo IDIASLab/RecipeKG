@@ -1,0 +1,136 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/211/salad/fruit-salads/",
+                    "name": "Fruit Salad Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/244626/morning-fruit-bowl/",
+        "name": "Morning Fruit Bowl",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2508034.jpg",
+            "width": 2161,
+            "height": 2161
+        },
+        "datePublished": "2016-08-27T13:04:04.000Z",
+        "description": "This is a very healthy breakfast, for when you just want to start your day with something fresh in the summer. You can use maple syrup instead of agave, and add other nuts or fruits too.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "1 cup Greek yogurt",
+            "2 tablespoons coconut oil, melted",
+            "2 tablespoons agave nectar",
+            "\u00bd cup rolled oats",
+            "\u00bd cup toasted walnuts",
+            "1 mango, chopped",
+            "1 Gala apple, chopped",
+            "2 tablespoons chia seeds",
+            "2 tablespoons hemp seeds"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Stir yogurt, coconut oil, and agave nectar together in a bowl.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Divide yogurt mixture evenly between 2 serving bowls. Layer oats, walnuts, mango, and apple over yogurt; top with chia seeds and hemp seeds.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad",
+            "Fruit Salad Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "islandcook82"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Morning Fruit Bowl",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "776.1 calories",
+            "carbohydrateContent": "69.4 g",
+            "cholesterolContent": "22.5 mg",
+            "fatContent": "51.6 g",
+            "fiberContent": "12.1 g",
+            "proteinContent": "18.4 g",
+            "saturatedFatContent": "19.6 g",
+            "servingSize": null,
+            "sodiumContent": "71 mg",
+            "sugarContent": "42.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-10-04T05:52:49.203Z",
+                "reviewBody": "Loved it! helathy and filling. I didn't share",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Elvira Silva",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3516359/"
+                }
+            }
+        ]
+    }
+]

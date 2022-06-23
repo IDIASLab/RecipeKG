@@ -1,0 +1,159 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/219/salad/vegetable-salads/",
+                    "name": "Vegetable Salad Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/222774/tomato-basil-panzanella/",
+        "name": "Tomato Basil Panzanella",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F872656.jpg",
+            "width": 2304,
+            "height": 1728
+        },
+        "datePublished": "2019-07-10T07:03:28.000Z",
+        "description": "This is an Italian salad made with dry bread and tomatoes. Delicious.",
+        "prepTime": "P0DT0H20M",
+        "cookTime": "P0DT0H15M",
+        "totalTime": "P0DT0H35M",
+        "recipeYield": "8 servings",
+        "recipeIngredient": [
+            "5 cups cubed whole wheat bread",
+            "\u00bd cup extra-virgin olive oil",
+            "\u00bc cup red wine vinegar",
+            "\u00bc cup lemon juice",
+            "\u00bc cup chopped fresh parsley",
+            "\u00bd teaspoon salt",
+            "6 large tomatoes, cut in wedges",
+            "1 large red onion, diced",
+            "\u00bd cup black olives",
+            "\u00bd cup fresh basil",
+            "\u00bd cup shaved Parmesan cheese"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat oven to 350 degrees F (175 degrees C). Spread bread cubes over a baking sheet.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake bread cubes in the preheated oven until lightly browned, about 15 minutes, stirring occasionally.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Whisk olive oil, vinegar, lemon juice, parsley, and salt in a large bowl. Fold in toasted bread, tomatoes, onion, olives, basil, and Parmesan cheese until vinegar dressing is evenly distributed.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad",
+            "Vegetable Salad Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Cecilia Smith"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 3,
+            "itemReviewed": "Tomato Basil Panzanella",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "267.9 calories",
+            "carbohydrateContent": "21.5 g",
+            "cholesterolContent": "3.6 mg",
+            "fatContent": "17.6 g",
+            "fiberContent": "4.4 g",
+            "proteinContent": "7.4 g",
+            "saturatedFatContent": "3.2 g",
+            "servingSize": null,
+            "sodiumContent": "456.9 mg",
+            "sugarContent": "6.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2012-08-07T21:52:26.907Z",
+                "reviewBody": "This panzanella salad made with fresh ingredients from the garden is delicious and satisfying. The simple dressing added good flavor and we enjoyed the slight twist with the use of wheat bread.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Deb C",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2702518/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2013-08-31T17:38:17.643Z",
+                "reviewBody": "Wonderfully flavorful fresh and filling. A winner!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Carol Pauly",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/1141432/"
+                }
+            }
+        ]
+    }
+]

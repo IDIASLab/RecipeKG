@@ -1,0 +1,144 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/81/side-dish/",
+                    "name": "Side Dish",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/225/side-dish/vegetables/",
+                    "name": "Vegetables",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/16382/side-dish/vegetables/roasted-vegetables/",
+                    "name": "Roasted Vegetable Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/278666/turnip-fries/",
+        "name": "Turnip Fries",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7771834.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-02-06T11:23:01.000Z",
+        "description": "Quick, easy, and delicious turnip fries!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H15M",
+        "totalTime": "P0DT0H25M",
+        "recipeYield": "5 servings",
+        "recipeIngredient": [
+            "2 pounds turnips, peeled and cut into fry-sized pieces",
+            "2 tablespoons olive oil, or as needed",
+            "1 teaspoon seasoned salt (such as Johnny's\u00ae)"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat the oven to 400 degrees F (200 degrees C). Line a baking sheet with aluminum foil.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place turnips into a bowl and generously drizzle with olive oil. Sprinkle with seasoned salt and toss to turn. Spread out onto the prepared baking sheet.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Roast in the preheated oven for 10 minutes. Turn and cook until cooked through, 5 to 10 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Side Dish",
+            "Vegetables",
+            "Roasted Vegetable Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Hannah Schorzman"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 2,
+            "itemReviewed": "Turnip Fries",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "99.5 calories",
+            "carbohydrateContent": "11.9 g",
+            "cholesterolContent": null,
+            "fatContent": "5.6 g",
+            "fiberContent": "3.3 g",
+            "proteinContent": "1.7 g",
+            "saturatedFatContent": "0.8 g",
+            "servingSize": null,
+            "sodiumContent": "305.3 mg",
+            "sugarContent": "6.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-03-02T01:49:01.573Z",
+                "reviewBody": "Made as written and this recipe does not work. The longer the fries roast, the soggier they get. They never did crisp up but only started to burn on the ends. The end result was soggy fries sitting in a pool of liquid. I had an extra turnip so I tried again by placing the fries in a colander and sprinkling with salt hoping to drain out some of the liquid first. That didn't work either.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 1
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,135 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/94/soups-stews-and-chili/",
+                    "name": "Soups, Stews and Chili Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/16369/soups-stews-and-chili/soup/",
+                    "name": "Soup Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/276868/miso-soup-with-seaweed/",
+        "name": "Miso Soup with Seaweed",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7341444.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2019-10-31T05:12:37.000Z",
+        "description": "This is a hearty take on traditional miso soup. I learned this recipe while living in Japan. Very satisfying on a cold night!",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H20M",
+        "totalTime": "P0DT0H35M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "1 potato, cut into 1-inch cubes",
+            "1 carrot, sliced",
+            "6 cups water",
+            "\u00bd (16 ounce) package soft tofu, drained and cut into cubes",
+            "1 ounce wakame seaweed",
+            "10 white mushroom caps, quartered",
+            "8 tablespoons miso paste with dashi",
+            "2 tablespoons chopped scallions, or to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place potato cubes into a large pot and cover with salted water; bring to a boil. Reduce heat to medium-low and simmer almost soft, about 7 to 10 minutes. Add carrot slices and boil until tender, 3 to 5 more minutes. Drain.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Meanwhile, bring 6 cups water to boil in a medium saucepan. Add tofu and wakame seaweed, cook for 3 minutes. Stir in mushrooms, miso paste, and cooked potatoes and carrots. Reduce heat to low and cook for 5 minutes. Ladle into bowls and garnish with chopped scallions.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Soups, Stews and Chili Recipes",
+            "Soup Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "BrandonT"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Miso Soup with Seaweed",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "116.4 calories",
+            "carbohydrateContent": "15.7 g",
+            "cholesterolContent": null,
+            "fatContent": "3.4 g",
+            "fiberContent": "2.9 g",
+            "proteinContent": "7.7 g",
+            "saturatedFatContent": "0.6 g",
+            "servingSize": null,
+            "sodiumContent": "924.7 mg",
+            "sugarContent": "3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-11-25T03:17:34.263Z",
+                "reviewBody": "This was quite tasty! The recipe didn't specify what type/color miso to use - I normally use white however I had some dark rice miso on hand so that's what I used. I added a couple teaspoons of dashi to the water since my miso didn't have added dashi. Other than this minor change the flavor was good. I don't usually put carrot and potato in my miso soup so that was a nice change. A couple recommendations: there is no need to dirty two pots. Just use the large pot that the vegetables were cooked in to make the soup. I would probably use less wakame next time but that's just personal preference.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "France C",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/francecevallos/"
+                }
+            }
+        ]
+    }
+]

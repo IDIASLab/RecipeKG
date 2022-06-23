@@ -1,0 +1,145 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17140/desserts/fruit-desserts/",
+                    "name": "Fruit Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17527/desserts/fruit-desserts/banana-desserts/",
+                    "name": "Banana Dessert Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/263613/chocolate-treats/",
+        "name": "Chocolate Treats",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5340669.jpg",
+            "width": 3024,
+            "height": 3024
+        },
+        "datePublished": "2018-03-31T05:38:11.000Z",
+        "description": "Great treats for kids and adults! Use any kind of fruit or flavor of chocolate.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT0H35M",
+        "recipeYield": "24 servings",
+        "recipeIngredient": [
+            "1 (12 ounce) bag chocolate chips, or to taste",
+            "\u00bc cup milk",
+            "1 banana, sliced",
+            "1 tablespoon assorted colored sprinkles"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place chocolate in top of a double boiler over simmering water. Stir frequently, scraping down the sides with a rubber spatula to avoid scorching, until chocolate is melted, about 5 minutes. Remove from heat and whisk in milk until combined.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Distribute melted chocolate amongst mini muffin cups. Push 1 banana slice in each muffin cup and push to the bottom of the cup with the tip of a knife just until chocolate covers banana. Decorate with sprinkles.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Refrigerate until chocolate is set, 15 to 30 minutes. Pop chocolate treats out by stabbing a knife into the side of the muffin cups.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Fruit Desserts",
+            "Banana Dessert Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Ella Couch"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Chocolate Treats",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "75.2 calories",
+            "carbohydrateContent": "10.5 g",
+            "cholesterolContent": "0.2 mg",
+            "fatContent": "4.4 g",
+            "fiberContent": "1 g",
+            "proteinContent": "0.7 g",
+            "saturatedFatContent": "2.5 g",
+            "servingSize": null,
+            "sodiumContent": "2.7 mg",
+            "sugarContent": "8.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-04-24T00:02:17.38Z",
+                "reviewBody": "This is a fun little treat which would go over huge with children I'm sure. I can just see them as after school treats sleepover goodies additions to the birthday buffet table or special school snacks. And the bonus is that the adults will like them as well!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Paula",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/paula1/"
+                }
+            }
+        ]
+    }
+]

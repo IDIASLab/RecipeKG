@@ -1,0 +1,178 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/251/main-dish/sandwiches/",
+                    "name": "Sandwich Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/222376/creamy-strawberry-sandwiches/",
+        "name": "Creamy Strawberry Sandwiches",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F970515.jpg",
+            "width": 2271,
+            "height": 2271
+        },
+        "datePublished": "2016-01-01T07:00:35.000Z",
+        "description": "These are very good. I served them at a bridal shower.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "20 servings",
+        "recipeIngredient": [
+            "2 (8 ounce) packages cream cheese, softened",
+            "1 (16 ounce) package fresh strawberries, hulled",
+            "1 loaf sliced white bread",
+            "\u00bd cup chopped pecans, or more to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place cream cheese and strawberries in a food processor; pulse until smooth. Spread cream cheese mixture onto half the bread and sprinkle with pecans. Place remaining bread slices on top to create sandwiches.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Sandwich Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Rachel Winters"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.2,
+            "ratingCount": 5,
+            "itemReviewed": "Creamy Strawberry Sandwiches",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "164.7 calories",
+            "carbohydrateContent": "14.2 g",
+            "cholesterolContent": "24.6 mg",
+            "fatContent": "10.6 g",
+            "fiberContent": "1.3 g",
+            "proteinContent": "3.8 g",
+            "saturatedFatContent": "5.3 g",
+            "servingSize": null,
+            "sodiumContent": "221.1 mg",
+            "sugarContent": "2.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2014-05-20T21:16:20.51Z",
+                "reviewBody": "I think it was good but also pretty runny. The pecans taste bad with it.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "bluecool81",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/13651124/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2013-02-24T00:02:37.533Z",
+                "reviewBody": "I chose to add just a little powdered sugar and serve them open faced topped with a strawberry sliver. A perfect addition for my tea party!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Paula",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/paula1/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2013-02-23T20:28:44.48Z",
+                "reviewBody": "A pretty simple basic recipe. I think depending on the strawberries a little sugar could be added to the mixture. This would also make a good dip for fruit.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "It's A New Day",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/844886/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2013-07-12T22:00:18.75Z",
+                "reviewBody": "Found it to be very runny and even with the added powered sugar not very tasty.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 1
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "athoods",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/6386719/"
+                }
+            }
+        ]
+    }
+]

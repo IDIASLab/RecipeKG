@@ -1,0 +1,171 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/133/drinks/cocktails/",
+                    "name": "Cocktail Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1741/drinks/cocktails/rum-drinks/",
+                    "name": "Rum Drinks Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/23554/lime-daiquiri/",
+        "name": "Lime Daiquiri",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F18333.jpg",
+            "width": 743,
+            "height": 800
+        },
+        "datePublished": "2000-09-10T22:11:41.000Z",
+        "description": "A simple Daiquiri recipe. You may omit rum to make a virgin equivalent, or change to another fruit concentrate.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "1 cup ice",
+            "1 cup light rum",
+            "\u00bd (6 ounce) can frozen limeade concentrate",
+            "1 cup carbonated water"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "In a blender, combine ice, rum, limeade concentrate and carbonated water. Blend until smooth. Pour into glasses and serve.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Cocktail Recipes",
+            "Rum Drinks Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Joey"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 3,
+            "itemReviewed": "Lime Daiquiri",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "195.7 calories",
+            "carbohydrateContent": "17 g",
+            "cholesterolContent": "0 mg",
+            "fatContent": "0 g",
+            "fiberContent": "0 g",
+            "proteinContent": "0 g",
+            "saturatedFatContent": "0 g",
+            "servingSize": null,
+            "sodiumContent": "4.1 mg",
+            "sugarContent": "16.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2006-07-23T00:15:01.827Z",
+                "reviewBody": "I think the first reviewer made the same mistake that I made. The recipe should read \"1 6oz can\". When I made this recipe for the first time at my cousin's home my cousin Ruth said she did not realize that limeade came in a 6 oz size. Apparently the person who posted this recipe didn't either. This recipe is very good using 6 ounces of limeade. I will use it again.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "TERRY T",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/1992293/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2007-01-01T02:28:00.38Z",
+                "reviewBody": "Simple fast and delicious. Twist of fresh lime goes great with it!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "mbzrs",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2229570/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2005-01-02T18:43:10.293Z",
+                "reviewBody": "Ew. These need twice as much limeade half of the amount of rum and half the carbonated water. In other words make a whole new recipe. As is this tasted like watered down rum. Nobody liked them.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 1
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "amydoll",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/742336/"
+                }
+            }
+        ]
+    }
+]

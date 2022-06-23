@@ -1,0 +1,128 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/151/breakfast-and-brunch/pancakes/",
+                    "name": "Pancake Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/16068/breakfast-and-brunch/pancakes/whole-grain-pancakes/",
+                    "name": "Whole Grain Pancake Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/258479/oat-cakes/",
+        "name": "Oat Cakes",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5924916.jpg",
+            "width": 960,
+            "height": 960
+        },
+        "datePublished": "2017-06-13T03:14:33.000Z",
+        "description": "Similar to pancakes, only healthier.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "4 oat cakes",
+        "recipeIngredient": [
+            "1 banana, sliced",
+            "2 egg whites",
+            "\u00bd cup rolled oats",
+            "cooking spray",
+            "1 tablespoon peanut butter, or more to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Mash 3/4 of banana slices in a bowl; stir in egg whites and oats to form a batter.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Spray a skillet with cooking spray. Drop batter by large spoonfuls into the skillet and cook until browned, 3 to 4 minutes. Flip and cook until browned on the other side, 2 to 3 minutes. Repeat with remaining batter.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place oat cakes on a serving plate. Top with peanut butter and remaining banana slices.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Pancake Recipes",
+            "Whole Grain Pancake Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "AJC"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Oat Cakes",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "194.3 calories",
+            "carbohydrateContent": "29 g",
+            "cholesterolContent": null,
+            "fatContent": "5.7 g",
+            "fiberContent": "4.1 g",
+            "proteinContent": "9 g",
+            "saturatedFatContent": "1.1 g",
+            "servingSize": null,
+            "sodiumContent": "94.6 mg",
+            "sugarContent": "8.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

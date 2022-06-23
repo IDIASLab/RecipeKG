@@ -1,0 +1,109 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/145/breakfast-and-brunch/cereals/",
+                    "name": "Cereals",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/265843/porridge-with-power/",
+        "name": "Porridge with Power",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F309822.jpg",
+            "width": 250,
+            "height": 250
+        },
+        "datePublished": "2019-04-04T04:12:51.000Z",
+        "description": "With oats and flax for fiber, cottage cheese for protein and calcium and blueberries for antioxidants, this delicious breakfast packs a powerful punch that will leave you feeling satisfied until lunch time.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H2M",
+        "totalTime": "P0DT0H7M",
+        "recipeYield": "1 bowl",
+        "recipeIngredient": [
+            "1 cup water",
+            "\u2153 cup rolled oats",
+            "1 tablespoon ground flax seeds",
+            "1 tablespoon ground cinnamon",
+            "\u00bd cup cottage cheese",
+            "\u00bd cup blueberries"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Mix water, oats, flax seeds, and cinnamon in a microwave-safe bowl. Cook on full power until oats are tender, 2 to 2 1/2 minutes. Stir in cottage cheese and blueberries.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Cereals"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Susanna"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Porridge with Power",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "314 calories",
+            "carbohydrateContent": "39.4 g",
+            "cholesterolContent": "16.9 mg",
+            "fatContent": "10.1 g",
+            "fiberContent": "10 g",
+            "proteinContent": "19.7 g",
+            "saturatedFatContent": "3.8 g",
+            "servingSize": null,
+            "sodiumContent": "467.9 mg",
+            "sugarContent": "8.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

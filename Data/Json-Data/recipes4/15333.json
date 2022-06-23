@@ -1,0 +1,128 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/137/drinks/shakes-and-floats/",
+                    "name": "Shakes and Floats Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/228582/vanilla-almond-protein-shake/",
+        "name": "Vanilla Almond Protein Shake",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1060291.jpg",
+            "width": 965,
+            "height": 965
+        },
+        "datePublished": "2019-04-04T03:53:26.000Z",
+        "description": "Here is a simple and delicious protein shake that won't break your wallet.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "1 serving",
+        "recipeIngredient": [
+            "\u00bd cup ice",
+            "1 tablespoon sliced almonds",
+            "1 cup water, divided",
+            "\u2154 cup powdered non-fat milk",
+            "1 teaspoon fat-free, sugar-free vanilla pudding mix (such as Jell-o\u00ae)"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Blend ice, almonds, and 1/4 cup water in a blender until the almonds have been pulverized. Add remaining water, powdered milk, and pudding mix; continue blending until smooth.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Shakes and Floats Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "mr1217"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Vanilla Almond Protein Shake",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "327.5 calories",
+            "carbohydrateContent": "43.2 g",
+            "cholesterolContent": "16.4 mg",
+            "fatContent": "3.7 g",
+            "fiberContent": "0.7 g",
+            "proteinContent": "30.4 g",
+            "saturatedFatContent": "0.7 g",
+            "servingSize": null,
+            "sodiumContent": "445.8 mg",
+            "sugarContent": "42.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2014-09-23T22:36:09.543Z",
+                "reviewBody": "This was EXACTLY what I was looking for and I am glad I tried it. Simple to make, excellent texture, easy to drink. I did add a tsp of sugar because I have a sweet tooth. Will make it again and again!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "MichelleM",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2960392/"
+                }
+            }
+        ]
+    }
+]

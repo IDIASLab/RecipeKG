@@ -1,0 +1,128 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/105/appetizers-and-snacks/dips-and-spreads/",
+                    "name": "Dips and Spreads Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/235979/curry-dip/",
+        "name": "Curry Dip",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8195705.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-06-03T08:09:12.000Z",
+        "description": "A yummy dip served with fresh veggies. Always a hit!",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT2H5M",
+        "recipeYield": "2 cups",
+        "recipeIngredient": [
+            "2 cups mayonnaise",
+            "2 teaspoons tarragon vinegar",
+            "2 teaspoons prepared horseradish",
+            "2 teaspoons finely grated onion",
+            "\u00bd teaspoon curry powder"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Stir mayonnaise, vinegar, horseradish, onion, and curry powder together in a bowl; refrigerate at least 2 hours.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks",
+            "Dips and Spreads Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Nana"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Curry Dip",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "198.1 calories",
+            "carbohydrateContent": "1 g",
+            "cholesterolContent": "10.4 mg",
+            "fatContent": "21.8 g",
+            "fiberContent": null,
+            "proteinContent": "0.3 g",
+            "saturatedFatContent": "3.3 g",
+            "servingSize": null,
+            "sodiumContent": "158.2 mg",
+            "sugarContent": "0.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-06-02T21:12:54.953Z",
+                "reviewBody": "6.2.20  Amazing flavor from only 5 ingredients.  I think this is one of those recipes that you may want to adapt to your own taste.  For us, I doubled the curry powder (personal taste).   You get a nice zing from the horseradish, and some tang from the tarragon vinegar.  Simply delicious, simple to make, and we loved it!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "lutzflcat",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/lutzflcat/"
+                }
+            }
+        ]
+    }
+]

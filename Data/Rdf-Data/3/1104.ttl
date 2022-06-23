@@ -1,0 +1,71 @@
+@prefix ns1: <http://purl.org/heals/food/> .
+@prefix ns2: <http://purl.org/recipekg/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/zucchini-dip> a schema:Recipe ;
+    ns1:hasIngredient [ a <http://purl.org/recipekg/ingredient/SalsaVerde> ;
+            ns2:hasQuantity "1/2" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "salsa verde" ],
+        [ a <http://purl.org/recipekg/ingredient/GreenChiles> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "can" ;
+            ns2:ingredientName "green chiles" ],
+        [ a <http://purl.org/heals/ingredient/Onion> ;
+            ns2:hasQuantity "1/2" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "onion" ],
+        [ ],
+        [ a <http://purl.org/recipekg/ingredient/GarbanzoBeans> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "can" ;
+            ns2:ingredientName "garbanzo beans" ],
+        [ a <http://purl.org/recipekg/ingredient/Zucchini> ;
+            ns2:hasQuantity "2" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "zucchini" ] ;
+    ns2:belongsTo <http://purl.org/recipekg/categories/appetizers-and-snacks/vegetable/zucchini-appetizers/> ;
+    ns2:hasFSAScore 6 ;
+    ns2:hasNutritionalInformation [ a ns2:NutritionalInformation ;
+            ns2:hasCalorificData [ a ns2:CalorificData ;
+                    ns2:hasAmount "29.5"^^xsd:float ;
+                    ns2:hasUnit "calories" ] ;
+            ns2:hasCarbohydrateData [ a ns2:CarbohydrateData ;
+                    ns2:hasAmount "5.9"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasFatData [ a ns2:FatData ;
+                    ns2:hasAmount "0.2"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSAGreen ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasFiberData [ a ns2:FiberData ;
+                    ns2:hasAmount "1.1"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasProteinData [ a ns2:ProteinData ;
+                    ns2:hasAmount "1.2"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasSodiumData [ a ns2:SodiumData ;
+                    ns2:hasAmount "161.4"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSAGreen ;
+                    ns2:hasUnit "mg" ] ;
+            ns2:hasSugarData [ a ns2:SugarData ;
+                    ns2:hasAmount "1.0"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSAGreen ;
+                    ns2:hasUnit "g" ] ] ;
+    ns2:hasUSDAScore 4 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2018-06-08T14:16:40.000Z"^^schema:date ;
+    schema:name "Zucchini Dip"^^xsd:string ;
+    schema:recipeYield "4 cups"^^xsd:string .
+
+<http://purl.org/recipekg/categories/appetizers-and-snacks/> a ns2:RecipeCategory .
+
+<http://purl.org/recipekg/categories/appetizers-and-snacks/vegetable/> rdfs:subClassOf <http://purl.org/recipekg/categories/appetizers-and-snacks/> .
+
+<http://purl.org/recipekg/categories/appetizers-and-snacks/vegetable/zucchini-appetizers/> rdfs:subClassOf <http://purl.org/recipekg/categories/appetizers-and-snacks/vegetable/> .
+
+ns2:FSAGreen a ns2:FSAColor .
+

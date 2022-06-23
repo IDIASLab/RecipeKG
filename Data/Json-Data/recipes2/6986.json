@@ -1,0 +1,140 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/94/soups-stews-and-chili/",
+                    "name": "Soups, Stews and Chili Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/173/soups-stews-and-chili/chili/",
+                    "name": "Chili Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/234527/pauls-fat-tire-lamb-chili/",
+        "name": "Paul's Fat Tire&reg; Lamb Chili",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3856821.jpg",
+            "width": 3264,
+            "height": 2448
+        },
+        "datePublished": "2016-06-04T14:09:01.000Z",
+        "description": "Ground lamb and black bean chili made with Fat Tire&reg; beer.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT2H25M",
+        "totalTime": "P0DT2H35M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "1 pound ground lamb",
+            "1 (16 ounce) can tomato sauce",
+            "1 (16 ounce) can black beans, rinsed and drained",
+            "1 (12 fluid ounce) can or bottle amber ale (such as Fat Tire\u00ae)",
+            "1 (4 ounce) carton Texas-style chili seasoning kit (such as Carroll Shelby's\u00ae)",
+            "1 red onion, finely chopped",
+            "3 jalapeno peppers, ribs removed, chopped",
+            "3 cloves garlic, minced",
+            "1 habanero pepper, ribs removed and chopped (wear gloves)"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat a large skillet over medium-high heat. Cook and stir lamb until browned and crumbly, 5 to 7 minutes; drain and discard grease.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine tomato sauce, black beans, and amber ale in a large pot. Stir contents of the chili seasoning kit, reserving the masa flour, into the tomato mixture; add onion, jalapeno peppers, garlic, and habanero pepper. Stir in lamb.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat pot on low until lamb mixture begins to lightly simmer, stirring frequently, about 15 minutes. Cover and reduce heat to warm (lowest setting) and cook until chili flavors blend, stirring occasionally, 2 to 4 hours. If the chili is too thin, slowly stir in reserved masa flour. If the chili is too thick, add water.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Soups, Stews and Chili Recipes",
+            "Chili Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "WeaselFlix"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Paul's Fat Tire&reg; Lamb Chili",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "430.2 calories",
+            "carbohydrateContent": "35.5 g",
+            "cholesterolContent": "75.9 mg",
+            "fatContent": "16.3 g",
+            "fiberContent": "10.3 g",
+            "proteinContent": "29.5 g",
+            "saturatedFatContent": "6.5 g",
+            "servingSize": null,
+            "sodiumContent": "1471.4 mg",
+            "sugarContent": "8.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2013-09-29T19:29:17.707Z",
+                "reviewBody": "This was really good and super easy.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "CKohanke",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3337433/"
+                }
+            }
+        ]
+    }
+]

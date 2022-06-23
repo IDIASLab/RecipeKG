@@ -1,0 +1,159 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/250/main-dish/pizza/",
+                    "name": "Pizza Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/236572/cajun-boudin-pizza/",
+        "name": "Cajun Boudin Pizza",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1117039.jpg",
+            "width": 960,
+            "height": 960
+        },
+        "datePublished": "2015-06-17T06:02:05.000Z",
+        "description": "A Cajun take on American classic pizza; it's quick and easy, guaranteed to please the entire family. You can use any pre-made pizza crust instead of naan bread.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H30M",
+        "totalTime": "P0DT0H50M",
+        "recipeYield": "1 pizza",
+        "recipeIngredient": [
+            "1 link boudin sausage",
+            "1 tandoori naan bread",
+            "\u00bc cup prepared marinara sauce, or as needed",
+            "1 cup grated mozzarella cheese",
+            "\u00bc onion, sliced, or to taste",
+            "\u00bc green bell pepper, sliced, or to taste",
+            "1 pinch Cajun seasoning, or to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Set oven rack about 6 inches from the heat source and preheat the oven's broiler.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place sausage in a baking dish and cook, rotating every 5 minutes, until no longer pink in the center, about 20 minutes. An instant-read thermometer inserted into the center should read 160 degrees F (70 degrees C). Cool to room temperature and slice. Reduce oven temperature to 350 degrees F (175 degrees C).\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place naan bread on a baking sheet; spread marinara sauce over naan and top with mozzarella cheese. Layer sliced sausage on top of cheese and spread onion and bell pepper slices over the sausage. Sprinkle Cajun seasoning over the top.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the oven until cheese is melted and toppings are hot, about 10 minutes. Let rest for 5 minutes before slicing.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Pizza Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Debbie Fox"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Cajun Boudin Pizza",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "741.1 calories",
+            "carbohydrateContent": "75.1 g",
+            "cholesterolContent": "102.3 mg",
+            "fatContent": "28.4 g",
+            "fiberContent": "12.5 g",
+            "proteinContent": "46.7 g",
+            "saturatedFatContent": "13.8 g",
+            "servingSize": null,
+            "sodiumContent": "1782 mg",
+            "sugarContent": "10.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2014-03-25T17:18:15.763Z",
+                "reviewBody": "What a great idea! I bought the bulk sausage it's just a personal choice and used homemade pizza dough flavored with old bay. I have no idea why I've never thought to do this but I am glad you did! It will leave you craving it.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Emma Crawford",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3748603/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2020-11-17T07:41:53.61Z",
+                "reviewBody": "Super easy, super flavorful. Not sure why I've never thought to use boudin on pizza. Will definitely make again.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Cherie Brooks Patterson",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/11019068/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,143 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/364/desserts/frozen-desserts/",
+                    "name": "Frozen Dessert Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/2410/desserts/frozen-desserts/ice-cream-pie/",
+                    "name": "Ice Cream Pie Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/284654/ice-cream-oreo-cookie-pie/",
+        "name": "Ice Cream Oreo&reg; Cookie Pie",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F410110.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2006-07-23T23:09:55.000Z",
+        "description": "My daughter requests this pie for her birthday each year. It is embarrassing how easy it is, despite its popularity with both adults and children!",
+        "prepTime": "P0DT0H20M",
+        "cookTime": null,
+        "totalTime": "P0DT4H20M",
+        "recipeYield": "1 8-inch pie",
+        "recipeIngredient": [
+            "1 (16 ounce) package mini chocolate sandwich cookies (such as Oreo\u00ae Mini)",
+            "1 quart vanilla ice cream, softened",
+            "1 (6 ounce) chocolate sandwich cookie crumb crust (such as an OREO\u00ae crust)",
+            "1 (8 ounce) container frozen whipped topping, thawed"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Reserve 8 mini sandwich cookies for garnish. Place remaining cookies in a food processor or plastic bag and crush coarsely.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Stir crushed cookies into softened ice cream. Put ice cream mixture into cookie crust and place in the freezer until set, about 1 hour.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pipe whipped topping around the edge of the pie and top with the reserved cookies, standing on end. Freeze for 3 to 8 hours before serving.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Frozen Dessert Recipes",
+            "Ice Cream Pie Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "cookin'mama"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Ice Cream Oreo&reg; Cookie Pie",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "570.1 calories",
+            "carbohydrateContent": "76.3 g",
+            "cholesterolContent": "29 mg",
+            "fatContent": "27.9 g",
+            "fiberContent": "2.8 g",
+            "proteinContent": "6.1 g",
+            "saturatedFatContent": "12.3 g",
+            "servingSize": null,
+            "sodiumContent": "452.4 mg",
+            "sugarContent": "46.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-07-21T07:15:41.29Z",
+                "reviewBody": "I made my own oreo crust and added some cool whip to the ice cream mixture as well. i topped mine with fudge sauce. it was awsome!!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Annie",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/28627669/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,153 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/276/desserts/cakes/",
+                    "name": "Cakes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/835/desserts/cakes/chocolate-cake/",
+                    "name": "Chocolate Cake Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/262689/greek-yogurt-chocolate-cake/",
+        "name": "Greek Yogurt Chocolate Cake",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6926615.jpg",
+            "width": 2048,
+            "height": 1536
+        },
+        "datePublished": "2020-06-19T04:27:05.000Z",
+        "description": "This Greek yogurt cake is a chocolaty, low-fat alternative to a cake with butter!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H30M",
+        "totalTime": "P0DT0H40M",
+        "recipeYield": "1 double-layered 9-inch cake",
+        "recipeIngredient": [
+            "1\u2009\u00be cups self-rising flour",
+            "1 cup unsweetened cocoa powder",
+            "\u215b teaspoon salt",
+            "2 cups white sugar",
+            "1 cup water",
+            "2 eggs",
+            "\u00bc cup vanilla Greek yogurt",
+            "2 teaspoons vanilla extract"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat the oven to 350 degrees F (175 degrees C).\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Sift flour, cocoa powder, and salt together in a bowl. Mix sugar, water, eggs, Greek yogurt, and vanilla extract together in another bowl using an electric mixer.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Gradually add the flour-cocoa mixture into the bowl with the yogurt mixture. Mix until well blended. Pour batter into two 9-inch cake pans.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated oven until a toothpick inserted into the centers comes out clean, 30 to 35 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Cakes",
+            "Chocolate Cake Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Kate Griffin"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Greek Yogurt Chocolate Cake",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "226.8 calories",
+            "carbohydrateContent": "51 g",
+            "cholesterolContent": "31.4 mg",
+            "fatContent": "2.1 g",
+            "fiberContent": "2.9 g",
+            "proteinContent": "4.5 g",
+            "saturatedFatContent": "1 g",
+            "servingSize": null,
+            "sodiumContent": "270.6 mg",
+            "sugarContent": "33.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-08-12T12:29:20.88Z",
+                "reviewBody": "An easy recipe which produces a delicious rich cake. I am not sure whether the Greeks use any icing or frosting as the texture is quite heavy, almost like a dessert.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Lea Annandale-Dippenaar",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/25763446/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,126 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/137/drinks/shakes-and-floats/",
+                    "name": "Shakes and Floats Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/285724/pineapple-upside-down-milkshake/",
+        "name": "Pineapple Upside-Down Milkshake",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F9419147.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2008-08-08T15:33:17.000Z",
+        "description": "This was an attempt to re-create the pina colada that went wrong. What I came up with however, is a cool creamy tropical milkshake that everyone loves. My friends call it pineapple upside-down cake in a glass.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "2 cups ice cubes",
+            "2 cups vanilla ice cream",
+            "1\u2009\u00bd cups pineapple juice",
+            "1 cup milk",
+            "4\u2009\u00bc ounces cream of coconut"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine ice cubes, ice cream, pineapple juice, milk, and cream of coconut in a blender. Process until creamy and ice is finely chopped. Serve immediately.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Shakes and Floats Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "abbysmama323"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Pineapple Upside-Down Milkshake",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "329.7 calories",
+            "carbohydrateContent": "48.6 g",
+            "cholesterolContent": "33.9 mg",
+            "fatContent": "13.9 g",
+            "fiberContent": "0.6 g",
+            "proteinContent": "4.7 g",
+            "saturatedFatContent": "9.5 g",
+            "servingSize": null,
+            "sodiumContent": "98.9 mg",
+            "sugarContent": "44.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-11-11T03:59:57.493Z",
+                "reviewBody": "This did not taste anything like a pineapple upside down cake. If anything, it tasted like watered down creamy pineapple juice. I really didn't care for it and I doubt that I will be making this again.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 2
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Yoly",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/cookingbikerchick/"
+                }
+            }
+        ]
+    }
+]

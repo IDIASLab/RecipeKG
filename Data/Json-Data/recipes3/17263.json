@@ -1,0 +1,152 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/217/salad/potato-salad/",
+                    "name": "Potato Salad Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/16148/salad/potato-salad/creamy-potato-salad/",
+                    "name": "Creamy Potato Salad Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/268967/skinny-potato-salad/",
+        "name": "Skinny Potato Salad",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6401444.jpg",
+            "width": 1440,
+            "height": 2880
+        },
+        "datePublished": "2018-11-03T11:36:43.000Z",
+        "description": "Years ago, I found a similar recipe in Reader's Digest. Delicious skinny potato salad with very little mayonnaise; Greek yogurt takes its place.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H25M",
+        "totalTime": "P0DT0H40M",
+        "recipeYield": "8 servings",
+        "recipeIngredient": [
+            "4 cups new potatoes",
+            "\u00bd cup plain Greek yogurt",
+            "2 tablespoons mayonnaise",
+            "2 tablespoons prepared brown mustard, or more to taste",
+            "1 tablespoon cooking sherry",
+            "1 tablespoon pickle juice",
+            "\u00bd teaspoon salt, or to taste",
+            "1 pinch ground black pepper",
+            "1 stalk celery, chopped",
+            "2 green onions, chopped",
+            "2 tablespoons chopped dill pickles"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place potatoes into a large pot and cover with salted water; bring to a boil. Reduce heat to medium-low and simmer until tender, about 20 minutes. Drain and let cool.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Mix yogurt, mayonnaise, mustard, sherry, pickle juice, salt, and pepper together to make dressing.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Halve or quarter potatoes and place in a bowl. Add celery, green onions, and pickles. Spoon in dressing and toss to combine.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad",
+            "Potato Salad Recipes",
+            "Creamy Potato Salad Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "MairsyDoats"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Skinny Potato Salad",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "108.6 calories",
+            "carbohydrateContent": "15.2 g",
+            "cholesterolContent": "4.1 mg",
+            "fatContent": "4.3 g",
+            "fiberContent": "1.9 g",
+            "proteinContent": "2.7 g",
+            "saturatedFatContent": "1.1 g",
+            "servingSize": null,
+            "sodiumContent": "305.8 mg",
+            "sugarContent": "1.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-02-25T08:46:35.147Z",
+                "reviewBody": "Very good and love that it's healthier. I used cream sherry I had on hand. Would suggest this for a picnic! Yummy flavors!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Chef Mo",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/chefmo/"
+                }
+            }
+        ]
+    }
+]

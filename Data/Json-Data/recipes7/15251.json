@@ -1,0 +1,150 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17140/desserts/fruit-desserts/",
+                    "name": "Fruit Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17531/desserts/fruit-desserts/pineapple-desserts/",
+                    "name": "Pineapple Dessert Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/256581/pina-colada-frozen-yogurt/",
+        "name": "Pina Colada Frozen Yogurt",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Pina Colada Frozen Yogurt"
+        },
+        "datePublished": "2020-06-19T04:19:22.000Z",
+        "description": "Nothing beats the taste of homemade ice cream or frozen yogurt! I lost the recipes that came with my ice cream machine, so I made up my own. Yum!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT3H0M",
+        "recipeYield": "4 quarts",
+        "recipeIngredient": [
+            "1 (20 ounce) can crushed pineapple",
+            "1 (32 fluid ounce) container vanilla yogurt (such as Dannon\u00ae Light and Fit\u00ae)",
+            "2 cups half-and-half",
+            "1 (15 ounce) can cream of coconut",
+            "2 (6 ounce) containers toasted coconut vanilla Greek yogurt (such as Dannon\u00ae Light and Fit\u00ae)",
+            "1 cup heavy whipping cream",
+            "1 cup white sugar",
+            "1 teaspoon rum extract"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Pour crushed pineapple into a food processor; puree until smooth. Transfer to a large bowl.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Mix vanilla yogurt, half-and-half, cream of coconut, coconut vanilla Greek yogurt, heavy cream, sugar, and rum extract into the pureed pineapple. Refrigerate until thoroughly chilled, 30 to 60 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Freeze mixture in an ice cream maker according to manufacturer's directions, about 20 minutes. Transfer to a freezer container and freeze until firm, about 2 hours.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Fruit Desserts",
+            "Pineapple Dessert Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Julie Michaelson Holdsworth"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Pina Colada Frozen Yogurt",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "172.7 calories",
+            "carbohydrateContent": "22.8 g",
+            "cholesterolContent": "18.6 mg",
+            "fatContent": "8 g",
+            "fiberContent": "0.2 g",
+            "proteinContent": "3.2 g",
+            "saturatedFatContent": "5.9 g",
+            "servingSize": null,
+            "sodiumContent": "37.3 mg",
+            "sugarContent": "21.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-04-01T20:29:10.377Z",
+                "reviewBody": "Delicious!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Julie Michaelson Holdsworth",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/13948319/"
+                }
+            }
+        ]
+    }
+]

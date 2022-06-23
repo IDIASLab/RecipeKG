@@ -1,0 +1,111 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/211/salad/fruit-salads/",
+                    "name": "Fruit Salad Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/265813/spicy-mango-salad-with-jalapeno/",
+        "name": "Spicy Mango Salad with Jalapeno",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5488408.jpg",
+            "width": 3024,
+            "height": 3024
+        },
+        "datePublished": "2019-07-10T07:12:20.000Z",
+        "description": "Sweet and spicy - that's how I like my mango salad. It goes great with meat or fish dishes. Adjust the spice according to your personal taste.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": null,
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "1 mango - peeled, seeded, and diced",
+            "\u00bd jalapeno pepper, seeded and minced",
+            "\u00bc small onion, chopped",
+            "\u215b green bell pepper, chopped",
+            "2 teaspoons finely chopped mint, or to taste",
+            "1 tablespoon lemon juice, or as needed",
+            "1 teaspoon honey",
+            "\u00bd teaspoon red pepper flakes, or to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine mango, jalapeno, onion, bell pepper, and mint in a bowl. Mix to combine. Season with lemon juice, honey, and red pepper flakes. Mix well.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad",
+            "Fruit Salad Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Nanda"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Spicy Mango Salad with Jalapeno",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "70.6 calories",
+            "carbohydrateContent": "18.3 g",
+            "cholesterolContent": null,
+            "fatContent": "0.4 g",
+            "fiberContent": "2 g",
+            "proteinContent": "0.7 g",
+            "saturatedFatContent": "0.1 g",
+            "servingSize": null,
+            "sodiumContent": "2.6 mg",
+            "sugarContent": "15.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

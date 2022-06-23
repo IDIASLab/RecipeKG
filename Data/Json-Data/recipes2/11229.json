@@ -1,0 +1,135 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/217223/metropole-cocktail/",
+        "name": "Metropole Cocktail",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F966003.jpg",
+            "width": 2753,
+            "height": 2753
+        },
+        "datePublished": "2017-07-27T13:00:43.000Z",
+        "description": "An old brandy, vermouth, and bitters cocktail that dates from about the 1880s. Also good with a dash of orange bitters.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "1 cocktail",
+        "recipeIngredient": [
+            "1\u2009\u00bd cups ice",
+            "1\u2009\u00bd fluid ounces cognac",
+            "1\u2009\u00bd fluid ounces dry vermouth",
+            "2 dashes bitters (such as Peychaud's Bitters\u00ae)",
+            "1 maraschino cherry, for garnish"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Fill a cocktail shaker with ice. Pour in cognac and vermouth, then shake in bitters. Stir well, strain into a chilled glass, and garnish with a cherry.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Lorem Ipsum"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 2,
+            "itemReviewed": "Metropole Cocktail",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "229.5 calories",
+            "carbohydrateContent": "7.8 g",
+            "cholesterolContent": null,
+            "fatContent": null,
+            "fiberContent": "0.1 g",
+            "proteinContent": "0.1 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "15.5 mg",
+            "sugarContent": "3.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-04-19T01:48:03.053Z",
+                "reviewBody": "Lighter in body due to dry vermouth being 50% of the recipe. But I thought it needed a bit more body, so in future I will mix it with 2 oz cognac to 1-1/2 oz dry vermouth. Peychaud\u2019s bitters is customary with anything cognac.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Paul Johnston",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/27372452/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2013-02-10T21:18:33.063Z",
+                "reviewBody": "Granted I've never had a Metropole before. I think this is all about taste but honestly I missed sweet vermouth in this. I tasted it tasted it again and added a little sweet vermouth and it was just about right.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "lutzflcat",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/lutzflcat/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,111 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/137/drinks/shakes-and-floats/",
+                    "name": "Shakes and Floats Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/277995/banana-oat-protein-shake/",
+        "name": "Banana-Oat Protein Shake",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6837800.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-01-04T02:53:44.000Z",
+        "description": "This banana-oat-peanut butter protein shake will give you quick protein and fiber, perfect for a quick breakfast or a snack before or after a workout. This tasty shake has everything you need to quickly replenish calories and energy.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "2\u2009\u00bd frozen bananas",
+            "2 pitted dates, or more to taste",
+            "2 cups water",
+            "1\u2009\u00bd cups ice cubes",
+            "\u00bc cup rolled oats",
+            "1\u2009\u00bd scoops peanut butter-flavored protein powder"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine bananas, dates, water, ice, oats, and protein powder in an electric blender. Blend until mixed. Serve.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Shakes and Floats Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Dane Bentley"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Banana-Oat Protein Shake",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "380.8 calories",
+            "carbohydrateContent": "64.6 g",
+            "cholesterolContent": "9.4 mg",
+            "fatContent": "2.2 g",
+            "fiberContent": "7.1 g",
+            "proteinContent": "31.8 g",
+            "saturatedFatContent": "1.2 g",
+            "servingSize": null,
+            "sodiumContent": "174.7 mg",
+            "sugarContent": "37 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

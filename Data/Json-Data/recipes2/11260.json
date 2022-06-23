@@ -1,0 +1,155 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/251/main-dish/sandwiches/",
+                    "name": "Sandwich Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17557/main-dish/sandwiches/wraps-and-roll-ups/",
+                    "name": "Wraps and Roll-Ups",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/259212/pbj-sushi-kids-bento-box/",
+        "name": "PBJ 'Sushi' Kid's Bento Box",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4573298.jpg",
+            "width": 4096,
+            "height": 3290
+        },
+        "datePublished": "2017-07-29T04:15:25.000Z",
+        "description": "A fun, easy take on a classic kid's meal - bento box style!",
+        "prepTime": "P0DT0H15M",
+        "cookTime": null,
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "1 bento box",
+        "recipeIngredient": [
+            "1 (8 inch) flour tortilla",
+            "peanut butter",
+            "1 tablespoon grape jelly, or to taste",
+            "1 banana, sliced",
+            "1\u2009\u00bd tablespoons chocolate syrup, or to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Spread peanut butter over half of the tortilla; cover the other half with jelly. Roll up the tortilla, starting on the jelly side, and seal. Slice into sushi roll-sized pieces. Serve in a bento box, with banana and chocolate syrup ('ginger' and 'soy sauce') placed in separate compartments.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Sandwich Recipes",
+            "Wraps and Roll-Ups"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "fabeveryday"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "PBJ 'Sushi' Kid's Bento Box",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "493.7 calories",
+            "carbohydrateContent": "89.4 g",
+            "cholesterolContent": null,
+            "fatContent": "12.4 g",
+            "fiberContent": "6.6 g",
+            "proteinContent": "10.3 g",
+            "saturatedFatContent": "2.8 g",
+            "servingSize": null,
+            "sodiumContent": "336.7 mg",
+            "sugarContent": "39.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-08-16T18:56:52.66Z",
+                "reviewBody": "This is fantastic! But i like to add thin sliced strawberries in the tortilla and instead of chocolate syrup I use honey",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "ChefDad1337",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/28258054/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2017-10-26T03:22:45.177Z",
+                "reviewBody": "This was a cute idea and it tastes good too! My daughter loves the Japanese culture and I even had to take her to the Japanese market in our area to get an authentic bento box. This was quick and easy to make!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "House of Aqua",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/houseofaqua/"
+                }
+            }
+        ]
+    }
+]

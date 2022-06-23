@@ -1,0 +1,153 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/251/main-dish/sandwiches/",
+                    "name": "Sandwich Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1884/main-dish/sandwiches/grilled-cheese/",
+                    "name": "Grilled Cheese",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/256067/grilled-cheese-sticks/",
+        "name": "Grilled Cheese Sticks",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4579692.jpg",
+            "width": 1200,
+            "height": 978
+        },
+        "datePublished": "2016-11-16T04:08:04.000Z",
+        "description": "These perfectly golden brown, toasty, buttery Parmesan-crusted grilled cheese sticks are filled with 2 ooey gooey melted cheeses, plus a few more surprises!",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H4M",
+        "totalTime": "P0DT0H19M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "1 tablespoon mayonnaise, divided",
+            "2 slices  day-old sourdough bread",
+            "2 tablespoons shredded Parmesan cheese",
+            "2 tablespoons finely grated extra-sharp Cheddar cheese, at room temperature",
+            "1 tablespoon finely grated Jack cheese, at room temperature",
+            "2 teaspoons minced green onion",
+            "1 clove garlic, minced",
+            "2 dashes cayenne pepper"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Spread 1/2 teaspoon mayonnaise onto 1 side of each slice of bread. Sprinkle 1 tablespoon Parmesan cheese over mayonnaise layer, pressing cheese firmly into the bread.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine remaining mayonnaise, Cheddar cheese, Jack cheese, green onion, garlic, and cayenne pepper in a bowl.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Flip 1 bread slice over so the Parmesan layer is facing down, and spread Cheddar cheese mixture onto the bread. Top the Cheddar cheese mixture layer with the other slice of bread, so the Parmesan is on the outside of the sandwich. Cut sandwich into 4 equal slices.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat a nonstick pan over medium heat; turn heat down to medium-low. Place sandwich sticks in the skillet and cook until golden brown and cheese is softly melted, 2 to 3 minutes per side.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Sandwich Recipes",
+            "Grilled Cheese"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Culinary Envy"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Grilled Cheese Sticks",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "196.2 calories",
+            "carbohydrateContent": "15.9 g",
+            "cholesterolContent": "18.9 mg",
+            "fatContent": "11.4 g",
+            "fiberContent": "1 g",
+            "proteinContent": "8.1 g",
+            "saturatedFatContent": "4.3 g",
+            "servingSize": null,
+            "sodiumContent": "349.6 mg",
+            "sugarContent": "1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2016-12-18T02:46:45.03Z",
+                "reviewBody": "These were excellent! I did use whole wheat bread because that is what I had on hand. This browns up nicely and is a good grown up version of a grilled cheese. I do think the serving size is off. As directed this makes the equivalent of one whole sandwich which only serves 1 person in my opinion. Great recipe! Thanks for sharing!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

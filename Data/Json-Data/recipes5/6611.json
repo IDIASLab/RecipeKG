@@ -1,0 +1,162 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17140/desserts/fruit-desserts/",
+                    "name": "Fruit Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17526/desserts/fruit-desserts/lemon-desserts/",
+                    "name": "Lemon Dessert Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/246039/tart-meyer-lemon-sorbet/",
+        "name": "Tart Meyer Lemon Sorbet",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3307296.jpg",
+            "width": 2037,
+            "height": 2037
+        },
+        "datePublished": "2019-07-10T07:06:39.000Z",
+        "description": "A tasty tart Meyer lemon sorbet. It's paleo-friendly too, for my weirdo daughter.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H1M",
+        "totalTime": "P0DT0H36M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "1\u2009\u00be cups water",
+            "\u00be cup honey",
+            "2 cups Meyer lemon juice",
+            "1 tablespoon lemon zest"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine water and honey and a microwave-safe bowl; heat in microwave for about 30 seconds. Stir water until honey is dissolved.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Stir lemon juice and lemon zest into honey water; pour into an ice cream maker. Process according to manufacturer's instructions for 25 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Scrape sorbet into a chilled loaf pan and freeze.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Fruit Desserts",
+            "Lemon Dessert Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Carol Anderson"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Tart Meyer Lemon Sorbet",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "149.6 calories",
+            "carbohydrateContent": "42.1 g",
+            "cholesterolContent": null,
+            "fatContent": null,
+            "fiberContent": "0.5 g",
+            "proteinContent": "0.5 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "4.6 mg",
+            "sugarContent": "36.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2016-02-26T15:50:59.357Z",
+                "reviewBody": "This is so refreshing! Turned out more like a granita than a sorbet really. I garnished it with some candied lemon peel and a sprig of mint. Turned out so pretty. Would make a nice dessert for a dinner party. Thanks for the recipe!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Kim's Cooking Now",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/kimscookingnow/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2019-09-16T22:57:56.337Z",
+                "reviewBody": "It's rather tart... I might play with it a little next time but it was terrific. It took a bit longer to freeze than I expected but it worked well. It was finished in time and that's what was important.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Mark",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/20694589/"
+                }
+            }
+        ]
+    }
+]

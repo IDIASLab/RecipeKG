@@ -1,0 +1,131 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/141/drinks/eggnog/",
+                    "name": "Eggnog Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/269416/traditional-eggnog/",
+        "name": "Traditional Eggnog",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F308125.jpg",
+            "width": 250,
+            "height": 250
+        },
+        "datePublished": "2020-06-19T04:33:47.000Z",
+        "description": "A great traditional eggnog with brandy and dark rum. I found this recipe a few years back and have been making it around the holidays and giving it as gifts every year since. It usually goes pretty quick and a lot of my family and friends who say they don't like eggnog like this stuff!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT2H10M",
+        "recipeYield": "2 1/2 quarts",
+        "recipeIngredient": [
+            "6 eggs",
+            "1 cup white sugar",
+            "\u00bd teaspoon vanilla extract",
+            "\u00bd teaspoon ground nutmeg, divided",
+            "2 cups whipping cream",
+            "2 cups milk",
+            "\u00be cup brandy, chilled",
+            "\u2153 cup spiced rum (such as Captain Morgan's\u00ae)"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Beat eggs with an electric mixer on medium speed until very frothy, 2 to 3 minutes. Gradually beat in sugar, vanilla extract, and 1/4 teaspoon nutmeg. Stir in cream, milk, brandy, and rum. Chill before serving. Sprinkle individual servings with remaining nutmeg.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Eggnog Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "phalanx0"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 3,
+            "itemReviewed": "Traditional Eggnog",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "211.5 calories",
+            "carbohydrateContent": "13.3 g",
+            "cholesterolContent": "100.4 mg",
+            "fatContent": "12 g",
+            "fiberContent": null,
+            "proteinContent": "3.5 g",
+            "saturatedFatContent": "7 g",
+            "servingSize": null,
+            "sodiumContent": "44.7 mg",
+            "sugarContent": "12.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-12-08T03:23:59.787Z",
+                "reviewBody": "This is great eggnog. If you are in a pinch you can just use half and half instead of milk and cream but the results are not exactly the same. Make sure the beat the eggs and cream/milk/egg mixture a good amount to give it more volume and make is creamier.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "phalanx0",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3787739/"
+                }
+            }
+        ]
+    }
+]

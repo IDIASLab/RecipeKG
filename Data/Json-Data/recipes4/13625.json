@@ -1,0 +1,148 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/94/soups-stews-and-chili/",
+                    "name": "Soups, Stews and Chili Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/171/soups-stews-and-chili/broth-and-stocks/",
+                    "name": "Broth and Stock Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/174348/bonito-dashi/",
+        "name": "Bonito Dashi",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Bonito Dashi"
+        },
+        "datePublished": "2019-04-04T03:46:38.000Z",
+        "description": "A simple dashi recipe. Dashi is a standard broth used in Japanese soup and hot pot. You can find the ingredient at your local Asian grocery store.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H35M",
+        "recipeYield": "4 cups",
+        "recipeIngredient": [
+            "2 (4 inch) pieces dashi kombu (dried kelp)",
+            "4 cups water",
+            "\u00bd ounce bonito shavings (dry fish flakes)"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Wipe the kombu with a damp cloth to clean it, then cut into 1 inch pieces, and place into a saucepan along with the water. Let stand 15 to 20 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bring the kombu to a rapid simmer; reduce to a slow simmer over low heat. Sprinkle in the bonito shavings and simmer a few minutes more until the flakes have sunk to the bottom of the saucepan. Remove from the heat and let stand a few minutes. Strain through a mesh strainer before using.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Soups, Stews and Chili Recipes",
+            "Broth and Stock Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "lomagu"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 2,
+            "itemReviewed": "Bonito Dashi",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "12.1 calories",
+            "carbohydrateContent": "0.3 g",
+            "cholesterolContent": null,
+            "fatContent": null,
+            "fiberContent": null,
+            "proteinContent": "2.9 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "32.6 mg",
+            "sugarContent": null,
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2011-04-01T01:12:26.99Z",
+                "reviewBody": "I tripled this recipe using 3 ounces of shredded kombu (kelp) instead of the 4 inch pieces called for and over 2 ounces of bonito flakes (so I used proportionally more of each ingredient than the recipe called for). I followed the method exactly. It was pretty bland. I added fish balls and cooked rice noodles to make a nice soup but wanted more from the broth. I don't know if it needed to steep longer or if I needed more of the kombu and bonito but it definitely needed more of something. However this is much better than my amateur attempts at bonito broth in the past so it has put me on the right track.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "cooks4forty",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/cooks4forty/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2012-02-10T12:55:17.033Z",
+                "reviewBody": "Good recipe and a tasty dashi will definatly use again.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Trang",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/8793360/"
+                }
+            }
+        ]
+    }
+]

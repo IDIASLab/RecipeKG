@@ -1,0 +1,139 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/211/salad/fruit-salads/",
+                    "name": "Fruit Salad Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/281968/apple-pomegranate-and-pecan-salad/",
+        "name": "Apple, Pomegranate, and Pecan Salad",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8921486.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2011-12-04T18:55:44.000Z",
+        "description": "A great and tasty salad showcasing the flavors of fall.",
+        "prepTime": "P0DT0H20M",
+        "cookTime": null,
+        "totalTime": "P0DT0H20M",
+        "recipeYield": "8 servings",
+        "recipeIngredient": [
+            "\u00bd cup pomegranate juice",
+            "1 tablespoon balsamic vinegar",
+            "1 teaspoon Dijon mustard",
+            "1 teaspoon honey",
+            "\u00bc cup canola oil",
+            "\u215b teaspoon salt",
+            "\u215b teaspoon ground black pepper",
+            "2 medium Granny Smith apples, cored and chopped",
+            "1 (5 ounce) package baby spinach",
+            "\u2154 cup pomegranate seeds",
+            "\u2153 cup candied pecans",
+            "\u00bc cup crumbled feta cheese"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine pomegranate juice, balsamic vinegar, Dijon, and honey in the bowl of a food processor; pulse until combined. Keep the blade running and slowly pour canola oil in through the food chute until smooth. Add salt and pepper and set dressing aside.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Toss apples, spinach, pomegranate seeds, pecans, and feta cheese together in a large bowl. Drizzle dressing on top and toss until well combined.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad",
+            "Fruit Salad Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "KenzieKook"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Apple, Pomegranate, and Pecan Salad",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "150.4 calories",
+            "carbohydrateContent": "11.8 g",
+            "cholesterolContent": "7 mg",
+            "fatContent": "10.4 g",
+            "fiberContent": "1.9 g",
+            "proteinContent": "4.1 g",
+            "saturatedFatContent": "2 g",
+            "servingSize": null,
+            "sodiumContent": "186.7 mg",
+            "sugarContent": "8.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-01-05T04:33:49.76Z",
+                "reviewBody": "This salad had mixed reviews in my house. My husband thought that there was a flavor that did not go well but could not say which one. I thought it was okay but it still needed something. I think it may be the dressing. It was rather \"watery\" and a little bit went a long way.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "My Hot Southern Mess",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/myhotsouthernmess/"
+                }
+            }
+        ]
+    }
+]

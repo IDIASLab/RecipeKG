@@ -1,0 +1,136 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/364/desserts/frozen-desserts/",
+                    "name": "Frozen Dessert Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/16178/desserts/frozen-desserts/popsicles/",
+                    "name": "Popsicle Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/24040/yogurt-pops/",
+        "name": "Yogurt Pops",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F856385.jpg",
+            "width": 250,
+            "height": 250
+        },
+        "datePublished": "2019-04-04T03:27:53.000Z",
+        "description": "Wonderful also with lemonade drink mix and Key Lime Pie yogurt instead of Strawberry Cheesecake.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT2H10M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "2 teaspoons sugar-free lemonade-flavored drink mix, such as Crystal Light\u00ae",
+            "1 quart cold water",
+            "1\u2009\u00bd (6 ounce) containers strawberry cheesecake-flavored yogurt, such as Yoplait\u00ae"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Prepare drink mix according to package directions. Combine with yogurt. Pour into ice pop molds and freeze until firm.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Frozen Dessert Recipes",
+            "Popsicle Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "RITA E."
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 1,
+            "ratingCount": 1,
+            "itemReviewed": "Yogurt Pops",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "68.8 calories",
+            "carbohydrateContent": "12.4 g",
+            "cholesterolContent": "3.7 mg",
+            "fatContent": "1 g",
+            "fiberContent": null,
+            "proteinContent": "1.9 g",
+            "saturatedFatContent": "0.6 g",
+            "servingSize": null,
+            "sodiumContent": "37.1 mg",
+            "sugarContent": "10.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2012-07-02T21:15:03.863Z",
+                "reviewBody": "the \"drink mix\" ingredient needs to be worded way differently. Instead of drink mix it should say \"1/2 cup premade sugar-free lemon flavored drink mix\" or something to clearly say you should be using 1/2 cup of the drink mix already made. I had to make this recipe twice because the first time I used 1/2c drink mix in the powder form.. which ironically tasted better than the 2nd attempt when I used the made drink mix (which made it taste bland.)",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 1
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "MariaTheSoaper",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/maria/"
+                }
+            }
+        ]
+    }
+]

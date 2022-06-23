@@ -1,0 +1,136 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1642/everyday-cooking/",
+                    "name": "Everyday Cooking",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/270128/instant-pot-beef-stew/",
+        "name": "Instant Pot&reg; Beef Stew",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7027109.jpg",
+            "width": 3264,
+            "height": 1836
+        },
+        "datePublished": "2020-06-19T04:34:18.000Z",
+        "description": "The Instant Pot&reg; is perfect for beef stew and it takes a fraction of the time compared to making it on the stove.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT1H0M",
+        "totalTime": "P0DT1H30M",
+        "recipeYield": "8 servings",
+        "recipeIngredient": [
+            "4 pounds beef chuck, cubed",
+            "salt and ground black pepper to taste",
+            "2 cups dry red wine, such as pinot noir",
+            "4 cups water",
+            "20 small red potatoes, chopped",
+            "2 (8 ounce) packages baby carrots, chopped",
+            "4 parsnips, peeled and cubed",
+            "1 large onion, chopped",
+            "4 stalks celery, chopped",
+            "5 cloves garlic",
+            "1 (8 ounce) can tomato sauce",
+            "1 (10.75 ounce) can  beef soup with mushrooms",
+            "1 (10.75 ounce) can  condensed cream of mushroom soup",
+            "3 tablespoons prepared horseradish",
+            "3 tablespoons Worcestershire sauce"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Turn on a multi-functional pressure cooker (such as Instant Pot&reg;) and select Saute function. Add beef in batches, season with salt and pepper, and cook until browned on all sides, 3 to 5 minutes per batch. Remove browned meat from pot. Add wine to deglaze the bottom of the pan, scraping up all browned bits. Pour in water and mix with wine.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Add browned beef, potatoes, carrots, parsnips, onion, celery, and garlic to the pot. Pour in tomato sauce, beef soup, and cream of mushroom soup; mix well. Season with horseradish and Worcestershire sauce. Close and lock the lid. Select high pressure according to manufacturer's instructions; set timer for 35 minutes. Allow 10 to 15 minutes for pressure to build.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Release pressure using the natural-release method according to manufacturer's instructions, 10 to 40 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Everyday Cooking"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Andre"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Instant Pot&reg; Beef Stew",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "724.7 calories",
+            "carbohydrateContent": "98.3 g",
+            "cholesterolContent": "99.7 mg",
+            "fatContent": "12.6 g",
+            "fiberContent": "14.1 g",
+            "proteinContent": "45.7 g",
+            "saturatedFatContent": "4.2 g",
+            "servingSize": null,
+            "sodiumContent": "875.5 mg",
+            "sugarContent": "14.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-03-20T08:59:38.533Z",
+                "reviewBody": "This came out really good, but it is more of a soup to me than stew. Maybe some of the issue is that I didn't know what the recipe submitter meant by beef soup with mushrooms. I skipped that and used beef broth in place of most of the water.  Also I used Golden Mushroom soup instead of cream of mushroom. The meat was very tender and it  had a nice flavor.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Tammy Lynn",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3084624/"
+                }
+            }
+        ]
+    }
+]

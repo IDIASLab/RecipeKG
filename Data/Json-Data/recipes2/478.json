@@ -1,0 +1,139 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17203/desserts/specialty-desserts/",
+                    "name": "Specialty Dessert Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/373/desserts/specialty-desserts/dessert-salads/",
+                    "name": "Dessert Salad Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/223180/grilled-fruit-salad/",
+        "name": "Grilled Fruit Salad",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Grilled Fruit Salad"
+        },
+        "datePublished": "2014-01-11T07:01:36.000Z",
+        "description": "Grilled fruit salad is a great snack for cold days, it is bright and colorful but still makes your tummy warm! The fruit may stick to the grill at first, which is normal; keep cooking!",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H15M",
+        "totalTime": "P0DT0H30M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "1 cup sliced pineapple",
+            "1 cup sliced apple",
+            "\u00bd cup fresh raspberries",
+            "\u00bd cup sliced banana",
+            "\u00bc cup chocolate chips, or to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat a stovetop grill over medium heat. Arrange pineapple, apple, raspberries, and banana on heated grill surface; cook 5 to 7 minutes. Stir and cook until fruit is heated through, 7 to 8 more minutes. Transfer cooked fruit to a bowl and stir in chocolate chips.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Specialty Dessert Recipes",
+            "Dessert Salad Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "orio"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Grilled Fruit Salad",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "109.4 calories",
+            "carbohydrateContent": "21.9 g",
+            "cholesterolContent": null,
+            "fatContent": "3.4 g",
+            "fiberContent": "3.4 g",
+            "proteinContent": "1.1 g",
+            "saturatedFatContent": "1.9 g",
+            "servingSize": null,
+            "sodiumContent": "2 mg",
+            "sugarContent": "15.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-06-18T01:11:48.443Z",
+                "reviewBody": "Simple and Mmmazing!\n\n~Sierra Gomes",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Sierra Gomes",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/27686154/"
+                }
+            }
+        ]
+    }
+]

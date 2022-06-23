@@ -1,0 +1,70 @@
+@prefix ns1: <http://purl.org/heals/food/> .
+@prefix ns2: <http://purl.org/recipekg/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/homemade-pickled-ginger-gari> a schema:Recipe ;
+    ns1:hasIngredient [ a <http://purl.org/heals/ingredient/WhiteVinegar> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "white vinegar" ],
+        [ a <http://purl.org/recipekg/ingredient/GingerRoot> ;
+            ns2:hasQuantity "8" ;
+            ns2:hasUnit "ounce" ;
+            ns2:ingredientName "ginger root" ],
+        [ a <http://purl.org/heals/ingredient/WhiteSugar> ;
+            ns2:hasQuantity "1/3" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "white sugar" ],
+        [ a <http://purl.org/heals/ingredient/Salt> ;
+            ns2:hasQuantity "1 1/2" ;
+            ns2:hasUnit "teaspoon" ;
+            ns2:ingredientName "salt" ] ;
+    ns2:belongsTo <http://purl.org/recipekg/categories/side-dish/sauces-and-condiments/canning-and-preserving/pickled/> ;
+    ns2:hasFSAScore 6 ;
+    ns2:hasNutritionalInformation [ a ns2:NutritionalInformation ;
+            ns2:hasCalorificData [ a ns2:CalorificData ;
+                    ns2:hasAmount "13.7"^^xsd:float ;
+                    ns2:hasUnit "calories" ] ;
+            ns2:hasCarbohydrateData [ a ns2:CarbohydrateData ;
+                    ns2:hasAmount "3.3"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasFatData [ a ns2:FatData ;
+                    ns2:hasAmount "0.1"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSAGreen ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasFiberData [ a ns2:FiberData ;
+                    ns2:hasAmount "0.1"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasProteinData [ a ns2:ProteinData ;
+                    ns2:hasAmount "0.1"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasSodiumData [ a ns2:SodiumData ;
+                    ns2:hasAmount "83.4"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSAGreen ;
+                    ns2:hasUnit "mg" ] ;
+            ns2:hasSugarData [ a ns2:SugarData ;
+                    ns2:hasAmount "2.2"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSAGreen ;
+                    ns2:hasUnit "g" ] ] ;
+    ns2:hasUSDAScore 4 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 51 ;
+            schema:ratingValue "4.705882352941177"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2020-06-19T03:13:22.000Z"^^schema:date ;
+    schema:name "Homemade Pickled Ginger (Gari)"^^xsd:string ;
+    schema:recipeYield "1 1/2 cups"^^xsd:string .
+
+<http://purl.org/recipekg/categories/side-dish/> a ns2:RecipeCategory .
+
+<http://purl.org/recipekg/categories/side-dish/sauces-and-condiments/> rdfs:subClassOf <http://purl.org/recipekg/categories/side-dish/> .
+
+<http://purl.org/recipekg/categories/side-dish/sauces-and-condiments/canning-and-preserving/> rdfs:subClassOf <http://purl.org/recipekg/categories/side-dish/sauces-and-condiments/> .
+
+<http://purl.org/recipekg/categories/side-dish/sauces-and-condiments/canning-and-preserving/pickled/> rdfs:subClassOf <http://purl.org/recipekg/categories/side-dish/sauces-and-condiments/canning-and-preserving/> .
+
+ns2:FSAGreen a ns2:FSAColor .
+

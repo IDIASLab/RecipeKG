@@ -1,0 +1,148 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/227/world-cuisine/asian/",
+                    "name": "Asian",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/695/world-cuisine/asian/chinese/",
+                    "name": "Chinese",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/194697/chinese-yam-pudding/",
+        "name": "Chinese Yam Pudding",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Chinese Yam Pudding"
+        },
+        "datePublished": "2020-06-19T03:39:24.000Z",
+        "description": "This is a simple yam pudding that is traditionally served by the Foo Chow people. Traditionally, pork lard is used to enhance the flavor, but it can be substituted with vegetable oil.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT1H0M",
+        "totalTime": "P0DT1H10M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "1 pound yams, peeled and cubed",
+            "2 cups white sugar",
+            "2 tablespoons vegetable oil"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place a metal steamer insert into a saucepan and fill with water to just below the bottom of the steamer. Cover, bring the water to a boil, and add the yam cubes. Cover, and steam until very tender, about 30 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place the steamed yam cubes into a bowl, and mash them with the sugar and vegetable oil until very smooth.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Clean the steamer insert, and line with parchment paper. Place the mashed yam pudding into the steamer over a saucepan of water as before; bring to a boil, cover, and steam for 30 minutes. Serve hot.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Asian",
+            "Chinese"
+        ],
+        "recipeCuisine": [
+            "Asian",
+            "Chinese"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "iken"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Chinese Yam Pudding",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "581.2 calories",
+            "carbohydrateContent": "131.6 g",
+            "cholesterolContent": null,
+            "fatContent": "7 g",
+            "fiberContent": "4.7 g",
+            "proteinContent": "1.7 g",
+            "saturatedFatContent": "1.1 g",
+            "servingSize": null,
+            "sodiumContent": "10.2 mg",
+            "sugarContent": "100.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2013-04-27T01:16:18.713Z",
+                "reviewBody": "Excellent taste and texture. Though I added cinnamon butter sugar instead of the vegetable oil. I'll reduce the sugar by 30 per cent in the future. A nice easy recipe.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "LegalCook",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/11306896/"
+                }
+            }
+        ]
+    }
+]

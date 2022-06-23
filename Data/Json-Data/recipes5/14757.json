@@ -1,0 +1,117 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/282138/pumpkin-fluff/",
+        "name": "Pumpkin Fluff",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8846763.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-02-05T05:44:02.000Z",
+        "description": "Fluffy pumpkin.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "8 servings",
+        "recipeIngredient": [
+            "1 (15 ounce) can pumpkin puree",
+            "1 (8 ounce) container whipped topping (such as Cool Whip\u00ae)",
+            "1 (3.4 ounce) package instant vanilla pudding mix",
+            "6 teaspoons white sugar",
+            "\u00bd teaspoon pumpkin pie spice",
+            "\u00bc teaspoon vanilla extract"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Mix pumpkin, whipped topping, pudding mix, sugar, pumpkin pie spice, and vanilla extract together until blended.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "B Turner"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Pumpkin Fluff",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "155 calories",
+            "carbohydrateContent": "23.7 g",
+            "cholesterolContent": null,
+            "fatContent": "6.9 g",
+            "fiberContent": "1.7 g",
+            "proteinContent": "0.6 g",
+            "saturatedFatContent": "6.2 g",
+            "servingSize": null,
+            "sodiumContent": "315.8 mg",
+            "sugarContent": "18.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-12-17T02:25:35.96Z",
+                "reviewBody": "12.16.20  If you like pumpkin pie or pumpkin bread, I think you\u2019ll like this.  Hard to believe that something so easy and  made with so few ingredients can taste this good.  The texture is somewhere between a mousse and pudding, very light.  I used Splenda\u00ae and sugar-free whipped topping at no sacrifice to flavor.  This one\u2019s a keeper, thanks for sharing!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "lutzflcat",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/lutzflcat/"
+                }
+            }
+        ]
+    }
+]

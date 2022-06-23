@@ -1,0 +1,89 @@
+@prefix ns1: <http://purl.org/recipekg/> .
+@prefix ns2: <http://purl.org/heals/food/> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/fruit-and-granola-chicken-salad-sandwiches> a schema:Recipe ;
+    ns2:hasIngredient [ a <http://purl.org/recipekg/ingredient/Apple> ;
+            ns1:hasQuantity "1/4" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "apple" ],
+        [ a <http://purl.org/heals/ingredient/GreenPepper> ;
+            ns1:hasQuantity "1/4" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "green pepper" ],
+        [ a <http://purl.org/recipekg/ingredient/SaladDressing> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "salad dressing" ],
+        [ a <http://purl.org/recipekg/ingredient/AlmondCrunchy> ;
+            ns1:hasQuantity "3/4" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "almond crunchy" ],
+        [ a <http://purl.org/recipekg/ingredient/OrangeSegments> ;
+            ns1:hasQuantity "1/4" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "orange segments" ],
+        [ a <http://purl.org/recipekg/ingredient/Croissant> ;
+            ns1:hasQuantity "6" ;
+            ns1:ingredientName "croissant" ],
+        [ a <http://purl.org/recipekg/ingredient/Pineapple> ;
+            ns1:hasQuantity "1/4" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "pineapple" ],
+        [ a <http://purl.org/heals/ingredient/ChickenSalad> ;
+            ns1:hasQuantity "2" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "chicken salad" ],
+        [ a <http://purl.org/heals/ingredient/BrownSugar> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "brown sugar" ] ;
+    ns1:belongsTo <http://purl.org/recipekg/categories/salad/> ;
+    ns1:hasFSAScore 2 ;
+    ns1:hasNutritionalInformation [ a ns1:NutritionalInformation ;
+            ns1:hasCalorificData [ a ns1:CalorificData ;
+                    ns1:hasAmount "520.1"^^xsd:float ;
+                    ns1:hasUnit "calories" ] ;
+            ns1:hasCarbohydrateData [ a ns1:CarbohydrateData ;
+                    ns1:hasAmount "42.2"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasCholesterolData [ a ns1:CholesterolData ;
+                    ns1:hasAmount "71.2"^^xsd:float ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasFatData [ a ns1:FatData ;
+                    ns1:hasAmount "33.0"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSARed ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasFiberData [ a ns1:FiberData ;
+                    ns1:hasAmount "3.4"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasProteinData [ a ns1:ProteinData ;
+                    ns1:hasAmount "14.2"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSaturatedFatData [ a ns1:SaturatedFatData ;
+                    ns1:hasAmount "9.5"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSARed ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSodiumData [ a ns1:SodiumData ;
+                    ns1:hasAmount "595.2"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasSugarData [ a ns1:SugarData ;
+                    ns1:hasAmount "15.2"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "g" ] ] ;
+    ns1:hasUSDAScore 3 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2009-05-16T21:06:29.000Z"^^schema:date ;
+    schema:name "Fruit and Granola Chicken Salad Sandwiches"^^xsd:string ;
+    schema:recipeYield "6 sandwiches"^^xsd:string .
+
+<http://purl.org/recipekg/categories/salad/> a ns1:RecipeCategory .
+
+ns1:FSAAmber a ns1:FSAColor .
+
+ns1:FSARed a ns1:FSAColor .
+

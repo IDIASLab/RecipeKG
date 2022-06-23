@@ -1,0 +1,142 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/81/side-dish/",
+                    "name": "Side Dish",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/917/side-dish/potatoes/",
+                    "name": "Potato",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1457/side-dish/potatoes/mashed-potatoes/",
+                    "name": "Mashed Potato Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/229561/nutmeg-mashed-potatoes/",
+        "name": "Nutmeg Mashed Potatoes",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F932712.jpg",
+            "width": 250,
+            "height": 250
+        },
+        "datePublished": "2018-06-08T14:05:35.000Z",
+        "description": "The perfect fall side dish for any steak and made with real potatoes: festive nutmeg-flavored mashed potato.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H20M",
+        "totalTime": "P0DT0H30M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "4 large potatoes",
+            "\u00bc cup butter",
+            "2 teaspoons ground nutmeg, or to taste",
+            "2 teaspoons salt, or to taste",
+            "\u00bd cup sour cream"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place potatoes into a large pot and cover with salted water; bring to a boil. Reduce heat to medium-low and simmer until potatoes are tender and split open, about 20 minutes. Drain and return potatoes to pot.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Mash potatoes with butter, nutmeg, and salt using a potato masher or fork until well incorporated; stir in sour cream until mashed potatoes are creamy.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Side Dish",
+            "Potato",
+            "Mashed Potato Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "grumpybutt"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 3,
+            "itemReviewed": "Nutmeg Mashed Potatoes",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "303.5 calories",
+            "carbohydrateContent": "44.3 g",
+            "cholesterolContent": "28.8 mg",
+            "fatContent": "12.3 g",
+            "fiberContent": "5.6 g",
+            "proteinContent": "5.7 g",
+            "saturatedFatContent": "7.7 g",
+            "servingSize": null,
+            "sodiumContent": "801.3 mg",
+            "sugarContent": "2.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2012-12-07T17:32:32.91Z",
+                "reviewBody": "The nutmeg was not well received by hubby. We love nutmeg with squash not so much with taters.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Baking Nana",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/bakingnana/"
+                }
+            }
+        ]
+    }
+]

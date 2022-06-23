@@ -1,0 +1,164 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/133/drinks/cocktails/",
+                    "name": "Cocktail Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1741/drinks/cocktails/rum-drinks/",
+                    "name": "Rum Drinks Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/222548/cuba-libre-cocktail/",
+        "name": "Cuba Libre Cocktail",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F966679.jpg",
+            "width": 2589,
+            "height": 2589
+        },
+        "datePublished": "2015-09-14T18:10:09.000Z",
+        "description": "This improved version of the simple rum and Coke includes fresh lime juice for added complexity. It's believed to have been invented in Cuba in the early 1900s.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "1 cocktail",
+        "recipeIngredient": [
+            "2 fluid ounces rum",
+            "\u00bd fluid ounce lime juice",
+            "\u00be cup ice",
+            "2 fluid ounces cola-flavored carbonated beverage"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine rum and lime juice in a highball glass. Top with ice and fill with cola.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Cocktail Recipes",
+            "Rum Drinks Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Allrecipes"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.25,
+            "ratingCount": 4,
+            "itemReviewed": "Cuba Libre Cocktail",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "157.7 calories",
+            "carbohydrateContent": "7.7 g",
+            "cholesterolContent": null,
+            "fatContent": null,
+            "fiberContent": "0.1 g",
+            "proteinContent": "0.1 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "8.9 mg",
+            "sugarContent": "6.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2016-08-20T06:01:38.6Z",
+                "reviewBody": "This is my favorite drink! Lots of calories because of the cola but every so often (just once a day usually) I go for the gold. I don't drink any soft drinks with artificial sweeteners but I'm sure you could use them.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "amelia earhart",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/5799817/"
+                }
+            }
+        ],
+        "video": {
+            "@context": "http://schema.org",
+            "@type": "VideoObject",
+            "name": "Cuba Libre Cocktail",
+            "description": "Watch a professional bartender whip up this classic rum-based cocktail.",
+            "uploadDate": "2012-09-19T01:02:58.884Z",
+            "duration": "PT1M12.572S",
+            "thumbnailUrl": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fcf-images.us-east-1.prod.boltdns.net%2Fv1%2Fstatic%2F1033249144001%2Fd1678f73-b7fb-4a03-9e18-812200d3fb2e%2F0cc2d0a9-e4ea-4820-a837-795eceb01a3a%2F160x90%2Fmatch%2Fimage.jpg",
+            "publisher": {
+                "@type": "Organization",
+                "name": "Allrecipes",
+                "url": "https://www.allrecipes.com",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.allrecipes.com/img/logo.png",
+                    "width": 209,
+                    "height": 60
+                },
+                "sameAs": [
+                    "https://www.facebook.com/allrecipes",
+                    "https://twitter.com/Allrecipes",
+                    "https://www.pinterest.com/allrecipes/",
+                    "https://www.instagram.com/allrecipes/"
+                ]
+            },
+            "embedUrl": "https://players.brightcove.net/1033249144001/default_default/index.html?videoId=1848052915001"
+        }
+    }
+]

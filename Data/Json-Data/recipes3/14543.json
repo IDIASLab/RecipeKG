@@ -1,0 +1,160 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/105/appetizers-and-snacks/dips-and-spreads/",
+                    "name": "Dips and Spreads Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17192/appetizers-and-snacks/dips-and-spreads/cheese-dips-and-spreads/",
+                    "name": "Cheese Dips and Spreads Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/264226/cinco-de-mayo-fresh-cheese-dip/",
+        "name": "Cinco de Mayo Fresh Cheese Dip",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1204836.jpg",
+            "width": 1536,
+            "height": 2048
+        },
+        "datePublished": "2018-06-08T14:48:49.000Z",
+        "description": "This is a secret recipe for a favorite dip served at a New Mexican restaurant in East Lansing, Michigan. It's perfect for a Cinco de Mayo party. Serve with tortilla chips.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": null,
+        "totalTime": "P0DT2H15M",
+        "recipeYield": "12 servings",
+        "recipeIngredient": [
+            "2 (16 ounce) packages small curd cottage cheese",
+            "1 (16 ounce) container sour cream",
+            "2 (8 ounce) packages shredded pepper Jack cheese",
+            "2 bunches scallions, chopped",
+            "\u00bd cup chopped cilantro",
+            "2 tablespoons Worcestershire sauce",
+            "3 cloves garlic, minced",
+            "2 teaspoons ground cumin",
+            "1 teaspoon salt",
+            "freshly ground black pepper to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine cottage cheese, sour cream, pepper Jack cheese, scallions, cilantro, Worcestershire sauce, garlic, cumin, salt, and pepper in a large bowl. Refrigerate for 2 hours to allow flavors to develop.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks",
+            "Dips and Spreads Recipes",
+            "Cheese Dips and Spreads Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Sarah Gilmore de Ruiter"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Cinco de Mayo Fresh Cheese Dip",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "323.9 calories",
+            "carbohydrateContent": "8.8 g",
+            "cholesterolContent": "68.4 mg",
+            "fatContent": "23.6 g",
+            "fiberContent": "1.1 g",
+            "proteinContent": "19.5 g",
+            "saturatedFatContent": "13.8 g",
+            "servingSize": null,
+            "sodiumContent": "781.4 mg",
+            "sugarContent": "1.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-04-29T06:48:26.857Z",
+                "reviewBody": "This was just perfect!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Katyana Randall",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/23651541/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2018-05-06T09:27:01.46Z",
+                "reviewBody": "Very close to New Mexican but not quite there....missing something",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Chris Bradlee",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/21226412/"
+                }
+            }
+        ]
+    }
+]

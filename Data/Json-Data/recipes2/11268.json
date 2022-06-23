@@ -1,0 +1,131 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/92/meat-and-poultry/",
+                    "name": "Meat and Poultry",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/205/meat-and-poultry/pork/",
+                    "name": "Pork",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/259369/paleo-sauteed-prosciutto-wrapped-whitefish/",
+        "name": "Paleo Sauteed Prosciutto-Wrapped Whitefish",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7299949.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2017-08-02T04:09:25.000Z",
+        "description": "Meaty paleo goodness.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H6M",
+        "totalTime": "P0DT0H16M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "4 slices prosciutto",
+            "8 leaves basil, or more to taste",
+            "1\u2009\u00bd pounds barramundi (Asian sea bass) fillets",
+            "2 tablespoons olive oil"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Lay 2 prosciutto slices on a flat work surface so that they overlap slightly. Scatter 4 basil leaves on top. Add 1 barramundi fillet; wrap up. Repeat with remaining prosciutto, basil leaves, and barramundi.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat olive oil in a large skillet over medium heat. Add prosciutto-wrapped barramundi; cook until flesh flakes easily with a fork and prosciutto is slightly crisp, 3 to 5 minutes per side.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Meat and Poultry",
+            "Pork"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Chris Denzer"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Paleo Sauteed Prosciutto-Wrapped Whitefish",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "555.3 calories",
+            "carbohydrateContent": "0.1 g",
+            "cholesterolContent": "166 mg",
+            "fatContent": "29.4 g",
+            "fiberContent": null,
+            "proteinContent": "68.4 g",
+            "saturatedFatContent": "7.1 g",
+            "servingSize": null,
+            "sodiumContent": "787.9 mg",
+            "sugarContent": null,
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-11-17T03:56:35.077Z",
+                "reviewBody": "My basil died at the first cold snap without me realizing it but my oregano survived and that is what I used. Excellent recipe. Can't wait to try it with different fresh herbs come Spring.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

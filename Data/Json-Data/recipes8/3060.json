@@ -1,0 +1,124 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1642/everyday-cooking/",
+                    "name": "Everyday Cooking",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/256682/homemade-tortilla-bowl/",
+        "name": "Homemade Tortilla Bowl",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4456767.jpg",
+            "width": 2787,
+            "height": 2787
+        },
+        "datePublished": "2020-06-23T21:52:16.000Z",
+        "description": "The first time I had a tortilla bowl was also the first time I had fried ice cream. It was years ago at an old restaurant called Chi Chi's. Fill with desired fillings, such as ice cream or taco salad.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H1M",
+        "totalTime": "P0DT0H11M",
+        "recipeYield": "4 bowls",
+        "recipeIngredient": [
+            "4 cups vegetable oil for frying",
+            "4 corn tortillas",
+            "4 canning jars"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat oil in a large, heavy saucepan for about 7 minutes. Ensure oil is hot enough by sticking the end of a wooden spoon into the oil; bubbles should form around the wood start to float up.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place 1 tortilla on a slotted spoon and bottom of 1 jar on top of tortilla; lower into the hot oil. Carefully remove spoon, making sure not to tear the tortilla. Mold tortilla around the bottom of the jar using the spoon; cook for about 1 minute.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Remove the jar and tortilla bowl from oil using tongs, tilting the tortilla bowl so excess oil goes back into the saucepan. Lay bowl on a paper towel-lined plate to drain and cool. Repeat with remaining tortillas and jars.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Everyday Cooking"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Jeanette"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Homemade Tortilla Bowl",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "251.2 calories",
+            "carbohydrateContent": "11.6 g",
+            "cholesterolContent": null,
+            "fatContent": "22.7 g",
+            "fiberContent": "1.6 g",
+            "proteinContent": "1.5 g",
+            "saturatedFatContent": "2.9 g",
+            "servingSize": null,
+            "sodiumContent": "11.7 mg",
+            "sugarContent": "0.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-01-13T02:41:12.143Z",
+                "reviewBody": "I do remember Chi Chi's! The Mason Jars work great. I used taco sized tortillas so I need to get some larger ones to make salad bowls. The smaller ones are perfect for ice cream.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "bd.weld",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/bdweld/"
+                }
+            }
+        ]
+    }
+]

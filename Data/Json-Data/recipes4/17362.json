@@ -1,0 +1,143 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/241959/crescent-milk/",
+        "name": "Crescent Milk",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3280450.jpg",
+            "width": 1954,
+            "height": 2824
+        },
+        "datePublished": "2019-04-04T03:59:36.000Z",
+        "description": "Delicious part of juice cleanse.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": null,
+        "totalTime": "P0DT0H45M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "16 fluid ounces water, divided",
+            "4 ounces cashews, or more to taste",
+            "1 tablespoon agave nectar",
+            "1 teaspoon vanilla extract",
+            "1 teaspoon ground cinnamon"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Put 8 fluid ounces water, cashews, agave nectar, and vanilla extract in a blender; blend for 2 minutes. Strain mixture through cheesecloth or a fine-mesh sieve into a bowl.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Blend the strained bits of cashew mixture in the blender with remaining 8 fluid ounces water until smooth. Strain mixture through cheesecloth or sieve again.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour strained liquid into a bottle and add cinnamon; refrigerate until chilled, at least 30 minutes. Shake well before drinking.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Brittany Curtis"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Crescent Milk",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "364.5 calories",
+            "carbohydrateContent": "27.7 g",
+            "cholesterolContent": null,
+            "fatContent": "26.3 g",
+            "fiberContent": "2.8 g",
+            "proteinContent": "8.7 g",
+            "saturatedFatContent": "5.2 g",
+            "servingSize": null,
+            "sodiumContent": "370.3 mg",
+            "sugarContent": "10.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-03-10T10:07:24.55Z",
+                "reviewBody": "I made just half the recipe and used powdered vanilla since I didn t have liquid. I soaked the cashews in the water for 30 minutes and blended 2 min in intervals using a bullet type blender. I had very little pulp after. The crescent milk is delicious and made great coffee creamer substitute.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "tamale624",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/11595590/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2016-02-19T10:40:47.5Z",
+                "reviewBody": "Delicious drink either hot or cold. I was uneasy following these instructions. It doesn't require soaking the cashews and I didn't like the idea of straining the pulp after having added the vanilla and agave twice to boot. But I did follow the method and am happy with the results. I allowed the cashews water vanilla and agave to set for about an hour though. I used a vanilla bean (scraped) instead of extract. All-in-all this is a great drink and pretty accurate method. And the pulp made some fine cookies to go along with the milk.:-)",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Buckwheat Queen",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/melaniegiovenzana/"
+                }
+            }
+        ]
+    }
+]

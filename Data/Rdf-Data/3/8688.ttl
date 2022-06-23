@@ -1,0 +1,44 @@
+@prefix ns1: <http://purl.org/heals/food/> .
+@prefix ns2: <http://purl.org/recipekg/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/almond-butter-jam-overnight-oats> a schema:Recipe ;
+    ns1:hasIngredient [ a <http://purl.org/recipekg/ingredient/ChiaSeeds> ;
+            ns2:hasQuantity "2" ;
+            ns2:hasUnit "teaspoon" ;
+            ns2:ingredientName "chia seeds" ],
+        [ a <http://purl.org/recipekg/ingredient/StrawberryPreserves> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "tablespoon" ;
+            ns2:ingredientName "strawberry preserves" ],
+        [ a <http://purl.org/heals/ingredient/Banana> ;
+            ns2:hasQuantity "1/2" ;
+            ns2:ingredientName "banana" ],
+        [ a <http://purl.org/heals/ingredient/Oat> ;
+            ns2:hasQuantity "1/2" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "oat" ],
+        [ a <http://purl.org/heals/ingredient/AlmondBiscotti> ;
+            ns2:hasQuantity "2" ;
+            ns2:hasUnit "tablespoon" ;
+            ns2:ingredientName "almond biscotti" ],
+        [ a <http://purl.org/recipekg/ingredient/Vanilla> ;
+            ns2:hasQuantity "2/3" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "Vanilla" ] ;
+    ns2:belongsTo <http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/almond-breeze/> ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 3 ;
+            schema:ratingValue "5"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2018-12-11T05:47:06.000Z"^^schema:date ;
+    schema:name "Almond Butter & Jam Overnight Oats"^^xsd:string ;
+    schema:recipeYield "1 jar"^^xsd:string .
+
+<http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/> a ns2:RecipeCategory .
+
+<http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/almond-breeze/> rdfs:subClassOf <http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/> .
+

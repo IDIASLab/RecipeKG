@@ -1,0 +1,156 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/92/meat-and-poultry/",
+                    "name": "Meat and Poultry",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/205/meat-and-poultry/pork/",
+                    "name": "Pork",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/279492/bacon-and-egg-cheeseburgers/",
+        "name": "Bacon and Egg Cheeseburgers",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7950747.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-04-02T23:14:22.000Z",
+        "description": "This egg-topped burger is not for the diet-conscious or faint of heart. It's like nothing you've tried before...enjoy!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H20M",
+        "totalTime": "P0DT0H30M",
+        "recipeYield": "4 burgers",
+        "recipeIngredient": [
+            "1 pound ground chuck",
+            "salt and ground black pepper to taste",
+            "8 slices bacon",
+            "1 tablespoon olive oil",
+            "1 medium onion, sliced",
+            "4 large eggs",
+            "4 slices American cheese",
+            "4 tablespoons mayonnaise",
+            "4 hamburger buns, split and toasted"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat an outdoor grill for medium-high heat and lightly oil the grate.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Shape beef into 4 equal patties and season with salt and pepper on both sides.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place bacon in a large skillet and cook over medium-high heat, turning occasionally, until crisp, 10 to 12 minutes. Drain bacon slices on paper towels.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "At the same time, heat olive oil in a pan over medium-high heat. Saute onion slices in the hot oil until softened, 5 to 7 minutes. Remove from heat and set aside.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cook patties on the preheated grill until browned and no longer pink, 4 to 5 minutes per side, or to desired doneness. Top each with American cheese and allow to melt, about 1 minute more.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "At the same time, crack eggs into a nonstick skillet over medium heat. Cook until outer edges become opaque, about 1 minute. Cover, reduce heat to low, and cook until whites are completely set, about 4 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place each patty on a bottom bun and top with a fried egg, 2 slices of bacon, onions, mayonnaise, and a bun top. Serve.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Meat and Poultry",
+            "Pork"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Christina"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Bacon and Egg Cheeseburgers",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "656.8 calories",
+            "carbohydrateContent": "25.7 g",
+            "cholesterolContent": "290.4 mg",
+            "fatContent": "43.7 g",
+            "fiberContent": "1.6 g",
+            "proteinContent": "38.8 g",
+            "saturatedFatContent": "14.5 g",
+            "servingSize": null,
+            "sodiumContent": "1308 mg",
+            "sugarContent": "1.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-04-11T20:00:07.307Z",
+                "reviewBody": "Simple, straight forward, and an excellent burger! The caramelized onions complimented the bacon and eggs perfectly. 5 star recipe as written.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

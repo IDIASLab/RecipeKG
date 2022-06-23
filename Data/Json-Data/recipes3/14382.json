@@ -1,0 +1,149 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/218/salad/coleslaw/",
+                    "name": "Coleslaw Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/16684/salad/coleslaw/no-mayo/",
+                    "name": "No Mayo",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/263459/vegan-coleslaw/",
+        "name": "Vegan Coleslaw",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5268493.jpg",
+            "width": 2592,
+            "height": 1944
+        },
+        "datePublished": "2018-06-08T14:48:11.000Z",
+        "description": "A simple vegan coleslaw without any mayo. I add caraway seeds to my coleslaw as it helps with digestion. It tastes best after it has marinated for a few hours.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT4H40M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "1 medium head cabbage, finely sliced",
+            "2 large carrots, peeled and shredded",
+            "1 teaspoon salt",
+            "6 tablespoons sunflower seed oil",
+            "4 tablespoons white vinegar",
+            "1 tablespoon confectioners' sugar",
+            "1 teaspoon caraway seeds",
+            "freshly ground black pepper to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine cabbage and carrots in a large bowl, season with salt, and allow to sit for 30 to 45 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Squeeze out as much liquid as possible from cabbage and carrots with your hands; drain well.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Stir together oil, vinegar, confectioners' sugar, caraway seeds, and pepper and pour over the salad. Mix well. Allow to sit to intensify the flavor, about 4 hours.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad",
+            "Coleslaw Recipes",
+            "No Mayo"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "westcoastgirl"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Vegan Coleslaw",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "267 calories",
+            "carbohydrateContent": "18.9 g",
+            "cholesterolContent": null,
+            "fatContent": "21.4 g",
+            "fiberContent": "6.9 g",
+            "proteinContent": "3.4 g",
+            "saturatedFatContent": "2.1 g",
+            "servingSize": null,
+            "sodiumContent": "647.3 mg",
+            "sugarContent": "10.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-05-06T23:45:18.213Z",
+                "reviewBody": "As the recipe is written. If it ain't broke don't fix it.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Ellen",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/11242388/"
+                }
+            }
+        ]
+    }
+]

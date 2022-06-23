@@ -1,0 +1,215 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/364/desserts/frozen-desserts/",
+                    "name": "Frozen Dessert Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1556/desserts/frozen-desserts/ice-cream/",
+                    "name": "Ice Cream",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/24699/rum-raisin-ice-cream/",
+        "name": "Rum Raisin Ice Cream",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Rum Raisin Ice Cream"
+        },
+        "datePublished": "2018-03-21T16:18:28.000Z",
+        "description": "Wonderful ice cream for holidays!",
+        "prepTime": "P0DT0H30M",
+        "cookTime": null,
+        "totalTime": "P0DT4H0M",
+        "recipeYield": "1 quart",
+        "recipeIngredient": [
+            "\u00bd cup raisins",
+            "\u00bc cup rum",
+            "1 (3.4 ounce) package instant vanilla pudding mix",
+            "2 cups eggnog",
+            "1 cup heavy cream"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place raisins in a small bowl and cover with rum.  Set aside.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Prepare vanilla pudding mix according to package directions, using eggnog in place of the milk.  Stir in the heavy cream.  Chill in refrigerator until quite cold.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Freeze eggnog mixture in an ice cream maker according to manufacturer's directions.  Stir in drained raisins just before ice cream begins to set.  When ice cream is done, pack in a container and place in the freezer for 3 hours before serving.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Frozen Dessert Recipes",
+            "Ice Cream"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Harriette"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.8333333333333335,
+            "ratingCount": 6,
+            "itemReviewed": "Rum Raisin Ice Cream",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "278.8 calories",
+            "carbohydrateContent": "28.6 g",
+            "cholesterolContent": "78.2 mg",
+            "fatContent": "15.9 g",
+            "fiberContent": "0.4 g",
+            "proteinContent": "3.3 g",
+            "saturatedFatContent": "9.7 g",
+            "servingSize": null,
+            "sodiumContent": "217.9 mg",
+            "sugarContent": "20.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2003-10-09T07:52:50.357Z",
+                "reviewBody": "Flavour was good but texture was chunky/crumbly after freezing. I think this is because the pudding set while it was cooling in the fridge and was very thick when put into the icecream maker. Maybe try using 1/2 pkg pudding mix with regular amounts of eggnog and cream.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "JENNGB",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/136264/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2005-12-20T18:37:52.61Z",
+                "reviewBody": "I've made this several times and it's great!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Lisa",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/881816/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2006-01-15T01:37:44.67Z",
+                "reviewBody": "This is a great recipe..however I also put a Tablespoon (or more) of rum to a quart of the 'cream'..the consistancy is a bit thinner than the ordinary 'cream' but the \"mmmMMMmmmm!\" factor dOes make a difference!:)",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Cheekybits",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/1701720/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2009-01-22T01:05:35.913Z",
+                "reviewBody": "The recipe is delicious but is a bit on the sweet side for me. I'm not a fan of instant vanilla pudding and the flavor comes through a bit so I wonder if there's a better substitute - maybe a custard mix? Otherwise was an absolute hit and the taste of the rum came through wonderfully!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Jessie",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/121053/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2013-05-08T20:40:50.977Z",
+                "reviewBody": "I think I will try it but substitute the pudding for 2 fresh egg yolks and perhaps a tablespoon more of liquid...",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "renee",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2025600/"
+                }
+            }
+        ]
+    }
+]

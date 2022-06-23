@@ -1,0 +1,154 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/92/meat-and-poultry/",
+                    "name": "Meat and Poultry",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/201/meat-and-poultry/chicken/",
+                    "name": "Chicken",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/650/meat-and-poultry/chicken/fried-chicken/",
+                    "name": "Fried Chicken Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/257399/chicken-schnitzel/",
+        "name": "Chicken Schnitzel",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6845135.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2018-06-08T14:42:41.000Z",
+        "description": "Pounded thin chicken breasts with Cheerios&reg; cereal coating and lemon wedges. Serve with pommes frites (French fries) or hot German potato salad.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H6M",
+        "totalTime": "P0DT1H21M",
+        "recipeYield": "4 chicken schnitzel",
+        "recipeIngredient": [
+            "4 skinless, boneless chicken breast halves, trimmed",
+            "\u00bd cup all-purpose flour",
+            "2 eggs",
+            "1 cup crushed toasted oat cereal (such as Cheerios\u00ae)",
+            "1 teaspoon garlic powder",
+            "\u00bd teaspoon salt",
+            "\u00bd teaspoon ground black pepper",
+            "3 tablespoons vegetable oil",
+            "2 lemons, quartered"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place chicken between 2 sheets of heavy plastic on a solid, level surface. Firmly pound with the smooth side of a meat mallet to 1/4-inch thickness.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place flour in a bowl. Beat eggs together in a separate bowl. Mix crushed oat cereal, garlic powder, salt, and black pepper together in large resealable plastic bag.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Dredge each chicken breast in flour and dip into eggs, allowing excess egg to drip back into bowl. Transfer coated chicken to cereal mixture; seal bag and shake until evenly coated. Place coated chicken on a plate and refrigerate for 1 hour.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat oil in a 12-inch skillet over medium-high heat; fry chicken until browned, 3 to 4 minutes per side. Transfer chicken to a paper towel-lined plate and squeeze lemon over each.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Meat and Poultry",
+            "Chicken",
+            "Fried Chicken Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Dale"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.75,
+            "ratingCount": 4,
+            "itemReviewed": "Chicken Schnitzel",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "364.9 calories",
+            "carbohydrateContent": "24.4 g",
+            "cholesterolContent": "162.2 mg",
+            "fatContent": "17 g",
+            "fiberContent": "3.9 g",
+            "proteinContent": "31.8 g",
+            "saturatedFatContent": "3.5 g",
+            "servingSize": null,
+            "sodiumContent": "434.6 mg",
+            "sugarContent": "0.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-07-18T10:08:12.573Z",
+                "reviewBody": "This turned out really good. I blended the Cheerios in the magic bullet until they were dust like. It didn't look like much so I added some Panko to the mix. Not necessary I don't think but I wanted to make sure they were crispy. They definitely needed more salt but other than that they were perfect and mega crispy!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

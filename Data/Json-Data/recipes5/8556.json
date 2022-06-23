@@ -1,0 +1,132 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/143/breakfast-and-brunch/drinks/",
+                    "name": "Drinks",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/244667/banago-juice-shake-with-cream/",
+        "name": "Banago Juice Shake with Cream",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4423369.jpg",
+            "width": 1978,
+            "height": 2967
+        },
+        "datePublished": "2019-08-01T03:10:47.000Z",
+        "description": "The best chilled drink.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "3 bananas, peeled",
+            "3 mango slices, cut into cubes",
+            "1 cup water",
+            "6 ice cubes, divided",
+            "1 cup whipped cream"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Blend bananas and mango in a blender until smooth, about 2 minutes; add 3 ice cubes and blend until smooth, about 2 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Fill a cocktail shaker with remaining 3 ice cubes; add blended banana mixture. Cover and shake until the outside of shaker has frosted. Strain into 2 chilled glasses and garnish with whipped cream.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Drinks"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Shuk22"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 2,
+            "ratingCount": 1,
+            "itemReviewed": "Banago Juice Shake with Cream",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "380.9 calories",
+            "carbohydrateContent": "82.4 g",
+            "cholesterolContent": "22.8 mg",
+            "fatContent": "7.9 g",
+            "fiberContent": "8.7 g",
+            "proteinContent": "4 g",
+            "saturatedFatContent": "4.5 g",
+            "servingSize": null,
+            "sodiumContent": "50.7 mg",
+            "sugarContent": "57.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-01-06T03:16:42.43Z",
+                "reviewBody": "I did not care for this. It got extremely thick when I shook it in the cocktail shaker. It turned out almost as thick as baby food and just as tasteless.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 2
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Yoly",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/cookingbikerchick/"
+                }
+            }
+        ]
+    }
+]

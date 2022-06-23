@@ -1,0 +1,158 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/133/drinks/cocktails/",
+                    "name": "Cocktail Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1739/drinks/cocktails/gin-drinks/",
+                    "name": "Gin Drinks Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/169895/knudsons-knasty-habit/",
+        "name": "Knudson's Knasty Habit",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F88048.jpg",
+            "width": 250,
+            "height": 250
+        },
+        "datePublished": "2020-06-19T03:36:28.000Z",
+        "description": "This refreshing cocktail -- also known as a Cameron Collins -- was originally created by committee in the Seattle laboratories of Victualia Omnia under the direction of Chunko the Magic Monkey.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "1 cocktail",
+        "recipeIngredient": [
+            "2 cups ice cubes",
+            "2 fluid ounces gin, such as Tanqueray\u00ae",
+            "\u00bd fluid ounce fresh lemon juice",
+            "\u00bd fluid ounce fresh lime juice",
+            "\u00bd fluid ounce simple syrup, or to taste",
+            "1 dash bitters",
+            "2 fluid ounces Knudsen's (sic) lemon-lime spritzer",
+            "1 lime slice for garnish"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Fill a cocktail shaker with ice. Pour in gin, lemon juice, lime juice, simple syrup, and dash of bitters. Cover and shake rapidly. Strain into a highball glass full of ice. Pour in lemon and lime spritzer and stir. Garnish with the lime slice. Unleash the monkey.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Cocktail Recipes",
+            "Gin Drinks Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Lorem Ipsum"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 3,
+            "itemReviewed": "Knudson's Knasty Habit",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "219.2 calories",
+            "carbohydrateContent": "19.2 g",
+            "cholesterolContent": "0 mg",
+            "fatContent": "0 g",
+            "fiberContent": "0.1 g",
+            "proteinContent": "0.1 g",
+            "saturatedFatContent": "0 g",
+            "servingSize": null,
+            "sodiumContent": "21.8 mg",
+            "sugarContent": "0.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2008-07-07T15:30:33.97Z",
+                "reviewBody": "This was the drink of the weekend for the 4th of July. A couple of us thought we didn't like gin so we made the first one w/ Vodka---the ones w/ gin were much better. Everyone loved them and we will make them many more times. Thanks! Oh we used Diet Squirt in place of the Knudsen's spritzer as we didn't know what that was.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "SLS73",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/1082151/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2008-06-18T20:06:17.05Z",
+                "reviewBody": "Knothing knasty about it. This pleasing little cocktail was tart and refreshing sort of like Lorem himself. Knudson seemed to enjoy it too.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "foodelicious",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/foodelicious/"
+                }
+            }
+        ]
+    }
+]

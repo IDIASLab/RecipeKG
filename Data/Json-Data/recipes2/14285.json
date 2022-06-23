@@ -1,0 +1,136 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/20616/diva-colada/",
+        "name": "Diva Colada",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Diva Colada"
+        },
+        "datePublished": "2000-06-30T03:09:14.000Z",
+        "description": "Pineapple juice, coconut cream and pineapple sherbet garnished with a fresh pineapple wedge and a cherry - this is a favorite of kids...",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "1 cup pineapple juice",
+            "2 cups pineapple sorbet",
+            "2 tablespoons cream of coconut",
+            "1 slice fresh pineapple",
+            "2 maraschino cherries"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "In a blender combine pineapple juice, pineapple sherbet and coconut cream. Blend until smooth. Pour into glasses and serve garnished with a wedge of pineapple and a cherry.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "ATLASTVL"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.666666666666667,
+            "ratingCount": 3,
+            "itemReviewed": "Diva Colada",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "401.3 calories",
+            "carbohydrateContent": "93.3 g",
+            "cholesterolContent": null,
+            "fatContent": "3.3 g",
+            "fiberContent": "4.9 g",
+            "proteinContent": "0.9 g",
+            "saturatedFatContent": "3 g",
+            "servingSize": null,
+            "sodiumContent": "9.8 mg",
+            "sugarContent": "78.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2003-12-07T22:00:17.733Z",
+                "reviewBody": "It is a deliecous drink and it cools my off in the hot summers.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "BABIE_FOREVER",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/256320/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2013-11-21T00:05:39.53Z",
+                "reviewBody": "I LOVEDTHIS DRINK",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "joychandler",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/12316732/"
+                }
+            }
+        ]
+    }
+]

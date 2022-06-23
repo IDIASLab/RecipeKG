@@ -1,0 +1,133 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/256070/roasted-nut-milk/",
+        "name": "Roasted Nut Milk",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4114642.jpg",
+            "width": 3276,
+            "height": 4096
+        },
+        "datePublished": "2019-04-04T04:07:27.000Z",
+        "description": "Add a new dimension to your homemade nut milk by roasting a variety of nuts for a robust flavor. Delicious on its own or give your favorite recipe a boost by using this instead of dairy or plain alternative milks. It's amazing in coffee! Use the leftover pulp for smoothies, cookies, or pie crusts.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT1H10M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "1\u2009\u00bd cups raw mixed nuts",
+            "4 cups water",
+            "1 tablespoon honey",
+            "1 pinch salt"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat oven to 350 degrees F (180 degrees C). Line a baking sheet with parchment paper and spread nuts onto baking sheet.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated oven for 5 minutes; shake the baking sheet to flip the nuts. Continue baking until toasted, about 5 minutes more. Turn off the oven but leave the nuts in the oven until slightly cooled, about 10 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Transfer nuts to a large bowl and top with water. Cover bowl and let soak for 30 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Remove nuts from soaking water using a slotted spoon, reserving the soaking water. Place nuts in a blender; add 1 cup soaking water. Blend on low for 30 seconds. Add 1 cup soaking water and blend again for 1 minute. Add the remaining soaking water and blend on medium for 30 seconds. Allow nut milk to rest for 10 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour nut milk through a sieve or a nut bag into a glass container. Stir honey and salt into nut milk. Cover container and store in the refrigerator.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Buckwheat Queen"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Roasted Nut Milk",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "321.1 calories",
+            "carbohydrateContent": "17.3 g",
+            "cholesterolContent": null,
+            "fatContent": "26.4 g",
+            "fiberContent": "4.6 g",
+            "proteinContent": "8.9 g",
+            "saturatedFatContent": "3.5 g",
+            "servingSize": null,
+            "sodiumContent": "389.8 mg",
+            "sugarContent": "6.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-05-12T19:31:53.863Z",
+                "reviewBody": "I used roasted peanuts. After roasting I removed the thin covering around the peanuts and soaked them overnight. Then I blended them with a date for sweetness and a pitch of salt. I changed the water before blending wonder if this changes anything about the flavour. I used a very fine sieve to strain the milk. I added the milk to my morning coffee. It was creamy the colour is rich and the texture was almost similar to dairy milk. I'm likely to make it again.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Lubna",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/12081574/"
+                }
+            }
+        ]
+    }
+]

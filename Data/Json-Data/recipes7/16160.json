@@ -1,0 +1,141 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/133/drinks/cocktails/",
+                    "name": "Cocktail Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1742/drinks/cocktails/tequila-drinks/",
+                    "name": "Tequila Drinks Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/258829/horchata-margarita/",
+        "name": "Horchata Margarita",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F9067424.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-06-19T04:22:58.000Z",
+        "description": "A crowd favorite! This is so delicious, friends make sure to come to parties when they know I'm making these!",
+        "prepTime": null,
+        "cookTime": null,
+        "totalTime": null,
+        "recipeYield": "1 margarita",
+        "recipeIngredient": [
+            "ice",
+            "8 tablespoons horchata",
+            "1\u2009\u00bd fluid ounces silver tequila",
+            "1 fluid ounce rum cream liqueur (such as RumChata\u00ae)",
+            "\u00bc fluid ounce agave nectar",
+            "\u00bc fluid ounce cinnamon whiskey (such as Fireball\u00ae)",
+            "1 teaspoon sweetened condensed milk, or to taste",
+            "1 dash ground cinnamon"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Fill cocktail shaker with ice. Pour in horchata, tequila, rum cream liqueur, agave, and cinnamon whiskey. Shake until fully chilled. Dip rim of margarita glass in condensed milk; sprinkle with cinnamon. Pour horchata mixture into the glass.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Cocktail Recipes",
+            "Tequila Drinks Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Leti"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 2,
+            "ratingCount": 1,
+            "itemReviewed": "Horchata Margarita",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "383.5 calories",
+            "carbohydrateContent": "37.1 g",
+            "cholesterolContent": "9.3 mg",
+            "fatContent": "9.7 g",
+            "fiberContent": "2 g",
+            "proteinContent": "3.6 g",
+            "saturatedFatContent": "2.8 g",
+            "servingSize": null,
+            "sodiumContent": "30.7 mg",
+            "sugarContent": "15.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-03-02T05:29:28.253Z",
+                "reviewBody": "I did not really care for this 'Margarita\" and I used top brand Roca Patron Tequila instead of silver tequila. Even though it's a small amount of Fireball Cinnamon Whiskey, it still overpowered all other flavors. The cinnamon rimmed glass did nothing to enhance the flavors. Sounds delicious, but it is not.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 2
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Yoly",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/cookingbikerchick/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,141 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/152/breakfast-and-brunch/potatoes/",
+                    "name": "Potatoes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/275465/baked-egg-and-potato-frittata/",
+        "name": "Baked Egg and Potato Frittata",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7522390.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2019-08-30T12:13:40.000Z",
+        "description": "This baked frittata was adapted from the Food Lover's meal plans.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H45M",
+        "totalTime": "P0DT1H5M",
+        "recipeYield": "1 8x8-inch frittata",
+        "recipeIngredient": [
+            "cooking spray",
+            "12 egg whites",
+            "\u00bd cup skim milk",
+            "3\u2009\u00bd cups frozen hash brown potatoes, thawed",
+            "1 cup shredded Cheddar cheese, divided",
+            "\u00bd cup onion, chopped",
+            "4 tablespoons cooked crumbled bacon, divided",
+            "\u00bd teaspoon salt",
+            "\u00bd teaspoon chili powder",
+            "4 green onions, chopped"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat the oven to 350 degrees F (175 degrees C). Coat an 8-inch square baking dish lightly with cooking spray.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Whisk egg whites and milk together in a large bowl. Stir in hash browns, 3/4 of the Cheddar cheese, onion, 2 tablespoons bacon, salt, and chili powder. Pour into the prepared dish.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated oven until a knife inserted into the center comes out clean, about 45 minutes. Remove from the oven and sprinkle with remaining Cheddar cheese and bacon, and green onions. Let stand for about 5 minutes before cutting into 6 equal pieces.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Potatoes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Todd Ryan"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Baked Egg and Potato Frittata",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "255 calories",
+            "carbohydrateContent": "20.2 g",
+            "cholesterolContent": "32.8 mg",
+            "fatContent": "16.5 g",
+            "fiberContent": "1.9 g",
+            "proteinContent": "18.7 g",
+            "saturatedFatContent": "8.1 g",
+            "servingSize": null,
+            "sodiumContent": "662.5 mg",
+            "sugarContent": "2.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-02-22T03:10:34.997Z",
+                "reviewBody": "Yummy breakfast. Next time I will add more veggies",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Linda T",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/lindat/"
+                }
+            }
+        ]
+    }
+]

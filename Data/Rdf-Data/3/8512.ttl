@@ -1,0 +1,36 @@
+@prefix ns1: <http://purl.org/heals/food/> .
+@prefix ns2: <http://purl.org/recipekg/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/chocolate-almond-banana-smoothie> a schema:Recipe ;
+    ns1:hasIngredient [ a <http://purl.org/recipekg/ingredient/FlaxSeeds> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "teaspoon" ;
+            ns2:ingredientName "flax seeds" ],
+        [ a <http://purl.org/recipekg/ingredient/Chocolate> ;
+            ns2:hasQuantity "1 1/2" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "Chocolate" ],
+        [ a <http://purl.org/heals/ingredient/Almond> ;
+            ns2:hasQuantity "3" ;
+            ns2:hasUnit "tablespoon" ;
+            ns2:ingredientName "almond" ],
+        [ a <http://purl.org/heals/ingredient/Banana> ;
+            ns2:hasQuantity "2" ;
+            ns2:ingredientName "banana" ] ;
+    ns2:belongsTo <http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/almond-breeze/> ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 8 ;
+            schema:ratingValue "4.625"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2018-06-01T04:46:59.000Z"^^schema:date ;
+    schema:name "Chocolate Almond Banana Smoothie"^^xsd:string ;
+    schema:recipeYield "2 servings"^^xsd:string .
+
+<http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/> a ns2:RecipeCategory .
+
+<http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/almond-breeze/> rdfs:subClassOf <http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/> .
+

@@ -1,0 +1,101 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/284312/spicy-eggplant-stir-fry/",
+        "name": "Spicy Eggplant Stir-Fry",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5662783.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2014-01-31T20:31:18.000Z",
+        "description": "Fresh basil adds a sweet taste to balance out the peppery flavor of this quick and easy spicy eggplant stir-fry.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H25M",
+        "recipeYield": "3 servings",
+        "recipeIngredient": [
+            "2 tablespoons vegetable oil",
+            "1 teaspoon crushed red pepper flakes",
+            "1 large eggplant, cut into 1/2-inch cubes",
+            "1 medium onion, coarsely chopped",
+            "1 medium red bell pepper, seeded and coarsely chopped",
+            "4 cloves garlic, finely chopped",
+            "3 tablespoons soy sauce",
+            "2 tablespoons white vinegar",
+            "1 tablespoon packed brown sugar",
+            "1 tablespoon cornstarch",
+            "1 cup coarsely chopped fresh basil leaves"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat a large skillet or wok over high heat. Add oil and pepper flakes and allow to sizzle for 15 to 20 seconds. Add eggplant and toss in the oil. Cook, stirring every minute, until it just begins to char, about 5 minutes. Add onion, bell pepper, and garlic; stir-fry for 3 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Drizzle with soy sauce and vinegar, sprinkle with brown sugar and cornstarch, then toss to coat all of the vegetables. Cook until sauce has thickened, about 1 minute.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Remove from the heat, add basil, and toss to combine.\n"
+            }
+        ],
+        "recipeCategory": [],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Marcia"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Spicy Eggplant Stir-Fry",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "210.1 calories",
+            "carbohydrateContent": "29.1 g",
+            "cholesterolContent": null,
+            "fatContent": "10 g",
+            "fiberContent": "9.8 g",
+            "proteinContent": "4.9 g",
+            "saturatedFatContent": "1.6 g",
+            "servingSize": null,
+            "sodiumContent": "912.6 mg",
+            "sugarContent": "13.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

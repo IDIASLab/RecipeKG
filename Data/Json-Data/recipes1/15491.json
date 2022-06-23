@@ -1,0 +1,158 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1116/fruits-and-vegetables/",
+                    "name": "Fruits and Vegetables",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1059/fruits-and-vegetables/vegetables/",
+                    "name": "Vegetables",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1881/fruits-and-vegetables/vegetables/squash/",
+                    "name": "Squash",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/277618/banana-pumpkin-cupcakes/",
+        "name": "Banana-Pumpkin Cupcakes",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7526911.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2008-10-03T15:15:03.000Z",
+        "description": "My favorite banana cupcake recipe with a little twist. The addition of pumpkin puree and pumpkin pie spice dress this cupcake up for fall! Make them even more delicious by filling with your favorite cream filling and topping with frosting.",
+        "prepTime": "P0DT0H20M",
+        "cookTime": "P0DT0H15M",
+        "totalTime": "P0DT0H35M",
+        "recipeYield": "30 cupcakes",
+        "recipeIngredient": [
+            "2\u2009\u00bc cups all-purpose flour",
+            "1 teaspoon baking soda",
+            "1 teaspoon pumpkin pie spice",
+            "1\u2009\u00bd cups white sugar",
+            "\u00bd cup butter, softened",
+            "3 large eggs",
+            "1 cup canned pumpkin",
+            "1 cup sour cream",
+            "2 each bananas, mashed"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat the oven to 350 degrees F (175 degrees C). Line 30 muffin cups with paper liners.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Mix flour, baking soda, and pumpkin pie spice together in a medium bowl.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine sugar and butter in a large bowl; beat with an electric mixer until smooth and creamy. Beat in eggs, one at a time, until fluffy. Add canned pumpkin, sour cream, and bananas; mix until well combined. Add flour mixture gradually, mixing until incorporated.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Fill the prepared muffin cups 2/3 full with batter.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake cupcakes in the preheated oven until a toothpick inserted into the center comes out clean, 15 to 18 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Fruits and Vegetables",
+            "Vegetables",
+            "Squash"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Plum Mojo"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 2,
+            "ratingCount": 1,
+            "itemReviewed": "Banana-Pumpkin Cupcakes",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "133.5 calories",
+            "carbohydrateContent": "20 g",
+            "cholesterolContent": "30.1 mg",
+            "fatContent": "5.3 g",
+            "fiberContent": "0.7 g",
+            "proteinContent": "2.1 g",
+            "saturatedFatContent": "3.1 g",
+            "servingSize": null,
+            "sodiumContent": "94.8 mg",
+            "sugarContent": "11.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-12-28T07:34:02.337Z",
+                "reviewBody": "The flavor of these cupcakes was ok but the texture was not. They were gummy dense and heavy. They almost tasted like raw dough with a pumpkin flavor. I filled the liners 2/3's of the way as per recipe instructions and they hardly rose at all. Good thing I only made half of the recipe.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 2
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Yoly",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/cookingbikerchick/"
+                }
+            }
+        ]
+    }
+]

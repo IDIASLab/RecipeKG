@@ -1,0 +1,131 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1642/everyday-cooking/",
+                    "name": "Everyday Cooking",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1227/everyday-cooking/vegan/",
+                    "name": "Vegan",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/282603/vegan-aquafaba-mayonnaise/",
+        "name": "Vegan Aquafaba Mayonnaise",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F9131766.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-12-08T11:44:05.000Z",
+        "description": "This vegan mayo is made using the liquid from a can of chickpeas and is the perfect topping for your plant-based burger. Most Dijon mustard is made with white wine, making it not entirely vegan, which is why I chose Maille\u00ae for this recipe.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "3 /4 cup",
+        "recipeIngredient": [
+            "3 tablespoons aquafaba (liquid from can of chickpeas)",
+            "1 tablespoon Chickpeas (garbanzo beans, bengal gram), mature seeds, canned",
+            "1 tablespoon lemon juice",
+            "2 teaspoons Dijon mustard (such as Maille\u00ae)",
+            "\u00bd cup avocado oil",
+            "salt to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine chickpea liquid, whole chickpeas, lemon juice, and mustard in a tall container. Using an immersion blender, blend on high speed until smooth.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Reduce speed to low and slowly drizzle in oil until creamy. Season with salt. Cover and refrigerate for up to 1 week.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Everyday Cooking",
+            "Vegan"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Soup Loving Nicole"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Vegan Aquafaba Mayonnaise",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "168.4 calories",
+            "carbohydrateContent": "1.1 g",
+            "cholesterolContent": null,
+            "fatContent": "18.2 g",
+            "fiberContent": "0.1 g",
+            "proteinContent": "0.1 g",
+            "saturatedFatContent": "2.1 g",
+            "servingSize": null,
+            "sodiumContent": "49.2 mg",
+            "sugarContent": "0.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-04-03T16:49:31.85Z",
+                "reviewBody": "I tripled the amount. If it starts to separate in the fridge, just whisk it by hand for a few seconds and it bounces right back. I like this recipe a lot for many reasons, but the taste and texture are at the top. The fact that the jarred alternatives are laden with unhealthy ingredients and terribly expensive, there\u2019s no reason not to make your own.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Buckwheat Queen",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/melaniegiovenzana/"
+                }
+            }
+        ]
+    }
+]

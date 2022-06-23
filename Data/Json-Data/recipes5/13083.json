@@ -1,0 +1,158 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/251/main-dish/sandwiches/",
+                    "name": "Sandwich Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1033/main-dish/sandwiches/cheese/",
+                    "name": "Cheese",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/246300/quick-n-easy-chicken-cheese-steak/",
+        "name": "Quick-n'-Easy Chicken Cheese Steak",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3659739.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2020-01-03T00:50:35.000Z",
+        "description": "A nice, hot cheesy sandwich ready in less than 5 minutes.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H4M",
+        "totalTime": "P0DT0H9M",
+        "recipeYield": "1 sandwich",
+        "recipeIngredient": [
+            "1 (5 ounce) can chicken chunks, drained",
+            "1 tablespoon hot pepper sauce",
+            "1 slice Cheddar cheese",
+            "1 hot dog bun, split"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Cook chicken and hot sauce together in a non-stick skillet over medium heat, stirring to coat chicken evenly with hot sauce, until evenly heated, about 3 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Scrape chicken into center of the pan to form a shape similar to the hot dog bun. Cut Cheddar cheese slice in half and place on top of chicken; cook until Cheddar cheese is melted, 1 to 2 minutes. Place bottom half of hot dog bun over chicken and cheese mixture, slide a spatula underneath, and invert onto a plate. Place top half of hot dog bun over Cheddar cheese.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Sandwich Recipes",
+            "Cheese"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "taggerung86"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Quick-n'-Easy Chicken Cheese Steak",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "470.1 calories",
+            "carbohydrateContent": "21.9 g",
+            "cholesterolContent": "117.8 mg",
+            "fatContent": "22.6 g",
+            "fiberContent": "0.9 g",
+            "proteinContent": "42.1 g",
+            "saturatedFatContent": "9.6 g",
+            "servingSize": null,
+            "sodiumContent": "1465.8 mg",
+            "sugarContent": "3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2016-06-17T04:21:21.553Z",
+                "reviewBody": "I liked it especially since it was quick and easy. Cheddar on one Meunster on the other.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "warneg",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/7462642/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2016-06-16T11:10:29.733Z",
+                "reviewBody": "Personally I think these would lack in flavor as written. I used leftover grilled seasoned chicken breast and they were great!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

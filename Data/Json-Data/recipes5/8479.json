@@ -1,0 +1,202 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/141/drinks/eggnog/",
+                    "name": "Eggnog Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/100866/eggnog-hot-chocolate/",
+        "name": "Eggnog Hot Chocolate",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F943113.jpg",
+            "width": 250,
+            "height": 250
+        },
+        "datePublished": "2019-08-01T03:10:24.000Z",
+        "description": "A delightful way to liven up your hot chocolate. You can also use peppermint sticks as a garnish.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H20M",
+        "recipeYield": "8 cups",
+        "recipeIngredient": [
+            "2\u2009\u00bd cups milk",
+            "12 ounces bittersweet chocolate chips",
+            "4 cups eggnog",
+            "1 teaspoon vanilla extract",
+            "\u00bc cup coffee flavored liqueur",
+            "\u00bd cup whipped cream",
+            "8 cinnamon sticks, garnish"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "In a medium saucepan, melt chocolate in milk over medium-low heat.  Remove from heat, and let stand for 2 minutes.  Whisk the chocolate until melted and smooth.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Stir in the eggnog, and heat gently over low heat until very warm but not boiling.  Remove from heat, and stir in the vanilla and coffee liqueur.  Pour into mugs, and serve with whipped cream and a cinnamon stick garnish.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Eggnog Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Darci"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.6,
+            "ratingCount": 5,
+            "itemReviewed": "Eggnog Hot Chocolate",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "420.6 calories",
+            "carbohydrateContent": "49.8 g",
+            "cholesterolContent": "83.9 mg",
+            "fatContent": "22.9 g",
+            "fiberContent": "0.4 g",
+            "proteinContent": "9.6 g",
+            "saturatedFatContent": "13.5 g",
+            "servingSize": null,
+            "sodiumContent": "115.8 mg",
+            "sugarContent": "14.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2009-12-10T21:28:18.417Z",
+                "reviewBody": "good flavor but too thick and rich - like drinking melted chocolate chips. Also we could not taste the egg nog.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 2
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Jrhome",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2534300/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2009-12-08T23:39:01.147Z",
+                "reviewBody": "I was a little disappointed that the egg nog flavour didn't really come through very much. It just tasted like regular hot chocolate. That being said it tasted quite good. The coffee liqueur was a nice touch too.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Bobbi123",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3552751/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2009-11-12T16:51:22.553Z",
+                "reviewBody": "Perfect for any day",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Anna",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/4181354/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2009-12-22T21:56:03.673Z",
+                "reviewBody": "meh. too much chocolate and not enough eggnog.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 2
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "analisemae",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2880977/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2012-01-15T02:48:29.56Z",
+                "reviewBody": "I really liked this hot chocolate! Though I wouldn't add the coffee ligueur it's already quite sweet without it. Definatly a keeper!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Emma's Cookhouse",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/5479117/"
+                }
+            }
+        ]
+    }
+]

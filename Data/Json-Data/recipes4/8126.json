@@ -1,0 +1,138 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/245615/vanilla-coconut-super-bars/",
+        "name": "Vanilla Coconut Super Bars",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6090734.jpg",
+            "width": 4608,
+            "height": 3456
+        },
+        "datePublished": "2019-04-02T07:05:45.000Z",
+        "description": "A superfood bar!",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H40M",
+        "totalTime": "P0DT0H55M",
+        "recipeYield": "27 1x3-inch bars",
+        "recipeIngredient": [
+            "1 cup walnuts",
+            "1 cup almonds",
+            "1 cup shredded coconut",
+            "\u00bd cup cacao beans",
+            "\u00bc cup hemp seed hearts",
+            "\u00bc cup goji berries",
+            "2 tablespoons coconut flour",
+            "1 tablespoon ground cinnamon",
+            "1 tablespoon ground ginger",
+            "1 teaspoon vanilla bean paste",
+            "\u00bd cup honey",
+            "\u00bc cup coconut oil, melted",
+            "1 cup Greek-style yogurt"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat oven to 310 degrees F (154 degrees C). Grease a 9-inch square baking pan.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pulse walnuts, almonds, coconut, cacao beans, hemp seed hearts, goji berries, coconut flour, cinnamon, ginger, and vanilla bean paste together in a food processor until combined.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Stir honey and coconut oil together in a small bowl; pour over nut mixture and pulse to combine. With food processor running, add yogurt slowly until a moist dough forms. Transfer dough to the greased pan and spread evenly to 1/2-inch thickness.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated oven until edges start to come away from the sides of the pan, 30 to 40 minutes. Increase oven temperature to 425 degrees F (218 degrees C) and bake until top is toasted and golden brown, about 10 minutes more. Cut into 1x3-inch bars while still warm.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Tim"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Vanilla Coconut Super Bars",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "141.6 calories",
+            "carbohydrateContent": "9.2 g",
+            "cholesterolContent": "1.7 mg",
+            "fatContent": "11.2 g",
+            "fiberContent": "1.9 g",
+            "proteinContent": "3.2 g",
+            "saturatedFatContent": "4.6 g",
+            "servingSize": null,
+            "sodiumContent": "9.3 mg",
+            "sugarContent": "6.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-12-30T13:33:04.5Z",
+                "reviewBody": "tasty and a bit healthier than the usual treat. I was unable to find cacao beans so I found some raw cacao powder and used that saw the beans were going to be ground up anyway. Took them to church and everyone liked them",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Linda T",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/lindat/"
+                }
+            }
+        ]
+    }
+]

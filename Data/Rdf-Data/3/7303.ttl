@@ -1,0 +1,71 @@
+@prefix ns1: <http://purl.org/heals/food/> .
+@prefix ns2: <http://purl.org/recipekg/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/jimmy-dean-sausage-stuffing> a schema:Recipe ;
+    ns1:hasIngredient [ a <http://purl.org/recipekg/ingredient/Spinach> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "package" ;
+            ns2:ingredientName "spinach" ],
+        [ a <http://purl.org/recipekg/ingredient/Egg> ;
+            ns2:hasQuantity "1" ;
+            ns2:ingredientName "egg" ],
+        [ a <http://purl.org/recipekg/ingredient/PorkSausage> ;
+            ns2:hasQuantity "2" ;
+            ns2:ingredientName "Pork Sausage" ],
+        [ a <http://purl.org/recipekg/ingredient/Mushroom> ;
+            ns2:hasQuantity "8" ;
+            ns2:hasUnit "ounce" ;
+            ns2:ingredientName "mushroom" ],
+        [ a <http://purl.org/heals/ingredient/Carrot> ;
+            ns2:hasQuantity "3/4" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "carrot" ],
+        [ a <http://purl.org/heals/ingredient/ChickenBroth> ;
+            ns2:hasQuantity "2" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "chicken broth" ],
+        [ a <http://purl.org/heals/ingredient/Onion> ;
+            ns2:hasQuantity "1 1/2" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "onion" ],
+        [ a <http://purl.org/heals/ingredient/BlackPepper> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "teaspoon" ;
+            ns2:ingredientName "black pepper" ],
+        [ a <http://purl.org/recipekg/ingredient/PoultrySeasoning> ;
+            ns2:hasQuantity "2" ;
+            ns2:hasUnit "teaspoon" ;
+            ns2:ingredientName "poultry seasoning" ],
+        [ a <http://purl.org/heals/ingredient/Garlic> ;
+            ns2:hasQuantity "3" ;
+            ns2:hasUnit "clove" ;
+            ns2:ingredientName "garlic" ],
+        [ a <http://purl.org/recipekg/ingredient/BreadCubes> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "package" ;
+            ns2:ingredientName "bread cubes" ],
+        [ a <http://purl.org/heals/ingredient/Celery> ;
+            ns2:hasQuantity "1 1/2" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "celery" ],
+        [ a <http://purl.org/heals/ingredient/Rosemary> ;
+            ns2:hasQuantity "2" ;
+            ns2:hasUnit "teaspoon" ;
+            ns2:ingredientName "rosemary" ] ;
+    ns2:belongsTo <http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/jimmy-dean/> ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 33 ;
+            schema:ratingValue "4.606060606060606"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2018-10-04T13:02:15.000Z"^^schema:date ;
+    schema:name "Jimmy Dean Sausage Stuffing"^^xsd:string ;
+    schema:recipeYield "12 servings"^^xsd:string .
+
+<http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/> a ns2:RecipeCategory .
+
+<http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/jimmy-dean/> rdfs:subClassOf <http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/> .
+

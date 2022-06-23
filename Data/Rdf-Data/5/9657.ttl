@@ -1,0 +1,89 @@
+@prefix ns1: <http://purl.org/heals/food/> .
+@prefix ns2: <http://purl.org/recipekg/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/spicy-fruit-salsa> a schema:Recipe ;
+    ns1:hasIngredient [ a <http://purl.org/recipekg/ingredient/CayennePepper> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "tablespoon" ;
+            ns2:ingredientName "cayenne pepper" ],
+        [ a <http://purl.org/heals/ingredient/BrownSugar> ;
+            ns2:hasQuantity "3/4" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "brown sugar" ],
+        [ ],
+        [ a <http://purl.org/recipekg/ingredient/FruitJelly> ;
+            ns2:hasQuantity "2" ;
+            ns2:hasUnit "tablespoon" ;
+            ns2:ingredientName "fruit jelly" ],
+        [ a <http://purl.org/recipekg/ingredient/Apple> ;
+            ns2:hasQuantity "4" ;
+            ns2:ingredientName "apple" ],
+        [ a <http://purl.org/heals/ingredient/LemonJuice> ;
+            ns2:hasQuantity "1/3" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "lemon juice" ],
+        [ a <http://purl.org/recipekg/ingredient/Blackberry> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "pint" ;
+            ns2:ingredientName "blackberry" ],
+        [ a <http://purl.org/recipekg/ingredient/Strawberry> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "quart" ;
+            ns2:ingredientName "strawberry" ],
+        [ a <http://purl.org/recipekg/ingredient/Kiwi> ;
+            ns2:hasQuantity "5" ;
+            ns2:ingredientName "kiwi" ],
+        [ a <http://purl.org/recipekg/ingredient/GreenSalsa> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "can" ;
+            ns2:ingredientName "green salsa" ] ;
+    ns2:belongsTo <http://purl.org/recipekg/categories/appetizers-and-snacks/dips-and-spreads/salsa/> ;
+    ns2:hasFSAScore 4 ;
+    ns2:hasNutritionalInformation [ a ns2:NutritionalInformation ;
+            ns2:hasCalorificData [ a ns2:CalorificData ;
+                    ns2:hasAmount "136.4"^^xsd:float ;
+                    ns2:hasUnit "calories" ] ;
+            ns2:hasCarbohydrateData [ a ns2:CarbohydrateData ;
+                    ns2:hasAmount "34.3"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasFatData [ a ns2:FatData ;
+                    ns2:hasAmount "0.5"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSAGreen ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasFiberData [ a ns2:FiberData ;
+                    ns2:hasAmount "4.2"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasProteinData [ a ns2:ProteinData ;
+                    ns2:hasAmount "1.3"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasSodiumData [ a ns2:SodiumData ;
+                    ns2:hasAmount "148.5"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSAGreen ;
+                    ns2:hasUnit "mg" ] ;
+            ns2:hasSugarData [ a ns2:SugarData ;
+                    ns2:hasAmount "26.8"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSARed ;
+                    ns2:hasUnit "g" ] ] ;
+    ns2:hasUSDAScore 3 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 18 ;
+            schema:ratingValue "4.388888888888889"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2020-03-05T04:59:28.000Z"^^schema:date ;
+    schema:name "Spicy Fruit Salsa"^^xsd:string ;
+    schema:recipeYield "12 servings"^^xsd:string .
+
+ns2:FSARed a ns2:FSAColor .
+
+<http://purl.org/recipekg/categories/appetizers-and-snacks/> a ns2:RecipeCategory .
+
+<http://purl.org/recipekg/categories/appetizers-and-snacks/dips-and-spreads/> rdfs:subClassOf <http://purl.org/recipekg/categories/appetizers-and-snacks/> .
+
+<http://purl.org/recipekg/categories/appetizers-and-snacks/dips-and-spreads/salsa/> rdfs:subClassOf <http://purl.org/recipekg/categories/appetizers-and-snacks/dips-and-spreads/> .
+
+ns2:FSAGreen a ns2:FSAColor .
+

@@ -1,0 +1,146 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/364/desserts/frozen-desserts/",
+                    "name": "Frozen Dessert Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/16184/desserts/frozen-desserts/sorbet/",
+                    "name": "Sorbet Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/254191/coconut-sorbet/",
+        "name": "Coconut Sorbet",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Coconut Sorbet"
+        },
+        "datePublished": "2020-06-19T04:16:13.000Z",
+        "description": "Delicious, refreshing dessert. Perfect for coconut lovers on a hot summer day. Easily altered by toasting the coconut or serving with chocolate, fresh raspberries, or pineapple.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H55M",
+        "recipeYield": "2 cups",
+        "recipeIngredient": [
+            "1 (13.5 ounce) can coconut milk",
+            "6\u2009\u00be fluid ounces water",
+            "\u00bd cup white sugar",
+            "\u00bd cup unsweetened coconut flakes"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Pour coconut milk into a container. Fill the empty can halfway with water and add to the coconut milk. Whisk in sugar until dissolved. Stir in coconut flakes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cover and freeze until chilled, about 30 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour coconut mixture into an ice cream maker and churn according to manufacturer's instructions until soft and creamy, 15 to 20 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Frozen Dessert Recipes",
+            "Sorbet Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "lpattan"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Coconut Sorbet",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "362.6 calories",
+            "carbohydrateContent": "30.4 g",
+            "cholesterolContent": null,
+            "fatContent": "28 g",
+            "fiberContent": "3 g",
+            "proteinContent": "2.7 g",
+            "saturatedFatContent": "24.8 g",
+            "servingSize": null,
+            "sodiumContent": "18.3 mg",
+            "sugarContent": "25.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-06-23T23:07:20.38Z",
+                "reviewBody": "Great coconut flavour and came out super creamy! The coconut milk provides a lot of fat so this comes out very similar to ice cream.\n\nI did add a bit of corn syrup and guar gum to help stabilize it, but that probably wasn't needed. \n\nI might skip the shredded coconut next time though to get a smoother texture.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Josh",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/17087811/"
+                }
+            }
+        ]
+    }
+]

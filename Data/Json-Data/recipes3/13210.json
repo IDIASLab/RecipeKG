@@ -1,0 +1,115 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/151/breakfast-and-brunch/pancakes/",
+                    "name": "Pancake Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/258777/paleo-pancakes-with-tapioca/",
+        "name": "Paleo Pancakes with Tapioca",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Paleo Pancakes with Tapioca"
+        },
+        "datePublished": "2018-06-08T14:43:49.000Z",
+        "description": "These pancakes are paleo, using almond flour, tapioca starch and some other ingredients.  Even if you aren't following a paleo diet, but are trying to stay away from white starches, these are a good alternative.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "9 pancakes",
+        "recipeIngredient": [
+            "1 cup almond flour",
+            "2 eggs",
+            "\u00bc cup almond milk",
+            "\u00bc cup tapioca starch",
+            "1 teaspoon vanilla extract",
+            "\u00bd teaspoon baking powder",
+            "1 pinch salt"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Stir almond flour, eggs, almond milk, tapioca starch, vanilla extract, baking powder, and salt together in a bowl.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat a lightly oiled griddle over medium-high heat. Drop batter by large spoonfuls onto the griddle and cook until the edges are dry, 3 to 4 minutes. Flip and cook until browned on the other side, 2 to 3 minutes. Repeat with remaining batter.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Pancake Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Jen"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Paleo Pancakes with Tapioca",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "338.4 calories",
+            "carbohydrateContent": "19.8 g",
+            "cholesterolContent": "124 mg",
+            "fatContent": "24.1 g",
+            "fiberContent": "4.5 g",
+            "proteinContent": "13.1 g",
+            "saturatedFatContent": "2.6 g",
+            "servingSize": null,
+            "sodiumContent": "193.5 mg",
+            "sugarContent": "2.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

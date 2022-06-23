@@ -1,0 +1,149 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/104/appetizers-and-snacks/cheese/",
+                    "name": "Cheese",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1228/appetizers-and-snacks/cheese/nachos/",
+                    "name": "Nachos Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/246518/baked-potato-chip-nachos/",
+        "name": "Baked Potato Chip Nachos",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3412272.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2019-04-02T07:06:36.000Z",
+        "description": "Totally delicious! Add your favorite nacho toppings with the cheese.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H20M",
+        "totalTime": "P0DT0H30M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "6 potatoes, peeled and thinly sliced",
+            "2 tablespoons olive oil",
+            "1 tablespoon salt",
+            "1 cup shredded Cheddar cheese"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat oven to 425 degrees F (220 degrees C). Line a rimmed baking sheet with parchment paper.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Spread potato slices out on baking sheet. Coat with olive oil and salt.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake potatoes in the preheated oven until tops are golden and edges are crispy, 15 to 20 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Layer baked potatoes with Cheddar cheese; continue baking until cheese is melted, 5 to 10 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks",
+            "Cheese",
+            "Nachos Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Fernandes"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Baked Potato Chip Nachos",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "279.7 calories",
+            "carbohydrateContent": "37.5 g",
+            "cholesterolContent": "19.8 mg",
+            "fatContent": "10.9 g",
+            "fiberContent": "4.7 g",
+            "proteinContent": "9 g",
+            "saturatedFatContent": "4.6 g",
+            "servingSize": null,
+            "sodiumContent": "1292.6 mg",
+            "sugarContent": "1.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-11-02T10:41:51.293Z",
+                "reviewBody": "tasted great!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Riley's mommy",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/24471053/"
+                }
+            }
+        ]
+    }
+]

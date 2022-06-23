@@ -1,0 +1,145 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/92/meat-and-poultry/",
+                    "name": "Meat and Poultry",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/201/meat-and-poultry/chicken/",
+                    "name": "Chicken",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/659/meat-and-poultry/chicken/chicken-breasts/",
+                    "name": "Breast",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/280259/kicky-stuffed-chicken/",
+        "name": "Kicky Stuffed Chicken",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8228333.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-06-02T01:11:36.000Z",
+        "description": "Add flavor to your chicken using leftover salsa to make a delightful dinner or lunch.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H30M",
+        "totalTime": "P0DT0H40M",
+        "recipeYield": "1 serving",
+        "recipeIngredient": [
+            "1 skinless, boneless chicken breast",
+            "1 (8 ounce) jar spicy salsa",
+            "cooking spray",
+            "salt and ground black pepper to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat the oven to 425 degrees F (220 degrees C).\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place the chicken breast, smooth-side up, on a work surface. Holding it down with one palm, slice breast horizontally, stopping 3/4 of the way through. Open like a book. Spread some salsa on one half, then close. Coat with cooking spray and sprinkle with salt and pepper. Transfer to a baking dish and top with more salsa.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated oven until no longer pink in the center, about 30 minutes. An instant-read thermometer inserted into the center should read at least 165 degrees F (74 degrees C).\n"
+            }
+        ],
+        "recipeCategory": [
+            "Meat and Poultry",
+            "Chicken",
+            "Breast"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Allrecipes Magazine"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Kicky Stuffed Chicken",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "188.3 calories",
+            "carbohydrateContent": "14 g",
+            "cholesterolContent": "64.6 mg",
+            "fatContent": "3.3 g",
+            "fiberContent": "3.6 g",
+            "proteinContent": "27 g",
+            "saturatedFatContent": "0.8 g",
+            "servingSize": null,
+            "sodiumContent": "1555.3 mg",
+            "sugarContent": "6.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-06-12T22:22:14.707Z",
+                "reviewBody": "Super simple to make for a quick weeknight meal. This will only be as good as the salsa you use, so use a high-quality brand, or make your own. I used Frontera's Tequila Borracha Salsa.  Also, a whole jar of salsa isn't necessary for 1 breast; a jar would be enough for 4.  I would recommend seasoning both sides of the chicken before stuffing it, otherwise only the top gets seasoned. Mine was perfectly done at  25 minutes. I feel like it need something extra, and ended up serving it with cheese, green onions and a side of sour cream.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "France C",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/francecevallos/"
+                }
+            }
+        ]
+    }
+]

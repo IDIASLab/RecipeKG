@@ -1,0 +1,91 @@
+@prefix ns1: <http://purl.org/recipekg/> .
+@prefix ns2: <http://purl.org/heals/food/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/cheese-and-olive-bread> a schema:Recipe ;
+    ns2:hasIngredient [ a <http://purl.org/heals/ingredient/Garlic> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "garlic" ],
+        [ a <http://purl.org/recipekg/ingredient/OnionPowder> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "onion powder" ],
+        [ a <http://purl.org/heals/ingredient/Butter> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "butter" ],
+        [ a <http://purl.org/recipekg/ingredient/BlackOlives> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "black olives" ],
+        [ a <http://purl.org/recipekg/ingredient/Bread> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "loaf" ;
+            ns1:ingredientName "bread" ],
+        [ a <http://purl.org/heals/ingredient/Mayonnaise> ;
+            ns1:hasQuantity "1/4" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "mayonnaise" ],
+        [ a <http://purl.org/recipekg/ingredient/MozzarellaCheese> ;
+            ns1:hasQuantity "2" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "mozzarella cheese" ] ;
+    ns1:belongsTo <http://purl.org/recipekg/categories/appetizers-and-snacks/vegetable/olives/> ;
+    ns1:hasFSAScore 3 ;
+    ns1:hasNutritionalInformation [ a ns1:NutritionalInformation ;
+            ns1:hasCalorificData [ a ns1:CalorificData ;
+                    ns1:hasAmount "399.1"^^xsd:float ;
+                    ns1:hasUnit "calories" ] ;
+            ns1:hasCarbohydrateData [ a ns1:CarbohydrateData ;
+                    ns1:hasAmount "34.1"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasCholesterolData [ a ns1:CholesterolData ;
+                    ns1:hasAmount "51.2"^^xsd:float ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasFatData [ a ns1:FatData ;
+                    ns1:hasAmount "23.5"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSARed ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasFiberData [ a ns1:FiberData ;
+                    ns1:hasAmount "1.7"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasProteinData [ a ns1:ProteinData ;
+                    ns1:hasAmount "13.9"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSaturatedFatData [ a ns1:SaturatedFatData ;
+                    ns1:hasAmount "11.4"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSARed ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSodiumData [ a ns1:SodiumData ;
+                    ns1:hasAmount "742.3"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasSugarData [ a ns1:SugarData ;
+                    ns1:hasAmount "2.0"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAGreen ;
+                    ns1:hasUnit "g" ] ] ;
+    ns1:hasUSDAScore 4 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 78 ;
+            schema:ratingValue "4.67948717948718"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2018-04-04T05:44:28.000Z"^^schema:date ;
+    schema:name "Cheese and Olive Bread"^^xsd:string ;
+    schema:recipeYield "8 Servings"^^xsd:string .
+
+ns1:FSAAmber a ns1:FSAColor .
+
+ns1:FSAGreen a ns1:FSAColor .
+
+<http://purl.org/recipekg/categories/appetizers-and-snacks/> a ns1:RecipeCategory .
+
+<http://purl.org/recipekg/categories/appetizers-and-snacks/vegetable/> rdfs:subClassOf <http://purl.org/recipekg/categories/appetizers-and-snacks/> .
+
+<http://purl.org/recipekg/categories/appetizers-and-snacks/vegetable/olives/> rdfs:subClassOf <http://purl.org/recipekg/categories/appetizers-and-snacks/vegetable/> .
+
+ns1:FSARed a ns1:FSAColor .
+

@@ -1,0 +1,148 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/9259/wassail-i/",
+        "name": "Wassail I",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F25475.jpg",
+            "width": 250,
+            "height": 250
+        },
+        "datePublished": "1998-12-08T22:16:06.000Z",
+        "description": "Made famous by that caroling song. A drink that will warm you from head to toe.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H40M",
+        "totalTime": "P0DT0H45M",
+        "recipeYield": "25 servings",
+        "recipeIngredient": [
+            "8 lady apples",
+            "4 whole allspice berries",
+            "1 cinnamon stick",
+            "4 whole cloves",
+            "\u00bd teaspoon ground nutmeg",
+            "\u00bd teaspoon ground ginger",
+            "2 liters ginger ale",
+            "25 fluid ounces sherry",
+            "1 cup brandy",
+            "1 cup milk"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat oven to 350 degrees F (175 degrees C). Place whole apples on a baking sheet and bake until brown and tender, about 25 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Gently crush the allspice berries and break up the cinnamon stick. Place the allspice, cinnamon, cloves, nutmeg, and ginger in a cheesecloth bag.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "In a large sauce pan place 2 cups of the ginger ale and the spice bag. Bring to a boil, reduce heat and simmer for 10 minutes. Remove spice bag and add the remaining ginger ale, the sherry and the brandy heat until hot. DO NOT BOIL! Whisk in milk and pour into a punch bowl garnish with the baked apples.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Mathilda"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.666666666666667,
+            "ratingCount": 3,
+            "itemReviewed": "Wassail I",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "89 calories",
+            "carbohydrateContent": "11.9 g",
+            "cholesterolContent": "0.8 mg",
+            "fatContent": "0.2 g",
+            "fiberContent": "0 g",
+            "proteinContent": "0.3 g",
+            "saturatedFatContent": "0.1 g",
+            "servingSize": null,
+            "sodiumContent": "193.1 mg",
+            "sugarContent": "7.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2003-12-19T17:59:45.937Z",
+                "reviewBody": "I leave in the spice bag until the wassail is finished and I never add the milk. I think it tastes much better that way!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Orianna",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/467920/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2007-04-07T01:13:06.03Z",
+                "reviewBody": "This was such a hit last Christmas that I made it again this year. It's just delicious! The addition of milk is wonderful--gives this drink a body and fullness hard to duplicate. I do leave out the apples since I don't feel they added much and are a bit of a pain.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Gini",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/397270/"
+                }
+            }
+        ]
+    }
+]

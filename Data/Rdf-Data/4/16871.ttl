@@ -1,0 +1,115 @@
+@prefix ns1: <http://purl.org/recipekg/> .
+@prefix ns2: <http://purl.org/heals/food/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/vegan-avocado-pasta-with-blackened-vegetables> a schema:Recipe ;
+    ns2:hasIngredient [ a <http://purl.org/heals/ingredient/Salt> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "salt" ],
+        [ a <http://purl.org/heals/ingredient/OliveOil> ;
+            ns1:hasQuantity "3" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "olive oil" ],
+        [ a <http://purl.org/heals/ingredient/Salt> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "pinch" ;
+            ns1:ingredientName "salt" ],
+        [ a <http://purl.org/recipekg/ingredient/PennePasta> ;
+            ns1:hasQuantity "2" ;
+            ns1:hasUnit "pound" ;
+            ns1:ingredientName "penne pasta" ],
+        [ a <http://purl.org/heals/ingredient/Onion> ;
+            ns1:hasQuantity "1" ;
+            ns1:ingredientName "onion" ],
+        [ a <http://purl.org/recipekg/ingredient/CherryTomatoes> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "cherry tomatoes" ],
+        [ a <http://purl.org/heals/ingredient/Salt> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "salt" ],
+        [ a <http://purl.org/recipekg/ingredient/Lime> ;
+            ns1:hasQuantity "2" ;
+            ns1:ingredientName "lime" ],
+        [ a <http://purl.org/heals/ingredient/BlackPepper> ;
+            ns1:ingredientName "black pepper" ],
+        [ a <http://purl.org/recipekg/ingredient/BellPeppers> ;
+            ns1:hasQuantity "2" ;
+            ns1:ingredientName "bell peppers" ],
+        [ a <http://purl.org/recipekg/ingredient/Broccoli> ;
+            ns1:hasQuantity "2" ;
+            ns1:ingredientName "broccoli" ],
+        [ a <http://purl.org/recipekg/ingredient/Avocado> ;
+            ns1:hasQuantity "4" ;
+            ns1:ingredientName "avocado" ],
+        [ a <http://purl.org/recipekg/ingredient/Lime> ;
+            ns1:hasQuantity "2" ;
+            ns1:ingredientName "lime" ],
+        [ a <http://purl.org/heals/ingredient/Salt> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "salt" ],
+        [ a <http://purl.org/heals/ingredient/Garlic> ;
+            ns1:hasQuantity "3" ;
+            ns1:hasUnit "clove" ;
+            ns1:ingredientName "garlic" ],
+        [ a <http://purl.org/heals/ingredient/Cilantro> ;
+            ns1:hasQuantity "4" ;
+            ns1:ingredientName "cilantro" ],
+        [ a <http://purl.org/heals/ingredient/Cilantro> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "cilantro" ] ;
+    ns1:belongsTo <http://purl.org/recipekg/categories/main-dish/pasta/> ;
+    ns1:hasFSAScore 3 ;
+    ns1:hasNutritionalInformation [ a ns1:NutritionalInformation ;
+            ns1:hasCalorificData [ a ns1:CalorificData ;
+                    ns1:hasAmount "675.1"^^xsd:float ;
+                    ns1:hasUnit "calories" ] ;
+            ns1:hasCarbohydrateData [ a ns1:CarbohydrateData ;
+                    ns1:hasAmount "105.6"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasFatData [ a ns1:FatData ;
+                    ns1:hasAmount "23.0"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSARed ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasFiberData [ a ns1:FiberData ;
+                    ns1:hasAmount "14.9"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasProteinData [ a ns1:ProteinData ;
+                    ns1:hasAmount "20.4"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSaturatedFatData [ a ns1:SaturatedFatData ;
+                    ns1:hasAmount "3.5"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSodiumData [ a ns1:SodiumData ;
+                    ns1:hasAmount "520.2"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasSugarData [ a ns1:SugarData ;
+                    ns1:hasAmount "8.7"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "g" ] ] ;
+    ns1:hasUSDAScore 4 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 22 ;
+            schema:ratingValue "4.318181818181818"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2019-04-02T07:02:42.000Z"^^schema:date ;
+    schema:name "Vegan Avocado Pasta with Blackened Vegetables"^^xsd:string ;
+    schema:recipeYield "8 servings"^^xsd:string .
+
+ns1:FSARed a ns1:FSAColor .
+
+<http://purl.org/recipekg/categories/main-dish/> a ns1:RecipeCategory .
+
+<http://purl.org/recipekg/categories/main-dish/pasta/> rdfs:subClassOf <http://purl.org/recipekg/categories/main-dish/> .
+
+ns1:FSAAmber a ns1:FSAColor .
+

@@ -1,0 +1,121 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/250/main-dish/pizza/",
+                    "name": "Pizza Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/260116/quick-and-easy-pizza-roll/",
+        "name": "Quick and Easy Pizza Roll",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4556787.jpg",
+            "width": 960,
+            "height": 960
+        },
+        "datePublished": "2017-09-07T06:49:48.000Z",
+        "description": "This quick and easy crowd-pleaser is a recipe my 3 young boys (all under 5 years old) can help me prepare. They love sprinkling the cheese and pepperoni and watching me roll it all up.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H25M",
+        "totalTime": "P0DT0H40M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "1 (13.8 ounce) can prepared pizza dough",
+            "2 cups shredded mozzarella cheese",
+            "1 (8 ounce) package sliced pepperoni",
+            "1\u2009\u00bd cups freshly grated Parmesan cheese",
+            "cooking spray",
+            "1 cup pizza sauce"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat oven to 350 degrees F (175 degrees C). Line a baking sheet with parchment paper.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Unroll pizza dough onto the baking sheet and stretch it slightly. Cover evenly with mozzarella cheese. Scatter pepperoni over the cheese. Sprinkle Parmesan cheese on top.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Roll up the dough starting from the shortest end. Center the roll on the baking sheet. Spray the outside with cooking spray.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated oven until golden brown, about 25 minutes. Slice and serve with pizza sauce.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Pizza Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Abby Waid"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Quick and Easy Pizza Roll",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "835.5 calories",
+            "carbohydrateContent": "54.7 g",
+            "cholesterolContent": "121.4 mg",
+            "fatContent": "45.7 g",
+            "fiberContent": "2.2 g",
+            "proteinContent": "47.5 g",
+            "saturatedFatContent": "19.2 g",
+            "servingSize": null,
+            "sodiumContent": "2711.2 mg",
+            "sugarContent": "8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

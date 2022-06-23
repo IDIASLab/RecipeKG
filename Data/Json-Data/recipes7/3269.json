@@ -1,0 +1,148 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/165515/poached-pears-with-risotto/",
+        "name": "Poached Pears with Risotto",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Poached Pears with Risotto"
+        },
+        "datePublished": "2020-06-19T03:35:43.000Z",
+        "description": "A sweet spin off of the average risotto dish...",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H35M",
+        "totalTime": "P0DT0H45M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "1\u2009\u00bd tablespoons butter",
+            "\u00bd cup Arborio rice",
+            "2\u2009\u00bd cups hot milk",
+            "3 tablespoons chopped dark chocolate",
+            "2 tablespoons white sugar",
+            "\u00be cup water",
+            "2 tablespoons white sugar",
+            "1 cinnamon stick",
+            "2 pears, peeled, quartered and cored"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Melt the butter in a saucepan over medium heat and stir in the rice. Cook the rice until it turns translucent, and begins to toast, about 3 minutes. Stir in 1/3 of the hot milk until it has been absorbed by the rice, about 5 minutes. Pour in half of the remaining milk, and stir until absorbed before stirring in the remaining milk. Stirring in the milk should take 15 to 25 minutes total, and the rice should be mostly soft with just a little firmness in the center. Add the chocolate and 2 tablespoons of sugar, and stir 5 minutes more.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Meanwhile, bring the water, 2 tablespoons of sugar, and cinnamon stick to a simmer in a saucepan over medium-high heat. Add the pears, return to a simmer, then reduce the heat to medium, and continue simmering uncovered until the pears are tender, about 10 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Spoon the risotto into serving bowls and place pears on top.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Elena"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.5,
+            "ratingCount": 2,
+            "itemReviewed": "Poached Pears with Risotto",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "352.5 calories",
+            "carbohydrateContent": "61.4 g",
+            "cholesterolContent": "23.6 mg",
+            "fatContent": "9.5 g",
+            "fiberContent": "3.4 g",
+            "proteinContent": "7.7 g",
+            "saturatedFatContent": "5.9 g",
+            "servingSize": null,
+            "sodiumContent": "97.6 mg",
+            "sugarContent": "27.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2009-12-09T16:13:26.413Z",
+                "reviewBody": "I followed the recipe exactly but we had to put it down the drain. It tasted ok but something was missing. It didn't look appealing at all so i would recommend swirling the chocolate in but not blending so that the rice doesn't turn brown.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "EML84",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/4131404/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2009-10-06T00:13:59.613Z",
+                "reviewBody": "I followed the rice part exactly but for the pear part I screwed up and poached using another recipe I had been looking at that had a little wine instead of cinnamon. The dish is very sweet more of a dessert than a meal. I think the rice was lacking something not sure what since I am not good at figuring that out but what was lacking may very well have been the heavy cinnamon that would have come from the pears had I poached them right. All in all quite good. When I make it again with the pears poached the right way I'll re-rate.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "mrs. kosmos",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3825395/"
+                }
+            }
+        ]
+    }
+]

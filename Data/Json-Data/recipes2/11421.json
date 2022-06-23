@@ -1,0 +1,147 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/138/drinks/smoothies/",
+                    "name": "Smoothie Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/255926/vanilla-pumpkin-pie-smoothie/",
+        "name": "Vanilla Pumpkin Pie Smoothie",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4462688.jpg",
+            "width": 4824,
+            "height": 4824
+        },
+        "datePublished": "2017-08-30T13:00:34.000Z",
+        "description": "Just like those pricey smoothies at your favorite smoothie shop!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "2 8-ounce smoothies",
+        "recipeIngredient": [
+            "8 ounces pumpkin pie filling (such as Libby's\u00ae)",
+            "1 cup vanilla frozen yogurt",
+            "\u00bd cup ice",
+            "\u00bd cup vanilla-flavored soy milk",
+            "1 teaspoon ground cinnamon",
+            "1 pinch ground nutmeg",
+            "\u215b teaspoon vanilla extract"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine pumpkin pie filling, frozen yogurt, ice, soy milk, cinnamon, nutmeg, and vanilla extract in a blender; blend until smooth.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Smoothie Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Sarah Dipity"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Vanilla Pumpkin Pie Smoothie",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "259.8 calories",
+            "carbohydrateContent": "50.7 g",
+            "cholesterolContent": "1.4 mg",
+            "fatContent": "4.8 g",
+            "fiberContent": "10.3 g",
+            "proteinContent": "5.6 g",
+            "saturatedFatContent": "2.7 g",
+            "servingSize": null,
+            "sodiumContent": "329.7 mg",
+            "sugarContent": "19.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-01-24T01:41:24.787Z",
+                "reviewBody": "1.23.17  This tastes decadent, decadently good!  With the frozen yogurt and the ice cubes, it was really thick, so I thinned out with a little more milk and some water.  I think the consistency of smoothies is just personal preference, so this comment isn't meant to be negative.  Followed the recipe to the letter with the exception of reducing the amount of the cinnamon, but I did garnish with cinnamon.  I drink a lot of smoothies, and this one will be made again.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "lutzflcat",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/lutzflcat/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2018-10-18T00:01:52.24Z",
+                "reviewBody": "It was really good but to make it a little better I would add more milk because the drink was too cold.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Nadia Altamirano",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/24356777/"
+                }
+            }
+        ]
+    }
+]

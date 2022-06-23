@@ -1,0 +1,121 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/250/main-dish/pizza/",
+                    "name": "Pizza Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/239313/rainbow-vegetable-pizza/",
+        "name": "Rainbow Vegetable Pizza",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1772092.jpg",
+            "width": 960,
+            "height": 960
+        },
+        "datePublished": "2015-06-17T06:02:12.000Z",
+        "description": "This is an alternative to high-fat pizza.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H25M",
+        "recipeYield": "8 servings",
+        "recipeIngredient": [
+            "1 flat bread pizza crust (such as Flatout\u00ae Flatbread Thin Crust Flatbread)",
+            "\u00bc cup crushed tomatoes with roasted garlic and olive oil (such as Furmano's\u00ae)",
+            "\u00bc cup chopped fresh spinach",
+            "\u00bc cup fresh chopped broccoli",
+            "\u00bc cup finely chopped yellow bell pepper",
+            "\u00bc cup finely chopped orange bell pepper",
+            "\u00bc cup chopped eggplant",
+            "9 slices pepperoni, chopped",
+            "\u00bc teaspoon dried oregano",
+            "\u00be cup shredded mozzarella cheese"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat oven to 350 degrees F (175 degrees C).\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place pizza crust on a baking sheet and spread tomatoes onto crust. Layer spinach, broccoli, yellow bell pepper, orange bell pepper, eggplant, pepperoni, and oregano onto crust; top with mozzarella cheese.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated oven until cheese is melted, 7 to 10 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Pizza Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "pamela.willis"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Rainbow Vegetable Pizza",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "119.8 calories",
+            "carbohydrateContent": "17.4 g",
+            "cholesterolContent": "9.1 mg",
+            "fatContent": "3.7 g",
+            "fiberContent": "0.9 g",
+            "proteinContent": "6.5 g",
+            "saturatedFatContent": "1.4 g",
+            "servingSize": null,
+            "sodiumContent": "218.9 mg",
+            "sugarContent": "0.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

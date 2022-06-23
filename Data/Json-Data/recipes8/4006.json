@@ -1,0 +1,144 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1642/everyday-cooking/",
+                    "name": "Everyday Cooking",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/87/everyday-cooking/vegetarian/",
+                    "name": "Vegetarian",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/270724/braised-kale-and-beans/",
+        "name": "Braised Kale and Beans",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6442445.jpg",
+            "width": 1772,
+            "height": 1774
+        },
+        "datePublished": "2020-03-10T02:53:46.000Z",
+        "description": "With braised kale and red kidney beans, this comforting dish can be served over grains or with cornbread for a hearty winter meal.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H20M",
+        "totalTime": "P0DT0H35M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "1 pound kale",
+            "1 tablespoon oil, or to taste",
+            "1 large red onion, finely chopped",
+            "kosher salt and ground black pepper to taste",
+            "6 cloves garlic, sliced",
+            "1 teaspoon dried sage",
+            "1 cup vegetable broth",
+            "2 (15 ounce) cans kidney beans, rinsed and drained",
+            "1 teaspoon hot pepper sauce"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Cut tough stems off kale and discard. Stack leaves, roll tightly and cut crosswise into 3/4-inch strips. Transfer to a large bowl and cover with cold water; swirl to remove grit. Drain in a colander. Clean a second time if water in the bowl looks visibly dirty.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat oil in a saucepan over medium heat. Add onion and a pinch each of salt and pepper. Cook, stirring often, until golden brown around the edges, about 3 minutes. Add garlic and sage; cook and stir until fragrant, about 1 minute.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Stir in vegetable both, scraping up any browned bits from the bottom of the saucepan. Cover, reduce heat to low, and simmer, about 5 minutes. Increase heat to medium and add the kale. Season with salt and pepper and stir until just wilted, about 2 minutes. Cover and cook until tender but not soft, about 3 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Uncover saucepan; stir in beans and hot sauce. Stir until beans are heated through, 2 to 3 minutes. Season with salt and pepper.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Everyday Cooking",
+            "Vegetarian"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Alice Waugh"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Braised Kale and Beans",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "196.3 calories",
+            "carbohydrateContent": "33.4 g",
+            "cholesterolContent": null,
+            "fatContent": "3.5 g",
+            "fiberContent": "10.8 g",
+            "proteinContent": "10.7 g",
+            "saturatedFatContent": "0.4 g",
+            "servingSize": null,
+            "sodiumContent": "499.5 mg",
+            "sugarContent": "1.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-03-11T01:12:25.057Z",
+                "reviewBody": "This is pretty good if you like kale. The red beans and hot sauce are delicious.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Buckwheat Queen",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/melaniegiovenzana/"
+                }
+            }
+        ]
+    }
+]

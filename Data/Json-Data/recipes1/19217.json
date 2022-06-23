@@ -1,0 +1,103 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/285200/pollo-en-salsa/",
+        "name": "Pollo en Salsa",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1005496.jpg",
+            "width": 2848,
+            "height": 2848
+        },
+        "datePublished": "2013-04-19T03:14:17.000Z",
+        "description": "Prepared Mexican-style cooking sauce and boneless, skinless chicken breasts come together in a spicy, creamy dish that will please even the pickiest eaters!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT6H30M",
+        "totalTime": "P0DT6H40M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "3 (5 ounce) skinless, boneless chicken breast halves",
+            "1 (14.5 ounce) can petite diced tomatoes in juice",
+            "\u00bd (24 ounce) jar chipotle salsa",
+            "1 (10.5 ounce) can condensed cream of chicken soup",
+            "1 cup sour cream",
+            "salt to taste",
+            "4 cups steamed white rice",
+            "\u00bd cup shredded Mexican-style cheese blend",
+            "1 medium avocado, sliced"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place chicken in a slow cooker. Combine diced tomatoes with juice, chipotle salsa, and condensed soup in a bowl; pour over chicken. Cover and cook on Low until chicken is no longer pink in the center and the juices run clear, about 6 to 8 hours. An instant-read thermometer inserted into the center should read at least 165 degrees F (74 degrees C).\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Remove chicken from the sauce, shred, then return to the sauce. Simmer on Low heat for an additional 30 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Turn slow cooker off. Stir in sour cream and season with salt.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Divide rice between 4 plates. Serve chicken and sauce over rice and garnish with Mexican-style cheese and avocado slices.\n"
+            }
+        ],
+        "recipeCategory": [],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Keri"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Pollo en Salsa",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "682 calories",
+            "carbohydrateContent": "66 g",
+            "cholesterolContent": "98.4 mg",
+            "fatContent": "30.3 g",
+            "fiberContent": "6.2 g",
+            "proteinContent": "34.7 g",
+            "saturatedFatContent": "13.5 g",
+            "servingSize": null,
+            "sodiumContent": "1077.9 mg",
+            "sugarContent": "7.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

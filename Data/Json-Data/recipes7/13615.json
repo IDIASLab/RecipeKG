@@ -1,0 +1,168 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/231/world-cuisine/european/",
+                    "name": "European",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/723/world-cuisine/european/italian/",
+                    "name": "Italian",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/245607/hungarian-pizzelle/",
+        "name": "Hungarian Pizzelle",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7563973.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-06-19T04:04:09.000Z",
+        "description": "My Hungarian grandmother makes this thin and delicate version of the traditional pizzelle. Sprinkle with confectioners' sugar and store in an airtight container.",
+        "prepTime": "P0DT0H20M",
+        "cookTime": "P0DT0H1M",
+        "totalTime": "P0DT0H21M",
+        "recipeYield": "3 dozen",
+        "recipeIngredient": [
+            "3 eggs",
+            "\u00be cup white sugar",
+            "\u00be cup melted butter",
+            "1 teaspoon anise extract",
+            "1 teaspoon vanilla extract",
+            "\u00be cup all-purpose flour",
+            "1 teaspoon baking powder"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat pizzelle iron according to manufacturer's instructions.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Beat sugar and eggs together in a bowl using an electric mixer. Add butter, anise extract, and vanilla extract; beat until blended. Add flour and baking powder gradually; beat until smooth batter forms.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Drop a spoonful of batter onto the preheated iron. Bake until golden, about 45 seconds. Carefully remove pizzelle and cool on a cooling rack.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "European",
+            "Italian"
+        ],
+        "recipeCuisine": [
+            "European",
+            "Italian"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Jennifer S"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.666666666666667,
+            "ratingCount": 3,
+            "itemReviewed": "Hungarian Pizzelle",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "198.5 calories",
+            "carbohydrateContent": "18.7 g",
+            "cholesterolContent": "77 mg",
+            "fatContent": "12.8 g",
+            "fiberContent": "0.2 g",
+            "proteinContent": "2.5 g",
+            "saturatedFatContent": "7.7 g",
+            "servingSize": null,
+            "sodiumContent": "140.1 mg",
+            "sugarContent": "12.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-11-21T02:24:34.333Z",
+                "reviewBody": "Very very light and break apart easily but the taste is amazing!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Julie Hallman Luber",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/19584612/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2020-01-04T22:01:53.477Z",
+                "reviewBody": "Turned out just like my grandmother makes! I can t wait to share them with her!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "karen",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/26705740/"
+                }
+            }
+        ]
+    }
+]

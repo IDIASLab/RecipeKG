@@ -1,0 +1,143 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/231/world-cuisine/european/",
+                    "name": "European",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/727/world-cuisine/european/swiss/",
+                    "name": "Swiss",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/149269/oepfelbroeisi-apple-roesti/",
+        "name": "Oepfelbroeisi (Apple Roesti)",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Oepfelbroeisi (Apple Roesti)"
+        },
+        "datePublished": "2020-06-19T03:32:23.000Z",
+        "description": "This sweet, Swiss dish is usually served hot with coffee and/or milk.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H20M",
+        "totalTime": "P0DT0H30M",
+        "recipeYield": "1 Oepfelbroeisi",
+        "recipeIngredient": [
+            "\u00bc cup butter",
+            "12 ounces French bread, thinly sliced",
+            "3 Granny Smith apples - peeled, cored and sliced",
+            "3 tablespoons white sugar",
+            "3 tablespoons raisins",
+            "1 tablespoon cinnamon sugar, or to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Melt butter in a large skillet over medium-high heat. Lightly brown the bread in the butter. Stir apples, sugar, and raisins into pan, reduce heat to medium-low, cover, and cook until a light crust forms on the underside, about 10 minutes. Flip the roesti onto a serving plate, cut into wedges, and sprinkle with cinnamon sugar before serving.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "European",
+            "Swiss"
+        ],
+        "recipeCuisine": [
+            "European",
+            "Swiss"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Cindy Krafft"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 2,
+            "itemReviewed": "Oepfelbroeisi (Apple Roesti)",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "309.6 calories",
+            "carbohydrateContent": "52.9 g",
+            "cholesterolContent": "20.3 mg",
+            "fatContent": "8.7 g",
+            "fiberContent": "2.9 g",
+            "proteinContent": "7.1 g",
+            "saturatedFatContent": "5.1 g",
+            "servingSize": null,
+            "sodiumContent": "424.3 mg",
+            "sugarContent": "17.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2012-08-25T20:13:21.683Z",
+                "reviewBody": "I made this for WAGGS (Girl Scouts) International dinner. Everyone liked it. I increased it to serve 48 and had two people using two large commercial fry pans. It stuck some in the middle. Now I am going to make a small size at home for a potluck.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Patt",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3600099/"
+                }
+            }
+        ]
+    }
+]

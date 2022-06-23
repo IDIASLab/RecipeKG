@@ -1,0 +1,27 @@
+@prefix ns1: <http://purl.org/heals/food/> .
+@prefix ns2: <http://purl.org/recipekg/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/jim-beam-apple-highball> a schema:Recipe ;
+    ns1:hasIngredient [ ],
+        [ a <http://purl.org/heals/ingredient/Water> ;
+            ns2:hasQuantity "4" ;
+            ns2:ingredientName "water" ],
+        [ ],
+        [ a <http://purl.org/recipekg/ingredient/Lemon> ;
+            ns2:hasQuantity "1" ;
+            ns2:ingredientName "Lemon" ] ;
+    ns2:belongsTo <http://purl.org/recipekg/categories/drinks/cocktails/> ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2020-10-01T05:22:47.000Z"^^schema:date ;
+    schema:name "Jim Beam&reg; Apple Highball"^^xsd:string ;
+    schema:recipeYield "1 cocktail"^^xsd:string .
+
+<http://purl.org/recipekg/categories/drinks/> a ns2:RecipeCategory .
+
+<http://purl.org/recipekg/categories/drinks/cocktails/> rdfs:subClassOf <http://purl.org/recipekg/categories/drinks/> .
+

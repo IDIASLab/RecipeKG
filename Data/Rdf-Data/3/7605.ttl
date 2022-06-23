@@ -1,0 +1,175 @@
+@prefix ns1: <http://purl.org/heals/food/> .
+@prefix ns2: <http://purl.org/recipekg/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/gluten-free-fruitcake> a schema:Recipe ;
+    ns1:hasIngredient [ a <http://purl.org/recipekg/ingredient/BakingPowder> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "teaspoon" ;
+            ns2:ingredientName "baking powder" ],
+        [ a <http://purl.org/recipekg/ingredient/Cherry> ;
+            ns2:hasQuantity "1/4" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "cherry" ],
+        [ a <http://purl.org/recipekg/ingredient/Hazelnut> ;
+            ns2:hasQuantity "1/4" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "hazelnut" ],
+        [ a <http://purl.org/recipekg/ingredient/Applesauce> ;
+            ns2:hasQuantity "1/2" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "applesauce" ],
+        [ a <http://purl.org/recipekg/ingredient/Fig> ;
+            ns2:hasQuantity "2" ;
+            ns2:ingredientName "fig" ],
+        [ a <http://purl.org/recipekg/ingredient/Orange> ;
+            ns2:hasQuantity "1" ;
+            ns2:ingredientName "orange" ],
+        [ a <http://purl.org/recipekg/ingredient/Rum> ;
+            ns2:hasQuantity "5 1/2" ;
+            ns2:ingredientName "rum" ],
+        [ a <http://purl.org/heals/ingredient/Butter> ;
+            ns2:hasQuantity "2/3" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "butter" ],
+        [ a <http://purl.org/recipekg/ingredient/Cardamom> ;
+            ns2:hasQuantity "1/4" ;
+            ns2:hasUnit "teaspoon" ;
+            ns2:ingredientName "cardamom" ],
+        [ a <http://purl.org/recipekg/ingredient/Fruit> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "ounce" ;
+            ns2:ingredientName "fruit" ],
+        [ a <http://purl.org/heals/ingredient/Clove> ;
+            ns2:hasQuantity "1/4" ;
+            ns2:hasUnit "teaspoon" ;
+            ns2:ingredientName "clove" ],
+        [ a <http://purl.org/recipekg/ingredient/PecanHalves> ;
+            ns2:hasQuantity "1/4" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "pecan halves" ],
+        [ a <http://purl.org/heals/ingredient/AlmondMeal> ;
+            ns2:hasQuantity "1/2" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "almond meal" ],
+        [ a <http://purl.org/heals/ingredient/VanillaExtract> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "teaspoon" ;
+            ns2:ingredientName "vanilla extract" ],
+        [ a <http://purl.org/recipekg/ingredient/Raisin> ;
+            ns2:hasQuantity "1/4" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "raisin" ],
+        [ a <http://purl.org/recipekg/ingredient/Nutmeg> ;
+            ns2:hasQuantity "1/2" ;
+            ns2:hasUnit "teaspoon" ;
+            ns2:ingredientName "nutmeg" ],
+        [ a <http://purl.org/heals/ingredient/Cornstarch> ;
+            ns2:hasQuantity "1/4" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "cornstarch" ],
+        [ a <http://purl.org/heals/ingredient/DriedCranberry> ;
+            ns2:hasQuantity "1/4" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "dried cranberry" ],
+        [ a <http://purl.org/recipekg/ingredient/GoldenRaisins> ;
+            ns2:hasQuantity "1/4" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "golden raisins" ],
+        [ a <http://purl.org/recipekg/ingredient/Flour> ;
+            ns2:hasQuantity "1/2" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "flour" ],
+        [ a <http://purl.org/recipekg/ingredient/Egg> ;
+            ns2:hasQuantity "2" ;
+            ns2:ingredientName "egg" ],
+        [ a <http://purl.org/recipekg/ingredient/BrandyLiqueur> ;
+            ns2:hasQuantity "3" ;
+            ns2:hasUnit "tablespoon" ;
+            ns2:ingredientName "brandy liqueur" ],
+        [ a <http://purl.org/recipekg/ingredient/Date> ;
+            ns2:hasQuantity "6" ;
+            ns2:ingredientName "date" ],
+        [ a <http://purl.org/recipekg/ingredient/PotatoStarch> ;
+            ns2:hasQuantity "1/3" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "potato starch" ],
+        [ a <http://purl.org/recipekg/ingredient/Fruit> ;
+            ns2:hasQuantity "1/4" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "fruit" ],
+        [ a <http://purl.org/recipekg/ingredient/Sugar> ;
+            ns2:hasQuantity "1/2" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "sugar" ],
+        [ ],
+        [ a <http://purl.org/recipekg/ingredient/Ginger> ;
+            ns2:hasQuantity "1/4" ;
+            ns2:hasUnit "teaspoon" ;
+            ns2:ingredientName "ginger" ],
+        [ a <http://purl.org/heals/ingredient/Almond> ;
+            ns2:hasQuantity "1/4" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "almond" ],
+        [ a <http://purl.org/recipekg/ingredient/Cinnamon> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "teaspoon" ;
+            ns2:ingredientName "cinnamon" ] ;
+    ns2:belongsTo <http://purl.org/recipekg/categories/desserts/specialty-desserts/liqueur-desserts/rum/> ;
+    ns2:hasFSAScore 2 ;
+    ns2:hasNutritionalInformation [ a ns2:NutritionalInformation ;
+            ns2:hasCalorificData [ a ns2:CalorificData ;
+                    ns2:hasAmount "401.4"^^xsd:float ;
+                    ns2:hasUnit "calories" ] ;
+            ns2:hasCarbohydrateData [ a ns2:CarbohydrateData ;
+                    ns2:hasAmount "45.0"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasCholesterolData [ a ns2:CholesterolData ;
+                    ns2:hasAmount "58.1"^^xsd:float ;
+                    ns2:hasUnit "mg" ] ;
+            ns2:hasFatData [ a ns2:FatData ;
+                    ns2:hasAmount "20.4"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSARed ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasFiberData [ a ns2:FiberData ;
+                    ns2:hasAmount "3.8"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasProteinData [ a ns2:ProteinData ;
+                    ns2:hasAmount "5.1"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasSaturatedFatData [ a ns2:SaturatedFatData ;
+                    ns2:hasAmount "7.5"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSARed ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasSodiumData [ a ns2:SodiumData ;
+                    ns2:hasAmount "132.6"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSAGreen ;
+                    ns2:hasUnit "mg" ] ;
+            ns2:hasSugarData [ a ns2:SugarData ;
+                    ns2:hasAmount "23.6"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSARed ;
+                    ns2:hasUnit "g" ] ] ;
+    ns2:hasUSDAScore 1 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 5 ;
+            schema:ratingValue "5"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2018-10-10T00:57:54.000Z"^^schema:date ;
+    schema:name "Gluten-Free Fruitcake"^^xsd:string ;
+    schema:recipeYield "1 loaf cake"^^xsd:string .
+
+ns2:FSAGreen a ns2:FSAColor .
+
+<http://purl.org/recipekg/categories/desserts/> a ns2:RecipeCategory .
+
+<http://purl.org/recipekg/categories/desserts/specialty-desserts/> rdfs:subClassOf <http://purl.org/recipekg/categories/desserts/> .
+
+<http://purl.org/recipekg/categories/desserts/specialty-desserts/liqueur-desserts/> rdfs:subClassOf <http://purl.org/recipekg/categories/desserts/specialty-desserts/> .
+
+<http://purl.org/recipekg/categories/desserts/specialty-desserts/liqueur-desserts/rum/> rdfs:subClassOf <http://purl.org/recipekg/categories/desserts/specialty-desserts/liqueur-desserts/> .
+
+ns2:FSARed a ns2:FSAColor .
+

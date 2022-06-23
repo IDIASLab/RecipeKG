@@ -1,0 +1,138 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/143/breakfast-and-brunch/drinks/",
+                    "name": "Drinks",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/272451/cold-brew-iced-coffee/",
+        "name": "Cold Brew Iced Coffee",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6587615.jpg",
+            "width": 1772,
+            "height": 1774
+        },
+        "datePublished": "2019-04-04T04:17:09.000Z",
+        "description": "Delicious iced coffee. The cold brew method guarantees a drink that's refreshing without being bitter.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT12H5M",
+        "recipeYield": "2 (16 ounce) glasses",
+        "recipeIngredient": [
+            "10 tablespoons coarsely ground coffee beans",
+            "32 fluid ounces cold water",
+            "ice cubes"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place the coffee grounds into the bottom of a 34-ounce or larger French press.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour cold water over coffee grounds. Stir with a wooden spoon or chopstick until incorporated, 10 to 15 seconds.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place the French press in the refrigerator for 12 to 24 hours.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Press down on the French press to separate water from coffee grounds. Divide coffee among 2 glasses; top with ice.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Drinks"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "rpitingolo"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Cold Brew Iced Coffee",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "14.9 calories",
+            "carbohydrateContent": "3 g",
+            "cholesterolContent": null,
+            "fatContent": null,
+            "fiberContent": null,
+            "proteinContent": "0.7 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "36.6 mg",
+            "sugarContent": null,
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-04-26T23:32:25.117Z",
+                "reviewBody": "This is a very nice ratio of coffee to water. This is my favorite way to drink iced coffee. I did dilute it with half and half but it is delicious on its own.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Buckwheat Queen",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/melaniegiovenzana/"
+                }
+            }
+        ]
+    }
+]

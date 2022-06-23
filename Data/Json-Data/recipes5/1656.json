@@ -1,0 +1,155 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/237/world-cuisine/latin-american/",
+                    "name": "Latin American",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/728/world-cuisine/latin-american/mexican/",
+                    "name": "Mexican",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/273686/pollo-asado/",
+        "name": "Pollo Asado",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Pollo Asado"
+        },
+        "datePublished": "2019-05-18T03:49:08.000Z",
+        "description": "Super easy and super good.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H15M",
+        "totalTime": "P0DT2H20M",
+        "recipeYield": "4 chicken breasts",
+        "recipeIngredient": [
+            "\u00bd cup chopped onion",
+            "\u00bc cup olive oil",
+            "\u00bc cup lime juice",
+            "2 teaspoons white vinegar",
+            "2 teaspoons ground cumin",
+            "2 cloves garlic, smashed",
+            "2 small dried red peppers",
+            "1 teaspoon sea salt",
+            "\u00bd teaspoon ground black pepper",
+            "4 boneless, skinless chicken breasts"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place onion, olive oil, lime juice, vinegar, cumin, garlic, red peppers, sea salt, and black pepper in a blender. Blend until smooth. Place chicken in a container or resealable plastic bag and pour marinade on top; toss to coat. Marinate in the refrigerator for 2 to 24 hours.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Preheat an outdoor grill for medium-high heat and lightly oil the grate.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Grill chicken until no longer pink in the centers, 6 to 7 minutes per side, depending on thickness. An instant-read thermometer inserted into the centers should read at least 165 degrees F (74 degrees C).\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Latin American",
+            "Mexican"
+        ],
+        "recipeCuisine": [
+            "Latin American",
+            "Mexican"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Jenny Egelhoff"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Pollo Asado",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "308.6 calories",
+            "carbohydrateContent": "11.8 g",
+            "cholesterolContent": "67.2 mg",
+            "fatContent": "17.7 g",
+            "fiberContent": "0.6 g",
+            "proteinContent": "26.7 g",
+            "saturatedFatContent": "2.7 g",
+            "servingSize": null,
+            "sodiumContent": "548.6 mg",
+            "sugarContent": "1.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-06-26T23:49:22.16Z",
+                "reviewBody": "My photos are too small for the website, apparently. Anyway, I used powdered garlic instead of crushed. Further, I used a meat tenderizer mallet to flatten the chicken breasts to make them easier to grill. They came out great! Especially on salad.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Andrew Resch Gillespie",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/23373613/"
+                }
+            }
+        ]
+    }
+]

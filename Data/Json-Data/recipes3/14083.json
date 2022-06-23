@@ -1,0 +1,182 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/231/world-cuisine/european/",
+                    "name": "European",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/712/world-cuisine/european/eastern-european/",
+                    "name": "Eastern European",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 6,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/716/world-cuisine/european/eastern-european/russian/",
+                    "name": "Russian",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/262210/russian-baked-beef/",
+        "name": "Russian Baked Beef",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4918209.jpg",
+            "width": 1450,
+            "height": 966
+        },
+        "datePublished": "2018-06-08T14:46:57.000Z",
+        "description": "This recipe is very forgiving - you can use tender or tougher cuts of beef. Nice dinner with potatoes and green salad.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT1H0M",
+        "totalTime": "P0DT1H15M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "1 (2 pound) beef tenderloin",
+            "salt and ground black pepper to taste",
+            "2 onions, sliced",
+            "1\u2009\u00bd cups grated mature Cheddar cheese",
+            "1 cup milk",
+            "3 tablespoons mayonnaise"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat oven to 350 degrees F (175 degrees C). Grease a baking dish.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cut beef across the grain into finger-thick slices and pound with a meat mallet. Place in the baking dish in 1 layer. Season with salt and pepper. Cover with onion slices and spinkle with Cheddar cheese.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Stir together milk and mayonnaise and pour evenly over the cheese.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated oven until beef is tender and cooked through, about 1 hour.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "European",
+            "Eastern European",
+            "Russian"
+        ],
+        "recipeCuisine": [
+            "European",
+            "Eastern European",
+            "Russian"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Olechka_Cavalenco"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Russian Baked Beef",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "529.7 calories",
+            "carbohydrateContent": "6 g",
+            "cholesterolContent": "122.4 mg",
+            "fatContent": "41 g",
+            "fiberContent": "0.6 g",
+            "proteinContent": "33 g",
+            "saturatedFatContent": "17.8 g",
+            "servingSize": null,
+            "sodiumContent": "351.2 mg",
+            "sugarContent": "3.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-07-23T00:50:41.963Z",
+                "reviewBody": "ITS GREAT YOU NEED TO MAKE IT",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Judah Castillo",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/25864192/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2020-07-30T09:51:11.153Z",
+                "reviewBody": "I make this often. It's mouth watering!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Nichole Dalkiran",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/27857531/"
+                }
+            }
+        ]
+    }
+]

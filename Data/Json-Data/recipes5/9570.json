@@ -1,0 +1,172 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17245/main-dish/pasta/",
+                    "name": "Pasta",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/275850/baked-gnocchi/",
+        "name": "Baked Gnocchi",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1007075.jpg",
+            "width": 961,
+            "height": 960
+        },
+        "datePublished": "2019-09-12T06:16:59.000Z",
+        "description": "This baked gnocchi is simple, fast, and delicious.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H35M",
+        "totalTime": "P0DT0H45M",
+        "recipeYield": "1 serving",
+        "recipeIngredient": [
+            "4 ounces shelf-stable gnocchi",
+            "\u2153 cup pasta sauce",
+            "\u00bc cup shredded mozzarella cheese, or to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Bring a large pot of lightly salted water to a boil. Cook gnocchi in the boiling water until they float to the top, about 3 minutes. Drain.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Preheat the oven to 350 degrees F (175 degrees C).\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Spread 1/2 of the pasta sauce on the bottom of a 5-inch round casserole dish. Layer with gnocchi and spread the remaining pasta sauce on top. Sprinkle with mozzarella cheese.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated oven until cheese is melted and bubbling, about 25 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Pasta"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "ConnieD"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 3,
+            "itemReviewed": "Baked Gnocchi",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "304 calories",
+            "carbohydrateContent": "32 g",
+            "cholesterolContent": "40.8 mg",
+            "fatContent": "14.6 g",
+            "fiberContent": "3.2 g",
+            "proteinContent": "11.2 g",
+            "saturatedFatContent": "8.2 g",
+            "servingSize": null,
+            "sodiumContent": "600.6 mg",
+            "sugarContent": "7.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-01-02T01:24:36.9Z",
+                "reviewBody": "Delicious. I followed the recipe with the exception of adding a bit more sauce.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Kimberly",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/6163703/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2019-10-02T00:58:26.887Z",
+                "reviewBody": "I add mushrooms and pepperoni to it",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Karen Collins",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/21396888/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2019-10-09T06:28:23.633Z",
+                "reviewBody": "It was very good . My wife , son and I really enjoyed it . Next time we make it we are going to see about adding additional ingredients to the dish to try to make our on different recipe ..",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Mark Keller sr",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/25766770/"
+                }
+            }
+        ]
+    }
+]

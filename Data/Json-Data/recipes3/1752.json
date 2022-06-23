@@ -1,0 +1,154 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/148/breakfast-and-brunch/eggs/",
+                    "name": "Eggs",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/265236/breakfast-supreme-with-avocado-toast-and-egg/",
+        "name": "Breakfast Supreme with Avocado, Toast, and Egg",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5445914.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2018-05-31T03:16:46.000Z",
+        "description": "A quick and easy breakfast supreme full of flavor. A household favorite!",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "4 slices",
+        "recipeIngredient": [
+            "4 slices wheat bread",
+            "4 tablespoons barbeque sauce",
+            "2 teaspoons butter",
+            "4 eggs",
+            "1 avocado",
+            "\u00bc cup shredded mozzarella cheese"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Toast bread in a toaster until medium brown, about 2 minutes. Spread each slice equally with barbeque sauce.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Melt butter in a small skillet over medium-high heat. Crack eggs in and fry on both sides, about 4 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place each fried egg on a piece of toast. Top each with 1/4 of an avocado. Sprinkle an equal amount of cheese on top of each toast.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Eggs"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Alex"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 2,
+            "itemReviewed": "Breakfast Supreme with Avocado, Toast, and Egg",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "545.5 calories",
+            "carbohydrateContent": "44.4 g",
+            "cholesterolContent": "347.1 mg",
+            "fatContent": "31.8 g",
+            "fiberContent": "10.8 g",
+            "proteinContent": "23.9 g",
+            "saturatedFatContent": "9.3 g",
+            "servingSize": null,
+            "sodiumContent": "864.3 mg",
+            "sugarContent": "12.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-06-07T06:04:05.917Z",
+                "reviewBody": "I wasn't sure about the BBQ sauce but it works. Be sure to use one you are familiar with and like though. The one thing I would change next time is the preparation of the avocado. They were hard to eat just sliced up and sliding off of the egg. Next time I'll mash them with some lemon juice and spread them on the bread first and then add the BBQ sauce on top of that.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2020-04-18T21:50:45.74Z",
+                "reviewBody": "I added vegan bacon",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Melinda Noll",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/27007470/"
+                }
+            }
+        ]
+    }
+]

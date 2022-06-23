@@ -1,0 +1,154 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/408/salad/seafood-salad/",
+                    "name": "Seafood Salad Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/2812/salad/seafood-salad/salmon-salad/",
+                    "name": "Salmon Salad Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/238850/canned-salmon-lunch/",
+        "name": "Canned Salmon Lunch",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1966799.jpg",
+            "width": 1829,
+            "height": 1829
+        },
+        "datePublished": "2018-01-09T15:01:02.000Z",
+        "description": "All five of my kids eat this, and my picky eater requests it for lunch often. Serve on crackers.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "1 (14.75 ounce) can salmon, drained and flaked",
+            "\u00bc cup mayonnaise",
+            "\u00bc cup chopped mild pickled pepper rings",
+            "1 tablespoon pickled pepper juice"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Mix salmon, mayonnaise, peppers, and pepper juice in a bowl.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad",
+            "Seafood Salad Recipes",
+            "Salmon Salad Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Caramia"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.5,
+            "ratingCount": 2,
+            "itemReviewed": "Canned Salmon Lunch",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "182.4 calories",
+            "carbohydrateContent": "0.9 g",
+            "cholesterolContent": "33.8 mg",
+            "fatContent": "12.3 g",
+            "fiberContent": "0.1 g",
+            "proteinContent": "16.2 g",
+            "saturatedFatContent": "2.2 g",
+            "servingSize": null,
+            "sodiumContent": "300 mg",
+            "sugarContent": "0.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2015-02-24T00:08:46.673Z",
+                "reviewBody": "I'm sorry to say that this was rather bland. Next time I will try this with jalapenos onions and some diced celery to add some crunch.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "bd.weld",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/bdweld/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2018-06-11T07:34:19.833Z",
+                "reviewBody": "No changes. A good change from the usual salmon salad.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Constance Brisben",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/14028589/"
+                }
+            }
+        ]
+    }
+]

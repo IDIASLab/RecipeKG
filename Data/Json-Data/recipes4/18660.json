@@ -1,0 +1,159 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/231/world-cuisine/european/",
+                    "name": "European",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/721/world-cuisine/european/french/",
+                    "name": "French",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/257292/canard-a-lorange-super-facile-super-easy-duck-a-lorange/",
+        "name": "Canard a l'Orange Super Facile (Super Easy Duck a l'Orange)",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4538373.jpg",
+            "width": 960,
+            "height": 960
+        },
+        "datePublished": "2019-04-04T04:08:08.000Z",
+        "description": "The delicious flavor combination of duck and orange are brought together in this dish. Duck legs are cooked until meltingly tender in a zesty orange sauce. Enjoy with freshly cooked rice.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT1H3M",
+        "totalTime": "P0DT1H18M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "6 duck legs",
+            "salt and ground black pepper to taste",
+            "2 tablespoons olive oil, divided",
+            "1 onion, sliced",
+            "1 teaspoon cornstarch",
+            "2 oranges, zested and juiced",
+            "7 tablespoons water"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Season duck legs with salt and pepper.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat 1 tablespoon olive oil in a large skillet over medium heat. Add duck legs; cook until skin starts to brown, about 4 minutes per side. Transfer to a large plate.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat remaining 1 tablespoon olive oil in the same skillet over medium heat. Add onion; cook and stir until tender, about 5 minutes. Stir in cornstarch until dissolved. Return duck legs to the skillet. Pour in orange juice and water. Simmer, covered, until duck legs are very tender, about 40 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Uncover skillet and simmer until sauce thickens, about 10 minutes. Pour sauce into a bowl and stir in zest of 1 orange.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place duck legs on serving plates. Spoon sauce on top. Garnish with remaining orange zest.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "European",
+            "French"
+        ],
+        "recipeCuisine": [
+            "European",
+            "French"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "stella"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Canard a l'Orange Super Facile (Super Easy Duck a l'Orange)",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "117.1 calories",
+            "carbohydrateContent": "5 g",
+            "cholesterolContent": "33.1 mg",
+            "fatContent": "6.4 g",
+            "fiberContent": "0.9 g",
+            "proteinContent": "9.7 g",
+            "saturatedFatContent": "1.1 g",
+            "servingSize": null,
+            "sodiumContent": "62 mg",
+            "sugarContent": "2.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-05-12T15:32:32.267Z",
+                "reviewBody": "I wanted to use my new pressure cooker so I seasoned the duck as instructed. Placed in the cooker on high for 30 minutes. Natural cool down. Then finished with the crisper feature for 15 minutes more. \nThis turned out to be the best duckling a l'orange I\u2019ve ever had.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Jerry",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/8518347/"
+                }
+            }
+        ]
+    }
+]

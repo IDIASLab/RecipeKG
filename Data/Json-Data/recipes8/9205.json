@@ -1,0 +1,136 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/138/drinks/smoothies/",
+                    "name": "Smoothie Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17693/drinks/smoothies/green/",
+                    "name": "Green",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/282857/berry-green-protein-smoothie/",
+        "name": "Berry Green Protein Smoothie",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F9035882.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-12-31T12:14:12.000Z",
+        "description": "A healthy breakfast smoothie.",
+        "prepTime": null,
+        "cookTime": null,
+        "totalTime": null,
+        "recipeYield": "1 serving",
+        "recipeIngredient": [
+            "2 cups fresh spinach leaves ",
+            "1 cup almond milk",
+            "\u00bd cup frozen mixed berries",
+            "\u00bd medium banana",
+            "1 scoop protein powder"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine spinach, almond milk, frozen berries, banana, and protein powder in a blender; process until smooth.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Smoothie Recipes",
+            "Green"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Jennifer Guy"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Berry Green Protein Smoothie",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "335.3 calories",
+            "carbohydrateContent": "36.4 g",
+            "cholesterolContent": "12.5 mg",
+            "fatContent": "4.6 g",
+            "fiberContent": "5.9 g",
+            "proteinContent": "41.4 g",
+            "saturatedFatContent": "1.4 g",
+            "servingSize": null,
+            "sodiumContent": "420.3 mg",
+            "sugarContent": "21.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-02-16T12:41:33.29Z",
+                "reviewBody": "I used frozen blackberries, raspberries, strawberries as well as a half frozen banana. I found that all the flavors were lost and all I could taste was the protein powder. Maybe because I used a vanilla flavor? Sorry, but I didn't care for it.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 2
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Yoly",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/cookingbikerchick/"
+                }
+            }
+        ]
+    }
+]

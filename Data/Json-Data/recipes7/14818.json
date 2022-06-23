@@ -1,0 +1,148 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/251/main-dish/sandwiches/",
+                    "name": "Sandwich Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1884/main-dish/sandwiches/grilled-cheese/",
+                    "name": "Grilled Cheese",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/255369/chunky-monkey-grilled-cheese/",
+        "name": "Chunky Monkey Grilled Cheese",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4554348.jpg",
+            "width": 3264,
+            "height": 1836
+        },
+        "datePublished": "2020-06-19T04:18:11.000Z",
+        "description": "A fun and easy break from the usual that kids will love. This recipe makes 1 sandwich, but it's easy enough to make 2, 3, or 4.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT0H20M",
+        "recipeYield": "1 sandwich",
+        "recipeIngredient": [
+            "2 slices raisin bread",
+            "peanut butter",
+            "\u00bd banana, sliced",
+            "2 tablespoons chocolate chips, or to taste",
+            "\u00bc cup ricotta cheese",
+            "1 tablespoon white sugar",
+            "1 dash ground cinnamon"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Toast raisin bread in a toaster oven until lightly brown, 2 to 3 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Spread peanut butter onto toasted bread. Top 1 slice with banana; top other slice with chocolate chips. Cover banana and chocolate chips with ricotta cheese. Sprinkle sugar and cinnamon on top.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Toast in the toaster oven just until cheese is melted, 3 to 5 minutes. Sandwich slices together.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Sandwich Recipes",
+            "Grilled Cheese"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Folkorb"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 1,
+            "itemReviewed": "Chunky Monkey Grilled Cheese",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "708.7 calories",
+            "carbohydrateContent": "96.1 g",
+            "cholesterolContent": null,
+            "fatContent": "35.9 g",
+            "fiberContent": "9.6 g",
+            "proteinContent": "15.3 g",
+            "saturatedFatContent": "14.1 g",
+            "servingSize": null,
+            "sodiumContent": "359 mg",
+            "sugarContent": "53.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-09-05T23:16:42.32Z",
+                "reviewBody": "This sandwich was OK probably not something I would repeat. I only used maybe 1/2 T of chocolate chips and just a sprinkling of a cinnamon sugar mixture instead of a full tablespoon of sugar. I thought it was plenty sweet with the bananas and peanut butter and all the extra sugar wasn't needed. I toasted this in the broiler for 5 minutes. I found myself thinking it needed to be \"chunky\" since it is called \"Chunky Monkey\"-- I think chunky peanut butter would be good on this.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Tammy Lynn",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3084624/"
+                }
+            }
+        ]
+    }
+]

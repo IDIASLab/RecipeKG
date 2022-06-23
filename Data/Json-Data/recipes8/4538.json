@@ -1,0 +1,143 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17140/desserts/fruit-desserts/",
+                    "name": "Fruit Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17528/desserts/fruit-desserts/cherry-desserts/",
+                    "name": "Cherry Dessert Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/280942/easy-cherry-chocolate-chunk-ice-cream/",
+        "name": "Easy Cherry-Chocolate Chunk Ice Cream",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8335795.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-07-16T20:50:17.000Z",
+        "description": "Cherry ice cream with semisweet chocolate chunks.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H20M",
+        "totalTime": "P0DT0H30M",
+        "recipeYield": "1 quart",
+        "recipeIngredient": [
+            "1 (12 ounce) package frozen sweet cherries",
+            "1\u2009\u00be cups heavy cream",
+            "1 (14 ounce) can sweetened condensed milk",
+            "\u00be cup milk",
+            "1 teaspoon vanilla extract",
+            "1 (4 ounce) bar semisweet baking chocolate, broken into small chunks"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place cherries in a food processor; process into small pieces.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Mix heavy cream, sweetened condensed milk, milk, and vanilla extract together until well combined. Pour into an ice cream maker and turn on. Add the chopped cherries while the machine is running; freeze until desired consistency is reached, about 20 minutes. Stir in chocolate chunks.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Fruit Desserts",
+            "Cherry Dessert Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Deb C"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Easy Cherry-Chocolate Chunk Ice Cream",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "458.2 calories",
+            "carbohydrateContent": "46.7 g",
+            "cholesterolContent": "89.8 mg",
+            "fatContent": "28.6 g",
+            "fiberContent": "1.9 g",
+            "proteinContent": "7.2 g",
+            "saturatedFatContent": "17.5 g",
+            "servingSize": null,
+            "sodiumContent": "91.9 mg",
+            "sugarContent": "43.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-08-16T18:31:49.287Z",
+                "reviewBody": "Simple and easy, and oh so good!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Jim",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/16452968/"
+                }
+            }
+        ]
+    }
+]

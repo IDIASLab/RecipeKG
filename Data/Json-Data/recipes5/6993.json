@@ -1,0 +1,155 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1316/breakfast-and-brunch/waffles/",
+                    "name": "Waffle Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/257567/raspberry-lemon-cream-cheese-waffles/",
+        "name": "Raspberry Lemon Cream Cheese Waffles",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5004220.jpg",
+            "width": 2305,
+            "height": 2305
+        },
+        "datePublished": "2019-07-10T07:10:45.000Z",
+        "description": "Excellent waffles that are quick and easy and delicious. These are so great with nothing on them, but you could top with low-fat whipped cream, ricotta cheese, vanilla glaze, powdered sugar, or good old maple syrup.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H3M",
+        "totalTime": "P0DT0H18M",
+        "recipeYield": "3 8-inch waffles",
+        "recipeIngredient": [
+            "1\u2009\u00bd cups baking mix (such as Bisquick\u00ae)",
+            "\u00bd cup skim milk",
+            "1 egg",
+            "\u00bc cup fresh raspberries",
+            "1 tablespoon honey",
+            "1 tablespoon lemon juice, or more to taste",
+            "1 tablespoon light cream cheese, softened"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat a waffle iron according to manufacturer's instructions.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Mix baking mix, skim milk, egg, raspberries, honey, lemon juice, and cream cheese in a bowl to make a slightly thick batter. Let stand for 5 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Spread 1/4 cup batter in the preheated waffle iron. Cook until browned and the iron stops steaming, 3 to 6 minutes. Repeat with remaining batter.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Waffle Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "upandover"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 3,
+            "itemReviewed": "Raspberry Lemon Cream Cheese Waffles",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "322.4 calories",
+            "carbohydrateContent": "46.9 g",
+            "cholesterolContent": "65.8 mg",
+            "fatContent": "11.8 g",
+            "fiberContent": "1.8 g",
+            "proteinContent": "8.4 g",
+            "saturatedFatContent": "3.6 g",
+            "servingSize": null,
+            "sodiumContent": "812.3 mg",
+            "sugarContent": "9.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-12-30T00:15:47.807Z",
+                "reviewBody": "Not a bad recipe. I do not like prepackaged pancake mix so I added sugar to mask the taste and I also added some raspberry extract to give it a little extra raspberry flavor. If I made this again I would probably make my own waffle mix but that s my personal preference.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "missy_lee86",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/16639318/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2018-01-16T00:32:57.627Z",
+                "reviewBody": "I must be spoiled by homemade buttermilk waffles because these were only barely edible. I am not a fan of bisquick and had hoped the remaining ingredients would mask the fact they weren t made the traditional way. Good idea but it didn t work for me.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "thedailygourmet",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/thedailygourmet/"
+                }
+            }
+        ]
+    }
+]

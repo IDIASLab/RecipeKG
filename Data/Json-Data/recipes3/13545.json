@@ -1,0 +1,163 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/148/breakfast-and-brunch/eggs/",
+                    "name": "Eggs",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17199/breakfast-and-brunch/eggs/breakfast-sandwiches/",
+                    "name": "Breakfast Sandwich Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/260188/eggs-benedict-from-galbani/",
+        "name": "Eggs Benedict from Galbani&reg;",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4556111.jpg",
+            "width": 960,
+            "height": 960
+        },
+        "datePublished": "2017-09-10T02:35:36.000Z",
+        "description": "These Eggs Benedict use fresh mozzarella cheese and prepared hollandaise sauce so your favorite brunch dish is on the table is just minutes.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H25M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "1 tablespoon butter",
+            "2 English muffins, toasted",
+            "10 fresh basil leaves",
+            "8 ounces Galbani\u00ae Mozzarella Fresca\u2122, sliced",
+            "2 slices tomato",
+            "2 poached eggs",
+            "4 tablespoons prepared hollandaise sauce",
+            "Chopped fresh chives",
+            "Salt and pepper to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Butter the muffins, top with the fresh basil, add some Galbani&reg; Mozzarella Fresca&trade; slices and a slice of tomato. Add the poached egg.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Drizzle with hollandaise, add some chives, add salt and pepper to taste. Serve immediately.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Eggs",
+            "Breakfast Sandwich Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Galbani Cheese"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Eggs Benedict from Galbani&reg;",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "872.9 calories",
+            "carbohydrateContent": "39.3 g",
+            "cholesterolContent": "326.3 mg",
+            "fatContent": "47.9 g",
+            "fiberContent": "2.7 g",
+            "proteinContent": "34.2 g",
+            "saturatedFatContent": "26.1 g",
+            "servingSize": null,
+            "sodiumContent": "1357.3 mg",
+            "sugarContent": "6.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-04-30T07:40:41.32Z",
+                "reviewBody": "I exchanged ham for tomato. Awesome comfort food.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "mccormrl",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/5268627/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2017-10-11T00:33:12.623Z",
+                "reviewBody": "So great for a Sunday morning.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "KSStheCook",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/15966879/"
+                }
+            }
+        ]
+    }
+]

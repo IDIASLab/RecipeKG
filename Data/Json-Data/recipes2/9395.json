@@ -1,0 +1,175 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/133/drinks/cocktails/",
+                    "name": "Cocktail Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1744/drinks/cocktails/whiskey-drinks/",
+                    "name": "Whiskey Drinks Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/233823/cranberry-juice-surprise/",
+        "name": "Cranberry Juice Surprise",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1060467.jpg",
+            "width": 3000,
+            "height": 3000
+        },
+        "datePublished": "2017-02-28T15:01:46.000Z",
+        "description": "A refreshing adult beverage.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "2 cocktails",
+        "recipeIngredient": [
+            "\u00bd cup cranberry juice",
+            "\u00bd cup bourbon whiskey",
+            "1 (12 fluid ounce) can or bottle lemon-lime flavored soda",
+            "ice cubes, as needed"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Stir cranberry juice and bourbon whiskey together in a small pitcher. Pour lemon-lime soda into pitcher and stir gently.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Put ice into 2 pint-sized tumblers. Pour cranberry juice mixture over the ice.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Cocktail Recipes",
+            "Whiskey Drinks Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "paparick"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.428571428571429,
+            "ratingCount": 7,
+            "itemReviewed": "Cranberry Juice Surprise",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "249.7 calories",
+            "carbohydrateContent": "27.7 g",
+            "cholesterolContent": null,
+            "fatContent": "0.1 g",
+            "fiberContent": null,
+            "proteinContent": null,
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "25.8 mg",
+            "sugarContent": "7.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2013-11-01T18:01:19.633Z",
+                "reviewBody": "I m not a real big fancy cocktail person but this one worked for me. The lemon lime soda seemed to mellow out the cranberry juice just enough and then the deep flavor of the bourbon kicked in. Very nice!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "lutzflcat",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/lutzflcat/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2020-07-14T02:01:12.843Z",
+                "reviewBody": "I liked it.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Izapole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/23415288/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2016-06-12T07:42:27.957Z",
+                "reviewBody": "Adding a lime to it really helped to balance out the flavor even more! Overall really good!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Patricia",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/4573583/"
+                }
+            }
+        ]
+    }
+]

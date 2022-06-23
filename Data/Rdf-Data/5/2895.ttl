@@ -1,0 +1,52 @@
+@prefix ns1: <http://purl.org/heals/food/> .
+@prefix ns2: <http://purl.org/recipekg/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/pappardelle-with-california-walnut-pesto> a schema:Recipe ;
+    ns1:hasIngredient [ a <http://purl.org/heals/ingredient/Walnut> ;
+            ns2:hasQuantity "1 1/2" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "walnut" ],
+        [ a <http://purl.org/heals/ingredient/OliveOil> ;
+            ns2:hasQuantity "1 1/2" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "olive oil" ],
+        [ a <http://purl.org/recipekg/ingredient/Parmigiano-ReggianoCheese> ;
+            ns2:hasQuantity "3" ;
+            ns2:hasUnit "tablespoon" ;
+            ns2:ingredientName "Parmigiano-Reggiano cheese" ],
+        [ a <http://purl.org/recipekg/ingredient/PappardellePasta> ;
+            ns2:hasQuantity "4" ;
+            ns2:hasUnit "pound" ;
+            ns2:ingredientName "pappardelle pasta" ],
+        [ a <http://purl.org/heals/ingredient/Parsley> ;
+            ns2:hasQuantity "4" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "parsley" ],
+        [ ],
+        [ a <http://purl.org/heals/ingredient/Cheese> ;
+            ns2:hasQuantity "2" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "cheese" ],
+        [ a <http://purl.org/heals/ingredient/Walnut> ;
+            ns2:hasQuantity "3 1/2" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "walnut" ],
+        [ a <http://purl.org/heals/ingredient/Garlic> ;
+            ns2:hasQuantity "4" ;
+            ns2:hasUnit "clove" ;
+            ns2:ingredientName "garlic" ] ;
+    ns2:belongsTo <http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/california-walnut-board/> ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2021-08-04T23:34:21.000Z"^^schema:date ;
+    schema:name "Pappardelle with California Walnut Pesto"^^xsd:string ;
+    schema:recipeYield "16 servings"^^xsd:string .
+
+<http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/> a ns2:RecipeCategory .
+
+<http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/california-walnut-board/> rdfs:subClassOf <http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/> .
+

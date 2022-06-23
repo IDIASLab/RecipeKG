@@ -1,0 +1,171 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/231/world-cuisine/european/",
+                    "name": "European",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/731/world-cuisine/european/greek/",
+                    "name": "Greek",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/156253/chicken-with-rice-pilaffe/",
+        "name": "Chicken with Rice - Pilaffe",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3158652.jpg",
+            "width": 1583,
+            "height": 1583
+        },
+        "datePublished": "2018-06-08T13:49:54.000Z",
+        "description": "This is a Macedonian recipe from my great-grandmother. Children love this because it doesn't have complicated flavors.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT2H0M",
+        "totalTime": "P0DT2H10M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "1 (4 pound) whole chicken, cut into pieces",
+            "3 cups uncooked white rice, rinsed",
+            "\u00bd cup butter",
+            "1 teaspoon salt",
+            "1 teaspoon black pepper",
+            "\u00bd teaspoon poultry seasoning"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place chicken in a large soup pot and cover with water. Bring to a boil. Stir in the salt, pepper, and poultry seasoning; boil for 1 hour, skimming fat from water occasionally.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Preheat oven to 350 degrees F (175 degrees C).\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Melt the butter over low heat in a large skillet. Add the rice and cook, stirring, for 10 minutes. Transfer rice to a large roasting pan. Pour the broth from the chicken into the roasting pan; top with the chicken.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated oven until rice is cooked, about 30 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "European",
+            "Greek"
+        ],
+        "recipeCuisine": [
+            "European",
+            "Greek"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "EMSEV333"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.5,
+            "ratingCount": 2,
+            "itemReviewed": "Chicken with Rice - Pilaffe",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "1115.3 calories",
+            "carbohydrateContent": "78.5 g",
+            "cholesterolContent": "147.9 mg",
+            "fatContent": "72.4 g",
+            "fiberContent": "1.2 g",
+            "proteinContent": "33.6 g",
+            "saturatedFatContent": "25.7 g",
+            "servingSize": null,
+            "sodiumContent": "594.8 mg",
+            "sugarContent": "0.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2011-08-11T07:14:06.04Z",
+                "reviewBody": "This needed a decent amount of salt not listed to make it tasty. I ended up breaking the chicken up and baking it in the rice to keep the chicken moist and the rice flavorful.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Manda",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/manda/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2009-12-07T16:25:37.413Z",
+                "reviewBody": "Tastes great with a bunch of added salt - very savory.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Rachel",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/hansonmcbride/"
+                }
+            }
+        ]
+    }
+]

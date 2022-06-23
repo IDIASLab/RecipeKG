@@ -1,0 +1,90 @@
+@prefix ns1: <http://purl.org/recipekg/> .
+@prefix ns2: <http://purl.org/heals/food/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/peanut-butter-delight> a schema:Recipe ;
+    ns2:hasIngredient [ a <http://purl.org/heals/ingredient/Butter> ;
+            ns1:hasQuantity "2" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "butter" ],
+        [ a <http://purl.org/recipekg/ingredient/GrahamCrackers> ;
+            ns1:hasQuantity "1" ;
+            ns1:ingredientName "graham crackers" ],
+        [ a <http://purl.org/recipekg/ingredient/WhippedTopping> ;
+            ns1:hasQuantity "1" ;
+            ns1:ingredientName "whipped topping" ],
+        [ a <http://purl.org/recipekg/ingredient/ChocolateSyrup> ;
+            ns1:hasQuantity "1/3" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "Chocolate syrup" ],
+        [ a <http://purl.org/heals/ingredient/Butter> ;
+            ns1:hasQuantity "16" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "butter" ],
+        [ ],
+        [ a <http://purl.org/recipekg/ingredient/Milk> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "milk" ],
+        [ a <http://purl.org/recipekg/ingredient/VanillaPudding> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "package" ;
+            ns1:ingredientName "vanilla pudding" ],
+        [ a <http://purl.org/heals/ingredient/Creamy> ;
+            ns1:hasQuantity "3" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "creamy" ] ;
+    ns1:belongsTo <http://purl.org/recipekg/categories/desserts/frozen-desserts/> ;
+    ns1:hasFSAScore 1 ;
+    ns1:hasNutritionalInformation [ a ns1:NutritionalInformation ;
+            ns1:hasCalorificData [ a ns1:CalorificData ;
+                    ns1:hasAmount "537.6"^^xsd:float ;
+                    ns1:hasUnit "calories" ] ;
+            ns1:hasCarbohydrateData [ a ns1:CarbohydrateData ;
+                    ns1:hasAmount "73.6"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasCholesterolData [ a ns1:CholesterolData ;
+                    ns1:hasAmount "30.1"^^xsd:float ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasFatData [ a ns1:FatData ;
+                    ns1:hasAmount "25.3"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSARed ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasFiberData [ a ns1:FiberData ;
+                    ns1:hasAmount "2.2"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasProteinData [ a ns1:ProteinData ;
+                    ns1:hasAmount "7.2"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSaturatedFatData [ a ns1:SaturatedFatData ;
+                    ns1:hasAmount "13.9"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSARed ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSodiumData [ a ns1:SodiumData ;
+                    ns1:hasAmount "591.4"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasSugarData [ a ns1:SugarData ;
+                    ns1:hasAmount "56.8"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSARed ;
+                    ns1:hasUnit "g" ] ] ;
+    ns1:hasUSDAScore 1 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 2 ;
+            schema:ratingValue "2.5"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2018-03-21T16:54:23.000Z"^^schema:date ;
+    schema:name "Peanut Butter Delight"^^xsd:string ;
+    schema:recipeYield "9 servings"^^xsd:string .
+
+ns1:FSAAmber a ns1:FSAColor .
+
+<http://purl.org/recipekg/categories/desserts/> a ns1:RecipeCategory .
+
+<http://purl.org/recipekg/categories/desserts/frozen-desserts/> rdfs:subClassOf <http://purl.org/recipekg/categories/desserts/> .
+
+ns1:FSARed a ns1:FSAColor .
+

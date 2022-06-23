@@ -1,0 +1,129 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/137/drinks/shakes-and-floats/",
+                    "name": "Shakes and Floats Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/244671/mallow-nutter-milk-shake/",
+        "name": "Mallow-Nutter Milk Shake",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2506823.jpg",
+            "width": 1534,
+            "height": 2046
+        },
+        "datePublished": "2015-08-06T23:26:18.000Z",
+        "description": "Remember those days when your mom made you your favorite lunch sandwich that incorporated peanut butter and marshmallow? Well, it's still pretty darn good, but change it up and have it as your shake. This is a VERY tasty treat. I also like to mix it up by using different flavors of ice cream (such as chocolate, or peanut ripple, etc.). Hope you enjoy!",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "2 cups vanilla ice cream",
+            "\u00bd cup milk",
+            "2 cubes  ice, or more if desired",
+            "1 cup creamy peanut butter",
+            "1 cup marshmallow fluff (such as Fluff\u00ae)",
+            "1 teaspoon vanilla extract"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Blend ice cream, milk, and ice together in a blender just until it is starting to blend together, but still chunky. Add peanut butter, marshmallow fluff, and vanilla extract; blend until desired consistency is reached.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Shakes and Floats Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Gwenn"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Mallow-Nutter Milk Shake",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "612.4 calories",
+            "carbohydrateContent": "49.9 g",
+            "cholesterolContent": "31.5 mg",
+            "fatContent": "40.4 g",
+            "fiberContent": "4.4 g",
+            "proteinContent": "19.7 g",
+            "saturatedFatContent": "11.7 g",
+            "servingSize": null,
+            "sodiumContent": "382.2 mg",
+            "sugarContent": "33.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2015-08-17T13:56:07.53Z",
+                "reviewBody": "It was just a little thick for me so I added a little bit more milk. My husband is still raving about it - says it tastes like a Snickers bar or a Peanut Butter Pie I make from this site. I might reduce the amount of Peanut Butter next time and increase the ice cream",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Jan Mowbray",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/cookinkiwi-1/"
+                }
+            }
+        ]
+    }
+]

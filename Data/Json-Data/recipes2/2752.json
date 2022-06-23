@@ -1,0 +1,120 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/233142/spiced-hot-cocoa-mix/",
+        "name": "Spiced Hot Cocoa Mix",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1060330.jpg",
+            "width": 3047,
+            "height": 3047
+        },
+        "datePublished": "2015-03-10T06:01:53.000Z",
+        "description": "A great hot, chocolaty drink for wintertime using chocolate pudding mix, cinnamon, and more. Great for gift giving. Mix 1/4 cup mix with 1 cup of boiling water. Top off with whipped topping and sprinkle with cinnamon. Enjoy!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "22 servings",
+        "recipeIngredient": [
+            "3 cups powdered milk",
+            "1 (5.9 ounce) package instant chocolate pudding mix",
+            "\u00bd cup powdered chocolate drink mix (such as Nesquik\u00ae)",
+            "\u00bd cup powdered coffee creamer",
+            "\u00bd cup confectioners' sugar",
+            "\u00bc cup unsweetened cocoa powder",
+            "1 tablespoon ground cinnamon"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Pulse powdered milk, pudding mix, chocolate drink mix, powdered creamer, confectioners' sugar, cocoa powder, and cinnamon together in a food processor until blended.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "teaspoonchic"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Spiced Hot Cocoa Mix",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "128.4 calories",
+            "carbohydrateContent": "22.9 g",
+            "cholesterolContent": "3.3 mg",
+            "fatContent": "1.8 g",
+            "fiberContent": "0.8 g",
+            "proteinContent": "6.4 g",
+            "saturatedFatContent": "1.6 g",
+            "servingSize": null,
+            "sodiumContent": "198.8 mg",
+            "sugarContent": "17.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2013-11-08T21:39:17.05Z",
+                "reviewBody": "Rating is based solely on the taste because it is good.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "lutzflcat",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/lutzflcat/"
+                }
+            }
+        ]
+    }
+]

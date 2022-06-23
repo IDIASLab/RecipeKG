@@ -1,0 +1,142 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/141/drinks/eggnog/",
+                    "name": "Eggnog Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/245398/brads-killer-eggnog/",
+        "name": "Brad's Killer Eggnog",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4477680.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2020-06-19T04:03:56.000Z",
+        "description": "I have made this eggnog recipe for the Christmas holiday for over 25 years. Enjoy!",
+        "prepTime": "P0DT0H15M",
+        "cookTime": null,
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "3 quarts",
+        "recipeIngredient": [
+            "12 eggs, separated",
+            "2 cups white sugar, divided",
+            "1 quart rum",
+            "1 quart half-and-half",
+            "1 quart milk",
+            "1 pinch nutmeg",
+            "ice cubes"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Beat egg whites in a glass, metal, or ceramic bowl until foamy. Add 1 cup sugar gradually, continuing to beat until stiff peaks form. Lift your beater or whisk straight up: the egg whites will form sharp peaks.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Beat egg yolks and remaining 1 cup sugar in a separate bowl until frothy and lightened in color.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Fold egg whites into egg yolk mixture gently; pour into a large punch bowl or pitcher. Stir in rum, half-and-half, and milk.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Top eggnog with nutmeg; serve with ice.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Eggnog Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Brad Lott"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.75,
+            "ratingCount": 4,
+            "itemReviewed": "Brad's Killer Eggnog",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "508.2 calories",
+            "carbohydrateContent": "41 g",
+            "cholesterolContent": "199.8 mg",
+            "fatContent": "15.2 g",
+            "fiberContent": null,
+            "proteinContent": "10.6 g",
+            "saturatedFatContent": "8.1 g",
+            "servingSize": null,
+            "sodiumContent": "128.6 mg",
+            "sugarContent": "37.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-02-24T11:00:40.92Z",
+                "reviewBody": "I liked this and it had the perfect amount of booze for us. Most call for more than one type which gets a little confusing. This blend was great!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

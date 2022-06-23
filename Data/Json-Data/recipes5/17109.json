@@ -1,0 +1,234 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/362/desserts/cookies/",
+                    "name": "Cookies",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/836/desserts/cookies/bar-cookies/",
+                    "name": "Bar Cookie Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/17207/brown-sugar-chews/",
+        "name": "Brown Sugar Chews",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F9095522.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2000-03-24T00:14:35.000Z",
+        "description": "A chewy bar cookie with coconut and raisins. These stay soft in the center after baking. I usually double the recipe and bake it in a nine by thirteen inch pan.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H18M",
+        "totalTime": "P0DT0H35M",
+        "recipeYield": "16 squares",
+        "recipeIngredient": [
+            "1 egg",
+            "1 cup packed brown sugar",
+            "1 teaspoon vanilla extract",
+            "\u00bd cup sifted all-purpose flour",
+            "\u00bc teaspoon baking soda",
+            "\u00bc teaspoon salt",
+            "\u00bc cup flaked coconut",
+            "1 cup raisins"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat oven to 350 degrees F (175 degrees C). Grease an 8x8 inch  baking pan.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "In a medium bowl, stir together the egg, brown sugar and vanilla until just blended. Combine the flour, baking soda and salt, quickly stir into the egg mixture. Fold in the coconut and raisins, then spread the batter evenly into the prepared pan.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake for 18 to 20 minutes in the preheated oven, until bars are golden brown. Cool and cut into squares.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Cookies",
+            "Bar Cookie Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Mary"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.75,
+            "ratingCount": 8,
+            "itemReviewed": "Brown Sugar Chews",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "107.8 calories",
+            "carbohydrateContent": "25.3 g",
+            "cholesterolContent": "11.6 mg",
+            "fatContent": "0.7 g",
+            "fiberContent": "0.6 g",
+            "proteinContent": "1.2 g",
+            "saturatedFatContent": "0.4 g",
+            "servingSize": null,
+            "sodiumContent": "68.8 mg",
+            "sugarContent": "19.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2010-11-01T19:20:50.01Z",
+                "reviewBody": "These tasted good but fell apart and were crumbly.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Tamara",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2318246/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2006-11-26T00:19:28.89Z",
+                "reviewBody": "To make these really chewy substitute 1 cup mild molasses and 1 cup granulated sugar for the 1 cup of brown sugar.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Irene C",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2141396/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2007-10-27T17:03:09.763Z",
+                "reviewBody": "Tasty but VERY sweet!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "New2Cook",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2187963/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2008-08-30T04:52:38.78Z",
+                "reviewBody": "This just did not work out for me!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 2
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Di Katz",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2864663/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2017-06-14T05:42:05.39Z",
+                "reviewBody": "Super yummy! I also added 1/4 Cup sun flower seeds and 1/2 Cup of raw oats to the recipe and they turned out perfect!!!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Spiderette ",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/21895670/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2021-03-16T07:05:15.753Z",
+                "reviewBody": "I thought these were so good, chewy and sweet. I loved the crispy top and edges. The coconut was just enough.  I only made half with raisins, and there were way too many. I liked the side without raisins.  I will make these without raisins again.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Tammy Lynn",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3084624/"
+                }
+            }
+        ]
+    }
+]

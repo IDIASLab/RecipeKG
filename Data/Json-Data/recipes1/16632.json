@@ -1,0 +1,141 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1642/everyday-cooking/",
+                    "name": "Everyday Cooking",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1227/everyday-cooking/vegan/",
+                    "name": "Vegan",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1664/everyday-cooking/vegan/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/282911/vegan-chocolate-banana-pudding/",
+        "name": "Vegan Chocolate Banana \"Pudding\"",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F9093772.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2011-04-13T12:30:33.000Z",
+        "description": "This is a minimalist recipe that relies on only natural banana sugars for sweetening and soybeans for creaminess. I invented it this morning for my family's breakfast and it was well-liked, even though we are not vegans.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "1 cup cooked soybeans",
+            "2 medium ripe bananas, chopped",
+            "\u00bd cup water, or as needed",
+            "1 tablespoon unsweetened cocoa powder",
+            "2 tablespoons chopped walnuts, or to taste",
+            "\u00bd medium banana, sliced"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place soybeans in a blender; add water, a little at a time, and blend to pudding consistency. Add chopped bananas and cocoa; blend until combined.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Transfer to a bowl. Garnish with walnuts in the center and banana slices around the edges.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Everyday Cooking",
+            "Vegan",
+            "Desserts"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Zazu"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Vegan Chocolate Banana \"Pudding\"",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "312.8 calories",
+            "carbohydrateContent": "46.1 g",
+            "cholesterolContent": null,
+            "fatContent": "11.4 g",
+            "fiberContent": "9 g",
+            "proteinContent": "14.4 g",
+            "saturatedFatContent": "1.5 g",
+            "servingSize": null,
+            "sodiumContent": "229 mg",
+            "sugarContent": "18.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-03-15T04:14:03.607Z",
+                "reviewBody": "Great, easy, and fast option for a protein-packed pick-me-up.  I like to leave it in the fridge and eat it for breakfast. I used one fresh banana and one frozen, and it works just fine.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Rita",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3163497/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,93 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/285313/how-to-make-ramen-broth/",
+        "name": "How to Make Ramen Broth",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "How to Make Ramen Broth"
+        },
+        "datePublished": "2019-12-11T01:05:34.000Z",
+        "description": "Easy to make ramen broth from canned ingredients. Change this recipe up as you want to, add, subtract, multiply. Use fresh ingredients and homemade veggie broth for a higher quality broth.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT1H10M",
+        "totalTime": "P0DT1H15M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "1 tablespoon olive oil",
+            "1 (8 ounce) jar mushroom stems and pieces, drained",
+            "1 medium onion, coarsely chopped",
+            "6 cups vegetable broth",
+            "1 tablespoon soy sauce",
+            "1 tablespoon oyster sauce"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat olive oil in a large pot over medium-high heat. Add mushrooms and onion. Cook until onions are transparent, about 5 minutes. Add vegetable broth, soy sauce, and oyster sauce and bring to a simmer.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Reduce heat to low and cover. Let cook for 1 to 3 hours. The longer it cooks, the more flavorful it becomes.\n"
+            }
+        ],
+        "recipeCategory": [],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "cmscherer"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "How to Make Ramen Broth",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "102.6 calories",
+            "carbohydrateContent": "13.4 g",
+            "cholesterolContent": null,
+            "fatContent": "4.3 g",
+            "fiberContent": "3.4 g",
+            "proteinContent": "3.1 g",
+            "saturatedFatContent": "0.5 g",
+            "servingSize": null,
+            "sodiumContent": "1185 mg",
+            "sugarContent": "6.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

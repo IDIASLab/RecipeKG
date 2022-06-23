@@ -1,0 +1,156 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/231/world-cuisine/european/",
+                    "name": "European",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/723/world-cuisine/european/italian/",
+                    "name": "Italian",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/274691/berry-panna-cotta/",
+        "name": "Berry Panna Cotta",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6897349.jpg",
+            "width": 3066,
+            "height": 3066
+        },
+        "datePublished": "2019-12-06T05:16:44.000Z",
+        "description": "This panna cotta is like a lemon cream custard. The lemon goes really well with raspberries and strawberries.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT1H35M",
+        "recipeYield": "8 ramekins",
+        "recipeIngredient": [
+            "\u00bc lemon",
+            "1 pint heavy cream",
+            "\u00bd cup confectioners' sugar",
+            "1 cup milk",
+            "3\u2009\u00bd teaspoons unflavored gelatin",
+            "\u00be teaspoon vanilla extract",
+            "1\u2009\u00bd cups sliced fresh strawberries",
+            "1\u2009\u00bd cups fresh raspberries"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Cut the rind from 1/4 lemon into long strips. Place strips in a saucepan with cream and confectioners' sugar. Bring to a simmer over medium heat. Set aside to steep for 10 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Meanwhile, combine milk and gelatin in a small bowl. Let sit for 5 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Reheat the cream mixture until hot. Remove from heat. Stir in gelatin mixture and vanilla extract. Remove lemon rind. Pour into 8 ramekins and refrigerate until set, about 1 to 2 hours.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "To serve, arrange strawberry slices and raspberries on top of each custard.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "European",
+            "Italian"
+        ],
+        "recipeCuisine": [
+            "European",
+            "Italian"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Jennifer"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Berry Panna Cotta",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "277.6 calories",
+            "carbohydrateContent": "16.4 g",
+            "cholesterolContent": "84 mg",
+            "fatContent": "22.9 g",
+            "fiberContent": "2.4 g",
+            "proteinContent": "3.6 g",
+            "saturatedFatContent": "14.1 g",
+            "servingSize": null,
+            "sodiumContent": "37.6 mg",
+            "sugarContent": "11.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-08-03T20:58:51.83Z",
+                "reviewBody": "This was good but the texture was not as creamy as our favorite panna cotta recipe on this site (the one by CHERYLA33). I did like the slight hint of lemon in this and it paired well with the fresh berries.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Kim's Cooking Now",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/kimscookingnow/"
+                }
+            }
+        ]
+    }
+]

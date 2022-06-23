@@ -1,0 +1,102 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/241296/holiday-chicken-salad-my-way/",
+        "name": "Holiday Chicken Salad My Way",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2224701.jpg",
+            "width": 1300,
+            "height": 960
+        },
+        "datePublished": "2015-02-20T22:43:18.000Z",
+        "description": "I took a fantastic chicken salad recipe an tweaked it my way - and I'm in love. Wonderful on crackers, bread for sandwiches, or just eat out of the bowl!",
+        "prepTime": "P0DT0H15M",
+        "cookTime": null,
+        "totalTime": "P0DT1H15M",
+        "recipeYield": "12 servings",
+        "recipeIngredient": [
+            "1 cup mayonnaise",
+            "1 teaspoon seasoned salt",
+            "1 teaspoon smoked paprika",
+            "1 cup white raisins",
+            "1 cup chopped water chestnuts",
+            "1 cup chopped pecans",
+            "2 green onions, chopped",
+            "4 cups cubed, cooked chicken meat",
+            "ground black pepper to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Whisk mayonnaise, seasoned salt, and smoked paprika together in a bowl. Stir raisins, water chestnuts, pecans, and green onions into mayonnaise mixture until well-combined; add chicken and stir until completely coated. Season with black pepper. Cover the bowl with plastic wrap and refrigerate until chilled, at least 1 hour.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Rox"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Holiday Chicken Salad My Way",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "315.1 calories",
+            "carbohydrateContent": "14.6 g",
+            "cholesterolContent": "42 mg",
+            "fatContent": "23.1 g",
+            "fiberContent": "1.8 g",
+            "proteinContent": "14.3 g",
+            "saturatedFatContent": "3.3 g",
+            "servingSize": null,
+            "sodiumContent": "207.5 mg",
+            "sugarContent": "9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

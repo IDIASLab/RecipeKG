@@ -1,0 +1,117 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1642/everyday-cooking/",
+                    "name": "Everyday Cooking",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/476/everyday-cooking/cooking-for-two/",
+                    "name": "Cooking for Two",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/285004/chicken-quinoa-bowl/",
+        "name": "Chicken Quinoa Bowl",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Chicken Quinoa Bowl"
+        },
+        "datePublished": "2018-05-21T22:21:59.000Z",
+        "description": "A simple, healthy dinner for two.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "3 cups cooked and cooled quinoa",
+            "1 cup chopped roasted chicken",
+            "\u00bd cup chopped grape tomatoes",
+            "\u00bd cup chopped English cucumber",
+            "\u00bc cup crumbled reduced-fat feta cheese",
+            "\u00bd medium avocado, chopped",
+            "1 teaspoon extra-virgin olive oil",
+            "1 dash lemon juice",
+            "ground black pepper to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Mix quinoa, chicken, tomatoes, cucumber, feta cheese, avocado, olive oil, lemon juice, and pepper in a bowl.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Portion into two bowls and serve.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Everyday Cooking",
+            "Cooking for Two"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Jenny"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Chicken Quinoa Bowl",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "618.9 calories",
+            "carbohydrateContent": "66.8 g",
+            "cholesterolContent": "70.6 mg",
+            "fatContent": "21 g",
+            "fiberContent": "11.7 g",
+            "proteinContent": "42.1 g",
+            "saturatedFatContent": "4.4 g",
+            "servingSize": null,
+            "sodiumContent": "489.9 mg",
+            "sugarContent": "0.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

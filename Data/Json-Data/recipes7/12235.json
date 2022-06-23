@@ -1,0 +1,223 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/362/desserts/cookies/",
+                    "name": "Cookies",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/849/desserts/cookies/no-bake-cookies/",
+                    "name": "No-Bake Cookie Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/240322/no-bake-brownies/",
+        "name": "No-Bake Brownies",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4488753.jpg",
+            "width": 1936,
+            "height": 1936
+        },
+        "datePublished": "2020-06-19T04:01:36.000Z",
+        "description": "Really tasty treats!",
+        "prepTime": "P0DT0H15M",
+        "cookTime": null,
+        "totalTime": "P0DT2H15M",
+        "recipeYield": "9 servings",
+        "recipeIngredient": [
+            "\u00be cup cocoa powder",
+            "\u00be cup white sugar",
+            "\u00bd cup coconut oil",
+            "\u2153 cup butter",
+            "1 teaspoon vanilla extract"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Beat cocoa powder, sugar, coconut oil, butter, and vanilla extract together in a bowl. Pour into a 9-inch square baking dish, cover the dish with a lid, and freeze until set, about 2 hours.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Cookies",
+            "No-Bake Cookie Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "ChefChef"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.1666666666666665,
+            "ratingCount": 6,
+            "itemReviewed": "No-Bake Brownies",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "261.5 calories",
+            "carbohydrateContent": "21 g",
+            "cholesterolContent": "18.1 mg",
+            "fatContent": "20 g",
+            "fiberContent": "1.4 g",
+            "proteinContent": "1.5 g",
+            "saturatedFatContent": "15.4 g",
+            "servingSize": null,
+            "sodiumContent": "48.5 mg",
+            "sugarContent": "16.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2016-10-01T03:36:10.17Z",
+                "reviewBody": "Great way to make brownies",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "KDK",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/17360266/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2016-02-29T18:39:46.403Z",
+                "reviewBody": "It was really good!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Joe Butcher",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/17615396/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2017-03-23T10:07:34.34Z",
+                "reviewBody": "This recipe wasn't the best but for a quick treat it was good. If you want to actually have something great try something else.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "fun chef",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/21689095/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2018-07-19T08:33:07.69Z",
+                "reviewBody": "This makes a good chocolate bar but I would not call it brownies.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Aubrey Burch",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/10543757/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2021-07-23T06:59:03.903Z",
+                "reviewBody": "As others have said I would not call these brownies but rather chocolate bars. A disappointment",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 2
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Nev",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/21456942/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2021-07-19T09:18:55.12Z",
+                "reviewBody": "These are awful! Just crunchy sugar with a cocoa backdrop.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 2
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Dana Hall",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/28879036/"
+                }
+            }
+        ]
+    }
+]

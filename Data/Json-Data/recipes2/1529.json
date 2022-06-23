@@ -1,0 +1,143 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/137/drinks/shakes-and-floats/",
+                    "name": "Shakes and Floats Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/235483/creamy-apple-cider-float/",
+        "name": "Creamy Apple Cider Float",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2616016.jpg",
+            "width": 1774,
+            "height": 1774
+        },
+        "datePublished": "2014-08-03T06:00:34.000Z",
+        "description": "Had my first hot apple cider float at a fall festival here in western New York. Warm, creamy, and frothy. The mulling spices make it taste like you're drinking a hot cup of apple pie. Once you try it you can't put it down. Vanilla or pumpkin ice cream work best.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H15M",
+        "totalTime": "P0DT0H20M",
+        "recipeYield": "12 servings",
+        "recipeIngredient": [
+            "1 quart apple cider",
+            "2 tablespoons mulling spices, or to taste",
+            "12 scoops vanilla ice cream"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat apple cider and mulling spices in a saucepan over low heat. Bring to a simmer and steep until flavors blend, about 15 minutes. Divide cider between 12 mugs and add a scoop of ice cream to each mug.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Shakes and Floats Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Rebecca Mustard"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Creamy Apple Cider Float",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "86.3 calories",
+            "carbohydrateContent": "16 g",
+            "cholesterolContent": "9.2 mg",
+            "fatContent": "2.3 g",
+            "fiberContent": "0.1 g",
+            "proteinContent": "0.7 g",
+            "saturatedFatContent": "1.4 g",
+            "servingSize": null,
+            "sodiumContent": "26 mg",
+            "sugarContent": "14 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-10-26T10:11:13.487Z",
+                "reviewBody": "I did not use the cider recipe. But I tried making a cider float because I happen to have just finished making apple cider from fresh apples and it was already warm. I had vanilla ice cream in the freezer. This was so weird but in a good way. I will definitely have this again! thanks!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "htc",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/16263509/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2015-10-02T20:15:05.837Z",
+                "reviewBody": "This is so delicious that I've made it several times this week already! This recipe makes the house smell great and it tastes even better! There is something about the warm apple cider with the cold creamy ice cream making this recipe a fun twist on the traditional summer soda floats more appropriate for fall. You can add a drizzle of caramel or a sprinkle of cinnamon on top to jazz it up even more.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "House of Aqua",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/houseofaqua/"
+                }
+            }
+        ]
+    }
+]

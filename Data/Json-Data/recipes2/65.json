@@ -1,0 +1,140 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/109/appetizers-and-snacks/vegetable/",
+                    "name": "Vegetable",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/112/appetizers-and-snacks/vegetable/olives/",
+                    "name": "Olives",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/234704/creamy-olive-dip/",
+        "name": "Creamy Olive Dip",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1061252.jpg",
+            "width": 4608,
+            "height": 3456
+        },
+        "datePublished": "2013-10-08T06:02:40.000Z",
+        "description": "Serve with assorted breads, crackers, or vegetables.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT4H10M",
+        "recipeYield": "4 cups",
+        "recipeIngredient": [
+            "1 (16 ounce) jar mayonnaise",
+            "1 (16 ounce) container sour cream",
+            "1 (6 ounce) can sliced black olives, drained",
+            "1 tablespoon dried parsley",
+            "1 tablespoon dried dill weed",
+            "1 tablespoon dried minced onion",
+            "2 teaspoons seasoned salt"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Mix mayonnaise, sour cream, olives, parsley, dill, minced onion, and seasoned salt together in a bowl; cover with plastic wrap and refrigerate 4 hours to overnight.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks",
+            "Vegetable",
+            "Olives"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Brenda"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Creamy Olive Dip",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "139.5 calories",
+            "carbohydrateContent": "1.6 g",
+            "cholesterolContent": "11.6 mg",
+            "fatContent": "14.8 g",
+            "fiberContent": "0.2 g",
+            "proteinContent": "0.7 g",
+            "saturatedFatContent": "3.6 g",
+            "servingSize": null,
+            "sodiumContent": "192.4 mg",
+            "sugarContent": "0.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2013-11-08T02:37:25.51Z",
+                "reviewBody": "Pretty good -olive lovers will like this.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Baking Nana",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/bakingnana/"
+                }
+            }
+        ]
+    }
+]

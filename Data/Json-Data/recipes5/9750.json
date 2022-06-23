@@ -1,0 +1,142 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17874/main-dish/tacos/",
+                    "name": "Taco Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/276053/ranch-turkey-tacos/",
+        "name": "Ranch Turkey Tacos",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7072098.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2019-09-20T00:07:10.000Z",
+        "description": "Using leftover Thanksgiving turkey makes this recipe a snap. Serve with lime wedges and, if desired, hot sauce. This Allrecipes Magazine recipe is based on Joan Dredge's Ranch Chicken Tacos.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H25M",
+        "recipeYield": "8 tacos",
+        "recipeIngredient": [
+            "\u00bd cup milk",
+            "\u00bc cup mayonnaise",
+            "1 tablespoon dry ranch dressing mix",
+            "5 tablespoons salsa, divided",
+            "8 (6 inch) corn tortillas",
+            "2 cups shredded cooked turkey",
+            "\u00bd teaspoon ground cumin",
+            "2 cups shredded red cabbage",
+            "1 cup crumbled queso fresco",
+            "1 avocado - peeled, pitted, and diced",
+            "\u00bd cup sliced green onion"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Stir milk, mayonnaise, ranch, dressing mix, and 1 tablespoon salsa together in a small bowl. Chill, covered, until serving.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Warm tortillas in a large dry skillet over medium-high heat, about 30 seconds per side. Stack and wrap in foil to keep warm.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Stir together remaining salsa, turkey, and cumin in a skillet; cook over medium heat until heated through, 3 to 5 minutes. Divide among tortillas. Top each taco with red cabbage, queso fresco, avocado, green onions and 1 tablespoon ranch dressing.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Taco Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Allrecipes Magazine"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Ranch Turkey Tacos",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "541.8 calories",
+            "carbohydrateContent": "38.4 g",
+            "cholesterolContent": "80.8 mg",
+            "fatContent": "29.1 g",
+            "fiberContent": "8.1 g",
+            "proteinContent": "34.1 g",
+            "saturatedFatContent": "7.7 g",
+            "servingSize": null,
+            "sodiumContent": "503 mg",
+            "sugarContent": "4.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-12-02T11:03:45.577Z",
+                "reviewBody": "I used leftover Thanksgiving turkey for this and it was delicious! There was a recipe problem though. I made the sauce according to this recipe with 1/2 cup milk and 1/4 cup of mayo. Those measurements are WAY off. It should probably use only a few tablespoons of milk as the picture looks like it should be a dressing consistency. By the time I added enough mayo ranch dressing mix and salsa to get the right consistency and flavor I had over 2 cups of sauce. I recommend mixing the mayo salsa and ranch dressing mix first then add a little milk at a time until you get the desired consistency. Other than that the kids and I loved it.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Janette Seamans",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/15221570/"
+                }
+            }
+        ]
+    }
+]

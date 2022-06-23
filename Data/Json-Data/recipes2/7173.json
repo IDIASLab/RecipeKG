@@ -1,0 +1,153 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17249/appetizers-and-snacks/canapes-and-crostini/",
+                    "name": "Canapes and Crostini Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/238672/roasted-eggplant-and-tomato-towers/",
+        "name": "Roasted Eggplant and Tomato Towers",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1940573.jpg",
+            "width": 2205,
+            "height": 2205
+        },
+        "datePublished": "2016-06-04T14:15:21.000Z",
+        "description": "This has a long cooking time, but is definitely worth the wait.",
+        "prepTime": "P0DT0H20M",
+        "cookTime": "P0DT3H0M",
+        "totalTime": "P0DT3H20M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "6 large tomatoes, halved",
+            "\u00bd cup olive oil, divided",
+            "2 cloves garlic, chopped",
+            "1 tablespoon dried oregano",
+            "sea salt and ground black pepper to taste",
+            "1 large eggplant",
+            "\u00bd teaspoon smoked paprika",
+            "\u00bd cup plain yogurt",
+            "2 tablespoons honey",
+            "\u00bc cup roasted almonds"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat oven to 300 degrees F (150 degrees C).\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Arrange tomatoes, cut-side up, on a baking sheet. Whisk 1/4 cup olive oil, garlic, oregano, salt, and pepper together in a bowl; spoon over tomatoes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake tomatoes in the preheated oven until slightly shrunken, 3 to 4 hours.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "In the last hour of the tomatoes baking, thinly slice eggplant and sprinkle with salt; set aside until some of the water starts to bead on the slices, about 30 minutes. Rinse the salt off the eggplant and transfer to a bowl. Pour remaining 1/4 cup olive oil and sprinkle paprika over eggplant slices; toss with your hands to coat.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Arrange eggplant slices in a single layer in a skillet over medium heat; cook until tender, 3 to 4 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Alternate tomato slices and eggplant slices on serving plates creating 'towers.' Drizzle yogurt and honey over each 'tower'; top with almonds.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks",
+            "Canapes and Crostini Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Ginger21"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 1,
+            "itemReviewed": "Roasted Eggplant and Tomato Towers",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "424.5 calories",
+            "carbohydrateContent": "31.1 g",
+            "cholesterolContent": "1.8 mg",
+            "fatContent": "33 g",
+            "fiberContent": "8.8 g",
+            "proteinContent": "7.4 g",
+            "saturatedFatContent": "4.5 g",
+            "servingSize": null,
+            "sodiumContent": "118.9 mg",
+            "sugarContent": "21.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2015-01-12T20:43:38.957Z",
+                "reviewBody": "I like the idea of this recipe but the yogurt honey and almonds didn't really work for me. A little ricotta a chiffonade of fresh basil and some pignoli (pine nuts) would have been better.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Kim's Cooking Now",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/kimscookingnow/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,151 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/94/soups-stews-and-chili/",
+                    "name": "Soups, Stews and Chili Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/183/soups-stews-and-chili/stews/",
+                    "name": "Stews",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1426/soups-stews-and-chili/stews/gumbo/",
+                    "name": "Gumbo Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/277988/shrimp-gumbo/",
+        "name": "Shrimp Gumbo",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7710649.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-01-25T08:54:23.000Z",
+        "description": "This is and adaptation of a recipe my sister in law gave me. It is hearty and delicious. You can make it as spicy or as mild as you like to your taste and it doesn't take long to make. Set out hot sauce for diners to season to their own liking.",
+        "prepTime": "P0DT0H25M",
+        "cookTime": "P0DT0H45M",
+        "totalTime": "P0DT1H10M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "1\u2009\u00bd tablespoons olive oil",
+            "1 medium onion, chopped",
+            "1 green bell pepper, seeded and chopped",
+            "1 jalapeno pepper, seeded and chopped, or more to taste",
+            "3 cloves garlic, minced",
+            "2 (14.5 ounce) cans Mexican-style stewed tomatoes, undrained",
+            "2\u2009\u2153 cups chicken broth",
+            "1 (6 ounce) package uncooked long grain and wild rice mix, with seasoning packet",
+            "1 (12 ounce) package fully cooked hot Italian sausage, cut into 1/4-inch thick slices",
+            "1 pound raw small shrimp, shelled and deveined"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat oil in a large stockpot over medium-high heat. Add onion, bell pepper, and jalapeno and saute until tender, about 5 minutes. Stir in garlic and cook until fragrant, about 1 minute.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Drain liquid from tomatoes into the stockpot. Place tomatoes on a cutting board, dice, and add to the pot. Add chicken broth, rice mix, and seasoning packet, cover, and bring to a boil. Reduce heat and simmer until rice is tender, about 25 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Add sliced sausage and simmer for 5 minutes. Stir in shrimp, and cook until they are bright pink on the outside and the meat is opaque, about 3 minutes more.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Soups, Stews and Chili Recipes",
+            "Stews",
+            "Gumbo Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Laura"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 1,
+            "itemReviewed": "Shrimp Gumbo",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "430.6 calories",
+            "carbohydrateContent": "35.3 g",
+            "cholesterolContent": "161.6 mg",
+            "fatContent": "19.4 g",
+            "fiberContent": "2.6 g",
+            "proteinContent": "28.6 g",
+            "saturatedFatContent": "5.8 g",
+            "servingSize": null,
+            "sodiumContent": "1841.9 mg",
+            "sugarContent": "7.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-02-10T10:50:07.82Z",
+                "reviewBody": "I wouldn\u2019t call this gumbo at all. The only change I made was cooking it in my instant pot, and while it\u2019s got a good flavor I don\u2019t consider this gumbo at all.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "thedailygourmet",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/thedailygourmet/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,130 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/156/bread/",
+                    "name": "Bread",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/339/bread/yeast-bread/",
+                    "name": "Yeast Bread Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/15042/ambrosial-bread/",
+        "name": "Ambrosial Bread",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F82681.jpg",
+            "width": 250,
+            "height": 250
+        },
+        "datePublished": "1999-12-19T03:41:45.000Z",
+        "description": "This is a sweet, dense bread. It goes good with almost anything.",
+        "prepTime": null,
+        "cookTime": null,
+        "totalTime": null,
+        "recipeYield": "1 - 2 pound loaf",
+        "recipeIngredient": [
+            "1\u2009\u2153 cups water",
+            "\u00be cup chocolate-covered crispy peanut butter candy",
+            "\u2153 cup honey",
+            "1\u2009\u00bd teaspoons salt",
+            "3 tablespoons dry milk powder",
+            "4 cups bread flour",
+            "2\u2009\u00be teaspoons active dry yeast"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place ingredients into the pan of the bread machine in the order recommended by the manufacturer. Select Sweet Bread setting or White Bread setting.  Start.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Bread",
+            "Yeast Bread Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Johnny Williams"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Ambrosial Bread",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "202.2 calories",
+            "carbohydrateContent": "40.1 g",
+            "cholesterolContent": "0.3 mg",
+            "fatContent": "2.3 g",
+            "fiberContent": "1.2 g",
+            "proteinContent": "5.7 g",
+            "saturatedFatContent": "0.9 g",
+            "servingSize": null,
+            "sodiumContent": "261.9 mg",
+            "sugarContent": "11.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2008-05-30T19:29:48.61Z",
+                "reviewBody": "The smell is wonderful and the bread looks great! I'm not excited about how dense and chewy this bread is though. I substituted 1 cup of whole wheat flour for the bread flour. The 3/4 cup of crushed Butterfingers amounts to a 3.7 oz. candy bar. This made two smaller loaves which baked at 350 for about 30 minutes.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "sueb",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2719400/"
+                }
+            }
+        ]
+    }
+]

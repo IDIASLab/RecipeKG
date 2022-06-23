@@ -1,0 +1,147 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/145/breakfast-and-brunch/cereals/",
+                    "name": "Cereals",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1315/breakfast-and-brunch/cereals/oatmeal/",
+                    "name": "Oatmeal Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/263856/bircher-muesli/",
+        "name": "Bircher Muesli",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5310437.jpg",
+            "width": 1600,
+            "height": 1600
+        },
+        "datePublished": "2019-04-04T04:11:52.000Z",
+        "description": "Bircher Muesli is a Swiss classic and the original overnight oats. Dr. Bircher, its inventor, believed that oats are easiest digested if they have soaked for at least 12 hours. I have this almost daily for breakfast and just switch it up with different kind of fruit, nuts, and berries for variety.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT12H10M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "4 tablespoons water",
+            "4 tablespoons milk",
+            "2 tablespoons rolled oats",
+            "2 apples, cored and grated",
+            "1 lemon, juiced",
+            "2 tablespoons ground hazelnuts",
+            "1 teaspoon honey",
+            "\u00bd banana, cut into small pieces",
+            "\u00bc apple, chopped",
+            "4 seedless red grapes, halved"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine water, milk, and oats in a bowl. Cover and refrigerate, 12 hours to overnight.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Mix in grated apples and lemon juice and sprinkle with ground hazelnuts. Divide between 2 bowls. Sweeten with honey and sprinkle with banana, apple, and grapes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Cereals",
+            "Oatmeal Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Lena"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Bircher Muesli",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "216.3 calories",
+            "carbohydrateContent": "44.9 g",
+            "cholesterolContent": "2.4 mg",
+            "fatContent": "5.9 g",
+            "fiberContent": "8.4 g",
+            "proteinContent": "4.2 g",
+            "saturatedFatContent": "0.9 g",
+            "servingSize": null,
+            "sodiumContent": "17.5 mg",
+            "sugarContent": "26.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-05-08T04:45:42.073Z",
+                "reviewBody": "great breakfast option:-)",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "barbara",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3031597/"
+                }
+            }
+        ]
+    }
+]

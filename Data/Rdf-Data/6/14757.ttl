@@ -1,0 +1,76 @@
+@prefix ns1: <http://purl.org/recipekg/> .
+@prefix ns2: <http://purl.org/heals/food/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/apple-crisp-with-truvia-natural-sweetener> a schema:Recipe ;
+    ns2:hasIngredient [ a <http://purl.org/heals/ingredient/Oat> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "oat" ],
+        [ a <http://purl.org/recipekg/ingredient/Apple> ;
+            ns1:hasQuantity "4" ;
+            ns1:ingredientName "apple" ],
+        [ a <http://purl.org/recipekg/ingredient/Cinnamon> ;
+            ns1:hasQuantity "1 1/2" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "cinnamon" ],
+        [ a <http://purl.org/heals/ingredient/Salt> ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "salt" ],
+        [ a <http://purl.org/recipekg/ingredient/Cinnamon> ;
+            ns1:hasQuantity "1 1/2" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "cinnamon" ],
+        [ ],
+        [ a <http://purl.org/heals/ingredient/AllPurposeFlour> ;
+            ns1:hasQuantity "1/4" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "all purpose flour" ],
+        [ a <http://purl.org/heals/ingredient/Water> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "water" ],
+        [ a <http://purl.org/recipekg/ingredient/Nutmeg> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "nutmeg" ],
+        [ a <http://purl.org/heals/ingredient/BrownSugar> ;
+            ns1:hasQuantity "1 1/2" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "brown sugar" ],
+        [ ],
+        [ a <http://purl.org/heals/ingredient/Butter> ;
+            ns1:hasQuantity "1/4" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "butter" ],
+        [ a <http://purl.org/recipekg/ingredient/Spoonable> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "spoonable" ],
+        [ a <http://purl.org/heals/ingredient/AllPurposeFlour> ;
+            ns1:hasQuantity "2" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "all purpose flour" ],
+        [ a <http://purl.org/recipekg/ingredient/Spoonable> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "spoonable" ],
+        [ a <http://purl.org/recipekg/ingredient/Spray> ;
+            ns1:hasUnit "stick" ;
+            ns1:ingredientName "spray" ] ;
+    ns1:belongsTo <http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/truvia/> ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 1 ;
+            schema:ratingValue "4"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2012-10-04T22:22:27.000Z"^^schema:date ;
+    schema:name "Apple Crisp with Truvia&reg; Natural Sweetener"^^xsd:string ;
+    schema:recipeYield "8 servings"^^xsd:string .
+
+<http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/> a ns1:RecipeCategory .
+
+<http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/truvia/> rdfs:subClassOf <http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/> .
+

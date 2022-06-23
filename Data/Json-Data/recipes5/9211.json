@@ -1,0 +1,161 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/231/world-cuisine/european/",
+                    "name": "European",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/704/world-cuisine/european/uk-and-ireland/",
+                    "name": "UK and Ireland",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 6,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/705/world-cuisine/european/uk-and-ireland/english/",
+                    "name": "English",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/275609/london-fog-latte/",
+        "name": "London Fog Latte",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7048030.jpg",
+            "width": 2250,
+            "height": 3000
+        },
+        "datePublished": "2019-08-30T22:16:09.000Z",
+        "description": "Earl Grey tea is steeped with lavender and blended with hot milk and honey for this drink known as a London fog latte.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "1 drink",
+        "recipeIngredient": [
+            "2 teaspoons Earl Grey tea leaves",
+            "\u00bd teaspoon dried lavender",
+            "1 cup boiling water",
+            "\u00bd cup milk",
+            "1 tablespoon honey",
+            "\u00bc teaspoon vanilla extract"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Steep Earl Grey tea and lavender in boiling water for about 3 minutes; strain tea into a cup.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat milk in a saucepan over medium-low heat, stirring constantly, until frothy and steaming, 4 to 5 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour hot milk, honey, and vanilla extract into tea.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "European",
+            "UK and Ireland",
+            "English"
+        ],
+        "recipeCuisine": [
+            "European",
+            "UK and Ireland",
+            "English"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Dylan Simons"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "London Fog Latte",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "130.4 calories",
+            "carbohydrateContent": "23.3 g",
+            "cholesterolContent": "9.8 mg",
+            "fatContent": "2.4 g",
+            "fiberContent": "0.1 g",
+            "proteinContent": "4.5 g",
+            "saturatedFatContent": "1.5 g",
+            "servingSize": null,
+            "sodiumContent": "59.2 mg",
+            "sugarContent": "23.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-09-17T06:00:19.963Z",
+                "reviewBody": "The London Fog latte is my absolute favorite comfort drink and my go to whenever I'm at a new coffee shop to \"try\" the shop. This recipe is perfect and very easy to make at home!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Diana71",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/diana71/"
+                }
+            }
+        ]
+    }
+]

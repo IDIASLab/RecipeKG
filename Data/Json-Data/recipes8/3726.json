@@ -1,0 +1,150 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/92/meat-and-poultry/",
+                    "name": "Meat and Poultry",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/201/meat-and-poultry/chicken/",
+                    "name": "Chicken",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/650/meat-and-poultry/chicken/fried-chicken/",
+                    "name": "Fried Chicken Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/280302/lemon-pepper-fried-chicken/",
+        "name": "Lemon-Pepper Fried Chicken",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8269607.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-07-02T03:06:11.000Z",
+        "description": "This lemon-pepper chicken was popular with my friends in grad school. We used to do the prep work at our desk and coffee table in the living room since we had only about 1 1/2 square feet of counter space in our tiny kitchenette. Serve chicken over rice with gravy, garnished with freshly ground pepper and lemon zest.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H20M",
+        "totalTime": "P0DT0H35M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "2 cups bread crumbs",
+            "3 tablespoons lemon-pepper seasoning",
+            "2 teaspoons dried basil",
+            "1 teaspoon dried oregano",
+            "1\u2009\u00bd teaspoons garlic powder",
+            "salt to taste",
+            "4 skinless, boneless chicken breast halves",
+            "2 large eggs, beaten",
+            "vegetable oil for frying"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Mix bread crumbs, lemon-pepper seasoning, basil, oregano, garlic powder, and salt together in a shallow dish.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pat chicken pieces dry with paper towels, dip in beaten eggs, and dredge through bread crumb mixture.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat enough oil to thickly coat the bottom of a frying pan over medium heat. Fry chicken until golden brown and no longer pink in the center, 8 to 10 minutes per side. An instant-read thermometer inserted into the center of a chicken breast should read at least 165 degrees F (74 degrees C).\n"
+            }
+        ],
+        "recipeCategory": [
+            "Meat and Poultry",
+            "Chicken",
+            "Fried Chicken Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Katieanne"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Lemon-Pepper Fried Chicken",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "506.7 calories",
+            "carbohydrateContent": "48 g",
+            "cholesterolContent": "157.6 mg",
+            "fatContent": "21 g",
+            "fiberContent": "3.3 g",
+            "proteinContent": "29.7 g",
+            "saturatedFatContent": "4.8 g",
+            "servingSize": null,
+            "sodiumContent": "1717.5 mg",
+            "sugarContent": "4.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-06-25T06:25:31.763Z",
+                "reviewBody": "Delicious option for fried chicken when you want something different than the traditional flavor. I reduced the overall quantity of the breading so as not to waste much, and it worked out well (I used about 1.5 cups of the breadcrumbs).",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "fabeveryday",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/fabeveryday/"
+                }
+            }
+        ]
+    }
+]

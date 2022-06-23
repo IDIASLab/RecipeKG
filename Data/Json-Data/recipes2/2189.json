@@ -1,0 +1,92 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/273783/turkish-salep/",
+        "name": "Turkish Salep",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1751572.jpg",
+            "width": 2448,
+            "height": 2130
+        },
+        "datePublished": "2014-11-29T07:43:35.000Z",
+        "description": "A great drink in the cold days!",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "2 saleps",
+        "recipeIngredient": [
+            "2 cups whole milk",
+            "2 teaspoons salep",
+            "4 teaspoons white sugar",
+            "\u00bc teaspoon rose water",
+            "2 pinches ground cinnamon",
+            "2 pinches ground ginger"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine milk and salep powder in a small saucepan and heat over medium heat, whisking constantly, until milk simmers. Simmer for 2 minutes until milk thickens slightly. Stir in sugar and rose water.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour salep into 2 mugs and garnish with a pinch of cinnamon and ginger each.\n"
+            }
+        ],
+        "recipeCategory": [],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Ghadeer"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Turkish Salep",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "184.6 calories",
+            "carbohydrateContent": "20.9 g",
+            "cholesterolContent": "24.4 mg",
+            "fatContent": "8 g",
+            "fiberContent": "0.7 g",
+            "proteinContent": "8 g",
+            "saturatedFatContent": "4.6 g",
+            "servingSize": null,
+            "sodiumContent": "98 mg",
+            "sugarContent": "19.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

@@ -1,0 +1,157 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/81/side-dish/",
+                    "name": "Side Dish",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/917/side-dish/potatoes/",
+                    "name": "Potato",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1457/side-dish/potatoes/mashed-potatoes/",
+                    "name": "Mashed Potato Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/276480/leftover-prime-rib-with-mushrooms-and-mashed-potatoes/",
+        "name": "Leftover Prime Rib with Mushrooms and Mashed Potatoes",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7571818.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-06-19T04:41:57.000Z",
+        "description": "Oh yum, was tired of the rich holiday scene with gravy, etc. This is a great way to use leftover prime rib and mashed potatoes, it's fast and more importantly, easy!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H15M",
+        "totalTime": "P0DT0H25M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "2 teaspoons butter",
+            "2 teaspoons water",
+            "2 tablespoons minced garlic",
+            "2 cups sliced fresh mushrooms",
+            "2 (1 inch) thick slices cooked leftover prime rib, cut into 1-inch cubes",
+            "1\u2009\u00bd cups leftover mashed potatoes, or more to taste",
+            "salt and ground black pepper to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Melt butter in large skillet over medium heat. Add water and minced garlic; stir for 1 minute. Add mushrooms, cover, and cook, stirring occasionally, until mushrooms are tender, about 5 minutes. Add prime rib and mashed potatoes and turn heat to low. Cook, stirring occasionally, until everything is heated through, 5 to 7 minutes. Season with salt and pepper.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Side Dish",
+            "Potato",
+            "Mashed Potato Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Phoebe"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Leftover Prime Rib with Mushrooms and Mashed Potatoes",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "283.4 calories",
+            "carbohydrateContent": "31.7 g",
+            "cholesterolContent": "42.9 mg",
+            "fatContent": "8.2 g",
+            "fiberContent": "3.4 g",
+            "proteinContent": "21.5 g",
+            "saturatedFatContent": "4.1 g",
+            "servingSize": null,
+            "sodiumContent": "619.2 mg",
+            "sugarContent": "4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-01-02T09:37:14.957Z",
+                "reviewBody": "Followed the recipe with no changes.\nIt's really good!\nHearty & good for winter!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Mary V.",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/28753972/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2019-11-07T03:00:12.42Z",
+                "reviewBody": "4.5 lovely mushy messy good tasting entr\u00e9e alongside broccoli cauliflower and carrots. (or whatever)",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Phoebe",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/phoebe1/"
+                }
+            }
+        ]
+    }
+]

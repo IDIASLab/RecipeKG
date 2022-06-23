@@ -1,0 +1,159 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/16421/drinks/shots/",
+                    "name": "Shot Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/153003/storm-trooper/",
+        "name": "Storm Trooper",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2828718.jpg",
+            "width": 1693,
+            "height": 1705
+        },
+        "datePublished": "2012-10-22T21:03:21.000Z",
+        "description": "Tired of the same old Jager shot? Then try this twist on the club staple!",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "1 shot",
+        "recipeIngredient": [
+            "1 fluid ounce Jagermeister liqueur",
+            "1 fluid ounce peppermint schnapps"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Pour the Jagermeister and schnapps into a shot glass. Bottoms up!\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Shot Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Kevin"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.3333333333333335,
+            "ratingCount": 3,
+            "itemReviewed": "Storm Trooper",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "140.7 calories",
+            "carbohydrateContent": "17.6 g",
+            "cholesterolContent": "0 mg",
+            "fatContent": "0.1 g",
+            "fiberContent": "0 g",
+            "proteinContent": "0 g",
+            "saturatedFatContent": "0 g",
+            "servingSize": null,
+            "sodiumContent": "2.6 mg",
+            "sugarContent": "16.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2008-08-14T11:46:08.243Z",
+                "reviewBody": "This is actually a pretty tasty shot - similar to Liquid Cocaine (half Jager half Goldschlager) but with a cooler afterbite (rather than a hotter one from the cinnamon)... It only gets 4 stars though - as the above mentioned shot is far superior.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Kevin",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2423967/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2012-08-05T01:55:41.29Z",
+                "reviewBody": "I thought this was just ok. Tasted too much like cough syrup. I was looking for shot recipes for a party I am hosting next week. I don't think is is what I am looking for.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "TheBritishBaker",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/apple-strudel/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2015-12-09T21:02:54.75Z",
+                "reviewBody": "I didn't like it at all but someone else who is a jager fan loved it so we met in the middle for a rating.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 2
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Arizona Desert Flower",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/arizonadesertflower/"
+                }
+            }
+        ]
+    }
+]

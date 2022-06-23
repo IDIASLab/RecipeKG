@@ -1,0 +1,151 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17140/desserts/fruit-desserts/",
+                    "name": "Fruit Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17525/desserts/fruit-desserts/strawberry-desserts/",
+                    "name": "Strawberry Dessert Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/274268/strawberry-mascarpone-gelato/",
+        "name": "Strawberry-Mascarpone Gelato",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6797127.jpg",
+            "width": 3256,
+            "height": 3256
+        },
+        "datePublished": "2020-06-19T04:38:15.000Z",
+        "description": "A gelato dish from northern Italy enjoyed by all. Garnish with whole strawberries.",
+        "prepTime": "P0DT0H20M",
+        "cookTime": null,
+        "totalTime": "P0DT5H50M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "3 cups strawberries, hulled and quartered",
+            "1 (8 ounce) container mascarpone cheese",
+            "1 cup whole milk",
+            "\u00be cup white sugar",
+            "1 tablespoon lemon juice",
+            "\u215b teaspoon salt"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place strawberries into a blender or food processor and puree until smooth. Pour puree through a fine-meshed sieve or strainer over a large bowl. Press on the berries using a rubber spatula or wooden spoon to extract all juices; discard solids.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine mascarpone cheese, milk, sugar, lemon juice, and salt in the blender or food processor; blend until smooth. Pour into strawberry puree and stir well. Cover and refrigerate until chilled, at least 3 hours to overnight.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place chilled mixture into an ice cream maker and freeze according to manufacturer's instructions, about 20 minutes. Transfer to an airtight container and freeze until firm, 2 hours to overnight.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Let gelato sit at room temperature for 10 to 15 minutes before serving.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Fruit Desserts",
+            "Strawberry Dessert Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "manella"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Strawberry-Mascarpone Gelato",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "305.9 calories",
+            "carbohydrateContent": "32.8 g",
+            "cholesterolContent": "50.7 mg",
+            "fatContent": "18.9 g",
+            "fiberContent": "1.5 g",
+            "proteinContent": "4.5 g",
+            "saturatedFatContent": "10.1 g",
+            "servingSize": null,
+            "sodiumContent": "85.5 mg",
+            "sugarContent": "30.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-07-04T01:10:02.023Z",
+                "reviewBody": "Amazing! I followed the recipe to a 't' and it is delicious. I never would have thought to use mascarpone in a gelato but it works! Thank you so much Manella for sharing your recipe.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Kim's Cooking Now",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/kimscookingnow/"
+                }
+            }
+        ]
+    }
+]

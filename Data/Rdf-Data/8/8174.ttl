@@ -1,0 +1,35 @@
+@prefix ns1: <http://purl.org/heals/food/> .
+@prefix ns2: <http://purl.org/recipekg/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/kilbeggan-irish-coffee> a schema:Recipe ;
+    ns1:hasIngredient [ a <http://purl.org/heals/ingredient/BrownSugar> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "teaspoon" ;
+            ns2:ingredientName "brown sugar" ],
+        [ a <http://purl.org/recipekg/ingredient/Whiskey> ;
+            ns2:hasQuantity "1" ;
+            ns2:ingredientName "Whiskey" ],
+        [ a <http://purl.org/recipekg/ingredient/WhippedCream> ;
+            ns2:ingredientName "Whipped Cream" ],
+        [ a <http://purl.org/recipekg/ingredient/Coffee> ;
+            ns2:hasQuantity "2" ;
+            ns2:ingredientName "coffee" ] ;
+    ns2:belongsTo <http://purl.org/recipekg/categories/desserts/specialty-desserts/liqueur-desserts/coffee-liqueur/> ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2020-10-01T05:22:48.000Z"^^schema:date ;
+    schema:name "Kilbeggan&reg; Irish Coffee"^^xsd:string ;
+    schema:recipeYield "1 Irish coffee"^^xsd:string .
+
+<http://purl.org/recipekg/categories/desserts/> a ns2:RecipeCategory .
+
+<http://purl.org/recipekg/categories/desserts/specialty-desserts/> rdfs:subClassOf <http://purl.org/recipekg/categories/desserts/> .
+
+<http://purl.org/recipekg/categories/desserts/specialty-desserts/liqueur-desserts/> rdfs:subClassOf <http://purl.org/recipekg/categories/desserts/specialty-desserts/> .
+
+<http://purl.org/recipekg/categories/desserts/specialty-desserts/liqueur-desserts/coffee-liqueur/> rdfs:subClassOf <http://purl.org/recipekg/categories/desserts/specialty-desserts/liqueur-desserts/> .
+

@@ -1,0 +1,114 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/260191/titos-classic-gimlet/",
+        "name": "Tito's Classic Gimlet",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4557424.jpg",
+            "width": 1000,
+            "height": 1000
+        },
+        "datePublished": "2017-09-10T03:31:12.000Z",
+        "description": "A classic gimlet recipe with vodka, lime juice, and simple syrup gets fancy with Tito's Handmade Vodka.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "1 serving",
+        "recipeIngredient": [
+            "1\u2009\u00bd fluid ounces Tito's Handmade Vodka",
+            "1 ounce freshly squeezed lime juice",
+            "1 ounce simple syrup",
+            "1 wedge Lime wedge or wheel"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine all ingredients in a cocktail shaker with ice.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Shake well, and strain into a chilled martini glass.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Garnish with lime wedge or wheel.\n"
+            }
+        ],
+        "recipeCategory": [],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Tito's Handmade Vodka"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Tito's Classic Gimlet",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "159.3 calories",
+            "carbohydrateContent": "17.1 g",
+            "cholesterolContent": null,
+            "fatContent": null,
+            "fiberContent": "0.3 g",
+            "proteinContent": "0.2 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "1.7 mg",
+            "sugarContent": "0.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-11-16T22:17:35.367Z",
+                "reviewBody": "So easy and made with things I had on hand. I like that you can control how tart you want it by decreasing or increasing the lime and syrup. Definitely felt restaurant worthy!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Chitownchef",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/12170653/"
+                }
+            }
+        ]
+    }
+]

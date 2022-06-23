@@ -1,0 +1,143 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/81/side-dish/",
+                    "name": "Side Dish",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/225/side-dish/vegetables/",
+                    "name": "Vegetables",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/930/side-dish/vegetables/greens/",
+                    "name": "Greens",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/218595/rainbow-chard-with-bacon/",
+        "name": "Rainbow Chard with Bacon",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Rainbow Chard with Bacon"
+        },
+        "datePublished": "2017-10-18T03:12:16.000Z",
+        "description": "This nutritious dish of sweet and colorful greens is packed full of flavor and easy to make.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H19M",
+        "totalTime": "P0DT0H29M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "2 bacon slices, chopped",
+            "1 onion, diced",
+            "1 clove garlic, minced",
+            "1 bunch rainbow chard, chopped",
+            "sea salt to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place bacon in a large skillet over medium-low heat; cook and stir until browned, about 5 minutes. Add onion and garlic; cook, stirring constantly, 1 minute more.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place chard into skillet; sprinkle with salt. Cover and reduce heat; cook until tender, about 10 minutes. Turn chard with tongs to distribute onions and garlic; cook, covered, until flavors meld, 3 to 5 minutes more.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Side Dish",
+            "Vegetables",
+            "Greens"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Krystal"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Rainbow Chard with Bacon",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "94.5 calories",
+            "carbohydrateContent": "10 g",
+            "cholesterolContent": "9.9 mg",
+            "fatContent": "4 g",
+            "fiberContent": "2.8 g",
+            "proteinContent": "6.1 g",
+            "saturatedFatContent": "1.3 g",
+            "servingSize": null,
+            "sodiumContent": "612.1 mg",
+            "sugarContent": "3.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-08-19T05:06:57.373Z",
+                "reviewBody": "Great! Used soy bacon.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Brianna Rice",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/6067030/"
+                }
+            }
+        ]
+    }
+]

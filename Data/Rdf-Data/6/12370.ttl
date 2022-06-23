@@ -1,0 +1,50 @@
+@prefix ns1: <http://purl.org/heals/food/> .
+@prefix ns2: <http://purl.org/recipekg/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/citrus-ricotta-oats> a schema:Recipe ;
+    ns1:hasIngredient [ a <http://purl.org/recipekg/ingredient/Orange> ;
+            ns2:hasQuantity "1/2" ;
+            ns2:hasUnit "teaspoon" ;
+            ns2:ingredientName "orange" ],
+        [ a <http://purl.org/heals/ingredient/Walnut> ;
+            ns2:hasQuantity "2" ;
+            ns2:hasUnit "teaspoon" ;
+            ns2:ingredientName "walnut" ],
+        [ a <http://purl.org/heals/ingredient/Water> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "water" ],
+        [ a <http://purl.org/heals/ingredient/Oat> ;
+            ns2:hasQuantity "1/2" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "oat" ],
+        [ a <http://purl.org/heals/ingredient/Honey> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "teaspoon" ;
+            ns2:ingredientName "honey" ],
+        [ a <http://purl.org/recipekg/ingredient/RicottaCheese> ;
+            ns2:hasQuantity "1/4" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "ricotta cheese" ],
+        [ a <http://purl.org/heals/ingredient/BrownSugar> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "teaspoon" ;
+            ns2:ingredientName "brown sugar" ],
+        [ a <http://purl.org/recipekg/ingredient/OrangeSegments> ;
+            ns2:hasQuantity "3" ;
+            ns2:ingredientName "orange segments" ] ;
+    ns2:belongsTo <http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/quaker-oats/> ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2018-02-09T04:30:07.000Z"^^schema:date ;
+    schema:name "Citrus-Ricotta Oats"^^xsd:string ;
+    schema:recipeYield "1 serving"^^xsd:string .
+
+<http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/> a ns2:RecipeCategory .
+
+<http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/quaker-oats/> rdfs:subClassOf <http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/> .
+

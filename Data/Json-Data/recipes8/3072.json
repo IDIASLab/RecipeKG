@@ -1,0 +1,177 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/237/world-cuisine/latin-american/",
+                    "name": "Latin American",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/728/world-cuisine/latin-american/mexican/",
+                    "name": "Mexican",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/257952/baked-fajitas/",
+        "name": "Baked Fajitas",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5152369.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2020-06-23T21:52:19.000Z",
+        "description": "Easy chicken fajitas for a busy family. Serve with desired toppings (sour cream, salsa, etc.).",
+        "prepTime": "P0DT0H20M",
+        "cookTime": "P0DT0H30M",
+        "totalTime": "P0DT0H50M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "1 tablespoon cornstarch",
+            "2 teaspoons chili powder",
+            "1 teaspoon paprika",
+            "1 teaspoon white sugar",
+            "\u00bd teaspoon salt",
+            "\u00bd teaspoon onion powder",
+            "\u00bd teaspoon garlic powder",
+            "\u00bd teaspoon ground cumin",
+            "1 pound skinless, boneless chicken breasts, thinly sliced",
+            "2 red bell peppers, thinly sliced",
+            "1 large onion, thinly sliced",
+            "12 corn tortillas"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat oven to 425 degrees F (220 degrees C).\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Mix cornstarch, chili powder, paprika, sugar, salt, onion powder, garlic powder, and cumin together in a bowl.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine chicken, red bell peppers, and onion in a bowl; add cornstarch mixture and stir until evenly coated. Transfer to a baking dish.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated oven until chicken is cooked through, about 30 minutes. Serve chicken mixture in corn tortillas.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Latin American",
+            "Mexican"
+        ],
+        "recipeCuisine": [
+            "Latin American",
+            "Mexican"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Candia Mathieson"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Baked Fajitas",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "349.4 calories",
+            "carbohydrateContent": "46.4 g",
+            "cholesterolContent": "64.6 mg",
+            "fatContent": "5.5 g",
+            "fiberContent": "7.5 g",
+            "proteinContent": "29.4 g",
+            "saturatedFatContent": "1.2 g",
+            "servingSize": null,
+            "sodiumContent": "400.3 mg",
+            "sugarContent": "6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-02-22T09:39:28.313Z",
+                "reviewBody": "Made as written and these turned out good. I honestly thought the uncooked chicken would water down everything else once it cooked and I'd be left fishing for everything but I was wrong. The one thing that stood out as different to me in this was using corn tortillas instead of flour. I liked that. You really do need to toast them in a skillet first though. Other than that I wouldn't change a thing.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2021-06-09T23:33:16.013Z",
+                "reviewBody": "Tasted great. Easy peasy",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Grandma V",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/28569288/"
+                }
+            }
+        ]
+    }
+]

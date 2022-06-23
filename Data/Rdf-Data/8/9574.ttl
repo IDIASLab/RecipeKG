@@ -1,0 +1,123 @@
+@prefix ns1: <http://purl.org/recipekg/> .
+@prefix ns2: <http://purl.org/heals/food/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/cast-iron-chicken-fajitas> a schema:Recipe ;
+    ns2:hasIngredient [ a <http://purl.org/recipekg/ingredient/ChiliPowder> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "chili powder" ],
+        [ a <http://purl.org/heals/ingredient/BlackPepper> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "black pepper" ],
+        [ a <http://purl.org/heals/ingredient/Garlic> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "garlic" ],
+        [ a <http://purl.org/recipekg/ingredient/Lime> ;
+            ns1:hasQuantity "1" ;
+            ns1:ingredientName "lime" ],
+        [ a <http://purl.org/heals/ingredient/Oregano> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "oregano" ],
+        [ a <http://purl.org/heals/ingredient/Paprika> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "paprika" ],
+        [ a <http://purl.org/heals/ingredient/OliveOil> ;
+            ns1:hasQuantity "3" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "olive oil" ],
+        [ a <http://purl.org/heals/ingredient/Salt> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "salt" ],
+        [ a <http://purl.org/recipekg/ingredient/Cumin> ;
+            ns1:hasQuantity "1 1/2" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "cumin" ],
+        [ a <http://purl.org/recipekg/ingredient/FlourTortillas> ;
+            ns1:hasQuantity "16" ;
+            ns1:ingredientName "flour tortillas" ],
+        [ a <http://purl.org/heals/ingredient/ChickenBroth> ;
+            ns1:hasQuantity "2" ;
+            ns1:hasUnit "pound" ;
+            ns1:ingredientName "chicken broth" ],
+        [ a <http://purl.org/recipekg/ingredient/BellPeppers> ;
+            ns1:hasQuantity "2" ;
+            ns1:ingredientName "bell peppers" ],
+        [ a <http://purl.org/heals/ingredient/Onion> ;
+            ns1:hasQuantity "1" ;
+            ns1:ingredientName "onion" ],
+        [ a <http://purl.org/recipekg/ingredient/Coriander> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "coriander" ],
+        [ a <http://purl.org/recipekg/ingredient/ChipotleChilePowder> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "chipotle chile powder" ] ;
+    ns1:belongsTo <http://purl.org/recipekg/categories/world-cuisine/latin-american/mexican/main-dishes/fajitas/chicken/> ;
+    ns1:hasFSAScore 3 ;
+    ns1:hasNutritionalInformation [ a ns1:NutritionalInformation ;
+            ns1:hasCalorificData [ a ns1:CalorificData ;
+                    ns1:hasAmount "602.8"^^xsd:float ;
+                    ns1:hasUnit "calories" ] ;
+            ns1:hasCarbohydrateData [ a ns1:CarbohydrateData ;
+                    ns1:hasAmount "67.2"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasCholesterolData [ a ns1:CholesterolData ;
+                    ns1:hasAmount "64.6"^^xsd:float ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasFatData [ a ns1:FatData ;
+                    ns1:hasAmount "23.8"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSARed ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasFiberData [ a ns1:FiberData ;
+                    ns1:hasAmount "5.1"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasProteinData [ a ns1:ProteinData ;
+                    ns1:hasAmount "28.6"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSaturatedFatData [ a ns1:SaturatedFatData ;
+                    ns1:hasAmount "5.5"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSARed ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSodiumData [ a ns1:SodiumData ;
+                    ns1:hasAmount "1192.8"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasSugarData [ a ns1:SugarData ;
+                    ns1:hasAmount "4.1"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAGreen ;
+                    ns1:hasUnit "g" ] ] ;
+    ns1:hasUSDAScore 3 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2020-12-31T09:56:44.000Z"^^schema:date ;
+    schema:name "Cast Iron Chicken Fajitas"^^xsd:string ;
+    schema:recipeYield "8 servings"^^xsd:string .
+
+ns1:FSAAmber a ns1:FSAColor .
+
+ns1:FSAGreen a ns1:FSAColor .
+
+<http://purl.org/recipekg/categories/world-cuisine/> a ns1:RecipeCategory .
+
+<http://purl.org/recipekg/categories/world-cuisine/latin-american/> rdfs:subClassOf <http://purl.org/recipekg/categories/world-cuisine/> .
+
+<http://purl.org/recipekg/categories/world-cuisine/latin-american/mexican/> rdfs:subClassOf <http://purl.org/recipekg/categories/world-cuisine/latin-american/> .
+
+<http://purl.org/recipekg/categories/world-cuisine/latin-american/mexican/main-dishes/> rdfs:subClassOf <http://purl.org/recipekg/categories/world-cuisine/latin-american/mexican/> .
+
+<http://purl.org/recipekg/categories/world-cuisine/latin-american/mexican/main-dishes/fajitas/> rdfs:subClassOf <http://purl.org/recipekg/categories/world-cuisine/latin-american/mexican/main-dishes/> .
+
+<http://purl.org/recipekg/categories/world-cuisine/latin-american/mexican/main-dishes/fajitas/chicken/> rdfs:subClassOf <http://purl.org/recipekg/categories/world-cuisine/latin-american/mexican/main-dishes/fajitas/> .
+
+ns1:FSARed a ns1:FSAColor .
+

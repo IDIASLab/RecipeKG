@@ -1,0 +1,141 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1822/drinks/mocktails/",
+                    "name": "Mocktail Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/275178/sparkling-hibiscus-cooler/",
+        "name": "Sparkling Hibiscus Cooler",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6930351.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-06-19T04:39:56.000Z",
+        "description": "This hibiscus cooler is a super refreshing drink on a hot summer day.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT1H35M",
+        "totalTime": "P0DT2H40M",
+        "recipeYield": "10 drinks",
+        "recipeIngredient": [
+            "10 cups water",
+            "1 cup dried hibiscus petals",
+            "1 cinnamon stick",
+            "1 whole clove",
+            "1 whole allspice berry",
+            "\u215b teaspoon freshly grated nutmeg",
+            "1\u2009\u00bd cups raw sugar",
+            "ice cubes",
+            "2\u2009\u00bd (32 ounce) bottles sparkling water",
+            "2 limes, cut into wedges"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine water, hibiscus petals, cinnamon, clove, allspice, and nutmeg in a medium pot. Bring to a boil over high heat. Reduce heat and simmer for 1 1/2 hours.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Remove from heat and stir in sugar until dissolved, about 1 minute. Cool syrup to room temperature, about 1 hour. Refrigerate until ready to use.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Make hibiscus coolers by filling 10 glasses with ice. Pour 3 fluid ounces hibiscus syrup into each glass; top with 8 fluid ounces sparkling water. Squeeze 1 lime wedge into each glass.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Mocktail Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "CJ"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Sparkling Hibiscus Cooler",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "116.8 calories",
+            "carbohydrateContent": "30.5 g",
+            "cholesterolContent": null,
+            "fatContent": "0.1 g",
+            "fiberContent": "0.6 g",
+            "proteinContent": "0.1 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "28.7 mg",
+            "sugarContent": "28.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-08-13T19:59:53.793Z",
+                "reviewBody": "9This is interesting. It tastes like spice mulled wine. It was a lovely change as an aperitivo today.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Buckwheat Queen",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/melaniegiovenzana/"
+                }
+            }
+        ]
+    }
+]

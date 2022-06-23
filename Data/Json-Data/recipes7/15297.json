@@ -1,0 +1,132 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/145/breakfast-and-brunch/cereals/",
+                    "name": "Cereals",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/256736/butternut-squash-porridge/",
+        "name": "Butternut Squash Porridge",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Butternut Squash Porridge"
+        },
+        "datePublished": "2020-06-19T04:19:27.000Z",
+        "description": "My mother used to make this recipe for me when I was a kid in Russia. It is good for breakfast with some milk, brown sugar, and raisins. You can also add some other spices like cinnamon and nutmeg. Hulled millet can be found in most health food stores. It is very healthy as it is a whole grain that contains lots of protein.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H35M",
+        "totalTime": "P0DT0H50M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "2 cups water",
+            "1 cup hulled millet",
+            "1 butternut squash - peeled, seeded, and cut into cubes",
+            "\u00bd teaspoon salt"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Bring water to a boil in a saucepan; add millet and cook until half of the water is absorbed, about 15 minutes. Add butternut squash and salt carefully to the millet and simmer until millet and squash are tender, 15 to 20 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Mash the squash using a potato masher until mixture becomes the texture of porridge.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Cereals"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Dena"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 1,
+            "itemReviewed": "Butternut Squash Porridge",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "303.9 calories",
+            "carbohydrateContent": "66.3 g",
+            "cholesterolContent": null,
+            "fatContent": "2.4 g",
+            "fiberContent": "9.4 g",
+            "proteinContent": "8.1 g",
+            "saturatedFatContent": "0.4 g",
+            "servingSize": null,
+            "sodiumContent": "307 mg",
+            "sugarContent": "6.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-01-21T05:30:07.86Z",
+                "reviewBody": "Sorta okay but not great. Doubt I'll make again needed more water",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Annette Tinholt Vellenga",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/26910361/"
+                }
+            }
+        ]
+    }
+]

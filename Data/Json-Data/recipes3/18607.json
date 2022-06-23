@@ -1,0 +1,128 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1642/everyday-cooking/",
+                    "name": "Everyday Cooking",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/255525/queso-blanco/",
+        "name": "Queso Blanco",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4130109.jpg",
+            "width": 1920,
+            "height": 1080
+        },
+        "datePublished": "2019-02-22T08:33:39.000Z",
+        "description": "Queso blanco is a soft, unaged white cheese that originated in Spain. It's also fantastically easy to make at home! Add salt for a savory cheese to crumble on salads, or skip the salt for a creamy soft cheese that is delicious served with a drizzle of honey! Store queso in the refrigerator for up to 1 week.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H15M",
+        "totalTime": "P0DT1H25M",
+        "recipeYield": "8 servings",
+        "recipeIngredient": [
+            "1 gallon whole milk",
+            "3 tablespoons sea salt",
+            "\u2153 cup cider vinegar, or as needed"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Line a colander with a damp piece of muslin or cheesecloth. Place colander over a bowl or in the sink.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour milk into a large saucepan; bring to 185 degrees F (85 degrees C), stirring frequently. Stir in salt.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour vinegar into milk, a little at a time, stirring well after each addition until curds begin to separate from the whey.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Spoon curds into the muslin-lined colander using a slotted spoon. Fold the muslin over the top of the curds. Fill a smaller container with water and place on top of the muslin to press down on the cheese. Let rest for 1 to 3 hours, allowing the liquid to drain from the cheese (the longer you allow the cheese to drain, the drier the cheese will be).\n"
+            }
+        ],
+        "recipeCategory": [
+            "Everyday Cooking"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "ChefJackie"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Queso Blanco",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "294.9 calories",
+            "carbohydrateContent": "22.2 g",
+            "cholesterolContent": "48.8 mg",
+            "fatContent": "15.9 g",
+            "fiberContent": null,
+            "proteinContent": "15.7 g",
+            "saturatedFatContent": "9.1 g",
+            "servingSize": null,
+            "sodiumContent": "2175.7 mg",
+            "sugarContent": "22.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-01-16T04:40:24.49Z",
+                "reviewBody": "I'm a novice when it comes to cheese making but this was so easy and soooo delicious!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Diana Moutsopoulos",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/dianamoutsopoulos/"
+                }
+            }
+        ]
+    }
+]

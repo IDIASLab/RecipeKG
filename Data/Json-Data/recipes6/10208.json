@@ -1,0 +1,137 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17140/desserts/fruit-desserts/",
+                    "name": "Fruit Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17526/desserts/fruit-desserts/lemon-desserts/",
+                    "name": "Lemon Dessert Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/280578/creamy-lemonade-ice-pops/",
+        "name": "Creamy Lemonade Ice Pops",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8217034.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-06-17T06:35:57.000Z",
+        "description": "These creamy ice pops are quick to make. I like them on the tart side so I don't use too much sugar but feel free to adjust the sweetness level to your liking.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT4H10M",
+        "recipeYield": "4 ice pops",
+        "recipeIngredient": [
+            "\u00be cup heavy whipping cream",
+            "\u00bd cup freshly squeezed lemon juice",
+            "\u00bc cup whole milk",
+            "2 tablespoons white sugar, or more to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine heavy whipping cream, lemon juice, milk, and sugar in a bowl until well combined. Pour into 4 ice pop molds and freeze until solid, at least 4 hours, or overnight.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Fruit Desserts",
+            "Lemon Dessert Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Yoly"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Creamy Lemonade Ice Pops",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "194.9 calories",
+            "carbohydrateContent": "10.8 g",
+            "cholesterolContent": "62.7 mg",
+            "fatContent": "17 g",
+            "fiberContent": "0.1 g",
+            "proteinContent": "1.5 g",
+            "saturatedFatContent": "10.6 g",
+            "servingSize": null,
+            "sodiumContent": "23.4 mg",
+            "sugarContent": "7.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-07-29T09:31:26.737Z",
+                "reviewBody": "My 9 year old begs me to make this now. I use 2% milk and plastic cups.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Samantha Blakley",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/25342078/"
+                }
+            }
+        ]
+    }
+]

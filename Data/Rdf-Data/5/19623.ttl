@@ -1,0 +1,77 @@
+@prefix ns1: <http://purl.org/recipekg/> .
+@prefix ns2: <http://purl.org/heals/food/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/keto-italian-stuffed-peppers> a schema:Recipe ;
+    ns2:hasIngredient [ a <http://purl.org/recipekg/ingredient/MozzarellaCheese> ;
+            ns1:hasQuantity "5" ;
+            ns1:hasUnit "ounce" ;
+            ns1:ingredientName "mozzarella cheese" ],
+        [ ],
+        [ a <http://purl.org/recipekg/ingredient/BellPeppers> ;
+            ns1:hasQuantity "6" ;
+            ns1:ingredientName "bell peppers" ],
+        [ a <http://purl.org/recipekg/ingredient/AluminumFoil> ;
+            ns1:ingredientName "aluminum foil" ],
+        [ a <http://purl.org/recipekg/ingredient/RicottaCheese> ;
+            ns1:hasQuantity "3/4" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "ricotta cheese" ],
+        [ a <http://purl.org/recipekg/ingredient/ParchmentPaper> ;
+            ns1:ingredientName "parchment paper" ] ;
+    ns1:belongsTo <http://purl.org/recipekg/categories/main-dish/stuffed-main-dishes/stuffed-bell-peppers/vegetarian/> ;
+    ns1:hasFSAScore 4 ;
+    ns1:hasNutritionalInformation [ a ns1:NutritionalInformation ;
+            ns1:hasCalorificData [ a ns1:CalorificData ;
+                    ns1:hasAmount "195.5"^^xsd:float ;
+                    ns1:hasUnit "calories" ] ;
+            ns1:hasCarbohydrateData [ a ns1:CarbohydrateData ;
+                    ns1:hasAmount "15.7"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasCholesterolData [ a ns1:CholesterolData ;
+                    ns1:hasAmount "29.0"^^xsd:float ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasFatData [ a ns1:FatData ;
+                    ns1:hasAmount "9.0"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasFiberData [ a ns1:FiberData ;
+                    ns1:hasAmount "3.6"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasProteinData [ a ns1:ProteinData ;
+                    ns1:hasAmount "12.6"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSaturatedFatData [ a ns1:SaturatedFatData ;
+                    ns1:hasAmount "4.4"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSodiumData [ a ns1:SodiumData ;
+                    ns1:hasAmount "514.0"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasSugarData [ a ns1:SugarData ;
+                    ns1:hasAmount "8.5"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "g" ] ] ;
+    ns1:hasUSDAScore 5 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 6 ;
+            schema:ratingValue "4"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2019-09-14T19:10:09.000Z"^^schema:date ;
+    schema:name "Keto Italian Stuffed Peppers"^^xsd:string ;
+    schema:recipeYield "6 servings"^^xsd:string .
+
+<http://purl.org/recipekg/categories/main-dish/> a ns1:RecipeCategory .
+
+<http://purl.org/recipekg/categories/main-dish/stuffed-main-dishes/> rdfs:subClassOf <http://purl.org/recipekg/categories/main-dish/> .
+
+<http://purl.org/recipekg/categories/main-dish/stuffed-main-dishes/stuffed-bell-peppers/> rdfs:subClassOf <http://purl.org/recipekg/categories/main-dish/stuffed-main-dishes/> .
+
+<http://purl.org/recipekg/categories/main-dish/stuffed-main-dishes/stuffed-bell-peppers/vegetarian/> rdfs:subClassOf <http://purl.org/recipekg/categories/main-dish/stuffed-main-dishes/stuffed-bell-peppers/> .
+
+ns1:FSAAmber a ns1:FSAColor .
+

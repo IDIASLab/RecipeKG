@@ -1,0 +1,141 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/535/main-dish/dumplings/",
+                    "name": "Dumpling Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/17313/potato-dumpling-platter/",
+        "name": "Potato Dumpling Platter",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Potato Dumpling Platter"
+        },
+        "datePublished": "2000-03-24T00:39:02.000Z",
+        "description": "This is a hearty and delicious dish with dumplings and vegetables.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H30M",
+        "totalTime": "P0DT0H45M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "6 tablespoons vegetable oil",
+            "1 medium head cabbage, coarsely chopped",
+            "1 onion, chopped",
+            "1 teaspoon salt",
+            "\u00bc teaspoon ground black pepper",
+            "\u00bc teaspoon garlic powder",
+            "1 (16 ounce) package frozen pierogies",
+            "2 tablespoons butter",
+            "2 tomatoes, seeded and diced"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "In a large skillet, heat oil over medium heat and add cabbage, onion, salt, ground black pepper and garlic; cook for 20 to 30 minutes or until tender.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bring a large pot of lightly salted water to a boil. Add perogies and cook for 8 to 10 minutes or according to package directions; drain and stir in butter.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Just before cabbage is done, stir in tomatoes; heat through. Gently stir perogies into cabbage mixture; serve.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Dumpling Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "MOLSON7"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 2,
+            "ratingCount": 1,
+            "itemReviewed": "Potato Dumpling Platter",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "473.5 calories",
+            "carbohydrateContent": "48.6 g",
+            "cholesterolContent": "20 mg",
+            "fatContent": "28.6 g",
+            "fiberContent": "7 g",
+            "proteinContent": "9.2 g",
+            "saturatedFatContent": "6.3 g",
+            "servingSize": null,
+            "sodiumContent": "964.5 mg",
+            "sugarContent": "10.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2003-10-04T23:57:03.327Z",
+                "reviewBody": "This looked pretty until I added the tomatoes--they muddied the bright green cabbage color. The taste was okay but not fabulous.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 2
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "DAWN M",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/149414/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,94 @@
+@prefix ns1: <http://purl.org/heals/food/> .
+@prefix ns2: <http://purl.org/recipekg/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/trail-blazer-barbecue-sauce> a schema:Recipe ;
+    ns1:hasIngredient [ a <http://purl.org/recipekg/ingredient/WorcestershireSauce> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "Worcestershire sauce" ],
+        [ a <http://purl.org/heals/ingredient/AppleCiderVinegar> ;
+            ns2:hasQuantity "1/2" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "apple cider vinegar" ],
+        [ a <http://purl.org/recipekg/ingredient/ChiliPowder> ;
+            ns2:hasQuantity "3" ;
+            ns2:hasUnit "tablespoon" ;
+            ns2:ingredientName "chili powder" ],
+        [ a <http://purl.org/heals/ingredient/Garlic> ;
+            ns2:hasQuantity "6" ;
+            ns2:hasUnit "clove" ;
+            ns2:ingredientName "garlic" ],
+        [ a <http://purl.org/heals/ingredient/Salt> ;
+            ns2:hasQuantity "2" ;
+            ns2:hasUnit "teaspoon" ;
+            ns2:ingredientName "salt" ],
+        [ a <http://purl.org/recipekg/ingredient/ChiliPeppers> ;
+            ns2:hasQuantity "1/4" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "chili peppers" ],
+        [ a <http://purl.org/heals/ingredient/BrownSugar> ;
+            ns2:hasQuantity "1/2" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "brown sugar" ],
+        [ a <http://purl.org/recipekg/ingredient/BlackCoffee> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "black coffee" ],
+        [ a <http://purl.org/recipekg/ingredient/Ketchup> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "ketchup" ],
+        [ a <http://purl.org/heals/ingredient/Onion> ;
+            ns2:hasQuantity "2" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "onion" ] ;
+    ns2:belongsTo <http://purl.org/recipekg/categories/side-dish/sauces-and-condiments/sauces/bbq-sauce/> ;
+    ns2:hasFSAScore 6 ;
+    ns2:hasNutritionalInformation [ a ns2:NutritionalInformation ;
+            ns2:hasCalorificData [ a ns2:CalorificData ;
+                    ns2:hasAmount "24.6"^^xsd:float ;
+                    ns2:hasUnit "calories" ] ;
+            ns2:hasCarbohydrateData [ a ns2:CarbohydrateData ;
+                    ns2:hasAmount "5.9"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasFatData [ a ns2:FatData ;
+                    ns2:hasAmount "0.1"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSAGreen ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasFiberData [ a ns2:FiberData ;
+                    ns2:hasAmount "0.4"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasProteinData [ a ns2:ProteinData ;
+                    ns2:hasAmount "0.3"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasSodiumData [ a ns2:SodiumData ;
+                    ns2:hasAmount "256.9"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSAGreen ;
+                    ns2:hasUnit "mg" ] ;
+            ns2:hasSugarData [ a ns2:SugarData ;
+                    ns2:hasAmount "4.2"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSAGreen ;
+                    ns2:hasUnit "g" ] ] ;
+    ns2:hasUSDAScore 4 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 13 ;
+            schema:ratingValue "4.846153846153846"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2020-03-05T05:07:21.000Z"^^schema:date ;
+    schema:name "Trail Blazer Barbecue Sauce"^^xsd:string ;
+    schema:recipeYield "5 cups"^^xsd:string .
+
+<http://purl.org/recipekg/categories/side-dish/> a ns2:RecipeCategory .
+
+<http://purl.org/recipekg/categories/side-dish/sauces-and-condiments/> rdfs:subClassOf <http://purl.org/recipekg/categories/side-dish/> .
+
+<http://purl.org/recipekg/categories/side-dish/sauces-and-condiments/sauces/> rdfs:subClassOf <http://purl.org/recipekg/categories/side-dish/sauces-and-condiments/> .
+
+<http://purl.org/recipekg/categories/side-dish/sauces-and-condiments/sauces/bbq-sauce/> rdfs:subClassOf <http://purl.org/recipekg/categories/side-dish/sauces-and-condiments/sauces/> .
+
+ns2:FSAGreen a ns2:FSAColor .
+

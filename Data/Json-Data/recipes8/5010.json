@@ -1,0 +1,126 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/271029/vegan-portobello-jerky/",
+        "name": "Vegan Portobello Jerky",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6379407.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2019-03-07T13:48:52.000Z",
+        "description": "A great alternative to beef jerky for that vegan in your life. I plan to experiment with different flavor combinations but for now I leave you with my spicy Asian blend.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT2H0M",
+        "totalTime": "P0DT10H5M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "6 ounces portobello mushrooms, stems removed, caps cut into 1/4-inch slices",
+            "\u00bc cup soy sauce",
+            "1 tablespoon hot chile paste (such as sambal oelek)",
+            "1 teaspoon rice vinegar",
+            "\u00bd teaspoon sesame oil"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place mushroom slices in a resealable plastic bag. Whisk soy sauce, chili paste, rice vinegar, and sesame oil together in a bowl until completely blended. Pour over mushrooms, seal the bag, and refrigerate for 8 hours.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Preheat the oven to 250 degrees F (120 degrees C). Line a baking sheet with parchment paper. Arrange mushroom slices on the baking sheet in such a way that they are not touching each other.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated oven for 1 hour. Flip mushroom slices using tongs and cook for 1 more hour. Remove baking sheet from the oven and let cool completely before storing. For any larger slices that are not dry after 2 hours, crack open the oven door and let cook 5 additional minutes or until dry.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Soup Loving Nicole"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Vegan Portobello Jerky",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "67.2 calories",
+            "carbohydrateContent": "11 g",
+            "cholesterolContent": null,
+            "fatContent": "2.4 g",
+            "fiberContent": "1.5 g",
+            "proteinContent": "4.1 g",
+            "saturatedFatContent": "0.7 g",
+            "servingSize": null,
+            "sodiumContent": "1873.9 mg",
+            "sugarContent": "3.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-05-25T15:21:03.543Z",
+                "reviewBody": "I had two large portobello mushrooms. I made one with the ingredients listed and one using the same method but with coconut aminos and liquid smoke instead of soy; loved it both ways. The jerky is leathery and chewy just like its meat-based cousin. It\u2019s addictive and great for hiking when you need a nutrient boosting, portable snack.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Buckwheat Queen",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/melaniegiovenzana/"
+                }
+            }
+        ]
+    }
+]

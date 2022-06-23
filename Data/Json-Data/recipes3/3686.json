@@ -1,0 +1,153 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1642/everyday-cooking/",
+                    "name": "Everyday Cooking",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/26643/potted-beef/",
+        "name": "Potted Beef",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Potted Beef"
+        },
+        "datePublished": "2018-06-08T13:17:14.000Z",
+        "description": "Old fashioned potted beef is great on toast. This recipe was invented to be kept for long periods of time unrefrigerated, but in practice it must be kept in the refrigerator and used within a week. Other kinds of meat may be used instead of beef.",
+        "prepTime": "P0DT0H30M",
+        "cookTime": "P0DT3H0M",
+        "totalTime": "P0DT4H0M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "1 pound beef stew meat, cut into 1/2 inch pieces",
+            "\u00bc pound butter",
+            "salt to taste",
+            "ground black pepper to taste",
+            "paprika to taste",
+            "ground nutmeg to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "In a heavy medium saucepan, simmer the beef in 1/4 inch of water. Stew until very tender, about 2 to 3 hours, replacing water as necessary. Drain, reserving the liquid.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pass the cooked stew meat through a meat grinder twice, until it is the consistency of a thick, stringy paste.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "In a small saucepan, melt the butter. Filter the melted butter through clean muslin (cheese cloth), to remove the milk solids.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "In a medium bowl, mix the cooked meat with 3/4 of the strained, melted butter. Season with salt, pepper, paprika and nutmeg to taste. Stir in desired amount of reserved cooking liquid to moisten.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Transfer the mixture to sterile containers and top with remaining butter. Seal and chill in the refrigerator until serving.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Everyday Cooking"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "HEATHER.WRAY"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Potted Beef",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "552 calories",
+            "carbohydrateContent": "0.4 g",
+            "cholesterolContent": "160.8 mg",
+            "fatContent": "47.6 g",
+            "fiberContent": "0.2 g",
+            "proteinContent": "29.7 g",
+            "saturatedFatContent": "24.3 g",
+            "servingSize": null,
+            "sodiumContent": "234 mg",
+            "sugarContent": "0.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2009-06-30T18:38:57.007Z",
+                "reviewBody": "I have not made this yet but it sounds exceptional. I would love to know if there is an easier way to grind or puree the meat.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Tessa Liford",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2701656/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2018-07-24T05:28:24.103Z",
+                "reviewBody": "Makes really good patte. Used overcooked meat and a food processor also added a few tablespoons of sour cream at the end came out very good.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Peter Cutler",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/23989639/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,34 @@
+@prefix ns1: <http://purl.org/recipekg/> .
+@prefix ns2: <http://purl.org/heals/food/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/campbells-kitchen-french-onion-burgers> a schema:Recipe ;
+    ns2:hasIngredient [ a <http://purl.org/recipekg/ingredient/Roll> ;
+            ns1:hasQuantity "4" ;
+            ns1:ingredientName "roll" ],
+        [ a <http://purl.org/recipekg/ingredient/OnionSoup> ;
+            ns1:hasQuantity "1" ;
+            ns1:ingredientName "Onion Soup" ],
+        [ a <http://purl.org/recipekg/ingredient/AmericanCheese> ;
+            ns1:hasQuantity "4" ;
+            ns1:ingredientName "American cheese" ],
+        [ a <http://purl.org/heals/ingredient/Beef> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "pound" ;
+            ns1:ingredientName "beef" ] ;
+    ns1:belongsTo <http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/campbells-kitchen/> ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 86 ;
+            schema:ratingValue "4.546511627906977"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2007-10-16T21:19:11.000Z"^^schema:date ;
+    schema:name "Campbell's Kitchen French Onion Burgers"^^xsd:string ;
+    schema:recipeYield "4 burgers"^^xsd:string .
+
+<http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/> a ns1:RecipeCategory .
+
+<http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/campbells-kitchen/> rdfs:subClassOf <http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/> .
+

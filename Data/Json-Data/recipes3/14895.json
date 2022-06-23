@@ -1,0 +1,144 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/107/appetizers-and-snacks/meat-and-poultry/",
+                    "name": "Meat and Poultry",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1234/appetizers-and-snacks/meat-and-poultry/chicken/",
+                    "name": "Chicken",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/25188/crispy-wings/",
+        "name": "Crispy Wings",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3624149.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2018-06-27T13:00:35.000Z",
+        "description": "Egg, flour and cornflake crumb coated wings fried with carrot. A golden, crispy chicken wing that's easy to make and yummy to eat.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H15M",
+        "totalTime": "P0DT0H30M",
+        "recipeYield": "12 servings",
+        "recipeIngredient": [
+            "oil for deep frying",
+            "1 cup all-purpose flour, divided",
+            "8 tablespoons garlic powder, divided",
+            "6 eggs, beaten",
+            "3 cups crushed cornflake crumbs",
+            "24 chicken wings",
+            "\u00bd carrot, cut into thick strips"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat oil in a large, deep skillet or deep fryer. In a shallow dish or bowl mix together 3/4 cup flour with 2 tablespoons garlic powder; in a second shallow dish or bowl combine eggs and 4 tablespoons garlic powder and mix together. In a third shallow dish or bowl mix together cornflake crumbs, remaining 1/4 cup flour and remaining 2 tablespoons garlic powder.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Dip each wing in the flour mixture, crumb mixture, egg mixture then back in the crumb mixture. Drop carrot into hot oil; when it starts to fry, drop in the wings. Fry about 10 minutes, or until cooked through - they'll be a deep golden color.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks",
+            "Meat and Poultry",
+            "Chicken"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "PAMPERED"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.6666666666666665,
+            "ratingCount": 6,
+            "itemReviewed": "Crispy Wings",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "321.6 calories",
+            "carbohydrateContent": "33.6 g",
+            "cholesterolContent": "112.8 mg",
+            "fatContent": "15.4 g",
+            "fiberContent": "1.1 g",
+            "proteinContent": "13 g",
+            "saturatedFatContent": "3.2 g",
+            "servingSize": null,
+            "sodiumContent": "226.4 mg",
+            "sugarContent": "3.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2016-06-03T07:03:15.92Z",
+                "reviewBody": "These turned out really crispy and quite nice. The carrots were fun but be aware that they do not crisp up. They get a nice brown on them but all of the sugar in them keeps them soggy. The taste reminded me a lot of sweet potato fries but you just don't get that texture. I'll definitely make these again but I probably wouldn't hassle with the carrots again.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

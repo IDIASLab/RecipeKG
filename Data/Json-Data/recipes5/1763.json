@@ -1,0 +1,105 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/81/side-dish/",
+                    "name": "Side Dish",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/273819/easy-bruschetta-pasta/",
+        "name": "Easy Bruschetta Pasta",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Easy Bruschetta Pasta"
+        },
+        "datePublished": "2019-05-24T02:19:36.000Z",
+        "description": "Very simple, very tasty pasta with the flavors of bruschetta. You will love this dish!",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H15M",
+        "totalTime": "P0DT0H30M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "\u00bd (16 ounce) box fettuccine",
+            "2 medium ripe tomatoes, seeded and coarsely chopped",
+            "2 tablespoons olive oil",
+            "3 cloves garlic, minced",
+            "6 leaves fresh basil, thinly sliced, or more to taste",
+            "salt and ground black pepper to taste",
+            "2 tablespoons shredded Parmesan cheese, or to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Fill a large pot with lightly salted water and bring to a rolling boil. Cook fettuccine at a boil until tender yet firm to the bite, about 8 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine tomatoes, olive oil, garlic, and basil in a bowl. Season with salt and pepper. Drain pasta, add to the bowl, and toss well with the tomato mixture. Top with Parmesan cheese and a few additional grinds of pepper.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Side Dish"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Delia"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Easy Bruschetta Pasta",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "288 calories",
+            "carbohydrateContent": "44.6 g",
+            "cholesterolContent": "1.8 mg",
+            "fatContent": "8.9 g",
+            "fiberContent": "2.7 g",
+            "proteinContent": "9.2 g",
+            "saturatedFatContent": "1.7 g",
+            "servingSize": null,
+            "sodiumContent": "87.7 mg",
+            "sugarContent": "3.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

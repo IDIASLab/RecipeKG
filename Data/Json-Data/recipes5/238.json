@@ -1,0 +1,112 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/269243/mushroom-farro-risotto/",
+        "name": "Mushroom-Farro 'Risotto'",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4476425.jpg",
+            "width": 3024,
+            "height": 4032
+        },
+        "datePublished": "2019-04-04T04:14:44.000Z",
+        "description": "This is my own take on farro risotto. Not a traditional preparation by any stretch, but an easier method that still tastes great!",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H35M",
+        "totalTime": "P0DT0H50M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "4 cups water, or more as needed",
+            "2 cups farro",
+            "3 tablespoons butter",
+            "3 cloves garlic, minced",
+            "1 cup sliced fresh mushrooms",
+            "1 teaspoon onion powder",
+            "1 teaspoon garlic salt",
+            "1 tablespoon ground black pepper",
+            "1 cup chicken stock",
+            "2 tablespoons grated Parmesan cheese",
+            "salt and ground black pepper to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Bring water to a boil in a saucepan. Add farro and reduce heat to simmer; cook until tender, about 30 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Meanwhile, melt butter in a nonstick pan over medium heat. Add garlic and cook, stirring frequently, until slightly soft and fragrant, 1 to 2 minutes. Add mushrooms and season with onion powder, garlic salt, and pepper. Cook over medium-high heat, stirring frequently, about 10 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Drain and discard any excess water from the farro; add farro to the pan with the mushroom mixture. Add chicken stock and increase heat to a simmer, stirring frequently, about 5 minutes. Add Parmesan cheese and stir until melted, about 1 minute more.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Jacqueline P Slattery"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Mushroom-Farro 'Risotto'",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "403.4 calories",
+            "carbohydrateContent": "71.1 g",
+            "cholesterolContent": "26.6 mg",
+            "fatContent": "12.2 g",
+            "fiberContent": "0.7 g",
+            "proteinContent": "12.5 g",
+            "saturatedFatContent": "5.9 g",
+            "servingSize": null,
+            "sodiumContent": "887.1 mg",
+            "sugarContent": "0.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

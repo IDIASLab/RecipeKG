@@ -1,0 +1,142 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/364/desserts/frozen-desserts/",
+                    "name": "Frozen Dessert Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/16178/desserts/frozen-desserts/popsicles/",
+                    "name": "Popsicle Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/284457/4th-of-july-frozen-yogurt-bites/",
+        "name": "4th of July Frozen Yogurt Bites",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F9226609.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2017-07-01T04:06:52.000Z",
+        "description": "These frozen yogurt bites are a healthy alternative treat for the 4th of July Holiday.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT2H10M",
+        "recipeYield": "12 servings",
+        "recipeIngredient": [
+            "\u00bd cup strawberries",
+            "\u00bd cup blueberries",
+            "2 cups vanilla Greek yogurt"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Dice strawberries and blueberries. Place into an ice tray or silicone mold and cover with yogurt.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place in the freezer until frozen solid, about 2 hours.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Serve frozen.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Frozen Dessert Recipes",
+            "Popsicle Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Andie Sweets"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "4th of July Frozen Yogurt Bites",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "28.4 calories",
+            "carbohydrateContent": "2.3 g",
+            "cholesterolContent": "3.1 mg",
+            "fatContent": "1.2 g",
+            "fiberContent": "0.3 g",
+            "proteinContent": "2.2 g",
+            "saturatedFatContent": "0.8 g",
+            "servingSize": null,
+            "sodiumContent": "8.5 mg",
+            "sugarContent": "1.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-05-30T00:55:37.58Z",
+                "reviewBody": "This was not liked by anyone in the family.  They are tart from the yogurt and need some sort of sweetener plus a dash of vanilla would also help. They are not easy to hold and need an ice cream stick or something to be able to hold them. Trying to bite into these is like trying to bite into an ice cube. They are hard and a gooey substance is left on the fingers from the yogurt defrosting. Sorry but I will not be making these again.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 1
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Yoly",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/cookingbikerchick/"
+                }
+            }
+        ]
+    }
+]

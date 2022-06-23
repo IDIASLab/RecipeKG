@@ -1,0 +1,153 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/92/meat-and-poultry/",
+                    "name": "Meat and Poultry",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/205/meat-and-poultry/pork/",
+                    "name": "Pork",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/267405/penne-with-bacon-and-zucchini/",
+        "name": "Penne with Bacon and Zucchini",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5997388.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2019-04-04T04:13:38.000Z",
+        "description": "This recipe ('penne zucchini e pancetta') is from my Italian aunt and is a family favorite. It can be served as an appetizer or with a few slices of fresh crusty Italian bread and a garden salad as a main. My aunt never wrote her recipes down, but this is how she gave it to me.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H15M",
+        "totalTime": "P0DT0H30M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "1 tablespoon olive oil",
+            "1 large onion, diced",
+            "5 slices pancetta, diced",
+            "3 large zucchini, cubed",
+            "\u00bd cube chicken bouillon",
+            "\u00bd cup water",
+            "1 cup heavy cream",
+            "1 (8 ounce) package penne pasta",
+            "2 tablespoons grated Parmesan cheese"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat oil in a large skillet over medium heat. Add onion and pancetta; cook until onion is soft and pancetta crisp, about 5 minutes. Add zucchini and bouillon cube. Cook and stir for 2 to 4 minutes. Pour in water and cover skillet. Cook until zucchini is soft and liquid has been absorbed, about 7 minutes. Lastly add the cream and mix well, remove from heat.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Meanwhile, bring a large pot of lightly salted water to a boil. Add penne and cook, stirring occasionally, until tender yet firm to the bite, about 11 minutes. Drain and add to the skillet. Mix well. Serve with Parmesan cheese.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Meat and Poultry",
+            "Pork"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "manella"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Penne with Bacon and Zucchini",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "1127.5 calories",
+            "carbohydrateContent": "108.9 g",
+            "cholesterolContent": "192.9 mg",
+            "fatContent": "65.4 g",
+            "fiberContent": "10.4 g",
+            "proteinContent": "34.6 g",
+            "saturatedFatContent": "33.2 g",
+            "servingSize": null,
+            "sodiumContent": "1000.1 mg",
+            "sugarContent": "15.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-11-19T11:32:35.707Z",
+                "reviewBody": "Excellent! Used bacon and it was perfect! Elegant yet simple just as a recipe should be.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2018-10-22T19:45:33.64Z",
+                "reviewBody": "i am the submitter of this recipe. Missing in the recipe is:: 1 cup heavy cream. Also It is Pancetta or bacon. Lastly add the cream and mix well remove from heat.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "manella",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/9246227/"
+                }
+            }
+        ]
+    }
+]

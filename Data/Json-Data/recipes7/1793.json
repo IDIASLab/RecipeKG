@@ -1,0 +1,157 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/133/drinks/cocktails/",
+                    "name": "Cocktail Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1744/drinks/cocktails/whiskey-drinks/",
+                    "name": "Whiskey Drinks Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/130748/holiday-manhattan/",
+        "name": "Holiday Manhattan",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1897138.jpg",
+            "width": 2448,
+            "height": 3264
+        },
+        "datePublished": "2020-06-19T03:26:51.000Z",
+        "description": "This recipe is definitely not traditional - except in my family.  It is sweet, and meant to be!  You will have to do the math for single servings, this is the way I got it from my Grandfather, who always made a batch (or two) for the Holidays.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "3 pints",
+        "recipeIngredient": [
+            "\u00be cup white sugar",
+            "\u00bc cup hot water",
+            "1 (750 milliliter) bottle bourbon whiskey",
+            "1\u2009\u00bc cups sweet vermouth",
+            "\u00bc cup cherry juice",
+            "2 teaspoons aromatic bitters",
+            "12 maraschino cherries"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Dissolve the sugar in hot water in a large pitcher.  Stir in the whiskey, vermouth, cherry juice and bitters. Serve in glasses over ice and garnish with a maraschino cherry.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Cocktail Recipes",
+            "Whiskey Drinks Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "yummyinthetummy"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Holiday Manhattan",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "264.6 calories",
+            "carbohydrateContent": "19.9 g",
+            "cholesterolContent": "0 mg",
+            "fatContent": "0 g",
+            "fiberContent": "0 g",
+            "proteinContent": "0.1 g",
+            "saturatedFatContent": "0 g",
+            "servingSize": null,
+            "sodiumContent": "3.9 mg",
+            "sugarContent": "15.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2011-12-17T14:07:50.82Z",
+                "reviewBody": "This recipe reads like that for a very sweet Manhattan. I scaled it down to one drink and as promisedit WAS very sweet so not fair of me to judge. (The hot water is there to melt the sugar I imagine). If you omit the sugar and sub grenadine (maraschino cherry \"juice\") that actually might lesson the toothache factor. I'm a sucker for a Bourbon Manhattan so this is a fun recipe to toy with!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Rosie Myres",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2141102/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2015-01-01T23:52:55.62Z",
+                "reviewBody": "The hubs....aka the Manhattan King....loved it. The bitters do help with the extra sugar. Added extra cherry juice just for his personal preference.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Arizona Desert Flower",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/arizonadesertflower/"
+                }
+            }
+        ]
+    }
+]

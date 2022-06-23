@@ -1,0 +1,163 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/156/bread/",
+                    "name": "Bread",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/360/bread/quick-bread/",
+                    "name": "Quick Bread Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/359/bread/quick-bread/fruit-bread/",
+                    "name": "Fruit Bread Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/257432/date-almond-and-yogurt-bread/",
+        "name": "Date, Almond, and Yogurt Bread",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4497302.jpg",
+            "width": 2083,
+            "height": 2083
+        },
+        "datePublished": "2020-06-19T04:20:27.000Z",
+        "description": "Date, almond, and yogurt bread.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H55M",
+        "totalTime": "P0DT1H10M",
+        "recipeYield": "1 6-inch cake",
+        "recipeIngredient": [
+            "\u00be cup slivered almonds",
+            "1 cup white sugar",
+            "\u00bd cup butter, softened",
+            "\u00be cup whole milk yogurt",
+            "2 eggs",
+            "2 cups all-purpose flour",
+            "1 teaspoon baking soda",
+            "1 teaspoon ground nutmeg",
+            "\u00bd teaspoon salt",
+            "1 cup chopped dates"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat oven to 350 degrees F (175 degrees C). Grease a 6-inch baking pan.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Spread almonds on a baking sheet.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Toast almonds in the preheated oven until they turn golden brown and become fragrant, about 5 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine sugar and butter in a large bowl; beat with an electric mixer until creamy. Beat in  yogurt and eggs. Mix in flour, baking soda, nutmeg, and salt. Fold 1/2 cup toasted almonds and dates into the batter.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour batter into the prepared pan. Top with remaining 1/4 cup toasted almonds.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated oven until a toothpick inserted into the center comes out clean, 50 to 60 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Bread",
+            "Quick Bread Recipes",
+            "Fruit Bread Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "EasterBunny"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Date, Almond, and Yogurt Bread",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "470.3 calories",
+            "carbohydrateContent": "68.9 g",
+            "cholesterolContent": "80 mg",
+            "fatContent": "19.2 g",
+            "fiberContent": "3.6 g",
+            "proteinContent": "8.4 g",
+            "saturatedFatContent": "8.7 g",
+            "servingSize": null,
+            "sodiumContent": "414.7 mg",
+            "sugarContent": "40.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-03-25T19:44:20.96Z",
+                "reviewBody": "This was pretty good. I didn't have plain yogurt on hand so I used a container of greek vanilla yogurt sour cream to make the 3/4 cup needed for the recipe. The bread was a little on the sweet side I'm sure due to the sugar in the yogurt that I used so next time I'd cut back on the sugar a bit if using flavored yogurt. I do want to mention that this made (2) 7\" x 3\" loaves. I was a little thrown off by the 6\" pan requirement. My full size loaf pans are more like 8.5\" x 4.5\" x 3\" which would be the size needed for this recipe if making a full size loaf instead of the two smaller loaves that I made.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Kim's Cooking Now",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/kimscookingnow/"
+                }
+            }
+        ]
+    }
+]

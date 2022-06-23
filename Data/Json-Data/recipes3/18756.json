@@ -1,0 +1,112 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/81/side-dish/",
+                    "name": "Side Dish",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/270768/saffron-israeli-couscous/",
+        "name": "Saffron Israeli Couscous",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Saffron Israeli Couscous"
+        },
+        "datePublished": "2019-03-08T09:11:39.000Z",
+        "description": "Easy, fragrant side dish of Israeli couscous. Great with grilled meat or fish!",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H25M",
+        "totalTime": "P0DT0H45M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "\u00bd cup dry white wine",
+            "1 pinch saffron threads",
+            "2 tablespoons olive oil",
+            "2 cups pearl (Israeli) couscous",
+            "3 cups chicken broth, or more as needed",
+            "1\u2009\u00bd teaspoons salt"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Pour white wine into a small bowl; add saffron. Let soak, about 10 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat olive oil in a 4-quart pot over medium heat until shimmering. Add couscous and stir until toasted, about 3 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Carefully stir in saffron-infused wine, chicken broth, and salt. Bring to a boil over high heat. Reduce heat to low and cover; cook until liquid is absorbed, 15 to 20 minutes. Add more broth if couscous starts to stick to the bottom and cooking is not yet complete.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Remove from heat and let stand for 5 minutes, covered, before serving.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Side Dish"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Sarah"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Saffron Israeli Couscous",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "381.7 calories",
+            "carbohydrateContent": "60 g",
+            "cholesterolContent": "4.5 mg",
+            "fatContent": "7.7 g",
+            "fiberContent": "3.8 g",
+            "proteinContent": "10.5 g",
+            "saturatedFatContent": "1 g",
+            "servingSize": null,
+            "sodiumContent": "1754.3 mg",
+            "sugarContent": "1.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

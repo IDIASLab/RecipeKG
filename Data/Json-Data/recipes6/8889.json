@@ -1,0 +1,166 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/248/main-dish/burgers/",
+                    "name": "Burger Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/473/main-dish/burgers/hamburgers/",
+                    "name": "Hamburgers",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/279870/air-fryer-cheeseburgers/",
+        "name": "Air Fryer Cheeseburgers",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7998365.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-05-05T02:51:15.000Z",
+        "description": "I like the fact that by air frying my burgers I avoid grease splattering all over my stove top. I make 1/2-pound burger patties but you can easily make them into four 1/4-pound patties. Serve with all the fixings on the side.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H20M",
+        "totalTime": "P0DT0H30M",
+        "recipeYield": "2 8-ounce cheeseburgers",
+        "recipeIngredient": [
+            "1 slice white sandwich bread",
+            "1\u2009\u00bd tablespoons low-fat milk",
+            "\u00bd teaspoon garlic powder",
+            "\u00bd teaspoon salt",
+            "\u00bc teaspoon ground black pepper",
+            "1 pound ground beef",
+            "2 slices Cheddar cheese",
+            "2 brioche buns, halved"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat the air fryer to 350 degrees F (175 degrees C).\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cut crust off sandwich bread and tear bread into small pieces. Mix with milk, garlic powder, salt, and pepper in a bowl until well incorporated. Add ground beef and mix well. Shape into 2 equal patties. Make an indentation in the center of each patty with your thumb; this prevents them from puffing up.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place in the air fryer basket and cook for 8 to 10 minutes. Flip patties over and continue cooking on the second side, 8 to 10 minutes more. Top each patty with cheese and place back in the air fryer until cheese has started to melt, 20 to 30 seconds. Place on buns.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Burger Recipes",
+            "Hamburgers"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Yoly"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.75,
+            "ratingCount": 4,
+            "itemReviewed": "Air Fryer Cheeseburgers",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "821.7 calories",
+            "carbohydrateContent": "42.2 g",
+            "cholesterolContent": "241 mg",
+            "fatContent": "47.2 g",
+            "fiberContent": "1.5 g",
+            "proteinContent": "54 g",
+            "saturatedFatContent": "19.1 g",
+            "servingSize": null,
+            "sodiumContent": "1280.7 mg",
+            "sugarContent": "7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-12-08T22:05:19.78Z",
+                "reviewBody": "Made 1/4 lb. patties &cooked 4 min each side. Perfect burgers. Will do this again often!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Jeff",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/23503493/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2020-05-16T01:04:03.433Z",
+                "reviewBody": "No changes and yes I'd make it again.  Quick & easy cleanup!  Love recipes for the airfrier!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Middy Church",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/15011821/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,166 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/362/desserts/cookies/",
+                    "name": "Cookies",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/16394/desserts/cookies/drop-cookies/",
+                    "name": "Drop Cookie Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/9705/sesame-wafers/",
+        "name": "Sesame Wafers",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Sesame Wafers"
+        },
+        "datePublished": "2008-06-30T23:10:59.000Z",
+        "description": "These may take some practice...bake a few to test the baking time and removal from cookie sheet.",
+        "prepTime": null,
+        "cookTime": null,
+        "totalTime": null,
+        "recipeYield": "3 dozen",
+        "recipeIngredient": [
+            "\u00bd cup sesame seeds",
+            "1 tablespoon butter",
+            "1 cup packed brown sugar",
+            "3 tablespoons all-purpose flour",
+            "1 pinch salt",
+            "1 teaspoon vanilla extract",
+            "1 egg"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat oven to 350 degrees F (175 degrees C).  Grease and flour  cookie sheets.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place sesame seeds in small saucepan and stir or shake them over moderate heat until slightly brown. Remove from heat and stir in butter, brown sugar, egg and vanilla. Mix in flour, egg and salt. Drop by teaspoonfuls onto cookie sheets about 2 inches apart.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake until just brown, 4 to 6 minutes. Remove from cookie sheets while still warm.  If  cookies are hard to remove, reheat for 30 seconds.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Cookies",
+            "Drop Cookie Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Sassy"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.333333333333333,
+            "ratingCount": 3,
+            "itemReviewed": "Sesame Wafers",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "42.2 calories",
+            "carbohydrateContent": "7 g",
+            "cholesterolContent": "6 mg",
+            "fatContent": "1.5 g",
+            "fiberContent": "0.3 g",
+            "proteinContent": "0.6 g",
+            "saturatedFatContent": "0.4 g",
+            "servingSize": null,
+            "sodiumContent": "6.2 mg",
+            "sugarContent": "6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2005-08-01T00:17:44.373Z",
+                "reviewBody": "They do take practice but the recipe is perfect. My teenaged brother made sesame wafers last Christmas and I absolutely loved them! This recipe was quick delicious and brought back some pleasant memories. I used parchment paper instead of greasing / flouring and after cooling for a few minutes I simply lifted the paper and peeled it from the wafers.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "J",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/900475/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2009-09-21T23:49:16.63Z",
+                "reviewBody": "Not quite the recipe I was looking for but very tasty light cookie. I baked mine on foil (the dull side) left them overnight and they peeled off easily. Great quick morning snack for teens!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Karen Noles",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2405499/"
+                }
+            }
+        ]
+    }
+]

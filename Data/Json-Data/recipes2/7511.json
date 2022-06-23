@@ -1,0 +1,166 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/211/salad/fruit-salads/",
+                    "name": "Fruit Salad Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/254497/cream-cheese-grapes/",
+        "name": "Cream Cheese Grapes",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3740572.jpg",
+            "width": 2653,
+            "height": 2421
+        },
+        "datePublished": "2016-07-02T05:25:31.000Z",
+        "description": "This is a sweet side dish that works perfectly at a pot-luck picnic. Everyone always loves it!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT2H10M",
+        "recipeYield": "7 cups",
+        "recipeIngredient": [
+            "2 cups cream cheese",
+            "1 cup agave nectar",
+            "3 cups seedless green grapes",
+            "3 cups seedless red grapes",
+            "2 cups walnuts"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Mix cream cheese and agave nectar together in a large bowl. Stir in green grapes, red grapes, and walnuts.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Refrigerate cream cheese mixture for at least 2 hours before serving.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad",
+            "Fruit Salad Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Alison"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 4,
+            "itemReviewed": "Cream Cheese Grapes",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "326.4 calories",
+            "carbohydrateContent": "33.3 g",
+            "cholesterolContent": "36.5 mg",
+            "fatContent": "21.3 g",
+            "fiberContent": "2.8 g",
+            "proteinContent": "5.1 g",
+            "saturatedFatContent": "8.3 g",
+            "servingSize": null,
+            "sodiumContent": "99.8 mg",
+            "sugarContent": "29.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2016-07-11T09:02:09.13Z",
+                "reviewBody": "I basically cut the recipes in half using a pound and a half of green grapes and 2 sliced banana since I did not have red grapes. I also substituted half a cup of pecans in place of 1 cup of walnuts and added a tsp of vanilla. It was good but I prefer cream cheese - sour cream dressing instead of a straight cream cheese dressing.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Yoly",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/cookingbikerchick/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2018-02-27T11:15:50.207Z",
+                "reviewBody": "some changes I live by myself so I cut it down some loved it",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Pat Underwood",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/12039406/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2017-06-09T07:48:44.567Z",
+                "reviewBody": "Way too much of the cream cheese and agave nectar. The grapes and nuts were drowning in it. Might make it again with brown sugar but might not.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Frh",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/17954998/"
+                }
+            }
+        ]
+    }
+]

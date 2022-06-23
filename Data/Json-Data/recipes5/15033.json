@@ -1,0 +1,159 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/237/world-cuisine/latin-american/",
+                    "name": "Latin American",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/728/world-cuisine/latin-american/mexican/",
+                    "name": "Mexican",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/278355/burritos-with-mexican-chorizo-and-potatoes/",
+        "name": "Burritos with Mexican Chorizo and Potatoes",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7889736.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-02-14T07:27:53.000Z",
+        "description": "Great for busy schedules! Spicy Mexican chorizo gets wrapped up burrito-style with onion, garlic, and potatoes. My family likes to top these with sour cream to offset the heat.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H30M",
+        "totalTime": "P0DT0H45M",
+        "recipeYield": "8 burritos",
+        "recipeIngredient": [
+            "12 ounces Mexican chorizo, crumbled",
+            "1 medium onion, chopped",
+            "2 large potatoes, peeled and cut into small cubes",
+            "\u00bc cup water",
+            "1 clove garlic, crushed",
+            "8 flour tortillas, warmed"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine chorizo and onion in a large skillet over medium heat. Cook and stir until onion is soft, about 5 minutes. Add potatoes, water, and garlic; stir well. Cover and reduce heat to medium-low. Cook, stirring every 10 minutes, until potatoes are tender, about 25 minutes. Remove from heat and spoon into warm tortillas.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Latin American",
+            "Mexican"
+        ],
+        "recipeCuisine": [
+            "Latin American",
+            "Mexican"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Lumielle"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Burritos with Mexican Chorizo and Potatoes",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "354 calories",
+            "carbohydrateContent": "45.7 g",
+            "cholesterolContent": "36.4 mg",
+            "fatContent": "13.1 g",
+            "fiberContent": "3.9 g",
+            "proteinContent": "12.9 g",
+            "saturatedFatContent": "0.9 g",
+            "servingSize": null,
+            "sodiumContent": "574.8 mg",
+            "sugarContent": "1.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-04-14T04:46:51.477Z",
+                "reviewBody": "It was really delish and East to make. I did put it in the oven with cheese on top of tortillas for a few minutes, but other than that no changes. Served it to picky eater company and they lived it. Will make it again and again.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Vickie Galpin",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/8591435/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2020-04-01T07:38:24.837Z",
+                "reviewBody": "Simple and good. Serve with a side of eggs and you have a complete meal. After all, chorizo and eggs go together like salt and pepper.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

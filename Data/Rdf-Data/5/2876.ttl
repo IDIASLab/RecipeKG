@@ -1,0 +1,60 @@
+@prefix ns1: <http://purl.org/heals/food/> .
+@prefix ns2: <http://purl.org/recipekg/> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/instant-pot-citrus-extract> a schema:Recipe ;
+    ns1:hasIngredient [ a <http://purl.org/recipekg/ingredient/Lemon> ;
+            ns2:hasQuantity "3" ;
+            ns2:ingredientName "lemon" ],
+        [ a <http://purl.org/heals/ingredient/Water> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "water" ],
+        [ a <http://purl.org/recipekg/ingredient/Orange> ;
+            ns2:hasQuantity "1" ;
+            ns2:ingredientName "orange" ],
+        [ a <http://purl.org/recipekg/ingredient/Lime> ;
+            ns2:hasQuantity "2" ;
+            ns2:ingredientName "lime" ],
+        [ a <http://purl.org/recipekg/ingredient/Vodka> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "vodka" ] ;
+    ns2:belongsTo <http://purl.org/recipekg/categories/everyday-cooking/> ;
+    ns2:hasFSAScore 4 ;
+    ns2:hasNutritionalInformation [ a ns2:NutritionalInformation ;
+            ns2:hasCalorificData [ a ns2:CalorificData ;
+                    ns2:hasAmount "18.2"^^xsd:float ;
+                    ns2:hasUnit "calories" ] ;
+            ns2:hasCarbohydrateData [ a ns2:CarbohydrateData ;
+                    ns2:hasAmount "1.7"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasFiberData [ a ns2:FiberData ;
+                    ns2:hasAmount "0.6"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasProteinData [ a ns2:ProteinData ;
+                    ns2:hasAmount "0.2"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasSodiumData [ a ns2:SodiumData ;
+                    ns2:hasAmount "0.5"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSAGreen ;
+                    ns2:hasUnit "mg" ] ;
+            ns2:hasSugarData [ a ns2:SugarData ;
+                    ns2:hasAmount "0.4"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSAGreen ;
+                    ns2:hasUnit "g" ] ] ;
+    ns2:hasUSDAScore 3 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 1 ;
+            schema:ratingValue "1"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2019-12-17T01:22:11.000Z"^^schema:date ;
+    schema:name "Instant Pot&reg; Citrus Extract"^^xsd:string ;
+    schema:recipeYield "40 servings"^^xsd:string .
+
+<http://purl.org/recipekg/categories/everyday-cooking/> a ns2:RecipeCategory .
+
+ns2:FSAGreen a ns2:FSAColor .
+

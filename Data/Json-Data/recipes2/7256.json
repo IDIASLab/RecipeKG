@@ -1,0 +1,117 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/244823/a-spiritful-hot-chocolate/",
+        "name": "A Spiritful Hot Chocolate",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2548003.jpg",
+            "width": 1554,
+            "height": 1554
+        },
+        "datePublished": "2016-06-11T13:01:32.000Z",
+        "description": "Just drop a Peeps&reg; marshmallow ghost into your favorite hot chocolate! I must say, I was taken by surprise at just how good that little ghost tasted after floating in the hot chocolate! It's a great way to warm up after a night of trick or treating!  A must have for a Halloween party!",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H2M",
+        "totalTime": "P0DT0H7M",
+        "recipeYield": "1 serving",
+        "recipeIngredient": [
+            "1 cup milk",
+            "2 tablespoons hot chocolate mix",
+            "1 ounce brandy",
+            "1 marshmallow ghosts (such as Peeps\u00ae)"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Microwave milk in a microwave-safe cup until hot, about 1 1/2 minutes; stir in hot chocolate mix. Stir brandy into hot chocolate and top with marshmallow ghost.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "SHORECOOK"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "A Spiritful Hot Chocolate",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "296.8 calories",
+            "carbohydrateContent": "31.8 g",
+            "cholesterolContent": "19.5 mg",
+            "fatContent": "5.4 g",
+            "fiberContent": "0.6 g",
+            "proteinContent": "9.4 g",
+            "saturatedFatContent": "3.4 g",
+            "servingSize": null,
+            "sodiumContent": "183.5 mg",
+            "sugarContent": "21.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2016-10-15T08:44:22.93Z",
+                "reviewBody": "I'm the submitter of this recipe and I would like to point out that any favorite \"spirit\" may be used in place of brandy. Thank you to all who try my recipe and have a safe Halloween.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "SHORECOOK",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/shorecook/"
+                }
+            }
+        ]
+    }
+]

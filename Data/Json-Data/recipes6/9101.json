@@ -1,0 +1,137 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/95/pasta-and-noodles/",
+                    "name": "Pasta and Noodles",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/530/pasta-and-noodles/noodles/",
+                    "name": "Noodle Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/280104/easy-ginger-scallion-ramen-noodles/",
+        "name": "Easy Ginger-Scallion Ramen Noodles",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8080538.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-05-09T06:33:02.000Z",
+        "description": "Discard that season packet and toss those instant noodles in a homemade sauce. I like to top mine with a fried egg and a squirt of Sriracha for a complete meal.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H25M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "6 scallions, chopped",
+            "1 tablespoon peeled and grated fresh ginger root",
+            "1 tablespoon toasted sesame oil",
+            "2 teaspoons soy sauce",
+            "1 teaspoon rice wine vinegar",
+            "3 (3 ounce) packages ramen noodles, without flavor packets"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine scallions, ginger, sesame oil, soy sauce, and rice wine vinegar in a bowl. Stir until combined and refrigerate for 10 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bring a large pot of water to a boil. Add noodles and boil for 3 minutes. Turn heat off and let sit for 1 minute.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Drain noodles and transfer to a large bowl. Add reserved sauce mixture and toss to coat.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Pasta and Noodles",
+            "Noodle Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Soup Loving Nicole"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Easy Ginger-Scallion Ramen Noodles",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "207.3 calories",
+            "carbohydrateContent": "26.4 g",
+            "cholesterolContent": null,
+            "fatContent": "9.4 g",
+            "fiberContent": "0.4 g",
+            "proteinContent": "4.4 g",
+            "saturatedFatContent": "3.9 g",
+            "servingSize": null,
+            "sodiumContent": "292.2 mg",
+            "sugarContent": "0.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-07-22T22:07:15.78Z",
+                "reviewBody": "So easy and so good!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Angie Foust",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2561951/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,139 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1642/everyday-cooking/",
+                    "name": "Everyday Cooking",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/239477/creamy-wild-rice-breakfast/",
+        "name": "Creamy Wild Rice Breakfast",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2891326.jpg",
+            "width": 2272,
+            "height": 1704
+        },
+        "datePublished": "2018-09-20T13:02:52.000Z",
+        "description": "Thick and hearty, creamy and good, perfect for a winter breakfast with the family. Use good-quality long-grain wild rice, not broken or soup-grade.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "4 cups cooked wild rice ",
+            "\u00be cup dried cranberries",
+            "\u00bd cup chopped toasted hazelnuts",
+            "\u00bc cup maple syrup",
+            "1 cup heavy whipping cream"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Stir cooked rice, cranberries, hazelnuts, and maple syrup together in a heavy saucepan. Put saucepan over medium-high heat and cook until the mixture is heated through, about 3 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour cream over the rice mixture; stir. Continue cooking until the cream is heated, about 2 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Everyday Cooking"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Cherish Grabau"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.5,
+            "ratingCount": 2,
+            "itemReviewed": "Creamy Wild Rice Breakfast",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "583.7 calories",
+            "carbohydrateContent": "71 g",
+            "cholesterolContent": "81.5 mg",
+            "fatContent": "32 g",
+            "fiberContent": "4.1 g",
+            "proteinContent": "9.2 g",
+            "saturatedFatContent": "14.5 g",
+            "servingSize": null,
+            "sodiumContent": "140 mg",
+            "sugarContent": "27.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2015-01-05T21:26:34.32Z",
+                "reviewBody": "also good with fresh blueberries! (can do this with just wild rice and maple syrup with cranberries or blueberries and serve cold)",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Santos",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/15089791/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2015-11-29T15:43:03.53Z",
+                "reviewBody": "I was not crazy about this. I followed the recipe exactly but it just isn't something I would make again.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "thedailygourmet",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/thedailygourmet/"
+                }
+            }
+        ]
+    }
+]

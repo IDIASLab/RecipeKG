@@ -1,0 +1,160 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/81/side-dish/",
+                    "name": "Side Dish",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/917/side-dish/potatoes/",
+                    "name": "Potato",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1457/side-dish/potatoes/mashed-potatoes/",
+                    "name": "Mashed Potato Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/268730/cajun-mashed-potatoes/",
+        "name": "Cajun Mashed Potatoes",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5890101.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2018-10-18T08:07:24.000Z",
+        "description": "This is a Cajun-spiced version of the classic mashed potatoes.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H25M",
+        "totalTime": "P0DT0H35M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "3 large russet potatoes, peeled",
+            "3 tablespoons margarine",
+            "1 tablespoon Creole seasoning (such as Tony Chachere's\u00ae)",
+            "2 teaspoons salt",
+            "2 teaspoons ground black pepper",
+            "\u00bd cup milk, or more as needed"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place potatoes into a large pot and cover with salted water; bring to a boil. Reduce heat to medium-low and simmer until easily pierced with a fork, about 20 minutes. Drain.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Add margarine, Creole seasoning, salt, and pepper to the pot. Beat together, gradually adding milk, until potatoes reach a whipped consistency.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Side Dish",
+            "Potato",
+            "Mashed Potato Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "TanFloridian"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.666666666666667,
+            "ratingCount": 3,
+            "itemReviewed": "Cajun Mashed Potatoes",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "306.8 calories",
+            "carbohydrateContent": "51.4 g",
+            "cholesterolContent": "2.4 mg",
+            "fatContent": "8.9 g",
+            "fiberContent": "6.5 g",
+            "proteinContent": "7 g",
+            "saturatedFatContent": "1.8 g",
+            "servingSize": null,
+            "sodiumContent": "1640.9 mg",
+            "sugarContent": "3.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-12-17T02:45:09.693Z",
+                "reviewBody": "It came out awesome!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Priscila Roman",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/24747692/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2018-10-23T10:03:18.553Z",
+                "reviewBody": "Simple and straight forward just how mashed potatoes should be. I do recommend using butter instead of margarine.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

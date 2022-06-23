@@ -1,0 +1,144 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17743/main-dish/rice/",
+                    "name": "Rice",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/16244/main-dish/rice/beans-and-rice/",
+                    "name": "Beans and Rice Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/261108/red-beans-with-rice/",
+        "name": "Red Beans with Rice",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5230377.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2019-04-04T04:10:14.000Z",
+        "description": "This is a family recipe that my mom taught me. Down South you'll find rice with a lot of dishes, and this recipe will complement any dish!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT1H21M",
+        "totalTime": "P0DT1H36M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "3 cups water",
+            "1 cup dried red beans, rinsed",
+            "1 tablespoon extra-virgin olive oil, or as needed",
+            "3 cloves garlic, minced",
+            "2\u2009\u00bd cups brown rice",
+            "\u00bd (1.41 ounce) package sazon seasoning (such as Goya\u00ae), or to taste",
+            "salt to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place water and red beans in a pressure cooker. Close cooker securely and place pressure regulator over vent according to manufacturer's instructions. Adjust heat until regulator is gently rocking. Cook at high pressure for 30 minutes. Let pressure release naturally according to manufacturer's instructions, 5 to 10 minutes; unlock and remove lid.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat oil in a saucepan over medium heat. Cook and stir garlic until browned, 2 to 3 minutes. Add the water and beans from the pressure cooker. Stir in sazon seasoning and salt. Reduce heat to low; cook until flavors combine, about 3 minutes. Add rice. Cover and simmer until rice is tender and liquid has been absorbed, 45 to 50 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Rice",
+            "Beans and Rice Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Natalia"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Red Beans with Rice",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "214.8 calories",
+            "carbohydrateContent": "37.6 g",
+            "cholesterolContent": null,
+            "fatContent": "3.2 g",
+            "fiberContent": "9.1 g",
+            "proteinContent": "9.4 g",
+            "saturatedFatContent": "0.5 g",
+            "servingSize": null,
+            "sodiumContent": "541.1 mg",
+            "sugarContent": "1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-03-17T23:12:24.323Z",
+                "reviewBody": "I don't have a pressure cooker so I cooked my beans on the stove the day before I planned to make this recipe. This was simple and turned out really good. I went ahead and added the entire packet of sazon which was a must in my opinion. It could probably use two actually. I'm thinking you could probably even use canned beans to save time as long as you drained and rinsed them real good. This is a great side that would work well with many different main dishes.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

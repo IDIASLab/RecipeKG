@@ -1,0 +1,155 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/231/world-cuisine/european/",
+                    "name": "European",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/719/world-cuisine/european/belgian/",
+                    "name": "Belgian",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/281825/moms-belgian-waffles/",
+        "name": "Mom's Belgian Waffles",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Mom's Belgian Waffles"
+        },
+        "datePublished": "2015-09-06T23:51:48.000Z",
+        "description": "My mom's recipe for homemade Belgian waffles. They're delicious.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "2 cups all-purpose flour",
+            "1 teaspoon baking soda",
+            "\u00bd teaspoon salt",
+            "2 cups buttermilk",
+            "\u00bc cup unsalted butter, melted and cooled to room temperature",
+            "2 large eggs, separated, divided"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Stir flour, baking soda, and salt together in a large bowl. Whisk buttermilk, melted butter, and egg yolks together in a separate bowl. Pour buttermilk mixture into the flour mixture; stir to combine.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Preheat a Belgian waffle iron according to manufacturer's instructions.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Beat egg whites in a glass, metal, or ceramic bowl until stiff; fold into the waffle batter.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour batter into the center of the hot waffle iron and cook until golden brown, about 2 minutes per waffle or according to manufacturer's instructions.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "European",
+            "Belgian"
+        ],
+        "recipeCuisine": [
+            "European",
+            "Belgian"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "SouthernNerdMom"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Mom's Belgian Waffles",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "414 calories",
+            "carbohydrateContent": "53.8 g",
+            "cholesterolContent": "128.4 mg",
+            "fatContent": "15.7 g",
+            "fiberContent": "1.7 g",
+            "proteinContent": "13.8 g",
+            "saturatedFatContent": "8.8 g",
+            "servingSize": null,
+            "sodiumContent": "851.9 mg",
+            "sugarContent": "6.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-12-19T05:13:25.89Z",
+                "reviewBody": "Delish, lv them",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Maretta Smith",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/20537621/"
+                }
+            }
+        ]
+    }
+]

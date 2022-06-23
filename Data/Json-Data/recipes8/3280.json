@@ -1,0 +1,148 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/237/world-cuisine/latin-american/",
+                    "name": "Latin American",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/728/world-cuisine/latin-american/mexican/",
+                    "name": "Mexican",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/273815/breakfast-tacos/",
+        "name": "Breakfast Tacos",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7073267.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-06-23T21:53:12.000Z",
+        "description": "A most delectable way to start your day! These tasty breakfast tacos will give you something to talk about.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H20M",
+        "recipeYield": "6 tacos",
+        "recipeIngredient": [
+            "2 tablespoons margarine",
+            "1 small onion, chopped",
+            "1 clove garlic, chopped",
+            "6 eggs, beaten",
+            "\u00bd cup salsa picante, divided",
+            "\u00bc teaspoon ground cumin",
+            "1 cup shredded Cheddar cheese",
+            "6 corn tortillas, warmed"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat margarine over medium heat in a skillet. Cook and stir onion and garlic in the hot skillet until tender, 3 to 4 minutes. Add eggs, 1/4 cup salsa, and cumin; scramble until set, 3 to 4 minutes. Stir in Cheddar cheese.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Spoon eggs evenly into tortillas; fold and top with remaining 1/4 cup salsa.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Latin American",
+            "Mexican"
+        ],
+        "recipeCuisine": [
+            "Latin American",
+            "Mexican"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "R H"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Breakfast Tacos",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "255.4 calories",
+            "carbohydrateContent": "14.9 g",
+            "cholesterolContent": "187.8 mg",
+            "fatContent": "16.3 g",
+            "fiberContent": "2.2 g",
+            "proteinContent": "13.3 g",
+            "saturatedFatContent": "7 g",
+            "servingSize": null,
+            "sodiumContent": "387.6 mg",
+            "sugarContent": "1.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-09-24T06:42:12.497Z",
+                "reviewBody": "A fun treat for brunch\nWorked out well\nWill make again",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Dennis Tobin",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/22047102/"
+                }
+            }
+        ]
+    }
+]

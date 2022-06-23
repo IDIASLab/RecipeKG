@@ -1,0 +1,34 @@
+@prefix ns1: <http://purl.org/recipekg/> .
+@prefix ns2: <http://purl.org/heals/food/> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/how-to-make-cronuts-part-ii> a schema:Recipe ;
+    ns2:hasIngredient [ a <http://purl.org/recipekg/ingredient/Confectioners'Sugar> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "confectioners' sugar" ],
+        [ a <http://purl.org/recipekg/ingredient/GrapeseedOil> ;
+            ns1:hasQuantity "6" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "grapeseed oil" ],
+        [ a <http://purl.org/heals/ingredient/VanillaExtract> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "vanilla extract" ],
+        [ a <http://purl.org/recipekg/ingredient/Milk> ;
+            ns1:hasQuantity "1 1/2" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "milk" ] ;
+    ns1:belongsTo <http://purl.org/recipekg/categories/bread/> ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 13 ;
+            schema:ratingValue "4.538461538461538"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2013-09-09T19:45:17.000Z"^^schema:date ;
+    schema:name "How to Make Cronuts, Part II"^^xsd:string ;
+    schema:recipeYield "14 cronuts"^^xsd:string .
+
+<http://purl.org/recipekg/categories/bread/> a ns1:RecipeCategory .
+

@@ -1,0 +1,130 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/211/salad/fruit-salads/",
+                    "name": "Fruit Salad Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/237702/boozy-watermelon/",
+        "name": "Boozy Watermelon",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2296690.jpg",
+            "width": 2048,
+            "height": 1536
+        },
+        "datePublished": "2020-06-20T01:50:49.000Z",
+        "description": "A quick way to liven up some watermelon. It makes a refreshing and intoxicating pool-side snack. Use toothpicks to serve out of the container or arrange on a pretty plate.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT2H10M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "1 small watermelon, cut into 1-inch pieces",
+            "1 cup cachaca (Brazilian sugar cane spirit)",
+            "2 tablespoons turbinado sugar, or to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place watermelon in a non-reactive container with a tight-fitting lid. Add cachaca and sugar. Cover container with the lid and shake until watermelon is coated and sugar is dissolved.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Refrigerate watermelon until watermelon is fully infused, 2 hours to overnight. Shake mixture again before serving.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad",
+            "Fruit Salad Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Lisa Combest"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Boozy Watermelon",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "174.2 calories",
+            "carbohydrateContent": "21.1 g",
+            "cholesterolContent": null,
+            "fatContent": "0.3 g",
+            "fiberContent": "0.9 g",
+            "proteinContent": "1.4 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "4.3 mg",
+            "sugarContent": "18 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2015-05-28T04:21:45.907Z",
+                "reviewBody": "This was so easy! What a wonderful treat to nibble by the pool on a hot summer day. I froze the leftovers and ate the frozen cubes too. I think I like the frozen better in fact. Thanks for sharing this delightfully refreshing snack Lisa Combest.I will make it all summer!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "mauigirl",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/mauigirl1/"
+                }
+            }
+        ]
+    }
+]

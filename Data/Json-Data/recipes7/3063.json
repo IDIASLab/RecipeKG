@@ -1,0 +1,156 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/133/drinks/cocktails/",
+                    "name": "Cocktail Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1744/drinks/cocktails/whiskey-drinks/",
+                    "name": "Whiskey Drinks Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/160272/uncommonly-clyde/",
+        "name": "Uncommonly Clyde",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F61888.jpg",
+            "width": 250,
+            "height": 250
+        },
+        "datePublished": "2020-06-19T03:34:24.000Z",
+        "description": "We drink this year-round but invented it over the holidays, when we had mounds of homemade cranberry sauce in the fridge. It evolved from a Champagne and fresh berry compote drink that we saw being made at Portland's Clyde Common. We subbed bourbon and experimented until we arrived at this delicious mix.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "1 cocktail",
+        "recipeIngredient": [
+            "\u00bd cup crushed ice",
+            "1 tablespoon cranberry sauce (see below)",
+            "2 fluid ounces bourbon whiskey",
+            "\u00bd teaspoon brandy-based orange liqueur (such as Grand Marnier\u00ae)",
+            "2 dashes aromatic bitters",
+            "1 fluid ounce cold water"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Muddle the crushed ice and cranberry sauce in a rocks glass until the ice has been tinged red. Pour in the whiskey, orange liqueur, bitters, and water. Stir and serve.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Cocktail Recipes",
+            "Whiskey Drinks Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "c-biskit"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 4,
+            "itemReviewed": "Uncommonly Clyde",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "181.3 calories",
+            "carbohydrateContent": "9 g",
+            "cholesterolContent": "0 mg",
+            "fatContent": "0 g",
+            "fiberContent": "0.2 g",
+            "proteinContent": "0 g",
+            "saturatedFatContent": "0 g",
+            "servingSize": null,
+            "sodiumContent": "8.5 mg",
+            "sugarContent": "7.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2011-09-25T16:30:20.51Z",
+                "reviewBody": "I'm trying to watch my weight but still quench my thirst.... I deleted the cranberry sauce....",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "But it's my kitchen too",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/7737903/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2015-10-15T07:12:43.107Z",
+                "reviewBody": "Zz",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Neider",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/7839085/"
+                }
+            }
+        ]
+    }
+]

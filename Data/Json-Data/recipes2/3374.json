@@ -1,0 +1,145 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/143/breakfast-and-brunch/drinks/",
+                    "name": "Drinks",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/244479/pretend-youre-in-the-tropics-smoothie/",
+        "name": "Pretend You're in the Tropics Smoothie",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2387122.jpg",
+            "width": 1280,
+            "height": 960
+        },
+        "datePublished": "2015-07-09T21:24:24.000Z",
+        "description": "Banish the blahs with this slightly sweet, rich, healthy smoothie.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "1 banana, sliced",
+            "1 mango - peeled, seeded, and diced",
+            "1 (6 ounce) container coconut yogurt",
+            "6 fluid ounces 1% milk",
+            "1 tablespoon ground flax seed"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Blend banana, mango, coconut yogurt, milk, and ground flax seed in a blender until smooth.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Drinks"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "BigShotsMom"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Pretend You're in the Tropics Smoothie",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "219.2 calories",
+            "carbohydrateContent": "40.8 g",
+            "cholesterolContent": "3.7 mg",
+            "fatContent": "6.1 g",
+            "fiberContent": "6.1 g",
+            "proteinContent": "4.8 g",
+            "saturatedFatContent": "3.8 g",
+            "servingSize": null,
+            "sodiumContent": "54.8 mg",
+            "sugarContent": "18.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2015-07-10T09:12:10.563Z",
+                "reviewBody": "Here's to you BSM! A great recipe from a great person! Thank you.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Buckwheat Queen",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/melaniegiovenzana/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2015-07-11T03:44:57.68Z",
+                "reviewBody": "Thick creamy and delicious! The combination of fruity flavors is delicious. RIP BigShotsMom.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Molly",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/6145350/"
+                }
+            }
+        ]
+    }
+]

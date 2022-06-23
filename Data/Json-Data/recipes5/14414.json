@@ -1,0 +1,168 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/81/side-dish/",
+                    "name": "Side Dish",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/225/side-dish/vegetables/",
+                    "name": "Vegetables",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/244306/easy-fasolakia/",
+        "name": "Easy Fasolakia",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2354155.jpg",
+            "width": 3968,
+            "height": 2976
+        },
+        "datePublished": "2020-02-01T07:51:35.000Z",
+        "description": "Greek-style green beans with tomatoes and potatoes cooked in olive oil. This dish may be served warm or cold. As a nice option, top with crumbled feta cheese.",
+        "prepTime": "P0DT0H20M",
+        "cookTime": "P0DT1H15M",
+        "totalTime": "P0DT1H35M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "\u00bd cup extra-virgin olive oil, divided",
+            "1 white onion, chopped",
+            "2 (15 ounce) cans green beans, drained",
+            "2 (14.5 ounce) cans diced tomatoes in juice",
+            "3 red potatoes, cut into bite-size pieces",
+            "1\u2009\u00bd tablespoons dried mint",
+            "1 tablespoon parsley flakes",
+            "1 teaspoon salt, or to taste",
+            "1 teaspoon ground black pepper, or to taste",
+            "1 tablespoon water, or as needed",
+            "2 teaspoons garlic powder"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat 1/4 cup olive oil in a skillet over medium heat; cook and stir onion until tender, about 10 minutes. Mix remaining olive oil, green beans, tomatoes, potato, mint, parsley, salt, and pepper into onion, adding enough water to cover the whole mixture. Bring liquid to a boil, reduce heat to medium-low, and simmer until potatoes are tender, about 1 hour.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Side Dish",
+            "Vegetables"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Jimmy the Greek"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.333333333333333,
+            "ratingCount": 3,
+            "itemReviewed": "Easy Fasolakia",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "303.7 calories",
+            "carbohydrateContent": "28.2 g",
+            "cholesterolContent": null,
+            "fatContent": "19 g",
+            "fiberContent": "5.6 g",
+            "proteinContent": "4.7 g",
+            "saturatedFatContent": "2.7 g",
+            "servingSize": null,
+            "sodiumContent": "838.9 mg",
+            "sugarContent": "6.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2015-06-25T20:56:45.117Z",
+                "reviewBody": "I used the right ingredients but mine were fresh except for the tomatoes. I sauteed the onions and potatoes together so when the other ingredients were added everything only cooked a few more minutes. My chocolate mint really came out in this and I loved it! DH didn't notice there was mint in the dish! Great idea!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "sueb",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2719400/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2017-10-04T19:27:11.647Z",
+                "reviewBody": "Greeks don't make Fasolakia from a can. Use real string beans and snap off the ends first.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "savy",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/8463532/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2019-02-23T23:46:15.93Z",
+                "reviewBody": "Tomatoe paste.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Alexis Ballash",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/14126570/"
+                }
+            }
+        ]
+    }
+]

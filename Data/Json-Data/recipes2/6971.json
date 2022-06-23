@@ -1,0 +1,149 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/227/world-cuisine/asian/",
+                    "name": "Asian",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/696/world-cuisine/asian/filipino/",
+                    "name": "Filipino",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/232752/chicken-binakol/",
+        "name": "Chicken Binakol",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1017529.jpg",
+            "width": 1533,
+            "height": 1536
+        },
+        "datePublished": "2016-06-04T14:08:36.000Z",
+        "description": "This is a Filipino dish recipe that my mother taught me and I'd like to share with you. Enjoy.",
+        "prepTime": "P0DT0H20M",
+        "cookTime": "P0DT0H25M",
+        "totalTime": "P0DT0H45M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "2 tablespoons vegetable oil",
+            "2 small onions, quartered",
+            "3 lemon grass stalks, white parts only, cut into 1-inch pieces",
+            "1 (1 inch) piece fresh ginger, sliced ",
+            "4 cloves garlic, chopped",
+            "1 (3 pound) whole chicken, cut into 4 pieces",
+            "2 young coconuts, liquid only",
+            "1 chayote squash, diced",
+            "1 tablespoon fish sauce"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat vegetable oil in a large skillet over medium-high heat; cook and stir onions, lemon grass, ginger, and garlic until tender, about 5 minutes. Add chicken and fry until lightly browned, about 10 minutes, turning occasionally.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour coconut water into skillet and stir in chayote squash. Season with fish sauce. Continue to simmer until chicken is no longer pink in the center and juices run clear, about 10 minutes more.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Asian",
+            "Filipino"
+        ],
+        "recipeCuisine": [
+            "Asian",
+            "Filipino"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "beatriz"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Chicken Binakol",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "820.3 calories",
+            "carbohydrateContent": "14.5 g",
+            "cholesterolContent": "120.6 mg",
+            "fatContent": "70.5 g",
+            "fiberContent": "2.7 g",
+            "proteinContent": "31.4 g",
+            "saturatedFatContent": "19.1 g",
+            "servingSize": null,
+            "sodiumContent": "493 mg",
+            "sugarContent": "2.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2013-06-05T23:49:31.437Z",
+                "reviewBody": "This soup is delicious and filling. I added a bit more squash along with cayenne pepper soy sauce and red pepper flakes to spice it up. yummy if you want to volumize try adding chopped kale when you add the squash!! Thumbs up to Beatriz's mom!!!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Theresa Reese Nagel",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/9392718/"
+                }
+            }
+        ]
+    }
+]

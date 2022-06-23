@@ -1,0 +1,174 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/231/world-cuisine/european/",
+                    "name": "European",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/722/world-cuisine/european/german/",
+                    "name": "German",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/22891/lebkuchen-iii/",
+        "name": "Lebkuchen III",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Lebkuchen III"
+        },
+        "datePublished": "2000-10-07T18:40:46.000Z",
+        "description": "My mother's recipe.  They make good shipping cookies.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H12M",
+        "totalTime": "P0DT0H27M",
+        "recipeYield": "30 cookies",
+        "recipeIngredient": [
+            "1 egg",
+            "\u00bd cup brown sugar",
+            "\u00bd cup honey",
+            "\u00bd cup molasses",
+            "3 cups all-purpose flour",
+            "1\u2009\u00bc teaspoons ground cinnamon",
+            "\u00bd teaspoon ground nutmeg",
+            "\u00bd teaspoon ground cloves",
+            "\u00bd teaspoon ground allspice",
+            "\u00bd teaspoon baking soda",
+            "\u00bd cup chopped almonds",
+            "\u00bd cup chopped candied citron"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat oven to 350 degrees F (175 degrees C). Grease cookie sheets.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "In a  large bowl, beat the egg, brown sugar, honey and molasses until smooth. Combine the flour, cinnamon, nutmeg, cloves, allspice and baking soda; blend into the molasses mixture. Stir in the almonds and candied citron. Working with 1/4 of the dough at one time, roll out the dough on a lightly floured surface to 1/4 inch in thickness. Cut into desired shapes with cookie cutters. Place the cookies at least 1 inch apart onto prepared cookie sheets.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated oven for 10 to 12 minutes or until set. Cool on wire racks and store at room temperature in an airtight container.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "European",
+            "German"
+        ],
+        "recipeCuisine": [
+            "European",
+            "German"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Jeanne"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 4,
+            "itemReviewed": "Lebkuchen III",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "112.5 calories",
+            "carbohydrateContent": "24.3 g",
+            "cholesterolContent": "6.2 mg",
+            "fatContent": "1.1 g",
+            "fiberContent": "0.7 g",
+            "proteinContent": "1.9 g",
+            "saturatedFatContent": "0.2 g",
+            "servingSize": null,
+            "sodiumContent": "38.2 mg",
+            "sugarContent": "10.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2003-07-09T21:40:07.5Z",
+                "reviewBody": "This recipe is very similar to Betty Crocker's only it is best to bring honey and molassis to a boil (stir continuously) and then let it cool to room temp. first otherwise your molassis and honey don't blend properly making for a rock hard cookie (I know I tried the recipe!!!) My mom and I made Betty Crocker's and it came out fine...... so remeber boil honey and molassis first!!!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 1
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "COOKKID",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/549562/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2013-12-19T21:22:53.867Z",
+                "reviewBody": "They had too much of a molasses flavor and not the typical lebkuchen flavor.  I also baked them at 350 for 12 minutes - definitely not long enough.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 1
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Kathy S.",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2253345/"
+                }
+            }
+        ]
+    }
+]

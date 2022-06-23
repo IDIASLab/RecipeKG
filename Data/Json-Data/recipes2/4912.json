@@ -1,0 +1,142 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/2817/drinks/lemonade/",
+                    "name": "Lemonade Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/245790/radler/",
+        "name": "Radler",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3172399.jpg",
+            "width": 1650,
+            "height": 2438
+        },
+        "datePublished": "2016-01-07T17:49:33.000Z",
+        "description": "Radler means 'cyclist' in German, and this refreshing drink was invented in Germany in the late 19th or early 20th century as a way to refresh bicyclists worn out by the summer heat. It is a 50/50 or 60/40 mixture of beer and lemonade and is a delicious addition to the menu of your summer barbeque or party.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "6 cocktails",
+        "recipeIngredient": [
+            "6 (12 ounce) cans pilsner-style beer, or to taste",
+            "2 quarts prepared lemonade, or to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine beer and lemonade in a gallon-sized pitcher.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Lemonade Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Josh R"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Radler",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "285.3 calories",
+            "carbohydrateContent": "47.1 g",
+            "cholesterolContent": null,
+            "fatContent": "0.1 g",
+            "fiberContent": null,
+            "proteinContent": "1.9 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "27.5 mg",
+            "sugarContent": "33 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2016-01-25T16:25:14.22Z",
+                "reviewBody": "This was so refreshing! Really similar to a British Shandy. I used fresh lemonade as that is what I had. There were no complaints except when the glass was empty!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Arizona Desert Flower",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/arizonadesertflower/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2017-10-04T01:08:32.083Z",
+                "reviewBody": "Love this! Use wheat beer (weisbeer) for a rasser! I asked a bartender to make me one of these when I got home from Germany years ago and got a seriously dirty look. Now their all the rage just called shandy!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Jeanine Corina Hughes",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/22515017/"
+                }
+            }
+        ]
+    }
+]

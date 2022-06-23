@@ -1,0 +1,137 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/81/side-dish/",
+                    "name": "Side Dish",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17031/side-dish/sauces-and-condiments/",
+                    "name": "Sauces and Condiments",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/239491/checca/",
+        "name": "Checca",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2185383.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2018-06-08T14:16:56.000Z",
+        "description": "This recipe was originally meant to be a sauce for pasta. I was trying to replicate a recipe from a local restaurant. It is so good on slices of Italian bread.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": null,
+        "totalTime": "P0DT2H15M",
+        "recipeYield": "8 servings",
+        "recipeIngredient": [
+            "5 tomatoes, seeded and diced",
+            "\u00bd cup chopped fresh basil",
+            "\u00bd cup olive oil",
+            "4 cloves garlic, minced",
+            "salt to taste",
+            "2 tablespoons grated Parmesan cheese, or more to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Mix tomatoes, basil, olive oil, and garlic together in a large non-reactive bowl; season with salt.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cover bowl with plastic wrap and let mixture sit at room temperature until the flavors meld, 2 to 10 hours.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Stir Parmesan cheese into the tomato mixture just before serving.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Side Dish",
+            "Sauces and Condiments"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Sharon Denise"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Checca",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "144.2 calories",
+            "carbohydrateContent": "4.2 g",
+            "cholesterolContent": "1.1 mg",
+            "fatContent": "14.1 g",
+            "fiberContent": "1.2 g",
+            "proteinContent": "1.5 g",
+            "saturatedFatContent": "2.1 g",
+            "servingSize": null,
+            "sodiumContent": "24.4 mg",
+            "sugarContent": "2.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2015-03-30T00:10:47.677Z",
+                "reviewBody": "A familiar way in our family to dress pasta but a particular summertime favorite with garden fresh basil and tomatoes.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "naples34102",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/naples34102/"
+                }
+            }
+        ]
+    }
+]

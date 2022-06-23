@@ -1,0 +1,141 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/113/appetizers-and-snacks/pastries/",
+                    "name": "Pastries",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/229344/pear-and-blue-cheese-tarts/",
+        "name": "Pear and Blue Cheese Tarts",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F972465.jpg",
+            "width": 1724,
+            "height": 1728
+        },
+        "datePublished": "2019-04-02T06:58:57.000Z",
+        "description": "A lovely savory appetizer melding the classic flavors of pear and blue cheese. Delicious any time of the year, but a perfect addition to a harvest/autumn/Thanksgiving menu.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT1H0M",
+        "totalTime": "P0DT1H15M",
+        "recipeYield": "30 tarts",
+        "recipeIngredient": [
+            "1 tablespoon butter",
+            "4 large onions, thinly sliced",
+            "3 pears, finely diced",
+            "2 cups crumbled blue cheese",
+            "\u00be cup chopped walnuts",
+            "30 (2 inch) frozen miniature tart shells"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat butter in a large skillet over medium-high heat; cook and stir onions until brown, soft, and sweet, 40 to 45 minutes. Let onions cool for a few minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Preheat oven to 375 degrees F (190 degrees C). Remove tart shells from freezer and place on baking sheets lined with parchment paper.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine caramelized onions with pears, blue cheese, and walnuts in a large bowl. Spoon pear-blue cheese filling into still-frozen tart shells.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated oven until the filling is hot and melted and the pastry shells are lightly browned, 15 to 20 minutes. Serve warm or cooled.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks",
+            "Pastries"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Mitchipoo"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 3,
+            "itemReviewed": "Pear and Blue Cheese Tarts",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "196.9 calories",
+            "carbohydrateContent": "20.2 g",
+            "cholesterolContent": "7.8 mg",
+            "fatContent": "11.2 g",
+            "fiberContent": "1.1 g",
+            "proteinContent": "4.4 g",
+            "saturatedFatContent": "3.5 g",
+            "servingSize": null,
+            "sodiumContent": "200.7 mg",
+            "sugarContent": "6.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2013-03-04T00:08:08.467Z",
+                "reviewBody": "I admit it. I changed the recipe, but only because I was too lazy to make my own pie crust for tartlet shells. I used puff pastry instead. The filling was very nice, with the blue cheese and onions and pears really playing nicely together. I might suggest using half blue and half cream cheese to make the filling a bit creamier, but that's an opinion thing. I will make these again, and I might even make them as tartlets next time!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Doc Simonson",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/docsimonson/"
+                }
+            }
+        ]
+    }
+]

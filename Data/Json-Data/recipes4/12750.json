@@ -1,0 +1,154 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/156/bread/",
+                    "name": "Bread",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/360/bread/quick-bread/",
+                    "name": "Quick Bread Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/102744/yummy-matzo-rolls/",
+        "name": "Yummy Matzo Rolls",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F207528.jpg",
+            "width": 250,
+            "height": 250
+        },
+        "datePublished": "2019-04-04T03:34:49.000Z",
+        "description": "This is an Israeli recipe that my aunt made last Passover - everybody gobbled them up and asked for the recipe.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H40M",
+        "totalTime": "P0DT1H25M",
+        "recipeYield": "4 rolls",
+        "recipeIngredient": [
+            "2 cups water",
+            "1 teaspoon salt",
+            "\u00bc cup vegetable oil",
+            "\u00bc cup margarine",
+            "2 cups matzo cake meal",
+            "6 egg"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Bring the water to boil in a saucepan. Add the salt, oil and margarine. When it returns to a boil, gradually stir in the matzo meal, continuing to stir until the mixture becomes a solid lump. Remove from the heat and let cool slightly.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "When the mixture is cool, stir in the eggs until a smooth texture is achieved. Let stand for 30 minutes. Form into four balls and place on a greased baking pan.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Preheat the oven to 350 degrees F (175 degrees C). Bake the rolls for 30 minutes. Turn off the oven and leave the rolls inside for 10 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Bread",
+            "Quick Bread Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Maya"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.5,
+            "ratingCount": 2,
+            "itemReviewed": "Yummy Matzo Rolls",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "479.9 calories",
+            "carbohydrateContent": "34.5 g",
+            "cholesterolContent": "279 mg",
+            "fatContent": "32.8 g",
+            "fiberContent": "1.7 g",
+            "proteinContent": "14.6 g",
+            "saturatedFatContent": "6.4 g",
+            "servingSize": null,
+            "sodiumContent": "818.8 mg",
+            "sugarContent": "1.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2009-04-13T17:25:28.723Z",
+                "reviewBody": "As with many Passover foods these fall into the \"edible but only because I must\" category. They came out greasy and heavy. Maybe I did something wrong but I was hoping for something a little lighter that I could cut open and eat with tuna. These are more like balls of scrambled eggs with matzah meal mixed in. I would recommend making 6 or 8 smaller rolls and baking a little longer. They could use a little seasoning as well; maybe onion or garlic added with the eggs. Sitting in the oven helped crisp up the outsides and they are certainly filling but I will look for another recipe to try next Pesach.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 2
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Laura",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/1789910/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2011-07-02T15:48:51.417Z",
+                "reviewBody": "TO MAYA, YOU NEED TO ADD THE EGGS ONE AT A TIME AND MIX WELL AFTER EACH EGG AND YOU NEED TO DO IT WHILE IT STILL WARM , THE BEST WAY IS TO USE A MIXER .THIS WILL ADD AIR TO YOUR MIX JUST LIKE MAKING CREAM PUFFS.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "AVI1",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/1321524/"
+                }
+            }
+        ]
+    }
+]

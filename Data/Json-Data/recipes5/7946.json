@@ -1,0 +1,149 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/231/world-cuisine/european/",
+                    "name": "European",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/726/world-cuisine/european/spanish/",
+                    "name": "Spanish",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/267394/pan-tomaca-spanish-tomato-bread/",
+        "name": "Pan Tomaca (Spanish Tomato Bread)",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5635546.jpg",
+            "width": 1707,
+            "height": 960
+        },
+        "datePublished": "2019-07-12T04:40:57.000Z",
+        "description": "Pan tomaca, or more accurately pa amb tomaquet, is a traditional Catalan breakfast dish that is also loved in other parts of Spain. It couldn't be easier to prepare! If you don't fancy it for breakfast, it also makes a lovely snack or starter.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "1 serving",
+        "recipeIngredient": [
+            "1 large tomato, chopped",
+            "2 slices crusty bread",
+            "1 clove garlic, halved",
+            "1 tablespoon extra-virgin olive oil, or to taste",
+            "salt to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place tomato in a blender; blend until smooth.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Toast the bread until browned, 1 to 3 minutes. Rub each slice of toast with garlic; this is easier to do if the peel is left on.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Top each slice of toast with pureed tomato. Drizzle with olive oil and sprinkle with salt.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "European",
+            "Spanish"
+        ],
+        "recipeCuisine": [
+            "European",
+            "Spanish"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Luis Luna"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Pan Tomaca (Spanish Tomato Bread)",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "267.1 calories",
+            "carbohydrateContent": "28.1 g",
+            "cholesterolContent": null,
+            "fatContent": "15.3 g",
+            "fiberContent": "3.3 g",
+            "proteinContent": "5.3 g",
+            "saturatedFatContent": "2.3 g",
+            "servingSize": null,
+            "sodiumContent": "398.2 mg",
+            "sugarContent": "5.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-07-12T00:59:11.18Z",
+                "reviewBody": "I love bread with tomatoes and this Spanish version is excellent especially with sun-ripened tomatoes!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "barbara",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3031597/"
+                }
+            }
+        ]
+    }
+]

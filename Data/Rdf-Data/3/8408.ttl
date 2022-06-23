@@ -1,0 +1,82 @@
+@prefix ns1: <http://purl.org/recipekg/> .
+@prefix ns2: <http://purl.org/heals/food/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/slow-cooker-winter-sangria> a schema:Recipe ;
+    ns2:hasIngredient [ a <http://purl.org/recipekg/ingredient/Pear> ;
+            ns1:hasQuantity "1" ;
+            ns1:ingredientName "pear" ],
+        [ a <http://purl.org/recipekg/ingredient/Orange> ;
+            ns1:hasQuantity "1" ;
+            ns1:ingredientName "orange" ],
+        [ a <http://purl.org/recipekg/ingredient/Apple> ;
+            ns1:hasQuantity "1" ;
+            ns1:ingredientName "apple" ],
+        [ a <http://purl.org/heals/ingredient/Clove> ;
+            ns1:hasQuantity "8" ;
+            ns1:ingredientName "clove" ],
+        [ a <http://purl.org/recipekg/ingredient/Cinnamon> ;
+            ns1:hasQuantity "6" ;
+            ns1:ingredientName "cinnamon" ],
+        [ a <http://purl.org/recipekg/ingredient/PearWine> ;
+            ns1:hasQuantity "1" ;
+            ns1:ingredientName "pear wine" ],
+        [ a <http://purl.org/recipekg/ingredient/Brandy> ;
+            ns1:hasQuantity "1" ;
+            ns1:ingredientName "brandy" ],
+        [ a <http://purl.org/heals/ingredient/DriedCranberry> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "dried cranberry" ],
+        [ a <http://purl.org/recipekg/ingredient/AppleCider> ;
+            ns1:hasQuantity "3/4" ;
+            ns1:hasUnit "gallon" ;
+            ns1:ingredientName "apple cider" ],
+        [ a <http://purl.org/recipekg/ingredient/Moscato> ;
+            ns1:hasQuantity "1" ;
+            ns1:ingredientName "moscato" ] ;
+    ns1:belongsTo <http://purl.org/recipekg/categories/drinks/sangria/> ;
+    ns1:hasFSAScore 5 ;
+    ns1:hasNutritionalInformation [ a ns1:NutritionalInformation ;
+            ns1:hasCalorificData [ a ns1:CalorificData ;
+                    ns1:hasAmount "307.4"^^xsd:float ;
+                    ns1:hasUnit "calories" ] ;
+            ns1:hasCarbohydrateData [ a ns1:CarbohydrateData ;
+                    ns1:hasAmount "31.0"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasFatData [ a ns1:FatData ;
+                    ns1:hasAmount "0.1"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAGreen ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasFiberData [ a ns1:FiberData ;
+                    ns1:hasAmount "1.4"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasProteinData [ a ns1:ProteinData ;
+                    ns1:hasAmount "0.4"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSodiumData [ a ns1:SodiumData ;
+                    ns1:hasAmount "25.0"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAGreen ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasSugarData [ a ns1:SugarData ;
+                    ns1:hasAmount "22.5"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "g" ] ] ;
+    ns1:hasUSDAScore 3 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2018-11-17T08:50:55.000Z"^^schema:date ;
+    schema:name "Slow Cooker Winter Sangria"^^xsd:string ;
+    schema:recipeYield "20 servings"^^xsd:string .
+
+ns1:FSAAmber a ns1:FSAColor .
+
+<http://purl.org/recipekg/categories/drinks/> a ns1:RecipeCategory .
+
+<http://purl.org/recipekg/categories/drinks/sangria/> rdfs:subClassOf <http://purl.org/recipekg/categories/drinks/> .
+
+ns1:FSAGreen a ns1:FSAColor .
+

@@ -1,0 +1,134 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/92/meat-and-poultry/",
+                    "name": "Meat and Poultry",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/205/meat-and-poultry/pork/",
+                    "name": "Pork",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/244755/bacon-and-fresh-pasta-in-a-jar/",
+        "name": "Bacon and Fresh Pasta in a Jar",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2507717.jpg",
+            "width": 2448,
+            "height": 3264
+        },
+        "datePublished": "2019-04-03T06:31:44.000Z",
+        "description": "Fill a mason jar with pasta, bacon, and pea vines for a quick and easy on-the-go lunch that is perfect for a picnic!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H20M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "3 ounces fresh pasta",
+            "1 tablespoon olive oil",
+            "1 cup chopped fresh pea vines",
+            "1 clove garlic, minced",
+            "1 slice cooked bacon, broken into pieces",
+            "1 tablespoon butter",
+            "\u00bd teaspoon chile oil, or to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Bring a pot of water to a boil; add fresh pasta and cook until tender, 3 to 4 minutes. Drain.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat olive oil in a skillet over medium heat; cook and stir pea vines and garlic until vines are wilted, 3 to 4 minutes. Add pasta, bacon, butter, and chile oil to pea vines mixture; toss using tongs until butter is melted. Transfer pasta mixture to a 1-pint mason jar.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Meat and Poultry",
+            "Pork"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Alli Shircliff"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 2,
+            "itemReviewed": "Bacon and Fresh Pasta in a Jar",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "257.5 calories",
+            "carbohydrateContent": "26.6 g",
+            "cholesterolContent": "45.9 mg",
+            "fatContent": "14.5 g",
+            "fiberContent": "2.6 g",
+            "proteinContent": "6.5 g",
+            "saturatedFatContent": "4.9 g",
+            "servingSize": null,
+            "sodiumContent": "55.3 mg",
+            "sugarContent": "2.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2016-07-05T04:44:21.217Z",
+                "reviewBody": "Sounds good but tho I'm a lifelong cook who always enjoys a new food adventure I have no idea what or where one can get edible pea vines. Clarification needed so I can try this salad a sap. Thanks.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Jeannine Meador",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/7327002/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,156 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/139/drinks/tea/",
+                    "name": "Tea",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/16363/drinks/tea/iced/",
+                    "name": "Iced Tea Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/23076/delightful-punch/",
+        "name": "Delightful Punch",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6850126.jpg",
+            "width": 2128,
+            "height": 3987
+        },
+        "datePublished": "2000-02-15T23:08:22.000Z",
+        "description": "A delightful punch made with tea, grapefruit, orange and pineapple juice. It's sweetened with simple syrup and carbonated with ginger ale. Note: make simple syrup by boiling equal parts water and sugar.",
+        "prepTime": "P0DT0H20M",
+        "cookTime": null,
+        "totalTime": "P0DT0H20M",
+        "recipeYield": "12 servings",
+        "recipeIngredient": [
+            "1 cup strong brewed black tea",
+            "1 cup grapefruit juice",
+            "1 cup orange juice",
+            "\u00bd cup pineapple juice",
+            "\u00bd cup simple syrup",
+            "1 liter ginger ale soda"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "In a large punch bowl, combine tea, grapefruit juice, orange juice, pineapple juice and simple syrup. Stir in the ginger ale and serve.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Tea",
+            "Iced Tea Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "RoseMary"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.5,
+            "ratingCount": 2,
+            "itemReviewed": "Delightful Punch",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "75.9 calories",
+            "carbohydrateContent": "18.8 g",
+            "cholesterolContent": null,
+            "fatContent": "0.1 g",
+            "fiberContent": "0.1 g",
+            "proteinContent": "0.3 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "11.5 mg",
+            "sugarContent": "9.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2004-01-26T19:58:24.28Z",
+                "reviewBody": "Interesting and VERY original but not to my taste! Thanx for submitting it though because I was yearning for something new!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Miss Marie",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/1002153/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2019-07-20T05:38:05.083Z",
+                "reviewBody": "I actually liked this. It was different with the tea but that's what made it unique. Thanks for the recipe.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Yoly",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/cookingbikerchick/"
+                }
+            }
+        ]
+    }
+]

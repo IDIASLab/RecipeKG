@@ -1,0 +1,152 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/237/world-cuisine/latin-american/",
+                    "name": "Latin American",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/728/world-cuisine/latin-american/mexican/",
+                    "name": "Mexican",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/266527/slow-cooker-barbacoa/",
+        "name": "Slow-Cooker Barbacoa",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6323613.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2018-07-21T01:25:28.000Z",
+        "description": "You will think you went to your favorite Mexican chain restaurant when you try this simple slow-cooker barbacoa recipe!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT4H0M",
+        "totalTime": "P0DT4H10M",
+        "recipeYield": "14 servings",
+        "recipeIngredient": [
+            "\u2153 cup apple cider vinegar",
+            "3 tablespoons lime juice",
+            "4 chipotle peppers in adobo sauce",
+            "4 teaspoons minced garlic",
+            "4 teaspoons ground cumin",
+            "2 teaspoons dried oregano",
+            "1 teaspoon ground black pepper",
+            "1 teaspoon salt",
+            "\u00bd teaspoon ground cloves",
+            "1 (4 pound) chuck roast",
+            "\u00be cup chicken broth",
+            "3 bay leaves"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine vinegar, lime juice, chipotle peppers, garlic, cumin, oregano, black pepper, salt, and cloves in a blender or food processor. Blend the sauce well.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place meat in a slow cooker and pour sauce on top. Add broth and bay leaves. Cover and cook on High for 4 to 6 hours without removing the lid.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Latin American",
+            "Mexican"
+        ],
+        "recipeCuisine": [
+            "Latin American",
+            "Mexican"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "John"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Slow-Cooker Barbacoa",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "205.7 calories",
+            "carbohydrateContent": "1.5 g",
+            "cholesterolContent": "59.4 mg",
+            "fatContent": "14.9 g",
+            "fiberContent": "0.4 g",
+            "proteinContent": "15.4 g",
+            "saturatedFatContent": "5.8 g",
+            "servingSize": null,
+            "sodiumContent": "284.6 mg",
+            "sugarContent": "0.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-01-31T07:31:52.603Z",
+                "reviewBody": "This turned out pretty good. It was very tender. I love cumin but it did overpower in this recipe. I recommend scaling it back some.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,161 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17874/main-dish/tacos/",
+                    "name": "Taco Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17878/main-dish/tacos/beef/",
+                    "name": "Beef",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/269613/walking-tacos/",
+        "name": "Walking Tacos",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6150972.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2020-02-26T05:52:13.000Z",
+        "description": "This has been a family favorite ever since our life got crazy chasing kids around. Quick and easy to make, kids love it, and there is no cleanup. The meat can be made up in advance, so when it's time to eat, just heat up the meat and you are ready to go. Easy enough to eat in the car on the way to soccer practice on a busy night!",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT0H20M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "1 pound ground beef",
+            "1 (1 ounce) package taco seasoning mix",
+            "6 (1.75 ounce) packages nacho cheese-flavored corn chips (such as Doritos\u00ae)",
+            "1 (8 ounce) package taco cheese blend",
+            "2 tomatoes, diced",
+            "1 cup shredded lettuce",
+            "1 (8 ounce) container sour cream"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat a large skillet over medium-high heat. Cook and stir beef in the hot skillet until browned and crumbly, 5 to 10 minutes. Drain and discard grease. Mix taco seasoning into the beef.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Crush chips without opening the bags. Open bags and spoon in seasoned beef. Cover with cheese, tomatoes, lettuce, and sour cream. Stir to blend. Eat with forks right out of the bags.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Taco Recipes",
+            "Beef"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Shawn Hoffman Zimmerman"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Walking Tacos",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "657.5 calories",
+            "carbohydrateContent": "38.2 g",
+            "cholesterolContent": "99.5 mg",
+            "fatContent": "45.5 g",
+            "fiberContent": "2.4 g",
+            "proteinContent": "26.4 g",
+            "saturatedFatContent": "20.9 g",
+            "servingSize": null,
+            "sodiumContent": "974.8 mg",
+            "sugarContent": "4.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-12-23T01:06:05.99Z",
+                "reviewBody": "Well bought the taco cheese blend and forgot to use it. It would have been even better with the cheese but I'll admit that I didn't even notice it was missing. This is a great recipe for people on the go with kids. I don't even have kids and this was still a fun recipe that made me feel like a kid while eating it.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2021-03-25T11:07:04.227Z",
+                "reviewBody": "Very easy to prepare. I had a larger bag of  chips and preheated them with the cheese before I added the seasoned beef and other toppings. It was very tasty. I'll definitely be preparing it again.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Pamperedducki",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/23368303/"
+                }
+            }
+        ]
+    }
+]

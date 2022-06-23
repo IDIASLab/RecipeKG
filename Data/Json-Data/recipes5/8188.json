@@ -1,0 +1,164 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/92/meat-and-poultry/",
+                    "name": "Meat and Poultry",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/201/meat-and-poultry/chicken/",
+                    "name": "Chicken",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/661/meat-and-poultry/chicken/chicken-thighs/",
+                    "name": "Chicken Thigh Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/274858/balsamic-grilled-chicken-thighs/",
+        "name": "Balsamic Grilled Chicken Thighs",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6852482.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2019-07-23T20:29:15.000Z",
+        "description": "A simple marinade that delivers tender, juicy, and tangy grilled chicken every single time. Feel free to experiment with different herbs. Rosemary and thyme make a nice combination and so tarragon and parsley.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H15M",
+        "totalTime": "P0DT1H30M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "\u00be cup balsamic vinegar",
+            "\u00bd cup olive oil",
+            "1 tablespoon minced garlic",
+            "\u00bd teaspoon dried tarragon",
+            "\u00bd teaspoon dried thyme",
+            "1\u2009\u00bd pounds boneless, skinless chicken thighs"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Whisk vinegar, olive oil, garlic, tarragon, and thyme together in a small bowl. Place chicken thighs in a gallon-sized resealable plastic bag and pour vinegar mixture over the chicken; turn to coat. Seal bag and let marinate at room temperature for 1 hour.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Preheat an outdoor grill for medium-high heat and lightly oil the grate. Remove chicken from marinade and discard marinade.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Grill chicken for 15 minutes, flipping every 5 minutes. Transfer chicken to a plate and let rest for 10 minutes before serving.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Meat and Poultry",
+            "Chicken",
+            "Chicken Thigh Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Soup Loving Nicole"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 5,
+            "itemReviewed": "Balsamic Grilled Chicken Thighs",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "357.8 calories",
+            "carbohydrateContent": "5.2 g",
+            "cholesterolContent": "63.8 mg",
+            "fatContent": "29.3 g",
+            "fiberContent": "0.1 g",
+            "proteinContent": "17.9 g",
+            "saturatedFatContent": "5.6 g",
+            "servingSize": null,
+            "sodiumContent": "62.4 mg",
+            "sugarContent": "4.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-08-05T08:05:40.247Z",
+                "reviewBody": "This chicken is tender, for sure. However, it was way too acidic for us. The balsamic vinegar is very dominant.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Mary Buitrago",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/15781345/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2021-09-07T01:47:45.33Z",
+                "reviewBody": "Chicken was tender and juicy but the combo of medium high heat and balsalmic vinegar caused the skin to burn to a crisp.  We had to discard it. If I try this again, I'm going to go low and slow instead.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Malinda Walter Slagle",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/15503349/"
+                }
+            }
+        ]
+    }
+]

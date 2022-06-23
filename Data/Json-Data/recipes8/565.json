@@ -1,0 +1,110 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/16348/drinks/slushies/",
+                    "name": "Slushie Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/275040/rosemary-peach-frosty/",
+        "name": "Rosemary Peach Frosty",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Rosemary Peach Frosty"
+        },
+        "datePublished": "2020-06-19T04:39:40.000Z",
+        "description": "An original twist on a fruity, frosty drink.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "24 fluid ounces club soda",
+            "1 (16 ounce) package frozen sliced peaches",
+            "1 cup white sugar",
+            "lemon, juiced",
+            "1 sprig fresh rosemary, leaves removed and chopped",
+            "4 sprigs fresh rosemary"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine club soda, peaches, sugar, lemon juice, and rosemary leaves in a blender; blend until smooth. Pour into glasses and serve with rosemary sprigs.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Slushie Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "mel_4321"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Rosemary Peach Frosty",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "236.1 calories",
+            "carbohydrateContent": "61.8 g",
+            "cholesterolContent": null,
+            "fatContent": "0.1 g",
+            "fiberContent": "1.8 g",
+            "proteinContent": "0.9 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "5.6 mg",
+            "sugarContent": "59.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

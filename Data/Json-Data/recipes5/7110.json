@@ -1,0 +1,128 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/81/side-dish/",
+                    "name": "Side Dish",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17031/side-dish/sauces-and-condiments/",
+                    "name": "Sauces and Condiments",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/258881/roasted-red-pepper-mayo/",
+        "name": "Roasted Red Pepper Mayo",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4574130.jpg",
+            "width": 2972,
+            "height": 2304
+        },
+        "datePublished": "2019-07-10T07:11:02.000Z",
+        "description": "A great addition to burgers and sandwiches! Mix it up in a snap.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "\u2153 cup mayonnaise",
+            "2 tablespoons chopped roasted red peppers",
+            "1 squeeze lemon juice",
+            "\u00bd teaspoon lemon zest",
+            "\u215b teaspoon salt"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Mix mayonnaise and roasted red peppers together in a small bowl. Add lemon juice, lemon zest, and salt; mix well. Refrigerate until serving.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Side Dish",
+            "Sauces and Condiments"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "MomTo6"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Roasted Red Pepper Mayo",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "133.4 calories",
+            "carbohydrateContent": "1 g",
+            "cholesterolContent": "7 mg",
+            "fatContent": "14.6 g",
+            "fiberContent": "0.1 g",
+            "proteinContent": "0.2 g",
+            "saturatedFatContent": "2.2 g",
+            "servingSize": null,
+            "sodiumContent": "279.5 mg",
+            "sugarContent": "0.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-07-17T01:00:32.763Z",
+                "reviewBody": "7.16.17 This certainly is quick to mix up and was a nice dressing today for a grilled turkey burger. Really like how the lemon zest and squeeze of juice brightens the flavor.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "lutzflcat",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/lutzflcat/"
+                }
+            }
+        ]
+    }
+]

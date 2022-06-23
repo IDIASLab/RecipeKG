@@ -1,0 +1,141 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/145/breakfast-and-brunch/cereals/",
+                    "name": "Cereals",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1315/breakfast-and-brunch/cereals/oatmeal/",
+                    "name": "Oatmeal Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/278524/easy-peanut-butter-banana-oatmeal/",
+        "name": "Easy Peanut Butter-Banana Oatmeal",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7915638.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-02-06T20:58:59.000Z",
+        "description": "Great way to perk up plain instant oatmeal for your picky eaters, without using any butter or brown sugar!",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "1 serving",
+        "recipeIngredient": [
+            "\u00be cup water",
+            "1 (1 ounce) packet plain instant oatmeal",
+            "1 tablespoon crunchy peanut butter",
+            "\u00bd banana, sliced"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine water and oatmeal in a microwave-safe bowl. Microwave on high for 60 to 75 seconds. Remove from microwave, stir, and let sit for about 30 seconds.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Add peanut butter to the hot oatmeal and stir until completely mixed. Top with banana slices.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Cereals",
+            "Oatmeal Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Crysania"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Easy Peanut Butter-Banana Oatmeal",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "254.6 calories",
+            "carbohydrateContent": "36.1 g",
+            "cholesterolContent": null,
+            "fatContent": "10.1 g",
+            "fiberContent": "5.7 g",
+            "proteinContent": "8.2 g",
+            "saturatedFatContent": "1.8 g",
+            "servingSize": null,
+            "sodiumContent": "158.1 mg",
+            "sugarContent": "9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-04-06T01:15:33.787Z",
+                "reviewBody": "I only had creamy peanut butter so I chopped 1/2 tbs peanuts and added those. I also added a pkt of Truvia and a bit more peanut butter. Very tasty. Thanks for sharing your redcipe.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Yoly",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/cookingbikerchick/"
+                }
+            }
+        ]
+    }
+]

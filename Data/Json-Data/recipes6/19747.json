@@ -1,0 +1,131 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1822/drinks/mocktails/",
+                    "name": "Mocktail Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/68600/berry-refresher/",
+        "name": "Berry Refresher",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F879811.jpg",
+            "width": 2160,
+            "height": 1686
+        },
+        "datePublished": "2020-06-19T03:10:32.000Z",
+        "description": "This recipe is a perfect refresher for a hot summer day or to quench a raging thirst!  Absolutely delicious! To make it thick, simply use berries frozen!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "4 cups",
+        "recipeIngredient": [
+            "1 cup apple juice",
+            "1 cup orange juice",
+            "\u2153 cup milk",
+            "1 tablespoon honey",
+            "2 frozen strawberries, thawed",
+            "\u2153 cup frozen raspberries, thawed",
+            "\u2154 cup frozen blueberries, thawed",
+            "3 cubes  ice"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place the apple juice, orange juice, milk, honey, strawberries, raspberries, blueberries, and ice cubes in a blender. Blend until slushy. Serve cold.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Mocktail Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "fuzzybaby78"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 3,
+            "itemReviewed": "Berry Refresher",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "119.7 calories",
+            "carbohydrateContent": "28 g",
+            "cholesterolContent": "1.6 mg",
+            "fatContent": "0.8 g",
+            "fiberContent": "1.9 g",
+            "proteinContent": "1.4 g",
+            "saturatedFatContent": "0.3 g",
+            "servingSize": null,
+            "sodiumContent": "12.1 mg",
+            "sugarContent": "24.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2012-08-25T15:10:40.527Z",
+                "reviewBody": "The orange juice dominates in this, and for our tastes, I think I'd add a little more apple juice and less OJ the next time.  Nice, would have again.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "lutzflcat",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/lutzflcat/"
+                }
+            }
+        ]
+    }
+]

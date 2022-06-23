@@ -1,0 +1,108 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/242085/sweet-potato-cookies/",
+        "name": "Sweet Potato \"Cookies\"",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2226446.jpg",
+            "width": 960,
+            "height": 960
+        },
+        "datePublished": "2020-03-05T05:13:14.000Z",
+        "description": "These definitely taste like cookies with the cinnamon and brown sugar. Very kid-friendly, just make sure you cool them down for the little ones before serving as they come out very hot!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H20M",
+        "totalTime": "P0DT0H30M",
+        "recipeYield": "3 servings",
+        "recipeIngredient": [
+            "1 tablespoon sunflower seed oil",
+            "2 teaspoons ground cinnamon, divided",
+            "2 teaspoons salt, divided",
+            "1 teaspoon ground coriander",
+            "1 teaspoon ground cumin",
+            "1 sweet potato, peeled and cut into 1/2-inch disks",
+            "1 teaspoon brown sugar, or more to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat oven to 450 degrees F (230 degrees C).\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine sunflower seed oil, 1 teaspoon cinnamon, 1 teaspoon salt, coriander, and cumin in a bowl; add sweet potatoes and toss to coat. Arrange sweet potatoes on a baking sheet and top with brown sugar, remaining 1 teaspoon cinnamon, and remaining 1 teaspoon salt.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated oven until sweet potatoes are crisp around the edges, about 20 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Natalie Dalla-Vicenza"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Sweet Potato \"Cookies\"",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "137.9 calories",
+            "carbohydrateContent": "22.5 g",
+            "cholesterolContent": null,
+            "fatContent": "5 g",
+            "fiberContent": "4.1 g",
+            "proteinContent": "1.8 g",
+            "saturatedFatContent": "0.5 g",
+            "servingSize": null,
+            "sodiumContent": "1604.3 mg",
+            "sugarContent": "5.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

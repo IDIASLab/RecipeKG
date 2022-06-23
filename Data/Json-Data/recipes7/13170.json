@@ -1,0 +1,120 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/211/salad/fruit-salads/",
+                    "name": "Fruit Salad Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/244451/banana-salad/",
+        "name": "Banana Salad",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Banana Salad"
+        },
+        "datePublished": "2020-06-19T04:03:23.000Z",
+        "description": "A nice fruit salad for potlucks or outdoor events - my grandmother always made it on the Fourth of July. Bananas, pineapple, and cream cheese in a tangy homemade sauce. Salad can be refrigerated or served immediately.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT0H30M",
+        "recipeYield": "12 servings",
+        "recipeIngredient": [
+            "\u00bd cup pineapple juice",
+            "\u00bd cup white sugar",
+            "2 tablespoons lemon juice",
+            "2 teaspoons cornstarch",
+            "1 egg, well-beaten",
+            "6 large bananas, sliced",
+            "1 (8 ounce) package cream cheese, softened",
+            "1 (8 ounce) can pineapple tidbits, drained"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine pineapple juice, sugar, lemon juice, and cornstarch in a saucepan over medium heat; cook and stir until sugar dissolves and sauce is smooth, about 5 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Stir about 1 tablespoon sauce into the bowl with the egg until egg is slightly warmed. Slowly pour egg mixture into sauce, whisking until sauce is smooth and thickened. Remove saucepan from heat and freeze sauce, stirring occasionally, until completely chilled, about 15 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Mix bananas, cream cheese, and pineapple together in a bowl. Add sauce and mix until evenly coated.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad",
+            "Fruit Salad Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "CLR"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Banana Salad",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "182.9 calories",
+            "carbohydrateContent": "29.3 g",
+            "cholesterolContent": "36 mg",
+            "fatContent": "7.2 g",
+            "fiberContent": "2 g",
+            "proteinContent": "2.8 g",
+            "saturatedFatContent": "4.3 g",
+            "servingSize": null,
+            "sodiumContent": "62.2 mg",
+            "sugarContent": "20.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

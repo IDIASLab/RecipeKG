@@ -1,0 +1,150 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/102/appetizers-and-snacks/antipasto/",
+                    "name": "Antipasto Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/273956/cherry-tomato-bites/",
+        "name": "Cherry Tomato Bites",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6766434.jpg",
+            "width": 3024,
+            "height": 3024
+        },
+        "datePublished": "2005-12-01T23:22:40.000Z",
+        "description": "Fresh, unbaked bites that remind you of a BLT. Quick, easy, and cheap, if you grow your own tomatoes. This can be made a day ahead if tomatoes were drained. Perfect for a picnic.",
+        "prepTime": "P0DT0H20M",
+        "cookTime": null,
+        "totalTime": "P0DT0H20M",
+        "recipeYield": "18 bites",
+        "recipeIngredient": [
+            "18 cherry tomatoes",
+            "\u00bd cup creamy salad dressing (such as Miracle Whip\u00ae)",
+            "1 (3 ounce) can bacon bits (such as Hormel\u00ae)",
+            "\u2153 cup chopped green onions",
+            "3 tablespoons grated Parmesan cheese (such as Sargento\u00ae)",
+            "2 tablespoons chopped fresh parsley"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Cut off the top 1/4 of each tomato and a very small slice off of the bottoms, if needed, to sit upright. Scoop out pulp using a baby spoon or grapefruit spoon. Place tomatoes cut-side down on paper towels to drain.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine salad dressing, bacon bits, green onions, Parmesan cheese, and parsley in a bowl. Spoon evenly into tomatoes. Cover and chill in a refrigerator until ready to serve.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks",
+            "Antipasto Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "mamaG"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Cherry Tomato Bites",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "89.2 calories",
+            "carbohydrateContent": "3.8 g",
+            "cholesterolContent": "12.6 mg",
+            "fatContent": "6.2 g",
+            "fiberContent": "0.5 g",
+            "proteinContent": "5 g",
+            "saturatedFatContent": "1.4 g",
+            "servingSize": null,
+            "sodiumContent": "434.1 mg",
+            "sugarContent": "1.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-07-13T20:28:41.203Z",
+                "reviewBody": "Looks like a nice appetizer or if using larger tomatoes a lunch entr\u00e9e. I would use mayo in place of salad dressing though as I'm on a Keto diet.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Joanne",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/6906144/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2020-07-04T18:14:02.613Z",
+                "reviewBody": "Excellent filling. Would be very good on crackers as well.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Mike Haire",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/mikehaire/"
+                }
+            }
+        ]
+    }
+]

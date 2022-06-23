@@ -1,0 +1,127 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/152/breakfast-and-brunch/potatoes/",
+                    "name": "Potatoes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/284698/home-fried-breakfast-potatoes/",
+        "name": "Home-Fried Breakfast Potatoes",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5224592.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2018-03-16T00:54:52.000Z",
+        "description": "Good breakfast potatoes without all the icky stuff.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H20M",
+        "totalTime": "P0DT0H30M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "3 tablespoons olive oil",
+            "5 medium red potatoes, peeled and sliced",
+            "4 slices cooked bacon, crumbled",
+            "1 teaspoon salt",
+            "\u00be teaspoon ground paprika",
+            "\u00bc teaspoon ground black pepper"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat 1 tablespoon olive oil in a large nonstick skillet over medium-high heat. Add potatoes. Add bacon crumbles, remaining olive oil, salt, paprika, and pepper. Cook, stirring occasionally, until potatoes are tender and browned, about 20 minutes. Serve hot.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Potatoes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Daniel Pigg"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Home-Fried Breakfast Potatoes",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "342.4 calories",
+            "carbohydrateContent": "42.8 g",
+            "cholesterolContent": "13.2 mg",
+            "fatContent": "15.6 g",
+            "fiberContent": "4.7 g",
+            "proteinContent": "9.6 g",
+            "saturatedFatContent": "3.1 g",
+            "servingSize": null,
+            "sodiumContent": "875 mg",
+            "sugarContent": "2.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-07-18T22:56:20.78Z",
+                "reviewBody": "These have been a special breakfast of mine for years.  I add cooked bacon chips and onions to the scrubbed skin on sliced potatoes....and of course serve with ketchup.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Andy Jo Tuck",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/30060206/"
+                }
+            }
+        ]
+    }
+]

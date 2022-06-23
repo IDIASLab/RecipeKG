@@ -1,0 +1,155 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/134/drinks/coffee/",
+                    "name": "Coffee Drinks Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/16809/drinks/coffee/lattes/",
+                    "name": "Latte Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/268430/biscoff-latte/",
+        "name": "Biscoff&reg; Latte",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8304207.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-03-05T05:18:37.000Z",
+        "description": "A latte made with Biscoff&reg; cookie butter and cinnamon.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "1 latte",
+        "recipeIngredient": [
+            "\u00bd cup milk",
+            "1 tablespoon brown sugar",
+            "1 tablespoon cookie butter (such as Biscoff\u00ae)",
+            "\u215b teaspoon ground cinnamon",
+            "1 cup coffee"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat milk and brown sugar in a small saucepan until frothy, close to simmering. Reduce heat to low. Whisk in cookie butter and cinnamon, then mix in coffee.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Coffee Drinks Recipes",
+            "Latte Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "LROwen"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.5,
+            "ratingCount": 2,
+            "itemReviewed": "Biscoff&reg; Latte",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "205.6 calories",
+            "carbohydrateContent": "27.3 g",
+            "cholesterolContent": "9.8 mg",
+            "fatContent": "8.5 g",
+            "fiberContent": "0.2 g",
+            "proteinContent": "4.3 g",
+            "saturatedFatContent": "3 g",
+            "servingSize": null,
+            "sodiumContent": "58.6 mg",
+            "sugarContent": "18.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-07-06T03:42:45.15Z",
+                "reviewBody": "To me the Biscoff taste was completely lost. It just tasted like sweet coffee. Maybe if the coffee is cut back to 1/2 cup, I might like it better. I made this into an iced latte instead of a regular latte. As written, I don't think I would make it again.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 2
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Yoly",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/cookingbikerchick/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2020-04-16T04:37:07.97Z",
+                "reviewBody": "Yummy, I used 10oz milk and 1 Nespresso Ristretto Pod. Not too sweet, just right. Loved it!  Now I have another use for cookie butter other than eating it out the jar lol. Thanks!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Jamie Ambrose",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/12825610/"
+                }
+            }
+        ]
+    }
+]

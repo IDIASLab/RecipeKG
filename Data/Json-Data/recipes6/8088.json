@@ -1,0 +1,106 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/279830/sarahs-quick-warm-lentil-salad/",
+        "name": "Sarah's Quick Warm Lentil Salad",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2093929.jpg",
+            "width": 2527,
+            "height": 1835
+        },
+        "datePublished": "2020-04-18T08:14:24.000Z",
+        "description": "This is a quick recipe I made up one night to use some lentils I had leftover from another time. Use as a side dish or serve with something like cornbread for a vegetarian main dish.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H35M",
+        "totalTime": "P0DT0H40M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "1 cup dry lentils",
+            "1 cup chicken broth",
+            "water to cover",
+            "2 tablespoons unsalted butter",
+            "1 medium onion, chopped",
+            "1 teaspoon minced garlic",
+            "1 (14 ounce) can diced tomatoes, drained",
+            "1 teaspoon salt",
+            "1 tablespoon balsamic vinegar"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine lentils and chicken broth in a pot. Add just enough water to cover. Bring to a low simmer and cook until lentils are cooked, but not falling apart, about 25 minutes. Add water when necessary in order to keep lentils covered.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Melt butter in a saucepan over medium heat and cook onion until translucent and slightly browned, about 5 minutes. Add garlic and saute for 30 seconds. Add lentils and their liquid to the saucepan. Gently fold in tomatoes. Season with salt, add in balsamic vinegar, and stir gently. Serve warm.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "sonicsarah"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Sarah's Quick Warm Lentil Salad",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "266.9 calories",
+            "carbohydrateContent": "37 g",
+            "cholesterolContent": "16.8 mg",
+            "fatContent": "6.5 g",
+            "fiberContent": "16.6 g",
+            "proteinContent": "14.4 g",
+            "saturatedFatContent": "3.7 g",
+            "servingSize": null,
+            "sodiumContent": "1034.9 mg",
+            "sugarContent": "5.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

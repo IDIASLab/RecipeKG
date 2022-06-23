@@ -1,0 +1,160 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/133/drinks/cocktails/",
+                    "name": "Cocktail Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/14932/drinks/cocktails/martinis/",
+                    "name": "Martini Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/239822/chocolate-covered-cherry-martini/",
+        "name": "Chocolate-Covered Cherry Martini",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2833267.jpg",
+            "width": 2322,
+            "height": 4128
+        },
+        "datePublished": "2017-01-31T08:10:26.000Z",
+        "description": "My niece created this cocktail for Christmas 2012; been in love ever since! Go for name brand liquors for a better tasting drink.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "1 martini",
+        "recipeIngredient": [
+            "ice",
+            "2 fluid ounces vanilla-flavored vodka",
+            "2 fluid ounces chocolate liqueur",
+            "1 fluid ounce Irish cream liqueur",
+            "1 maraschino cherry with juice",
+            "1 teaspoon chocolate sauce, or to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Fill a cocktail shaker halfway with ice. Pour vodka, chocolate liqueur, Irish cream, and a splash of maraschino cherry juice over ice; cover the shaker and shake until chilled.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Drizzle the bottom of a martini glass with chocolate sauce and drop maraschino cherry into the bottom of the glass. Strain shaker contents into prepared glass.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Cocktail Recipes",
+            "Martini Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "jcandersen"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Chocolate-Covered Cherry Martini",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "528.3 calories",
+            "carbohydrateContent": "51.6 g",
+            "cholesterolContent": null,
+            "fatContent": "0.4 g",
+            "fiberContent": "0.2 g",
+            "proteinContent": "0.2 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "15.6 mg",
+            "sugarContent": "44.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2015-11-22T07:53:41.987Z",
+                "reviewBody": "Yumm-o! Perfect winter cocktail. Next time I will garnish with a Chocolate covered cherry!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Liz Dalton 'Lizzie'",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/lizzie/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2017-11-29T21:46:58.967Z",
+                "reviewBody": "Love these.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "spice of life",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2016123/"
+                }
+            }
+        ]
+    }
+]

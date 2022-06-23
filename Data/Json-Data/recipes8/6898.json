@@ -1,0 +1,150 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/218/salad/coleslaw/",
+                    "name": "Coleslaw Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/16684/salad/coleslaw/no-mayo/",
+                    "name": "No Mayo",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/281676/pickled-coleslaw/",
+        "name": "Pickled Coleslaw",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8969964.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-09-24T00:03:30.000Z",
+        "description": "A marinated coleslaw that keeps well in the fridge for a week.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT2H15M",
+        "recipeYield": "10 servings",
+        "recipeIngredient": [
+            "1 cup white vinegar",
+            "\u00be cup salad oil",
+            "\u00bc cup white sugar",
+            "2 tablespoons prepared mustard",
+            "1 tablespoon celery seed",
+            "1 large head cabbage, shredded",
+            "1 medium onion, thinly sliced",
+            "\u00bc cup white sugar",
+            "1 tablespoon salt"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine vinegar, oil, sugar, mustard, and celery seed for dressing in a saucepan over medium-high heat; bring to a boil.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Meanwhile, combine cabbage, onion, sugar, and salt for coleslaw in a bowl.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour hot dressing over cabbage mixture and mix until incorporated. Place in the refrigerator until chilled, about 2 hours.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad",
+            "Coleslaw Recipes",
+            "No Mayo"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Leanne Mentz"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Pickled Coleslaw",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "223.9 calories",
+            "carbohydrateContent": "18.7 g",
+            "cholesterolContent": null,
+            "fatContent": "16.8 g",
+            "fiberContent": "3.5 g",
+            "proteinContent": "2 g",
+            "saturatedFatContent": "2.6 g",
+            "servingSize": null,
+            "sodiumContent": "756.6 mg",
+            "sugarContent": "14.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-01-23T00:15:13.55Z",
+                "reviewBody": "1.22.21 I used Splenda\u00ae instead of sugar to get the calories down, and cut back on the amount of oil.  I used the mandolin to shred the cabbage (ended up too finely shredded, but that\u2019s not the recipe\u2019s fault), and in the future, I\u2019ll use the slicing blade on my food processor.  I like vinegar-based coleslaw, and this was a bit different with the addition of the mustard.  Liked it, and will make again.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "lutzflcat",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/lutzflcat/"
+                }
+            }
+        ]
+    }
+]

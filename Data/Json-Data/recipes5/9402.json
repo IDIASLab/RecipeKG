@@ -1,0 +1,127 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/111/appetizers-and-snacks/beans-and-peas/",
+                    "name": "Beans and Peas",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/246671/black-bean-garlic-edamame/",
+        "name": "Black Bean Garlic Edamame",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6279952.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2019-09-06T22:50:31.000Z",
+        "description": "A delicious, hot Asian appetizer, great for dinner parties on a budget or a way above-average party dish. Pour edamame onto a platter and serve - it's nice to give each person a small dish to discard the soy bean shells.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "1 tablespoon peanut oil",
+            "4 cloves garlic, minced",
+            "2 pounds fresh edamame (in shell)",
+            "\u00bc cup black bean sauce"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat peanut oil in a skillet over medium-low heat; add garlic. Cook and stir garlic until slightly browned, 2 to 3 minutes. Add edamame; cook and stir until glossy and puffed, 1 to 2 minutes. Stir black bean sauce into edamame until evenly coated and warmed, 1 to 2 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks",
+            "Beans and Peas"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "sandyg77"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Black Bean Garlic Edamame",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "256.1 calories",
+            "carbohydrateContent": "18.6 g",
+            "cholesterolContent": null,
+            "fatContent": "13.1 g",
+            "fiberContent": "6.6 g",
+            "proteinContent": "20 g",
+            "saturatedFatContent": "1.7 g",
+            "servingSize": null,
+            "sodiumContent": "94.8 mg",
+            "sugarContent": null,
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-01-20T03:28:48.603Z",
+                "reviewBody": "These turned out really good. Made as written except I added toasted sesame seeds. As directed I give it 4 stars. 5 stars with the addition of sesame seeds.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

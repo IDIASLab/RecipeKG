@@ -1,0 +1,162 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/673/main-dish/pork/",
+                    "name": "Pork",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/670/main-dish/pork/ham/",
+                    "name": "Ham",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/235742/thanksgiving-sandwich/",
+        "name": "Thanksgiving Sandwich",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1882890.jpg",
+            "width": 2800,
+            "height": 2800
+        },
+        "datePublished": "2019-04-02T07:02:24.000Z",
+        "description": "This is something my 11 year old daughter made after Thanksgiving; it is the best sandwich you will ever taste.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "8 slices ham",
+            "2 thick slices leftover roast turkey",
+            "\u00bd cup mashed potatoes, or as needed",
+            "4 slices bread"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place ham, turkey, and mashed potatoes on a microwave-safe plate and cook in the microwave until heated through, about 2 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Lay out two slices of bread; place 4 slices of ham on each slice of bread.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Lay out remaining two slices of bread; place 1 slice of turkey on each slice of bread. Spread 1/2 the potatoes on top of each turkey slice. Place turkey slice of bread together with ham slice of bread to form sandwiches.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Pork",
+            "Ham"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Nichol"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Thanksgiving Sandwich",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "552.1 calories",
+            "carbohydrateContent": "34.6 g",
+            "cholesterolContent": "107.7 mg",
+            "fatContent": "25.8 g",
+            "fiberContent": "2 g",
+            "proteinContent": "42.4 g",
+            "saturatedFatContent": "8.9 g",
+            "servingSize": null,
+            "sodiumContent": "1994.9 mg",
+            "sugarContent": "2.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2014-12-29T17:21:12.683Z",
+                "reviewBody": "A great way to use up those holiday leftovers. Next time I will serve this with a side of leftover gravy for dipping.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "bd.weld",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/bdweld/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2016-09-27T22:02:38.34Z",
+                "reviewBody": "I loved this sandwich! I made it ate it and fell in love! I think everyone should try this sandwich!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "B_M_ jo",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/20474048/"
+                }
+            }
+        ]
+    }
+]

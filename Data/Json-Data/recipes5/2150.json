@@ -1,0 +1,109 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/81/side-dish/",
+                    "name": "Side Dish",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/274039/lentils-with-vegetables-and-bacon/",
+        "name": "Lentils with Vegetables and Bacon",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F528279.jpg",
+            "width": 250,
+            "height": 250
+        },
+        "datePublished": "2019-06-07T02:43:19.000Z",
+        "description": "Lentils cooked nicely with vegetables and bacon.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H50M",
+        "totalTime": "P0DT1H5M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "\u2154 cup dry lentils",
+            "2 cups water",
+            "2 tablespoons vegetable oil",
+            "2 carrots, cut into small cubes",
+            "4 onions, diced",
+            "10 mushrooms, diced",
+            "\u00bd (8 ounce) package bacon, cut into small pieces",
+            "salt and ground black pepper to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Bring water and lentils to a boil in a large saucepan. Cover, reduce heat to low, and simmer until mostly tender, 10 to 15 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Meanwhile, heat a stew pot over low heat. Add oil and carrots; cook, covered, until carrots begin to soften, about 15 minutes. Drain cooked lentils well.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Add onions and mushrooms to the carrots. Season with salt and pepper. Cover and cook for 10 minutes. Add bacon and cook, covered, for 10 minutes. Stir in lentils; cover and simmer until tender, about 15 minutes more.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Side Dish"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "CHRISTOPHE"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Lentils with Vegetables and Bacon",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "343.4 calories",
+            "carbohydrateContent": "46.3 g",
+            "cholesterolContent": "10.2 mg",
+            "fatContent": "11.5 g",
+            "fiberContent": "15.5 g",
+            "proteinContent": "16.2 g",
+            "saturatedFatContent": "2.5 g",
+            "servingSize": null,
+            "sodiumContent": "294.2 mg",
+            "sugarContent": "12.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

@@ -1,0 +1,153 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17245/main-dish/pasta/",
+                    "name": "Pasta",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/207851/spinach-and-tomato-rotini/",
+        "name": "Spinach and Tomato Rotini",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1370648.jpg",
+            "width": 1704,
+            "height": 1703
+        },
+        "datePublished": "2016-06-04T13:59:39.000Z",
+        "description": "This is a simple and quick recipe that incorporates spinach and tomatoes, rather than tomato sauce as a topping.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H40M",
+        "totalTime": "P0DT0H50M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "1 (9 ounce) box frozen creamed spinach, thawed",
+            "\u00bd pound uncooked rotini pasta",
+            "2 cloves garlic, minced",
+            "2 teaspoons olive oil",
+            "2 plum tomatoes, diced"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Bring a pot of water to a rolling boil over high heat. Remove creamed spinach pouch from the box and place pouch in boiling water. Boil until heated through, 35 to 40 minutes, rotating serving times during heating.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Meanwhile, fill a large pot with lightly salted water and bring to a rolling boil over high heat. Once the water is boiling, stir in the rotini, and return to a boil. Cook uncovered, stirring occasionally, until the pasta has cooked through, but is still firm to the bite, about 8 minutes. Drain well in a colander set in the sink.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine garlic, olive oil, and tomatoes in a large bowl. Stir in the heated creamed spinach. Serve over rotini.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Pasta"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Phoenix2099"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 3,
+            "itemReviewed": "Spinach and Tomato Rotini",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "597.1 calories",
+            "carbohydrateContent": "98.7 g",
+            "cholesterolContent": "36 mg",
+            "fatContent": "14 g",
+            "fiberContent": "6.5 g",
+            "proteinContent": "19.4 g",
+            "saturatedFatContent": "4.1 g",
+            "servingSize": null,
+            "sodiumContent": "663 mg",
+            "sugarContent": "7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2009-10-30T15:11:06.38Z",
+                "reviewBody": "Great recipe! Super easy and fast!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Annie in Vienna",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3420652/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2011-06-03T13:09:03.007Z",
+                "reviewBody": "This was simple but good perfect for an inexpensive weeknight dinner. Because we were pressed for time I just used a can of diced tomatoes with garlic and olive oil instead of the fresh ingredients. I figure the whole meal cost me about 2.50.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "cookntaste",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/1772985/"
+                }
+            }
+        ]
+    }
+]

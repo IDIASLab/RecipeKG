@@ -1,0 +1,154 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/219/salad/vegetable-salads/",
+                    "name": "Vegetable Salad Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17370/salad/vegetable-salads/avocado-salad/",
+                    "name": "Avocado Salad Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/230984/blood-orange-and-avocado-salad/",
+        "name": "Blood Orange and Avocado Salad",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F964225.jpg",
+            "width": 2443,
+            "height": 2448
+        },
+        "datePublished": "2018-06-08T14:06:57.000Z",
+        "description": "A very simple, very healthy, very citrus summer salad!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "1 serving",
+        "recipeIngredient": [
+            "1 avocado - peeled, pitted, and cut into bite-size pieces",
+            "1 blood orange, peeled and cut into bite-size pieces",
+            "1 tablespoon extra-virgin olive oil",
+            "1 pinch salt and ground black pepper to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Gently toss avocado and blood orange in a bowl; drizzle with olive oil. Season with salt and black pepper.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad",
+            "Vegetable Salad Recipes",
+            "Avocado Salad Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "iLikeCereal"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 2,
+            "ratingCount": 2,
+            "itemReviewed": "Blood Orange and Avocado Salad",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "522.1 calories",
+            "carbohydrateContent": "36.9 g",
+            "cholesterolContent": null,
+            "fatContent": "43.2 g",
+            "fiberContent": "17.5 g",
+            "proteinContent": "5.6 g",
+            "saturatedFatContent": "6.2 g",
+            "servingSize": null,
+            "sodiumContent": "14.1 mg",
+            "sugarContent": "1.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2013-02-06T00:10:12.06Z",
+                "reviewBody": "This salad had a light refreshing (and interesting) taste. The blood oranges aren't very sweet so the combination isn't as startling as you'd think. It would work as a side dish for a savory meal.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Cookie734",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/cookie734/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2015-03-11T19:36:08.523Z",
+                "reviewBody": "I did not like this recipe. I tried it because I love avocado and blood oranges. They did not pair well together.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 1
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Carrie",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/13786640/"
+                }
+            }
+        ]
+    }
+]

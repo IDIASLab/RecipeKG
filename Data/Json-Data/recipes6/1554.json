@@ -1,0 +1,133 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/81/side-dish/",
+                    "name": "Side Dish",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1333/side-dish/applesauce/",
+                    "name": "Applesauce Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/237796/slow-cooker-apple-raspberry-sauce/",
+        "name": "Slow-Cooker Apple Raspberry Sauce",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1166107.jpg",
+            "width": 1920,
+            "height": 1361
+        },
+        "datePublished": "2020-03-05T05:12:00.000Z",
+        "description": "A recipe I always keep on hand. It has proven addicting and has replaced desserts after meals for me. I even put it in my hot cereal.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT6H0M",
+        "totalTime": "P0DT6H10M",
+        "recipeYield": "10 servings",
+        "recipeIngredient": [
+            "12 green apples - peeled, cored, and cut into chunks",
+            "1 (12 ounce) package frozen raspberries",
+            "\u00be cup water",
+            "\u2153 cup brown sugar, or more to taste",
+            "1 teaspoon ground cinnamon",
+            "\u00bc teaspoon ground nutmeg, or more to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine apples, raspberries, water, brown sugar, cinnamon, and nutmeg in a slow cooker crock.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cook on Low until apples can easily be mashed, about 6 hours.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Side Dish",
+            "Applesauce Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Karen Rose"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Slow-Cooker Apple Raspberry Sauce",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "116.9 calories",
+            "carbohydrateContent": "31.3 g",
+            "cholesterolContent": null,
+            "fatContent": "0.1 g",
+            "fiberContent": "4.2 g",
+            "proteinContent": "1 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "4.8 mg",
+            "sugarContent": "25.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-12-27T10:52:35.93Z",
+                "reviewBody": "This made my apartment smell soooo good!    Tastes great.   I added a full cup of brown sugar and it cooked for 6 1/2 hours.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "jennifer painter",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/27403736/"
+                }
+            }
+        ]
+    }
+]

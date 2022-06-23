@@ -1,0 +1,147 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17146/appetizers-and-snacks/snacks/",
+                    "name": "Snacks",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/16582/appetizers-and-snacks/snacks/chips/",
+                    "name": "Snack Chip Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/257309/pesto-chips/",
+        "name": "Pesto Chips",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4481602.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2017-03-01T06:03:15.000Z",
+        "description": "This is a delicious snack hack for your favorite pesto pasta.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H4M",
+        "totalTime": "P0DT0H9M",
+        "recipeYield": "8 servings",
+        "recipeIngredient": [
+            "1 (8 ounce) bag kettle-cooked potato chips",
+            "1 cup finely grated Parmesan cheese, divided",
+            "1 tablespoon dried basil",
+            "2 cloves garlic, minced",
+            "4 leaves fresh basil, minced",
+            "1 teaspoon olive oil"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat oven to 425 degrees F (220 degrees C).\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Arrange potato chips in a single layer on a rimmed baking sheet; top with 1/2 cup Parmesan cheese, dried basil, and garlic.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated oven until cheese is melted and chips are just starting to brown around the edges, about 4 minutes. Top chips with remaining Parmesan cheese and fresh basil. Drizzle olive oil over cheese layer. Cool and transfer to a serving bowl.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks",
+            "Snacks",
+            "Snack Chip Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Cally"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Pesto Chips",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "206.2 calories",
+            "carbohydrateContent": "15.1 g",
+            "cholesterolContent": "8.8 mg",
+            "fatContent": "14.1 g",
+            "fiberContent": "1.5 g",
+            "proteinContent": "5.8 g",
+            "saturatedFatContent": "4.9 g",
+            "servingSize": null,
+            "sodiumContent": "302.2 mg",
+            "sugarContent": "0.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-03-07T12:37:16Z",
+                "reviewBody": "I can't say enough good about this. We loved it! The chips and parm combo are a bit salty on their own but the fresh basil ties it all together into perfection. 5 stars all the way!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,160 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/227/world-cuisine/asian/",
+                    "name": "Asian",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/233/world-cuisine/asian/indian/",
+                    "name": "Indian",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/232202/paneer-cottage-cheese/",
+        "name": "Paneer (Cottage Cheese)",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3215842.jpg",
+            "width": 2000,
+            "height": 2001
+        },
+        "datePublished": "2017-06-29T02:20:17.000Z",
+        "description": "A special favorite with north Indians, paneer (cottage cheese), with its delicate milky flavor, is used all over India to make delicious dishes.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H15M",
+        "totalTime": "P0DT2H25M",
+        "recipeYield": "8 servings",
+        "recipeIngredient": [
+            "1 gallon whole milk",
+            "1 cup distilled white vinegar",
+            "cheesecloth"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat milk in a heavy bottom pot over medium-high heat until boiling. Remove from heat and add vinegar. Stir a couple times until curds separate from whey, about 5 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Line a colander with cheese cloth. Pour curds and whey through colander and drain. Wrap curds with cheesecloth and place a heavy pot fill with water over curds to press and drain completely, about 2 hours. Curds will form a soft disk.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Asian",
+            "Indian"
+        ],
+        "recipeCuisine": [
+            "Asian",
+            "Indian"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "International Recipes"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Paneer (Cottage Cheese)",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "293.4 calories",
+            "carbohydrateContent": "22.1 g",
+            "cholesterolContent": "48.8 mg",
+            "fatContent": "15.9 g",
+            "fiberContent": null,
+            "proteinContent": "15.7 g",
+            "saturatedFatContent": "9.1 g",
+            "servingSize": null,
+            "sodiumContent": "195.2 mg",
+            "sugarContent": "22.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2016-02-03T23:27:15.197Z",
+                "reviewBody": "I have never made any type of cheese at home before but there is a distinct difference between homemade versus store bought...it's incredible!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "thedailygourmet",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/thedailygourmet/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2021-01-09T02:45:01.327Z",
+                "reviewBody": "I'm not sure what happened to my initial review but, to shorten it, it was super easy, and turned out great.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Sherry Lu",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/11163063/"
+                }
+            }
+        ]
+    }
+]

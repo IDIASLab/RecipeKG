@@ -1,0 +1,165 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/219/salad/vegetable-salads/",
+                    "name": "Vegetable Salad Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/15102/salad/vegetable-salads/tomato-salad/",
+                    "name": "Tomato Salad Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/240740/aunty-tereses-fattoush/",
+        "name": "Aunty Terese's Fattoush",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2435312.jpg",
+            "width": 5184,
+            "height": 3888
+        },
+        "datePublished": "2018-06-08T14:18:49.000Z",
+        "description": "Recipe for a healthy, authentic, Lebanese fattoush salad that is super easy to make!",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT0H20M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "1 small (4 inch) small pita bread round, split into 2 round pieces",
+            "3 small cucumbers, halved lengthwise and sliced",
+            "2 tomatoes, diced",
+            "1 small onion, diced",
+            "5 leaves romaine lettuce, coarsely chopped",
+            "\u00bc cup coarsely chopped parsley, or to taste",
+            "8 mint leaves, coarsely chopped",
+            "2 tablespoons olive oil",
+            "1 teaspoon sumac powder",
+            "\u00bd teaspoon salt, or to taste",
+            "\u215b teaspoon ground black pepper, or to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Toast pita bread in a toaster oven until browned, 2 to 4 minutes; crumble into bite-size pieces.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine cucumbers, tomatoes, onion, romaine lettuce, parsley, and mint in a large bowl. Mix olive oil, sumac, salt, and pepper into cucumber mixture using your hands. Add crumbled pita bread and toss.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad",
+            "Vegetable Salad Recipes",
+            "Tomato Salad Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Mario"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.75,
+            "ratingCount": 4,
+            "itemReviewed": "Aunty Terese's Fattoush",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "119.7 calories",
+            "carbohydrateContent": "13.2 g",
+            "cholesterolContent": null,
+            "fatContent": "7.2 g",
+            "fiberContent": "2.3 g",
+            "proteinContent": "2.5 g",
+            "saturatedFatContent": "1 g",
+            "servingSize": null,
+            "sodiumContent": "337.8 mg",
+            "sugarContent": "4.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2015-07-30T21:59:17.4Z",
+                "reviewBody": "This was good! I did not use the romaine b/c I didn't have any but followed the recipe otherwise. I would've like some fresh lemon juice in addition to the sumac in this as well but that's my opinion. This went really well with our dinner tonight! Thanks for sharing.:)",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Christina",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/christina/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2019-03-31T14:04:19.257Z",
+                "reviewBody": "Delicious refreshing and quickly assembled salad",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "PTG",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/15140947/"
+                }
+            }
+        ]
+    }
+]

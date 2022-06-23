@@ -1,0 +1,112 @@
+@prefix ns1: <http://purl.org/recipekg/> .
+@prefix ns2: <http://purl.org/heals/food/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/polish-meat-balls> a schema:Recipe ;
+    ns2:hasIngredient [ a <http://purl.org/recipekg/ingredient/Marjoram> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "marjoram" ],
+        [ a <http://purl.org/recipekg/ingredient/Veal> ;
+            ns1:hasQuantity "2 1/2" ;
+            ns1:hasUnit "pound" ;
+            ns1:ingredientName "veal" ],
+        [ a <http://purl.org/recipekg/ingredient/Egg> ;
+            ns1:hasQuantity "3" ;
+            ns1:ingredientName "egg" ],
+        [ a <http://purl.org/recipekg/ingredient/MushroomSoup> ;
+            ns1:hasQuantity "1" ;
+            ns1:ingredientName "mushroom soup" ],
+        [ a <http://purl.org/recipekg/ingredient/OnionFlakes> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "onion flakes" ],
+        [ a <http://purl.org/recipekg/ingredient/Pork> ;
+            ns1:hasQuantity "2 1/2" ;
+            ns1:hasUnit "pound" ;
+            ns1:ingredientName "pork" ],
+        [ a <http://purl.org/recipekg/ingredient/SaltineCrackers> ;
+            ns1:hasQuantity "40" ;
+            ns1:ingredientName "saltine crackers" ],
+        [ a <http://purl.org/heals/ingredient/Onion> ;
+            ns1:hasQuantity "2" ;
+            ns1:ingredientName "onion" ],
+        [ a <http://purl.org/recipekg/ingredient/Milk> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "can" ;
+            ns1:ingredientName "milk" ],
+        [ a <http://purl.org/heals/ingredient/Celery> ;
+            ns1:hasQuantity "6" ;
+            ns1:ingredientName "celery" ],
+        [ a <http://purl.org/recipekg/ingredient/BreadCrumbs> ;
+            ns1:hasQuantity "3/4" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "bread crumbs" ],
+        [ a <http://purl.org/heals/ingredient/BlackPepper> ;
+            ns1:hasQuantity "3/4" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "black pepper" ],
+        [ a <http://purl.org/heals/ingredient/Salt> ;
+            ns1:hasQuantity "4" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "salt" ] ;
+    ns1:belongsTo <http://purl.org/recipekg/categories/world-cuisine/european/eastern-european/polish/> ;
+    ns1:hasFSAScore 3 ;
+    ns1:hasNutritionalInformation [ a ns1:NutritionalInformation ;
+            ns1:hasCalorificData [ a ns1:CalorificData ;
+                    ns1:hasAmount "341.4"^^xsd:float ;
+                    ns1:hasUnit "calories" ] ;
+            ns1:hasCarbohydrateData [ a ns1:CarbohydrateData ;
+                    ns1:hasAmount "14.7"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasCholesterolData [ a ns1:CholesterolData ;
+                    ns1:hasAmount "134.7"^^xsd:float ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasFatData [ a ns1:FatData ;
+                    ns1:hasAmount "18.0"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSARed ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasFiberData [ a ns1:FiberData ;
+                    ns1:hasAmount "1.2"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasProteinData [ a ns1:ProteinData ;
+                    ns1:hasAmount "28.6"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSaturatedFatData [ a ns1:SaturatedFatData ;
+                    ns1:hasAmount "6.6"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSARed ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSodiumData [ a ns1:SodiumData ;
+                    ns1:hasAmount "937.0"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasSugarData [ a ns1:SugarData ;
+                    ns1:hasAmount "3.3"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAGreen ;
+                    ns1:hasUnit "g" ] ] ;
+    ns1:hasUSDAScore 4 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 8 ;
+            schema:ratingValue "3.875"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2018-06-08T13:56:30.000Z"^^schema:date ;
+    schema:name "Polish Meat Balls"^^xsd:string ;
+    schema:recipeYield "16 servings"^^xsd:string .
+
+ns1:FSAAmber a ns1:FSAColor .
+
+ns1:FSAGreen a ns1:FSAColor .
+
+<http://purl.org/recipekg/categories/world-cuisine/> a ns1:RecipeCategory .
+
+<http://purl.org/recipekg/categories/world-cuisine/european/> rdfs:subClassOf <http://purl.org/recipekg/categories/world-cuisine/> .
+
+<http://purl.org/recipekg/categories/world-cuisine/european/eastern-european/> rdfs:subClassOf <http://purl.org/recipekg/categories/world-cuisine/european/> .
+
+<http://purl.org/recipekg/categories/world-cuisine/european/eastern-european/polish/> rdfs:subClassOf <http://purl.org/recipekg/categories/world-cuisine/european/eastern-european/> .
+
+ns1:FSARed a ns1:FSAColor .
+

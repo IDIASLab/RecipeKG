@@ -1,0 +1,156 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/251/main-dish/sandwiches/",
+                    "name": "Sandwich Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/13376/main-dish/sandwiches/hot-dogs-and-corn-dogs/",
+                    "name": "Hot Dogs and Corn Dogs Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/222802/easy-frankfurters/",
+        "name": "Easy Frankfurters",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1005120.jpg",
+            "width": 2734,
+            "height": 2734
+        },
+        "datePublished": "2012-05-30T17:31:09.000Z",
+        "description": "My family loves it.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H20M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "1 tablespoon vegetable oil",
+            "1 red onion, chopped",
+            "1 teaspoon red chili powder",
+            "\u00bc teaspoon garam masala",
+            "1 (16 ounce) package frankfurters, sliced",
+            "1 tablespoon ketchup"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat oil in a skillet over medium heat; cook and stir onion in hot oil until slightly pink, about 5 minutes. Add red chili powder and garam masala; stir to coat the onion. Stir the frankfurter slices into the onion mixture; cook and stir until hot, about 2 minutes. Pour the ketchup over the frankfurters; stir to coat.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Sandwich Recipes",
+            "Hot Dogs and Corn Dogs Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "ravera"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 2,
+            "itemReviewed": "Easy Frankfurters",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "416.9 calories",
+            "carbohydrateContent": "8.5 g",
+            "cholesterolContent": "59.4 mg",
+            "fatContent": "36.7 g",
+            "fiberContent": "0.7 g",
+            "proteinContent": "13 g",
+            "saturatedFatContent": "13.7 g",
+            "servingSize": null,
+            "sodiumContent": "1326.7 mg",
+            "sugarContent": "5.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2013-04-17T20:38:52.493Z",
+                "reviewBody": "The recipe submitter doesn't say how she/he serves this. I can't see this as either a main course or a side dish so I'm assuming appetizer?? At any rate that's how I served it. It simply doesn't have much flavor. Mostly all you can taste is the frankfurter itself...the chili powder just a little but the garam masala not at all. I tasted it as written then added more garam masala and chili pepper and even a little more ketchup but it still was pretty bland and even a little gummy. To salvage I ended up adding some red guajille chile sauce. As written I'd give this 2 stars but this rating reflects the few modifications made. We ate it but won't be making this one again.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "lutzflcat",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/lutzflcat/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2018-06-06T02:08:54.14Z",
+                "reviewBody": "Amazing little snack. I used tikka masala instead of garam masala and it worked wonders.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Zarar Younis",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/16311765/"
+                }
+            }
+        ]
+    }
+]

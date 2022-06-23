@@ -1,0 +1,157 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/151/breakfast-and-brunch/pancakes/",
+                    "name": "Pancake Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/238570/gluten-free-egg-free-pumpkin-coconut-flour-pancakes/",
+        "name": "Gluten-Free, Egg-Free Pumpkin Coconut Flour Pancakes",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1341269.jpg",
+            "width": 960,
+            "height": 960
+        },
+        "datePublished": "2020-06-19T03:59:57.000Z",
+        "description": "Pumpkin and coconut flour pancakes are great in the summer time. I used maple syrup over them.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H20M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "4\u2009\u00bd tablespoons coconut flour",
+            "\u00bc teaspoon salt",
+            "\u00bc teaspoon baking powder",
+            "\u00bc teaspoon baking soda",
+            "\u00bd (15 ounce) can pumpkin puree",
+            "\u00bd cup coconut milk",
+            "1 teaspoon xanthan gum",
+            "1\u2009\u00bd teaspoons white sugar",
+            "1 teaspoon oil, or as needed"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Whisk coconut flour, salt, baking powder, and baking soda together in a bowl.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Stir pumpkin puree, coconut milk, sugar, and xanthan gum together in another bowl until smooth; stir into flour mixture until batter is thick and smooth.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat oil in a griddle over medium-high heat. Drop batter by large spoonfuls onto the griddle and cook until bubbles form and the edges are dry, 3 to 4 minutes. Flip and cook until browned on the other side, 2 to 3 minutes. Repeat with remaining batter.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Pancake Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "cjcuppycake"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 1,
+            "ratingCount": 2,
+            "itemReviewed": "Gluten-Free, Egg-Free Pumpkin Coconut Flour Pancakes",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "191.3 calories",
+            "carbohydrateContent": "16.3 g",
+            "cholesterolContent": null,
+            "fatContent": "14.6 g",
+            "fiberContent": "6.6 g",
+            "proteinContent": "2.3 g",
+            "saturatedFatContent": "11.2 g",
+            "servingSize": null,
+            "sodiumContent": "831.3 mg",
+            "sugarContent": "6.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2015-03-04T23:59:17.557Z",
+                "reviewBody": "Everything came out mush.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 1
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "lilaclilac",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/15162998/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2017-10-01T23:24:56.78Z",
+                "reviewBody": "This was the first recipe I have used from Allrecipes.com that was below standard. They did not cook in the pan. They bubbled but never firmed up enough to turn. Made a second batch and baked them. They turned out better but definitely not pumpkin pancakes; more like a pumpkin cookie.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 1
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Sheri Torelli",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/4581794/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,156 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/251/main-dish/sandwiches/",
+                    "name": "Sandwich Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/13376/main-dish/sandwiches/hot-dogs-and-corn-dogs/",
+                    "name": "Hot Dogs and Corn Dogs Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/274404/chipotle-chili-dogs/",
+        "name": "Chipotle Chili Dogs",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6845156.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2020-02-01T07:52:22.000Z",
+        "description": "Put some fireworks on your hot dogs with chipotle chili sauce.",
+        "prepTime": "P0DT0H20M",
+        "cookTime": "P0DT0H20M",
+        "totalTime": "P0DT0H40M",
+        "recipeYield": "12 chili dogs",
+        "recipeIngredient": [
+            "1 pound ground chuck",
+            "1 white onion, diced",
+            "2 chipotle chili peppers in adobo sauce, minced",
+            "2 cloves garlic, minced",
+            "3 (8 ounce) cans tomato sauce",
+            "1 teaspoon chili powder",
+            "12 hot dogs",
+            "12 hot dog buns",
+            "1 tablespoon butter, or as needed",
+            "shredded Cheddar cheese",
+            "2 tablespoons diced onion, or to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine ground chuck, diced onion, minced chipotle chili peppers, and garlic in a saucepan. Cook over medium heat until beef is browned and crumbly, about 5 minutes. Drain.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Return beef mixture to saucepan; stir in tomato sauce and chili powder. Bring to a boil, reduce heat, and simmer 15 minutes, stirring occasionally.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cook hot dogs according to package directions.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Butter hot dog buns and toast in a toaster oven, about 2 minutes. Place cooked hot dogs in the prepared buns. Spoon chili over hot dogs. Top with Cheddar cheese and onions. Serve immediately.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Sandwich Recipes",
+            "Hot Dogs and Corn Dogs Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "bd.weld"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Chipotle Chili Dogs",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "396.1 calories",
+            "carbohydrateContent": "27.7 g",
+            "cholesterolContent": "55.6 mg",
+            "fatContent": "23.8 g",
+            "fiberContent": "2 g",
+            "proteinContent": "17.4 g",
+            "saturatedFatContent": "10.3 g",
+            "servingSize": null,
+            "sodiumContent": "1114.8 mg",
+            "sugarContent": "7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-07-18T10:20:33.29Z",
+                "reviewBody": "LOVED the sauce. I actually made these twice because they were that good. The chipotle sauce really sets these apart from any chili dog you've ever had. When I made this the second time it was just the two of us so I had leftovers and let me tell you that the sauce was excellent for Frito pies too. Definite keeper and 5 stars all the way!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

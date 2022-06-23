@@ -1,0 +1,160 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1986/salad/egg-salad/",
+                    "name": "Egg Salad Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/279947/egg-salad-with-bacon/",
+        "name": "Egg Salad with Bacon",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F9152911.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-04-30T20:10:48.000Z",
+        "description": "Traditional egg salad with an added twist of dill, lemon, and bacon.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT1H35M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "6 large eggs",
+            "\u2153 cup finely diced bacon",
+            "\u00bc cup mayonnaise",
+            "\u00bc cup chopped green onions",
+            "1 tablespoon chopped fresh dill",
+            "1 tablespoon lemon juice",
+            "1 teaspoon Dijon mustard",
+            "\u00bd teaspoon prepared yellow mustard"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place eggs in a saucepan and cover with water. Bring to a boil, remove from heat, and let eggs stand in hot water for 15 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "At the same time, place bacon in a large skillet and cook over medium-high heat, turning occasionally, until evenly browned, about 10 minutes. Drain bacon slices on paper towels.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Mix bacon, mayonnaise, green onions, dill, lemon juice, Dijon, yellow mustard together in a medium bowl.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Remove eggs from hot water, cool under cold running water, and peel. Chop eggs into 1/4-inch cubes. Mix into mayonnaise mixture and refrigerate until cold, at least 1 hour. Serve.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad",
+            "Egg Salad Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "MyPrecious"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Egg Salad with Bacon",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "236.7 calories",
+            "carbohydrateContent": "2.2 g",
+            "cholesterolContent": "289.5 mg",
+            "fatContent": "20.4 g",
+            "fiberContent": "0.2 g",
+            "proteinContent": "11.5 g",
+            "saturatedFatContent": "4.6 g",
+            "servingSize": null,
+            "sodiumContent": "333 mg",
+            "sugarContent": "1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-04-15T01:52:59.437Z",
+                "reviewBody": "This is good. I like bacon in egg salad. I would leave the lemon juice out next time.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Tammy Lynn",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3084624/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2020-06-08T04:15:37.577Z",
+                "reviewBody": "The best!!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Stephen Lennon",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/27564829/"
+                }
+            }
+        ]
+    }
+]

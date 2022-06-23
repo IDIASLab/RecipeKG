@@ -1,0 +1,146 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/364/desserts/frozen-desserts/",
+                    "name": "Frozen Dessert Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/16184/desserts/frozen-desserts/sorbet/",
+                    "name": "Sorbet Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/246980/crazy-cantaloupe-sorbet/",
+        "name": "Crazy Cantaloupe Sorbet",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Crazy Cantaloupe Sorbet"
+        },
+        "datePublished": "2020-06-19T04:06:36.000Z",
+        "description": "This recipe will keep you coming back for more!",
+        "prepTime": "P0DT0H20M",
+        "cookTime": null,
+        "totalTime": "P0DT1H20M",
+        "recipeYield": "6 single scoops",
+        "recipeIngredient": [
+            "1 cantaloupe, halved and seeded",
+            "1 fluid ounce 100% mango juice, or more as needed",
+            "2 cups water",
+            "1 cup white sugar"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Scoop cantaloupe meat into a bowl and mash with a potato masher until smooth. Run cantaloupe through a strainer, collecting juice in a measuring cup. Collect 1 1/2 cup cantaloupe juice, adding enough mango juice to reach 1 1/2 cups as needed. Discard cantaloupe pulp or reserve for another use.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour juice mixture into a bowl; mix in water and sugar until sugar is dissolved.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Transfer juice mixture to an ice cream maker and follow manufacturer's instructions for sorbet.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Frozen Dessert Recipes",
+            "Sorbet Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Charlotte Jay"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Crazy Cantaloupe Sorbet",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "162.8 calories",
+            "carbohydrateContent": "41.5 g",
+            "cholesterolContent": null,
+            "fatContent": "0.2 g",
+            "fiberContent": "0.8 g",
+            "proteinContent": "0.8 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "17.3 mg",
+            "sugarContent": "40.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-02-27T11:01:26.197Z",
+                "reviewBody": "This is the best",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "The Baker",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/25092780/"
+                }
+            }
+        ]
+    }
+]

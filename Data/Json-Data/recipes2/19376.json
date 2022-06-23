@@ -1,0 +1,156 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/237/world-cuisine/latin-american/",
+                    "name": "Latin American",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/728/world-cuisine/latin-american/mexican/",
+                    "name": "Mexican",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/108832/amaretto-by-morning/",
+        "name": "Amaretto By Morning",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F91433.jpg",
+            "width": 250,
+            "height": 250
+        },
+        "datePublished": "2018-03-21T16:54:17.000Z",
+        "description": "This yummy combination of frozen peaches, apple juice and just a dash of amaretto liqueur is just the thing to hit the spot on a summer afternoon!",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "1 serving",
+        "recipeIngredient": [
+            "1 (1.5 fluid ounce) jigger amaretto liqueur",
+            "1 cup frozen sliced peaches",
+            "2 cups apple juice"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "In a blender, combine amaretto liqueur, frozen peaches and apple juice. Blend until smooth. Pour into a glass and serve immediately.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Latin American",
+            "Mexican"
+        ],
+        "recipeCuisine": [
+            "Latin American",
+            "Mexican"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "E"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Amaretto By Morning",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "616.6 calories",
+            "carbohydrateContent": "136.4 g",
+            "cholesterolContent": "0 mg",
+            "fatContent": "1 g",
+            "fiberContent": "5 g",
+            "proteinContent": "1.9 g",
+            "saturatedFatContent": "0.2 g",
+            "servingSize": null,
+            "sodiumContent": "32.6 mg",
+            "sugarContent": "126.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2008-06-28T20:36:40.92Z",
+                "reviewBody": "Very good! I couldn't wait to freeze my peaches so used them fresh. It was a smooth drink. Maybe next time I will plan ahead and freeze the peaches!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "sueb",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2719400/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2010-11-17T01:27:05.953Z",
+                "reviewBody": "I didn't have apple juice so I used orange juice and it was delicious! Thanks for sharing!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Mandi B.",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/1488199/"
+                }
+            }
+        ]
+    }
+]

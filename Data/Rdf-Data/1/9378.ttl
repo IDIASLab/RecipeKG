@@ -1,0 +1,54 @@
+@prefix ns1: <http://purl.org/heals/food/> .
+@prefix ns2: <http://purl.org/recipekg/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/pumpkin-pie-with-truvia-natural-sweetener> a schema:Recipe ;
+    ns1:hasIngredient [ a <http://purl.org/heals/ingredient/PumpkinSeed> ;
+            ns2:hasQuantity "1 1/2" ;
+            ns2:hasUnit "teaspoon" ;
+            ns2:ingredientName "pumpkin seed" ],
+        [ a <http://purl.org/recipekg/ingredient/Pastry> ;
+            ns2:ingredientName "Pastry" ],
+        [ a <http://purl.org/recipekg/ingredient/Egg> ;
+            ns2:hasQuantity "3" ;
+            ns2:ingredientName "egg" ],
+        [ a <http://purl.org/recipekg/ingredient/WhippedTopping> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "tablespoon" ;
+            ns2:ingredientName "whipped topping" ],
+        [ a <http://purl.org/recipekg/ingredient/Vanilla> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "teaspoon" ;
+            ns2:ingredientName "vanilla" ],
+        [ a <http://purl.org/recipekg/ingredient/Milk> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "can" ;
+            ns2:ingredientName "milk" ],
+        [ ],
+        [ a <http://purl.org/heals/ingredient/Salt> ;
+            ns2:hasQuantity "1/4" ;
+            ns2:hasUnit "teaspoon" ;
+            ns2:ingredientName "salt" ],
+        [ ],
+        [ a <http://purl.org/heals/ingredient/PumpkinSeed> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "can" ;
+            ns2:ingredientName "pumpkin seed" ] ;
+    ns2:belongsTo <http://purl.org/recipekg/categories/desserts/pies/pumpkin-pie/> ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 1 ;
+            schema:ratingValue "2"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2012-10-04T22:19:51.000Z"^^schema:date ;
+    schema:name "Pumpkin Pie with Truvia® Natural Sweetener"^^xsd:string ;
+    schema:recipeYield "9 -inch pie"^^xsd:string .
+
+<http://purl.org/recipekg/categories/desserts/> a ns2:RecipeCategory .
+
+<http://purl.org/recipekg/categories/desserts/pies/> rdfs:subClassOf <http://purl.org/recipekg/categories/desserts/> .
+
+<http://purl.org/recipekg/categories/desserts/pies/pumpkin-pie/> rdfs:subClassOf <http://purl.org/recipekg/categories/desserts/pies/> .
+

@@ -1,0 +1,111 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/285555/air-fryer-cauliflower-with-taco-seasoning/",
+        "name": "Air Fryer Cauliflower with Taco Seasoning",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F9399285.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2021-09-20T02:57:58.000Z",
+        "description": "This cauliflower is air-fried and can be eaten as a side dish, or incorporated as a meat replacement for tacos.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "3 servings",
+        "recipeIngredient": [
+            "12 ounces cauliflower florets",
+            "2 tablespoons olive oil",
+            "2 teaspoons taco seasoning, or to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat the oven to 380 degrees F (190 degrees C).\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Toss cauliflower with olive oil and taco seasoning in a bowl until well combined. Transfer to the air fryer basket.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Air-fry cauliflower for 7 minutes. If you like your cauliflower extra crispy, air-fry for an additional 7 to 8 minutes. If your florets are small, keep an eye on them, otherwise they may burn.\n"
+            }
+        ],
+        "recipeCategory": [],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "thedailygourmet"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Air Fryer Cauliflower with Taco Seasoning",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "114.3 calories",
+            "carbohydrateContent": "7.3 g",
+            "cholesterolContent": null,
+            "fatContent": "9.1 g",
+            "fiberContent": "2.8 g",
+            "proteinContent": "2.2 g",
+            "saturatedFatContent": "1.3 g",
+            "servingSize": null,
+            "sodiumContent": "179.5 mg",
+            "sugarContent": "3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-10-08T23:37:48.693Z",
+                "reviewBody": "Easy and tasty. Served with a quesadilla stack casserole.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "FrackFamily5 CA\u2014>CT",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/frackfamily5/"
+                }
+            }
+        ]
+    }
+]

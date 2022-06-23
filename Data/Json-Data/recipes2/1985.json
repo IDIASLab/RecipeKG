@@ -1,0 +1,148 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/251/main-dish/sandwiches/",
+                    "name": "Sandwich Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17558/main-dish/sandwiches/heroes-hoagies-and-subs/",
+                    "name": "Heroes, Hoagies and Subs Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/239834/roasted-red-pepper-sub/",
+        "name": "Roasted Red Pepper Sub",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1938126.jpg",
+            "width": 2808,
+            "height": 2808
+        },
+        "datePublished": "2014-10-17T23:15:57.000Z",
+        "description": "This is one of my favorite healthy vegetarian sandwich recipes! The red peppers give it the bulk or 'meat' of the sandwich, the arugula and basil compliment the red pepper flavor beautifully, and the balsamic and goat cheese give it a little kick!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "3 small sandwiches",
+        "recipeIngredient": [
+            "1 baguette, cut into 3 sub-size portions and then sliced open lengthwise",
+            "2 tablespoons olive oil",
+            "1 (8 ounce) can roasted red peppers, drained and chopped",
+            "2 tablespoons creamy goat cheese ",
+            "2 teaspoons balsamic vinegar, or to taste",
+            "\u00bc cup arugula",
+            "\u00bc cup torn fresh basil leaves, or to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Slice each baguette segment lengthwise. Brush the cut sides with olive oil. Toast in toaster to your preferred darkness, 2 to 4 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat red peppers in a saucepan over medium heat until hot, 2 to 3 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Spread thick layers of goat cheese onto the cut sides of each baguette piece. Spread red peppers onto 3 of the baguette pieces. Sprinkle balsamic vinegar over the red peppers; top with arugula and basil. Place remaining baguette segments atop the fillings to finish the sandwiches.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Sandwich Recipes",
+            "Heroes, Hoagies and Subs Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Molly"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Roasted Red Pepper Sub",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "451.5 calories",
+            "carbohydrateContent": "68.7 g",
+            "cholesterolContent": "3.7 mg",
+            "fatContent": "13 g",
+            "fiberContent": "3.3 g",
+            "proteinContent": "15.5 g",
+            "saturatedFatContent": "2.9 g",
+            "servingSize": null,
+            "sodiumContent": "1034.3 mg",
+            "sugarContent": "5.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2015-01-12T01:03:05.62Z",
+                "reviewBody": "Absolutely delicious! I'm always looking for new sandwich ideas.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "House of Aqua",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/houseofaqua/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,145 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/237/world-cuisine/latin-american/",
+                    "name": "Latin American",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/728/world-cuisine/latin-american/mexican/",
+                    "name": "Mexican",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/263128/jicama-tortillas/",
+        "name": "Jicama Tortillas",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5206368.jpg",
+            "width": 960,
+            "height": 960
+        },
+        "datePublished": "2018-03-10T03:55:49.000Z",
+        "description": "Delicious low-carb tortillas for tacos and enchiladas made with jicama. You can eat them raw for a crispy texture or steam them if you like a softer tortilla. These are grain-free tortillas that are keto and vegan friendly.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": null,
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "18 tortillas",
+        "recipeIngredient": [
+            "1 large jicama"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Wash jicama thoroughly with cool water and remove all dirt using a vegetable brush. Trim both ends of the jicama and peel with a vegetable peeler, removing all skin and tough flesh.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cut jicama first in half crosswise, then cut each half into paper thin slices using a sharp knife or the thinnest blade of a mandoline.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Use them immediately as crisp tortillas, or store for up to a week in a resealable plastic bag in the fridge.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Latin American",
+            "Mexican"
+        ],
+        "recipeCuisine": [
+            "Latin American",
+            "Mexican"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "gem"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 2,
+            "itemReviewed": "Jicama Tortillas",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "25.3 calories",
+            "carbohydrateContent": "5.9 g",
+            "cholesterolContent": null,
+            "fatContent": "0.1 g",
+            "fiberContent": "3.3 g",
+            "proteinContent": "0.5 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "2.7 mg",
+            "sugarContent": "1.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-07-12T06:34:27.637Z",
+                "reviewBody": "The jicama tortillas were just not for me they're better eaten crunchy when heated even just a bit they developed a weird taste and smell that i just couldn't handle ewww. But cold crunchy not too bad.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 1
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Karo Gonzalez",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/21865331/"
+                }
+            }
+        ]
+    }
+]

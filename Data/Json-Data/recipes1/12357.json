@@ -1,0 +1,160 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/133/drinks/cocktails/",
+                    "name": "Cocktail Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/20215/dads-melon-sour/",
+        "name": "Dad's Melon Sour",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4440974.jpg",
+            "width": 1817,
+            "height": 1817
+        },
+        "datePublished": "2000-07-14T03:27:38.000Z",
+        "description": "We've all had sours before, but my dad's simple Melon Sour is the best I've had.",
+        "prepTime": "P0DT0H2M",
+        "cookTime": null,
+        "totalTime": "P0DT0H2M",
+        "recipeYield": "1 serving",
+        "recipeIngredient": [
+            "2 fluid ounces melon liqueur",
+            "1 fluid ounce lemon juice",
+            "1 teaspoon simple syrup"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Fill cocktail shaker with ice. Add melon liqueur, lemon juice and simple syrup. Shake well and strain into a chilled glass filled with ice.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Cocktail Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Tawny"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.6,
+            "ratingCount": 5,
+            "itemReviewed": "Dad's Melon Sour",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "231.7 calories",
+            "carbohydrateContent": "32.3 g",
+            "cholesterolContent": "0 mg",
+            "fatContent": "0.2 g",
+            "fiberContent": "0.1 g",
+            "proteinContent": "0.1 g",
+            "saturatedFatContent": "0 g",
+            "servingSize": null,
+            "sodiumContent": "4.3 mg",
+            "sugarContent": "24.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2011-01-21T18:37:17.207Z",
+                "reviewBody": "One of my favorite cocktails the first time I tried was Cancun and they made it like a slushie with a lot of crush ice",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Marcela.Galvez",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/4902800/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2017-01-09T06:50:17.02Z",
+                "reviewBody": "This is pretty good but very sweet. I might add a little 50/50 to it to tone the sweetness a bit.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Kim's Cooking Now",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/kimscookingnow/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2013-04-03T04:02:50.14Z",
+                "reviewBody": "quick easy and good- but with a very artificial aftertaste.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "thebonster",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/10680562/"
+                }
+            }
+        ]
+    }
+]

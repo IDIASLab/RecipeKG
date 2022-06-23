@@ -1,0 +1,117 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/212/salad/grains/",
+                    "name": "Grains",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/258634/bulgur-with-feta-and-grapes/",
+        "name": "Bulgur with Feta and Grapes",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Bulgur with Feta and Grapes"
+        },
+        "datePublished": "2019-07-10T07:10:59.000Z",
+        "description": "This is a delicious salad that is popular in the Middle East and Mediterranean area. Perfect for a warm summer day.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": null,
+        "totalTime": "P0DT0H45M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "\u00be cup boiling water",
+            "\u00bd cup fine bulgur",
+            "\u00bd teaspoon salt",
+            "2 tablespoons fresh lemon juice",
+            "1 tablespoon olive oil",
+            "coarse salt to taste",
+            "\u00be cup halved seedless grapes",
+            "\u00bd cup crumbled feta cheese",
+            "2 tablespoons chopped scallions"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine boiling water, bulgur, and salt in a bowl. Cover and let stand until bulgur absorbs water and softens, about 30 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Whisk lemon juice, olive oil, and coarse salt together in a large bowl. Mix in grapes, feta cheese, and scallions. Add bulgur; toss to distribute evenly.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad",
+            "Grains"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Sheila"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Bulgur with Feta and Grapes",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "242.7 calories",
+            "carbohydrateContent": "39.2 g",
+            "cholesterolContent": "2.5 mg",
+            "fatContent": "8.7 g",
+            "fiberContent": "7.2 g",
+            "proteinContent": "6.1 g",
+            "saturatedFatContent": "1.9 g",
+            "servingSize": null,
+            "sodiumContent": "839.9 mg",
+            "sugarContent": "10.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

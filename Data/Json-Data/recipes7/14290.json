@@ -1,0 +1,107 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/247293/nectarine-compote/",
+        "name": "Nectarine Compote",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Nectarine Compote"
+        },
+        "datePublished": "2020-06-19T04:06:57.000Z",
+        "description": "A colorful and flavorful dessert, this can be served up at fancy dinner parties, or round the family table.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H23M",
+        "totalTime": "P0DT1H13M",
+        "recipeYield": "2 cups",
+        "recipeIngredient": [
+            "2 tablespoons butter",
+            "2 tablespoons white sugar",
+            "1 pound nectarine, quartered and stone removed",
+            "4 cardamom pods",
+            "\u00bc cup double cream"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat butter and sugar together in a heavy saucepan over low heat until mixture turns light brown, about 5 minutes. Add nectarine quarters and cardamom pods; cook and stir over medium heat until nectarines are soft, about 18 minutes. Remove and discard cardamom.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Remove saucepan from heat and allow nectarine mixture to cool slightly. Transfer mixture to a blender or food processor and blend until smooth; place in the refrigerator until completely cooled, about 30 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Beat double cream in a glass, metal, or ceramic bowl until soft peaks form. Lift your beater or whisk straight up: the cream will form soft mounds. Spoon cream over chilled compote.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "James!"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Nectarine Compote",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "97.2 calories",
+            "carbohydrateContent": "9.7 g",
+            "cholesterolContent": "7.8 mg",
+            "fatContent": "6.6 g",
+            "fiberContent": "1.1 g",
+            "proteinContent": "0.8 g",
+            "saturatedFatContent": "4 g",
+            "servingSize": null,
+            "sodiumContent": "20.5 mg",
+            "sugarContent": "7.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

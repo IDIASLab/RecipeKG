@@ -1,0 +1,126 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/92/meat-and-poultry/",
+                    "name": "Meat and Poultry",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/206/meat-and-poultry/turkey/",
+                    "name": "Turkey",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/20212/fried-wild-turkey/",
+        "name": "Fried Wild Turkey",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F754287.jpg",
+            "width": 250,
+            "height": 250
+        },
+        "datePublished": "2000-08-07T01:20:18.000Z",
+        "description": "Southern-fried turkey with all the trimmings!",
+        "prepTime": "P0DT0H1M",
+        "cookTime": null,
+        "totalTime": "P0DT0H1M",
+        "recipeYield": "1 serving",
+        "recipeIngredient": [
+            "1 (12 fluid ounce) can or bottle lemon-lime flavored carbonated beverage",
+            "1 (1.5 fluid ounce) jigger bourbon whiskey",
+            "1 (1.5 fluid ounce) jigger hazelnut liqueur"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Fill a tall glass with ice. Fill to 3/4 with lemon-lime soda. Pour in Wild Turkey whiskey and hazelnut liqueur.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Meat and Poultry",
+            "Turkey"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "JACK01"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 2,
+            "itemReviewed": "Fried Wild Turkey",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "411.3 calories",
+            "carbohydrateContent": "58.2 g",
+            "cholesterolContent": "0 mg",
+            "fatContent": "0.1 g",
+            "fiberContent": "0 g",
+            "proteinContent": "0 g",
+            "saturatedFatContent": "0 g",
+            "servingSize": null,
+            "sodiumContent": "43.8 mg",
+            "sugarContent": "18.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2011-12-16T17:29:17.09Z",
+                "reviewBody": "I think this is the lowest I've ever rated a recipe...this was not to my liking - I followed the directions and it was a wasted of alcohol...I drank it only b/c I don't waste alcohol...never again - blech!!!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 1
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "thedailygourmet",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/thedailygourmet/"
+                }
+            }
+        ]
+    }
+]

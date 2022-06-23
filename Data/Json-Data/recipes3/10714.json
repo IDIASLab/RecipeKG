@@ -1,0 +1,159 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/237/world-cuisine/latin-american/",
+                    "name": "Latin American",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/728/world-cuisine/latin-american/mexican/",
+                    "name": "Mexican",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/237841/potato-taco-filling/",
+        "name": "Potato Taco Filling",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3331976.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2018-06-08T14:14:50.000Z",
+        "description": "This is a great recipe from my Grandma. We love these tacos! They are not the most-Mexican tacos around, but they are a family favorite for sure. These take some getting used to for some people, but you will grow to love and crave them. They are great with ketchup. I know it's blasphemy to put ketchup on tacos, but trust me!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H15M",
+        "totalTime": "P0DT0H25M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "1 pound lean ground beef",
+            "1 potato, grated",
+            "3 tablespoons vinegar",
+            "1 clove garlic, minced",
+            "1 teaspoon thyme leaves",
+            "salt and ground black pepper to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat a large skillet over medium-high heat. Cook and stir beef in the hot skillet until some of the fat renders, 1 to 2 minutes; add potatoes, vinegar, garlic, and thyme. Continue to cook the beef mixture, stirring frequently, until the beef is completely browned and crumbly and the potato is soft, 12 to 15 minutes more.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Latin American",
+            "Mexican"
+        ],
+        "recipeCuisine": [
+            "Latin American",
+            "Mexican"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Superchef"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 2,
+            "itemReviewed": "Potato Taco Filling",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "173.4 calories",
+            "carbohydrateContent": "6.5 g",
+            "cholesterolContent": "49.6 mg",
+            "fatContent": "9.3 g",
+            "fiberContent": "0.9 g",
+            "proteinContent": "15.1 g",
+            "saturatedFatContent": "3.6 g",
+            "servingSize": null,
+            "sodiumContent": "47.7 mg",
+            "sugarContent": "0.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-11-05T10:21:02.603Z",
+                "reviewBody": "It turned into mush but it did taste good.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "abbyz2000",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/13356091/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2016-03-04T03:22:58.833Z",
+                "reviewBody": "This is pretty good but I felt the meat needed more taco type seasoning. The starch from the potatoes also made this stick easily so heat slowly once you add the potatoes. Overall great recipe and I really enjoyed the flavor and texture the potato added.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

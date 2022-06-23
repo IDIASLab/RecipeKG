@@ -1,0 +1,160 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/250/main-dish/pizza/",
+                    "name": "Pizza Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1036/main-dish/pizza/chicken/",
+                    "name": "Chicken",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/280114/barbecue-cornbread-pizza/",
+        "name": "Barbecue Cornbread Pizza",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8632623.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2006-06-20T13:45:25.000Z",
+        "description": "Cornbread acts as the dough in this delicious pizza rendition. Top with lettuce, sour cream, diced tomatoes, etc.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H25M",
+        "totalTime": "P0DT0H40M",
+        "recipeYield": "1 9x13-inch pizza",
+        "recipeIngredient": [
+            "cooking spray",
+            "1 (8.5 ounce) package cornbread mix (such as Jiffy\u00ae)",
+            "1 egg",
+            "\u2153 cup milk",
+            "1 pound chicken breasts, cut into bite-sized pieces",
+            "\u2153 cup water",
+            "\u00bd (1 ounce) envelope taco seasoning mix",
+            "\u00bc cup barbecue sauce",
+            "\u00bd cup shredded Cheddar cheese"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat the oven to 400 degrees F (200 degrees C). Grease a 9x13-inch baking pan with cooking spray.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine cornbread mix, egg, and milk in a bowl. Stir until moistened. Pour into the prepared pan.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated oven until just set, 6 to 8 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "While cornbread is baking, cook and stir chicken in a nonstick skillet over medium-high heat until browned, 4 to 5 minutes. Stir in water and taco seasoning. Simmer for 2 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Remove cornbread from the oven and carefully spread barbecue sauce over the soft surface. Gently lay the chicken over the barbecue sauce. Sprinkle Cheddar cheese over the chicken.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Continue baking until melted and browned, about 15 minutes. Let sit for 5 minutes. Cut into individual pieces.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Pizza Recipes",
+            "Chicken"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Eric"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Barbecue Cornbread Pizza",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "248.9 calories",
+            "carbohydrateContent": "25.6 g",
+            "cholesterolContent": "64.3 mg",
+            "fatContent": "8.2 g",
+            "fiberContent": "2 g",
+            "proteinContent": "16.7 g",
+            "saturatedFatContent": "3.1 g",
+            "servingSize": null,
+            "sodiumContent": "636.3 mg",
+            "sugarContent": "2.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-10-14T07:21:14.437Z",
+                "reviewBody": "The flavors were really good together.  It was very easy to make and you could make this with leftover cooked chicken if you had any.\n\nThe cornbread was where I ran into an issue.  The edges where it was thinner was great, but thicker areas were very very dry. I used a smaller pan so I did reduce the amount of cornbread mix. I would say reduce the cornbread mix for the usual size pan.. or add more BBQ sauce .  I am going to try this again with more sauce,",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Linda T",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/lindat/"
+                }
+            }
+        ]
+    }
+]

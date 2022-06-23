@@ -1,0 +1,128 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/364/desserts/frozen-desserts/",
+                    "name": "Frozen Dessert Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/231826/jersey-shore-ice-cream-sandwiches/",
+        "name": "Jersey Shore Ice Cream Sandwiches",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1000012.jpg",
+            "width": 2443,
+            "height": 2448
+        },
+        "datePublished": "2013-03-15T22:19:42.000Z",
+        "description": "I've been eating these delicious treats for 30 years! They are a staple on the boardwalk of the New Jersey coastline. Get your napkins, they are messy but fabulous!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "2 sandwiches",
+        "recipeIngredient": [
+            "4 (4 inch) frozen waffles, toasted",
+            "1 cup vanilla ice cream",
+            "1 cup strawberry ice cream",
+            "1 cup chocolate ice cream, softened",
+            "\u00bd cup chocolate syrup"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Arrange 2 waffles on a serving plate. Divide vanilla ice cream, strawberry ice cream, and chocolate ice cream evenly over waffles and drizzle with chocolate syrup. Top with remaining waffles to create 2 sandwiches.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Frozen Dessert Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Cat Lady Cyndi"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 2,
+            "itemReviewed": "Jersey Shore Ice Cream Sandwiches",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "739.7 calories",
+            "carbohydrateContent": "121.1 g",
+            "cholesterolContent": "69.7 mg",
+            "fatContent": "24.6 g",
+            "fiberContent": "5 g",
+            "proteinContent": "11.9 g",
+            "saturatedFatContent": "11.9 g",
+            "servingSize": null,
+            "sodiumContent": "621 mg",
+            "sugarContent": "76.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2013-06-18T22:02:39.97Z",
+                "reviewBody": "This is one of my favorite boardwalk foods! and my favorite way to eat icecream!! Something about warm waffles and the sweet coolness of icecream sandwiched together. I often forgo the chocolate syrup but either way is a classic and a wonderful memory of my childhood.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Linda",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/lindalmt/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,141 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/213/salad/green-salads/",
+                    "name": "Green Salad Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/15111/salad/green-salads/spinach-salad/",
+                    "name": "Spinach Salad Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/180522/turkey-and-citrus-salad/",
+        "name": "Turkey and Citrus Salad",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4578819.jpg",
+            "width": 1280,
+            "height": 960
+        },
+        "datePublished": "2019-04-02T06:51:17.000Z",
+        "description": "A way to use leftover turkey after Thanksgiving.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": null,
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "8 servings",
+        "recipeIngredient": [
+            "8 ounces sugar snap peas, trimmed and halved",
+            "2 cups leftover roast turkey, pulled into bite-sized pieces",
+            "4 cups baby spinach leaves",
+            "4 cups mixed salad greens",
+            "2 cups sliced mushrooms",
+            "1 (15 ounce) can mandarin oranges, drained",
+            "\u00bd cup walnut halves",
+            "\u00bd cup raspberry vinaigrette salad dressing"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Toss snap peas, turkey meat, spinach leaves, mixed salad greens, mushrooms, mandarin orange pieces, walnuts, and raspberry vinaigrette dressing lightly in a salad bowl to combine, and serve.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad",
+            "Green Salad Recipes",
+            "Spinach Salad Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "kdonofrio"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Turkey and Citrus Salad",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "166.6 calories",
+            "carbohydrateContent": "15.5 g",
+            "cholesterolContent": "26.6 mg",
+            "fatContent": "6 g",
+            "fiberContent": "2.6 g",
+            "proteinContent": "13.6 g",
+            "saturatedFatContent": "1 g",
+            "servingSize": null,
+            "sodiumContent": "264.8 mg",
+            "sugarContent": "10.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2012-02-29T15:15:54.933Z",
+                "reviewBody": "This is a beautiful salad - the dressing you choose will make or break this though. I used Cardini's brand Raspberry Vinaigrette which we really enjoy. I would use glazed walnuts next time. Thanks for sharing your recipe.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Baking Nana",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/bakingnana/"
+                }
+            }
+        ]
+    }
+]

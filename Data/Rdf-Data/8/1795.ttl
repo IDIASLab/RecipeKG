@@ -1,0 +1,86 @@
+@prefix ns1: <http://purl.org/heals/food/> .
+@prefix ns2: <http://purl.org/recipekg/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/pineapple-sangria> a schema:Recipe ;
+    ns1:hasIngredient [ a <http://purl.org/recipekg/ingredient/Orange> ;
+            ns2:hasQuantity "1/2" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "orange" ],
+        [ a <http://purl.org/recipekg/ingredient/PineappleJuice> ;
+            ns2:hasQuantity "2" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "pineapple juice" ],
+        [ a <http://purl.org/recipekg/ingredient/Lemon> ;
+            ns2:hasQuantity "1" ;
+            ns2:ingredientName "lemon" ],
+        [ a <http://purl.org/recipekg/ingredient/SauvignonBlanc> ;
+            ns2:hasQuantity "2" ;
+            ns2:ingredientName "Sauvignon Blanc" ],
+        [ a <http://purl.org/recipekg/ingredient/Pineapple> ;
+            ns2:hasQuantity "1/2" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "pineapple" ],
+        [ a <http://purl.org/recipekg/ingredient/Brandy> ;
+            ns2:hasQuantity "1/2" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "brandy" ],
+        [ a <http://purl.org/recipekg/ingredient/CarbonatedBeverage> ;
+            ns2:hasQuantity "2" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "carbonated beverage" ],
+        [ a <http://purl.org/recipekg/ingredient/Lime> ;
+            ns2:hasQuantity "1/4" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "lime" ],
+        [ a <http://purl.org/recipekg/ingredient/Sec> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "sec" ] ;
+    ns2:belongsTo <http://purl.org/recipekg/categories/drinks/sangria/> ;
+    ns2:hasFSAScore 4 ;
+    ns2:hasNutritionalInformation [ a ns2:NutritionalInformation ;
+            ns2:hasCalorificData [ a ns2:CalorificData ;
+                    ns2:hasAmount "383.3"^^xsd:float ;
+                    ns2:hasUnit "calories" ] ;
+            ns2:hasCarbohydrateData [ a ns2:CarbohydrateData ;
+                    ns2:hasAmount "38.5"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasFatData [ a ns2:FatData ;
+                    ns2:hasAmount "0.3"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSAGreen ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasFiberData [ a ns2:FiberData ;
+                    ns2:hasAmount "1.4"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasProteinData [ a ns2:ProteinData ;
+                    ns2:hasAmount "0.8"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasSodiumData [ a ns2:SodiumData ;
+                    ns2:hasAmount "26.0"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSAGreen ;
+                    ns2:hasUnit "mg" ] ;
+            ns2:hasSugarData [ a ns2:SugarData ;
+                    ns2:hasAmount "29.6"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSARed ;
+                    ns2:hasUnit "g" ] ] ;
+    ns2:hasUSDAScore 3 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 7 ;
+            schema:ratingValue "4.857142857142857"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2020-06-19T23:16:19.000Z"^^schema:date ;
+    schema:name "Pineapple Sangria"^^xsd:string ;
+    schema:recipeYield "1 gallon"^^xsd:string .
+
+ns2:FSARed a ns2:FSAColor .
+
+<http://purl.org/recipekg/categories/drinks/> a ns2:RecipeCategory .
+
+<http://purl.org/recipekg/categories/drinks/sangria/> rdfs:subClassOf <http://purl.org/recipekg/categories/drinks/> .
+
+ns2:FSAGreen a ns2:FSAColor .
+

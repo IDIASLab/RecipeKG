@@ -1,0 +1,152 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/151/breakfast-and-brunch/pancakes/",
+                    "name": "Pancake Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/16068/breakfast-and-brunch/pancakes/whole-grain-pancakes/",
+                    "name": "Whole Grain Pancake Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/258393/banana-chocolate-chip-oatmeal-protein-pancakes/",
+        "name": "Banana Chocolate Chip Oatmeal Protein Pancakes",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5576414.jpg",
+            "width": 2305,
+            "height": 2305
+        },
+        "datePublished": "2020-03-05T05:16:26.000Z",
+        "description": "Delicious!",
+        "prepTime": "P0DT0H20M",
+        "cookTime": "P0DT0H6M",
+        "totalTime": "P0DT0H26M",
+        "recipeYield": "10 servings",
+        "recipeIngredient": [
+            "1\u2009\u00be cups rolled oats",
+            "\u00bd cup all-purpose flour",
+            "2 scoops protein powder",
+            "1 tablespoon ground cinnamon",
+            "3 bananas, broken into chunks",
+            "1\u2009\u00bd cups milk",
+            "6 eggs",
+            "\u00bd cup brown sugar",
+            "1 tablespoon vanilla extract",
+            "\u00bd cup semisweet chocolate chips",
+            "1 tablespoon butter, or as needed"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Mix oats, flour, protein powder, and cinnamon together in a bowl.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place bananas, milk, eggs, brown sugar, and vanilla extract in a blender; blend until smooth. Slowly add oats mixture to banana mixture while blender is running until batter is smooth.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat a skillet or griddle over medium-low heat; add butter. Pour batter over hot butter, about 1/4 cup per pancake; dot with chocolate chips. Cook until pancakes begin to bubble and edges are dry, 3 to 5 minutes. Flip and cook until other side is done, 3 to 5 minutes more.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Pancake Recipes",
+            "Whole Grain Pancake Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Dan Wentzel"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Banana Chocolate Chip Oatmeal Protein Pancakes",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "288.6 calories",
+            "carbohydrateContent": "42.8 g",
+            "cholesterolContent": "117.6 mg",
+            "fatContent": "8.7 g",
+            "fiberContent": "3.7 g",
+            "proteinContent": "11.4 g",
+            "saturatedFatContent": "3.9 g",
+            "servingSize": null,
+            "sodiumContent": "107.3 mg",
+            "sugarContent": "21.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-07-21T22:35:34.36Z",
+                "reviewBody": "I used a food processor instead of a blender and just added everything in order all mixed it all at once. This worked well.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "chris",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/13524898/"
+                }
+            }
+        ]
+    }
+]

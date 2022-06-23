@@ -1,0 +1,152 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/82036/drunk-monkey/",
+        "name": "Drunk Monkey",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F617454.jpg",
+            "width": 3264,
+            "height": 2448
+        },
+        "datePublished": "2018-03-21T16:42:34.000Z",
+        "description": "This drink is tropical, fruity, and soooo refreshing! A great summertime drink.",
+        "prepTime": "P0DT0H2M",
+        "cookTime": "P0DT0H2M",
+        "totalTime": "P0DT0H4M",
+        "recipeYield": "1 serving",
+        "recipeIngredient": [
+            "1 fluid ounce banana liqueur",
+            "1 fluid ounce melon liqueur",
+            "1 fluid ounce orange liqueur ",
+            "2 fluid ounces pineapple juice",
+            "2 fluid ounces cranberry juice"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Fill a tall glass with ice. Pour in the banana, melon and orange liqueurs, and stir. Top off with pineapple juice and cranberry juice, and enjoy!\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "MIKI"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 3,
+            "itemReviewed": "Drunk Monkey",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "378.4 calories",
+            "carbohydrateContent": "55.5 g",
+            "cholesterolContent": "0 mg",
+            "fatContent": "0.4 g",
+            "fiberContent": "0.1 g",
+            "proteinContent": "0.2 g",
+            "saturatedFatContent": "0 g",
+            "servingSize": null,
+            "sodiumContent": "8.2 mg",
+            "sugarContent": "49.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2011-04-04T17:12:54.157Z",
+                "reviewBody": "This is such a pretty drink but it is really sweet! I didn't mix it right away just let the layers drift into each other.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Wyattdogster",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/wyattdogster/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2005-06-06T14:47:00.623Z",
+                "reviewBody": "This is so good!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "ADAM8",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/1434949/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2011-04-06T16:08:46.757Z",
+                "reviewBody": "I haven't made this but I have one guess at what might be a little lacking: alcohol. If I make this I'm definitely going to spike it with spiced rum and/or malibu.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Lisa",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3711355/"
+                }
+            }
+        ]
+    }
+]

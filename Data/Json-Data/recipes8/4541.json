@@ -1,0 +1,146 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1822/drinks/mocktails/",
+                    "name": "Mocktail Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/242137/mint-and-melon-freeze/",
+        "name": "Mint and Melon Freeze",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8214128.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-06-19T04:02:56.000Z",
+        "description": "This recipe was handed down to me from my mother and has been for generations. You should start too. You will not regret this.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "2 cups cubed cantaloupe",
+            "1\u2009\u00bd cups ice cubes",
+            "1 cup red grapes",
+            "1 cup rice milk (such as Rice Dream\u00ae)",
+            "6 large mint leaves",
+            "4 small cantaloupe wedges"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Blend cantaloupe, ice cubes, grapes, rice milk, and mint leaves together in a blender until smooth; pour into martini glasses and garnish each with a cantaloupe wedge.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Mocktail Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Zane Collins"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.5,
+            "ratingCount": 2,
+            "itemReviewed": "Mint and Melon Freeze",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "110.3 calories",
+            "carbohydrateContent": "25.1 g",
+            "cholesterolContent": null,
+            "fatContent": "1 g",
+            "fiberContent": "2.1 g",
+            "proteinContent": "2.2 g",
+            "saturatedFatContent": "0.2 g",
+            "servingSize": null,
+            "sodiumContent": "43.8 mg",
+            "sugarContent": "16.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2015-06-21T17:19:55.573Z",
+                "reviewBody": "Great",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "teddy22",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/14074458/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2020-06-08T04:17:46.5Z",
+                "reviewBody": "Other than making half a recipe, I made this as directed, with the optional vodka. I didn't care for this, and wouldn't make it again. Sorry!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 2
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Kim's Cooking Now",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/kimscookingnow/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,154 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/133/drinks/cocktails/",
+                    "name": "Cocktail Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1742/drinks/cocktails/tequila-drinks/",
+                    "name": "Tequila Drinks Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/245788/beergarita/",
+        "name": "Beergarita",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3172282.jpg",
+            "width": 3264,
+            "height": 2448
+        },
+        "datePublished": "2020-06-19T04:04:22.000Z",
+        "description": "My mum taught me how to make these and I have been hooked ever since.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "12 servings",
+        "recipeIngredient": [
+            "6 (12 fluid ounce) cans or bottles beer",
+            "1 (12 fluid ounce) can frozen limeade concentrate (such as Minute Maid\u00ae)",
+            "12 fluid ounces tequila",
+            "6 cups ice cubes"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Pour beers into a large pitcher. Add limeade; stir to combine. Use limeade can to measure out tequila; pour into pitcher and stir to combine. Serve over ice.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Cocktail Recipes",
+            "Tequila Drinks Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Jodean Seniuk"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 4,
+            "itemReviewed": "Beergarita",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "232.1 calories",
+            "carbohydrateContent": "29 g",
+            "cholesterolContent": null,
+            "fatContent": null,
+            "fiberContent": null,
+            "proteinContent": "0.8 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "7.4 mg",
+            "sugarContent": "21.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2016-01-25T16:22:18.323Z",
+                "reviewBody": "I've always made mine with 12 oz of lemon lime soda added as well as beer, but this was extremely enjoyable!  They weren't as sweet due to the lack of sprite, and that isn't a bad thing.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Arizona Desert Flower",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/arizonadesertflower/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2018-08-27T02:30:17.18Z",
+                "reviewBody": "Very refreshing! Not too sweet nor too sour. I only added 3 beer and squeezed fresh lime and added rounds of lime for appeal:)",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Tamara",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/1767998/"
+                }
+            }
+        ]
+    }
+]

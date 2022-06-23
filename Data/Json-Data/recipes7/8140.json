@@ -1,0 +1,150 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/362/desserts/cookies/",
+                    "name": "Cookies",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/849/desserts/cookies/no-bake-cookies/",
+                    "name": "No-Bake Cookie Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/229723/coffeechino-no-bakes/",
+        "name": "Coffeechino No Bakes",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Coffeechino No Bakes"
+        },
+        "datePublished": "2020-06-19T03:51:55.000Z",
+        "description": "A new take on no bakes.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT1H15M",
+        "recipeYield": "20 no-bake cookies",
+        "recipeIngredient": [
+            "\u00bd cup butter",
+            "1\u2009\u00bd cups white sugar",
+            "\u00bd cup water",
+            "\u00bc cup instant cappuccino mix",
+            "\u00bc cup instant coffee granules",
+            "3\u2009\u00bd cups rolled oats",
+            "\u00bd cup mocha cappuccino hazelnut spread ",
+            "2 tablespoons quick-hardening caramel-flavored ice cream topping (such as Smucker's\u00ae Magic Shell\u00ae), or to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Melt butter in a saucepan. Stir sugar, water, cappuccino mix, and coffee granules into the butter; bring to a boil for 1 minute. Add hazelnut spread; stir to melt into the butter mixture. Fold oats into the mixture until evenly coated.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Drop mixture by large spoonful onto waxed paper to cool.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Drizzle ice cream topping over cooled cookies. Cool in freezer until the topping is hard, at least 1 hour.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Cookies",
+            "No-Bake Cookie Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "nonewhy"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Coffeechino No Bakes",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "210.3 calories",
+            "carbohydrateContent": "33.2 g",
+            "cholesterolContent": "12.2 mg",
+            "fatContent": "8 g",
+            "fiberContent": "1.4 g",
+            "proteinContent": "2.6 g",
+            "saturatedFatContent": "3.8 g",
+            "servingSize": null,
+            "sodiumContent": "73.9 mg",
+            "sugarContent": "21.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2012-12-17T03:08:40.6Z",
+                "reviewBody": "Not the prettiest cookie but super easy and delicious! I used Vanilla Caramel flavor instant cappuccino (rather than plain) and followed all other ingredients as described except caramel topping. The topping probably would've added a nice extra layer of flavor and prettier look but they were delicious without it (my local store didn't carry that flavor magic shell). Will definitely make these again and possibly use for holiday gifts next year for coffee lovers!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "LadyE",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/5967945/"
+                }
+            }
+        ]
+    }
+]

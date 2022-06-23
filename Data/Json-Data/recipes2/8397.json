@@ -1,0 +1,103 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/255891/chocolate-almond-bites/",
+        "name": "Chocolate Almond Bites",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3157024.jpg",
+            "width": 1448,
+            "height": 1448
+        },
+        "datePublished": "2016-10-22T04:42:37.000Z",
+        "description": "Chocolate almond bites made with oats, almond butter, chocolate, flax and chia seeds are a healthy no-bake snack for those with a sweet tooth. The perfect lunchbox friendly snack bite! Store in the refrigerator up to a week or in the freezer a month.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": null,
+        "totalTime": "P0DT0H45M",
+        "recipeYield": "12 servings",
+        "recipeIngredient": [
+            "1 cup gluten-free rolled oats",
+            "\u00bd cup almond butter",
+            "\u2153 cup honey",
+            "\u00bc cup mini chocolate chips",
+            "2 tablespoons flax seeds",
+            "2 tablespoons chia seeds"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Mix oats, almond butter, honey, chocolate chips, flax seeds, and chia seeds together in a bowl; refrigerate for 30 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Scoop mixture into balls and place on a plate or baking sheet; store in refrigerator.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Megan Olson"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Chocolate Almond Bites",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "154.2 calories",
+            "carbohydrateContent": "17.9 g",
+            "cholesterolContent": null,
+            "fatContent": "8.9 g",
+            "fiberContent": "2.3 g",
+            "proteinContent": "3.2 g",
+            "saturatedFatContent": "1.4 g",
+            "servingSize": null,
+            "sodiumContent": "48.9 mg",
+            "sugarContent": "10.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

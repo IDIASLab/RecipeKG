@@ -1,0 +1,138 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/81/side-dish/",
+                    "name": "Side Dish",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/220/side-dish/beans-and-peas/",
+                    "name": "Beans and Peas",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/241751/creamy-refried-black-beans/",
+        "name": "Creamy Refried Black Beans",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2817284.jpg",
+            "width": 3648,
+            "height": 3648
+        },
+        "datePublished": "2018-06-08T14:20:22.000Z",
+        "description": "Delicious black beans pureed and combined with chorizo, onions, and a hint of garlic. Perfect as an enchilada filler or as a side dish.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H20M",
+        "totalTime": "P0DT0H35M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "1 link chorizo sausage",
+            "1 onion, quartered",
+            "2 cloves garlic",
+            "\u00bc pound bacon, chopped",
+            "1 pinch ground cumin, or to taste",
+            "salt and ground black pepper to taste",
+            "2 (15.5 ounce) cans black beans, liquid reserved"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Pulse chorizo, onion, and garlic together in a food processor until well-chopped.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place bacon in a pot and cook over medium-high heat, turning occasionally, until bacon starts to render fat, 3 to 5 minutes. Add ground chorizo mixture to bacon; cook and stir until onion softens and is translucent, about 5 minutes. Drain excess fat from pot and season mixture with cumin, salt, and black pepper.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Stir beans and reserved liquid into pot; cook, stirring occasionally, until beans are heated through and flavors combine, 10 to 20 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Side Dish",
+            "Beans and Peas"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Adriana"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Creamy Refried Black Beans",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "221.5 calories",
+            "carbohydrateContent": "26.6 g",
+            "cholesterolContent": "15.6 mg",
+            "fatContent": "6.9 g",
+            "fiberContent": "10.4 g",
+            "proteinContent": "13.8 g",
+            "saturatedFatContent": "2.4 g",
+            "servingSize": null,
+            "sodiumContent": "854.9 mg",
+            "sugarContent": "0.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2016-03-16T19:56:51.14Z",
+                "reviewBody": "This is good. I made this for homemade burrito bowls and it was perfect.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "My Hot Southern Mess",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/myhotsouthernmess/"
+                }
+            }
+        ]
+    }
+]

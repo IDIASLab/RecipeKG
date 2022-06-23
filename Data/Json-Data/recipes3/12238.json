@@ -1,0 +1,153 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/108/appetizers-and-snacks/seafood/",
+                    "name": "Seafood",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1239/appetizers-and-snacks/seafood/fish-cakes/",
+                    "name": "Fish Cake Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/254399/easy-halibut-cakes/",
+        "name": "Easy Halibut Cakes",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Easy Halibut Cakes"
+        },
+        "datePublished": "2018-06-08T14:39:49.000Z",
+        "description": "Delicious and moist halibut cakes!",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H18M",
+        "totalTime": "P0DT0H38M",
+        "recipeYield": "6 halibut cakes",
+        "recipeIngredient": [
+            "\u00bc cup vegetable oil, divided",
+            "1 pound halibut fillets",
+            "\u00bd teaspoon salt",
+            "\u00bc teaspoon ground black pepper",
+            "\u00bc cup mayonnaise",
+            "1 egg",
+            "1 tablespoon mustard",
+            "\u00bd teaspoon dried oregano",
+            "\u00bd teaspoon dried thyme",
+            "\u00bd teaspoon dried rosemary",
+            "1 cup bread crumbs"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat 2 tablespoons oil in a large skillet over medium-high heat. Add halibut fillets; season with salt and pepper. Cook until flesh flakes easily with a fork, about 4 minutes per side. Transfer to a plate; cool until easily handled, about 5 minutes. Flake into small chunks.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Whisk mayonnaise, egg, and mustard together in a large bowl. Mix in oregano, thyme, and rosemary. Stir in flaked halibut and bread crumbs. Shape mixture into 6 cakes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat remaining 2 tablespoons oil in the skillet over medium-high heat. Add halibut cakes and cook until browned, about 5 minutes per side.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks",
+            "Seafood",
+            "Fish Cake Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "MERRYMOBERRY"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Easy Halibut Cakes",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "314.7 calories",
+            "carbohydrateContent": "13.7 g",
+            "cholesterolContent": "58.7 mg",
+            "fatContent": "20 g",
+            "fiberContent": "1.1 g",
+            "proteinContent": "19.4 g",
+            "saturatedFatContent": "3.3 g",
+            "servingSize": null,
+            "sodiumContent": "459.3 mg",
+            "sugarContent": "1.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-05-23T06:54:02.1Z",
+                "reviewBody": "I used Pollock instead of halibut and added a bit of Parmesan Cheese. Then used an air frier , I would have taken a picture, but they didn't last that long",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Peter Boyd",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/oldnavycook/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,153 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/237/world-cuisine/latin-american/",
+                    "name": "Latin American",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/728/world-cuisine/latin-american/mexican/",
+                    "name": "Mexican",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/274779/avocado-and-egg-breakfast-burrito/",
+        "name": "Avocado and Egg Breakfast Burrito",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F9198492.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2019-07-25T00:59:00.000Z",
+        "description": "A flour tortilla wrapped around soft scrambled eggs, with the savory creaminess of avocado. Add some tomatoes, shredded cheese, and even some cilantro for a great-tasting breakfast burrito that will keep your appetite curbed all day long.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT0H20M",
+        "recipeYield": "2 burritos",
+        "recipeIngredient": [
+            "2 (10 inch) flour tortillas",
+            "1 tablespoon butter",
+            "4 medium eggs",
+            "1 cup shredded mild Cheddar cheese",
+            "1 Hass avocado - peeled, pitted, and sliced",
+            "1 small tomato, chopped",
+            "1 small bunch fresh cilantro, chopped, or to taste",
+            "1 pinch salt and ground black pepper to taste",
+            "1 dash hot sauce, or to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place tortillas on a microwave-safe plate. Place shredded Cheddar cheese in the center of each tortilla, towards 1 end. Microwave on high power to melt cheese, 20 to 30 seconds.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat butter in a skillet over medium heat. Whisk eggs together in a bowl. Pour into the skillet; cook and stir until eggs are set, about 5 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place eggs over melted cheese on tortillas; top each with avocado, tomato, and cilantro. Season with salt and pepper. Top with hot sauce.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Latin American",
+            "Mexican"
+        ],
+        "recipeCuisine": [
+            "Latin American",
+            "Mexican"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "*Sherri*"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 3,
+            "itemReviewed": "Avocado and Egg Breakfast Burrito",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "862.8 calories",
+            "carbohydrateContent": "48.5 g",
+            "cholesterolContent": "459.7 mg",
+            "fatContent": "58.9 g",
+            "fiberContent": "9.9 g",
+            "proteinContent": "38.3 g",
+            "saturatedFatContent": "24.8 g",
+            "servingSize": null,
+            "sodiumContent": "1161.3 mg",
+            "sugarContent": "4.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-05-11T00:39:05.587Z",
+                "reviewBody": "I enjoyed this combination for my breakfast this morning. Next time I will not melt the cheese, only because it's my preference.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Paula",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/paula1/"
+                }
+            }
+        ]
+    }
+]

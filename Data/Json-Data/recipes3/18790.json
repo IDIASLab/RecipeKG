@@ -1,0 +1,165 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/148/breakfast-and-brunch/eggs/",
+                    "name": "Eggs",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1564/breakfast-and-brunch/eggs/frittata/",
+                    "name": "Frittata Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/271092/microwave-frittata-for-one/",
+        "name": "Microwave Frittata for One",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6442885.jpg",
+            "width": 3024,
+            "height": 4032
+        },
+        "datePublished": "2019-03-13T01:26:54.000Z",
+        "description": "This is a quick breakfast; from start to finish it's ready in about 5 minutes",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "1 serving",
+        "recipeIngredient": [
+            "1  serving cooking spray",
+            "2 large eggs",
+            "1 tablespoon pesto",
+            "2 tablespoons ricotta cheese",
+            "2 tablespoons freshly grated Parmesan cheese",
+            "freshly ground black pepper to taste",
+            "1 tablespoon chopped green onion, or to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Spray a large coffee mug with cooking spray.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Whisk eggs, pesto, ricotta cheese, Parmesan cheese, and pepper together in a small bowl. Pour frittata mixture into coffee mug.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cook the frittata in a microwave oven for 1 minute and 30 seconds, stirring at thirty-second intervals (you will stir twice). Invert cooked frittata onto a plate or eat it right out of the coffee mug. Garnish with green onions.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Eggs",
+            "Frittata Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "thedailygourmet"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Microwave Frittata for One",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "313 calories",
+            "carbohydrateContent": "4.9 g",
+            "cholesterolContent": "395.3 mg",
+            "fatContent": "22.6 g",
+            "fiberContent": "0.9 g",
+            "proteinContent": "23 g",
+            "saturatedFatContent": "8.3 g",
+            "servingSize": null,
+            "sodiumContent": "451.8 mg",
+            "sugarContent": "1.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-04-17T19:55:23.9Z",
+                "reviewBody": "I put the onions in the mix. In my microwave it took 2 minutes.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Chuck Batherson",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/24062924/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2019-03-30T22:21:27.69Z",
+                "reviewBody": "Super easy and fast. Customize with whatever ingredients you have on hand. Could also make in ramekins.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Tracy D. Brown",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/25063924/"
+                }
+            }
+        ]
+    }
+]

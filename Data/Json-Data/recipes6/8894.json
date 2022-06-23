@@ -1,0 +1,157 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/148/breakfast-and-brunch/eggs/",
+                    "name": "Eggs",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1564/breakfast-and-brunch/eggs/frittata/",
+                    "name": "Frittata Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/256963/prosciutto-egg-cups/",
+        "name": "Prosciutto Egg Cups",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8046840.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-05-05T04:36:56.000Z",
+        "description": "Use a standard muffin pan to make easy egg cups, like a quiche. These are easy to make and you can change the ingredients to whatever you like. Make them ahead and freeze or refrigerate and reheat in the microwave. This can easily be doubled.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H40M",
+        "totalTime": "P0DT0H50M",
+        "recipeYield": "6 egg cups",
+        "recipeIngredient": [
+            "1 onion, thinly sliced",
+            "1 tablespoon brown sugar",
+            "2 drops white wine vinegar",
+            "cooking spray",
+            "4 egg whites",
+            "2 eggs",
+            "\u00bc cup shredded Gouda cheese",
+            "1 slice thick-cut prosciutto, cubed"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Cook and stir onion, brown sugar, and vinegar in a skillet over medium heat until onion is golden, about 20 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Preheat oven to 350 degrees F (175 degrees C). Spray a 6-muffin tin with cooking spray.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Whisk egg whites and eggs in a large measuring cup.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Fill each muffin cup halfway with egg mixture. Scatter onion, Gouda cheese, and prosciutto cubes on top. Cover with remaining egg mixture, leaving 1/4-inch space at the top for eggs to rise.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated oven until golden brown on top, about 20 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Eggs",
+            "Frittata Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Barb"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Prosciutto Egg Cups",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "85.3 calories",
+            "carbohydrateContent": "6.2 g",
+            "cholesterolContent": "69.8 mg",
+            "fatContent": "3.9 g",
+            "fiberContent": "0.6 g",
+            "proteinContent": "6.7 g",
+            "saturatedFatContent": "1.7 g",
+            "servingSize": null,
+            "sodiumContent": "149.8 mg",
+            "sugarContent": "4.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-04-28T06:03:56.85Z",
+                "reviewBody": "Ok, I have to admit that I modified this slightly. I used about 1/4 of a large red onion, which was more than enough for the 6 muffin cups. I also used just 4 large eggs with a splash of milk,  and substituted Swiss-Gruyere for the Gouda. These were really tasty! Only thing I'd do different next time is cut back on the brown sugar just a bit. Will make again!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Kim's Cooking Now",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/kimscookingnow/"
+                }
+            }
+        ]
+    }
+]

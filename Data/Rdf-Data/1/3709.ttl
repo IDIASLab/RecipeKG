@@ -1,0 +1,127 @@
+@prefix ns1: <http://purl.org/recipekg/> .
+@prefix ns2: <http://purl.org/heals/food/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/goulash> a schema:Recipe ;
+    ns2:hasIngredient [ a <http://purl.org/heals/ingredient/Garlic> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "garlic" ],
+        [ a <http://purl.org/heals/ingredient/Tomato> ;
+            ns1:hasQuantity "4" ;
+            ns1:hasUnit "can" ;
+            ns1:ingredientName "tomato" ],
+        [ a <http://purl.org/heals/ingredient/Tomato> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "can" ;
+            ns1:ingredientName "tomato" ],
+        [ ],
+        [ a <http://purl.org/recipekg/ingredient/Pea> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "can" ;
+            ns1:ingredientName "pea" ],
+        [ a <http://purl.org/recipekg/ingredient/Macaroni> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "pound" ;
+            ns1:ingredientName "macaroni" ],
+        [ a <http://purl.org/heals/ingredient/Tomato> ;
+            ns1:hasQuantity "2" ;
+            ns1:hasUnit "can" ;
+            ns1:ingredientName "tomato" ],
+        [ a <http://purl.org/heals/ingredient/Water> ;
+            ns1:hasQuantity "24" ;
+            ns1:ingredientName "water" ],
+        [ a <http://purl.org/recipekg/ingredient/Mushroom> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "mushroom" ],
+        [ a <http://purl.org/heals/ingredient/Onion> ;
+            ns1:hasQuantity "1" ;
+            ns1:ingredientName "onion" ],
+        [ a <http://purl.org/heals/ingredient/Beef> ;
+            ns1:hasQuantity "1 1/2" ;
+            ns1:hasUnit "pound" ;
+            ns1:ingredientName "beef" ],
+        [ a <http://purl.org/heals/ingredient/BlackPepper> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "black pepper" ],
+        [ a <http://purl.org/heals/ingredient/Salt> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "salt" ],
+        [ a <http://purl.org/heals/ingredient/Parsley> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "parsley" ],
+        [ a <http://purl.org/heals/ingredient/WhiteSugar> ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "white sugar" ],
+        [ a <http://purl.org/heals/ingredient/Tomato> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "can" ;
+            ns1:ingredientName "tomato" ],
+        [ a <http://purl.org/recipekg/ingredient/KernelCorn> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "can" ;
+            ns1:ingredientName "kernel corn" ],
+        [ a <http://purl.org/recipekg/ingredient/ParmesanCheese> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "Parmesan cheese" ] ;
+    ns1:belongsTo <http://purl.org/recipekg/categories/soups-stews-and-chili/stews/goulash/> ;
+    ns1:hasFSAScore 2 ;
+    ns1:hasNutritionalInformation [ a ns1:NutritionalInformation ;
+            ns1:hasCalorificData [ a ns1:CalorificData ;
+                    ns1:hasAmount "559.7"^^xsd:float ;
+                    ns1:hasUnit "calories" ] ;
+            ns1:hasCarbohydrateData [ a ns1:CarbohydrateData ;
+                    ns1:hasAmount "81.4"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasCholesterolData [ a ns1:CholesterolData ;
+                    ns1:hasAmount "52.0"^^xsd:float ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasFatData [ a ns1:FatData ;
+                    ns1:hasAmount "14.4"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasFiberData [ a ns1:FiberData ;
+                    ns1:hasAmount "10.3"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasProteinData [ a ns1:ProteinData ;
+                    ns1:hasAmount "31.2"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSaturatedFatData [ a ns1:SaturatedFatData ;
+                    ns1:hasAmount "5.2"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSARed ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSodiumData [ a ns1:SodiumData ;
+                    ns1:hasAmount "1925.9"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSARed ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasSugarData [ a ns1:SugarData ;
+                    ns1:hasAmount "19.3"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "g" ] ] ;
+    ns1:hasUSDAScore 2 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 112 ;
+            schema:ratingValue "4.026785714285714"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2000-09-25T01:13:29.000Z"^^schema:date ;
+    schema:name "Goulash"^^xsd:string ;
+    schema:recipeYield "8 servings"^^xsd:string .
+
+<http://purl.org/recipekg/categories/soups-stews-and-chili/> a ns1:RecipeCategory .
+
+<http://purl.org/recipekg/categories/soups-stews-and-chili/stews/> rdfs:subClassOf <http://purl.org/recipekg/categories/soups-stews-and-chili/> .
+
+<http://purl.org/recipekg/categories/soups-stews-and-chili/stews/goulash/> rdfs:subClassOf <http://purl.org/recipekg/categories/soups-stews-and-chili/stews/> .
+
+ns1:FSAAmber a ns1:FSAColor .
+
+ns1:FSARed a ns1:FSAColor .
+

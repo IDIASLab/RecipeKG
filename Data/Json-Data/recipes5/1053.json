@@ -1,0 +1,128 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/81/side-dish/",
+                    "name": "Side Dish",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/223/side-dish/grains/",
+                    "name": "Grain Side Dish Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/273117/perfect-quinoa/",
+        "name": "Perfect Quinoa",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7080697.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2019-04-26T23:47:49.000Z",
+        "description": "This is how I make quinoa perfect every time.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H20M",
+        "totalTime": "P0DT0H30M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "\u00bd cup quinoa",
+            "1 cup chicken broth",
+            "3 tablespoons chicken broth",
+            "\u00bc stick butter",
+            "salt and ground black pepper to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Rinse quinoa. Bring chicken broth to a rolling boil in a saucepan. Add quinoa and butter and reduce heat to a simmer. Cook, uncovered, for 10 minutes. Cover and let simmer until tender, about 5 minutes more. Remove from heat and let sit, covered, for an additional 5 minutes. Uncover and fluff quinoa with a fork. Season with salt and pepper.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Side Dish",
+            "Grain Side Dish Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Anthony Henderson"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Perfect Quinoa",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "268.6 calories",
+            "carbohydrateContent": "28 g",
+            "cholesterolContent": "34 mg",
+            "fatContent": "14.4 g",
+            "fiberContent": "3 g",
+            "proteinContent": "6.8 g",
+            "saturatedFatContent": "7.6 g",
+            "servingSize": null,
+            "sodiumContent": "833.2 mg",
+            "sugarContent": "0.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-09-26T02:09:51.9Z",
+                "reviewBody": "I liked the buttery taste but somehow dislike the richness of it.  The quinoa was still a little crunchy, which I like. I will do it again but use a little less butter.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "virgi",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/virgi/"
+                }
+            }
+        ]
+    }
+]

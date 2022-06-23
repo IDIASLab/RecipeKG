@@ -1,0 +1,171 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/250/main-dish/pizza/",
+                    "name": "Pizza Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/231708/mediterranean-whole-wheat-pizza/",
+        "name": "Mediterranean Whole Wheat Pizza",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1926806.jpg",
+            "width": 1897,
+            "height": 1896
+        },
+        "datePublished": "2016-01-27T07:01:28.000Z",
+        "description": "This is a tangy, flavorful Mediterranean-style pizza inspired by a restaurant version I loved.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H25M",
+        "recipeYield": "1 pizza",
+        "recipeIngredient": [
+            "1 whole wheat pizza crust ",
+            "1 (4 ounce) jar basil pesto",
+            "\u00bd cup artichoke hearts, drained and pulled apart",
+            "2 tablespoons chopped kalamata olives",
+            "2 tablespoons sliced pepperoncini, drained",
+            "\u00bc cup crumbled feta cheese"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat oven to 450 degrees F (230 degrees C).\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place pizza crust onto a floured work surface and spread with pesto. Arrange artichoke heart pieces over pesto; scatter kalamata olives and pepperoncini slices over pizza. Top with feta cheese.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated oven until crust is crisp on the bottom and feta cheese has melted, 10 to 12 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Pizza Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "edanielley"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 4,
+            "itemReviewed": "Mediterranean Whole Wheat Pizza",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "276.7 calories",
+            "carbohydrateContent": "18 g",
+            "cholesterolContent": "18.1 mg",
+            "fatContent": "18.6 g",
+            "fiberContent": "3.1 g",
+            "proteinContent": "9.7 g",
+            "saturatedFatContent": "5.4 g",
+            "servingSize": null,
+            "sodiumContent": "818.6 mg",
+            "sugarContent": "0.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2015-01-13T00:30:25.807Z",
+                "reviewBody": "I made this with my husband especially the dough (whole wheat and yogurt) and as an avid meat lover I was amazed how delicious this turned out. I criticized the lack of tomatoes mozzarella or meat but this was a really easy make and now a keeper. I recommend this recipe to anyone. For a healthier pizza use a less fat/calorie tomato sauce.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Ruthteen",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/13523767/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2014-09-05T18:46:42.747Z",
+                "reviewBody": "good can really taste the olives",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Kathy Cochran",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/5425323/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2017-01-19T06:02:40.437Z",
+                "reviewBody": "My entire family (including 2 picky teenagers) loved this recipe. However I did tweek it slightly. I added ground turkey meat with a very small portion of pork sausage to a hunt's garlic sauce then added a small amount of cottage cheese as a layer (in place of the normal ricotta cheese). I also added fresh basil on top.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "rlgingrich",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/7877640/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,141 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/92/meat-and-poultry/",
+                    "name": "Meat and Poultry",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/205/meat-and-poultry/pork/",
+                    "name": "Pork",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/277242/bacon-meatballs/",
+        "name": "Bacon Meatballs",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7617096.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2019-12-27T06:20:08.000Z",
+        "description": "This delicious bacon meatball recipe has been making my family happy for years. Every time I make it, there are no leftovers.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H20M",
+        "totalTime": "P0DT0H35M",
+        "recipeYield": "20 meatballs",
+        "recipeIngredient": [
+            "1 pound ground beef",
+            "1 onion, finely chopped",
+            "1 cup dry bread crumbs",
+            "\u00bc cup grated Parmesan cheese",
+            "7 slices bacon, cooked and crumbled",
+            "1 egg",
+            "1 tablespoon onion powder",
+            "1 tablespoon garlic salt",
+            "1 teaspoon ground black pepper",
+            "1 clove garlic, finely chopped"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat the oven to 350 degrees F (175 degrees C).\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Mix ground beef, onion, bread crumbs, Parmesan cheese, crumbled bacon, egg, onion powder, garlic salt, pepper, and garlic together in a large mixing bowl until thoroughly combined. Roll into 20 evenly-sized balls and place on a cookie sheet.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cook meatballs in the preheated oven until no longer pink in the center, about 20 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Meat and Poultry",
+            "Pork"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "MissCulver"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Bacon Meatballs",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "518.7 calories",
+            "carbohydrateContent": "27.7 g",
+            "cholesterolContent": "144.4 mg",
+            "fatContent": "29.2 g",
+            "fiberContent": "2.4 g",
+            "proteinContent": "34.7 g",
+            "saturatedFatContent": "10.9 g",
+            "servingSize": null,
+            "sodiumContent": "2204.2 mg",
+            "sugarContent": "4.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-01-16T08:36:53.28Z",
+                "reviewBody": "Delicious combo of ingredients but I think they would be too salty for some. I recommend less garlic salt. I used lean ground beef and they ended up being a little dry so I recommenced serving with some sort of sauce.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "fabeveryday",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/fabeveryday/"
+                }
+            }
+        ]
+    }
+]

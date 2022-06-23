@@ -1,0 +1,139 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/139/drinks/tea/",
+                    "name": "Tea",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17150/drinks/tea/hot/",
+                    "name": "Hot",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/270336/easy-ginger-water/",
+        "name": "Easy Ginger Water",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7059422.jpg",
+            "width": 2062,
+            "height": 2063
+        },
+        "datePublished": "2019-04-04T04:15:56.000Z",
+        "description": "This is a super-easy and slightly sweetened ginger-infused water that can be served hot or iced.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT0H30M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "5 slices candied ginger, coarsely chopped",
+            "3 cups very hot, but not boiling, water"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine chopped candied ginger slices and hot water in a bowl.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Allow to steep for at least 20 minutes; the longer it steeps, the more pronounced the ginger flavor will be. Stir water and drain to remove candied ginger slices, reserving water into another container. Serve water heated like tea or drink cold.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Tea",
+            "Hot"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Diana71"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Easy Ginger Water",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "27.8 calories",
+            "carbohydrateContent": "7.2 g",
+            "cholesterolContent": null,
+            "fatContent": null,
+            "fiberContent": null,
+            "proteinContent": null,
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "7.5 mg",
+            "sugarContent": "3.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-09-20T21:40:39.883Z",
+                "reviewBody": "This is such a clever and delicious recipe. This hits the spot after dinner or a big lunch. Five slices of candied ginger weighed 43 grams. Don\u2019t throw away the ginger pieces after you\u2019ve strained them. Add them to your smoothies or cookies or cakes.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Buckwheat Queen",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/melaniegiovenzana/"
+                }
+            }
+        ]
+    }
+]

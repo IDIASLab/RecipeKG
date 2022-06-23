@@ -1,0 +1,120 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/362/desserts/cookies/",
+                    "name": "Cookies",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/9877/gourmet-shells/",
+        "name": "Gourmet Shells",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Gourmet Shells"
+        },
+        "datePublished": "1997-08-09T12:09:45.000Z",
+        "description": "Fried cookies made with a rosette iron.",
+        "prepTime": null,
+        "cookTime": null,
+        "totalTime": null,
+        "recipeYield": "60 cookies",
+        "recipeIngredient": [
+            "1 cup all-purpose flour",
+            "\u00bc teaspoon salt",
+            "1 cup milk",
+            "1 tablespoon vanilla extract",
+            "2 teaspoons white sugar",
+            "2 eggs"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat mold by letting sit in hot oil. Remove mold and let excess shortening drain off. Dip mold into batter. Do not go over the top.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Hold in the hot oil about 45 seconds or until lightly browned. Remove and drain on paper towels or brown bags.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Dust with confectioners sugar if desired. When you make the first one it's usually a waste cookie because it sticks.  But after that they usually fall off the mold as they're cooking, just scoop out with a slotted spoon.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Cookies"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Carol"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Gourmet Shells",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "26.3 calories",
+            "carbohydrateContent": "3.9 g",
+            "cholesterolContent": "13.1 mg",
+            "fatContent": "0.5 g",
+            "fiberContent": "0.1 g",
+            "proteinContent": "1.1 g",
+            "saturatedFatContent": "0.2 g",
+            "servingSize": null,
+            "sodiumContent": "27.5 mg",
+            "sugarContent": "0.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

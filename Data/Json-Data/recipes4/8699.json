@@ -1,0 +1,129 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/16421/drinks/shots/",
+                    "name": "Shot Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/69809/dragon/",
+        "name": "Dragon",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Dragon"
+        },
+        "datePublished": "2019-04-03T06:30:29.000Z",
+        "description": "Three kinds of liquor in one shot make a strong, fun, and tasty drink that will put you on fire, literally!",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "1 serving",
+        "recipeIngredient": [
+            "\u00bc (1.5 fluid ounce) jigger vodka",
+            "\u00bc (1.5 fluid ounce) jigger brandy",
+            "\u215b (1.5 fluid ounce) jigger creme de menthe liqueur",
+            "\u215b (1.5 fluid ounce) jigger 151 proof rum",
+            "1 pinch ground cinnamon"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Pour the vodka, brandy and creme de menthe into a shot glass. Stir, then pour in the rum. Pour it into your mouth and gargle. Light it on fire. A blue flame will appear, but it won't burn your mouth. Sprinkle cinnamon into the flame and enjoy the show. Swallow after the flame has gone out.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Shot Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "JOEBLACK"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 1,
+            "itemReviewed": "Dragon",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "96.4 calories",
+            "carbohydrateContent": "3.4 g",
+            "cholesterolContent": "0 mg",
+            "fatContent": "0 g",
+            "fiberContent": "0.5 g",
+            "proteinContent": "0 g",
+            "saturatedFatContent": "0 g",
+            "servingSize": null,
+            "sodiumContent": "0.7 mg",
+            "sugarContent": "0 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2010-10-15T22:23:22.077Z",
+                "reviewBody": "super tasty and delicious perfect 4 a cold day!!!!!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "DunsyHalifax",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/4142360/"
+                }
+            }
+        ]
+    }
+]

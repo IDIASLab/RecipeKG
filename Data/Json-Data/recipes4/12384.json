@@ -1,0 +1,143 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/92/meat-and-poultry/",
+                    "name": "Meat and Poultry",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/205/meat-and-poultry/pork/",
+                    "name": "Pork",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/83142/mock-duck/",
+        "name": "Mock Duck",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Mock Duck"
+        },
+        "datePublished": "2019-04-04T03:33:34.000Z",
+        "description": "This is an old family recipe that we make every year at my grandmother's house during Christmas time. I use it at my home throughout the year as a simple dinner, or make it and take it to work when I know we'll need a snack after a big rush. Steak can be venison or beef. I grew up using mostly elk steaks.",
+        "prepTime": "P0DT1H0M",
+        "cookTime": "P0DT3H0M",
+        "totalTime": "P0DT4H0M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "1\u2009\u00bd pounds beef round steaks, pounded to 1/8 inch thickness",
+            "6 slices bacon, cut into thirds",
+            "2 onions, cut into wedges",
+            "1 tablespoon vegetable oil",
+            "1 tablespoon pickling spice",
+            "2 tablespoons cornstarch",
+            "\u00bc cup cold water"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Slice the beef into 1x6 inch strips. Roll up one wedge of onion in a piece of bacon, then roll a slice of beef around the whole thing. Secure with a toothpick. Repeat with remaining beef, bacon and onion.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat the oil in a large skillet over medium-high heat. Sear the meat rolls in the hot oil, just until browned on the outside. Transfer the rolls to a Dutch oven or slow cooker, and pour in just enough water to cover. Tie the pickling spice in a square of cheesecloth, and place in the water. Bring to a boil, then simmer over low heat for 1 hour.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "In a small jar with a tight fitting lid, combine the cornstarch and water. Shake until no lumps remain. Remove the spice bag from the simmering broth, and discard. Stir in the cornstarch slurry. Cover, and simmer for 2 more hours.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "To serve, spoon the Mock Duck onto a plate, and remove the toothpicks. Spoon the gravy over. Happy Eating!\n"
+            }
+        ],
+        "recipeCategory": [
+            "Meat and Poultry",
+            "Pork"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "NORSEWOMAN"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Mock Duck",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "213 calories",
+            "carbohydrateContent": "6.3 g",
+            "cholesterolContent": "49.4 mg",
+            "fatContent": "12.6 g",
+            "fiberContent": "0.6 g",
+            "proteinContent": "17.5 g",
+            "saturatedFatContent": "4.1 g",
+            "servingSize": null,
+            "sodiumContent": "245.9 mg",
+            "sugarContent": "1.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2015-08-09T09:17:28.803Z",
+                "reviewBody": "Thanks! This is similar to German Rouladen using the pickling spice instead of a Dill Pickle on each",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Martie",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/1493319/"
+                }
+            }
+        ]
+    }
+]

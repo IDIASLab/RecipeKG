@@ -1,0 +1,133 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/235836/vanilla-root-beer-float/",
+        "name": "Vanilla Root Beer Float",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1131544.jpg",
+            "width": 2600,
+            "height": 2600
+        },
+        "datePublished": "2013-12-13T18:15:29.000Z",
+        "description": "This is a great drink that hardly anyone has heard of. I decided to get creative one night. Every single person who's tried it has loved it. Make sure you have an empty stomach when drinking this!",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "1 serving",
+        "recipeIngredient": [
+            "3 fluid ounces vanilla schnapps",
+            "6 fluid ounces root beer, or as desired",
+            "2 scoops vanilla ice cream"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Pour vanilla schnapps into a large glass; top with root beer. Add vanilla ice cream to root beer mixture.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "CHIEFXCEL"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.333333333333333,
+            "ratingCount": 3,
+            "itemReviewed": "Vanilla Root Beer Float",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "478.3 calories",
+            "carbohydrateContent": "69.3 g",
+            "cholesterolContent": "18.5 mg",
+            "fatContent": "4.9 g",
+            "fiberContent": "0.3 g",
+            "proteinContent": "1.5 g",
+            "saturatedFatContent": "2.9 g",
+            "servingSize": null,
+            "sodiumContent": "63.5 mg",
+            "sugarContent": "64.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2014-05-27T19:13:18.193Z",
+                "reviewBody": "Refreshing after dinner dessert.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "bd.weld",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/bdweld/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2018-08-20T09:34:06.35Z",
+                "reviewBody": "Enjoyable brought back great memories.....",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Ilanda Daye Kerobo",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/687393/"
+                }
+            }
+        ]
+    }
+]

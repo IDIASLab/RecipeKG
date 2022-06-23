@@ -1,0 +1,19 @@
+@prefix ns1: <http://purl.org/recipekg/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/everyone-loves-it-chocolate-mousse> a schema:Recipe ;
+    ns1:belongsTo <http://purl.org/recipekg/categories/desserts/mousse/chocolate-mousse/> ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2020-06-19T03:52:27.000Z"^^schema:date ;
+    schema:name "Everyone Loves It Chocolate Mousse"^^xsd:string .
+
+<http://purl.org/recipekg/categories/desserts/> a ns1:RecipeCategory .
+
+<http://purl.org/recipekg/categories/desserts/mousse/> rdfs:subClassOf <http://purl.org/recipekg/categories/desserts/> .
+
+<http://purl.org/recipekg/categories/desserts/mousse/chocolate-mousse/> rdfs:subClassOf <http://purl.org/recipekg/categories/desserts/mousse/> .
+

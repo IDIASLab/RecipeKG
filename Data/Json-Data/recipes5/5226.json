@@ -1,0 +1,126 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/222560/bettys-chicken-salad/",
+        "name": "Betty's Chicken Salad",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2319786.jpg",
+            "width": 1300,
+            "height": 960
+        },
+        "datePublished": "2019-07-10T07:03:25.000Z",
+        "description": "Great on a warm summer day and kid-approved! Great for wedding and baby showers. Some planning ahead with having to cook the chicken, noodles, and eggs but definitely worth the extra effort!",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT6H25M",
+        "recipeYield": "12 servings",
+        "recipeIngredient": [
+            "10 ounces seashell pasta",
+            "4 cups cubed cooked chicken",
+            "3 cups chopped celery",
+            "\u2154 cup blanched slivered almonds",
+            "2 cups reduced-fat mayonnaise",
+            "\u00bc cup lemon juice",
+            "1 teaspoon salt",
+            "\u2154 teaspoon ground black pepper",
+            "8 hard-cooked eggs, chopped"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Bring a large pot of lightly salted water to a boil. Cook shell pasta in the boiling water, stirring occasionally until cooked through but firm to the bite, 8 minutes. Rinse in cold water until cool and drain.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine pasta, chicken, celery, and almonds in a large bowl. Mix mayonnaise, lemon juice, salt, and pepper in another bowl. Pour mayonnaise mixture into pasta mixture; stir well. Fold eggs into pasta. Cover and refrigerate for 6 hours.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "jsmisek"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 1,
+            "itemReviewed": "Betty's Chicken Salad",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "393.5 calories",
+            "carbohydrateContent": "23.2 g",
+            "cholesterolContent": "190.3 mg",
+            "fatContent": "23.9 g",
+            "fiberContent": "1.8 g",
+            "proteinContent": "21.9 g",
+            "saturatedFatContent": "4.5 g",
+            "servingSize": null,
+            "sodiumContent": "559.2 mg",
+            "sugarContent": "3.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2015-06-09T02:29:04.96Z",
+                "reviewBody": "I used Trader Joe's Just Chicken used full-fat mayo and didn't blanch the almonds--the only changes I made. The main thing I didn't care for is that it turned out all the same color. I wanted to add something like red bell pepper or tomatoes or something with color. Honey Mustard II from this site would have been a good mix with this. When I actually ate it I added Tajin and more salt and pepper. It resembles other recipes here for chicken salad that add more spices. This is a nice beginning and I liked that the submitter mentioned how easy it would be to make everything ahead of time especially for a major event. It sounds like I didn't care for this but it certainly did make me a nice dinner. Thanks jsmisek!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Marianne",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/marianne1/"
+                }
+            }
+        ]
+    }
+]

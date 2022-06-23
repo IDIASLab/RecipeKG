@@ -1,0 +1,150 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/276/desserts/cakes/",
+                    "name": "Cakes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/389/desserts/cakes/coffee-cake/",
+                    "name": "Coffee Cake Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/278341/amish-brown-sugar-cake/",
+        "name": "Amish Brown Sugar Cake",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7696683.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-06-19T04:44:13.000Z",
+        "description": "A delicious and extremely simple Amish recipe for brown sugar cake. Perfect for dunking! If you need less servings, dough keeps frozen for up to 6 months.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H35M",
+        "totalTime": "P0DT0H50M",
+        "recipeYield": "3 cakes",
+        "recipeIngredient": [
+            "4 cups all-purpose flour",
+            "2 cups brown sugar",
+            "1 teaspoon baking powder",
+            "1 teaspoon baking soda",
+            "1 teaspoon salt",
+            "\u00be cup vegetable oil",
+            "1 cup milk",
+            "1 tablespoon white sugar, or as needed",
+            "1 tablespoon ground cinnamon, or as needed"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat the oven to 350 degrees F (175 degrees C). Grease three 7- or 8-inch pie pans. 1\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Mix flour, brown sugar, baking powder, baking soda, and salt together in a bowl. Mix in oil, followed by milk. Spread evenly into the prepared pans. Sprinkle white sugar and cinnamon over each.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated oven until a toothpick inserted into the center of each cake comes out clean, about 35 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Cakes",
+            "Coffee Cake Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "betsybarron27"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 1,
+            "itemReviewed": "Amish Brown Sugar Cake",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "253.9 calories",
+            "carbohydrateContent": "38.7 g",
+            "cholesterolContent": "1.1 mg",
+            "fatContent": "9.7 g",
+            "fiberContent": "1 g",
+            "proteinContent": "3.4 g",
+            "saturatedFatContent": "1.4 g",
+            "servingSize": null,
+            "sodiumContent": "236.9 mg",
+            "sugarContent": "17 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-02-06T20:36:51.663Z",
+                "reviewBody": "I scaled this down to 6 servings (1/3 of the recipe) and followed the recipe precisely. Note for others, the batter is very thick, not like a normal cake batter. The taste is alright, but this cake is VERY dry, and you definitely need to have a coffee or tea with it. We will eat it, but it's not something that I will make again.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Kim's Cooking Now",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/kimscookingnow/"
+                }
+            }
+        ]
+    }
+]

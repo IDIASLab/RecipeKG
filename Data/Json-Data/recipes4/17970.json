@@ -1,0 +1,147 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/143/breakfast-and-brunch/drinks/",
+                    "name": "Drinks",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/246612/cucumber-pear-smoothie/",
+        "name": "Cucumber Pear Smoothie",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3356815.jpg",
+            "width": 5184,
+            "height": 3456
+        },
+        "datePublished": "2019-04-04T04:01:16.000Z",
+        "description": "Cucumber, pineapple, and pear are blended with ginger and a secret ingredient (white beans!) creating a refreshing on-the-go smoothie.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "1 smoothie",
+        "recipeIngredient": [
+            "\u00bc cucumber, chopped",
+            "1 pear, chopped",
+            "\u00bc cup frozen pineapple",
+            "2 tablespoons drained canned white beans",
+            "1 tablespoon chopped fresh parsley",
+            "\u00bd teaspoon grated fresh ginger ",
+            "\u00bd cup water, or as desired"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Layer cucumber, pear, pineapple, white beans, parsley, and ginger in a blender; add water. Cover and blend mixture until smooth, adding more water for a thinner smoothie.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Drinks"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Alli Shircliff"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Cucumber Pear Smoothie",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "166.9 calories",
+            "carbohydrateContent": "41 g",
+            "cholesterolContent": null,
+            "fatContent": "0.5 g",
+            "fiberContent": "7.8 g",
+            "proteinContent": "3.8 g",
+            "saturatedFatContent": "0.1 g",
+            "servingSize": null,
+            "sodiumContent": "10.9 mg",
+            "sugarContent": "21.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-07-25T00:33:15.93Z",
+                "reviewBody": "I made this but using a whole foods organic juice blend instead of OJ. The juice has banana and stawberry in it. With the fresh banana, cuke and ginger, it turned out really nicely. I haven't tried adding avocado to this, but I think that would be good too.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Adam Mattessich",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/adammattessich/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2017-05-23T05:32:35.237Z",
+                "reviewBody": "Amazing",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "sydbaeeee1",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/21943970/"
+                }
+            }
+        ]
+    }
+]

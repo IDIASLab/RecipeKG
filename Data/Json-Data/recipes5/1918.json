@@ -1,0 +1,162 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/92/meat-and-poultry/",
+                    "name": "Meat and Poultry",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/201/meat-and-poultry/chicken/",
+                    "name": "Chicken",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/659/meat-and-poultry/chicken/chicken-breasts/",
+                    "name": "Breast",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/273862/garlic-buttermilk-roast-chicken/",
+        "name": "Garlic Buttermilk Roast Chicken",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6711459.jpg",
+            "width": 1115,
+            "height": 1394
+        },
+        "datePublished": "2019-05-31T04:40:08.000Z",
+        "description": "Buttermilk roast chicken with a twist of Southern cooking. If you have time, let the chicken soak in buttermilk for an hour or overnight.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H45M",
+        "totalTime": "P0DT1H0M",
+        "recipeYield": "5 servings",
+        "recipeIngredient": [
+            "1 cup buttermilk",
+            "1 (7.6 ounce) package dry garlic potato flakes",
+            "\u2153 cup grated Parmesan cheese",
+            "5 (6 ounce) pieces of chicken, skin removed"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat the oven to 375 degrees F (190 degrees C). Grease a baking sheet or a 9x13-inch baking pan, or line with aluminum foil.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour buttermilk into a shallow bowl. Combine potato flakes and Parmesan cheese in a large resealable plastic bag; shake until well mixed. Dip 1 piece of chicken in the buttermilk, then place in the plastic bag. Seal the bag and shake until chicken is coated in the potato flake mixture. Place chicken on the prepared baking sheet. Repeat with remaining chicken.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated oven until chicken is tender and golden brown, 45 to 60 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Meat and Poultry",
+            "Chicken",
+            "Breast"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "ckh"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Garlic Buttermilk Roast Chicken",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "395.1 calories",
+            "carbohydrateContent": "39.6 g",
+            "cholesterolContent": "103.6 mg",
+            "fatContent": "6 g",
+            "fiberContent": "2.1 g",
+            "proteinContent": "43.1 g",
+            "saturatedFatContent": "2.3 g",
+            "servingSize": null,
+            "sodiumContent": "268.7 mg",
+            "sugarContent": "2.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-10-24T23:29:34.08Z",
+                "reviewBody": "Really simple and fast to make! I used chicken tenders and they came out perfect at 25mins (20 was just barely undercooked)\n\nIf you're just starting out with cooking like me this is a very accessible recipe",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "kcpronto",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/30911703/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2019-06-08T04:04:39.8Z",
+                "reviewBody": "Easy chicken dish with only a few ingredients! I really liked the how the coating gives a crispy texture while keeping the chicken moist. The only change I made was to add some salt and pepper to the coating mixture because it seemed like it would need a little something extra and that worked out just to our preference.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "fabeveryday",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/fabeveryday/"
+                }
+            }
+        ]
+    }
+]

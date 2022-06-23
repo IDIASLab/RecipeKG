@@ -1,0 +1,179 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17140/desserts/fruit-desserts/",
+                    "name": "Fruit Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17525/desserts/fruit-desserts/strawberry-desserts/",
+                    "name": "Strawberry Dessert Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/264146/rainbow-ice-pops/",
+        "name": "Rainbow Ice Pops",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Rainbow Ice Pops"
+        },
+        "datePublished": "2020-06-19T04:28:01.000Z",
+        "description": "These ice pops are a healthier dessert, full of fruits and vegetables!",
+        "prepTime": "P0DT0H50M",
+        "cookTime": null,
+        "totalTime": "P0DT4H50M",
+        "recipeYield": "12 ice pops",
+        "recipeIngredient": [
+            "\u2153 cup frozen strawberries",
+            "\u2153 cup frozen raspberries",
+            "\u00bd frozen banana",
+            "2 tablespoons plain yogurt",
+            "\u2153 cup water",
+            "\u00bd cup frozen mango",
+            "\u00bd frozen banana",
+            "\u00bc cup navel orange, peeled and cut into chunks",
+            "\u00bc cup yogurt",
+            "\u2153 cup water",
+            "\u00bd cup fresh spinach, or to taste",
+            "1 frozen banana",
+            "\u00bc cup yogurt",
+            "\u2153 cup water",
+            "1 tablespoon blue spirulina powder",
+            "\u00bd cup frozen pineapple chunks",
+            "1 frozen banana",
+            "\u00bc cup yogurt",
+            "\u2153 cup water",
+            "\u2153 cup cooked beets",
+            "\u00bd cup frozen raspberries",
+            "\u00bd frozen banana",
+            "\u00bc cup yogurt",
+            "\u2153 cup water"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine the ingredients for the red layer in a blender; blend until smooth. Evenly distribute among 12 ice pop molds or small plastic cups.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Rinse the blender. Blend the ingredients for the orange layer; pour over the red layer. Repeat for green, blue, purple layers, rinsing the blender between layers. Place a wooden stick into each mold and freeze for at least 4 hours.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Fruit Desserts",
+            "Strawberry Dessert Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "The Cat's Healthy Recipes"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.25,
+            "ratingCount": 4,
+            "itemReviewed": "Rainbow Ice Pops",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "59.6 calories",
+            "carbohydrateContent": "12.7 g",
+            "cholesterolContent": "1.4 mg",
+            "fatContent": "0.6 g",
+            "fiberContent": "1.6 g",
+            "proteinContent": "2.2 g",
+            "saturatedFatContent": "0.3 g",
+            "servingSize": null,
+            "sodiumContent": "33.3 mg",
+            "sugarContent": "7.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-03-25T08:53:29.5Z",
+                "reviewBody": "OMG These were delicious",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Good",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/25348943/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2020-03-01T11:41:20.703Z",
+                "reviewBody": "They were so amazing, my kids loved them, and they are something I can eat! I will totally make these again!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Xenamazing",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/27085306/"
+                }
+            }
+        ]
+    }
+]

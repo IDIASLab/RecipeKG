@@ -1,0 +1,132 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/143/breakfast-and-brunch/drinks/",
+                    "name": "Drinks",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/244624/holly-goodness-smoothie/",
+        "name": "Holly Goodness Smoothie",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4485620.jpg",
+            "width": 2342,
+            "height": 2450
+        },
+        "datePublished": "2015-07-29T23:10:24.000Z",
+        "description": "This is a very easy and delicious smoothie that can be done in no time. Great for after your workout at the gym.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "1 1/2 cups",
+        "recipeIngredient": [
+            "1 mango - peeled, seeded, and chopped",
+            "1 small banana",
+            "\u00bd cup frozen raspberries",
+            "\u00bd cup almond milk",
+            "\u00bd cup hemp milk",
+            "1 teaspoon vanilla extract",
+            "1 teaspoon chia seeds",
+            "1 teaspoon hemp seeds",
+            "1 teaspoon maca powder"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Blend mango, banana, raspberries, almond milk, hemp milk, vanilla extract, chia seeds, hemp seeds, and maca powder together in a blender until smooth.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Drinks"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "viktoria93"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 1,
+            "itemReviewed": "Holly Goodness Smoothie",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "382.9 calories",
+            "carbohydrateContent": "76 g",
+            "cholesterolContent": null,
+            "fatContent": "7.1 g",
+            "fiberContent": "12.7 g",
+            "proteinContent": "7 g",
+            "saturatedFatContent": "0.7 g",
+            "servingSize": null,
+            "sodiumContent": "149.8 mg",
+            "sugarContent": "41.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-03-16T03:38:04.557Z",
+                "reviewBody": "I liked the thicknesses the Chia seeds provided. My banana was very ripe and maybe that is why it overpowered every other flavor in this drink. To me it tasted just like a banana smoothie. Couldn't taste the mango or the raspberries. Being just ok I won't be making this again.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Yoly",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/cookingbikerchick/"
+                }
+            }
+        ]
+    }
+]

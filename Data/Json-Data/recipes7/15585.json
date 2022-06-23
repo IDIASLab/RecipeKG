@@ -1,0 +1,124 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/227/world-cuisine/asian/",
+                    "name": "Asian",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/257483/creamy-mochi/",
+        "name": "Creamy Mochi",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Creamy Mochi"
+        },
+        "datePublished": "2020-06-19T04:20:34.000Z",
+        "description": "This is my personal recipe for creamy mochi. You can make it any flavor.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT0H20M",
+        "recipeYield": "16 pieces",
+        "recipeIngredient": [
+            "1 cup mochiko (sweet rice flour)",
+            "\u00bd cup white sugar",
+            "1 cup milk",
+            "\u00bd cup water",
+            "2 tablespoons vanilla extract",
+            "2 tablespoons kinako (roasted soybean powder), or to taste, divided"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine mochiko and sugar in a large microwave-safe bowl. Stir in milk, water, and vanilla extract until smooth.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cook in the microwave at 1-minute intervals, stirring after interval, until mochiko mixture turns gelatinous, about 5 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Dust a loaf pan with 1 tablespoon kinako; pour in mochiko mixture. Refrigerate until set, about 1 hour.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cut loaf into 16 pieces. Dust pieces with remaining 1 tablespoon kinako.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Asian"
+        ],
+        "recipeCuisine": [
+            "Asian"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Thomas Filice"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Creamy Mochi",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "74.9 calories",
+            "carbohydrateContent": "15.4 g",
+            "cholesterolContent": "1.2 mg",
+            "fatContent": "0.5 g",
+            "fiberContent": "0.1 g",
+            "proteinContent": "1.4 g",
+            "saturatedFatContent": "0.2 g",
+            "servingSize": null,
+            "sodiumContent": "6.6 mg",
+            "sugarContent": "7.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

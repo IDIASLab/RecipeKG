@@ -1,0 +1,104 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/81/side-dish/",
+                    "name": "Side Dish",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/273104/baked-sweet-potato-chips/",
+        "name": "Baked Sweet Potato Chips",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2240438.jpg",
+            "width": 7360,
+            "height": 4912
+        },
+        "datePublished": "2019-04-27T02:50:53.000Z",
+        "description": "These are my boys' favorite. Nice, spicy, baked sweet potato chips.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H30M",
+        "totalTime": "P0DT0H40M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "5 large sweet potatoes, thinly sliced",
+            "cooking spray",
+            "3 teaspoons roasted garlic-pepper seasoning, divided"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat the oven to 400 degrees F (200 degrees C).\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Spread sweet potato slices evenly on 2 cookie sheets. Coat evenly with cooking spray; sprinkle 1/2 of the garlic-pepper seasoning on top.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated oven for 15 minutes. Flip, spray on the second side, and sprinkle remaining seasoning on top. Continue baking until tender, about 15 minutes more.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Side Dish"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Swiftly Sherlock"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Baked Sweet Potato Chips",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "327 calories",
+            "carbohydrateContent": "76.3 g",
+            "cholesterolContent": null,
+            "fatContent": "0.2 g",
+            "fiberContent": "11.4 g",
+            "proteinContent": "6 g",
+            "saturatedFatContent": "0.1 g",
+            "servingSize": null,
+            "sodiumContent": "438.5 mg",
+            "sugarContent": "15.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

@@ -1,0 +1,143 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/237/world-cuisine/latin-american/",
+                    "name": "Latin American",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/728/world-cuisine/latin-american/mexican/",
+                    "name": "Mexican",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/217104/la-vida-mezcal/",
+        "name": "La Vida Mezcal",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4829546.jpg",
+            "width": 2448,
+            "height": 2448
+        },
+        "datePublished": "2017-07-27T13:00:42.000Z",
+        "description": "There's only a touch of mezcal in this drink, but it adds a delicious smoky quality. Be sure to use good quality mescal and tequila here. You can substitute Aperol for the Campari -- and play with the ratios of sweet vermouth to Campari and tequila to mezcal. Enjoy!",
+        "prepTime": "P0DT0H3M",
+        "cookTime": null,
+        "totalTime": "P0DT0H3M",
+        "recipeYield": "1 cocktail",
+        "recipeIngredient": [
+            "ice",
+            "1\u2009\u00bd fluid ounces tequila",
+            "\u00bd fluid ounce mezcal",
+            "\u00be fluid ounce sweet vermouth",
+            "\u00be fluid ounce bitter orange aperitif (such as Campari\u00ae or Aperol\u00ae)",
+            "1 dash orange bitters ",
+            "1 thin slice orange "
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place ice into a cocktail shaker. Pour in tequila, mezcal, vermouth, and Campari. Add a dash of bitters, then stir or shake. Strain into a ice-filled rocks glass and garnish with a slice of orange.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Latin American",
+            "Mexican"
+        ],
+        "recipeCuisine": [
+            "Latin American",
+            "Mexican"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Lorem Ipsum"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "La Vida Mezcal",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "168.4 calories",
+            "carbohydrateContent": "3.7 g",
+            "cholesterolContent": null,
+            "fatContent": null,
+            "fiberContent": "0.2 g",
+            "proteinContent": "0.1 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "9.9 mg",
+            "sugarContent": "2.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-12-27T07:21:10.843Z",
+                "reviewBody": "We had this drink in a bar in Knoxville and I was so excited to see the recipe. My husband LOVES Mezcal and this drink is the whole reason he bought me Aperol. I would recommend good vermouth which I currently don t have. I used Hornitos Reposado tequila but will try with a Plata I think that might taste even better.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Gina DeFranco",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/13854439/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,130 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/105/appetizers-and-snacks/dips-and-spreads/",
+                    "name": "Dips and Spreads Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/256930/mast-o-khiar/",
+        "name": "Mast-o-Khiar",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4466702.jpg",
+            "width": 1280,
+            "height": 960
+        },
+        "datePublished": "2017-01-25T04:41:52.000Z",
+        "description": "This dip literally means yogurt and cucumber. One of the staples at Persian parties because it's such a crowd pleaser. In some recipes I've seen people adding herbs, while others also add some garlic. I prefer to add both, personally. Garnish with walnuts and raisins.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "2 cups plain yogurt",
+            "\u00bc cup sour cream",
+            "1 teaspoon dried dill",
+            "1 teaspoon dried mint",
+            "\u00bd cup raisins",
+            "\u00bd cucumber, peeled and diced",
+            "\u00bd cup chopped walnuts"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Mix yogurt, sour cream, dill, and mint together in a bowl. Stir in raisins, cucumber, and walnuts. Transfer mixture to a serving dish.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks",
+            "Dips and Spreads Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Zainab Pervaiz"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Mast-o-Khiar",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "126 calories",
+            "carbohydrateContent": "12.8 g",
+            "cholesterolContent": "4.2 mg",
+            "fatContent": "8.4 g",
+            "fiberContent": "1.2 g",
+            "proteinContent": "2.3 g",
+            "saturatedFatContent": "1.9 g",
+            "servingSize": null,
+            "sodiumContent": "7.4 mg",
+            "sugarContent": "8.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-02-17T02:15:10.587Z",
+                "reviewBody": "We use breads in Abdoogh-Khiar",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Maryam",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/24852567/"
+                }
+            }
+        ]
+    }
+]

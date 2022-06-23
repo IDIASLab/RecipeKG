@@ -1,0 +1,104 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/268001/simple-salad-with-halloumi/",
+        "name": "Simple Salad with Halloumi",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5747118.jpg",
+            "width": 4368,
+            "height": 2912
+        },
+        "datePublished": "2020-04-09T02:15:44.000Z",
+        "description": "If you can manage to refrain from eating the halloumi straight out of the pan or off the BBQ, then chop it up and throw it in this delicious fresh salad! Enjoy with a chilled glass of white and a good book.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H3M",
+        "totalTime": "P0DT0H8M",
+        "recipeYield": "1 serving",
+        "recipeIngredient": [
+            "1\u2009\u00bd cups mixed salad greens",
+            "\u00bd tomato, cut into wedges",
+            "\u00bd avocado - peeled, pitted, and diced",
+            "1 teaspoon chopped fresh cilantro, or to taste",
+            "1 tablespoon salad dressing, or to taste",
+            "1 teaspoon olive oil",
+            "4 slices  halloumi cheese"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine salad greens, tomato, avocado, and cilantro on a plate. Drizzle with salad dressing.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat oil in a skillet over high heat. Add sliced halloumi and cook on each side until golden brown, about 90 seconds per side. Remove from pan, quickly chop, and sprinkle over salad. Serve immediately, while cheese is still hot.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "geneviever"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Simple Salad with Halloumi",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "772.8 calories",
+            "carbohydrateContent": "19.5 g",
+            "cholesterolContent": "120 mg",
+            "fatContent": "64 g",
+            "fiberContent": "9.4 g",
+            "proteinContent": "38.1 g",
+            "saturatedFatContent": "27.5 g",
+            "servingSize": null,
+            "sodiumContent": "2035.2 mg",
+            "sugarContent": "4.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

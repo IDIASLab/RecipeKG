@@ -1,0 +1,101 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/81/side-dish/",
+                    "name": "Side Dish",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/231686/easy-german-red-cabbage/",
+        "name": "Easy German Red Cabbage",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Easy German Red Cabbage"
+        },
+        "datePublished": "2018-06-08T14:07:35.000Z",
+        "description": "Easy and inexpensive side dish that is excellent with Round Steak Sauerbraten from this site.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H20M",
+        "totalTime": "P0DT0H25M",
+        "recipeYield": "12 servings",
+        "recipeIngredient": [
+            "2 (16 ounce) packages fresh sauerkraut, drained",
+            "1 (16 ounce) jar pickled beets, undrained",
+            "2 tablespoons butter",
+            "2 bay leaves",
+            "salt and ground black pepper to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat sauerkraut, beets and beet juice, butter, and bay leaves in a large pot over medium heat; season with salt and pepper. Simmer until heated through, about 15 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Side Dish"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "camille"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Easy German Red Cabbage",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "56 calories",
+            "carbohydrateContent": "9.4 g",
+            "cholesterolContent": "5.1 mg",
+            "fatContent": "2.1 g",
+            "fiberContent": "3 g",
+            "proteinContent": "1 g",
+            "saturatedFatContent": "1.2 g",
+            "servingSize": null,
+            "sodiumContent": "613.6 mg",
+            "sugarContent": "1.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

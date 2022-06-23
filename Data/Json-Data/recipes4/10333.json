@@ -1,0 +1,178 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/227/world-cuisine/asian/",
+                    "name": "Asian",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/696/world-cuisine/asian/filipino/",
+                    "name": "Filipino",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/18950/melon-heaven/",
+        "name": "Melon Heaven",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Melon Heaven"
+        },
+        "datePublished": "2000-07-01T05:03:05.000Z",
+        "description": "My mom is Filipino and this is a drink that she makes often during the summer.  It is very delicious and a great way to cool off in the summertime.",
+        "prepTime": "P0DT0H20M",
+        "cookTime": null,
+        "totalTime": "P1DT0H0M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "1 large ripe cantaloupe",
+            "2 quarts cold water",
+            "1 large honeydew melon"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Grate cantaloupe and place in a 2 quart pitcher.  Fill the pitcher will water and place in the refrigerator overnight.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Use a balling spoon to make little balls out of the honeydew melon.  Add the honeydew melon balls to the cantaloupe mixture just before serving.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Asian",
+            "Filipino"
+        ],
+        "recipeCuisine": [
+            "Asian",
+            "Filipino"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "ECKO"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.3333333333333335,
+            "ratingCount": 3,
+            "itemReviewed": "Melon Heaven",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "122.9 calories",
+            "carbohydrateContent": "30.5 g",
+            "cholesterolContent": null,
+            "fatContent": "0.6 g",
+            "fiberContent": "2.8 g",
+            "proteinContent": "2.3 g",
+            "saturatedFatContent": "0.2 g",
+            "servingSize": null,
+            "sodiumContent": "69.6 mg",
+            "sugarContent": "27.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2006-11-03T00:27:53.6Z",
+                "reviewBody": "THANK YOU SO MUCH I loved this a very long time ago and was just thinking about it the other day. Now I have it again!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "chappy",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2143151/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2007-06-26T17:57:40.247Z",
+                "reviewBody": "I may have done something wrong. It just wasn't very appetizing. More watery than expected. The honeydew melon was of course delicious at any rate.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Sarah",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2404645/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2008-08-04T23:11:40.967Z",
+                "reviewBody": "melon heaven",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 2
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "yiyi",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3034416/"
+                }
+            }
+        ]
+    }
+]

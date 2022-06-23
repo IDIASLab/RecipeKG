@@ -1,0 +1,128 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/16348/drinks/slushies/",
+                    "name": "Slushie Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/235993/watermelon-freeze/",
+        "name": "Watermelon Freeze",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6691118.jpg",
+            "width": 3024,
+            "height": 3025
+        },
+        "datePublished": "2020-06-20T01:50:48.000Z",
+        "description": "A cool, refreshing watermelon-banana juice with vanilla yogurt. I make my freeze with a blender/juicer combo. Sugar substitute can also be used.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": null,
+        "totalTime": "P0DT1H15M",
+        "recipeYield": "8 servings",
+        "recipeIngredient": [
+            "\u00bd watermelon, cubed",
+            "3 bananas, sliced",
+            "3 (8 ounce) containers vanilla yogurt",
+            "2 tablespoons white sugar",
+            "1 tray ice cubes"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place watermelon, bananas, and yogurt in a blender; pulse for 20 seconds and continuously blend until smooth, about 30 seconds. Add sugar and blend on low for 5 seconds. Add ice and blend for 20 seconds. Place mixture in freezer until semi-frozen, about 1 hour.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Slushie Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "SBATTIN"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 2,
+            "itemReviewed": "Watermelon Freeze",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "208.2 calories",
+            "carbohydrateContent": "46.2 g",
+            "cholesterolContent": "4.3 mg",
+            "fatContent": "1.6 g",
+            "fiberContent": "2.3 g",
+            "proteinContent": "6.4 g",
+            "saturatedFatContent": "0.8 g",
+            "servingSize": null,
+            "sodiumContent": "60.7 mg",
+            "sugarContent": "37.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-10-05T00:20:07.133Z",
+                "reviewBody": "Followed recipe, leaving out optional ice and using 4 cups of watermelon (all that would fit in blender, not sure how big watermelon was supposed to be).  Turned out very watery--took about 6 hours (stirring hourly) to be soft frozen.  Perhaps it was meant to be started with frozen fruit?  Flavor was fine; texture was okay, but not as good as I expected with the bananas and yogurt.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Michelle",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/13797868/"
+                }
+            }
+        ]
+    }
+]

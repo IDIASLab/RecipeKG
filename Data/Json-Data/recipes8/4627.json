@@ -1,0 +1,164 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/108/appetizers-and-snacks/seafood/",
+                    "name": "Seafood",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1239/appetizers-and-snacks/seafood/fish-cakes/",
+                    "name": "Fish Cake Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/280983/bisnonnas-tuna-parmesan/",
+        "name": "Bisnonna's Tuna Parmesan",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7655478.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-01-26T05:04:55.000Z",
+        "description": "A simple and delicious recipe passed down from my Italian great-grandmother.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H20M",
+        "totalTime": "P0DT0H30M",
+        "recipeYield": "7 servings",
+        "recipeIngredient": [
+            "2 (8 ounce) jars tuna packed in oil, drained",
+            "1 cup grated Parmesan cheese",
+            "1 cup Italian-seasoned bread crumbs",
+            "1 large egg, beaten",
+            "\u00bc cup olive oil",
+            "1 (8 ounce) can pasta sauce"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine tuna, Parmesan cheese, bread crumbs, and egg in a medium mixing bowl. Form into around 7 patties.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat oil in a skillet over medium-high heat. Lightly brown patties in the hot oil, 2 to 3 minutes per side.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bring pasta sauce to a simmer in a separate skillet. Add tuna patties, cover with sauce, and let simmer for 10 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks",
+            "Seafood",
+            "Fish Cake Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Katherine Powell"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 2,
+            "itemReviewed": "Bisnonna's Tuna Parmesan",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "347 calories",
+            "carbohydrateContent": "16.4 g",
+            "cholesterolContent": "48.9 mg",
+            "fatContent": "18.7 g",
+            "fiberContent": "1.4 g",
+            "proteinContent": "27 g",
+            "saturatedFatContent": "4.5 g",
+            "servingSize": null,
+            "sodiumContent": "793 mg",
+            "sugarContent": "3.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-08-13T23:34:31.117Z",
+                "reviewBody": "i did modify the recipe by using Greek rather than Italian seasoning because I prefer it.  I didn't have spaghetti sauce so I use the remainder of tomato sauce combined with a searfood lemon dip (1/2T each butter and cornstarch, 1/3 c water, 1/2 c lemon - the cornstarch keeps any leftover from separating-and salt and pepper to taste)  That made a tangy tomato sauce that went well with the patties.  I topped with grated mozarella cheese and melted it for additional decoration.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Misty",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/interfaithcook/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2020-08-13T22:43:42.22Z",
+                "reviewBody": "easy and tasty",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "redclown",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/6296611/"
+                }
+            }
+        ]
+    }
+]

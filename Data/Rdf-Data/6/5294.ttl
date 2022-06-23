@@ -1,0 +1,86 @@
+@prefix ns1: <http://purl.org/heals/food/> .
+@prefix ns2: <http://purl.org/recipekg/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/eggnog-ii> a schema:Recipe ;
+    ns1:hasIngredient [ a <http://purl.org/recipekg/ingredient/Milk> ;
+            ns2:hasQuantity "2 1/4" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "milk" ],
+        [ a <http://purl.org/heals/ingredient/WhiteSugar> ;
+            ns2:hasQuantity "1/3" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "white sugar" ],
+        [ a <http://purl.org/recipekg/ingredient/HeavyWhippingCream> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "heavy whipping cream" ],
+        [ a <http://purl.org/heals/ingredient/WhiteSugar> ;
+            ns2:hasQuantity "2" ;
+            ns2:hasUnit "teaspoon" ;
+            ns2:ingredientName "white sugar" ],
+        [ a <http://purl.org/heals/ingredient/VanillaExtract> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "teaspoon" ;
+            ns2:ingredientName "vanilla extract" ],
+        [ a <http://purl.org/recipekg/ingredient/Nutmeg> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "pinch" ;
+            ns2:ingredientName "nutmeg" ],
+        [ a <http://purl.org/recipekg/ingredient/Egg> ;
+            ns2:hasQuantity "6" ;
+            ns2:ingredientName "egg" ] ;
+    ns2:belongsTo <http://purl.org/recipekg/categories/drinks/eggnog/> ;
+    ns2:hasFSAScore 2 ;
+    ns2:hasNutritionalInformation [ a ns2:NutritionalInformation ;
+            ns2:hasCalorificData [ a ns2:CalorificData ;
+                    ns2:hasAmount "610.9"^^xsd:float ;
+                    ns2:hasUnit "calories" ] ;
+            ns2:hasCarbohydrateData [ a ns2:CarbohydrateData ;
+                    ns2:hasAmount "36.9"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasCholesterolData [ a ns2:CholesterolData ;
+                    ns2:hasAmount "495.3"^^xsd:float ;
+                    ns2:hasUnit "mg" ] ;
+            ns2:hasFatData [ a ns2:FatData ;
+                    ns2:hasAmount "43.0"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSARed ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasFiberData [ a ns2:FiberData ;
+                    ns2:hasAmount "0.1"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasProteinData [ a ns2:ProteinData ;
+                    ns2:hasAmount "20.3"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasSaturatedFatData [ a ns2:SaturatedFatData ;
+                    ns2:hasAmount "23.8"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSARed ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasSodiumData [ a ns2:SodiumData ;
+                    ns2:hasAmount "245.4"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSAGreen ;
+                    ns2:hasUnit "mg" ] ;
+            ns2:hasSugarData [ a ns2:SugarData ;
+                    ns2:hasAmount "34.7"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSARed ;
+                    ns2:hasUnit "g" ] ] ;
+    ns2:hasUSDAScore 3 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 40 ;
+            schema:ratingValue "3.975"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "1999-11-25T05:41:32.000Z"^^schema:date ;
+    schema:name "Eggnog II"^^xsd:string ;
+    schema:recipeYield "10 - 4 ounce servings"^^xsd:string .
+
+ns2:FSAGreen a ns2:FSAColor .
+
+<http://purl.org/recipekg/categories/drinks/> a ns2:RecipeCategory .
+
+<http://purl.org/recipekg/categories/drinks/eggnog/> rdfs:subClassOf <http://purl.org/recipekg/categories/drinks/> .
+
+ns2:FSARed a ns2:FSAColor .
+

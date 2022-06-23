@@ -1,0 +1,133 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/141/drinks/eggnog/",
+                    "name": "Eggnog Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/240730/virginia-eggnog/",
+        "name": "Virginia Eggnog",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4608661.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2020-06-19T04:01:59.000Z",
+        "description": "Eggnog! Serve cold with a sprinkle of nutmeg on each glass. Enjoy!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT1H10M",
+        "recipeYield": "24 servings",
+        "recipeIngredient": [
+            "1 cup white sugar, or more to taste",
+            "10 eggs, divided",
+            "1 quart milk",
+            "1 quart heavy whipping cream",
+            "\u00bc cup rum",
+            "\u00bc cup whisky"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Beat sugar and egg yolks together in a bowl using an electric mixer until very light in color. Mix milk and cream into yolk mixture.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Beat egg whites in a separate bowl using an electric mixer until stiff peaks form, adding more sugar, if desired. Fold egg whites into milk mixture until eggnog is smooth. Stir rum and whisky into eggnog. Refrigerate until chilled, at least 1 hour.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Eggnog Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "mckeown"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 1,
+            "itemReviewed": "Virginia Eggnog",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "230.5 calories",
+            "carbohydrateContent": "11.5 g",
+            "cholesterolContent": "135.1 mg",
+            "fatContent": "17.5 g",
+            "fiberContent": null,
+            "proteinContent": "4.8 g",
+            "saturatedFatContent": "10.3 g",
+            "servingSize": null,
+            "sodiumContent": "60.9 mg",
+            "sugarContent": "10.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-12-05T10:42:54.35Z",
+                "reviewBody": "I started out as written but knew that 1/2 cup of alcohol wasn't going to be near enough for 8 cups of milk/cream. You need to double the amount of alcohol at least. As written it just tasted like sweet milk. I would also probably only use 8 eggs next time but that is just me. Over all this was a decent recipe and it was easy but just plan on doubling (or tripling) the amount of booze.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

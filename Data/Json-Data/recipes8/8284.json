@@ -1,0 +1,154 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/248/main-dish/burgers/",
+                    "name": "Burger Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/473/main-dish/burgers/hamburgers/",
+                    "name": "Hamburgers",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/31841/toastie-treats/",
+        "name": "Toastie Treats",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Toastie Treats"
+        },
+        "datePublished": "2018-03-21T16:22:45.000Z",
+        "description": "This is a simple treat that is a full balanced meal of what kids like in one big snack... One is great, two are a full meal, and three is a challenge to most full grown men.",
+        "prepTime": null,
+        "cookTime": null,
+        "totalTime": null,
+        "recipeYield": "4 sandwiches",
+        "recipeIngredient": [
+            "1\u2009\u00bd pounds potatoes, peeled and cubed",
+            "\u00bd cup milk",
+            "1 tablespoon butter",
+            "1 pound ground beef",
+            "4 eggs",
+            "4 slices bread, toasted",
+            "1 (16 ounce) can baked beans",
+            "4 slices Cheddar cheese"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Bring a large pot of salted water to a boil.  Add potatoes, and cook until tender but still firm, about 15 minutes. Drain, then mash with milk and butter until smooth. Spoon into a pastry bag with a large round tip; set aside. Preheat oven on broiler setting.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat a large heavy skillet over medium heat. Shape ground beef into 4 patties, and fry until evenly brown, about 5 minutes on each side. Fry the 4 eggs.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place a burger on each piece of toast. Pipe mashed potato around the edge to form a wall on the edge of the toast. Heat the beans, and spoon onto each burger, inside the wall of potato. Cover with a slice of cheese.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place burgers under broiler until cheese is melted, then top each with a fried egg.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Burger Recipes",
+            "Hamburgers"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Trevor T. Baynes"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 2,
+            "ratingCount": 1,
+            "itemReviewed": "Toastie Treats",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "703.8 calories",
+            "carbohydrateContent": "62.7 g",
+            "cholesterolContent": "294.8 mg",
+            "fatContent": "32.5 g",
+            "fiberContent": "6.9 g",
+            "proteinContent": "42.9 g",
+            "saturatedFatContent": "15.3 g",
+            "servingSize": null,
+            "sodiumContent": "1170.7 mg",
+            "sugarContent": "14 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2007-01-05T11:56:00.38Z",
+                "reviewBody": "I actually found this to be a bit bland (though I am an adult). I doubt I'll make this again but at the VERY least I'd get rid of the beans and add some kinda of fruit chipotle. Also I'm going to have to take exception to the description of \"full balanced mean\" unless the other side of the scale has a bowling ball on it.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 2
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Kimco",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/1838436/"
+                }
+            }
+        ]
+    }
+]

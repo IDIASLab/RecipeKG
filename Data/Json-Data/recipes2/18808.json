@@ -1,0 +1,148 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/251/main-dish/sandwiches/",
+                    "name": "Sandwich Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/88392/fruit-n-nut-sandwich/",
+        "name": "Fruit n' Nut Sandwich",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F970509.jpg",
+            "width": 2271,
+            "height": 2271
+        },
+        "datePublished": "2018-03-21T16:46:59.000Z",
+        "description": "Your kids will love this sandwich made with a simple spread of Neufchatel or low-fat cream cheese and pineapple and sprinkling of sliced almonds.",
+        "prepTime": null,
+        "cookTime": null,
+        "totalTime": null,
+        "recipeYield": "4 sandwiches",
+        "recipeIngredient": [
+            "1 (8 ounce) package Neufchatel cheese, softened",
+            "\u00bc cup crushed pineapple",
+            "4 tablespoons sliced almonds",
+            "8 slices whole-grain bread"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "In a small bowl, mix together softened Neufchatel cheese and crushed pineapple.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Spread 1/4 of the pineapple and cheese mixture on a slice of bread. Top with a tablespoon of  almonds, and cover with another slice of bread to make a sandwich. repeat with remaining ingredients.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Sandwich Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Vada"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.333333333333333,
+            "ratingCount": 3,
+            "itemReviewed": "Fruit n' Nut Sandwich",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "327.9 calories",
+            "carbohydrateContent": "27.6 g",
+            "cholesterolContent": "42.6 mg",
+            "fatContent": "18.3 g",
+            "fiberContent": "4.6 g",
+            "proteinContent": "13.8 g",
+            "saturatedFatContent": "9 g",
+            "servingSize": null,
+            "sodiumContent": "442 mg",
+            "sugarContent": "6.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2013-02-23T23:47:01.377Z",
+                "reviewBody": "A perfect little sandwich for a tea party...and the leftover filling on toasted homemade bread makes a delicious breakfast the next day!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Paula",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/paula1/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2009-07-13T17:38:19.14Z",
+                "reviewBody": "This was simple and good but I think adding a touch of brown sugar to the cream cheese mixture would make it great. I'll try that next time.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "cookntaste",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/1772985/"
+                }
+            }
+        ]
+    }
+]

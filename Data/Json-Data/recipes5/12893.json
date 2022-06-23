@@ -1,0 +1,145 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/81/side-dish/",
+                    "name": "Side Dish",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/917/side-dish/potatoes/",
+                    "name": "Potato",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1548/side-dish/potatoes/scalloped-potatoes/",
+                    "name": "Scalloped Potato Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/277719/pommes-anna/",
+        "name": "Pommes Anna",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7663365.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2019-12-30T21:08:33.000Z",
+        "description": "This is a delicious way to serve potatoes with any main dish.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT1H0M",
+        "totalTime": "P0DT1H15M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "\u00bd cup butter, melted",
+            "3 large potatoes, peeled and thinly sliced, or more to taste",
+            "\u00be cup chicken broth",
+            "salt and ground black pepper to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat the oven to 350 degrees F (175 degrees C).\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Brush a casserole dish evenly with 1 tablespoon melted butter. Place a layer of sliced potatoes to cover the bottom of the dish. Brush with butter and repeat layers until all potatoes are used. Pour in chicken broth.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated oven until potatoes are tender and browned, about 1 hour. Invert potatoes onto a plate. Season with salt and pepper.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Side Dish",
+            "Potato",
+            "Scalloped Potato Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "roger"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 2,
+            "ratingCount": 1,
+            "itemReviewed": "Pommes Anna",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "420 calories",
+            "carbohydrateContent": "48.6 g",
+            "cholesterolContent": "62.1 mg",
+            "fatContent": "23.4 g",
+            "fiberContent": "6.1 g",
+            "proteinContent": "6.1 g",
+            "saturatedFatContent": "14.6 g",
+            "servingSize": null,
+            "sodiumContent": "437 mg",
+            "sugarContent": "2.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-01-28T02:39:46.077Z",
+                "reviewBody": "I followed this recipe to the letter and I'm sorry to say that it did not work out well and was bland. There is way too much butter/liquid in this. Perhaps the 1/2 cup butter is a typo? I used three large potatoes and a 1 quart casserole dish. When I inverted this onto a serving plate it did not hold its shape and I also ended up with a greasy mess on my counter top as it splattered out of the dish. The potatoes needed more than just salt & pepper and they had no browning or texture to them - they just ended up soft like a boiled potato would. Unfortunately I will not make this again.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 2
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "RainbowJewels",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/rainbowjewels/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,141 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/364/desserts/frozen-desserts/",
+                    "name": "Frozen Dessert Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/16178/desserts/frozen-desserts/popsicles/",
+                    "name": "Popsicle Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/280263/ice-pops-base-formula/",
+        "name": "Ice Pops Base Formula",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8290464.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-06-02T01:11:54.000Z",
+        "description": "Cool off with this easy formula for healthier ice pops. Just use 3 cups of any fruit you prefer, 1/4 to 1/3 cup water, 2 to 3 tablespoons honey, and 1 tablespoon of any citrus juice you like. Each is about 50 calories, with 8 grams (or less) added sugar.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": null,
+        "totalTime": "P0DT8H15M",
+        "recipeYield": "8 servings",
+        "recipeIngredient": [
+            "3 cups fresh blueberries",
+            "\u00bc cup water, or more as needed",
+            "2 tablespoons honey, or more to taste",
+            "1 tablespoon lemon juice"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Blend blueberries, water, honey, and lemon juice in a blender until nearly smooth, adding more water if necessary. Press through a fine-mesh sieve to remove skins and seeds.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour mixture into eight 3-ounce ice pop molds or paper cups. Insert sticks into molds. Freeze, 8 hours to overnight.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Frozen Dessert Recipes",
+            "Popsicle Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Strawberry Shortcake"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Ice Pops Base Formula",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "47.4 calories",
+            "carbohydrateContent": "12.4 g",
+            "cholesterolContent": null,
+            "fatContent": "0.2 g",
+            "fiberContent": "1.3 g",
+            "proteinContent": "0.4 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "1 mg",
+            "sugarContent": "9.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-07-01T23:20:18.417Z",
+                "reviewBody": "I made the watermelon and the peach popsicles. They were refreshingly fruity, not syrupy sweet. Perfect for a hot summer day.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Paula",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/paula1/"
+                }
+            }
+        ]
+    }
+]

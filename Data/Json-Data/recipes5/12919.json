@@ -1,0 +1,109 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1557/desserts/chocolate/",
+                    "name": "Chocolate Dessert Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/277797/peanut-butter-cup-dip/",
+        "name": "Peanut Butter Cup Dip",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Peanut Butter Cup Dip"
+        },
+        "datePublished": "2019-12-30T23:00:39.000Z",
+        "description": "This recipe is for a peanut butter cup in a bowl.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "1 serving",
+        "recipeIngredient": [
+            "1 tablespoon peanut butter",
+            "\u00bd tablespoon melted butter",
+            "2 tablespoons powdered sugar",
+            "2 teaspoons semisweet chocolate chips",
+            "2 miniature peanut butter cups, or to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Mix peanut butter and melted butter together in a small bowl until thoroughly combined. Pour in powdered sugar and stir until texture is smooth and no lumps remain. Fold in chocolate chips and miniature peanut butter cups.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Chocolate Dessert Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Bethany A"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Peanut Butter Cup Dip",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "325.7 calories",
+            "carbohydrateContent": "32.6 g",
+            "cholesterolContent": "16.2 mg",
+            "fatContent": "21 g",
+            "fiberContent": "2 g",
+            "proteinContent": "6.1 g",
+            "saturatedFatContent": "8.4 g",
+            "servingSize": null,
+            "sodiumContent": "165.5 mg",
+            "sugarContent": "28.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

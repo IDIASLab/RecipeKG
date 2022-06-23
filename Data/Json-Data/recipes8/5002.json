@@ -1,0 +1,113 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/251/main-dish/sandwiches/",
+                    "name": "Sandwich Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/269611/toasty-mushroom-sandwich/",
+        "name": "Toasty Mushroom Sandwich",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Toasty Mushroom Sandwich"
+        },
+        "datePublished": "2019-01-03T03:34:45.000Z",
+        "description": "This simple little sandwich is a perfect hot lunch, and it takes minutes to prepare in a toaster oven.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H20M",
+        "recipeYield": "1 sandwich",
+        "recipeIngredient": [
+            "1 whole wheat sandwich roll",
+            "2 teaspoons butter",
+            "1 clove garlic, halved",
+            "1 slice Swiss cheese, or more to taste",
+            "1 portobello mushroom cap"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Slice sandwich roll in half and place in the toaster oven for 5 to 6 minutes. Spread 1 teaspoon butter over each half. Scrape garlic over the bread to give it a garlic flavor.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place Swiss cheese over mushroom cap and toast until cheese is melting, about 5 minutes. Sandwich between buttered bread halves.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Sandwich Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "bananabreadbrownies"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Toasty Mushroom Sandwich",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "304.4 calories",
+            "carbohydrateContent": "23.1 g",
+            "cholesterolContent": "47.6 mg",
+            "fatContent": "18.6 g",
+            "fiberContent": "2.1 g",
+            "proteinContent": "12.7 g",
+            "saturatedFatContent": "10.8 g",
+            "servingSize": null,
+            "sodiumContent": "311.2 mg",
+            "sugarContent": "3.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

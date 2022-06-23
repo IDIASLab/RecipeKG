@@ -1,0 +1,112 @@
+@prefix ns1: <http://purl.org/heals/food/> .
+@prefix ns2: <http://purl.org/recipekg/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/mini-philly-cheesesteaks> a schema:Recipe ;
+    ns1:hasIngredient [ a <http://purl.org/heals/ingredient/OliveOil> ;
+            ns2:hasQuantity "3" ;
+            ns2:hasUnit "tablespoon" ;
+            ns2:ingredientName "olive oil" ],
+        [ a <http://purl.org/recipekg/ingredient/SweetPeppers> ;
+            ns2:hasQuantity "1/3" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "sweet peppers" ],
+        [ a <http://purl.org/recipekg/ingredient/Baguette> ;
+            ns2:hasQuantity "2" ;
+            ns2:ingredientName "baguette" ],
+        [ a <http://purl.org/heals/ingredient/AllPurposeFlour> ;
+            ns2:hasQuantity "2" ;
+            ns2:hasUnit "tablespoon" ;
+            ns2:ingredientName "all purpose flour" ],
+        [ a <http://purl.org/heals/ingredient/Onion> ;
+            ns2:hasQuantity "1/3" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "onion" ],
+        [ a <http://purl.org/recipekg/ingredient/CayennePepper> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "pinch" ;
+            ns2:ingredientName "cayenne pepper" ],
+        [ a <http://purl.org/recipekg/ingredient/SkirtSteak> ;
+            ns2:hasQuantity "1" ;
+            ns2:ingredientName "skirt steak" ],
+        [ a <http://purl.org/recipekg/ingredient/ProvoloneCheese> ;
+            ns2:hasQuantity "2" ;
+            ns2:hasUnit "ounce" ;
+            ns2:ingredientName "provolone cheese" ],
+        [ a <http://purl.org/heals/ingredient/Water> ;
+            ns2:hasQuantity "1/4" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "water" ],
+        [ a <http://purl.org/recipekg/ingredient/Nutmeg> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "pinch" ;
+            ns2:ingredientName "nutmeg" ],
+        [ a <http://purl.org/recipekg/ingredient/ProvoloneCheese> ;
+            ns2:hasQuantity "1/4" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "provolone cheese" ],
+        [ a <http://purl.org/recipekg/ingredient/Milk> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "milk" ],
+        [ a <http://purl.org/heals/ingredient/Salt> ;
+            ns2:ingredientName "salt" ],
+        [ a <http://purl.org/heals/ingredient/Butter> ;
+            ns2:hasQuantity "2" ;
+            ns2:hasUnit "tablespoon" ;
+            ns2:ingredientName "butter" ],
+        [ ] ;
+    ns2:belongsTo <http://purl.org/recipekg/categories/appetizers-and-snacks/canapes-and-crostini/> ;
+    ns2:hasFSAScore 5 ;
+    ns2:hasNutritionalInformation [ a ns2:NutritionalInformation ;
+            ns2:hasCalorificData [ a ns2:CalorificData ;
+                    ns2:hasAmount "280.2"^^xsd:float ;
+                    ns2:hasUnit "calories" ] ;
+            ns2:hasCarbohydrateData [ a ns2:CarbohydrateData ;
+                    ns2:hasAmount "34.8"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasCholesterolData [ a ns2:CholesterolData ;
+                    ns2:hasAmount "18.2"^^xsd:float ;
+                    ns2:hasUnit "mg" ] ;
+            ns2:hasFatData [ a ns2:FatData ;
+                    ns2:hasAmount "9.9"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSAAmber ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasFiberData [ a ns2:FiberData ;
+                    ns2:hasAmount "1.6"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasProteinData [ a ns2:ProteinData ;
+                    ns2:hasAmount "12.9"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasSaturatedFatData [ a ns2:SaturatedFatData ;
+                    ns2:hasAmount "4.0"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSAAmber ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasSodiumData [ a ns2:SodiumData ;
+                    ns2:hasAmount "488.8"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSAAmber ;
+                    ns2:hasUnit "mg" ] ;
+            ns2:hasSugarData [ a ns2:SugarData ;
+                    ns2:hasAmount "2.8"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSAGreen ;
+                    ns2:hasUnit "g" ] ] ;
+    ns2:hasUSDAScore 5 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 48 ;
+            schema:ratingValue "4.6875"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2019-10-10T04:52:03.000Z"^^schema:date ;
+    schema:name "Mini Philly Cheesesteaks"^^xsd:string ;
+    schema:recipeYield "48 sandwiches"^^xsd:string .
+
+ns2:FSAGreen a ns2:FSAColor .
+
+<http://purl.org/recipekg/categories/appetizers-and-snacks/> a ns2:RecipeCategory .
+
+<http://purl.org/recipekg/categories/appetizers-and-snacks/canapes-and-crostini/> rdfs:subClassOf <http://purl.org/recipekg/categories/appetizers-and-snacks/> .
+
+ns2:FSAAmber a ns2:FSAColor .
+

@@ -1,0 +1,119 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/535/main-dish/dumplings/",
+                    "name": "Dumpling Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/245592/sauerkraut-pierogi-filling/",
+        "name": "Sauerkraut Pierogi Filling",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Sauerkraut Pierogi Filling"
+        },
+        "datePublished": "2018-06-08T14:24:45.000Z",
+        "description": "This is a traditional filling for pierogi with sauerkraut, mushroom, and onion.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H22M",
+        "totalTime": "P0DT0H37M",
+        "recipeYield": "3 cups",
+        "recipeIngredient": [
+            "16 ounces sauerkraut",
+            "\u00bd cup butter",
+            "1 onion, chopped",
+            "1 cup chopped mushrooms",
+            "salt and ground black pepper to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Grind sauerkraut in a food processor. Transfer to a skillet; cook and stir over medium heat until softened, about 10 minutes. Drain in a colander.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat butter in skillet over medium heat; stir in onion and mushrooms. Cook and stir until onion has softened and turned translucent, about 10 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine sauerkraut with onion mixture, add salt and pepper, and cook for 2 minutes. Spread onto plate to cool completely.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Dumpling Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Barb Ross"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Sauerkraut Pierogi Filling",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "42.1 calories",
+            "carbohydrateContent": "1.8 g",
+            "cholesterolContent": "10.2 mg",
+            "fatContent": "3.9 g",
+            "fiberContent": "0.7 g",
+            "proteinContent": "0.4 g",
+            "saturatedFatContent": "2.4 g",
+            "servingSize": null,
+            "sodiumContent": "157.7 mg",
+            "sugarContent": "0.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

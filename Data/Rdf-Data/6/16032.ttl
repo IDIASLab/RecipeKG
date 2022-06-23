@@ -1,0 +1,105 @@
+@prefix ns1: <http://purl.org/heals/food/> .
+@prefix ns2: <http://purl.org/recipekg/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/buffalo-chicken-and-potato-casserole> a schema:Recipe ;
+    ns1:hasIngredient [ a <http://purl.org/recipekg/ingredient/BuffaloWingSauce> ;
+            ns2:hasQuantity "2" ;
+            ns2:hasUnit "tablespoon" ;
+            ns2:ingredientName "Buffalo wing sauce" ],
+        [ a <http://purl.org/heals/ingredient/VegetableOil> ;
+            ns2:hasQuantity "1/3" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "vegetable oil" ],
+        [ a <http://purl.org/heals/ingredient/Bacon> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "package" ;
+            ns2:ingredientName "bacon" ],
+        [ a <http://purl.org/heals/ingredient/Garlic> ;
+            ns2:hasQuantity "2" ;
+            ns2:hasUnit "tablespoon" ;
+            ns2:ingredientName "garlic" ],
+        [ a <http://purl.org/recipekg/ingredient/CookingSpray> ;
+            ns2:ingredientName "cooking spray" ],
+        [ a <http://purl.org/recipekg/ingredient/OnionPowder> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "tablespoon" ;
+            ns2:ingredientName "onion powder" ],
+        [ a <http://purl.org/heals/ingredient/Salt> ;
+            ns2:hasQuantity "2" ;
+            ns2:hasUnit "teaspoon" ;
+            ns2:ingredientName "salt" ],
+        [ a <http://purl.org/heals/ingredient/ChickenBroth> ;
+            ns2:hasQuantity "2" ;
+            ns2:hasUnit "pound" ;
+            ns2:ingredientName "chicken broth" ],
+        [ a <http://purl.org/recipekg/ingredient/Dressing> ;
+            ns2:hasQuantity "1/4" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "dressing" ],
+        [ a <http://purl.org/heals/ingredient/Cheese> ;
+            ns2:hasQuantity "3" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "cheese" ],
+        [ a <http://purl.org/recipekg/ingredient/IdahoPotatoes> ;
+            ns2:hasQuantity "6" ;
+            ns2:ingredientName "Idaho potatoes" ],
+        [ a <http://purl.org/heals/ingredient/Onion> ;
+            ns2:hasQuantity "4" ;
+            ns2:ingredientName "onion" ] ;
+    ns2:belongsTo <http://purl.org/recipekg/categories/meat-and-poultry/chicken/chicken-breasts/> ;
+    ns2:hasFSAScore 2 ;
+    ns2:hasNutritionalInformation [ a ns2:NutritionalInformation ;
+            ns2:hasCalorificData [ a ns2:CalorificData ;
+                    ns2:hasAmount "653.6"^^xsd:float ;
+                    ns2:hasUnit "calories" ] ;
+            ns2:hasCarbohydrateData [ a ns2:CarbohydrateData ;
+                    ns2:hasAmount "33.4"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasCholesterolData [ a ns2:CholesterolData ;
+                    ns2:hasAmount "131.0"^^xsd:float ;
+                    ns2:hasUnit "mg" ] ;
+            ns2:hasFatData [ a ns2:FatData ;
+                    ns2:hasAmount "38.2"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSARed ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasFiberData [ a ns2:FiberData ;
+                    ns2:hasAmount "4.0"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasProteinData [ a ns2:ProteinData ;
+                    ns2:hasAmount "44.2"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasSaturatedFatData [ a ns2:SaturatedFatData ;
+                    ns2:hasAmount "16.2"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSARed ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasSodiumData [ a ns2:SodiumData ;
+                    ns2:hasAmount "1540.2"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSARed ;
+                    ns2:hasUnit "mg" ] ;
+            ns2:hasSugarData [ a ns2:SugarData ;
+                    ns2:hasAmount "2.5"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSAGreen ;
+                    ns2:hasUnit "g" ] ] ;
+    ns2:hasUSDAScore 4 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 28 ;
+            schema:ratingValue "4"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2020-03-20T06:50:23.000Z"^^schema:date ;
+    schema:name "Buffalo Chicken and Potato Casserole"^^xsd:string ;
+    schema:recipeYield "8 servings"^^xsd:string .
+
+ns2:FSAGreen a ns2:FSAColor .
+
+<http://purl.org/recipekg/categories/meat-and-poultry/> a ns2:RecipeCategory .
+
+<http://purl.org/recipekg/categories/meat-and-poultry/chicken/> rdfs:subClassOf <http://purl.org/recipekg/categories/meat-and-poultry/> .
+
+<http://purl.org/recipekg/categories/meat-and-poultry/chicken/chicken-breasts/> rdfs:subClassOf <http://purl.org/recipekg/categories/meat-and-poultry/chicken/> .
+
+ns2:FSARed a ns2:FSAColor .
+

@@ -1,0 +1,150 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1986/salad/egg-salad/",
+                    "name": "Egg Salad Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/237352/simple-greek-yogurt-egg-salad/",
+        "name": "Simple Greek Yogurt Egg Salad",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1127556.jpg",
+            "width": 5184,
+            "height": 3456
+        },
+        "datePublished": "2020-03-05T05:11:53.000Z",
+        "description": "Greek yogurt gives this dish a healthy kick, but the brown sugar makes sure no one even knows it's in there! Very kid-friendly.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": null,
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "\u00bc cup Greek yogurt",
+            "1 tablespoon brown sugar",
+            "8 hard-boiled eggs, peeled and chopped",
+            "\u00bc cup chopped celery",
+            "\u00bc cup chopped green onion",
+            "2 tablespoons sweet pickle relish",
+            "2 tablespoons yellow mustard",
+            "\u00bc teaspoon dill weed",
+            "\u00bc teaspoon paprika",
+            "ground black pepper to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Whisk yogurt and brown sugar together in a bowl. Add eggs, celery, green onion, relish, mustard, dill, paprika, and black pepper; mix well.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad",
+            "Egg Salad Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "CookingFreak"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.333333333333333,
+            "ratingCount": 3,
+            "itemReviewed": "Simple Greek Yogurt Egg Salad",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "203.6 calories",
+            "carbohydrateContent": "9 g",
+            "cholesterolContent": "426.8 mg",
+            "fatContent": "12.3 g",
+            "fiberContent": "0.7 g",
+            "proteinContent": "13.9 g",
+            "saturatedFatContent": "3.9 g",
+            "servingSize": null,
+            "sodiumContent": "288.7 mg",
+            "sugarContent": "7.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2014-05-11T18:20:46.31Z",
+                "reviewBody": "While this is delicious, it is pretty sweet. The brown sugar takes the tang away from the Greek yogurt though. The thing I like about this recipe is that it is easy to adapt to your own preferences: use less brown sugar or sub dill pickle relish to take some of the sweet away, or use Dijon for a slightly different flavor. But it made a really good lunch the way it is written!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Paula",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/paula1/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2020-06-08T23:45:23.18Z",
+                "reviewBody": "We enjoyed it. I didn\u2019t have any celery but next time I\u2019ll be sure to include and I agree with previous review, less brown sugar.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Marquisa M Gaines",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/27620776/"
+                }
+            }
+        ]
+    }
+]

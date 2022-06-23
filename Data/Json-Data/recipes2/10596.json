@@ -1,0 +1,135 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/143/breakfast-and-brunch/drinks/",
+                    "name": "Drinks",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/241404/antioxidant-king/",
+        "name": "Antioxidant King",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2114378.jpg",
+            "width": 2848,
+            "height": 3398
+        },
+        "datePublished": "2017-06-21T13:02:57.000Z",
+        "description": "This is my favorite smoothie with many health benefits. It looks great and tastes the same. The avocado gives it a real creamy texture.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "1 large glass",
+        "recipeIngredient": [
+            "\u00bc fresh pineapple, peeled",
+            "1 Golden Delicious apple, quartered",
+            "1 small beet, top and bottom trimmed",
+            "\u00bc cup fresh spinach, or to taste",
+            "\u00bc cup mixed berries, or to taste",
+            "\u00bd banana",
+            "\u00bd avocado, peeled",
+            "3 ice cubes"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Process pineapple, apple, beet, and spinach through a juicer.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Blend juice, berries, banana, avocado, and ice cubes in a blender until smooth.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Drinks"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Kenneth Smith"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Antioxidant King",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "485.1 calories",
+            "carbohydrateContent": "93.2 g",
+            "cholesterolContent": null,
+            "fatContent": "15.6 g",
+            "fiberContent": "18.3 g",
+            "proteinContent": "6.4 g",
+            "saturatedFatContent": "2.3 g",
+            "servingSize": null,
+            "sodiumContent": "72.7 mg",
+            "sugarContent": "62.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-01-10T22:06:15.043Z",
+                "reviewBody": "Tasty. I didn't have any beets will add next time. It was very thick however so I added some water.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Sherril Minns",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/17466620/"
+                }
+            }
+        ]
+    }
+]

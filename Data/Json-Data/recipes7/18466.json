@@ -1,0 +1,180 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/231/world-cuisine/european/",
+                    "name": "European",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/721/world-cuisine/european/french/",
+                    "name": "French",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/267856/creme-au-chocolat/",
+        "name": "Creme Au Chocolat",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6349306.jpg",
+            "width": 2384,
+            "height": 2384
+        },
+        "datePublished": "2020-06-19T04:32:03.000Z",
+        "description": "This French creme au chocolat is very rich but extremely delicious, and guaranteed to please your sweet tooth!",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "\u00be cup light cream",
+            "1 (4 ounce) bar sweet baking chocolate, chopped",
+            "2 tablespoons white sugar",
+            "2 egg yolks, lightly beaten",
+            "\u00bd teaspoon vanilla extract",
+            "4 tablespoons whipped cream, or to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat cream, chocolate, and sugar in a saucepan over medium heat, stirring constantly, until chocolate is melted and smooth.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour a little of the melted chocolate mixture into the beaten egg yolks; mix until smooth. Pour back into the pot with the remaining chocolate. Heat gently, stirring constantly, until custard thickens slightly. Spoon into small dessert bowls and garnish with whipped cream.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "European",
+            "French"
+        ],
+        "recipeCuisine": [
+            "European",
+            "French"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "CBerrier86"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.333333333333333,
+            "ratingCount": 3,
+            "itemReviewed": "Creme Au Chocolat",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "289.3 calories",
+            "carbohydrateContent": "24.8 g",
+            "cholesterolContent": "134.4 mg",
+            "fatContent": "20.7 g",
+            "fiberContent": "2 g",
+            "proteinContent": "4.7 g",
+            "saturatedFatContent": "11.7 g",
+            "servingSize": null,
+            "sodiumContent": "25.9 mg",
+            "sugarContent": "20.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-02-13T01:00:55.773Z",
+                "reviewBody": "This is very rich and creamy. If you prefer dark chocolate as I do making it with a semisweet chocolate works out just fine.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Deb C",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2702518/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2020-04-06T08:02:23.65Z",
+                "reviewBody": "So rich and chocolatey! Great recipe! Thank you!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Annie",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3314050/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2020-07-08T23:17:05.42Z",
+                "reviewBody": "Love this yummy but simple desert.  I add a bit of cinnamon and use semi sweet chocolate.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Heidi Hart",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3295834/"
+                }
+            }
+        ]
+    }
+]

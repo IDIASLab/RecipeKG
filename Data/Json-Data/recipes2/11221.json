@@ -1,0 +1,130 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/133/drinks/cocktails/",
+                    "name": "Cocktail Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/217089/death-of-the-red-ant/",
+        "name": "Death of the Red Ant",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F9160013.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2017-07-27T13:00:42.000Z",
+        "description": "Based on the Red Ant cocktail created by a NYC bartender. Be sure to use a good quality mezcal. The small amount of it here makes a big difference. I like brandied cherries for the garnish.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "1 cocktail",
+        "recipeIngredient": [
+            "ice",
+            "1\u2009\u00bd fluid ounces rye whiskey",
+            "\u00bd fluid ounce cherry liqueur (such as Cherry Heering\u00ae)",
+            "\u00bd fluid ounce kirschwasser",
+            "1 tablespoon mezcal",
+            "2 dashes chocolate or mole bitters (such as Bittermens\u00ae or Fee Brothers\u00ae)",
+            "maraschino cherries, for garnish"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Put ice in a cocktail shaker. Pour in whiskey, Cherry Heering, and kirschwasser. Then spoon in the mezcal and add a couple dashes of bitters. Shake well and strain into a cocktail glass. Garnish with cherries.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Cocktail Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Lorem Ipsum"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Death of the Red Ant",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "224.1 calories",
+            "carbohydrateContent": "6.9 g",
+            "cholesterolContent": null,
+            "fatContent": null,
+            "fiberContent": "0.1 g",
+            "proteinContent": "0.1 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "8.6 mg",
+            "sugarContent": "4.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-04-19T00:43:50.987Z",
+                "reviewBody": "This drink is great! I used High West (Rendezvous Rye) whiskey, Cherry Heering, Dos Hombres Mezcal, Kirschwasser cocktail mixer, and chocolate bitters. It is a high horsepower (strong alcohol) drink, but smooth and Smokey in texture/flavor. I would definitely make this for others to try.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Ethan Wymer",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/29465352/"
+                }
+            }
+        ]
+    }
+]

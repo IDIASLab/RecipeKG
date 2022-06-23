@@ -1,0 +1,165 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/94/soups-stews-and-chili/",
+                    "name": "Soups, Stews and Chili Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/183/soups-stews-and-chili/stews/",
+                    "name": "Stews",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17046/soups-stews-and-chili/stews/goulash/",
+                    "name": "Goulash Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/13369/moms-goulash/",
+        "name": "Mom's Goulash",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F38391.jpg",
+            "width": 2272,
+            "height": 1704
+        },
+        "datePublished": "2008-06-30T23:10:59.000Z",
+        "description": "This is a wonderful and simple recipe from my German Mother.   I usually make this soup a day before serving since it tastes better the day after making it.",
+        "prepTime": null,
+        "cookTime": "P0DT3H0M",
+        "totalTime": "P0DT3H0M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "2 pounds beef stew meat, diced into 1 inch pieces",
+            "salt and pepper to taste",
+            "\u00bc teaspoon paprika",
+            "1 onion, chopped",
+            "1 tablespoon vegetable oil",
+            "8 large potatoes, scrubbed and chopped",
+            "1 (16 ounce) can chili without beans"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Season beef with salt, pepper, and paprika.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Brown seasoned beef and onion in oil until all sides are brown.  Cover with water and simmer for 3 to 4 hours or until tender.  Add  water whenever level goes below the ingredients.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "An hour before serving, add potatoes and chili.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Soups, Stews and Chili Recipes",
+            "Stews",
+            "Goulash Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Brenda"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.6666666666666665,
+            "ratingCount": 3,
+            "itemReviewed": "Mom's Goulash",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "896 calories",
+            "carbohydrateContent": "93.7 g",
+            "cholesterolContent": "117.7 mg",
+            "fatContent": "38.6 g",
+            "fiberContent": "12.3 g",
+            "proteinContent": "44.5 g",
+            "saturatedFatContent": "15 g",
+            "servingSize": null,
+            "sodiumContent": "533.1 mg",
+            "sugarContent": "5.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2007-06-22T19:28:20.48Z",
+                "reviewBody": "This was ok- dh and dc liked it. I felt like it was missing something, but it was very simple.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Rachel Jones",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2390893/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2016-08-27T06:11:54.837Z",
+                "reviewBody": "Pretty good easy. Family loved it.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "JannieRee",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/4139258/"
+                }
+            }
+        ]
+    }
+]

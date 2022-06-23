@@ -1,0 +1,101 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/81/side-dish/",
+                    "name": "Side Dish",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/260430/summer-lentils-with-tomatoes/",
+        "name": "Summer Lentils with Tomatoes",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4561712.jpg",
+            "width": 2000,
+            "height": 2000
+        },
+        "datePublished": "2019-04-04T04:09:48.000Z",
+        "description": "This quick and simple lentil stew is a perfect use for summer's ripe cherry tomatoes.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H35M",
+        "totalTime": "P0DT0H45M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "1 tablespoon extra-virgin olive oil",
+            "\u00bd pint cherry tomatoes",
+            "1 clove garlic, minced",
+            "4 leaves Swiss chard, chopped",
+            "1\u2009\u00bd cups water",
+            "\u00bd cup green lentils",
+            "salt to taste",
+            "\u00bc teaspoon lemon zest"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat oil in a saucepan over medium heat. Add cherry tomatoes and garlic. Cook, covered, until tomatoes burst, about 5 minutes. Add chard; cook until wilted. Add water, lentils, and 1/2 teaspoon salt. Bring to a boil; cover and reduce heat to low. Simmer until lentils are tender yet firm to the bite, about 25 minutes. Stir in lemon zest and additional salt to taste.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Side Dish"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Cally"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Summer Lentils with Tomatoes",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "97 calories",
+            "carbohydrateContent": "7.6 g",
+            "cholesterolContent": null,
+            "fatContent": "7.2 g",
+            "fiberContent": "2.4 g",
+            "proteinContent": "2.5 g",
+            "saturatedFatContent": "1 g",
+            "servingSize": null,
+            "sodiumContent": "294.3 mg",
+            "sugarContent": "1.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

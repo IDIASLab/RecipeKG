@@ -1,0 +1,166 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/231/world-cuisine/european/",
+                    "name": "European",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/731/world-cuisine/european/greek/",
+                    "name": "Greek",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/10085/kourabiedes-ii/",
+        "name": "Kourabiedes II",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Kourabiedes II"
+        },
+        "datePublished": "1997-09-17T17:30:37.000Z",
+        "description": "Given to me by my mother, who got the recipe from a Greek friend of hers.",
+        "prepTime": null,
+        "cookTime": null,
+        "totalTime": null,
+        "recipeYield": "5 dozen",
+        "recipeIngredient": [
+            "2 cups unsalted butter",
+            "\u2153 cup confectioners' sugar",
+            "2 teaspoons almond extract",
+            "6 cups all-purpose flour"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat oven to 350 degrees F (180 degrees C).\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cream together butter, powdered sugar and almond extract. Add flour in steps (not all at one time).\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Knead with hands, shape into crescents.  Bake for 20 minutes or until light brown.  While warm, roll in confectioner's sugar.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "European",
+            "Greek"
+        ],
+        "recipeCuisine": [
+            "European",
+            "Greek"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "ShanaLee"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 1.6666666666666667,
+            "ratingCount": 3,
+            "itemReviewed": "Kourabiedes II",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "205.5 calories",
+            "carbohydrateContent": "20.4 g",
+            "cholesterolContent": "32.5 mg",
+            "fatContent": "12.5 g",
+            "fiberContent": "0.7 g",
+            "proteinContent": "2.7 g",
+            "saturatedFatContent": "7.8 g",
+            "servingSize": null,
+            "sodiumContent": "2.2 mg",
+            "sugarContent": "1.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2008-05-26T13:02:25.753Z",
+                "reviewBody": "I am not sure if your mother's friend is missing some main ingredients...but I have lived in Cyprus for almost 10 years and have traveled to Greece yearly. Kourambiedes is my favourite Greek dessert. I added the following to give it a bit more kick: - Nutmeg ground spice ( to add a bit to the batter ) - Cloves ground spice ( to add a bit to batter ) - Icing sugar for sprinkling ( I also added a bit of nutmeg and cloves to the icing sugar mix ) - Vanilla essence - Toasted almonds ( chopped coarsely ) - Very little almond extract ( or else it will taste \" synthetic \" ) - 1 tbs. of cognac or brandy",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 2
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Sza Sza",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2726512/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2005-04-07T16:56:15.09Z",
+                "reviewBody": "It was way too dry to shape into crescents. Hard to work with.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 1
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Mary",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/943931/"
+                }
+            }
+        ]
+    }
+]

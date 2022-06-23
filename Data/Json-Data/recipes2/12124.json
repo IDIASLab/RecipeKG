@@ -1,0 +1,140 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1116/fruits-and-vegetables/",
+                    "name": "Fruits and Vegetables",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1059/fruits-and-vegetables/vegetables/",
+                    "name": "Vegetables",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1881/fruits-and-vegetables/vegetables/squash/",
+                    "name": "Squash",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/260762/pumpkin-spice-white-hot-chocolate/",
+        "name": "Pumpkin Spice White Hot Chocolate",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4672770.jpg",
+            "width": 2386,
+            "height": 2385
+        },
+        "datePublished": "2017-10-11T06:45:35.000Z",
+        "description": "This pumpkin spice white hot chocolate is so chocolaty, pumpkiny and creamy. Top with whipped cream, cinnamon, and cinnamon stick.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H7M",
+        "totalTime": "P0DT0H12M",
+        "recipeYield": "1 cup",
+        "recipeIngredient": [
+            "1 cup milk",
+            "\u00bc cup white chocolate chips",
+            "1 teaspoon unsweetened cocoa powder",
+            "\u00bc cup pumpkin puree",
+            "\u00bd teaspoon pumpkin pie spice",
+            "\u00bc teaspoon vanilla extract",
+            "\u00bc teaspoon ground cinnamon"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine milk, chocolate chips, and cocoa powder in a saucepan over medium heat. Bring a simmer, stirring constantly until chips are melted, about 5 minutes. Add pumpkin puree, pumpkin pie spice, vanilla extract, and cinnamon; whisk until well combined and heated through, 2 to 3 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Fruits and Vegetables",
+            "Vegetables",
+            "Squash"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Yoly"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Pumpkin Spice White Hot Chocolate",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "408.2 calories",
+            "carbohydrateContent": "44 g",
+            "cholesterolContent": "29 mg",
+            "fatContent": "21.2 g",
+            "fiberContent": "2.8 g",
+            "proteinContent": "12.3 g",
+            "saturatedFatContent": "12.9 g",
+            "servingSize": null,
+            "sodiumContent": "296.2 mg",
+            "sugarContent": "39 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-12-12T23:53:32.857Z",
+                "reviewBody": "Another 5-star drink from Yoly. Thick and creamy with that special sweetness that you can only get from white chocolate. It whips up exactly as written. Thank you for the recipe.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Buckwheat Queen",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/melaniegiovenzana/"
+                }
+            }
+        ]
+    }
+]

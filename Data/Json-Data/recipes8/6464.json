@@ -1,0 +1,159 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/92/meat-and-poultry/",
+                    "name": "Meat and Poultry",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/205/meat-and-poultry/pork/",
+                    "name": "Pork",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/254715/ultimate-jersey-ripper/",
+        "name": "Ultimate Jersey Ripper",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3785156.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2016-07-20T04:58:46.000Z",
+        "description": "A ripper is a local Jersey term for hot dogs that are deep-fried. The term is used to describe the ripping of the hot dog skin when bathed in hot oil. Add bacon, corn chips, and onions in sauce and you've got yourself the Ultimate Jersey Ripper.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H8M",
+        "totalTime": "P0DT0H23M",
+        "recipeYield": "8 hot dogs",
+        "recipeIngredient": [
+            "vegetable oil for frying",
+            "8 all-beef hot dogs",
+            "8 slices bacon",
+            "16 toothpicks",
+            "1 (16 ounce) jar pushcart-style onions in sauce",
+            "8 hot dog rolls",
+            "1 (8 ounce) package corn chips, crushed"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat oil in a deep-fryer or large saucepan to 350 degrees F (175 degrees C).\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Wrap each hot dog with a slice of bacon, securing ends with toothpicks. Fry hot dogs 2 at a time in hot oil until they float to the surface, 3 to 4 minutes. Drain on paper towels.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour onions into a small pot over low heat. Stir until heated through, about 5 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Arrange fried hot dogs in rolls. Garnish with onions and crushed corn chips.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Meat and Poultry",
+            "Pork"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Matt R"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.666666666666667,
+            "ratingCount": 3,
+            "itemReviewed": "Ultimate Jersey Ripper",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "513.1 calories",
+            "carbohydrateContent": "46.8 g",
+            "cholesterolContent": "33.9 mg",
+            "fatContent": "29.9 g",
+            "fiberContent": "3.4 g",
+            "proteinContent": "15.1 g",
+            "saturatedFatContent": "8.4 g",
+            "servingSize": null,
+            "sodiumContent": "1417.4 mg",
+            "sugarContent": "4.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2016-07-29T10:58:02.757Z",
+                "reviewBody": "I love onions but couldn't find the push cart onions in my area so I used the chili. These were great and one I'd do again!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2018-07-17T17:34:35.78Z",
+                "reviewBody": "Wow! What a great new way to enjoy a hotdog! The sweetness of the pushcart onions and salty goodness of the thick cut apple wood smoked bacon i used REALLY made this dish! We LOVED it!!! Thanks!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Melody Dumplin",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3925298/"
+                }
+            }
+        ]
+    }
+]

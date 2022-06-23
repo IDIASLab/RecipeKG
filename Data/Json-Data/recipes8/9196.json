@@ -1,0 +1,118 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/134/drinks/coffee/",
+                    "name": "Coffee Drinks Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/282885/sous-vide-cold-brew-coffee/",
+        "name": "Sous Vide \"Cold Brew\" Coffee",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8897618.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-12-29T02:17:20.000Z",
+        "description": "This method mimics the traditional time-consuming method of making cold-brew coffee in the fridge, but in 2 hours instead of 24! The warm water temperature is kept low enough to speed up the cold-brew process, but not hot enough to release the bitter, acidic flavors you get from hot-brewed drip coffee. The result is a super smooth brew that you'll want to make again and again. Use your favorite fresh-ground coffee for best results.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT2H0M",
+        "totalTime": "P0DT2H10M",
+        "recipeYield": "8 coffee drinks",
+        "recipeIngredient": [
+            "1 cup coarsely ground coffee",
+            "4 (16-ounce) Mason jars",
+            "8 cups water"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place 1/4 cup coffee grounds into each jar, then top with water. Screw on the lids until just barely tightened; do not overtighten.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Fill a large pot with enough water to cover the jars completely and place a sous vide immersion cooker into the water. Set temperature to 150 degrees F (65 degrees C) according to manufacturer's directions.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Submerge mason jars into the water bath and set timer for 2 hours.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Remove jars to a cooling rack and let cool until easily handled. Strain the mixture through a coffee filter to stop the steeping process. Pour over ice and serve, or return to rinsed-out jars and store in the refrigerator for up to 1 week.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Coffee Drinks Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "France C"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Sous Vide \"Cold Brew\" Coffee",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "5.9 calories",
+            "carbohydrateContent": "1.2 g",
+            "cholesterolContent": null,
+            "fatContent": null,
+            "fiberContent": null,
+            "proteinContent": "0.3 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "13 mg",
+            "sugarContent": null,
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

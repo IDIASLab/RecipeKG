@@ -1,0 +1,123 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/148/breakfast-and-brunch/eggs/",
+                    "name": "Eggs",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/265086/mexican-huevos-rancheros/",
+        "name": "Mexican Huevos Rancheros",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5421547.jpg",
+            "width": 960,
+            "height": 960
+        },
+        "datePublished": "2020-06-23T21:52:38.000Z",
+        "description": "This is the authentic Mexican version of fried eggs over fried tortillas layered with refried beans and tomato sauce.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H15M",
+        "totalTime": "P0DT0H25M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "1 large Roma tomato",
+            "1 green serrano chile",
+            "1 clove garlic",
+            "salt and ground black pepper to taste",
+            "4 tablespoons vegetable oil",
+            "2 corn tortillas",
+            "2 eggs",
+            "4 tablespoons refried beans"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Bring a large pot of water to boil. Cook tomato, serrano chile, and garlic for 5 minutes. Drain and let cool slightly. Peel tomato.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine tomato, serrano chile, garlic, salt, and pepper in a blender; blend until smooth.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat oil in a small skillet over high heat. Fry tortillas individually until soft but not crispy, about 10 seconds. Place on a serving plate. Reduce heat to medium. Crack eggs into skillet and cook to desired consistency, 3 to 5 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Spread 2 tablespoons refried beans on each tortilla. Add an egg and top with tomato sauce. Serve immediately.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Eggs"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "gem"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Mexican Huevos Rancheros",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "418.3 calories",
+            "carbohydrateContent": "21.1 g",
+            "cholesterolContent": "188.5 mg",
+            "fatContent": "33.6 g",
+            "fiberContent": "4.5 g",
+            "proteinContent": "10.4 g",
+            "saturatedFatContent": "6.1 g",
+            "servingSize": null,
+            "sodiumContent": "258.5 mg",
+            "sugarContent": "3.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

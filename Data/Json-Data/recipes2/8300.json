@@ -1,0 +1,135 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17807/appetizers-and-snacks/tapas/",
+                    "name": "Tapas",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/255700/chorizo-bites/",
+        "name": "Chorizo Bites",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4560814.jpg",
+            "width": 2212,
+            "height": 2211
+        },
+        "datePublished": "2016-10-08T01:33:14.000Z",
+        "description": "This is an amazing appetizer, which will be eaten in seconds. I can never seem to make enough. Everyone loves them and asks me to make every time.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H25M",
+        "recipeYield": "35 bites",
+        "recipeIngredient": [
+            "toothpicks",
+            "4 cooked chorizo links, cut into 1/2-inch slices",
+            "5 cloves garlic, slivered, or to taste",
+            "35 dates, sliced open and pitted"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat oven to 400 degrees F (200 degrees C).\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place a chorizo piece and a few garlic slivers inside each date. Close each date using a toothpick. Arrange the stuffed dates on a baking sheet.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated oven until heated through, about 10 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks",
+            "Tapas"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "tfremont"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Chorizo Bites",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "111.8 calories",
+            "carbohydrateContent": "21.5 g",
+            "cholesterolContent": "6 mg",
+            "fatContent": "2.7 g",
+            "fiberContent": "2.3 g",
+            "proteinContent": "2.4 g",
+            "saturatedFatContent": "1 g",
+            "servingSize": null,
+            "sodiumContent": "85.3 mg",
+            "sugarContent": "18 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-09-23T22:06:54.567Z",
+                "reviewBody": "These are really good. They are sweet salty and spicy. I didn t have encased sausage so I formed tiny meatballs that would fit inside the date and cooked them in the skillet before baking. I drizzled savoury yogurt over them. Add these to your next party table. Thank you for the recipe.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Buckwheat Queen",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/melaniegiovenzana/"
+                }
+            }
+        ]
+    }
+]

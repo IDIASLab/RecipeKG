@@ -1,0 +1,128 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/138/drinks/smoothies/",
+                    "name": "Smoothie Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/280123/blackberry-and-green-tea-protein-smoothie/",
+        "name": "Blackberry and Green Tea Protein Smoothie",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8135368.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-06-18T07:43:24.000Z",
+        "description": "This delicious treat is a great way to boost energy and get all the benefits of protein powder without the icky taste. My favorite thing before a workout!",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "1 smoothie",
+        "recipeIngredient": [
+            "1 cup frozen blackberries",
+            "\u00bd cup cold water",
+            "1 tablespoon honey",
+            "1 tablespoon powdered green tea, or to taste",
+            "1 scoop vanilla protein powder"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Blend blackberries, water, honey, powdered green tea, and vanilla protein powder in a blender or smoothie maker until smooth and drinkable.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Smoothie Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Snickerdoodle87"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 1,
+            "itemReviewed": "Blackberry and Green Tea Protein Smoothie",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "338.5 calories",
+            "carbohydrateContent": "45.2 g",
+            "cholesterolContent": "12.5 mg",
+            "fatContent": "1.9 g",
+            "fiberContent": "7.6 g",
+            "proteinContent": "39.6 g",
+            "saturatedFatContent": "1.3 g",
+            "servingSize": null,
+            "sodiumContent": "219 mg",
+            "sugarContent": "34.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-05-28T05:19:27.37Z",
+                "reviewBody": "I had to laugh after I made this...the portions were so tiny they wouldn't even be enough for a small child. My portion didn't even fill up my small glass halfway, and that's after I doubled the water because as written there wasn't nearly enough liquid to get this to blend. I ended up pouring it into a mini mason jar (jelly jar size) to get it presentable for a photo, and it didn't even fill that up.  I also thought it was a little heavy on the green tea/matcha, so you might want to back that down to 2 tsp. Other than that, the flavor was really good, and I really enjoyed the green tea/blackberry combo.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "France C",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/francecevallos/"
+                }
+            }
+        ]
+    }
+]

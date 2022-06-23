@@ -1,0 +1,157 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/237/world-cuisine/latin-american/",
+                    "name": "Latin American",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/728/world-cuisine/latin-american/mexican/",
+                    "name": "Mexican",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/232448/heavenly-honeydew-juice/",
+        "name": "Heavenly Honeydew Juice",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2008368.jpg",
+            "width": 3027,
+            "height": 3031
+        },
+        "datePublished": "2020-06-19T03:54:34.000Z",
+        "description": "We had some amazing honeydew juice at a Mexican restaurant and immediately tried to recreate it. We think this is even better than the original!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "1 (5 pound) honeydew melon, quartered and seeded",
+            "2 cups ice cubes",
+            "1 cup water",
+            "3 tablespoons white sugar"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Scrape flesh from honeydew melon quarters into a blender; add ice cubes, water, and sugar. Blend until smooth and sugar has dissolved. Serve immediately.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Latin American",
+            "Mexican"
+        ],
+        "recipeCuisine": [
+            "Latin American",
+            "Mexican"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "cricky87"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 3,
+            "itemReviewed": "Heavenly Honeydew Juice",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "159.2 calories",
+            "carbohydrateContent": "40.3 g",
+            "cholesterolContent": null,
+            "fatContent": "0.5 g",
+            "fiberContent": "3 g",
+            "proteinContent": "2 g",
+            "saturatedFatContent": "0.1 g",
+            "servingSize": null,
+            "sodiumContent": "68.7 mg",
+            "sugarContent": "36.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2015-01-30T18:58:37.573Z",
+                "reviewBody": "Refreshing refreshing refreshing!!! It is delicious and because the honeydew is naturally sweet I didn't have to add more sugar than the recommended and I neither changed anything to this recipe.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Jenny Aleman de Bola\u00f1os",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/jennyaleman/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2019-07-31T19:51:45.423Z",
+                "reviewBody": "Refreshing and so light tasting! I made with cantaloupe instead as that is what I had. I also substituted mango juice for part of the water. 5 Star drink for our girl's luncheon!!!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "jmlam",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/6949894/"
+                }
+            }
+        ]
+    }
+]

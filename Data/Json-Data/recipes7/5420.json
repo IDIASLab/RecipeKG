@@ -1,0 +1,160 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/216883/kook-a-cola/",
+        "name": "Kook-a-Cola",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Kook-a-Cola"
+        },
+        "datePublished": "2020-06-19T03:44:09.000Z",
+        "description": "It's the real-ish thing. The top-secret recipe for the cola you know and love...revealed! Use only 'food-grade' ingredients--for reasons that may seem obvious. And enjoy with a smile!",
+        "prepTime": "P0DT0H45M",
+        "cookTime": null,
+        "totalTime": "P2DT0H45M",
+        "recipeYield": "15 gallons",
+        "recipeIngredient": [
+            "\u00bd pound crumbled coca leaves (whole leaf coca tea)",
+            "1\u2009\u00bd cups 190 proof grain alcohol (such as Everclear\u00ae)",
+            "10 drops orange oil",
+            "15 drops lemon oil",
+            "5 drops nutmeg oil",
+            "2\u2009\u00bd drops coriander oil",
+            "5 drops neroli oil",
+            "5 drops cinnamon oil",
+            "\u00bd cup 190 proof grain alcohol (such as Everclear\u00ae)",
+            "1\u2009\u00bc gallons water",
+            "15 pounds white sugar",
+            "\u00be fluid ounce caramel color",
+            "\u00bd fluid ounce vanilla extract",
+            "\u00bd fluid ounce caffeine",
+            "2 cups lime juice",
+            "1\u2009\u00bd ounces citric acid powder",
+            "12\u2009\u00bd gallons carbonated water"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "To make the coca extract, moisten coca leaf powder with 3 ounces of grain alcohol. Then pack the wet leaves into a percolator and add more diluted alcohol until the leaves are fully saturated and slightly covered by alcohol. When the extract begins to drip from the percolator, stop up the hole, cover the percolator tightly and allow to macerate for 2 days. Then continue the percolation, adding more alcohol until you have 8 ounces of extract.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "To make the flavoring, combine drops of orange oil, lemon oil, nutmeg oil, coriander oil, neroli oil, and cinnamon oil with 1/2 cup of grain alcohol.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "To make the syrup, mix together water, sugar, caramel, and 1/8 ounce (or 3/4 tablespoon) of coca extract. Stir in vanilla extract, caffeine, lime juice, and citric acid. Combine 1/4 ounce flavoring with the entire amount of syrup.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "To prepare Kook-a-Cola, combine 1 part flavored syrup to 5 parts carbonated water.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Lorem Ipsum"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.6666666666666665,
+            "ratingCount": 3,
+            "itemReviewed": "Kook-a-Cola",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "116.4 calories",
+            "carbohydrateContent": "28.7 g",
+            "cholesterolContent": "0 mg",
+            "fatContent": "0 g",
+            "fiberContent": "0 g",
+            "proteinContent": "0 g",
+            "saturatedFatContent": "0 g",
+            "servingSize": null,
+            "sodiumContent": "8 mg",
+            "sugarContent": "28.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2011-06-24T16:32:34.097Z",
+                "reviewBody": "Yeah... where can u get coca cuz i dont feel like going to columbia",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 1
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Julian G.",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/7220595/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2020-01-01T04:56:06.607Z",
+                "reviewBody": "I used this as a base for my own recipe. The flavors are nearly perfect when compared to commercial cola. I don't use coca (or caffeine) but for those who would like to look up \"Delisse Peruvian Inka Tea\" and you will find it. It's decocanized so it's legal.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Michelle Vietor",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/26792092/"
+                }
+            }
+        ]
+    }
+]

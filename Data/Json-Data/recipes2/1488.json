@@ -1,0 +1,137 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/133/drinks/cocktails/",
+                    "name": "Cocktail Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1742/drinks/cocktails/tequila-drinks/",
+                    "name": "Tequila Drinks Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/238738/dr-horrible/",
+        "name": "Dr. Horrible",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1924595.jpg",
+            "width": 2448,
+            "height": 3264
+        },
+        "datePublished": "2014-07-25T19:39:57.000Z",
+        "description": "I created this drink on Saint Patrick's Day. It is very potent, but the sweetness of the Kahlua&reg; cuts the punch of the tequila. However, I still highly recommend that you sip it very slowly. I named it 'Dr. Horrible' because mixing those things together was a horrible idea, but it ended up being so very, very good.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "1 drink",
+        "recipeIngredient": [
+            "\u00bd cup ice cubes, or as needed",
+            "1 (1.5 fluid ounce) jigger tequila",
+            "\u00bd (1.5 fluid ounce) jigger Puerto Rican rum",
+            "\u00bd (1.5 fluid ounce) jigger coffee-flavored liqueur (such as Kahlua\u00ae)"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Fill a cocktail shaker with ice; add tequila, rum, and coffee-flavored liqueur. Cover shaker, shake, and strain cocktail into a glass.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Cocktail Recipes",
+            "Tequila Drinks Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "KRoseS"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.5,
+            "ratingCount": 2,
+            "itemReviewed": "Dr. Horrible",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "225.3 calories",
+            "carbohydrateContent": "8.4 g",
+            "cholesterolContent": null,
+            "fatContent": "0.1 g",
+            "fiberContent": null,
+            "proteinContent": null,
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "6.4 mg",
+            "sugarContent": "8.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2015-01-08T22:01:44.163Z",
+                "reviewBody": "this was a STRONG drink. I wasn't brave enough to try it but as my husband said it's drinkable but you wouldn't want to have more than one or two. He also thought this would make a better shot than as a cocktail. It will put some hair on your chest!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Abbey",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/icook/"
+                }
+            }
+        ]
+    }
+]

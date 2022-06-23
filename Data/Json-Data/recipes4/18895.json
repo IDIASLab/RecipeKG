@@ -1,0 +1,150 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/92/meat-and-poultry/",
+                    "name": "Meat and Poultry",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/205/meat-and-poultry/pork/",
+                    "name": "Pork",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/258717/smoked-pork-loin-with-orange-marmalade-glaze/",
+        "name": "Smoked Pork Loin with Orange Marmalade Glaze",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Smoked Pork Loin with Orange Marmalade Glaze"
+        },
+        "datePublished": "2019-04-04T04:08:56.000Z",
+        "description": "Smoked in hickory chips and then glazed with an orange marmalade sauce, this dish is ideal for a flavorful fall dinner.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H50M",
+        "totalTime": "P0DT1H15M",
+        "recipeYield": "1 loin",
+        "recipeIngredient": [
+            "2 cups red wine",
+            "1 cup honey",
+            "2 cups water, divided",
+            "2 cups hickory wood chips",
+            "1 cup vegetable oil",
+            "1 bunch sage, chopped",
+            "1 tablespoon salt",
+            "1 tablespoon ground black pepper",
+            "1 (3 pound) boneless pork loin roast",
+            "3 cups orange marmalade"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Mix red wine, honey, and 1 cup water together in a large bowl. Add hickory wood chips and soak for 10 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Preheat smoker to 250 degrees F (120 degrees C) according to manufacturer's instructions.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Mix oil, sage, salt, and pepper together in a bowl. Place pork on a rimmed baking tray and coat with oil-herb mixture.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place pork on highest rack in smoker. Add wood chips according to manufacturer's directions. Smoke until pork is no longer pink in the center and an instant-read thermometer inserted into the center reads 145 degrees F (63 degrees C), about 45 minutes. Transfer pork to a serving platter.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Mix marmalade and 1 cup water in a saucepan over low heat. Stir until heated through, about 5 minutes. Pour over pork.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Meat and Poultry",
+            "Pork"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Harvard Chef"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Smoked Pork Loin with Orange Marmalade Glaze",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "973.5 calories",
+            "carbohydrateContent": "117.1 g",
+            "cholesterolContent": "82.8 mg",
+            "fatContent": "42.5 g",
+            "fiberContent": "1.1 g",
+            "proteinContent": "28.1 g",
+            "saturatedFatContent": "9 g",
+            "servingSize": null,
+            "sodiumContent": "1005.2 mg",
+            "sugarContent": "107.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-09-08T06:39:28.71Z",
+                "reviewBody": "This is an amazing recipe! I had fresh sage from my garden which helped, but the best thing I did was cook it low and slow for about 3+ hours. The marmalade glaze was a hit, as well.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Peggy A. Scott",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/17612228/"
+                }
+            }
+        ]
+    }
+]

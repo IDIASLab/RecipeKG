@@ -1,0 +1,144 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17140/desserts/fruit-desserts/",
+                    "name": "Fruit Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17525/desserts/fruit-desserts/strawberry-desserts/",
+                    "name": "Strawberry Dessert Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/264068/rhubarb-strawberry-compote/",
+        "name": "Rhubarb-Strawberry Compote",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5330489.jpg",
+            "width": 2448,
+            "height": 2448
+        },
+        "datePublished": "2020-06-19T04:27:59.000Z",
+        "description": "Rhubarb and strawberries are a classic combination. Only the rhubarb is cooked, the strawberries are mixed in raw. I like to serve this compote with chocolate ice cream or over waffles.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H50M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "3 cups chopped rhubarb",
+            "\u00bd cup white sugar, or more to taste",
+            "2 teaspoons vanilla sugar",
+            "\u00bd cup apple juice",
+            "1 tablespoon cornstarch",
+            "1 teaspoon water, or more as needed",
+            "3 cups halved fresh strawberries"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine rhubarb, sugar, and vanilla sugar in a pot and marinate for 30 minutes. Stir in apple juice and bring to a boil over low heat. Simmer until rhubarb is soft, 4 to 5 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Stir cornstarch with a little bit of water and stir into the rhubarb. Bring to a boil and remove from heat. Cool completely. Stir in strawberries before serving.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Fruit Desserts",
+            "Strawberry Dessert Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Marianne"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Rhubarb-Strawberry Compote",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "186.1 calories",
+            "carbohydrateContent": "46.3 g",
+            "cholesterolContent": null,
+            "fatContent": "0.6 g",
+            "fiberContent": "4.2 g",
+            "proteinContent": "1.7 g",
+            "saturatedFatContent": "0.1 g",
+            "servingSize": null,
+            "sodiumContent": "6 mg",
+            "sugarContent": "35.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-05-22T06:25:19.017Z",
+                "reviewBody": "also very good with vanilla ice cream!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Lena",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/23461559/"
+                }
+            }
+        ]
+    }
+]

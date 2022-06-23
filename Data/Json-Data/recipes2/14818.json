@@ -1,0 +1,163 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/211/salad/fruit-salads/",
+                    "name": "Fruit Salad Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/15138/salad/fruit-salads/orange-salad/",
+                    "name": "Orange Salad Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/23780/brie-and-mandarin-salad/",
+        "name": "Brie and Mandarin Salad",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Brie and Mandarin Salad"
+        },
+        "datePublished": "2018-03-21T16:16:38.000Z",
+        "description": "Mandarin and Brie cheese salad with macadamias and an orange and champagne dressing.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "\u00bd cup champagne",
+            "\u00bd cup orange juice",
+            "\u00bd teaspoon coarsely ground mustard",
+            "\u00bc teaspoon hot English mustard",
+            "6 cups mixed salad greens",
+            "2 mandarin oranges, peeled and segmented",
+            "1 (8 ounce) wheel Brie cheese, cubed",
+            "1\u2009\u00bd ounces macadamia nuts, chopped"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "In a small saucepan, whisk together the champagne, orange juice and mustards.  Bring to a boil for approximately 5 minutes, or until the mixture is reduced.  Taste and add more mustard to suit your taste.  Remove from heat and set aside to cool.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "In a large bowl, toss together the salad greens, mandarin oranges, Brie and macadamias.  Drizzle dressing on top and serve.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad",
+            "Fruit Salad Recipes",
+            "Orange Salad Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Paula"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 2,
+            "itemReviewed": "Brie and Mandarin Salad",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "228.1 calories",
+            "carbohydrateContent": "9.3 g",
+            "cholesterolContent": "37.8 mg",
+            "fatContent": "16.1 g",
+            "fiberContent": "2.4 g",
+            "proteinContent": "9.7 g",
+            "saturatedFatContent": "7.5 g",
+            "servingSize": null,
+            "sodiumContent": "263.5 mg",
+            "sugarContent": "5.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2003-04-04T17:22:07.64Z",
+                "reviewBody": "I fixed this for a dinner party with vegetarians and it was a hit. My husband did not like the dressing but everyone else seemed to enjoy it.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "ASHBETH",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/247377/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2005-11-11T17:06:11.297Z",
+                "reviewBody": "This was a nice salad. I didn't have champagne so I used extra virgin olive oil a bit of sugar 2 tsp of fresh lemon juice along with the other dressing ingredients listed on the recipe. I would probably make this again.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "SASPIRILLA",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/989467/"
+                }
+            }
+        ]
+    }
+]

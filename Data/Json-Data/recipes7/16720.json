@@ -1,0 +1,162 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/217/salad/potato-salad/",
+                    "name": "Potato Salad Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/16151/salad/potato-salad/no-mayo/",
+                    "name": "No Mayo",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/260391/traditional-german-warm-potato-salad/",
+        "name": "Traditional German Warm Potato Salad",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5592005.jpg",
+            "width": 4032,
+            "height": 3024
+        },
+        "datePublished": "2020-06-19T04:24:39.000Z",
+        "description": "Is there anything better than freshly made potato salad? With sausages or pork, it's a dream! This recipe is from Bavaria, Germany, and my family makes this potato salad every year for Christmas eve.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H35M",
+        "totalTime": "P0DT1H0M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "4\u2009\u00bc pounds waxy potatoes",
+            "1 small onion, finely chopped",
+            "1 cup hot vegetable broth",
+            "5 tablespoons white vinegar",
+            "2 tablespoons vegetable oil",
+            "salt and freshly ground black pepper to taste",
+            "1 pinch white sugar, or to taste",
+            "1 tablespoon chopped fresh chives"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place potatoes into a large pot and cover with salted water; bring to a boil. Reduce heat to medium-low and simmer until tender, 30 to 40 minutes. Drain. Cool until easily handled, about 5 minutes. Peel while still warm. Cut into thin slices and put in a large bowl. Add onion.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Mix hot broth with vinegar, oil, salt, and sugar. Pour immediately over warm potatoes and onion; the potatoes need to still be warm so they can absorb the dressing better. Allow to stand for 5 minutes; season with salt and pepper. Sprinkle with chopped chives and serve warm.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad",
+            "Potato Salad Recipes",
+            "No Mayo"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Marianne"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.75,
+            "ratingCount": 4,
+            "itemReviewed": "Traditional German Warm Potato Salad",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "298.5 calories",
+            "carbohydrateContent": "58.3 g",
+            "cholesterolContent": null,
+            "fatContent": "4.9 g",
+            "fiberContent": "7.5 g",
+            "proteinContent": "6.8 g",
+            "saturatedFatContent": "0.8 g",
+            "servingSize": null,
+            "sodiumContent": "122.3 mg",
+            "sugarContent": "3.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-07-26T22:14:37.203Z",
+                "reviewBody": "The best!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "barbara",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3031597/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2018-09-21T05:00:36.907Z",
+                "reviewBody": "wonderful - I love that there's no mayo in it!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Lena",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/23461559/"
+                }
+            }
+        ]
+    }
+]

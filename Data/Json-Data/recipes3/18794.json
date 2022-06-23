@@ -1,0 +1,157 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/148/breakfast-and-brunch/eggs/",
+                    "name": "Eggs",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1308/breakfast-and-brunch/eggs/scrambled-eggs/",
+                    "name": "Scrambled",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/271098/green-chile-microwave-scrambled-eggs/",
+        "name": "Green Chile Microwave Scrambled Eggs",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6441385.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2019-03-13T01:40:16.000Z",
+        "description": "Cheesy green chile eggs come together in a snap in the microwave and you can use whichever cheese you prefer. Top with salsa if desired.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "8 eggs",
+            "1 (4 ounce) can chopped green chiles, drained",
+            "\u00bd cup shredded pepperjack cheese"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Whisk eggs and green chiles together in a mixing bowl. Transfer to a 9-inch, microwave-safe pie dish.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Microwave on High power until eggs are set around the edge, about 3 minutes and 30 seconds. Use a fork to scramble eggs. Top with pepper Jack cheese. Microwave for 1 additional minute. Allow to sit for 1 minute to allow eggs to set and cheese to melt before serving.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Eggs",
+            "Scrambled"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Soup Loving Nicole"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 2,
+            "itemReviewed": "Green Chile Microwave Scrambled Eggs",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "213.7 calories",
+            "carbohydrateContent": "2.8 g",
+            "cholesterolContent": "389.7 mg",
+            "fatContent": "15.3 g",
+            "fiberContent": "0.4 g",
+            "proteinContent": "16.4 g",
+            "saturatedFatContent": "6 g",
+            "servingSize": null,
+            "sodiumContent": "568.6 mg",
+            "sugarContent": "1.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-04-09T18:52:27.117Z",
+                "reviewBody": "I didn t microwave but cooked the eggs on the stovetop as I usually do. We loved the addition of the chopped peppers and pepper jack cheese. I also cooked diced onion in butter just before I added the eggs.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "judypink",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/24754878/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2019-04-01T01:18:51.3Z",
+                "reviewBody": "Nope, never again! Eggs in the microwave are nasty.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 1
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "GCooks",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/23553637/"
+                }
+            }
+        ]
+    }
+]

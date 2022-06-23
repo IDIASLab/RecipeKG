@@ -1,0 +1,153 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/105/appetizers-and-snacks/dips-and-spreads/",
+                    "name": "Dips and Spreads Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/436/appetizers-and-snacks/dips-and-spreads/salsa/",
+                    "name": "Salsa Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 6,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17248/appetizers-and-snacks/dips-and-spreads/salsa/corn-salsa/",
+                    "name": "Corn Salsa Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/258555/roasted-corn-and-jalapeno-salsa/",
+        "name": "\"Roasted\" Corn and Jalapeno Salsa",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4556336.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2018-06-08T14:43:37.000Z",
+        "description": "This quick and easy salsa is delicious and will be a crowd pleaser!",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H30M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "1 (15.25 ounce) can sweet corn, drained",
+            "1 jalapeno pepper, chopped",
+            "\u00bd large red onion, chopped",
+            "\u00bd lime, juiced",
+            "2 tablespoons chopped fresh cilantro",
+            "salt and ground black pepper to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine corn and jalapeno pepper in a skillet over high heat. Cook and stir until edges start to blacken, about 10 minutes. Remove from heat and let cool, 5 to 10 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine onion, lime juice, cilantro, salt, and pepper in a bowl. Fold in cooled corn and jalapeno.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks",
+            "Dips and Spreads Recipes",
+            "Salsa Recipes",
+            "Corn Salsa Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Sarah Moore"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "\"Roasted\" Corn and Jalapeno Salsa",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "94.8 calories",
+            "carbohydrateContent": "22 g",
+            "cholesterolContent": null,
+            "fatContent": "1 g",
+            "fiberContent": "2.4 g",
+            "proteinContent": "3.1 g",
+            "saturatedFatContent": "0.2 g",
+            "servingSize": null,
+            "sodiumContent": "358.3 mg",
+            "sugarContent": "4.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-09-10T22:47:06.683Z",
+                "reviewBody": "The flavors in this blend together nicely and it is easy to prepare. I do have one suggestion that I think improves the finished dish. In my experience I've found it nearly impossible to get can corn to blacken. It also starts out so soft that it doesn't take much to overcook it. With that being said I chose to use fresh corn and blacken it on a gas grill. I did the same with the jalapeno. Both got a really nice char on them AND I had one less pan to wash. While the corn and pepper are cooling you can assemble the rest of the ingredients in a bowl and then chop the pepper and cut the corn from the cob and toss them in.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

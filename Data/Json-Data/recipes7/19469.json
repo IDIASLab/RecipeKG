@@ -1,0 +1,155 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/92/meat-and-poultry/",
+                    "name": "Meat and Poultry",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/205/meat-and-poultry/pork/",
+                    "name": "Pork",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/272284/garlic-tamarind-pork-loin/",
+        "name": "Garlic-Tamarind Pork Loin",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6517980.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2020-06-19T04:35:50.000Z",
+        "description": "Marinate a day ahead; this is best on the BBQ. Serve with salad, a nice dinner roll, and grilled vegetables. Yum.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H35M",
+        "totalTime": "P0DT8H45M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "\u215b cup lime juice",
+            "\u215b cup soy sauce",
+            "3 cloves garlic, minced",
+            "1\u2009\u00bd tablespoons tamarind paste",
+            "1 tablespoon sugar",
+            "1 tablespoon sambal oelek",
+            "1 pound pork loin"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Mix lime juice, soy sauce, garlic, tamarind paste, sugar, and sambal oelek together in a bowl. Whisk for 1 minute. Poke pork tenderloin with a fork or knife and place in a large resealable plastic bag. Pour marinade into the bag and seal while pressing out the air. Marinate in the refrigerator 8 hours to overnight for best results.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Preheat an outdoor grill for high heat and lightly oil the grate.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Remove pork loin from the bag and sear on the preheated grill, 1 to 3 minutes per side. Move to indirect heat until cooked through, 20 to 30 minutes more, depending on thickness.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Meat and Poultry",
+            "Pork"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "tjaneschmidt"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Garlic-Tamarind Pork Loin",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "367.2 calories",
+            "carbohydrateContent": "21.4 g",
+            "cholesterolContent": "108.5 mg",
+            "fatContent": "14 g",
+            "fiberContent": "0.8 g",
+            "proteinContent": "40 g",
+            "saturatedFatContent": "5.2 g",
+            "servingSize": null,
+            "sodiumContent": "1048.3 mg",
+            "sugarContent": "8.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-02-03T02:40:22.58Z",
+                "reviewBody": "This was easy to prepare but be aware of time needed to marinate. I did not have the Sambal Oelek on hand when I did the marinate so had to add latter (this may have made that flavour more dominant) Very good taste very tender Served with rice pilouef. Left overs were just as good reheated the next day",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Jennifer Bowman",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/16327189/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2019-04-06T05:58:40.56Z",
+                "reviewBody": "Made as written and this was impressive. The leftovers were even better.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

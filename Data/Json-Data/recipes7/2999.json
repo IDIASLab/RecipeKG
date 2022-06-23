@@ -1,0 +1,182 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/231/world-cuisine/european/",
+                    "name": "European",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/723/world-cuisine/european/italian/",
+                    "name": "Italian",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/159004/galliano/",
+        "name": "Galliano",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F536643.jpg",
+            "width": 250,
+            "height": 250
+        },
+        "datePublished": "2020-06-19T03:33:55.000Z",
+        "description": "An old favorite, this recipe is based on vodka and flavored with anise, peppermint and ginger.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": null,
+        "totalTime": "P10DT0H15M",
+        "recipeYield": "6 cups",
+        "recipeIngredient": [
+            "8 whole cloves",
+            "1 teaspoon chopped crystallized ginger",
+            "4 cups white sugar",
+            "12 drops peppermint extract",
+            "2 teaspoons vanilla extract",
+            "1 teaspoon anise extract",
+            "15 drops yellow food coloring",
+            "2 (750 milliliter) bottles vodka"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place the cloves and ginger in a small jar and add enough vodka to cover. Seal and soak for 3 days. NO MORE! Strain the liquid, discarding the solids.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Measure the sugar into a gallon container. Add the peppermint, vanilla and anise extracts as well as the food coloring. Pour in the vodka, the strained vodka and yellow food coloring. Cover tightly and shake until the sugar dissolves. Age for one week MINIMUM.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "European",
+            "Italian"
+        ],
+        "recipeCuisine": [
+            "European",
+            "Italian"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Plain ole Bob"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.75,
+            "ratingCount": 4,
+            "itemReviewed": "Galliano",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "292.9 calories",
+            "carbohydrateContent": "33.7 g",
+            "cholesterolContent": "0 mg",
+            "fatContent": "0 g",
+            "fiberContent": "0 g",
+            "proteinContent": "0 g",
+            "saturatedFatContent": "0 g",
+            "servingSize": null,
+            "sodiumContent": "1.1 mg",
+            "sugarContent": "33.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2010-09-07T20:13:16.24Z",
+                "reviewBody": "Not exactly Galliano. But very close. I had to let mine age a little longer than a week to let the flavor mello out a bit. Next time I'll use more vanilla and less anise.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "mdoddr",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3813586/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2010-12-17T18:51:45.37Z",
+                "reviewBody": "I've never had the authentic version of this but love what I've got! It smells great! What a sweet treat!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "sueb",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2719400/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2017-11-16T02:57:24.947Z",
+                "reviewBody": "Reduced recipe by a fourth as it was the first time I was making the recipe. Wow! It s delicious and easy. I didn t have whole cloves so I used equivalent amount of ground cloves and then used a coffee filter to strain the solids out after 3 days. Worked like a charm!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "ihateliver",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/10007222/"
+                }
+            }
+        ]
+    }
+]

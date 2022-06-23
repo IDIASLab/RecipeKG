@@ -1,0 +1,150 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/107/appetizers-and-snacks/meat-and-poultry/",
+                    "name": "Meat and Poultry",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1234/appetizers-and-snacks/meat-and-poultry/chicken/",
+                    "name": "Chicken",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/281415/baked-brown-sugar-wings/",
+        "name": "Baked Brown Sugar Wings",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8080607.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-05-05T08:29:00.000Z",
+        "description": "We like to pair these with Thousand Island dressing or yum yum sauce.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H25M",
+        "totalTime": "P0DT0H30M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "2 tablespoons extra-virgin olive oil",
+            "2 teaspoons packed brown sugar",
+            "2 teaspoons onion powder",
+            "2 teaspoons garlic powder",
+            "2 teaspoons chili powder",
+            "2 teaspoons paprika",
+            "1 teaspoon sea salt",
+            "1 teaspoon ground black pepper",
+            "2 pounds frozen chicken wings, thawed"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat the oven to 425 degrees F (220 degrees C). Line a baking sheet with foil.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine oil, brown sugar, onion powder, garlic powder, chili powder, paprika, salt, and black pepper in a bowl. Rub over chicken wings and transfer to the prepared baking sheet.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated oven until browned and no longer pink in the centers, about 25 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks",
+            "Meat and Poultry",
+            "Chicken"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Nicole"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Baked Brown Sugar Wings",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "251.2 calories",
+            "carbohydrateContent": "5.8 g",
+            "cholesterolContent": "47.7 mg",
+            "fatContent": "18.2 g",
+            "fiberContent": "1.2 g",
+            "proteinContent": "16 g",
+            "saturatedFatContent": "4.1 g",
+            "servingSize": null,
+            "sodiumContent": "502.1 mg",
+            "sugarContent": "3.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-09-11T03:00:12.81Z",
+                "reviewBody": "I made no changes I didn't have to they were absolutely delicious The way they were I followed it to the letter the recipe was fantastic everybody loved them thank you",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Richard Brooks",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/28008347/"
+                }
+            }
+        ]
+    }
+]

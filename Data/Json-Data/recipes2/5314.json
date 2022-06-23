@@ -1,0 +1,144 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/143/breakfast-and-brunch/drinks/",
+                    "name": "Drinks",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/246476/healthier-chocolate-banana-ice-cream/",
+        "name": "Healthier Chocolate Banana Ice Cream",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3409886.jpg",
+            "width": 2523,
+            "height": 2523
+        },
+        "datePublished": "2016-03-03T23:55:48.000Z",
+        "description": "Healthier chocolate banana ice cream made all-natural in my blender.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "2 cups",
+        "recipeIngredient": [
+            "1 cup unsweetened vanilla-flavored almond milk, or more to taste",
+            "1 frozen banana",
+            "1 tablespoon raw cacao powder",
+            "1 tablespoon unsweetened coconut flakes"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Blend almond milk, banana, cacao powder, and coconut flakes together in a blender.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Drinks"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "AllieGeekPi"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 2,
+            "itemReviewed": "Healthier Chocolate Banana Ice Cream",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "160.1 calories",
+            "carbohydrateContent": "25.5 g",
+            "cholesterolContent": null,
+            "fatContent": "6.2 g",
+            "fiberContent": "5 g",
+            "proteinContent": "2.4 g",
+            "saturatedFatContent": "3.5 g",
+            "servingSize": null,
+            "sodiumContent": "82.2 mg",
+            "sugarContent": "15.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2016-03-24T18:19:44.253Z",
+                "reviewBody": "The title of this recipe is misleading - Ice cream should be sweet and spoonable. This isn't. It's more like a smoothie. I ended up adding a little stevia and a scoop of protein powder and calling it breakfast.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Paula",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/paula1/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2016-03-23T18:51:55.623Z",
+                "reviewBody": "This was simple and delicious! My kids loved it. I had to use light vanilla almond milk (25% less sugar) because I didn't have any unsweetened vanilla almond milk. The extra sugar made it very sweet so I think following the recipe would make for a perfect healthy treat that my kids would have still loved.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "lkaybe",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/6271419/"
+                }
+            }
+        ]
+    }
+]

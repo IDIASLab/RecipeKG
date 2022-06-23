@@ -1,0 +1,160 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/251/main-dish/sandwiches/",
+                    "name": "Sandwich Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/13376/main-dish/sandwiches/hot-dogs-and-corn-dogs/",
+                    "name": "Hot Dogs and Corn Dogs Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/233557/fried-pickle-dogs/",
+        "name": "Fried Pickle Dogs",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4645750.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2018-06-08T14:09:27.000Z",
+        "description": "Different way to eat pickles on your dogs.",
+        "prepTime": "P0DT0H20M",
+        "cookTime": "P0DT0H20M",
+        "totalTime": "P0DT0H40M",
+        "recipeYield": "4 hot dogs",
+        "recipeIngredient": [
+            "4 kosher dill pickles",
+            "\u00bc cup all-purpose flour",
+            "2 eggs, beaten",
+            "3 tablespoons spicy brown mustard, divided, or to taste",
+            "\u00bd cup cornmeal",
+            "salt and ground black pepper to taste",
+            "3 tablespoons canola oil",
+            "4 hot dogs",
+            "4 strips bacon",
+            "1 toothpicks",
+            "4 hot dog buns, split and toasted"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Slice dill pickles lengthwise into strips. Place flour in a dish. Combine eggs and 1 tablespoon mustard in a second dish. Combine cornmeal, salt, and pepper in a third dish.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat canola oil in a skillet over medium-high heat. Dip a pickle slice in the flour, egg, and cornmeal mixtures. Place in the hot oil. Fry until golden brown, 3 to 5 minutes. Turn and cook the other side until golden, about 2 to 3 minutes more. Remove from skillet and place on paper towels to drain. Repeat with remaining pickle slices. Pour off most of the oil; reserve the rest in the pan for frying hot dogs.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Fill a saucepan with water and bring to a boil. Place hot dogs in boiling water, remove from heat, and let stand for 5 minutes. Remove hot dogs from water and let cool slightly. Wrap each hot dog with a strip of bacon, securing with a toothpick if desired.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat skillet with reserved oil over medium heat. Fry bacon-wrapped hot dogs until bacon is crispy, turning occasionally, 5 to 7 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Spread remaining mustard on a toasted bun and top with a bacon-wrapped hot dog. Tuck in slices of fried pickle. Repeat with remaining mustard, buns, hot dogs, and pickles.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Sandwich Recipes",
+            "Hot Dogs and Corn Dogs Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Linda T"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Fried Pickle Dogs",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "550.6 calories",
+            "carbohydrateContent": "43.9 g",
+            "cholesterolContent": "127 mg",
+            "fatContent": "33.1 g",
+            "fiberContent": "1.9 g",
+            "proteinContent": "18.5 g",
+            "saturatedFatContent": "8.7 g",
+            "servingSize": null,
+            "sodiumContent": "1243.3 mg",
+            "sugarContent": "4.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-12-10T02:55:22.67Z",
+                "reviewBody": "How can you go wrong with bacon wrapped hot dogs topped with fried pickles? You'll never feel the same about plain old boring hot dogs again after trying this one. If you have a deep fryer these work great in those too. Great recipe and one I will make again.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

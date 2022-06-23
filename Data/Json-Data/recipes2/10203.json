@@ -1,0 +1,127 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/82/trusted-brands-recipes-and-tips/",
+                    "name": "Trusted Brands: Recipes and Tips",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/22508/trusted-brands-recipes-and-tips/almond-breeze/",
+                    "name": "Almond Breeze",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/258316/sweet-greens-smoothie/",
+        "name": "Sweet Greens Smoothie",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4520604.jpg",
+            "width": 960,
+            "height": 960
+        },
+        "datePublished": "2017-05-23T05:49:26.000Z",
+        "description": "Sweeten up your day with berries and spinach in this almondmilk smoothie.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "1 smoothie",
+        "recipeIngredient": [
+            "\u00bd cup spinach leaves",
+            "\u2153 cup strawberries, hulled and chopped",
+            "\u2153 cup cherries, pitted",
+            "1 cup Almond Breeze Almondmilk Unsweetened Vanilla"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place all ingredients into blender and blend on high until smooth.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Trusted Brands: Recipes and Tips",
+            "Almond Breeze"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Almond Breeze"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 1,
+            "itemReviewed": "Sweet Greens Smoothie",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "154.7 calories",
+            "carbohydrateContent": "29.5 g",
+            "cholesterolContent": null,
+            "fatContent": "3.7 g",
+            "fiberContent": "3.5 g",
+            "proteinContent": "2.4 g",
+            "saturatedFatContent": "0.1 g",
+            "servingSize": null,
+            "sodiumContent": "192.4 mg",
+            "sugarContent": "9.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-02-24T06:18:49.953Z",
+                "reviewBody": "I made this but with frozen strawberries and cherries. I also ended up adding a little bit of stevia to it. The taste is ok but the end result is an ugly muddy color. Not very appetizing and a little off-putting. I do feel good though about getting quite a few fruits and veggies in my diet.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Paula",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/paula1/"
+                }
+            }
+        ]
+    }
+]

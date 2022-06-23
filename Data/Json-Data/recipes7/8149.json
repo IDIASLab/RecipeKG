@@ -1,0 +1,128 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/133/drinks/cocktails/",
+                    "name": "Cocktail Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/229761/the-raji/",
+        "name": "The Raji",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F973534.jpg",
+            "width": 962,
+            "height": 960
+        },
+        "datePublished": "2020-06-19T03:51:57.000Z",
+        "description": "I wanted to create a simple drink during a Green Bay Packers game. I thought green and yellow, lemon and lime.  Unbeknownst it was during the same game where B.J. Raji scored his first touchdown in the championship game between the Packers and the Bears. His last name sounded pretty cool for this. Enjoy!",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "1 cocktail",
+        "recipeIngredient": [
+            "1 (1.5 fluid ounce) jigger lemon-flavored rum, or to taste",
+            "1 splash lime juice",
+            "1 pinch white sugar",
+            "1 cup lemon-lime soda (such as Sprite\u00ae), or as needed",
+            "1 slice lime"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Stir rum, lime juice, and sugar together in a glass tumbler to dissolve the sugar. Fill glass with lemon-lime soda. Garnish with lime slice.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Cocktail Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "callistobug"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "The Raji",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "211.5 calories",
+            "carbohydrateContent": "30.3 g",
+            "cholesterolContent": null,
+            "fatContent": null,
+            "fiberContent": "0.3 g",
+            "proteinContent": "0.1 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "29.6 mg",
+            "sugarContent": "1.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2013-03-05T21:43:30.027Z",
+                "reviewBody": "This was a nice simple lemon-limey cocktail. I only had white rum so I improvised and added a touch of lemon juice. I never have \"real\" lemons/limes for garnishes so I used my usual cherries for garnish. I enjoyed reading the story of how this cocktail came to be/be named. Cheers (and thank you) callistobug!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "lovestohost",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/lovestohost/"
+                }
+            }
+        ]
+    }
+]

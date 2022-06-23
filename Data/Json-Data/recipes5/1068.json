@@ -1,0 +1,120 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1642/everyday-cooking/",
+                    "name": "Everyday Cooking",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/272991/grilled-italian-sausage/",
+        "name": "Grilled Italian Sausage",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6604574.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2019-04-27T02:56:08.000Z",
+        "description": "A traditional family recipe for grilled mild or hot Italian sausage. I use sausage from Dominics of New York. Serve on Italian hero bread.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H15M",
+        "totalTime": "P0DT0H25M",
+        "recipeYield": "3 servings",
+        "recipeIngredient": [
+            "1 (12 ounce) package Italian sausage links",
+            "2 medium onions, peeled and sliced",
+            "1 red bell pepper, cut into strips"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat a cast iron skillet over medium-high heat. Add sausage and cook, flipping every few minutes, until golden brown and an instant-read thermometer inserted into the center reads at least 165 degrees F (74 degrees C), about 10 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Transfer sausage to a plate, leaving juices behind in the skillet. Add onions and red bell pepper; cook and stir until brown and tender, 5 to 10 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Everyday Cooking"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Diane Felico"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Grilled Italian Sausage",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "309.9 calories",
+            "carbohydrateContent": "12.6 g",
+            "cholesterolContent": "44.5 mg",
+            "fatContent": "21.5 g",
+            "fiberContent": "2.1 g",
+            "proteinContent": "16.1 g",
+            "saturatedFatContent": "7.5 g",
+            "servingSize": null,
+            "sodiumContent": "946 mg",
+            "sugarContent": "5.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-05-03T05:59:34.23Z",
+                "reviewBody": "Made as written and this turned out good. I do recommend letting the onions cook some prior to adding the bell pepper unless you want mushy peppers. Overall good recipe and easy to boot.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

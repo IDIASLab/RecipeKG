@@ -1,0 +1,119 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/149/breakfast-and-brunch/french-toast/",
+                    "name": "French Toast Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/284924/challah-french-toast/",
+        "name": "Challah French Toast",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Challah French Toast"
+        },
+        "datePublished": "2021-07-06T18:53:37.000Z",
+        "description": "This French toast is very good due to the light texture of challah bread.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H20M",
+        "totalTime": "P0DT0H35M",
+        "recipeYield": "8 French toast slices",
+        "recipeIngredient": [
+            "3 large eggs",
+            "\u00bd cup milk",
+            "2 tablespoons white sugar",
+            "1 teaspoon ground cinnamon",
+            "1 teaspoon vanilla extract",
+            "8 (1/2 inch) slices challah bread",
+            "2 tablespoons butter, or as needed"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Whisk eggs in a bowl until fluffy, then add milk. Whisk in sugar, cinnamon, and vanilla extract and transfer mixture to a shallow bowl.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Soak challah slices in the bowl in batches for 3 minutes on each side.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Melt butter in a skillet over medium heat. Cook challah slices in batches until browned, about 3 minutes. Turn and continue to brown on the other side, about 2 more minutes. Add more butter if necessary.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "French Toast Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Joy"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Challah French Toast",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "187.5 calories",
+            "carbohydrateContent": "23.4 g",
+            "cholesterolContent": "99 mg",
+            "fatContent": "7.4 g",
+            "fiberContent": "1.1 g",
+            "proteinContent": "6.7 g",
+            "saturatedFatContent": "3.2 g",
+            "servingSize": null,
+            "sodiumContent": "249.8 mg",
+            "sugarContent": "4.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

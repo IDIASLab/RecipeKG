@@ -1,0 +1,153 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/372/desserts/candy/",
+                    "name": "Candy Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/254421/chewy-watermelon-rind-candy/",
+        "name": "Chewy Watermelon Rind Candy",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5461089.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2020-06-19T04:16:51.000Z",
+        "description": "Instead of throwing away those watermelon rinds, turn them into a sweet treat with sugar, mint, and sweet basil. If you like, you can roll the dehydrated candy pieces in coarse sugar. Eat immediately or store in the freezer for up to 1 year.",
+        "prepTime": "P0DT0H20M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT6H30M",
+        "recipeYield": "12 servings",
+        "recipeIngredient": [
+            "1 watermelon rind, peeled",
+            "4 cups water",
+            "4 cups white sugar",
+            "\u00bd cup spearmint leaves, coarsely chopped",
+            "1 tablespoon dried sweet basil"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Cut watermelon rind into 2-inch long, 1-inch wide, and 1/2-inch thick pieces.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine water, sugar, spearmint, and basil in a large pot. Bring to a rolling boil. Strain out spearmint and basil. Add watermelon rind, making sure pieces are completely immersed. Cook until rind is soft, about 5 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Drain watermelon pieces and arrange in a single layer on dehydrator trays. Dry according to manufacturer's instructions until pieces are candied and dried, 6 to 8 hours.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Candy Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "BJMeltz"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.5,
+            "ratingCount": 2,
+            "itemReviewed": "Chewy Watermelon Rind Candy",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "380.8 calories",
+            "carbohydrateContent": "94.1 g",
+            "cholesterolContent": null,
+            "fatContent": "1.7 g",
+            "fiberContent": "2.2 g",
+            "proteinContent": "2.5 g",
+            "saturatedFatContent": "0.2 g",
+            "servingSize": null,
+            "sodiumContent": "11.1 mg",
+            "sugarContent": "66.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-06-09T23:03:19.223Z",
+                "reviewBody": "This was okay but it was a lot of work AND time and not one I'd make again. I know this is candy but it was far too sweet in my opinion. Plan on 30 minutes to soften the rinds and because they are so wet, it will take the full 8 hours to dehydrate.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2018-07-29T22:52:59.137Z",
+                "reviewBody": "I used 1 tsp of liquid peppermint instead. I kept it in the dehydrater for 20 hours.  Loved it.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Robert Letkeman",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2275579/"
+                }
+            }
+        ]
+    }
+]

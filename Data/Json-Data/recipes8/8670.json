@@ -1,0 +1,181 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/231/world-cuisine/european/",
+                    "name": "European",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/721/world-cuisine/european/french/",
+                    "name": "French",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/244689/coq-au-riesling/",
+        "name": "Coq au Riesling",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3863982.jpg",
+            "width": 1300,
+            "height": 960
+        },
+        "datePublished": "2018-06-08T14:21:47.000Z",
+        "description": "Delicious variation on coq au vin, made with an entire bottle of Riesling, a dry white wine. A friend of mine introduced me to this delicious and easy dish.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H50M",
+        "totalTime": "P0DT1H0M",
+        "recipeYield": "12 servings",
+        "recipeIngredient": [
+            "2 tablespoons olive oil",
+            "8 ounces bacon, cut into small pieces",
+            "1 onion, sliced",
+            "2 cloves garlic, sliced",
+            "1 (750 milliliter) bottle Riesling wine",
+            "3 pounds skinless, boneless chicken thighs",
+            "10 ounces shiitake mushrooms",
+            "1 bay leaf",
+            "salt and ground black pepper to taste",
+            "1 (12 ounce) package egg noodles",
+            "\u00bc cup butter, or to taste",
+            "2 tablespoons heavy whipping cream"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat oil in a large skillet over medium-low heat; cook and stir bacon until crispy, about 10 minutes. Add onion and garlic; cook, stirring occasionally, until onion is softened, 5 to 10 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Mix wine, chicken, mushrooms, and bay leaf together in a large pot over medium-high heat.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Transfer bacon mixture to a paper towel-lined plate using a slotted spoon. Once mixture is drained, transfer to to chicken mixture. Bring to a boil, reduce heat to medium-low, cover, and simmer until chicken is no longer pink in the center and sauce is slightly thickened, 30 to 40 minutes. An instant-read thermometer inserted near the bone should read 165 degrees F (74 degrees C).\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bring a large pot of lightly salted water to a boil. Cook egg noodles in the boiling water, stirring occasionally until tender yet firm to the bite, 4 to 5 minutes. Drain and transfer to a bowl; add butter and mix until coated.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Stir cream into chicken mixture until evenly combined. Serve chicken mixture over buttered egg noodles.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "European",
+            "French"
+        ],
+        "recipeCuisine": [
+            "European",
+            "French"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Susan Case"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 3,
+            "itemReviewed": "Coq au Riesling",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "447.4 calories",
+            "carbohydrateContent": "25.9 g",
+            "cholesterolContent": "112.3 mg",
+            "fatContent": "18.3 g",
+            "fiberContent": "1.5 g",
+            "proteinContent": "26.2 g",
+            "saturatedFatContent": "6.6 g",
+            "servingSize": null,
+            "sodiumContent": "258.1 mg",
+            "sugarContent": "1.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-02-27T01:42:34.503Z",
+                "reviewBody": "De-boned a whole chicken and used that for the meat which worked really well. Everyone who tried it thought it was fantastic. I served it with home made sp\u00e4tzli noodles to make it more authentic to the Alsace region. Will make it again!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Andy Harbin",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/13906889/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2020-02-11T02:41:59.63Z",
+                "reviewBody": "This has very good flavor, although I didn\u2019t think there was enough sauce for my sauce-loving husband, so I added a can of chicken broth. It was a little soupy, so I thickened with flour, but it made it perfect over pasta (I didn\u2019t have egg noodles). Of course the key is getting a good browning on your chicken which gives the sauce it\u2019s flavor. I also added a bit of sugar, as I used a dry Traminette which made the sauce somewhat acidic (the author didn\u2019t specify, but most Riesling\u2019s in the US are sweet). This was delicious and a definite make again!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "THEBACCHUS",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/811040/"
+                }
+            }
+        ]
+    }
+]

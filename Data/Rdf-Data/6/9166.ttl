@@ -1,0 +1,50 @@
+@prefix ns1: <http://purl.org/heals/food/> .
+@prefix ns2: <http://purl.org/recipekg/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/portuguese-burnt-sugar-candy> a schema:Recipe ;
+    ns1:hasIngredient [ a <http://purl.org/heals/ingredient/Water> ;
+            ns2:hasQuantity "1/3" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "water" ],
+        [ a <http://purl.org/heals/ingredient/WhiteSugar> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "white sugar" ],
+        [ a <http://purl.org/heals/ingredient/AppleCiderVinegar> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "teaspoon" ;
+            ns2:ingredientName "apple cider vinegar" ] ;
+    ns2:belongsTo <http://purl.org/recipekg/categories/world-cuisine/european/portuguese/> ;
+    ns2:hasFSAScore 2 ;
+    ns2:hasNutritionalInformation [ a ns2:NutritionalInformation ;
+            ns2:hasCalorificData [ a ns2:CalorificData ;
+                    ns2:hasAmount "15.5"^^xsd:float ;
+                    ns2:hasUnit "calories" ] ;
+            ns2:hasCarbohydrateData [ a ns2:CarbohydrateData ;
+                    ns2:hasAmount "4.0"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasSugarData [ a ns2:SugarData ;
+                    ns2:hasAmount "4.0"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSAGreen ;
+                    ns2:hasUnit "g" ] ] ;
+    ns2:hasUSDAScore 2 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 17 ;
+            schema:ratingValue "4.294117647058823"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2020-06-19T03:07:26.000Z"^^schema:date ;
+    schema:name "Portuguese Burnt Sugar Candy"^^xsd:string ;
+    schema:recipeYield "50 servings"^^xsd:string .
+
+ns2:FSAGreen a ns2:FSAColor .
+
+<http://purl.org/recipekg/categories/world-cuisine/> a ns2:RecipeCategory .
+
+<http://purl.org/recipekg/categories/world-cuisine/european/> rdfs:subClassOf <http://purl.org/recipekg/categories/world-cuisine/> .
+
+<http://purl.org/recipekg/categories/world-cuisine/european/portuguese/> rdfs:subClassOf <http://purl.org/recipekg/categories/world-cuisine/european/> .
+

@@ -1,0 +1,153 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/92/meat-and-poultry/",
+                    "name": "Meat and Poultry",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/201/meat-and-poultry/chicken/",
+                    "name": "Chicken",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/659/meat-and-poultry/chicken/chicken-breasts/",
+                    "name": "Breast",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/273492/grilled-maple-chipotle-chicken/",
+        "name": "Grilled Maple-Chipotle Chicken",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6667178.jpg",
+            "width": 1152,
+            "height": 2048
+        },
+        "datePublished": "2019-05-15T03:38:20.000Z",
+        "description": "This is a great weeknight recipe, as it's quick to make. The chicken can be left in the maple-chipotle marinade overnight or cooked shortly after mixing. A favorite in our house!",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H20M",
+        "totalTime": "P0DT1H25M",
+        "recipeYield": "4 chicken breasts",
+        "recipeIngredient": [
+            "4 skinless, boneless chicken breasts",
+            "\u00be cup maple syrup",
+            "\u00bc cup apple cider vinegar",
+            "\u00bc cup ketchup",
+            "\u00bc cup sesame oil",
+            "\u215b cup soy sauce",
+            "3 cloves garlic, minced",
+            "2 tablespoons chipotle powder",
+            "1 teaspoon dried oregano",
+            "1 dash paprika",
+            "1 dash cayenne pepper",
+            "1 dash celery salt"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine chicken breasts, maple syrup, apple cider vinegar, ketchup, sesame oil, soy sauce, garlic, chipotle powder, oregano, paprika, cayenne, and celery salt into a marinating container and mix well. Let chicken marinate at least 1 hour.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Preheat an outdoor grill for medium heat and lightly oil the grate.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place marinated chicken breasts on the center of the grill, reserving remaining marinade. Cook for 10 to 15 minutes, spreading remaining marinade over chicken using a basting brush every few minutes to properly glaze. Flip and continue to cook and baste until chicken is no longer pink in the center and juices run clear, 10 to 15 minutes more.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Meat and Poultry",
+            "Chicken",
+            "Breast"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Amelia"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Grilled Maple-Chipotle Chicken",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "444.6 calories",
+            "carbohydrateContent": "47.4 g",
+            "cholesterolContent": "67.2 mg",
+            "fatContent": "17.4 g",
+            "fiberContent": "1.7 g",
+            "proteinContent": "26 g",
+            "saturatedFatContent": "2.9 g",
+            "servingSize": null,
+            "sodiumContent": "804.9 mg",
+            "sugarContent": "38.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-06-04T01:17:59.823Z",
+                "reviewBody": "I let this marinate overnight and it was very spicy. Just make sure you decide your heat tolerance before starting it! Great flavors!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Chef Mo",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/chefmo/"
+                }
+            }
+        ]
+    }
+]

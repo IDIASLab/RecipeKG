@@ -1,0 +1,154 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/81/side-dish/",
+                    "name": "Side Dish",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/917/side-dish/potatoes/",
+                    "name": "Potato",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1457/side-dish/potatoes/mashed-potatoes/",
+                    "name": "Mashed Potato Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/261234/mashed-potato-casserole-with-mozzarella/",
+        "name": "Mashed Potato Casserole with Mozzarella",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4984458.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2018-06-08T14:45:55.000Z",
+        "description": "A delicious casserole with mashed potatoes and mozzarella cheese. Our whole family is crazy about this dish.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H35M",
+        "totalTime": "P0DT0H50M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "2 pounds potatoes",
+            "2 tablespoons unsalted butter, divided",
+            "1 cup milk",
+            "salt to taste",
+            "2 egg yolks",
+            "\u00bd bunch chopped fresh chives",
+            "2 pinches ground nutmeg",
+            "freshly ground black pepper",
+            "1 (8 ounce) ball mozzarella cheese, sliced"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place potatoes into a large pot and cover with salted water; bring to a boil. Reduce heat to medium-low and simmer until tender, about 20 minutes. Drain. Cool until easily handled. Peel potatoes and mash in a bowl.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Set oven rack about 6 inches from the heat source and preheat the oven's broiler. Grease a baking dish generously with 1 tablespoon butter.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat milk in a saucepan over medium heat, add remaining 1 tablespoon butter, and melt. Season with salt and mix into mashed potatoes. Whisk in egg yolks, chives, nutmeg, and pepper briefly. Spoon mashed potatoes into the prepared baking dish and cover with mozzarella slices.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated oven until cheese is melted and lightly browned, about 10 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Side Dish",
+            "Potato",
+            "Mashed Potato Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Annette"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Mashed Potato Casserole with Mozzarella",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "434 calories",
+            "carbohydrateContent": "45.4 g",
+            "cholesterolContent": "158.9 mg",
+            "fatContent": "18.7 g",
+            "fiberContent": "5.5 g",
+            "proteinContent": "22.2 g",
+            "saturatedFatContent": "11.2 g",
+            "servingSize": null,
+            "sodiumContent": "433.7 mg",
+            "sugarContent": "5.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-01-12T09:36:00.277Z",
+                "reviewBody": "This was great! My only caution is to watch the cheese closely. At 10 minutes mine wasn't melted or even browning. It started looking close at 15 minutes but still needed more. 20 minutes was too much. So my guess is bake time is somewhere between 16-18 minutes. Great recipe though and loved the chives in it.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

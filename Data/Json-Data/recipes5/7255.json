@@ -1,0 +1,128 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17106/drinks/juice/",
+                    "name": "Juice Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/261249/orange-carrot-ginger-juice/",
+        "name": "Orange-Carrot-Ginger Juice",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3528911.jpg",
+            "width": 1283,
+            "height": 1280
+        },
+        "datePublished": "2019-07-10T07:11:28.000Z",
+        "description": "Boost your immune system with an orange-carrot-ginger juice packed with healthy citrus and carrots. This juice has tons of flavor, a zing of tartness, and is full of nourishment. The perfect juice to spring-clean your diet!",
+        "prepTime": "P0DT0H15M",
+        "cookTime": null,
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "1 serving",
+        "recipeIngredient": [
+            "1 large orange, peeled",
+            "1 cup carrots, chopped",
+            "\u00bc cup lemon juice",
+            "1 (1 inch) piece ginger",
+            "ice"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place orange, carrots, lemon juice, and ginger in a juicer. Blend, according to manufacturer's instructions, until smooth. Pour juice into a glass filled with ice.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Juice Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Megan Olson"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Orange-Carrot-Ginger Juice",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "158.7 calories",
+            "carbohydrateContent": "40.1 g",
+            "cholesterolContent": null,
+            "fatContent": "0.6 g",
+            "fiberContent": "8.4 g",
+            "proteinContent": "3.3 g",
+            "saturatedFatContent": "0.1 g",
+            "servingSize": null,
+            "sodiumContent": "93.4 mg",
+            "sugarContent": "24.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-03-14T11:38:57.623Z",
+                "reviewBody": "I loved this as it\u2019s right on time to boost my immune system and I made it both ways (with and without the pulp... delicious treat for Friday 3/13/2020 and anytime!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Brother_Francis",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/27130881/"
+                }
+            }
+        ]
+    }
+]

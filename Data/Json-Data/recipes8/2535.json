@@ -1,0 +1,130 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/82/trusted-brands-recipes-and-tips/",
+                    "name": "Trusted Brands: Recipes and Tips",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/265185/watermelon-goat-cheese-salad/",
+        "name": "Watermelon Goat Cheese Salad",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5455054.jpg",
+            "width": 960,
+            "height": 960
+        },
+        "datePublished": "2020-06-20T01:51:07.000Z",
+        "description": "A sweet and satisfying summer salad packed with seedless watermelon, crumbled goat cheese, and crunchy hazelnuts.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "8 serving",
+        "recipeIngredient": [
+            "\u00bc cup extra-virgin olive oil",
+            "2 tablespoons lemon juice",
+            "2 tablespoons red wine vinegar",
+            "\u00bc teaspoon salt",
+            "Ground pepper, to taste",
+            "4 cups spring mix",
+            "4 cups seedless watermelon, diced",
+            "\u00bd (4 ounce) log Montchevre\u00ae honey goat cheese ",
+            "\u00bd cup hazelnuts, chopped"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Whisk together olive oil, lemon juice, vinegar, salt, and pepper.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "In a large bowl, gently toss spring mix and watermelon together with vinaigrette.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Top with goat cheese and hazelnuts to serve.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Trusted Brands: Recipes and Tips"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Saputo"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Watermelon Goat Cheese Salad",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "163.2 calories",
+            "carbohydrateContent": "8.9 g",
+            "cholesterolContent": "5 mg",
+            "fatContent": "13.6 g",
+            "fiberContent": "1.8 g",
+            "proteinContent": "3.4 g",
+            "saturatedFatContent": "2.3 g",
+            "servingSize": null,
+            "sodiumContent": "90.5 mg",
+            "sugarContent": "5.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-08-10T03:51:53.047Z",
+                "reviewBody": "I added mint to mine, and used lime juice instead of lemon to make the vinaigrette. Pretty delish!\n\nBTW, I'm pretty sure the recipe photo shows us *beets*, not watermelon, but this would work with beets as well.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "caffeina bean",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/25966719/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,137 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/263769/easy-grilled-nectarines/",
+        "name": "Easy Grilled Nectarines",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6897825.jpg",
+            "width": 3024,
+            "height": 4032
+        },
+        "datePublished": "2020-03-05T05:17:35.000Z",
+        "description": "Nectarines taste great grilled &ndash; all you need is some butter and brown sugar. Serve with vanilla ice cream and you have a quick dessert for a hot day.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "4 fresh nectarines, pitted and halved",
+            "2 tablespoons melted unsalted butter",
+            "4 tablespoons brown sugar"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Brush each nectarine half with 1/4 tablespoon melted butter and sprinkle with 1/2 tablespoon brown sugar.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Preheat the grill on medium heat. Place nectarines into an aluminum grill dish or directly onto the grill. Grill until lightly browned, turning occasionally, 3 to 5 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "barbara"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Easy Grilled Nectarines",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "162.3 calories",
+            "carbohydrateContent": "27.7 g",
+            "cholesterolContent": "15.3 mg",
+            "fatContent": "6.2 g",
+            "fiberContent": "2.3 g",
+            "proteinContent": "1.5 g",
+            "saturatedFatContent": "3.7 g",
+            "servingSize": null,
+            "sodiumContent": "4.6 mg",
+            "sugarContent": "23.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-04-18T09:28:34Z",
+                "reviewBody": "What a delightful light ending to a meal! I served the nectarine with vanilla Greek yogurt and it was delicious!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Paula",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/paula1/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2018-07-31T02:29:23.13Z",
+                "reviewBody": "tastes great grilled",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Marianne",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/22170712/"
+                }
+            }
+        ]
+    }
+]

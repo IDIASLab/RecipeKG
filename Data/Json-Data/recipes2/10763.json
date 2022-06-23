@@ -1,0 +1,159 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/237/world-cuisine/latin-american/",
+                    "name": "Latin American",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/728/world-cuisine/latin-american/mexican/",
+                    "name": "Mexican",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/232320/margarita-con-cerveza/",
+        "name": "Margarita con Cerveza",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1205854.jpg",
+            "width": 3072,
+            "height": 2304
+        },
+        "datePublished": "2017-06-22T13:02:16.000Z",
+        "description": "A different twist to a classic that will keep everyone coming for more! You can double or triple ingredients for more people.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "8 servings",
+        "recipeIngredient": [
+            "1 (12 fluid ounce) can frozen limeade concentrate",
+            "1 (12 fluid ounce) can or bottle Mexican beer (such as Corona\u00ae)",
+            "1 (12 fluid ounce) can or bottle lemon-lime soda (such as 7-Up\u00ae)",
+            "1 cup tequila",
+            "\u00bd cup triple sec",
+            "1 lime, halved"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Pour limeade concentrate into a pitcher; stir to break into large chunks. Add beer, lemon-lime soda, tequila, and triple sec. Stir well. Squeeze half the lime into the margarita; cut the other lime half into wedges to garnish margarita glasses.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Latin American",
+            "Mexican"
+        ],
+        "recipeCuisine": [
+            "Latin American",
+            "Mexican"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Nicholas Ramey"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Margarita con Cerveza",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "296.9 calories",
+            "carbohydrateContent": "48.3 g",
+            "cholesterolContent": null,
+            "fatContent": "0.1 g",
+            "fiberContent": "0.2 g",
+            "proteinContent": "0.3 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "8.3 mg",
+            "sugarContent": "39.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-11-30T06:33:01.353Z",
+                "reviewBody": "I omit triple sec because there is plenty of sugar without it. This is delicious! I have made it time and time again.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "ashleyb",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/15180688/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2016-04-01T19:40:29.077Z",
+                "reviewBody": "These were so refreshing! Nice take on a plain old margarita-we didn't have triple sec but they turned out just fine without it! Will definitely make again! Maybe tonight?",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "CAROL M",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/13486280/"
+                }
+            }
+        ]
+    }
+]

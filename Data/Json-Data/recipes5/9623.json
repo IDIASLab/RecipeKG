@@ -1,0 +1,141 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/215/salad/pasta-salad/",
+                    "name": "Pasta Salad",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/275867/mayas-perfect-pesto-pasta-salad/",
+        "name": "Maya's Perfect Pesto Pasta Salad",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7096407.jpg",
+            "width": 1280,
+            "height": 1920
+        },
+        "datePublished": "2019-09-13T11:59:24.000Z",
+        "description": "My 10-year-old daughter Maya and I created this easy but delicious pasta salad, featuring her favorite pesto flavors. This salad is great as the center of a light dinner, or as a side dish.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H20M",
+        "totalTime": "P0DT1H5M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "1 (16 ounce) package corkscrew-shaped pasta (fusilli)",
+            "\u00be cup chopped fresh basil",
+            "\u00be cup shredded Parmesan cheese",
+            "\u2153 cup pine nuts",
+            "\u2153 cup extra-virgin olive oil",
+            "1 clove garlic, diced",
+            "\u00bd cup finely diced red onion",
+            "\u00bd cup finely diced radicchio",
+            "1 tablespoon mayonnaise, or to taste",
+            "salt and ground black pepper to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Bring a large pot of lightly salted water to a boil. Cook fusilli in the boiling water, stirring occasionally, until tender yet firm to the bite, about 12 minutes. Drain.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine basil, Parmesan cheese, pine nuts, oil, and garlic in a food processor; blend to make pesto.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Toss pasta with pesto and mix in red onion, radicchio, and mayonnaise. Season with salt and pepper. Refrigerate for at least 30 minutes before serving.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad",
+            "Pasta Salad"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "mpkneip"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Maya's Perfect Pesto Pasta Salad",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "488.6 calories",
+            "carbohydrateContent": "57.6 g",
+            "cholesterolContent": "8.1 mg",
+            "fatContent": "22.6 g",
+            "fiberContent": "3.2 g",
+            "proteinContent": "16 g",
+            "saturatedFatContent": "4.7 g",
+            "servingSize": null,
+            "sodiumContent": "214.2 mg",
+            "sugarContent": "3.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-09-30T04:03:53.367Z",
+                "reviewBody": "Delicious pasta salad! You could probably use jarred pesto as a shortcut.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "fabeveryday",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/fabeveryday/"
+                }
+            }
+        ]
+    }
+]

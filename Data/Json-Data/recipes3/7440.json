@@ -1,0 +1,127 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/250/main-dish/pizza/",
+                    "name": "Pizza Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/177069/ajvar-pizza/",
+        "name": "Ajvar Pizza",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Ajvar Pizza"
+        },
+        "datePublished": "2018-06-08T13:52:49.000Z",
+        "description": "This is a pizza that I randomly whipped up one night. It uses ajvar, a spicy Macedonian red pepper and eggplant spread that can be found in some grocery stores. The searing of the fresh tomatoes makes them easier to peel and prevents a watery pizza. I recommend using the wheat bran thick-crust pizza dough that I have also submitted, but whatever dough you usually use is fine.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H26M",
+        "totalTime": "P0DT0H41M",
+        "recipeYield": "1 12-inch pizza",
+        "recipeIngredient": [
+            "1 teaspoon vegetable oil",
+            "1 (13.8 ounce) package prepared pizza dough",
+            "\u00bd cup ajvar spread, or more to taste",
+            "1 cup shredded part-skim mozzarella cheese",
+            "10 pickled hot pepper slices",
+            "\u00bd teaspoon dried basil",
+            "\u00bd teaspoon dried oregano",
+            "1 large tomato, halved and sliced into thin wedges",
+            "salt"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat an oven to 425 degrees F (220 degrees C). Grease a baking sheet with oil.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Stretch pizza dough onto the prepared baking sheet. Spread evenly with ajvar. Sprinkle mozzarella cheese, hot pepper slices, basil, and oregano on top.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat a nonstick skillet over medium-high heat. Add tomato slices and cook until lightly browned, stirring occasionally to prevent sticking, about 3 minutes per side. Remove the tomato skins. Arrange the tomatoes on the pizza and sprinkle with salt.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated oven until the mozzarella cheese is fully melted and bubbly, about 20 minutes. Allow to cool for a few minutes before slicing.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Pizza Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "MonicaG"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Ajvar Pizza",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "380.6 calories",
+            "carbohydrateContent": "53.6 g",
+            "cholesterolContent": "18.1 mg",
+            "fatContent": "11.2 g",
+            "fiberContent": "4 g",
+            "proteinContent": "16 g",
+            "saturatedFatContent": "3.1 g",
+            "servingSize": null,
+            "sodiumContent": "1009.9 mg",
+            "sugarContent": "9.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

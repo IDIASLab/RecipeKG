@@ -1,0 +1,129 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/16348/drinks/slushies/",
+                    "name": "Slushie Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/237922/strawberry-slushy-smoothie-with-a-kick/",
+        "name": "Strawberry Slushy (Smoothie) with a Kick",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3202523.jpg",
+            "width": 2005,
+            "height": 2005
+        },
+        "datePublished": "2020-06-19T03:59:20.000Z",
+        "description": "Take a traditional strawberry smoothie and add a little extra kick with some front and back flavor. Use coconut water not coconut milk.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "1 pound fresh strawberries, hulled and halved",
+            "1 (17.5 ounce) can coconut water",
+            "2 cups ice",
+            "2 (1.5 fluid ounce) jiggers rum, or more to taste",
+            "1 tablespoon white sugar, or more to taste",
+            "1 teaspoon vanilla extract"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Blend strawberries, coconut water, ice, rum, sugar, and vanilla extract together in a blender until frozen and slushy.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Slushie Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "DarenR"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Strawberry Slushy (Smoothie) with a Kick",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "124.6 calories",
+            "carbohydrateContent": "16.8 g",
+            "cholesterolContent": null,
+            "fatContent": "0.6 g",
+            "fiberContent": "3.7 g",
+            "proteinContent": "1.7 g",
+            "saturatedFatContent": "0.2 g",
+            "servingSize": null,
+            "sodiumContent": "139.3 mg",
+            "sugarContent": "8.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2016-01-31T21:06:50.53Z",
+                "reviewBody": "Refreshing! I used frozen strawberries so didn't add hardly any ice but did need to add a bit of water to get it to blend in my Vitamix. Needs more rum though - which is easy to fix!:)",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Kim's Cooking Now",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/kimscookingnow/"
+                }
+            }
+        ]
+    }
+]

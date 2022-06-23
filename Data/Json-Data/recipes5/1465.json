@@ -1,0 +1,139 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/213/salad/green-salads/",
+                    "name": "Green Salad Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/15111/salad/green-salads/spinach-salad/",
+                    "name": "Spinach Salad Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/273501/holiday-salad-wreath/",
+        "name": "Holiday Salad Wreath",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6263331.jpg",
+            "width": 3024,
+            "height": 4032
+        },
+        "datePublished": "2019-05-11T02:15:29.000Z",
+        "description": "This is a festive and flavorful salad that is perfect for the holidays and easy to assemble. Serve with your favorite dressing(s) on the side so that it can be made ahead of time without wilting. Lemon-thyme vinaigrette goes really well with this.",
+        "prepTime": "P0DT0H20M",
+        "cookTime": null,
+        "totalTime": "P0DT0H20M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "\u00bd (10 ounce) package fresh spinach, or more to taste",
+            "\u00bd (5 ounce) package arugula leaves, or more to taste",
+            "2 canned beets, cut into 1/4-inch pieces, or more to taste",
+            "1 (4 ounce) log soft goat cheese, or to taste",
+            "3 tablespoons unsalted shelled pistachios",
+            "kosher salt and ground black pepper to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Neatly arrange spinach in a 10- to 12-inch circle with leaf tips facing outward. Arrange arugula on top of spinach, leaving the outer tips of the spinach exposed. Scatter beets over the arugula. Arrange pieces of goat cheese around the wreath. Sprinkle pistachios on top. Season salad lightly with salt and pepper.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad",
+            "Green Salad Recipes",
+            "Spinach Salad Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Jones"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Holiday Salad Wreath",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "152.4 calories",
+            "carbohydrateContent": "5.1 g",
+            "cholesterolContent": "22.4 mg",
+            "fatContent": "11.4 g",
+            "fiberContent": "1.9 g",
+            "proteinContent": "8.9 g",
+            "saturatedFatContent": "6.2 g",
+            "servingSize": null,
+            "sodiumContent": "241.4 mg",
+            "sugarContent": "2.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-12-10T04:47:01.417Z",
+                "reviewBody": "Beautiful and delicious! Took like 5 minutes to make.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Jackie",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/26645534/"
+                }
+            }
+        ]
+    }
+]

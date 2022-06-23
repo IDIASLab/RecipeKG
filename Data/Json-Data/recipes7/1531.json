@@ -1,0 +1,122 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/107778/elderflower-cordial-concentrate/",
+        "name": "Elderflower Cordial Concentrate",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1132556.jpg",
+            "width": 1441,
+            "height": 1442
+        },
+        "datePublished": "2020-06-19T03:13:44.000Z",
+        "description": "This is a terrific drink for hot summer days, and a fantastic rival to lemonade. You'll find food grade citric acid at a health food store or Asian market. Since this recipe makes a concentrate, dilute with water to taste or pour over ice to serve.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": null,
+        "totalTime": "P1DT0H15M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "24 elderberry flower heads",
+            "4\u2009\u00bd cups white sugar",
+            "1\u2009\u00bd quarts boiling water",
+            "\u00bd cup fresh lemon juice",
+            "2 ounces citric acid powder"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine the elderflower heads, sugar, lemon juice, and citric acid in a large acid-proof container. Pour the boiling water over the ingredients and let steep for 24 hours, stirring occasionally.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Strain the liquid by pouring it through muslin into a large bowl. Ladle into bottles and refrigerate, or pour into freezer containers and freeze.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Ollie Martin"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Elderflower Cordial Concentrate",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "585.6 calories",
+            "carbohydrateContent": "151.7 g",
+            "cholesterolContent": "0 mg",
+            "fatContent": "0 g",
+            "fiberContent": "0.1 g",
+            "proteinContent": "0.1 g",
+            "saturatedFatContent": "0 g",
+            "servingSize": null,
+            "sodiumContent": "7.3 mg",
+            "sugarContent": "150.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2010-06-08T15:50:07.33Z",
+                "reviewBody": "great recipe",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "cooking with little buddy",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/4815591/"
+                }
+            }
+        ]
+    }
+]

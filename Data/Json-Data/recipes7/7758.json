@@ -1,0 +1,131 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/16348/drinks/slushies/",
+                    "name": "Slushie Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/228722/lushy-slushy/",
+        "name": "Lushy Slushy",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Lushy Slushy"
+        },
+        "datePublished": "2020-06-19T03:51:03.000Z",
+        "description": "A frozen drink that is perfect on hot summer nights.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT8H5M",
+        "recipeYield": "12 cocktails",
+        "recipeIngredient": [
+            "1 (46 fluid ounce) can pineapple juice",
+            "1\u2009\u00bd cups vodka",
+            "\u00be cup white sugar",
+            "1 (6 ounce) can frozen orange juice concentrate",
+            "1 (6 ounce) can water",
+            "\u00bd cup amaretto liqueur",
+            "3 (12 fluid ounce) cans or bottles cherry-flavored lemon-lime soda (such as Cherry 7UP\u00ae)"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Mix pineapple juice, vodka, sugar, orange juice concentrate, water, and amaretto liqueur in a large container; freeze overnight. To serve, fill a large glass about half full of the slushy mixture and fill the rest of the glass with cherry-flavored lemon-lime soda.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Slushie Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "madrile\u00f1a"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Lushy Slushy",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "282.1 calories",
+            "carbohydrateContent": "48 g",
+            "cholesterolContent": null,
+            "fatContent": "0.2 g",
+            "fiberContent": "0.4 g",
+            "proteinContent": "0.8 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "6.6 mg",
+            "sugarContent": "44.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-08-04T11:58:50.693Z",
+                "reviewBody": "Delish",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Aubrey Burch",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/10543757/"
+                }
+            }
+        ]
+    }
+]

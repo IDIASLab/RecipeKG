@@ -1,0 +1,88 @@
+@prefix ns1: <http://purl.org/heals/food/> .
+@prefix ns2: <http://purl.org/recipekg/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/mmmm-mango-salsa> a schema:Recipe ;
+    ns1:hasIngredient [ a <http://purl.org/heals/ingredient/Garlic> ;
+            ns2:hasQuantity "2" ;
+            ns2:ingredientName "garlic" ],
+        [ a <http://purl.org/recipekg/ingredient/PineappleJuice> ;
+            ns2:hasQuantity "3" ;
+            ns2:hasUnit "tablespoon" ;
+            ns2:ingredientName "pineapple juice" ],
+        [ a <http://purl.org/heals/ingredient/OliveOil> ;
+            ns2:hasQuantity "2" ;
+            ns2:hasUnit "tablespoon" ;
+            ns2:ingredientName "olive oil" ],
+        [ a <http://purl.org/heals/ingredient/Salt> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "teaspoon" ;
+            ns2:ingredientName "salt" ],
+        [ a <http://purl.org/recipekg/ingredient/Lime> ;
+            ns2:hasQuantity "1" ;
+            ns2:ingredientName "lime" ],
+        [ a <http://purl.org/heals/ingredient/Tomato> ;
+            ns2:hasQuantity "2" ;
+            ns2:ingredientName "tomato" ],
+        [ a <http://purl.org/recipekg/ingredient/Mango> ;
+            ns2:hasQuantity "2" ;
+            ns2:ingredientName "mango" ],
+        [ a <http://purl.org/recipekg/ingredient/Shallot> ;
+            ns2:hasQuantity "1" ;
+            ns2:ingredientName "shallot" ],
+        [ a <http://purl.org/recipekg/ingredient/ChilePepper> ;
+            ns2:hasQuantity "1" ;
+            ns2:ingredientName "chile pepper" ] ;
+    ns2:belongsTo <http://purl.org/recipekg/categories/appetizers-and-snacks/dips-and-spreads/salsa/mango-salsa/> ;
+    ns2:hasFSAScore 8 ;
+    ns2:hasNutritionalInformation [ a ns2:NutritionalInformation ;
+            ns2:hasCalorificData [ a ns2:CalorificData ;
+                    ns2:hasAmount "35.9"^^xsd:float ;
+                    ns2:hasUnit "calories" ] ;
+            ns2:hasCarbohydrateData [ a ns2:CarbohydrateData ;
+                    ns2:hasAmount "5.4"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasFatData [ a ns2:FatData ;
+                    ns2:hasAmount "1.8"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSAGreen ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasFiberData [ a ns2:FiberData ;
+                    ns2:hasAmount "0.6"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasProteinData [ a ns2:ProteinData ;
+                    ns2:hasAmount "0.4"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasSaturatedFatData [ a ns2:SaturatedFatData ;
+                    ns2:hasAmount "0.3"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSAGreen ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasSodiumData [ a ns2:SodiumData ;
+                    ns2:hasAmount "147.0"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSAGreen ;
+                    ns2:hasUnit "mg" ] ;
+            ns2:hasSugarData [ a ns2:SugarData ;
+                    ns2:hasAmount "3.6"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSAGreen ;
+                    ns2:hasUnit "g" ] ] ;
+    ns2:hasUSDAScore 5 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 5 ;
+            schema:ratingValue "4.6"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2018-06-08T13:57:07.000Z"^^schema:date ;
+    schema:name "Mmmm Mango Salsa"^^xsd:string ;
+    schema:recipeYield "2 cups"^^xsd:string .
+
+<http://purl.org/recipekg/categories/appetizers-and-snacks/> a ns2:RecipeCategory .
+
+<http://purl.org/recipekg/categories/appetizers-and-snacks/dips-and-spreads/> rdfs:subClassOf <http://purl.org/recipekg/categories/appetizers-and-snacks/> .
+
+<http://purl.org/recipekg/categories/appetizers-and-snacks/dips-and-spreads/salsa/> rdfs:subClassOf <http://purl.org/recipekg/categories/appetizers-and-snacks/dips-and-spreads/> .
+
+<http://purl.org/recipekg/categories/appetizers-and-snacks/dips-and-spreads/salsa/mango-salsa/> rdfs:subClassOf <http://purl.org/recipekg/categories/appetizers-and-snacks/dips-and-spreads/salsa/> .
+
+ns2:FSAGreen a ns2:FSAColor .
+

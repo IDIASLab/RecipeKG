@@ -1,0 +1,161 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/151/breakfast-and-brunch/pancakes/",
+                    "name": "Pancake Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/16068/breakfast-and-brunch/pancakes/whole-grain-pancakes/",
+                    "name": "Whole Grain Pancake Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/260552/oat-griddle-cakes/",
+        "name": "Oat Griddle Cakes",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6533054.jpg",
+            "width": 4032,
+            "height": 3024
+        },
+        "datePublished": "2018-06-08T14:45:21.000Z",
+        "description": "Like pancakes, but healthier. We put butter and jam on top!",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H3M",
+        "totalTime": "P0DT0H8M",
+        "recipeYield": "8 pancakes",
+        "recipeIngredient": [
+            "1 cup milk, or as needed",
+            "\u00be cup oat flour",
+            "\u00be cup old-fashioned oats",
+            "1 egg",
+            "2 tablespoons vegetable oil",
+            "1 teaspoon baking powder",
+            "\u00bd teaspoon salt"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Mix milk, oat flour, oats, egg, oil, baking powder, and salt together in a bowl.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat a lightly oiled griddle over medium-high heat. Drop batter by large spoonfuls onto the griddle. Cook until bubbles form and the edges are dry, 2 to 3 minutes. Flip and cook until browned on the other side, about 1 minute more. Repeat with remaining batter.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Pancake Recipes",
+            "Whole Grain Pancake Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Tiffany"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 2,
+            "itemReviewed": "Oat Griddle Cakes",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "235.3 calories",
+            "carbohydrateContent": "25.3 g",
+            "cholesterolContent": "51.4 mg",
+            "fatContent": "12.3 g",
+            "fiberContent": "3.2 g",
+            "proteinContent": "7.7 g",
+            "saturatedFatContent": "2.1 g",
+            "servingSize": null,
+            "sodiumContent": "455.1 mg",
+            "sugarContent": "3.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-04-10T22:30:26.447Z",
+                "reviewBody": "It was alright but somehow boring. Tasted like plain oatmeal. I would add vanilla or some other flavor.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "virgi",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/virgi/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2020-10-08T20:57:54.123Z",
+                "reviewBody": "These are fantastic, my whole family loved them.  Make a quick brown sugar/cinnamon butter to go on them and they'll become your favorite breakfast!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Holly C",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/28163329/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,129 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/143/breakfast-and-brunch/drinks/",
+                    "name": "Drinks",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/247301/super-green-tea-smoothie/",
+        "name": "Super Green Tea Smoothie",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3587031.jpg",
+            "width": 1632,
+            "height": 1224
+        },
+        "datePublished": "2017-06-21T13:03:07.000Z",
+        "description": "Spinach, kiwi fruit, avocado, and banana are blended with green tea for a nourishing smoothie with a kick of zesty ginger.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "2 smoothies",
+        "recipeIngredient": [
+            "1 cup brewed green tea (such as Gold Peak\u00ae), chilled",
+            "1 cup fresh spinach leaves",
+            "1 kiwi, peeled",
+            "\u00bc avocado",
+            "1 banana, broken into chunks and frozen",
+            "\u00bd teaspoon grated fresh ginger "
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine tea, spinach, kiwi, avocado, banana, and ginger in a blender. Blend until smooth.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Drinks"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "1-800-FLOWERS"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Super Green Tea Smoothie",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "120.3 calories",
+            "carbohydrateContent": "22 g",
+            "cholesterolContent": null,
+            "fatContent": "4.1 g",
+            "fiberContent": "4.7 g",
+            "proteinContent": "2 g",
+            "saturatedFatContent": "0.6 g",
+            "servingSize": null,
+            "sodiumContent": "18.9 mg",
+            "sugarContent": "10.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-02-22T00:07:23.563Z",
+                "reviewBody": "Enjoyed this as it has a very fresh taste. However if you use a full cup of tea like the recipe notes the drink will likely be very thin. However my banana was not frozen. So I give the recipe a 5 on flavor but not 100% sure on best measurements. I will make it again. I used honey lemon green tea with excellent results.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Kelli W",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/20426855/"
+                }
+            }
+        ]
+    }
+]

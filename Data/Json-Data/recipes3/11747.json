@@ -1,0 +1,154 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/94/soups-stews-and-chili/",
+                    "name": "Soups, Stews and Chili Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/183/soups-stews-and-chili/stews/",
+                    "name": "Stews",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/245220/red-bean-stew/",
+        "name": "Red Bean Stew",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3370083.jpg",
+            "width": 2337,
+            "height": 2730
+        },
+        "datePublished": "2018-06-08T14:23:51.000Z",
+        "description": "This is a simple Lebanese dish that can be served as a side with pita bread or as a main with rice. It's vegetarian and a snap to put together.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H33M",
+        "totalTime": "P0DT1H18M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "2 tablespoons olive oil",
+            "1 onion, thinly sliced",
+            "1 bunch fresh cilantro, stems removed and leaves minced",
+            "2 cloves garlic, minced",
+            "\u00bd teaspoon ground cinnamon",
+            "\u00bd teaspoon ground coriander",
+            "\u00bd teaspoon ground cumin",
+            "1 (14 ounce) can tomato sauce",
+            "1 (15 ounce) can red beans, drained and rinsed",
+            "salt and ground black pepper to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat oil in a skillet over medium-low heat. Add onions; cook and stir until soft and translucent, about 10 minutes. Stir in cilantro, garlic, cinnamon, coriander, and cumin; cook until fragrant, about 3 minutes. Pour in tomato sauce. Reduce heat to low; simmer sauce until flavors combine, about 10 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Stir beans into sauce. Cover skillet and simmer until beans are heated through, about 10 minutes. Season with salt and pepper. Cool to room temperature before serving, about 30 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Soups, Stews and Chili Recipes",
+            "Stews"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "LauraF"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Red Bean Stew",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "370.8 calories",
+            "carbohydrateContent": "50.2 g",
+            "cholesterolContent": null,
+            "fatContent": "15.1 g",
+            "fiberContent": "15.1 g",
+            "proteinContent": "14.1 g",
+            "saturatedFatContent": "2 g",
+            "servingSize": null,
+            "sodiumContent": "1713.1 mg",
+            "sugarContent": "13.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-02-15T07:20:20.193Z",
+                "reviewBody": "Made it by the recipe family liked it a lot",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "patricia",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/12213773/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2020-03-21T07:21:26.72Z",
+                "reviewBody": "We liked it, although we wonder if we may have used the incorrect tomato sauce, the sharp flavor of tomato was quite strong. :)",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "HK Truong",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/25739234/"
+                }
+            }
+        ]
+    }
+]

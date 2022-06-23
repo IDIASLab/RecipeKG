@@ -1,0 +1,150 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/367/desserts/pies/",
+                    "name": "Pies",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/15623/dum-dum-pie/",
+        "name": "Dum-Dum Pie",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Dum-Dum Pie"
+        },
+        "datePublished": "1998-12-08T03:01:45.000Z",
+        "description": "Pie with melted candy bar and whipped topping. So easy, even a dummy can make it! Also good in a chocolate crumb pie crust.",
+        "prepTime": null,
+        "cookTime": null,
+        "totalTime": null,
+        "recipeYield": "1 pie",
+        "recipeIngredient": [
+            "1 (9 inch) prepared graham cracker crust",
+            "7 ounces milk chocolate with almonds candy",
+            "2 (16 ounce) packages frozen whipped topping, thawed",
+            "\u00bc cup semi-sweet chocolate chips",
+            "\u00bc cup chopped walnuts"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Break up candy bar and place in a glass bowl. Microwave on high at 30 second intervals, stirring after each interval. Continue just until chocolate is melted.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Empty one tub of whipped topping into a medium bowl. Fold in melted chocolate. Spoon mixture into prepared pie shell. Top with remaining tub of whipped topping and sprinkle with chocolate chips and nuts. Chill before serving.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Pies"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Roz"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.333333333333333,
+            "ratingCount": 3,
+            "itemReviewed": "Dum-Dum Pie",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "665.2 calories",
+            "carbohydrateContent": "59.9 g",
+            "cholesterolContent": "4.7 mg",
+            "fatContent": "47.2 g",
+            "fiberContent": "2.5 g",
+            "proteinContent": "5.6 g",
+            "saturatedFatContent": "31.3 g",
+            "servingSize": null,
+            "sodiumContent": "196.1 mg",
+            "sugarContent": "49.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2004-07-07T17:28:06.217Z",
+                "reviewBody": "This was great!! I took one of the whipped topping tubs and flavored it chocolate by using Godiva cocoa and placed this on the top layer. I also toasted the walnuts lightly before placing them in the pie. Thanks for the recipe!!!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Paula Stotts",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/680301/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2005-03-24T22:41:41.013Z",
+                "reviewBody": "This was reaaaally good. Would definately make agian. Loved it!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "[jessica]",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/1186164/"
+                }
+            }
+        ]
+    }
+]

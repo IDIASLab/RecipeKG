@@ -1,0 +1,172 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/143/breakfast-and-brunch/drinks/",
+                    "name": "Drinks",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/236221/green-drink-with-aloe-vera-juice/",
+        "name": "Green Drink with Aloe Vera Juice",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3021592.jpg",
+            "width": 2438,
+            "height": 2438
+        },
+        "datePublished": "2016-06-30T13:08:00.000Z",
+        "description": "This is a quick replacement meal!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H20M",
+        "recipeYield": "1 drink",
+        "recipeIngredient": [
+            "1 cup aloe vera juice",
+            "\u00bd cup old-fashioned rolled oats",
+            "1 cup baby spinach",
+            "1 cup baby kale",
+            "1 cup baby chard",
+            "1 banana",
+            "\u00bd cucumber",
+            "\u00bd cup fresh blueberries",
+            "2 tablespoons protein powder",
+            "1 teaspoon ground cinnamon",
+            "1 pinch cayenne pepper"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Mix aloe vera juice and oats together in a bowl; set aside until oats have absorbed the liquid, about 10 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Blend oat mixture, spinach, kale, chard, banana, cucumber, blueberries, protein powder, cinnamon, and cayenne pepper together in a blender until smooth, about 2 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Drinks"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Carolyn Coleman"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.6666666666666665,
+            "ratingCount": 3,
+            "itemReviewed": "Green Drink with Aloe Vera Juice",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "536.8 calories",
+            "carbohydrateContent": "107.2 g",
+            "cholesterolContent": null,
+            "fatContent": "5.2 g",
+            "fiberContent": "14.6 g",
+            "proteinContent": "24.3 g",
+            "saturatedFatContent": "0.9 g",
+            "servingSize": null,
+            "sodiumContent": "327.3 mg",
+            "sugarContent": "24.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2015-01-07T17:17:46.863Z",
+                "reviewBody": "I didn't use aloe juice since I have the plant I use the pulp I cut the recipe in half but still got 2 servings of juice I try it and is good you can feel the kick of the cayenne pepper at the end I use my nutribullet and the consistency is like a smoothie.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Marcela Mariscal",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/13566306/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2015-01-07T16:09:00.23Z",
+                "reviewBody": "I subbed coconut water for the aloe vera juice since it was way to expensive to try just once. A Vitamix would be perfect to blend smooth.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Diana Mc",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/dianamc/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2014-02-10T12:06:51.033Z",
+                "reviewBody": "This is a great drink! The aloe turns it into a super cleanse. The portion is huge though. Just cut it in half and you'll be able to finish a 16 oz drink.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Paul Green",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/7384006/"
+                }
+            }
+        ]
+    }
+]

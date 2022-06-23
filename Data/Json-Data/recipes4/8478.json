@@ -1,0 +1,136 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/16833/appetizers-and-snacks/bruschetta/",
+                    "name": "Bruschetta Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/246813/bruschette-al-lardo-di-colonnata/",
+        "name": "Bruschette al Lardo di Colonnata",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3472877.jpg",
+            "width": 2134,
+            "height": 2134
+        },
+        "datePublished": "2019-04-02T07:06:48.000Z",
+        "description": "Lardo is not for everybody, but if you like it you will love it on warm toasted bread. This bruschetta is true indulgence!",
+        "prepTime": "P0DT0H15M",
+        "cookTime": null,
+        "totalTime": "P0DT1H15M",
+        "recipeYield": "10 slices",
+        "recipeIngredient": [
+            "1 clove garlic, halved, divided",
+            "1 pound cherry tomatoes, halved",
+            "1 bunch fresh rosemary, minced",
+            "1 teaspoon extra-virgin olive oil",
+            "1 teaspoon red pepper flakes",
+            "1 pinch salt",
+            "1 loaf crusty Italian bread, sliced and toasted",
+            "7 ounces lardo (such as Lardo di Colonnata)",
+            "freshly ground pink peppercorns to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Mince 1 of the garlic halves and transfer to a bowl. Add tomatoes, rosemary, olive oil, red pepper flakes, and salt; mix well. Refrigerate tomato mixture for 1 hour.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Rub the remaining garlic half over each slice of bread. Spread lardo onto each slice and top with tomato mixture. Sprinkle ground pink peppercorns over tomato mixture.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks",
+            "Bruschetta Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Aldo"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Bruschette al Lardo di Colonnata",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "378.1 calories",
+            "carbohydrateContent": "36.6 g",
+            "cholesterolContent": "18.6 mg",
+            "fatContent": "22.8 g",
+            "fiberContent": "2.8 g",
+            "proteinContent": "6.5 g",
+            "saturatedFatContent": "8.4 g",
+            "servingSize": null,
+            "sodiumContent": "413 mg",
+            "sugarContent": "0.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2016-04-09T08:04:33.72Z",
+                "reviewBody": "I couldn't wait to make this recipe when I saw it so I had it for breakfast! Rosemary and lardo go so well together and when you melt it on some hot crusty bread then top it with seasoned tomatoes....mmmmmm......",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Buckwheat Queen",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/melaniegiovenzana/"
+                }
+            }
+        ]
+    }
+]

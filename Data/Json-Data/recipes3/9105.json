@@ -1,0 +1,161 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17140/desserts/fruit-desserts/",
+                    "name": "Fruit Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1254/desserts/fruit-desserts/apple-desserts/",
+                    "name": "Apple Dessert Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/228027/apple-caramel-ice-cream/",
+        "name": "Apple Caramel Ice Cream",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F868307.jpg",
+            "width": 250,
+            "height": 250
+        },
+        "datePublished": "2018-06-08T14:04:02.000Z",
+        "description": "Easy. Homemade. Machine-Free. Delicious! Also great with apple pie.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": null,
+        "totalTime": "P0DT6H15M",
+        "recipeYield": "16 servings",
+        "recipeIngredient": [
+            "2 cups heavy whipping cream",
+            "1 (14 ounce) can sweetened condensed milk",
+            "\u00bd cup applesauce",
+            "\u00bc cup caramel sauce",
+            "3 tablespoons salted butter, melted",
+            "\u00bd teaspoon vanilla extract",
+            "\u00bd teaspoon salt"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Beat cream in a large bowl until stiff peaks appear. Lift your beater or whisk straight up: cream should form a sharp peaks. Whisk in sweetened condensed milk, applesauce, caramel sauce, butter, vanilla extract, and salt until well combined.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour cream mixture into a large container and cover. Freeze until solid, about 6 hours.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Fruit Desserts",
+            "Apple Dessert Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "AccountKiller"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.5,
+            "ratingCount": 2,
+            "itemReviewed": "Apple Caramel Ice Cream",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "216.8 calories",
+            "carbohydrateContent": "18.4 g",
+            "cholesterolContent": "54.9 mg",
+            "fatContent": "15.3 g",
+            "fiberContent": "0.1 g",
+            "proteinContent": "2.7 g",
+            "saturatedFatContent": "9.6 g",
+            "servingSize": null,
+            "sodiumContent": "148.3 mg",
+            "sugarContent": "14.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2013-07-30T12:57:34.813Z",
+                "reviewBody": "very easy to make great initial flavor but has a horrible after taste and wierd film left on everything it touches including your mouth.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 2
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "bobcoolio17",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/10670799/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2015-08-26T05:29:57.783Z",
+                "reviewBody": "Just like ice cream only better! Delicious with hot chocolate syrup. Also great substituting raspberry jam for the applesauce and omitting caramel.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/7096326/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,125 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/227/world-cuisine/asian/",
+                    "name": "Asian",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/233/world-cuisine/asian/indian/",
+                    "name": "Indian",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/189050/curry-powder/",
+        "name": "Curry Powder",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F213682.jpg",
+            "width": 250,
+            "height": 250
+        },
+        "datePublished": "2017-11-14T15:01:00.000Z",
+        "description": "Make this curry powder to be used in any Indian curry recipe.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT0H20M",
+        "recipeYield": "1 /4 cup",
+        "recipeIngredient": [
+            "1 teaspoon urad dal",
+            "1 teaspoon chana dal",
+            "\u00bd teaspoon fenugreek seeds",
+            "\u00bd teaspoon cumin seeds",
+            "\u00bd teaspoon coriander seeds",
+            "8 dried whole red chilies, or to taste",
+            "5 whole black peppercorns, or to taste",
+            "\u00be teaspoon mustard seeds",
+            "1 teaspoon ground turmeric"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine the urad dal, chana dal, fenugreek seeds, cumin seeds, coriander seeds, red chilies, black peppercorns, and mustard seeds, in a small skillet over medium heat until brown, 5 to 10 minutes. Remove from heat and allow to cool completely. Once cooled, mix in the turmeric; transfer mixture in batches to a coffee grinder or spice mill and grind into a powder.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Asian",
+            "Indian"
+        ],
+        "recipeCuisine": [
+            "Asian",
+            "Indian"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Pixie2"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Curry Powder",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "358.1 calories",
+            "carbohydrateContent": "66.1 g",
+            "cholesterolContent": null,
+            "fatContent": "10 g",
+            "fiberContent": "2.1 g",
+            "proteinContent": "15 g",
+            "saturatedFatContent": "0.1 g",
+            "servingSize": null,
+            "sodiumContent": "377.4 mg",
+            "sugarContent": "0.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

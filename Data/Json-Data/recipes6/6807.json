@@ -1,0 +1,100 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1642/everyday-cooking/",
+                    "name": "Everyday Cooking",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/279410/carrot-apple-baby-food/",
+        "name": "Carrot-Apple Baby Food",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7882897.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-03-31T03:50:02.000Z",
+        "description": "Homemade baby food is a smart choice, as you know exactly what you're giving your sweet little baby. Once you've introduced carrots and apples to your baby separately, you can combine them into one puree for a delicious meal your baby is sure to enjoy.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H15M",
+        "totalTime": "P0DT0H20M",
+        "recipeYield": "5 servings",
+        "recipeIngredient": [
+            "2 carrots, peeled and sliced, or more to taste",
+            "1 apple- peeled, cored, and diced",
+            "4 teaspoons breast milk"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place carrots in a saucepan and cover with water. Bring to a boil, then reduce heat and simmer for 5 minutes. Add apple, and simmer until soft, about 5 minutes more. Drain.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine cooked carrots and apple with milk in a blender or food processor; and puree until smooth. Allow to cool before serving.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Everyday Cooking"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Allrecipes Member"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Carrot-Apple Baby Food",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "27.2 calories",
+            "carbohydrateContent": "6.4 g",
+            "cholesterolContent": "0.6 mg",
+            "fatContent": "0.3 g",
+            "fiberContent": "1.3 g",
+            "proteinContent": "0.3 g",
+            "saturatedFatContent": "0.1 g",
+            "servingSize": null,
+            "sodiumContent": "17.8 mg",
+            "sugarContent": "4.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

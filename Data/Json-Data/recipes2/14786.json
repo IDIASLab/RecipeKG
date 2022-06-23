@@ -1,0 +1,129 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/133/drinks/cocktails/",
+                    "name": "Cocktail Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/23681/blue-flame/",
+        "name": "Blue Flame",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F619293.jpg",
+            "width": 250,
+            "height": 250
+        },
+        "datePublished": "2018-03-21T16:16:27.000Z",
+        "description": "Southern Comfort is poured in a layer over peppermint schnapps. It is then lit, producing a blue flame. Don't forget to blow it out before drinking!",
+        "prepTime": "P0DT0H2M",
+        "cookTime": null,
+        "totalTime": "P0DT0H2M",
+        "recipeYield": "1 serving",
+        "recipeIngredient": [
+            "\u00bd fluid ounce Southern Comfort",
+            "1\u2009\u00bd fluid ounces peppermint schnapps"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Pour schnapps into a small fluted glass. Put a teaspoon just above the schnapps, and slowly pour Southern Comfort onto the spoon, letting it run in a separate layer on top of schnapps. Do not mix, it must be layered.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Hold the glass away from face, and light the Southern Comfort with the flame of a match or lighter. Let it burn for 15 seconds. Blow it out and down it.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Cocktail Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "J. Stahl"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Blue Flame",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "196.6 calories",
+            "carbohydrateContent": "19.9 g",
+            "cholesterolContent": "0 mg",
+            "fatContent": "0.1 g",
+            "fiberContent": "0 g",
+            "proteinContent": "0 g",
+            "saturatedFatContent": "0 g",
+            "servingSize": null,
+            "sodiumContent": "3.1 mg",
+            "sugarContent": "18.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2007-06-21T08:12:50.22Z",
+                "reviewBody": "Gotta love the SoCo!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "BugNBear",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/mom2sofia/"
+                }
+            }
+        ]
+    }
+]

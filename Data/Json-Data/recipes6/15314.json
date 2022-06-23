@@ -1,0 +1,141 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/19161/lemon-gin-slush/",
+        "name": "Lemon Gin Slush",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F359309.jpg",
+            "width": 250,
+            "height": 250
+        },
+        "datePublished": "2000-04-19T02:01:33.000Z",
+        "description": "A frozen drink from heaven! This drink will keep your friends happy and in the mood for fun all afternoon!",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "10 servings",
+        "recipeIngredient": [
+            "7 cups water",
+            "2 pints lemon gin",
+            "1 cup cold tea",
+            "1 (12 fluid ounce) can frozen lemonade concentrate",
+            "1 (12 fluid ounce) can frozen orange juice concentrate",
+            "\u00bd cup white sugar",
+            "2 liters lemon-lime flavored carbonated beverage"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "In a mixing bowl, combine water, gin, tea, frozen lemonade, frozen orange juice, and sugar. Mix well and store in the freezer (covered) until ready to use.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "To serve: in a tall glass combine frozen mixture to taste with lemon-lime flavored carbonated beverage.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "mmurphy"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.666666666666667,
+            "ratingCount": 3,
+            "itemReviewed": "Lemon Gin Slush",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "481.9 calories",
+            "carbohydrateContent": "63.3 g",
+            "cholesterolContent": "0 mg",
+            "fatContent": "0.2 g",
+            "fiberContent": "0.4 g",
+            "proteinContent": "0.9 g",
+            "saturatedFatContent": "0 g",
+            "servingSize": null,
+            "sodiumContent": "31.2 mg",
+            "sugarContent": "42.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2010-02-26T18:32:05.533Z",
+                "reviewBody": "I used regular gin instead of lemon gin and added some lemon juice. I also used lemonade and limeade concentrate instead of lemon/orange. Delicious!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Whitney",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/4091346/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2009-08-10T18:25:28.447Z",
+                "reviewBody": "This is a good one a few suggestions: We used 4-5 tea bags combined with sugar and water then let steep for a few hrs. Then combine and freeze. We also love fresh mint with lime slices on top-something to dress it up. Enjoy:)",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Lil Red",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3411708/"
+                }
+            }
+        ]
+    }
+]

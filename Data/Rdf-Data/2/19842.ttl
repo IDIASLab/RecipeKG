@@ -1,0 +1,106 @@
+@prefix ns1: <http://purl.org/recipekg/> .
+@prefix ns2: <http://purl.org/heals/food/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/vegetarian-vietnamese-spring-rolls> a schema:Recipe ;
+    ns2:hasIngredient [ a <http://purl.org/recipekg/ingredient/BeanSprouts> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "package" ;
+            ns1:ingredientName "bean sprouts" ],
+        [ a <http://purl.org/recipekg/ingredient/HoisinSauce> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "hoisin sauce" ],
+        [ a <http://purl.org/heals/ingredient/Basil> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "bunch" ;
+            ns1:ingredientName "basil" ],
+        [ a <http://purl.org/heals/ingredient/Cabbage> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "cabbage" ],
+        [ a <http://purl.org/recipekg/ingredient/Cucumber> ;
+            ns1:hasQuantity "1" ;
+            ns1:ingredientName "cucumber" ],
+        [ a <http://purl.org/recipekg/ingredient/Applesauce> ;
+            ns1:hasQuantity "2" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "applesauce" ],
+        [ a <http://purl.org/recipekg/ingredient/RiceNoodles> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "package" ;
+            ns1:ingredientName "rice noodles" ],
+        [ a <http://purl.org/recipekg/ingredient/Daikon> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "daikon" ],
+        [ a <http://purl.org/heals/ingredient/Carrot> ;
+            ns1:hasQuantity "2" ;
+            ns1:ingredientName "carrot" ],
+        [ a <http://purl.org/recipekg/ingredient/IcebergLettuce> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "head" ;
+            ns1:ingredientName "iceberg lettuce" ],
+        [ a <http://purl.org/recipekg/ingredient/Mizuna> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "bunch" ;
+            ns1:ingredientName "mizuna" ],
+        [ a <http://purl.org/recipekg/ingredient/Rice> ;
+            ns1:hasQuantity "8" ;
+            ns1:ingredientName "rice" ] ;
+    ns1:belongsTo <http://purl.org/recipekg/categories/appetizers-and-snacks/wraps-and-rolls/> ;
+    ns1:hasFSAScore 4 ;
+    ns1:hasNutritionalInformation [ a ns1:NutritionalInformation ;
+            ns1:hasCalorificData [ a ns1:CalorificData ;
+                    ns1:hasAmount "454.2"^^xsd:float ;
+                    ns1:hasUnit "calories" ] ;
+            ns1:hasCarbohydrateData [ a ns1:CarbohydrateData ;
+                    ns1:hasAmount "97.2"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasCholesterolData [ a ns1:CholesterolData ;
+                    ns1:hasAmount "1.9"^^xsd:float ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasFatData [ a ns1:FatData ;
+                    ns1:hasAmount "3.4"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasFiberData [ a ns1:FiberData ;
+                    ns1:hasAmount "7.9"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasProteinData [ a ns1:ProteinData ;
+                    ns1:hasAmount "10.3"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSaturatedFatData [ a ns1:SaturatedFatData ;
+                    ns1:hasAmount "0.6"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAGreen ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSodiumData [ a ns1:SodiumData ;
+                    ns1:hasAmount "1189.1"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasSugarData [ a ns1:SugarData ;
+                    ns1:hasAmount "26.1"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSARed ;
+                    ns1:hasUnit "g" ] ] ;
+    ns1:hasUSDAScore 4 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 3 ;
+            schema:ratingValue "3.6666666666666665"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2017-04-13T02:47:32.000Z"^^schema:date ;
+    schema:name "Vegetarian Vietnamese Spring Rolls"^^xsd:string ;
+    schema:recipeYield "8 spring rolls"^^xsd:string .
+
+ns1:FSAGreen a ns1:FSAColor .
+
+ns1:FSARed a ns1:FSAColor .
+
+<http://purl.org/recipekg/categories/appetizers-and-snacks/> a ns1:RecipeCategory .
+
+<http://purl.org/recipekg/categories/appetizers-and-snacks/wraps-and-rolls/> rdfs:subClassOf <http://purl.org/recipekg/categories/appetizers-and-snacks/> .
+
+ns1:FSAAmber a ns1:FSAColor .
+

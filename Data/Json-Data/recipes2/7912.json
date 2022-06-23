@@ -1,0 +1,169 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/237/world-cuisine/latin-american/",
+                    "name": "Latin American",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/728/world-cuisine/latin-american/mexican/",
+                    "name": "Mexican",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/255071/mexican-squoodles-with-creamy-fire-roasted-green-chile-sauce/",
+        "name": "Mexican Squoodles with Creamy Fire-Roasted Green Chile Sauce",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3884557.jpg",
+            "width": 2725,
+            "height": 2725
+        },
+        "datePublished": "2016-08-24T23:01:42.000Z",
+        "description": "Mexican squash is spiralized into noodles, also known as squoodles, for this dish with a creamy green chile sauce and Mexicorn&reg;.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H12M",
+        "totalTime": "P0DT0H27M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "1 tablespoon olive oil",
+            "\u00bd onion, cut into noodle shapes",
+            "3 cloves garlic, crushed",
+            "4 Mexican squash, cut into noodle shapes",
+            "1 (11 ounce) can Mexican-style corn (such as Green Giant\u00ae Mexicorn\u00ae), drained",
+            "4 ounces Neufchatel cheese, softened",
+            "1 (4 ounce) can fire-roasted diced green chile peppers",
+            "\u00bc cup milk"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat oil in a skillet over medium heat. Add onion and garlic; cook and stir until onion is translucent, about 5 minutes. Stir in squash and corn; cook, stirring frequently, until squash is softened, about 5 minutes. Transfer to individual serving plates.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine Neufchatel cheese, chile peppers, and milk in a blender; blend until sauce is smooth.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat sauce in a saucepan over medium heat until warmed through, 2 to 4 minutes; pour over squash mixture.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Latin American",
+            "Mexican"
+        ],
+        "recipeCuisine": [
+            "Latin American",
+            "Mexican"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "bd.weld"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.3333333333333335,
+            "ratingCount": 3,
+            "itemReviewed": "Mexican Squoodles with Creamy Fire-Roasted Green Chile Sauce",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "216.5 calories",
+            "carbohydrateContent": "25.4 g",
+            "cholesterolContent": "22.8 mg",
+            "fatContent": "10.7 g",
+            "fiberContent": "4.8 g",
+            "proteinContent": "8.2 g",
+            "saturatedFatContent": "4.9 g",
+            "servingSize": null,
+            "sodiumContent": "877.2 mg",
+            "sugarContent": "10.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2016-09-29T04:14:12.81Z",
+                "reviewBody": "Very bland almost no taste.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 1
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "bmcnicho",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3469144/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2016-10-04T18:29:32.673Z",
+                "reviewBody": "This stuff is fantastic. The crisp fresh flavors just grab you and keep you wanting more. The Mexican corn gives it a wonderful twist. I topped it with some shredded cheddar cheese. Thank you for the recipe.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Buckwheat Queen",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/melaniegiovenzana/"
+                }
+            }
+        ]
+    }
+]

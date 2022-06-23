@@ -1,0 +1,147 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/137/drinks/shakes-and-floats/",
+                    "name": "Shakes and Floats Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/261001/ube-milkshake/",
+        "name": "Ube Milkshake",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4570949.jpg",
+            "width": 4032,
+            "height": 3024
+        },
+        "datePublished": "2017-10-25T00:46:43.000Z",
+        "description": "Make yourself a tasty purple milkshake with the addition of ube, aka purple yam. The cooked ube brings nice flavor to the shake!",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H25M",
+        "totalTime": "P0DT0H30M",
+        "recipeYield": "1 milkshake",
+        "recipeIngredient": [
+            "\u00bd ube (purple yam), peeled",
+            "\u00bd cup milk",
+            "1 scoop vanilla ice cream"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place a steamer insert into a saucepan and fill with water to just below the bottom of the steamer. Bring water to a boil. Add ube, cover, and steam until tender, about 20 minutes. Cool until easily handled and cube. Measure 1/4 cup of the cooked ube.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine 1/4 cup ube, milk, and vanilla ice cream in a blender; blend until smooth.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Shakes and Floats Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "yummers"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Ube Milkshake",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "275.4 calories",
+            "carbohydrateContent": "52.7 g",
+            "cholesterolContent": "19 mg",
+            "fatContent": "4.9 g",
+            "fiberContent": "6.4 g",
+            "proteinContent": "8.4 g",
+            "saturatedFatContent": "3 g",
+            "servingSize": null,
+            "sodiumContent": "92 mg",
+            "sugarContent": "10.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-07-19T04:33:20.173Z",
+                "reviewBody": "This is a yummy way to use ube! The shake reminds me of an ube smoothie I tried at my local boba shop. My toddler son also loved it. Thanks for the recipe!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Diana Moutsopoulos",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/dianamoutsopoulos/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2021-03-01T06:10:28.183Z",
+                "reviewBody": "I used half ube and half Hawaii purple yam which is sweeter. I also crushed some ice with it so it\u2019s more like a slush. Delicious!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Rachel G",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/22811804/"
+                }
+            }
+        ]
+    }
+]

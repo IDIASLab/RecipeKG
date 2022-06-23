@@ -1,0 +1,171 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/237/world-cuisine/latin-american/",
+                    "name": "Latin American",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/728/world-cuisine/latin-american/mexican/",
+                    "name": "Mexican",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/263638/fajita-style-vegan-tofu-burrito/",
+        "name": "Fajita-Style Vegan Tofu Burrito",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F798495.jpg",
+            "width": 250,
+            "height": 250
+        },
+        "datePublished": "2018-04-05T23:37:21.000Z",
+        "description": "This is a very simple vegan burrito that has a very good fajita flavor.",
+        "prepTime": "P0DT0H20M",
+        "cookTime": "P0DT0H20M",
+        "totalTime": "P0DT0H40M",
+        "recipeYield": "5 burritos",
+        "recipeIngredient": [
+            "2 tablespoons vegan margarine (such as Earth Balance\u00ae)",
+            "\u00bd yellow squash, thinly sliced",
+            "\u00bd green bell pepper, diced",
+            "\u00bd yellow onion, diced",
+            "\u00bd cup diced jalapeno peppers",
+            "1 (12 ounce) package cubed tofu",
+            "3 tablespoons soy sauce",
+            "1 tablespoon garlic powder",
+            "5 flour tortillas",
+            "2 tablespoons vegan sour cream"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Melt margarine in a large nonstick skillet over medium heat. Add squash, bell pepper, onion, and jalapeno. Simmer to your desired level of doneness, 5 to 10 minutes. Add cubed tofu. Cook and stir until heated through, about 2 minutes. Add soy sauce and garlic powder; cook about 5 minutes more.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Wrap tortillas in a moist paper towel and heat in the microwave on high until soft, about 30 seconds.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Spread a thin layer of vegan sour cream on each tortilla. Add tofu and vegetable mixture and roll up, burrito-style.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Latin American",
+            "Mexican"
+        ],
+        "recipeCuisine": [
+            "Latin American",
+            "Mexican"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "JustinWingo"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.333333333333333,
+            "ratingCount": 3,
+            "itemReviewed": "Fajita-Style Vegan Tofu Burrito",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "356.5 calories",
+            "carbohydrateContent": "44.9 g",
+            "cholesterolContent": null,
+            "fatContent": "14.3 g",
+            "fiberContent": "3.7 g",
+            "proteinContent": "13 g",
+            "saturatedFatContent": "3.5 g",
+            "servingSize": null,
+            "sodiumContent": "1081.5 mg",
+            "sugarContent": "3.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-05-16T22:47:28.717Z",
+                "reviewBody": "cool like it bro",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Benjamin Tortorelli",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/23522850/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2018-04-27T03:19:04.907Z",
+                "reviewBody": "i really don't like the substitution of tofu.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Aliyah Murphy",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/23578746/"
+                }
+            }
+        ]
+    }
+]

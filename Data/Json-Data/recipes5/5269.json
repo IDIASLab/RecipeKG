@@ -1,0 +1,156 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/219/salad/vegetable-salads/",
+                    "name": "Vegetable Salad Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/222942/delicious-spinach-salad/",
+        "name": "Delicious Spinach Salad",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F859472.jpg",
+            "width": 1976,
+            "height": 1976
+        },
+        "datePublished": "2019-07-10T07:03:30.000Z",
+        "description": "My take on baby spinach leaves, dressed with crumbly feta cheese, veggies, and a light dash of red wine vinegar, lemon juice, and olive oil.",
+        "prepTime": "P0DT0H20M",
+        "cookTime": null,
+        "totalTime": "P0DT0H20M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "8 cups baby spinach leaves",
+            "2 carrots, sliced",
+            "\u00bc cup croutons, or as desired",
+            "2 green onions, sliced",
+            "\u00bc cup sliced black olives",
+            "\u00bc cup crumbled feta cheese, or more to taste",
+            "\u00bc cup drained and rinsed black beans, or more to taste",
+            "\u00bc cup toasted pine nuts",
+            "2 tablespoons extra-virgin olive oil",
+            "2 tablespoons red wine vinegar",
+            "\u00bd lemon, juiced",
+            "salt and ground black pepper to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Mix spinach, carrots, croutons, green onions, black olives, feta cheese, black beans, and pine nuts together in a large bowl.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Whisk olive oil, vinegar, lemon juice, salt, and pepper together in a small bowl. Drizzle over spinach mixture; stir to coat.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad",
+            "Vegetable Salad Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Allrecipes Member"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Delicious Spinach Salad",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "198.2 calories",
+            "carbohydrateContent": "12.7 g",
+            "cholesterolContent": "8.3 mg",
+            "fatContent": "14.5 g",
+            "fiberContent": "4.3 g",
+            "proteinContent": "6.8 g",
+            "saturatedFatContent": "3.2 g",
+            "servingSize": null,
+            "sodiumContent": "326.7 mg",
+            "sugarContent": "2.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2012-07-10T20:25:52.28Z",
+                "reviewBody": "This is a tasty and simple salad. I left out the olives as we don t care for them. I also used slivered almonds as I had them on hand and pine nuts are so incredibly expensive. The dressing is a little on the tart side but has a nice fresh taste. I enjoyed the addition of the feta cheese as well. This was a great use of my fresh garden spinach.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Pam Ziegler Lutz",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/pam-3boysmama/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2012-12-30T00:28:57.767Z",
+                "reviewBody": "this is the first time making it.... and my family love it... all agree to give 5 stars!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "gonzalezlovetocook",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/gonzalezlovetocook/"
+                }
+            }
+        ]
+    }
+]

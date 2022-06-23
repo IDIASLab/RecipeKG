@@ -1,0 +1,117 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/260790/hot-chocolate-frosting/",
+        "name": "Hot Chocolate Frosting",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Hot Chocolate Frosting"
+        },
+        "datePublished": "2019-04-04T04:10:00.000Z",
+        "description": "A quick chocolate frosting made out of things from around the house.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "1 cup",
+        "recipeIngredient": [
+            "1 cup confectioners' sugar",
+            "1 (1.1 oz) package instant hot cocoa mix",
+            "2 tablespoons water"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine confectioners' sugar and hot cocoa mix together in a small bowl. Mix in water.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Nathan C"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Hot Chocolate Frosting",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "151.9 calories",
+            "carbohydrateContent": "37.2 g",
+            "cholesterolContent": "0.2 mg",
+            "fatContent": "0.8 g",
+            "fiberContent": "0.2 g",
+            "proteinContent": "0.5 g",
+            "saturatedFatContent": "0.5 g",
+            "servingSize": null,
+            "sodiumContent": "50.8 mg",
+            "sugarContent": "36.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-11-06T11:07:38.75Z",
+                "reviewBody": "Made it to spec. It was a bit runny and very sugar tasting. I added small amounts of unsweetened cocoa powder to thicken and get the taste to my liking. It ended up equaling about 2 Tbsp unsweetened cocoa powder to get a fudge-like taste.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "bbewlisa",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/17902727/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,156 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/81/side-dish/",
+                    "name": "Side Dish",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/225/side-dish/vegetables/",
+                    "name": "Vegetables",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/925/side-dish/vegetables/green-beans/",
+                    "name": "Green Beans",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/267891/quick-smoky-green-beans/",
+        "name": "Quick, Smoky Green Beans",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5890099.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2019-10-09T01:50:01.000Z",
+        "description": "Instead of using smoked pork fat, try this other smoky ingredient - smoked salt - for a healthier version of green beans.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "2 tablespoons olive oil",
+            "1 tablespoon sesame seeds",
+            "\u00bd (16 ounce) package frozen green beans, defrosted",
+            "1 tablespoon bacon bits",
+            "\u00bd teaspoon hickory smoked salt, or to taste",
+            "1 pinch garlic powder, or to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat oil in a pan over medium heat until shimmering. Add sesame seeds and cook for 1 minute; watch carefully as seeds burn quickly. Add green beans, bacon bits, smoked salt, and garlic powder. Cook and stir until beans are hot, about 3 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Side Dish",
+            "Vegetables",
+            "Green Beans"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Teresa"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.5,
+            "ratingCount": 2,
+            "itemReviewed": "Quick, Smoky Green Beans",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "195.7 calories",
+            "carbohydrateContent": "8.7 g",
+            "cholesterolContent": "2.5 mg",
+            "fatContent": "16.5 g",
+            "fiberContent": "3.5 g",
+            "proteinContent": "3.8 g",
+            "saturatedFatContent": "2.4 g",
+            "servingSize": null,
+            "sodiumContent": "686.3 mg",
+            "sugarContent": "3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-11-05T21:44:06.23Z",
+                "reviewBody": "Be careful when you add the green beans to the hot oil and sesame seeds. I had sesame seeds all over my cooktop. If I make this again I'll omit the sesame seeds. They don't add much.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Jomork",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2524607/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2018-10-23T10:04:25.983Z",
+                "reviewBody": "Simple and straight forward and the perfect side dish to a meal. I do feel the sesame seeds were out of place in this and I will omit them next time.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

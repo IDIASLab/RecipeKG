@@ -1,0 +1,143 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/372/desserts/candy/",
+                    "name": "Candy Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/749/desserts/candy/chocolate-candy/",
+                    "name": "Chocolate Candy Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/233168/mini-chocolate-cups/",
+        "name": "Mini Chocolate Cups",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3277937.jpg",
+            "width": 3628,
+            "height": 2722
+        },
+        "datePublished": "2018-07-19T13:04:19.000Z",
+        "description": "These are awesome chocolate cups! Perfect for all occasions! You can serve them for dessert and put strawberries inside. These are extra great. (You can use all kinds of chocolate.) You may need to make more layers than included in the recipe below.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H55M",
+        "recipeYield": "20 chocolate cups",
+        "recipeIngredient": [
+            "12 (1 ounce) squares semisweet chocolate",
+            "20 mini paper muffin cups"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Melt the chocolate in the top of a double boiler over simmering water, stirring frequently and scraping down the sides with a rubber spatula to avoid scorching.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Brush a thin layer of chocolate into each muffin cup. Refrigerate cups until chocolate is firm, about 5 minutes. Repeat chocolate layers until cup is thickened, 7 to 10 more times. Chocolate may need to be melted again.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Carefully peel paper cup off away from the chocolate cups.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Candy Recipes",
+            "Chocolate Candy Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Zappet"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Mini Chocolate Cups",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "84 calories",
+            "carbohydrateContent": "9.6 g",
+            "cholesterolContent": null,
+            "fatContent": "5.4 g",
+            "fiberContent": "1.2 g",
+            "proteinContent": "1.2 g",
+            "saturatedFatContent": "3 g",
+            "servingSize": null,
+            "sodiumContent": null,
+            "sugarContent": "8.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2016-02-18T18:20:06.073Z",
+                "reviewBody": "Awesome! I love how easy there were to make and they could be filled with pretty much anything. I plan to make these again and fill them with mousse YUM! Thanks for sharing.:)",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Christina",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/christina/"
+                }
+            }
+        ]
+    }
+]

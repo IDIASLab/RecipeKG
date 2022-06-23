@@ -1,0 +1,133 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/219/salad/vegetable-salads/",
+                    "name": "Vegetable Salad Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/232709/colorful-mango-salad/",
+        "name": "Colorful Mango Salad",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Colorful Mango Salad"
+        },
+        "datePublished": "2017-06-22T13:01:57.000Z",
+        "description": "A fresh, colorful, crunchy, and healthy salad that's a big hit at any potluck or for meals at home. People can't believe how easy and tasty it is! And so pretty!",
+        "prepTime": "P0DT0H15M",
+        "cookTime": null,
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "24 servings",
+        "recipeIngredient": [
+            "3 large ripe mangoes, peeled and cut into long, thin strips",
+            "2 red bell peppers, cut into long, thin strips",
+            "2 jicamas, peeled and cut into long, thin strips",
+            "1 pint fresh blueberries, or more to taste",
+            "4 limes, each cut into 6 wedges"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Toss mango, red bell pepper, and jicama together in a large salad. Add blueberries and toss gently to mix.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cut a slit into each lime wedge and arrange around the edge of the salad bowl to be squeezed over individual salad portions.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad",
+            "Vegetable Salad Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Daisicle"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Colorful Mango Salad",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "60.1 calories",
+            "carbohydrateContent": "15.1 g",
+            "cholesterolContent": null,
+            "fatContent": "0.3 g",
+            "fiberContent": "4.2 g",
+            "proteinContent": "0.9 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "3.7 mg",
+            "sugarContent": "8.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-08-24T00:41:17.08Z",
+                "reviewBody": "This may sound like an odd combination of ingredients but it it worked wonderfully. It was light, refreshing, and very colorful. I did feel it needed just a little something more so I added Tajin to mine and that did the trick.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

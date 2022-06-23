@@ -1,0 +1,161 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/13290/main-dish/seafood/",
+                    "name": "Seafood Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/13293/main-dish/seafood/salmon/",
+                    "name": "Salmon",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 6,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/15846/main-dish/seafood/salmon/baked-salmon/",
+                    "name": "Baked Salmon Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/275217/healthy-dijon-salmon-for-one/",
+        "name": "Healthy Dijon Salmon for One",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6970586.jpg",
+            "width": 2048,
+            "height": 2048
+        },
+        "datePublished": "2019-08-12T20:16:22.000Z",
+        "description": "As a college student, I find myself cooking for one all the time. It is not easy to find meals where this type of portion is easily obtained, but I created a recipe where it is extremely simple for those of us who always cook for one!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H20M",
+        "totalTime": "P0DT0H30M",
+        "recipeYield": "1 serving",
+        "recipeIngredient": [
+            "3 tablespoons lemon juice",
+            "2 teaspoons honey Dijon mustard",
+            "1 green onion, chopped",
+            "1 teaspoon freshly grated ginger",
+            "1 (8 ounce) salmon fillet",
+            "ground black pepper to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat the oven to 350 degrees F (175 degrees C).\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Mix lemon juice, mustard, green onion, and ginger together in a bowl. Set aside.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place salmon into a baking dish. Spread mustard mixture over salmon and sprinkle with black pepper.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated oven until salmon flakes easily with a fork, 20 to 30 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Seafood Main Dishes",
+            "Salmon",
+            "Baked Salmon Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Emily"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 1,
+            "itemReviewed": "Healthy Dijon Salmon for One",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "383.6 calories",
+            "carbohydrateContent": "5.5 g",
+            "cholesterolContent": "110.3 mg",
+            "fatContent": "21.7 g",
+            "fiberContent": "0.8 g",
+            "proteinContent": "39.2 g",
+            "saturatedFatContent": "4.4 g",
+            "servingSize": null,
+            "sodiumContent": "360 mg",
+            "sugarContent": "0.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-08-26T05:22:32.1Z",
+                "reviewBody": "I love salmon and generally like the other ingredients but combined it had too much acidic flavor(lemon honey Dijon). I won t make this again.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "thedailygourmet",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/thedailygourmet/"
+                }
+            }
+        ]
+    }
+]

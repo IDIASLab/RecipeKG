@@ -1,0 +1,135 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/151/breakfast-and-brunch/pancakes/",
+                    "name": "Pancake Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/236960/shalvies-passover-pancakes/",
+        "name": "Shalvie's Passover Pancakes",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1121895.jpg",
+            "width": 2448,
+            "height": 3264
+        },
+        "datePublished": "2018-06-08T14:13:39.000Z",
+        "description": "I was looking for a good Passover pancake recipe and failed to find one I liked the look of. Through some trial and error (and some suggestions from my mother-in-law), I came up with this one, and it was a big hit. If you don't put in chocolate chips it tastes nice with some jam.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "\u00bd cup matzo meal",
+            "\u00bd cup milk",
+            "\u00bc cup almond meal",
+            "\u00bc cup chocolate chips, or to taste",
+            "2 eggs, beaten",
+            "\u00bd teaspoon vanilla sugar",
+            "\u00bd teaspoon ground cinnamon",
+            "\u00bd teaspoon salt"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Stir matzo meal, milk, ground almonds, chocolate chips, eggs, vanilla sugar, cinnamon, and salt together in a bowl.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat a lightly oiled griddle over medium heat. Drop batter by large spoonfuls onto the griddle and cook until the edges start to dry and are browned dry, about 2 minutes. Flip and cook until browned on the other side, about 2 minutes more. Repeat with remaining batter.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Pancake Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Shalvie"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Shalvie's Passover Pancakes",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "341.7 calories",
+            "carbohydrateContent": "39 g",
+            "cholesterolContent": "190.9 mg",
+            "fatContent": "15.3 g",
+            "fiberContent": "2.4 g",
+            "proteinContent": "17.3 g",
+            "saturatedFatContent": "6.3 g",
+            "servingSize": null,
+            "sodiumContent": "680.3 mg",
+            "sugarContent": "15.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2014-04-20T11:55:53.33Z",
+                "reviewBody": "Kids loved it. I like that its a little different and incorporates nuts. I made mine on a skillet over the stove with a little oil. Serve with maple syrup, yum!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Elizabeth Moser",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/1872416/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,145 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/92/meat-and-poultry/",
+                    "name": "Meat and Poultry",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/201/meat-and-poultry/chicken/",
+                    "name": "Chicken",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/659/meat-and-poultry/chicken/chicken-breasts/",
+                    "name": "Breast",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/172810/scottish-chicken-with-haggis/",
+        "name": "Scottish Chicken with Haggis",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Scottish Chicken with Haggis"
+        },
+        "datePublished": "2019-04-02T06:50:56.000Z",
+        "description": "This is a boneless chicken breast stuffed with haggis and wrapped in Parma ham (prosciutto).",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H25M",
+        "totalTime": "P0DT0H40M",
+        "recipeYield": "4 chicken breasts",
+        "recipeIngredient": [
+            "4 (6 ounce) skinless, boneless chicken breast halves",
+            "1 cup canned haggis",
+            "8 thin slices  prosciutto"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat an oven to 350 degrees F (175 degrees C). Line a baking sheet with aluminum foil, and spray with cooking spray.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Lay a chicken breast flat onto your work surface. Use the tip of a sharp boning or paring knife to cut a pocket in the chicken breast through a 2 inch slit in the side. Repeat with the remaining chicken breasts. Stuff each chicken breast with 1/4 cup of the haggis. Wrap 2 pieces of the prosciutto tightly around each piece of chicken. Place the wrapped breasts onto the prepared baking sheet.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cover the chicken breasts with a sheet of aluminum foil and place into the preheated oven. Bake for 15 minutes, remove the foil cover, and turn the breasts over. Continue baking until the chicken is no longer pink and the prosciutto has crisped, 10 to 15 minutes. An instant-read thermometer inserted into the center of the haggis should read at least 165 degrees F (74 degrees C).\n"
+            }
+        ],
+        "recipeCategory": [
+            "Meat and Poultry",
+            "Chicken",
+            "Breast"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Janice"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Scottish Chicken with Haggis",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "344.8 calories",
+            "carbohydrateContent": "7.2 g",
+            "cholesterolContent": "111.8 mg",
+            "fatContent": "14.6 g",
+            "fiberContent": "1.2 g",
+            "proteinContent": "42.9 g",
+            "saturatedFatContent": "5.9 g",
+            "servingSize": null,
+            "sodiumContent": "636.1 mg",
+            "sugarContent": null,
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2012-04-13T15:33:21.37Z",
+                "reviewBody": "Could not find canned Haggis so I sauted finely chopped onions and ground beef together and seasoned it with salt red pepper and a bit of chili powder. Then stuffed the breasts with it and followed the recipe. It was GOOD!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Bob Seale",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3582601/"
+                }
+            }
+        ]
+    }
+]

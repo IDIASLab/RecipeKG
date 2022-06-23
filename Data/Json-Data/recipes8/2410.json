@@ -1,0 +1,139 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/535/main-dish/dumplings/",
+                    "name": "Dumpling Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/233891/noodles-and-watermelon/",
+        "name": "Noodles and Watermelon",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2028432.jpg",
+            "width": 4608,
+            "height": 3456
+        },
+        "datePublished": "2020-06-20T01:50:47.000Z",
+        "description": "We had this at my Grandmother's house. She's from Germany. If you like salt on your watermelon you'll like this.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H25M",
+        "recipeYield": "12 noodles",
+        "recipeIngredient": [
+            "2 cups all-purpose flour",
+            "\u00be cup milk",
+            "4 teaspoons baking powder",
+            "\u00bd teaspoon salt",
+            "1 tablespoon bacon grease",
+            "1 cup water",
+            "salt to taste",
+            "1 large watermelon, sliced into wedges"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine flour, milk, baking powder, and 1/2 teaspoon salt together in a bowl until dough is well mixed.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Melt bacon grease in a skillet over medium heat; add water and salt to taste.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Form dough into 2x3/4-inch rectangles. Place dough rectangles in the bacon grease mixture, leaving a small space between each. Cover skillet with a tight-fitting lid; steam and fry until dumplings are browned, 10 to 15 minutes. Serve dumplings with sliced watermelon.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Dumpling Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Shrike0064"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Noodles and Watermelon",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "309.3 calories",
+            "carbohydrateContent": "73.7 g",
+            "cholesterolContent": "1.2 mg",
+            "fatContent": "1.6 g",
+            "fiberContent": "3.6 g",
+            "proteinContent": "7.2 g",
+            "saturatedFatContent": "0.3 g",
+            "servingSize": null,
+            "sodiumContent": "274.2 mg",
+            "sugarContent": "47.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2015-02-04T20:12:09.77Z",
+                "reviewBody": "I made this on a dare and I surprisingly liked it. The dumplings were a bit thick for me, but maybe that is how they are supposed to be? The dumplings by themselves were a little dry but when you eat a bite of dumpling with the melon, it all changes.. yummy",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Linda T",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/lindat/"
+                }
+            }
+        ]
+    }
+]

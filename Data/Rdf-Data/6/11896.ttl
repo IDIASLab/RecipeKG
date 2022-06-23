@@ -1,0 +1,100 @@
+@prefix ns1: <http://purl.org/heals/food/> .
+@prefix ns2: <http://purl.org/recipekg/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/hawaiian-inspired-baby-back-ribs-for-the-slow-cooker> a schema:Recipe ;
+    ns1:hasIngredient [ a <http://purl.org/heals/ingredient/SesameOil> ;
+            ns2:hasQuantity "2" ;
+            ns2:hasUnit "tablespoon" ;
+            ns2:ingredientName "sesame oil" ],
+        [ a <http://purl.org/heals/ingredient/BlackPepper> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "teaspoon" ;
+            ns2:ingredientName "black pepper" ],
+        [ a <http://purl.org/recipekg/ingredient/HoisinSauce> ;
+            ns2:hasQuantity "2" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "hoisin sauce" ],
+        [ a <http://purl.org/recipekg/ingredient/PorkBaby> ;
+            ns2:hasQuantity "1" ;
+            ns2:ingredientName "pork baby" ],
+        [ a <http://purl.org/heals/ingredient/Onion> ;
+            ns2:hasQuantity "3" ;
+            ns2:ingredientName "onion" ],
+        [ a <http://purl.org/recipekg/ingredient/PineappleJuice> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "pineapple juice" ],
+        [ a <http://purl.org/heals/ingredient/BrownSugar> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "tablespoon" ;
+            ns2:ingredientName "brown sugar" ],
+        [ a <http://purl.org/heals/ingredient/Garlic> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "tablespoon" ;
+            ns2:ingredientName "garlic" ],
+        [ ],
+        [ a <http://purl.org/recipekg/ingredient/Ginger> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "tablespoon" ;
+            ns2:ingredientName "ginger" ],
+        [ a <http://purl.org/recipekg/ingredient/RiceWineVinegar> ;
+            ns2:hasQuantity "2" ;
+            ns2:hasUnit "tablespoon" ;
+            ns2:ingredientName "rice wine vinegar" ] ;
+    ns2:belongsTo <http://purl.org/recipekg/categories/meat-and-poultry/pork/ribs/baby-back-ribs/> ;
+    ns2:hasFSAScore 0 ;
+    ns2:hasNutritionalInformation [ a ns2:NutritionalInformation ;
+            ns2:hasCalorificData [ a ns2:CalorificData ;
+                    ns2:hasAmount "777.1"^^xsd:float ;
+                    ns2:hasUnit "calories" ] ;
+            ns2:hasCarbohydrateData [ a ns2:CarbohydrateData ;
+                    ns2:hasAmount "72.5"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasCholesterolData [ a ns2:CholesterolData ;
+                    ns2:hasAmount "120.9"^^xsd:float ;
+                    ns2:hasUnit "mg" ] ;
+            ns2:hasFatData [ a ns2:FatData ;
+                    ns2:hasAmount "40.9"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSARed ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasFiberData [ a ns2:FiberData ;
+                    ns2:hasAmount "4.8"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasProteinData [ a ns2:ProteinData ;
+                    ns2:hasAmount "29.3"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasSaturatedFatData [ a ns2:SaturatedFatData ;
+                    ns2:hasAmount "12.7"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSARed ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasSodiumData [ a ns2:SodiumData ;
+                    ns2:hasAmount "2156.4"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSARed ;
+                    ns2:hasUnit "mg" ] ;
+            ns2:hasSugarData [ a ns2:SugarData ;
+                    ns2:hasAmount "44.4"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSARed ;
+                    ns2:hasUnit "g" ] ] ;
+    ns2:hasUSDAScore 2 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 1 ;
+            schema:ratingValue "1"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2020-03-05T05:15:59.000Z"^^schema:date ;
+    schema:name "Hawaiian-Inspired Baby Back Ribs for the Slow Cooker"^^xsd:string ;
+    schema:recipeYield "4 servings"^^xsd:string .
+
+<http://purl.org/recipekg/categories/meat-and-poultry/> a ns2:RecipeCategory .
+
+<http://purl.org/recipekg/categories/meat-and-poultry/pork/> rdfs:subClassOf <http://purl.org/recipekg/categories/meat-and-poultry/> .
+
+<http://purl.org/recipekg/categories/meat-and-poultry/pork/ribs/> rdfs:subClassOf <http://purl.org/recipekg/categories/meat-and-poultry/pork/> .
+
+<http://purl.org/recipekg/categories/meat-and-poultry/pork/ribs/baby-back-ribs/> rdfs:subClassOf <http://purl.org/recipekg/categories/meat-and-poultry/pork/ribs/> .
+
+ns2:FSARed a ns2:FSAColor .
+

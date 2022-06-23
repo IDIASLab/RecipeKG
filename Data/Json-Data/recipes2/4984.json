@@ -1,0 +1,161 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/82/trusted-brands-recipes-and-tips/",
+                    "name": "Trusted Brands: Recipes and Tips",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/16010/trusted-brands-recipes-and-tips/knorr/",
+                    "name": "Knorr&reg;",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/245981/korean-bbq-beef-tacos/",
+        "name": "Korean BBQ Beef Tacos",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3296563.jpg",
+            "width": 960,
+            "height": 960
+        },
+        "datePublished": "2016-01-16T01:37:21.000Z",
+        "description": "Try these Korean BBQ tacos tonight; they're packed with flavor and ready in 30 minutes!",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H25M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "1 tablespoon vegetable oil, warmed",
+            "1 Knorr\u00ae beef flavored bouillon cube",
+            "1 pound skirt steak, cut into 3-inch pieces",
+            "1 (6.4 ounce) package Knorr\u00ae Menu Flavors Rice Sides\u2122 - Asian BBQ",
+            "\u00bd cup shredded carrot",
+            "\u00bd cup thinly sliced snow peas",
+            "2 green onions, thinly sliced",
+            "1 tablespoon lime juice",
+            "8 (6 inch) flour tortillas, warmed"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine oil with Knorr&reg; Beef flavor Bouillon Cube in small cup, mashing with fork until blended; rub over steak.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cook steak in large nonstick skillet over medium-high heat until desired doneness. Remove steak and set aside. Prepare Knorr&reg; Menu Flavors Rice Sides&trade; - Asian BBQ in same skillet according to package directions.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Meanwhile, combine carrot, snow peas, green onions and lime juice in medium bowl; set aside.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Thinly slice steak. Evenly divide rice between tortillas. Top with steak, then vegetable mixture.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Trusted Brands: Recipes and Tips",
+            "Knorr&reg;"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Knorr"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 2,
+            "itemReviewed": "Korean BBQ Beef Tacos",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "506.6 calories",
+            "carbohydrateContent": "70.3 g",
+            "cholesterolContent": "25.2 mg",
+            "fatContent": "13.7 g",
+            "fiberContent": "4.1 g",
+            "proteinContent": "23.3 g",
+            "saturatedFatContent": "3.7 g",
+            "servingSize": null,
+            "sodiumContent": "1044.2 mg",
+            "sugarContent": "2.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2016-02-23T20:29:24.547Z",
+                "reviewBody": "I used a mixture of grape seed oil, tamari, and Montreal steak seasoning. Other than this minor change I followed the recipe. I like the crunch the carrot slaw provided. I may make it again sometime",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "thedailygourmet",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/thedailygourmet/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2018-05-09T04:18:33.817Z",
+                "reviewBody": "I slow cooked on low for 6 hours and the liquid burned. The meat was tender with just a touch of bite so I quickly put together a Korean bbq sauce (recipe on Allrecipes) and used it instead of the cooking liquid. Some sour cream and sriracha finished off the tacos nicely.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "steve s.",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/17652480/"
+                }
+            }
+        ]
+    }
+]

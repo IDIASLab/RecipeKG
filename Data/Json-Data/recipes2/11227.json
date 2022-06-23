@@ -1,0 +1,175 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/133/drinks/cocktails/",
+                    "name": "Cocktail Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1744/drinks/cocktails/whiskey-drinks/",
+                    "name": "Whiskey Drinks Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/217146/vieux-carre/",
+        "name": "Vieux Carre",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1083120.jpg",
+            "width": 1536,
+            "height": 2048
+        },
+        "datePublished": "2017-07-27T13:00:42.000Z",
+        "description": "A classic old New Orleans cocktail. This one combines cognac and rye, with bitters, and sweet vermouth.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "1 cocktail",
+        "recipeIngredient": [
+            "1\u2009\u00bd cups ice",
+            "1\u2009\u00bd fluid ounces cognac",
+            "\u00bd fluid ounce rye whiskey",
+            "\u215b ounce Benedictine\u00ae liqueur",
+            "\u00bd fluid ounce sweet vermouth",
+            "1 dash Peychaud bitters",
+            "1 dash Angostura bitters",
+            "1 (2 inch) piece lemon peel for garnish"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Fill a short cocktail glass with ice. Pour in cognac, whiskey, Benedictine, and sweet vermouth. Add Peychaud and Angostura bitters. Twist a lemon peel over the drink and drop it in.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Cocktail Recipes",
+            "Whiskey Drinks Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Lorem Ipsum"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.25,
+            "ratingCount": 4,
+            "itemReviewed": "Vieux Carre",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "223 calories",
+            "carbohydrateContent": "2.7 g",
+            "cholesterolContent": null,
+            "fatContent": null,
+            "fiberContent": "0.1 g",
+            "proteinContent": null,
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "13.1 mg",
+            "sugarContent": "1.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2014-01-02T18:56:42.717Z",
+                "reviewBody": "Buying all the ingredients for this really gave me a well-stocked bar! The cocktail had a really complex flavor--like something you'd get at a fancy cocktail bar but it was very simple to make once I had all the ingredients. Strong too!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Seth Kolloen",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/4734142/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2013-12-27T17:28:02.123Z",
+                "reviewBody": "I wasn't able to follow the recipe exactly (used B&B instead of cognac and Benedictine in the suggested amounts and couldn't locate Peychaud's bitters) but it was a tasty drink nonetheless.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Chris Arnberg",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/12274409/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2018-02-14T08:50:29.597Z",
+                "reviewBody": "I think I was expecting more. It was nice.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "vkjackson",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/970510/"
+                }
+            }
+        ]
+    }
+]

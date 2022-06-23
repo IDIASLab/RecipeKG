@@ -1,0 +1,143 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17281/desserts/nut-desserts/",
+                    "name": "Nut Dessert Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17285/desserts/nut-desserts/almond-desserts/",
+                    "name": "Almond Dessert Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/245432/awesome-no-bake-almond-coconut-balls/",
+        "name": "Awesome \"No-Bake\" Almond Coconut Balls",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3506527.jpg",
+            "width": 3456,
+            "height": 3456
+        },
+        "datePublished": "2019-04-02T07:05:34.000Z",
+        "description": "These are healthy, delicious, and packed with protein!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT2H10M",
+        "recipeYield": "12 almond coconut balls",
+        "recipeIngredient": [
+            "\u00bd cup shredded coconut, divided",
+            "1 cup almond butter",
+            "\u00bc cup finely chopped almonds",
+            "\u00bc cup coconut oil",
+            "2 tablespoons honey",
+            "1 teaspoon vanilla extract"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place 1/4 cup shredded coconut in a shallow bowl. Line a large plate with parchment paper.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine almond butter, 1/4 cup of the shredded coconut, almonds, coconut oil, and honey in a bowl; mix until a firm paste forms. Form almond butter mixture into balls, roll in shredded coconut, and place on the lined plate. Chill until firm, 2 to 3 hours.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Nut Dessert Recipes",
+            "Almond Dessert Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "genalynne"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 2,
+            "ratingCount": 1,
+            "itemReviewed": "Awesome \"No-Bake\" Almond Coconut Balls",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "219.7 calories",
+            "carbohydrateContent": "8.7 g",
+            "cholesterolContent": null,
+            "fatContent": "20.4 g",
+            "fiberContent": "1.6 g",
+            "proteinContent": "3.8 g",
+            "saturatedFatContent": "7.4 g",
+            "servingSize": null,
+            "sodiumContent": "95.4 mg",
+            "sugarContent": "4.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2016-04-20T03:02:31.3Z",
+                "reviewBody": "I followed the recipe exactly except for cutting it in half. The mixture wouldn't roll into a ball at all. The best I could hope for were globs to roll in the coconut. I also had to put more coconut in a bowl for rolling because there wasn't enough. Since this is a \"healthy\" recipe I used unsweetened coconut. The final product wasn't sweet enough either.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 2
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Paula",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/paula1/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,132 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/227/world-cuisine/asian/",
+                    "name": "Asian",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/234693/thai-coconut-pork-curry/",
+        "name": "Thai Coconut Pork Curry",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3216829.jpg",
+            "width": 2000,
+            "height": 2001
+        },
+        "datePublished": "2013-09-27T22:15:16.000Z",
+        "description": "A spicy, yet tasty, pork recipe in which some ingredients can be excluded. Serve hot with steamed jasmine rice and garnish with toasted almond flakes and lime wedges.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H20M",
+        "totalTime": "P0DT0H25M",
+        "recipeYield": "5 servings",
+        "recipeIngredient": [
+            "1 tablespoon vegetable oil",
+            "1\u2009\u00bc pounds lean pork, cut into cubes",
+            "2\u2009\u00bd cups Thai-style coconut curry stir-fry sauce (such as KanTong\u00ae)"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat oil in a large saucepan over high heat; cook pork in hot oil until completely browned, about 5 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour stir-fry sauce into the saucepan, bring to a simmer, and cook until the pork is cooked through, 15 to 20 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Asian"
+        ],
+        "recipeCuisine": [
+            "Asian"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "COOKMASTER2"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Thai Coconut Pork Curry",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "223.9 calories",
+            "carbohydrateContent": "3.3 g",
+            "cholesterolContent": "63.2 mg",
+            "fatContent": "12.6 g",
+            "fiberContent": "0.2 g",
+            "proteinContent": "23 g",
+            "saturatedFatContent": "2.9 g",
+            "servingSize": null,
+            "sodiumContent": "435.6 mg",
+            "sugarContent": "0.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2016-02-23T20:29:24.5Z",
+                "reviewBody": "Not too spicy and it had a terrific flavor.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "thedailygourmet",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/thedailygourmet/"
+                }
+            }
+        ]
+    }
+]

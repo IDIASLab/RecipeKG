@@ -1,0 +1,175 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/213/salad/green-salads/",
+                    "name": "Green Salad Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/15111/salad/green-salads/spinach-salad/",
+                    "name": "Spinach Salad Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/237170/spinach-and-goat-cheese-salad/",
+        "name": "Spinach and Goat Cheese Salad",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1129943.jpg",
+            "width": 3120,
+            "height": 3120
+        },
+        "datePublished": "2014-07-12T06:00:19.000Z",
+        "description": "Quick, easy, and tasty salad!",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "2 cups spinach leaves",
+            "\u00bd apple - peeled, cored, and diced",
+            "2 ounces crumbled goat cheese",
+            "2 ounces walnuts"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Put 1 cup spinach into each of 2 bowls.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Sprinkle apple, goat cheese, and walnuts over the spinach.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad",
+            "Green Salad Recipes",
+            "Spinach Salad Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Rachel True"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 3,
+            "itemReviewed": "Spinach and Goat Cheese Salad",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "313.4 calories",
+            "carbohydrateContent": "10.5 g",
+            "cholesterolContent": "22.4 mg",
+            "fatContent": "27.1 g",
+            "fiberContent": "3.4 g",
+            "proteinContent": "11.4 g",
+            "saturatedFatContent": "7.6 g",
+            "servingSize": null,
+            "sodiumContent": "170.6 mg",
+            "sugarContent": "5.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2014-11-23T19:14:19.953Z",
+                "reviewBody": "Very light and yummy...had with homemade poppy seed dressing.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Diane Kaye",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2560612/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2014-07-12T21:11:29.74Z",
+                "reviewBody": "Love it! Great with Strawberry Balsamic Vinaigrette or Poppyseed Dressing.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "HealthnutFoodie",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/6776206/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2014-05-21T18:15:04.02Z",
+                "reviewBody": "This is a very basic salad to which so much more can be added but which if left simple is still quite tasty and healthy. I added my favorite dressing - golden balsamic vinegar. Other times I add strawberries and shredded chicken for a heartier lunch. But any way you fix it this salad is delicious!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Paula",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/paula1/"
+                }
+            }
+        ]
+    }
+]

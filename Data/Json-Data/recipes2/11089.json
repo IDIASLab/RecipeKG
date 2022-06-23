@@ -1,0 +1,128 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1822/drinks/mocktails/",
+                    "name": "Mocktail Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/234155/coconut-lime-martinette-alcohol-free/",
+        "name": "Coconut Lime Martinette (Alcohol-Free)",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6797333.jpg",
+            "width": 2736,
+            "height": 3748
+        },
+        "datePublished": "2017-07-13T13:01:27.000Z",
+        "description": "This is a kid-friendly, alcohol-free version of the coconut lime martini. It's fresh, cool, and super tasty!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "8 servings",
+        "recipeIngredient": [
+            "2 cups ice cubes, or as needed",
+            "2 cups pineapple juice",
+            "\u00bd cup fresh lime juice",
+            "\u00bd cup unsweetened coconut cream",
+            "1 lime, cut into 8 wedges"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Fill a pitcher with ice. Pour pineapple juice, lime juice, and coconut cream over ice. Cover pitcher with a secure lid and shake mixture vigorously. Strain mixture into martini glasses and garnish with lime wedges.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Mocktail Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "joderita"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Coconut Lime Martinette (Alcohol-Free)",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "89 calories",
+            "carbohydrateContent": "11.2 g",
+            "cholesterolContent": null,
+            "fatContent": "5.3 g",
+            "fiberContent": "0.8 g",
+            "proteinContent": "0.9 g",
+            "saturatedFatContent": "4.6 g",
+            "servingSize": null,
+            "sodiumContent": "4.2 mg",
+            "sugarContent": "6.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-07-04T02:50:18.307Z",
+                "reviewBody": "I scaled the recipe to 2 servings and after tasting it I added an extra tbs of sweetened cream of coconut. It was still a bit on the tart side. Had I used unsweetened cream of coconut as called for in the recipe it would have been way tooo tart. Overall it was tasty with theses modifications.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Yoly",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/cookingbikerchick/"
+                }
+            }
+        ]
+    }
+]

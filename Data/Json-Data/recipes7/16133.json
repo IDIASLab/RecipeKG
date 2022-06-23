@@ -1,0 +1,173 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/231/world-cuisine/european/",
+                    "name": "European",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/723/world-cuisine/european/italian/",
+                    "name": "Italian",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/258763/traditional-italian-limoncello/",
+        "name": "Traditional Italian Limoncello",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5858693.jpg",
+            "width": 2305,
+            "height": 2305
+        },
+        "datePublished": "2020-06-19T04:22:50.000Z",
+        "description": "Traditional Italian limoncello is typical of the Amalfi coast, a beautiful area around Naples. It's traditionally made with Sorrento lemons, which are large and flavorful and a really unique Italian product.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P21DT0H30M",
+        "recipeYield": "1 quart",
+        "recipeIngredient": [
+            "10 lemons",
+            "1 quart 95% alcohol (190 proof) ",
+            "6 cups water",
+            "4 cups white sugar"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Zest lemons, making sure to get the outermost part of the skin and avoid the white pith.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place lemon zest in a glass bowl and cover with alcohol. Cover and let infuse at room temperature until yellowish in color, about 7 days.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bring water and sugar to the boil in a saucepan, stirring until sugar dissolves. Remove syrup from heat and let cool, about 10 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour alcohol into the syrup through a fine-mesh strainer; discard lemon zest. Stir well.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour limoncello into thick, freezer-safe glass bottles. Store in the freezer for at least 2 weeks before serving.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "European",
+            "Italian"
+        ],
+        "recipeCuisine": [
+            "European",
+            "Italian"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Maria"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Traditional Italian Limoncello",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "184.2 calories",
+            "carbohydrateContent": "25.3 g",
+            "cholesterolContent": null,
+            "fatContent": null,
+            "fiberContent": "0.2 g",
+            "proteinContent": null,
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "1.7 mg",
+            "sugarContent": "25.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-10-15T01:05:19.423Z",
+                "reviewBody": "I followed the recipe exactly. I used a gifted vodka that was very inexpensive. I filtered the vodka through my water pitcher filter 8x. The result was a lovely smooth sweet aperitif~",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Shawna Lynn Smith-Burke",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2263490/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2019-10-11T23:55:23.52Z",
+                "reviewBody": "Love",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Deb",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/12008556/"
+                }
+            }
+        ]
+    }
+]

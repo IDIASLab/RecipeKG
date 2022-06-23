@@ -1,0 +1,173 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/364/desserts/frozen-desserts/",
+                    "name": "Frozen Dessert Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/16178/desserts/frozen-desserts/popsicles/",
+                    "name": "Popsicle Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/233374/frozen-berry-and-spinach-ice-pops/",
+        "name": "Frozen Berry and Spinach Ice Pops",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3448290.jpg",
+            "width": 3456,
+            "height": 3456
+        },
+        "datePublished": "2018-10-04T13:04:14.000Z",
+        "description": "Great for a hot day!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT2H10M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "1 cup milk",
+            "1 cup frozen blueberries",
+            "1 cup frozen cherries",
+            "\u00bd cup Greek yogurt",
+            "\u00bd cup frozen chopped spinach, thawed and drained",
+            "3 tablespoons honey"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Blend milk, blueberries, cherries, yogurt, spinach, and honey in a blender until smooth; pour into ice pop molds. Freeze until solid, at least 2 hours.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Frozen Dessert Recipes",
+            "Popsicle Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Jane"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 3,
+            "itemReviewed": "Frozen Berry and Spinach Ice Pops",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "102.7 calories",
+            "carbohydrateContent": "17.8 g",
+            "cholesterolContent": "7 mg",
+            "fatContent": "2.8 g",
+            "fiberContent": "1.5 g",
+            "proteinContent": "3.2 g",
+            "saturatedFatContent": "1.4 g",
+            "servingSize": null,
+            "sodiumContent": "38.1 mg",
+            "sugarContent": "15.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2016-04-02T20:39:40.403Z",
+                "reviewBody": "I made it exactly by the recipe. Great way to sneak in some leafy greens and make a healthy popsicle!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Paula",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/paula1/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2013-08-07T23:28:27.9Z",
+                "reviewBody": "great way to sneak some green leaves:)",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Mili1985",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/7897284/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2014-02-12T20:21:54.3Z",
+                "reviewBody": "I used 2 cups of mixed berries and it was delicious!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Hmay",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/10664494/"
+                }
+            }
+        ]
+    }
+]

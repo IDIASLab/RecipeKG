@@ -1,0 +1,167 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/81/side-dish/",
+                    "name": "Side Dish",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17031/side-dish/sauces-and-condiments/",
+                    "name": "Sauces and Condiments",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/210/side-dish/sauces-and-condiments/salad-dressings/",
+                    "name": "Salad Dressing Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 6,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/2596/side-dish/sauces-and-condiments/salad-dressings/ranch-dressing/",
+                    "name": "Ranch Dressing Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/261743/easy-vegan-ranch-dressing/",
+        "name": "Easy Vegan Ranch Dressing",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4786601.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2018-06-08T14:46:29.000Z",
+        "description": "Vegan ranch dressing is a great alternative to store-bought dressing!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "1 cup",
+        "recipeIngredient": [
+            "2 avocados",
+            "5 teaspoons raw apple cider vinegar",
+            "1 tablespoon chopped fresh parsley",
+            "1 tablespoon chopped fresh chives",
+            "1 teaspoon chopped fresh dill",
+            "\u00bc teaspoon garlic powder",
+            "salt and ground black pepper to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine avocados, vinegar, parsley, chives, dill, and garlic powder in the bowl of a food processor. Process until smooth. Season with salt and pepper.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Side Dish",
+            "Sauces and Condiments",
+            "Salad Dressing Recipes",
+            "Ranch Dressing Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "cloe12"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Easy Vegan Ranch Dressing",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "81.7 calories",
+            "carbohydrateContent": "4.4 g",
+            "cholesterolContent": null,
+            "fatContent": "7.4 g",
+            "fiberContent": "3.4 g",
+            "proteinContent": "1 g",
+            "saturatedFatContent": "1.1 g",
+            "servingSize": null,
+            "sodiumContent": "23.4 mg",
+            "sugarContent": "0.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-08-19T01:04:12.44Z",
+                "reviewBody": "I used almond milk and it was so good. Family enjoyed this recipe.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Carol",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/24100995/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2017-12-22T11:52:08.483Z",
+                "reviewBody": "This is good but I wouldn't really call it a Ranch Dressing. It is green. Ranch is not green. Again good but not a ranch. You've got to add more liquid (I added olive oil) if you want it smooth and creamy. Good flavor but the title is deceiving.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

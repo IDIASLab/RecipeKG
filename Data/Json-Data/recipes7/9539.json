@@ -1,0 +1,122 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/233248/holiday-cappuccino/",
+        "name": "Holiday Cappuccino",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2895120.jpg",
+            "width": 2058,
+            "height": 2054
+        },
+        "datePublished": "2020-06-19T03:55:18.000Z",
+        "description": "Warm your tummy with a yummy combination of espresso with amaretto, brandy, and cocoa mix. You will love this recipe.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "12 fluid ounces hot brewed espresso",
+            "12 fluid ounces half-and-half",
+            "2 fluid ounces brandy",
+            "2 fluid ounces amaretto liqueur",
+            "1 fluid ounce vanilla extract",
+            "4 teaspoons instant hot chocolate mix",
+            "4 teaspoons white sugar",
+            "4 teaspoons whipped cream, or to taste",
+            "1 teaspoon chocolate shavings, or to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Stir hot espresso, half-and-half, brandy, amaretto, vanilla extract, hot chocolate mix, and sugar together in a saucepan over medium-low heat until the sugar dissolves; cook at a simmer until hot, 2 to 3 minutes. Pour into 4 mugs and top each with whipped cream and chocolate shavings.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Darlene,C."
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Holiday Cappuccino",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "272.3 calories",
+            "carbohydrateContent": "19.1 g",
+            "cholesterolContent": "33.5 mg",
+            "fatContent": "11.4 g",
+            "fiberContent": "0.2 g",
+            "proteinContent": "3 g",
+            "saturatedFatContent": "7.1 g",
+            "servingSize": null,
+            "sodiumContent": "64.7 mg",
+            "sugarContent": "14.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2015-11-30T00:55:38.2Z",
+                "reviewBody": "Yum, yum, yum!!! I didn't change a thing and it was awesome!!!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Jenny Aleman de Bola\u00f1os",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/jennyaleman/"
+                }
+            }
+        ]
+    }
+]

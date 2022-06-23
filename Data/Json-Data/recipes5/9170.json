@@ -1,0 +1,111 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1557/desserts/chocolate/",
+                    "name": "Chocolate Dessert Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/257390/mint-chocolate-smores/",
+        "name": "Mint Chocolate S'mores",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Mint Chocolate S'mores"
+        },
+        "datePublished": "2019-08-30T06:00:02.000Z",
+        "description": "This is one of my son's favorite s'mores variations that we've come up with during his years as a scout. We frequently prepare them during the winter, when the marshmallows and candies are easier to find. They go great with a mug of hot chocolate and a warm campfire after a long day of hiking!",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H1M",
+        "totalTime": "P0DT0H7M",
+        "recipeYield": "1 s'more",
+        "recipeIngredient": [
+            "1 peppermint marshmallow",
+            "1 chocolate graham cracker",
+            "1 creme de menthe thins (such as Andes\u00ae)"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place marshmallow on a stick and heat over an open campfire flame until it begins to brown and melt, 1 to 2 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Break chocolate graham cracker in half; sandwich the hot marshmallow and creme de menthe thin between the halves. Let cool briefly before eating, 1 to 2 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Chocolate Dessert Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Faith N"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Mint Chocolate S'mores",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "59.3 calories",
+            "carbohydrateContent": "12 g",
+            "cholesterolContent": null,
+            "fatContent": "1.2 g",
+            "fiberContent": "0.1 g",
+            "proteinContent": "0.5 g",
+            "saturatedFatContent": "0.5 g",
+            "servingSize": null,
+            "sodiumContent": "33.3 mg",
+            "sugarContent": "8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

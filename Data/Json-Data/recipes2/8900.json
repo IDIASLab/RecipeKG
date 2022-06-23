@@ -1,0 +1,166 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/231/world-cuisine/european/",
+                    "name": "European",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/723/world-cuisine/european/italian/",
+                    "name": "Italian",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/238452/whipped-ricotta-with-honey-and-summer-fruit/",
+        "name": "Whipped Ricotta with Honey and Summer Fruit",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2349322.jpg",
+            "width": 2448,
+            "height": 2448
+        },
+        "datePublished": "2017-01-02T15:01:12.000Z",
+        "description": "This recipe is delightful any time, but especially so on a warm summer evening.",
+        "prepTime": "P0DT0H20M",
+        "cookTime": null,
+        "totalTime": "P0DT0H20M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "\u00be pound fresh ricotta cheese",
+            "\u00bc cup heavy whipping cream",
+            "1 teaspoon vanilla extract",
+            "1 pint fresh figs, halved",
+            "1 pint fresh strawberries, halved",
+            "3 plums, pitted and sliced into eighths",
+            "\u00bd cup honey",
+            "freshly cracked black pepper to taste",
+            "3 sprigs fresh mint, or more to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Beat ricotta cheese, cream, and vanilla extract together in a bowl with an electric mixer until light and fluffy.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Spread ricotta mixture onto a platter; top with figs, strawberries, and plum slices. Drizzle honey over the fruit and sprinkle black pepper over the top. Garnish with mint sprigs.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "European",
+            "Italian"
+        ],
+        "recipeCuisine": [
+            "European",
+            "Italian"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Shelby Tarkany"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Whipped Ricotta with Honey and Summer Fruit",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "276.3 calories",
+            "carbohydrateContent": "45.6 g",
+            "cholesterolContent": "31.2 mg",
+            "fatContent": "8.6 g",
+            "fiberContent": "3.3 g",
+            "proteinContent": "7.9 g",
+            "saturatedFatContent": "5.1 g",
+            "servingSize": null,
+            "sodiumContent": "77.1 mg",
+            "sugarContent": "38.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2015-06-23T09:41:54.547Z",
+                "reviewBody": "Very refreshing. This is a very nice combination of flavours.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Buckwheat Queen",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/melaniegiovenzana/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2015-09-04T20:44:19.23Z",
+                "reviewBody": "Pretty good",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "OmaJen",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/5734955/"
+                }
+            }
+        ]
+    }
+]

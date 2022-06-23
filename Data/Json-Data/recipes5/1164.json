@@ -1,0 +1,108 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1642/everyday-cooking/",
+                    "name": "Everyday Cooking",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/273140/sous-vide-italian-sausages/",
+        "name": "Sous Vide Italian Sausages",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6605816.jpg",
+            "width": 2231,
+            "height": 2185
+        },
+        "datePublished": "2019-05-02T04:11:10.000Z",
+        "description": "Never eat an overcooked, dry sausage again. With this sous vide method you'll get perfectly cooked, juicy sausages every time. I serve these on crusty buns and a side salad for a complete meal. Enjoy!",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT3H5M",
+        "totalTime": "P0DT3H10M",
+        "recipeYield": "5 sausages",
+        "recipeIngredient": [
+            "5 (4 ounce) links sweet Italian sausage",
+            "\u00bd teaspoon salt",
+            "2 tablespoons light beer"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Fill a large pot with hot water. Attach the sous vide cooker and set the temperature to 150 degrees F (65 degrees C).\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place sausages, salt, and beer in a resealable food-grade bag. Use the water displacement method or a vacuum sealer to remove all air from bag. Seal bag, submerge in the pot and set sous vide timer for 3 hours.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Remove bag from pot; pat sausages dry with paper towels.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Preheat an outdoor grill for medium-high heat and lightly oil the grate. Grill sausages for 5 minutes, turning frequently.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Everyday Cooking"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Bren"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Sous Vide Italian Sausages",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "270.2 calories",
+            "carbohydrateContent": "3.5 g",
+            "cholesterolContent": "44.3 mg",
+            "fatContent": "21.2 g",
+            "fiberContent": "0.1 g",
+            "proteinContent": "14.9 g",
+            "saturatedFatContent": "7.4 g",
+            "servingSize": null,
+            "sodiumContent": "1171.8 mg",
+            "sugarContent": "0.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

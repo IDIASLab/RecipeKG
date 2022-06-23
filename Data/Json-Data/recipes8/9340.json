@@ -1,0 +1,130 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/137/drinks/shakes-and-floats/",
+                    "name": "Shakes and Floats Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/283237/peanut-butter-protein-milkshake/",
+        "name": "Peanut Butter Protein Milkshake",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8995112.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2021-02-01T06:44:13.000Z",
+        "description": "This milkshake has extra protein from black beans, the deep chocolate taste is from cacao (not to be confused with cocoa) powder and is dressed up with optional whipped cream, peanuts, and chocolate drizzle. I cannot promise similar results using a standard blender, such as a Ninja\u00ae.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "1 milkshake",
+        "recipeIngredient": [
+            "3/4 cup chocolate almond milk",
+            "2 tablespoons powdered peanut butter (such as PB2\u00ae)",
+            "1 tablespoon cacao powder",
+            "\u00bc cup black beans, rinsed and drained",
+            "\u00bd cup ice"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine chocolate almond milk, peanut butter powder, and cacao powder in a high-speed blender (such as Vitamix&reg;). Add black beans and ice. Secure lid into place. Blend on speed variable 1, slowly moving up to the top speed. Blend for 1 minute until ice is incorporated.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour milkshake into a tall glass.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Shakes and Floats Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "thedailygourmet"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Peanut Butter Protein Milkshake",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "112 calories",
+            "carbohydrateContent": "18.9 g",
+            "cholesterolContent": null,
+            "fatContent": "1.9 g",
+            "fiberContent": "6.9 g",
+            "proteinContent": "8.7 g",
+            "saturatedFatContent": "0.5 g",
+            "servingSize": null,
+            "sodiumContent": "304.8 mg",
+            "sugarContent": "0.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-07-10T07:46:42.533Z",
+                "reviewBody": "Thank you so much for sharing this recipe.  It was my first time using cacao powder, so I am very happy with the results.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Tao Tai Chi",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/27551435/"
+                }
+            }
+        ]
+    }
+]

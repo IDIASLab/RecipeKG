@@ -1,0 +1,156 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/251/main-dish/sandwiches/",
+                    "name": "Sandwich Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1031/main-dish/sandwiches/beef/",
+                    "name": "Beef",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/239883/mushroom-sliders/",
+        "name": "Mushroom Sliders",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3776399.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2018-06-08T14:17:29.000Z",
+        "description": "Delicious burgers with all the health benefits and none of the sugar or gluten you find in normal buns.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H15M",
+        "totalTime": "P0DT0H25M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "1 pound lean ground beef, or more to taste",
+            "1 large egg",
+            "1 small onion, finely chopped",
+            "1 cup finely chopped mushrooms",
+            "1 teaspoon ground black pepper",
+            "\u00bd teaspoon garlic salt",
+            "salt to taste",
+            "6 portobello mushrooms, or more to taste",
+            "1 green bell pepper, halved and seeded",
+            "1 red bell pepper, halved and seeded",
+            "1 yellow bell pepper, halved and seeded"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat an outdoor grill for medium-high heat and lightly oil the grate.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Mix ground beef, egg, onion, and chopped mushrooms together in a bowl, seasoning with pepper, garlic salt, and salt as you mix. Form mixture into patties about 2 inches in diameter.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Grill patties on the preheated grill until browned and desired doneness is reached, 5 to 7 minutes per side. An instant-read thermometer inserted into the center should read at least 160 degrees F (70 degrees C).\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Grill portobello mushrooms, green bell pepper, red bell pepper, and yellow bell pepper on the grill until tender, 3 to 5 minutes per side. Use 2 mushrooms and as the 'bun' for the burgers.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Sandwich Recipes",
+            "Beef"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Sarah Pryor"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Mushroom Sliders",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "214.3 calories",
+            "carbohydrateContent": "10.9 g",
+            "cholesterolContent": "76.6 mg",
+            "fatContent": "11.6 g",
+            "fiberContent": "3 g",
+            "proteinContent": "18.1 g",
+            "saturatedFatContent": "4.4 g",
+            "servingSize": null,
+            "sodiumContent": "240.1 mg",
+            "sugarContent": "4.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2016-08-04T01:42:36.703Z",
+                "reviewBody": "If you are going to use mushrooms as buns then the bell peppers are not needed and vice versa. I actually did it both ways and preferred the bell pepper buns. There is quite a bit of mushroom going on in the inside of the burger and so the shroom buns seems overkill. My mushroom caps were huge too so that might have played a part. Regardless this was a great recipe and I enjoyed it. I didn't end up using the egg and I used green onions for the onions. Great recipe and one I would make again!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

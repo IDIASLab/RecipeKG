@@ -1,0 +1,137 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/81/side-dish/",
+                    "name": "Side Dish",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/225/side-dish/vegetables/",
+                    "name": "Vegetables",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/272262/jicama-hash-browns/",
+        "name": "Jicama Hash Browns",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6457529.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2019-03-20T06:07:04.000Z",
+        "description": "Change things up by making hash browns with jicama instead of potato.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H15M",
+        "totalTime": "P0DT0H25M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "1 large jicama, peeled and grated",
+            "1 teaspoon dried parsley",
+            "\u00bd teaspoon onion powder",
+            "\u00bd teaspoon ground cayenne pepper",
+            "salt and pepper to taste",
+            "3 tablespoons butter"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place grated jicama in a mesh strainer and rinse under cold water for 2 minutes to remove excess starch. Drain for 5 minutes and squeeze out any additional moisture.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine jicama, parsley, onion powder, cayenne, salt, and pepper in a bowl; toss to coat.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Melt butter in a large skillet over medium-high heat. Add jicama mixture to skillet and flatten with a spatula. Cook for 8 minutes undisturbed. Flip and cook 4 additional minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Side Dish",
+            "Vegetables"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Soup Loving Nicole"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Jicama Hash Browns",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "192.3 calories",
+            "carbohydrateContent": "26.9 g",
+            "cholesterolContent": "22.9 mg",
+            "fatContent": "9 g",
+            "fiberContent": "14.8 g",
+            "proteinContent": "2.3 g",
+            "saturatedFatContent": "5.5 g",
+            "servingSize": null,
+            "sodiumContent": "112.8 mg",
+            "sugarContent": "5.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-04-17T09:44:31.1Z",
+                "reviewBody": "This is awesome. Will definitely make it again",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Kathryn Engmann",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/5079064/"
+                }
+            }
+        ]
+    }
+]

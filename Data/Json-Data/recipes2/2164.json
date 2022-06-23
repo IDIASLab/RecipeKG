@@ -1,0 +1,141 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/231/world-cuisine/european/",
+                    "name": "European",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/723/world-cuisine/european/italian/",
+                    "name": "Italian",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/217149/americano-cocktail/",
+        "name": "Americano Cocktail",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2118582.jpg",
+            "width": 8064,
+            "height": 8017
+        },
+        "datePublished": "2014-11-22T07:00:15.000Z",
+        "description": "American tourists in Italy popularized this refreshing Campari&reg; and sweet vermouth cocktail. It's a Negroni, basically, minus the gin octane. Nice for afternoon sips at a cafe in Rome. Or even in Topeka.",
+        "prepTime": "P0DT0H3M",
+        "cookTime": null,
+        "totalTime": "P0DT0H3M",
+        "recipeYield": "1 cocktail",
+        "recipeIngredient": [
+            "2 cups ice",
+            "1\u2009\u00bd fluid ounces bitter orange aperitif (such as Campari\u00ae)",
+            "1\u2009\u00bd fluid ounces sweet vermouth",
+            "3 ounces club soda, or as needed",
+            "1 (1 inch) piece orange peel"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Add ice to a tall glass. Pour in Campari and vermouth. Stir and top with soda water. Squeeze a twist of orange peel over the drink and drop it in.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "European",
+            "Italian"
+        ],
+        "recipeCuisine": [
+            "European",
+            "Italian"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Lorem Ipsum"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.3333333333333335,
+            "ratingCount": 3,
+            "itemReviewed": "Americano Cocktail",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "73.6 calories",
+            "carbohydrateContent": "7.3 g",
+            "cholesterolContent": null,
+            "fatContent": null,
+            "fiberContent": "0.6 g",
+            "proteinContent": "0.2 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "21.5 mg",
+            "sugarContent": "3.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2015-03-03T22:09:39.18Z",
+                "reviewBody": "Sorry I think it needed the \"gin octane \" as this had very little flavor. so little that I would even call it subtle. Think I'll stick with the Negroni.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 2
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "lutzflcat",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/lutzflcat/"
+                }
+            }
+        ]
+    }
+]

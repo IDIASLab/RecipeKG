@@ -1,0 +1,163 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/143/breakfast-and-brunch/drinks/",
+                    "name": "Drinks",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/241020/green-breakfast-smoothie/",
+        "name": "Green Breakfast Smoothie",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2449609.jpg",
+            "width": 1704,
+            "height": 1705
+        },
+        "datePublished": "2015-01-31T00:40:13.000Z",
+        "description": "I make this for breakfast every morning. It gets its sweetness from the tart frozen raspberries and pineapples. Add more soy milk if smoothie is too thick. Ingredients fit best in a regular size blender.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "1 servings",
+        "recipeIngredient": [
+            "2 cups chopped kale",
+            "1 cup soy milk",
+            "1 cup fresh spinach",
+            "1 banana, broken into chunks",
+            "\u00bc cup frozen raspberries",
+            "\u00bc cup frozen pineapple chunks"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Blend kale, soy milk, spinach, banana, raspberries, and pineapple together in a blender until smooth.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Drinks"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "catcroutons"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.333333333333333,
+            "ratingCount": 3,
+            "itemReviewed": "Green Breakfast Smoothie",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "376.5 calories",
+            "carbohydrateContent": "73.3 g",
+            "cholesterolContent": null,
+            "fatContent": "5.8 g",
+            "fiberContent": "9.3 g",
+            "proteinContent": "15.2 g",
+            "saturatedFatContent": "0.8 g",
+            "servingSize": null,
+            "sodiumContent": "208.1 mg",
+            "sugarContent": "38.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2015-08-03T14:30:55.743Z",
+                "reviewBody": "I normally use spinach and kale in my smoothies (groovy green smoothie on AR) and I didn't make any changes. I just didn't care for this smoothie at all. I may have used less kale than what was called for but adding more wouldn't have made it taste better either.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "thedailygourmet",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/thedailygourmet/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2017-01-04T09:12:50.637Z",
+                "reviewBody": "So delicious",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Ti Manman",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/15496205/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2016-09-24T01:43:06.843Z",
+                "reviewBody": "Great",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Patricia B",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/15147416/"
+                }
+            }
+        ]
+    }
+]

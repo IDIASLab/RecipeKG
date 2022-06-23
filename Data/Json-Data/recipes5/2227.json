@@ -1,0 +1,142 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/92/meat-and-poultry/",
+                    "name": "Meat and Poultry",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/205/meat-and-poultry/pork/",
+                    "name": "Pork",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/273957/bacon-and-asparagus-pasta/",
+        "name": "Bacon and Asparagus Pasta",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6713432.jpg",
+            "width": 6000,
+            "height": 4000
+        },
+        "datePublished": "2019-06-10T11:45:34.000Z",
+        "description": "This very simple pasta dish the whole family will love incorporates bacon and asparagus over a bed of angel hair.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H30M",
+        "totalTime": "P0DT0H40M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "1 pound angel hair pasta",
+            "1 pound bacon, cut into small pieces",
+            "1 pint cherry tomatoes, halved",
+            "1 tablespoon chopped garlic",
+            "1 (15 ounce) can tomato sauce",
+            "1 bunch asparagus, cut into 1-inch pieces",
+            "salt and ground black pepper to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place bacon in a large skillet and cook over medium-high heat, turning occasionally, until evenly browned, about 10 minutes. Drain bacon slices on paper towels, reserving grease in skillet.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Add tomatoes and garlic to bacon grease and cook over medium heat until softened, 5 to 7 minutes. Add tomato sauce and asparagus. Simmer until tender, about 5 minutes more. Season asparagus mixture with salt and pepper.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "While asparagus mixture is cooking, bring a large pot of lightly salted water to a boil. Cook angel hair pasta in the boiling water, stirring occasionally, until tender yet firm to the bite, 4 to 5 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Serve asparagus mixture over cooked angel hair pasta and sprinkle with bacon.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Meat and Poultry",
+            "Pork"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "jroot"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 2,
+            "ratingCount": 1,
+            "itemReviewed": "Bacon and Asparagus Pasta",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "392.3 calories",
+            "carbohydrateContent": "51.2 g",
+            "cholesterolContent": "27.3 mg",
+            "fatContent": "12.8 g",
+            "fiberContent": "5.8 g",
+            "proteinContent": "20.3 g",
+            "saturatedFatContent": "3.5 g",
+            "servingSize": null,
+            "sodiumContent": "1126 mg",
+            "sugarContent": "5.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-06-10T11:44:31.55Z",
+                "reviewBody": "This was not as good as I was hoping it would be. There's far too much bacon and using all the grease makes everything really greasy. And other than that there just wasn't much flavor. This needs some onion herbs less bacon and more seasoning. I added some bacon to the sauce at the end and saved some for garnishing. I also wouldn't put the cherry tomatoes in at the beginning of making the sauce either. Put them in at the end for better flavor. This recipe needs a bit of help in the flavor department.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 2
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Kim",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/k-i-m/"
+                }
+            }
+        ]
+    }
+]

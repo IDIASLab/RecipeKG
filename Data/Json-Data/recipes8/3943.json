@@ -1,0 +1,111 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/148/breakfast-and-brunch/eggs/",
+                    "name": "Eggs",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/280723/eggs-and-soldiers/",
+        "name": "Eggs and Soldiers",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8316882.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-07-08T04:54:57.000Z",
+        "description": "Simple yet comforting soft-boiled eggs and buttered toast sticks. Use them to dip into the runny yolks to make this perfectly simple breakfast. Serve with a hot cup of tea.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT0H12M",
+        "recipeYield": "1 serving",
+        "recipeIngredient": [
+            "2 medium eggs, at room temperature",
+            "\u00bd teaspoon salted butter, at room temperature",
+            "1 slice white bread",
+            "1 pinch salt and ground black pepper to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place the eggs in a saucepan and cover with 1 inch cold water. Bring to a boil over medium-high heat, uncovered. Remove from heat, cover, and let stand for 2 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Spread butter over bread and cut into sticks. Slice tops off the eggs and season with salt and pepper. Serve with bread sticks for dipping.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Eggs"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Buckwheat Queen"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Eggs and Soldiers",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "227.4 calories",
+            "carbohydrateContent": "13.4 g",
+            "cholesterolContent": "377.4 mg",
+            "fatContent": "12.8 g",
+            "fiberContent": "0.6 g",
+            "proteinContent": "14.5 g",
+            "saturatedFatContent": "4.6 g",
+            "servingSize": null,
+            "sodiumContent": "479.7 mg",
+            "sugarContent": "1.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

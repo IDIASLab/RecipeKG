@@ -1,0 +1,149 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/109/appetizers-and-snacks/vegetable/",
+                    "name": "Vegetable",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/238251/bloody-mary-tomatoes/",
+        "name": "Bloody Mary Tomatoes",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1225447.jpg",
+            "width": 5184,
+            "height": 3888
+        },
+        "datePublished": "2018-05-04T13:03:19.000Z",
+        "description": "This is a good adult appetizer. Always a hit at parties.",
+        "prepTime": "P0DT0H20M",
+        "cookTime": null,
+        "totalTime": "P0DT8H20M",
+        "recipeYield": "12 servings",
+        "recipeIngredient": [
+            "1 pound cherry tomatoes",
+            "2 stalks celery, chopped",
+            "8 ounces pitted green olives",
+            "1 cup vodka, or as needed",
+            "1 pinch celery salt, or to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Bring a large pot of lightly salted water to a boil. Add tomatoes and cook uncovered until peels start to break, about 10 seconds. Drain in a colander and immediately immerse in ice water for several minutes to stop the cooking process. Drain and slip skins off each tomato.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine tomatoes, celery, and olives in a bowl; pour in enough vodka to completely cover. Marinate in the refrigerator, 8 hours to overnight. Strain and sprinkle celery salt over tomato mixture.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks",
+            "Vegetable"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "violet"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 2.5,
+            "ratingCount": 2,
+            "itemReviewed": "Bloody Mary Tomatoes",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "76.3 calories",
+            "carbohydrateContent": "2.2 g",
+            "cholesterolContent": null,
+            "fatContent": "2.5 g",
+            "fiberContent": "0.7 g",
+            "proteinContent": "0.6 g",
+            "saturatedFatContent": "0.3 g",
+            "servingSize": null,
+            "sodiumContent": "490 mg",
+            "sugarContent": "0.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2014-07-07T00:56:34.29Z",
+                "reviewBody": "These were very good and so easy to make! After mixing it up and tasting it I liked it but I usually add a bit or worcestershire (sp?) sauce tabasco sauce and garlic powder to our bloody mary's so I did put a bit of each in this which made it REALLY taste like a the bloody mary's that we're used to. Hubby really enjoyed this...I will be making this again! Thanks for sharing.:)",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Christina",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/christina/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2020-08-31T00:59:10.96Z",
+                "reviewBody": "Waste of vodka!  Made it for a Bloody Mary bar.  Glad I sampled at home first - didn't bring it.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 1
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Resort Lady",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/27817537/"
+                }
+            }
+        ]
+    }
+]

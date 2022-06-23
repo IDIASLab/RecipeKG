@@ -1,0 +1,108 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/241840/spinach-croquettes/",
+        "name": "Spinach Croquettes",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Spinach Croquettes"
+        },
+        "datePublished": "2019-07-23T02:20:04.000Z",
+        "description": "My mom used to make these a lot and I do too. They are easy to make, a quick meal, and a great way to get kids to eat spinach!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H20M",
+        "recipeYield": "12 servings",
+        "recipeIngredient": [
+            "2 cups cooked spinach",
+            "1 cup all-purpose flour",
+            "1 cup chilled sparkling water",
+            "2 eggs",
+            "\u00bd cup grated Parmesan cheese",
+            "1 teaspoon baking powder",
+            "1 teaspoon chopped garlic",
+            "\u00bc teaspoon white vinegar, or to taste",
+            "salt and ground black pepper to taste",
+            "oil for frying"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine spinach, flour, sparkling water, eggs, Parmesan cheese, baking powder, garlic, vinegar, salt, and black pepper together in a bowl until batter is evenly combined.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat enough oil to cover the bottom of a large skillet over medium heat. Spoon batter into the hot oil, keeping about 1 inch between each croquette. Cook until golden brown, about 90 seconds per side. Repeat with remaining batter.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Veronica Pomata"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Spinach Croquettes",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "87.9 calories",
+            "carbohydrateContent": "9.5 g",
+            "cholesterolContent": "33.9 mg",
+            "fatContent": "3.8 g",
+            "fiberContent": "1 g",
+            "proteinContent": "4.3 g",
+            "saturatedFatContent": "1.1 g",
+            "servingSize": null,
+            "sodiumContent": "138.1 mg",
+            "sugarContent": "0.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

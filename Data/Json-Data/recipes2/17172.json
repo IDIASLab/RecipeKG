@@ -1,0 +1,159 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/92/meat-and-poultry/",
+                    "name": "Meat and Poultry",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/202/meat-and-poultry/game-meats/",
+                    "name": "Game Meats",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/666/meat-and-poultry/game-meats/goose/",
+                    "name": "Goose",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/58536/tender-goose-saute/",
+        "name": "Tender Goose Saute",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6445970.jpg",
+            "width": 1485,
+            "height": 1537
+        },
+        "datePublished": "2018-03-21T16:32:23.000Z",
+        "description": "Marinated goose breast cooked on the stove top for hours with butter, celery and onions. Tender! Also good with green peppers.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT3H0M",
+        "totalTime": "P0DT3H10M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "4 goose breast halves",
+            "\u00be cup Worcestershire sauce",
+            "5 tablespoons butter",
+            "4 stalks celery, chopped",
+            "1 large onion, chopped"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place the goose breasts into a shallow dish, and pour the Worcestershire sauce over them. Cover and refrigerate for 6 hours or overnight.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Melt butter in a large skillet over medium heat. Add celery, onion, goose breasts, and the marinade. Cover, and simmer over low heat for 3 hours. Meat should be  very tender, and is great served with the onions, celery and cooking juices right on top.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Meat and Poultry",
+            "Game Meats",
+            "Goose"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "KGASKINS"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 4,
+            "itemReviewed": "Tender Goose Saute",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "502.3 calories",
+            "carbohydrateContent": "14.6 g",
+            "cholesterolContent": "131.8 mg",
+            "fatContent": "37.1 g",
+            "fiberContent": "1.2 g",
+            "proteinContent": "26.7 g",
+            "saturatedFatContent": "16.2 g",
+            "servingSize": null,
+            "sodiumContent": "707.6 mg",
+            "sugarContent": "7.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2006-11-25T19:32:51.603Z",
+                "reviewBody": "I didnt like this recipe at all I am a culinary student and tried doing this and it didnt turn out at all.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 1
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "brandon",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2179910/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2011-01-18T19:45:49.307Z",
+                "reviewBody": "My family loves this recipe and we prepare it every year especially over the holidays. It is simple and the flavor is incredible and most would never know that it was a goose. Doesn't need to cook as long. Check after an hour and then every 15 minutes. It really is delicious!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Sara E.",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/6370286/"
+                }
+            }
+        ]
+    }
+]

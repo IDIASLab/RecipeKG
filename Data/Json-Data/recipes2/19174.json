@@ -1,0 +1,210 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17245/main-dish/pasta/",
+                    "name": "Pasta",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/102051/pasta-with-tofu-and-walnuts/",
+        "name": "Pasta with Tofu and Walnuts",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Pasta with Tofu and Walnuts"
+        },
+        "datePublished": "2018-03-21T16:51:44.000Z",
+        "description": "This is a tangy, nutty pasta that is fairly easy to make.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H20M",
+        "totalTime": "P0DT0H25M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "8 ounces penne or other pasta of your choice",
+            "\u00bd (14 ounce) package firm tofu",
+            "3 tablespoons olive oil",
+            "2 cloves garlic, minced",
+            "1 cup sliced red onion",
+            "\u00be cup quartered fresh mushrooms",
+            "\u2154 cup whole walnuts",
+            "3 tablespoons red wine vinegar",
+            "1 tablespoon black pepper",
+            "grated Romano cheese to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Bring a large pot of lightly salted water to a boil. Add pasta and cook for 8 to 10 minutes or until tender; drain.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "In the meantime, cut the tofu into 1/4 inch thick by 2 inch wide slices.  Heat the olive oil in a saute pan over medium-high heat.  Cook the garlic and onions and cook until they begin to soften, about 1 minute.  Stir in the mushrooms, walnuts, vinegar, and black pepper, turn heat to medium-low and allow to simmer for 2 to 3 minutes.  Gently fold in the tofu slices, cover, and allow to simmer for about 5 minutes more.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "When the pasta has cooked, toss it with the tofu mixture, and sprinkle with Romano cheese.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Pasta"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "schmir"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.5,
+            "ratingCount": 6,
+            "itemReviewed": "Pasta with Tofu and Walnuts",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "489.6 calories",
+            "carbohydrateContent": "49.8 g",
+            "cholesterolContent": "7.7 mg",
+            "fatContent": "26.8 g",
+            "fiberContent": "4.3 g",
+            "proteinContent": "17.3 g",
+            "saturatedFatContent": "4.3 g",
+            "servingSize": null,
+            "sodiumContent": "98.9 mg",
+            "sugarContent": "4.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2008-03-20T18:03:04.393Z",
+                "reviewBody": "It was good but nothing special at all. I like the idea of tofu with pasta.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "je",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2864970/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2006-11-18T00:39:49.853Z",
+                "reviewBody": "I think this recipe was good. Not fantastic but a nice non-tomato sauce pasta recipe. I used feta instead of romano cheese. I'll make it again too.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Corene Wolf Swisher",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/1252188/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2015-01-20T22:33:30.52Z",
+                "reviewBody": "A little bland to me but my family all liked it. Definitely making it again. I'll try to make the oil more of a sauce next time.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "ChocolateLover",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/15101218/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2009-03-30T18:23:45.347Z",
+                "reviewBody": "This was very good. Used Scallions instead of onions just because that's what I had and twice the mushrooms. Very tasty!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "SophPR",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2438004/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2012-07-02T16:22:02.89Z",
+                "reviewBody": "WAY too much black pepper. It completely overpowered the other flavors in the dish. I would make it again with about 1/4 of the pepper.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "The Baroness",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/7519091/"
+                }
+            }
+        ]
+    }
+]

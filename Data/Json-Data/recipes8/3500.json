@@ -1,0 +1,133 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/143/breakfast-and-brunch/drinks/",
+                    "name": "Drinks",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/264158/sweet-beet-smoothie/",
+        "name": "Sweet Beet Smoothie",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8148686.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-06-25T06:50:44.000Z",
+        "description": "Delicious and nutritious beet smoothie to get your blood flowing.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": null,
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "2 smoothies",
+        "recipeIngredient": [
+            "2 medium beets, scrubbed",
+            "1 green apple",
+            "1 avocado, peeled and pitted",
+            "\u00be cup fresh pineapple chunks",
+            "1 banana, peeled",
+            "ice cubes"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Juice beets and green apples, including peels, in an electric juicer.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine apple-beet juice, avocado, pineapple, banana, and ice in a high-speed blender; blend until smooth.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Drinks"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Brandy"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Sweet Beet Smoothie",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "309.9 calories",
+            "carbohydrateContent": "46.6 g",
+            "cholesterolContent": null,
+            "fatContent": "15.1 g",
+            "fiberContent": "12.7 g",
+            "proteinContent": "4.5 g",
+            "saturatedFatContent": "2.2 g",
+            "servingSize": null,
+            "sodiumContent": "76.1 mg",
+            "sugarContent": "26.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-05-20T22:20:28.52Z",
+                "reviewBody": "Made this exactly as written and really enjoyed it. Beets and bananas can be overpowering in smoothies, but here they balance each other out nicely.  This made about 20 ounces, a good size for 2 servings. The amount of ice wasn't stated, but I used 1 cup and it was the perfect consistency.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "France C",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/francecevallos/"
+                }
+            }
+        ]
+    }
+]

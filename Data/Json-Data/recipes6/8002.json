@@ -1,0 +1,147 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/81/side-dish/",
+                    "name": "Side Dish",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17031/side-dish/sauces-and-condiments/",
+                    "name": "Sauces and Condiments",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1976/side-dish/sauces-and-condiments/sauces/",
+                    "name": "Sauces",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/279683/cashew-cheese-sauce/",
+        "name": "Cashew Cheese Sauce",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8084135.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-04-17T21:17:45.000Z",
+        "description": "This sauce is amazingly cheese-like. It has a very hearty taste, and contains no soy, for those with soy allergies. Delicious and smooth, good for macaroni and \"cheese\" or as a dip or sauce.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H30M",
+        "recipeYield": "5 servings",
+        "recipeIngredient": [
+            "1 cup raw cashews",
+            "2 cups water, or more as needed",
+            "4 tablespoons nutritional yeast flakes",
+            "2 tablespoons cornstarch",
+            "2 tablespoons classic deli mustard (such as Grey Poupon\u00ae)",
+            "ground black pepper to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Rinse cashews under warm water. Place in a bowl and cover with hot water. Let soak for 10 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine 2 cups water, nutritional yeast, cornstarch, and mustard in a blender or food processor. Blend on high for 1 minute. Add soaked cashews and blend on high until smooth, 1 1/2 minutes or longer. Transfer to a medium saucepan.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cook over low heat, whisking constantly, until sauce thickens, 5 to 7 minutes. Add more water if needed to reach desired consistency. Season with black pepper.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Side Dish",
+            "Sauces and Condiments",
+            "Sauces"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "jennyp"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 1,
+            "itemReviewed": "Cashew Cheese Sauce",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "196.2 calories",
+            "carbohydrateContent": "15.3 g",
+            "cholesterolContent": null,
+            "fatContent": "13 g",
+            "fiberContent": "2.5 g",
+            "proteinContent": "7.4 g",
+            "saturatedFatContent": "2.5 g",
+            "servingSize": null,
+            "sodiumContent": "159.6 mg",
+            "sugarContent": "1.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-05-06T19:06:39.497Z",
+                "reviewBody": "I think this was lacking a little flavor. It needed garlic of more nutritional yeast. The thickness was perfect. I used half the recipe for a dip and if I wanted it as a sauce it would work.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Chef Mo",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/chefmo/"
+                }
+            }
+        ]
+    }
+]

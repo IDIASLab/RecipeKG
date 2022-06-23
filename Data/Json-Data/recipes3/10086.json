@@ -1,0 +1,143 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/212/salad/grains/",
+                    "name": "Grains",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/15132/salad/grains/rice-salad/",
+                    "name": "Rice Salad Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/233942/mock-potato-salad/",
+        "name": "Mock Potato Salad",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Mock Potato Salad"
+        },
+        "datePublished": "2018-06-08T14:09:50.000Z",
+        "description": "We just love this as a great summer substitute when everyone is tired of the usual potato salad fare and you are overrun with fresh veggies from the garden. The cool and crunchy vegetables go well with the grains and you know your family is eating something high in fiber and very healthy. If your kids like potato salad, they will like this.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": null,
+        "totalTime": "P0DT8H15M",
+        "recipeYield": "12 servings",
+        "recipeIngredient": [
+            "4 cups cooked brown rice",
+            "1\u2009\u00bd cups thinly sliced celery",
+            "8 radishes, thinly sliced",
+            "1 cucumber, thinly sliced",
+            "\u00bd cup chopped sweet onion",
+            "3 hard-boiled eggs, chopped",
+            "1 cup reduced-fat mayonnaise",
+            "\u00bc cup spicy mustard",
+            "\u00be teaspoon salt"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Mix rice, celery, radishes, cucumber, and onion together in a bowl; fold in eggs. Stir mayonnaise, mustard, and salt into rice mixture; toss to coat. Refrigerate until flavors blend, 8 hours to overnight.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad",
+            "Grains",
+            "Rice Salad Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "gardenmaster"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Mock Potato Salad",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "170.3 calories",
+            "carbohydrateContent": "19.7 g",
+            "cholesterolContent": "60 mg",
+            "fatContent": "8.6 g",
+            "fiberContent": "1.7 g",
+            "proteinContent": "3.8 g",
+            "saturatedFatContent": "1.6 g",
+            "servingSize": null,
+            "sodiumContent": "439 mg",
+            "sugarContent": "2.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2013-09-29T00:44:18.457Z",
+                "reviewBody": "this was delicious. i made it for a gathering and it was gone before i had a chance for seconds. definitely a keeper.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "polly",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/12105796/"
+                }
+            }
+        ]
+    }
+]

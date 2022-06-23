@@ -1,0 +1,169 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/143/breakfast-and-brunch/drinks/",
+                    "name": "Drinks",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/245198/banana-coconut-smoothie-bowl/",
+        "name": "Banana Coconut Smoothie Bowl",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2943686.jpg",
+            "width": 1207,
+            "height": 1207
+        },
+        "datePublished": "2019-04-04T04:00:26.000Z",
+        "description": "This banana and peach smoothie is topped with coconut, almonds, and raisins creating a paleo-friendly smoothie bowl for a quick breakfast.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": null,
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "1 smoothie bowl",
+        "recipeIngredient": [
+            "1 banana, divided",
+            "\u00bd cup frozen peach slices",
+            "2 tablespoons unsweetened applesauce",
+            "2 tablespoons water",
+            "2 teaspoons coconut oil",
+            "1 tablespoon shredded unsweetened coconut",
+            "1 tablespoon sliced almonds",
+            "1 tablespoon raisins"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Blend 1/2 banana, peaches, applesauce, water, and coconut oil together in a blender until smooth; pour into a serving bowl.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Slice remaining half banana and arrange on top of smoothie. Add shredded coconut, almonds, and raisins.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Drinks"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Alli Shircliff"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.666666666666667,
+            "ratingCount": 3,
+            "itemReviewed": "Banana Coconut Smoothie Bowl",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "317.4 calories",
+            "carbohydrateContent": "45 g",
+            "cholesterolContent": null,
+            "fatContent": "16.3 g",
+            "fiberContent": "5.4 g",
+            "proteinContent": "3.3 g",
+            "saturatedFatContent": "11.6 g",
+            "servingSize": null,
+            "sodiumContent": "8.5 mg",
+            "sugarContent": "28.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2015-12-11T09:07:17.96Z",
+                "reviewBody": "What a fun breakfast! I used trail mix instead of just raisins and almonds. A nice change from a drinkable smoothie. Thank you for the recipe!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Buckwheat Queen",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/melaniegiovenzana/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2018-11-06T21:56:07.693Z",
+                "reviewBody": "added ice (too much though)",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "ANTHONY ROBLES",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/24488816/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2017-09-02T02:19:39.51Z",
+                "reviewBody": "Positively delicious!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Elizabeth Wohler Stowe",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/18092646/"
+                }
+            }
+        ]
+    }
+]

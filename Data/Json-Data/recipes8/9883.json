@@ -1,0 +1,156 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/213/salad/green-salads/",
+                    "name": "Green Salad Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/284589/simple-red-leaf-salad/",
+        "name": "Simple Red Leaf Salad",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F9226800.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2021-05-28T09:37:03.000Z",
+        "description": "My daughter loves everything sour (vinegar and lemon in particular) so I made her this tart salad dressing with 2 types of vinegar and lemon juice. It goes great with red leaf lettuce or other mild salads. She will eat the whole bowl by herself.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "1 head red leaf lettuce ",
+            "1 red bell pepper, chopped",
+            "1 stalk green onion, thinly sliced",
+            "3 tablespoons extra-virgin olive oil",
+            "1 tablespoon red wine vinegar",
+            "1 tablespoon balsamic vinegar",
+            "1 tablespoon lemon juice",
+            "\u00bd teaspoon salt, or to taste",
+            "\u00bc teaspoon Dijon mustard, or more to taste",
+            "freshly ground black pepper to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Wash red leaf lettuce, separate the leaves, and spin dry in a salad spinner. Tear leaves into bite-sized pieces and transfer to a salad bowl with bell pepper and scallion.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine olive oil, red wine vinegar, balsamic vinegar, lemon juice, salt, mustard, and pepper in a resealable jar. Close and shake until well combined.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Drizzle as much dressing as desired over the salad and toss to combine. Store leftover dressing in the refrigerator.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad",
+            "Green Salad Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "barbara"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Simple Red Leaf Salad",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "111.3 calories",
+            "carbohydrateContent": "4 g",
+            "cholesterolContent": null,
+            "fatContent": "10.2 g",
+            "fiberContent": "1 g",
+            "proteinContent": "0.7 g",
+            "saturatedFatContent": "1.4 g",
+            "servingSize": null,
+            "sodiumContent": "312.9 mg",
+            "sugarContent": "2.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-07-01T11:27:37.917Z",
+                "reviewBody": "very good dressing!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Lena",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/23461559/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2021-08-02T02:22:54.993Z",
+                "reviewBody": "Loved the dressing - I love an \"easy formula\"  Salad was delicious.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Marianne",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/22170712/"
+                }
+            }
+        ]
+    }
+]

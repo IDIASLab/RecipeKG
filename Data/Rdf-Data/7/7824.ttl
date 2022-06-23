@@ -1,0 +1,58 @@
+@prefix ns1: <http://purl.org/heals/food/> .
+@prefix ns2: <http://purl.org/recipekg/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/pumpkin-swirl-cheesecake> a schema:Recipe ;
+    ns1:hasIngredient [ a <http://purl.org/recipekg/ingredient/Nutmeg> ;
+            ns2:hasQuantity "1/4" ;
+            ns2:hasUnit "teaspoon" ;
+            ns2:ingredientName "nutmeg" ],
+        [ a <http://purl.org/recipekg/ingredient/Vanilla> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "teaspoon" ;
+            ns2:ingredientName "vanilla" ],
+        [ a <http://purl.org/heals/ingredient/Butter> ;
+            ns2:hasQuantity "1/4" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "butter" ],
+        [ a <http://purl.org/recipekg/ingredient/Ginger> ;
+            ns2:hasQuantity "25" ;
+            ns2:ingredientName "Ginger" ],
+        [ a <http://purl.org/recipekg/ingredient/Egg> ;
+            ns2:hasQuantity "4" ;
+            ns2:ingredientName "egg" ],
+        [ a <http://purl.org/recipekg/ingredient/Sugar> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "sugar" ],
+        [ a <http://purl.org/heals/ingredient/Cheese> ;
+            ns2:hasQuantity "4" ;
+            ns2:ingredientName "cheese" ],
+        [ a <http://purl.org/recipekg/ingredient/Cinnamon> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "teaspoon" ;
+            ns2:ingredientName "cinnamon" ],
+        [ ],
+        [ a <http://purl.org/heals/ingredient/Clove> ;
+            ns2:hasUnit "Dash" ;
+            ns2:ingredientName "clove" ],
+        [ a <http://purl.org/heals/ingredient/PumpkinSeed> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "pumpkin seed" ] ;
+    ns2:belongsTo <http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/philadelphia-cream-cheese/> ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 54 ;
+            schema:ratingValue "4.814814814814815"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2006-10-19T19:04:52.000Z"^^schema:date ;
+    schema:name "Pumpkin Swirl Cheesecake"^^xsd:string ;
+    schema:recipeYield "16 servings, one slice each"^^xsd:string .
+
+<http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/> a ns2:RecipeCategory .
+
+<http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/philadelphia-cream-cheese/> rdfs:subClassOf <http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/> .
+

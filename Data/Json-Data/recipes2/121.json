@@ -1,0 +1,149 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/215/salad/pasta-salad/",
+                    "name": "Pasta Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/16201/salad/pasta-salad/tomato-pasta-salad/",
+                    "name": "Tomato Pasta Salad Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/279824/blt-macaroni-salad/",
+        "name": "BLT Macaroni Salad",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "BLT Macaroni Salad"
+        },
+        "datePublished": "2013-10-20T14:15:58.000Z",
+        "description": "This BLT macaroni salad is a bacon lover's side dish.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H30M",
+        "recipeYield": "10 servings",
+        "recipeIngredient": [
+            "1 pound bacon",
+            "1 (12 ounce) package elbow macaroni (such as Wacky Mac\u00ae)",
+            "1\u2009\u00bd cups chilled mayonnaise (such as Hellman's\u00ae)",
+            "1\u2009\u00bd cups chilled coleslaw dressing (such as Kraft\u00ae)",
+            "2 cups chopped romaine lettuce",
+            "3 medium whole (2-3/5\" dia) (blank)s tomatoes, diced",
+            "1 bunch green onions, chopped"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place bacon in a large skillet and cook over medium-high heat, turning occasionally, until evenly browned, about 10 minutes. Drain bacon on paper towels and crumble.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "At the same time, bring a large pot of lightly salted water to a boil. Cook elbow macaroni in the boiling water, stirring occasionally, until tender yet firm to the bite, about 8 minutes. Drain and let cool, 10 to 15 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Stir mayonnaise and coleslaw dressing together in a large bowl until creamy. Add noodles, bacon, lettuce, tomatoes, and green onions. Toss well.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad",
+            "Pasta Salad",
+            "Tomato Pasta Salad Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Carl Schrammel"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "BLT Macaroni Salad",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "589 calories",
+            "carbohydrateContent": "38 g",
+            "cholesterolContent": "40.9 mg",
+            "fatContent": "43.9 g",
+            "fiberContent": "2.2 g",
+            "proteinContent": "11 g",
+            "saturatedFatContent": "7.9 g",
+            "servingSize": null,
+            "sodiumContent": "815.5 mg",
+            "sugarContent": "10 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-08-24T21:32:00.75Z",
+                "reviewBody": "i prob shouldn't say i made this. i don't like lettuce so i made a Bacon Mushroom Tomato salad and mixed my favorite spices with the mayo. it was delicious!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "samdgood",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/6990687/"
+                }
+            }
+        ]
+    }
+]

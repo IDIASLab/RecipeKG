@@ -1,0 +1,137 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/92/meat-and-poultry/",
+                    "name": "Meat and Poultry",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/205/meat-and-poultry/pork/",
+                    "name": "Pork",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/280752/quick-and-easy-pulled-pork-burritos/",
+        "name": "Quick and Easy Pulled Pork Burritos",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8349893.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-07-03T07:34:15.000Z",
+        "description": "A tasty way to use up your leftovers from a pulled pork! Goes well with a little coleslaw.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H15M",
+        "totalTime": "P0DT0H25M",
+        "recipeYield": "8 burritos",
+        "recipeIngredient": [
+            "1 (16 ounce) can baked beans (such as Bush's\u00ae Grillin' Beans\u00ae)",
+            "8 (10 inch) soft flour tortillas",
+            "1 small onion, diced",
+            "1 pound cooked pulled pork, heated",
+            "1 (8 ounce) package shredded Monterey Jack cheese",
+            "1 (16 ounce) can mild enchilada sauce"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Pour beans into a pot and bring to a simmer over medium-low heat.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place a tortilla on a microwave-safe plate, sprinkle with onion, 2 tablespoons beans, and 2 to 3 tablespoons pulled pork. Sprinkle with Monterey Jack cheese, and roll the tortilla closed. Drizzle over 2 tablespoons of enchilada sauce, and sprinkle with more cheese.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Microwave until heated through and cheese is melted, about 1 minute. Repeat with remaining tortillas and filling ingredients.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Meat and Poultry",
+            "Pork"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Chef Kevin"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Quick and Easy Pulled Pork Burritos",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "495.5 calories",
+            "carbohydrateContent": "56.8 g",
+            "cholesterolContent": "58.7 mg",
+            "fatContent": "17.9 g",
+            "fiberContent": "5.2 g",
+            "proteinContent": "27.1 g",
+            "saturatedFatContent": "7.9 g",
+            "servingSize": null,
+            "sodiumContent": "1292.8 mg",
+            "sugarContent": "6.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-07-20T22:56:50.963Z",
+                "reviewBody": "I made these for my family and 2 out 4 liked them.  The recipe is highly dependent on the pulled pork and baked beans that you use. I used an unsauced pulled pork from the store and steakhouse grilling beans and a mild enchilada sauce.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "My Hot Southern Mess",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/myhotsouthernmess/"
+                }
+            }
+        ]
+    }
+]

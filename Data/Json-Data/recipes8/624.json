@@ -1,0 +1,128 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/156/bread/",
+                    "name": "Bread",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/339/bread/yeast-bread/",
+                    "name": "Yeast Bread Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/14760/bread/yeast-bread/white-bread/",
+                    "name": "White Bread Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/275293/earl-grey-bread/",
+        "name": "Earl Grey Bread",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2526852.jpg",
+            "width": 1280,
+            "height": 962
+        },
+        "datePublished": "2020-06-19T04:40:02.000Z",
+        "description": "Simple Earl Grey bread which everyone can enjoy!",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H55M",
+        "totalTime": "P0DT3H10M",
+        "recipeYield": "1 1-pound loaf",
+        "recipeIngredient": [
+            "2 Earl Grey tea bags (such as Gryphon\u00ae)",
+            "\u00be cup boiling water",
+            "2 cups bread flour",
+            "2\u2009\u00bc tablespoons white sugar",
+            "\u00be teaspoon instant yeast",
+            "\u00bd teaspoon salt",
+            "1\u2009\u00bd tablespoons unsalted butter"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Cut open tea bags and place leaves in a tea strainer. Steep in boiling water for 10 minutes. Let tea cool.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour cooled tea into a bread machine. Add bread flour, sugar, yeast, and salt in the order recommended by the manufacturer. Run White Bread cycle. Add the butter when the machine beeps, about 15 minutes into the kneading stage.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Remove loaf from the machine after the cycle is done, about 3 hours.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Bread",
+            "Yeast Bread Recipes",
+            "White Bread Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Natasha Lim"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Earl Grey Bread",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "113.7 calories",
+            "carbohydrateContent": "20.3 g",
+            "cholesterolContent": "4.6 mg",
+            "fatContent": "2.1 g",
+            "fiberContent": "0.6 g",
+            "proteinContent": "3 g",
+            "saturatedFatContent": "1.2 g",
+            "servingSize": null,
+            "sodiumContent": "117.7 mg",
+            "sugarContent": "2.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

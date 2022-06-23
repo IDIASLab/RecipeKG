@@ -1,0 +1,161 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/227/world-cuisine/asian/",
+                    "name": "Asian",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/703/world-cuisine/asian/vietnamese/",
+                    "name": "Vietnamese",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/254330/vietnamese-coffee/",
+        "name": "Vietnamese Coffee",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3883910.jpg",
+            "width": 1903,
+            "height": 1903
+        },
+        "datePublished": "2017-04-05T13:01:42.000Z",
+        "description": "Traditional Vietnamese coffee with an optional delicious twist! This recipe is based on what I learned from my parents, who drink it every day, and from my 5 years of experience as a barista.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "1 coffee",
+        "recipeIngredient": [
+            "2 tablespoons sweetened condensed milk, or more to taste",
+            "\u2154 cup strong brewed coffee",
+            "1 teaspoon non-dairy creamer (such as Coffee-Mate\u00ae), or more to taste",
+            "1 teaspoon hot cocoa mix (such as Godiva\u00ae), or more to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Pour some boiling water in a glass. Let sit to warm the glass, about 1 minute. Pour out water.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour condensed milk into the warmed glass. Top with coffee. Stir in creamer and hot cocoa mix.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Asian",
+            "Vietnamese"
+        ],
+        "recipeCuisine": [
+            "Asian",
+            "Vietnamese"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "coffeeshopjunkie"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 2,
+            "itemReviewed": "Vietnamese Coffee",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "158.4 calories",
+            "carbohydrateContent": "26.1 g",
+            "cholesterolContent": "12.8 mg",
+            "fatContent": "5.1 g",
+            "fiberContent": "0.1 g",
+            "proteinContent": "3.4 g",
+            "saturatedFatContent": "3.8 g",
+            "servingSize": null,
+            "sodiumContent": "64.5 mg",
+            "sugarContent": "22.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2016-08-26T19:10:51.77Z",
+                "reviewBody": "A good version of Vietnamese coffee. I used a stainless steel filter for the coffee. The addition of chocolate is nice. Thank you for the recipe.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Buckwheat Queen",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/melaniegiovenzana/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2017-12-12T06:41:40.933Z",
+                "reviewBody": "I really like this coffee. I found that I had some left-over sweetened condensed milk and searched for ways to use it. This recipe popped up. I used 8 oz. strong brewed coffee instead of 2/3 cup and I used 1 tsp. cocoa powder because I didn't have the hot cocoa mix. It turned out delicious!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Paula",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/paula1/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,181 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/367/desserts/pies/",
+                    "name": "Pies",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/15142/desserts/pies/no-bake-pies/",
+                    "name": "No-Bake Pie Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/17955/haystack-pie/",
+        "name": "Haystack Pie",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Haystack Pie"
+        },
+        "datePublished": "2000-04-18T15:09:34.000Z",
+        "description": "This wonderful pie is a mix of the chocolate lovers', coconut creme lovers' and banana creme lovers' dream come true.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": null,
+        "totalTime": "P0DT1H15M",
+        "recipeYield": "1 - 9 inch pie",
+        "recipeIngredient": [
+            "1 (3.9 ounce) package instant chocolate pudding mix",
+            "\u00bd cup shredded coconut",
+            "1 (9 inch) pie crust, baked",
+            "1 banana, sliced",
+            "1 cup frozen whipped topping"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Prepare pudding as per package directions; stir in coconut accordingly.  Put 1/2 of this mixture into prepared pie crust.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Spread banana on top of pudding layer and then cover with remaining 1/2 of the pudding mixture.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cover and refrigerate to chill for 1 hour; top with whipped topping and serve.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Pies",
+            "No-Bake Pie Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Trish Tefer"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.666666666666667,
+            "ratingCount": 3,
+            "itemReviewed": "Haystack Pie",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "196.6 calories",
+            "carbohydrateContent": "27.7 g",
+            "cholesterolContent": null,
+            "fatContent": "9.1 g",
+            "fiberContent": "1.5 g",
+            "proteinContent": "1.4 g",
+            "saturatedFatContent": "5.1 g",
+            "servingSize": null,
+            "sodiumContent": "312.6 mg",
+            "sugarContent": "15.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2007-11-08T06:02:38.047Z",
+                "reviewBody": "This totally hit the spot. All 3 of them! The coconut was super tasty with the chocolate and the banana held up very well. YUM!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "brandysue",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/1550597/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2010-03-02T00:22:06.6Z",
+                "reviewBody": "Yummy! My kids loved it - how could they not?? Pretty easy to make.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Heather Atton Cook",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/cookieinthekitchen/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2010-11-17T21:34:30.057Z",
+                "reviewBody": "I entered this pie in a church pie contest. I didn't win but it did get a nice bid for charity. It is very fast to!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Jason A. Hendricks",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/5764530/"
+                }
+            }
+        ]
+    }
+]

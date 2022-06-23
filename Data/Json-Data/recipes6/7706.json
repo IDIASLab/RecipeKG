@@ -1,0 +1,125 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1642/everyday-cooking/",
+                    "name": "Everyday Cooking",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/279680/fajita-lettuce-cups/",
+        "name": "Fajita Lettuce Cups",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7989542.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-04-13T08:14:57.000Z",
+        "description": "Refreshing, crisp, delicious! My husband loves this dish. It's super easy and you can use pretty much whatever you have in the kitchen: chicken, shrimp, etc. Top with cilantro, Mexican-style sour cream, and cotija cheese.",
+        "prepTime": "P0DT0H20M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H35M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "2 tablespoons buttery spread (such as Smart Balance\u00ae)",
+            "1 (1 ounce) package fajita seasoning",
+            "1 white onion, chopped",
+            "2 cloves garlic, crushed",
+            "1 red bell pepper, cut into small cubes",
+            "1 pound steak, cut into very small pieces",
+            "10 cremini mushrooms, thinly sliced",
+            "\u00bd head iceberg lettuce, leaves separated"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Melt buttery spread in a large skillet. Add fajita seasoning and stir until thoroughly mixed. Add onion and garlic; cook and stir for 2 minutes. Add red pepper and cook for 2 minutes more. Stir in steak and mushrooms. Cook until steak is no longer red but still juicy, about 2 minutes. Remove from heat and let stand for 5 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Serve warm in lettuce cups.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Everyday Cooking"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "SerenaBloom"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Fajita Lettuce Cups",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "296.8 calories",
+            "carbohydrateContent": "13.7 g",
+            "cholesterolContent": "52.9 mg",
+            "fatContent": "18 g",
+            "fiberContent": "2.8 g",
+            "proteinContent": "20.4 g",
+            "saturatedFatContent": "6.5 g",
+            "servingSize": null,
+            "sodiumContent": "610 mg",
+            "sugarContent": "3.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-04-18T03:18:45.53Z",
+                "reviewBody": "Flavor was good and recipe was easy. They were hard to eat though so if I were to make again, I'd just turn it into a salad.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

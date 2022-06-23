@@ -1,0 +1,131 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/143/breakfast-and-brunch/drinks/",
+                    "name": "Drinks",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/240903/clean-green-juice/",
+        "name": "Clean Green Juice",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7861710.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2019-07-10T07:06:01.000Z",
+        "description": "Use as part of a juice cleanse or as a clean meal replacement.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "1 drink",
+        "recipeIngredient": [
+            "2 Granny Smith apples, halved and seeds removed",
+            "5 stalks celery, leaves removed",
+            "1 cucumber, roughly chopped",
+            "3 romaine lettuce leaves",
+            "3 leaves kale",
+            "5 sprigs fresh parsley",
+            "1 tablespoon freshly squeezed lemon juice",
+            "1 tablespoon water, or as needed"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place apples, celery, cucumber, romaine lettuce leaves, kale, parsley, lemon juice, and water in a blender or juicer; process until desired consistency is reached, adding more water as needed.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Drinks"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Brittany Curtis"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Clean Green Juice",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "284.9 calories",
+            "carbohydrateContent": "67.5 g",
+            "cholesterolContent": null,
+            "fatContent": "2.3 g",
+            "fiberContent": "15.9 g",
+            "proteinContent": "10.6 g",
+            "saturatedFatContent": "0.4 g",
+            "servingSize": null,
+            "sodiumContent": "275.6 mg",
+            "sugarContent": "38.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-03-27T06:55:00.35Z",
+                "reviewBody": "Loved this! I make a lot of different juice blends and this is up there with my regular faves! It's not very sweet, which I like, and has a nice tang from the sour apples and lemon.  I supposed if you wanted it sweeter, you could use fuji or gala apples.  I didn't need to add water as I used a juicer, but you'll probably need it if you use a high-power blender. This made about 20 ounces, so enough to share if you want!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "France C",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/francecevallos/"
+                }
+            }
+        ]
+    }
+]

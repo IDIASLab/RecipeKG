@@ -1,0 +1,135 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1555/drinks/liqueurs/",
+                    "name": "Liqueur Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/235680/blackberry-infused-tequila/",
+        "name": "Blackberry-Infused Tequila",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1205809.jpg",
+            "width": 2304,
+            "height": 3072
+        },
+        "datePublished": "2017-06-22T13:01:35.000Z",
+        "description": "A fruity, pink liquor which makes delicious and colorful margaritas.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": null,
+        "totalTime": "P14DT0H15M",
+        "recipeYield": "0.75 liter",
+        "recipeIngredient": [
+            "1 cup fresh blackberries",
+            "1 lime",
+            "1 (750 milliliter) bottle tequila",
+            "\u00bc cup simple syrup, or to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Put the blackberries into a 1.5-liter bottle. Zest lime and add zest to bottle. Remove and discard remaining pith and connective membranes from the lime; putting only the remaining pulp into the bottle. Pour tequila into the bottle.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Seal the bottle and store in a cool, dark place for 2 weeks, shaking once daily.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Strain tequila through cheesecloth or coffee filter. Stir simple syrup into the tequila.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Liqueur Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Bekkah"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Blackberry-Infused Tequila",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "121 calories",
+            "carbohydrateContent": "3.7 g",
+            "cholesterolContent": null,
+            "fatContent": "0.1 g",
+            "fiberContent": "0.6 g",
+            "proteinContent": "0.2 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "0.7 mg",
+            "sugarContent": "0.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2014-05-11T13:21:10.32Z",
+                "reviewBody": "I very often make a lime tequila cordial just for sipping over ice and thought the addition of blackberries would be a fun twist. Very enjoyable with the lime flavor to brighten up the earthy blackberries. Next time I would use less berries.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Keeli",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/9626188/"
+                }
+            }
+        ]
+    }
+]

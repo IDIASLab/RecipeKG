@@ -1,0 +1,143 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/133/drinks/cocktails/",
+                    "name": "Cocktail Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1427/drinks/cocktails/hurricanes/",
+                    "name": "Hurricane Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/235503/hurricane-jessica/",
+        "name": "Hurricane Jessica",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1126141.jpg",
+            "width": 960,
+            "height": 960
+        },
+        "datePublished": "2014-04-10T21:29:12.000Z",
+        "description": "Fruity, sweet, a bit of tang and a whole lot of 'another one of these please!'",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "1 cocktail",
+        "recipeIngredient": [
+            "1 (1.5 fluid ounce) jigger passion fruit-flavored rum",
+            "1 (1.5 fluid ounce) jigger mango-flavored rum",
+            "1 (1.5 fluid ounce) jigger peach schnapps",
+            "\u00bd (1.5 fluid ounce) jigger whipped cream-flavored vodka",
+            "1 splash lime juice",
+            "1 splash grenadine syrup",
+            "1 splash seltzer water, or to taste",
+            "2 frozen mango chunks, or to taste",
+            "2 maraschino cherries, or to taste",
+            "\u00bc cup ice cubes, or as desired"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Pour passion fruit-flavored rum, mango-flavored rum, peach schnapps, and whipped cream flavored vodka into a large glass; add lime juice and grenadine syrup. Float seltzer water atop the cocktail; garnish with mango and maraschino cherries. Add ice to cocktail as desired.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Cocktail Recipes",
+            "Hurricane Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "freedivehi"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Hurricane Jessica",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "864.4 calories",
+            "carbohydrateContent": "100.1 g",
+            "cholesterolContent": null,
+            "fatContent": "1 g",
+            "fiberContent": "5.6 g",
+            "proteinContent": "1.6 g",
+            "saturatedFatContent": "0.2 g",
+            "servingSize": null,
+            "sodiumContent": "19.8 mg",
+            "sugarContent": "74.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-02-16T23:51:49.13Z",
+                "reviewBody": "this is delicious. Good on a hot summer evening.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Denise Sheffield",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/27443606/"
+                }
+            }
+        ]
+    }
+]

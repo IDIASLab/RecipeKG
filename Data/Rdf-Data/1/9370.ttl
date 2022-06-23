@@ -1,0 +1,82 @@
+@prefix ns1: <http://purl.org/heals/food/> .
+@prefix ns2: <http://purl.org/recipekg/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/red-velvet-cupcakes-with-truvia-baking-blend> a schema:Recipe ;
+    ns1:hasIngredient [ a <http://purl.org/heals/ingredient/WhiteVinegar> ;
+            ns2:hasQuantity "2 1/2" ;
+            ns2:hasUnit "teaspoon" ;
+            ns2:ingredientName "white vinegar" ],
+        [ a <http://purl.org/recipekg/ingredient/Milk> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "teaspoon" ;
+            ns2:ingredientName "milk" ],
+        [ a <http://purl.org/recipekg/ingredient/Applesauce> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "applesauce" ],
+        [ a <http://purl.org/recipekg/ingredient/⅛> ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "⅛" ],
+        [ a <http://purl.org/recipekg/ingredient/CreamCheese> ;
+            ns2:hasQuantity "16" ;
+            ns2:hasUnit "ounce" ;
+            ns2:ingredientName "cream cheese" ],
+        [ a <http://purl.org/heals/ingredient/CanolaOil> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "canola oil" ],
+        [ a <http://purl.org/recipekg/ingredient/Vanilla> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "teaspoon" ;
+            ns2:ingredientName "vanilla" ],
+        [ a <http://purl.org/recipekg/ingredient/Vanilla> ;
+            ns2:hasQuantity "1 1/2" ;
+            ns2:hasUnit "teaspoon" ;
+            ns2:ingredientName "vanilla" ],
+        [ a <http://purl.org/heals/ingredient/Salt> ;
+            ns2:hasQuantity "1 1/2" ;
+            ns2:hasUnit "teaspoon" ;
+            ns2:ingredientName "salt" ],
+        [ a <http://purl.org/recipekg/ingredient/BakingBlend> ;
+            ns2:hasQuantity "1/3" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "Baking Blend" ],
+        [ a <http://purl.org/recipekg/ingredient/Egg> ;
+            ns2:hasQuantity "3" ;
+            ns2:ingredientName "egg" ],
+        [ a <http://purl.org/recipekg/ingredient/BakingBlend> ;
+            ns2:hasQuantity "1" ;
+            ns2:ingredientName "Baking Blend" ],
+        [ a <http://purl.org/recipekg/ingredient/Buttermilk> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "buttermilk" ],
+        [ a <http://purl.org/recipekg/ingredient/Cocoa> ;
+            ns2:hasQuantity "1/2" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "cocoa" ],
+        [ a <http://purl.org/recipekg/ingredient/CakeFlour> ;
+            ns2:hasQuantity "3 1/2" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "cake flour" ],
+        [ a <http://purl.org/heals/ingredient/BakingSoda> ;
+            ns2:hasQuantity "2" ;
+            ns2:hasUnit "teaspoon" ;
+            ns2:ingredientName "baking soda" ] ;
+    ns2:belongsTo <http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/truvia/> ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 3 ;
+            schema:ratingValue "4.666666666666667"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2012-10-04T21:59:44.000Z"^^schema:date ;
+    schema:name "Red Velvet Cupcakes with Truvia&reg; Baking Blend"^^xsd:string ;
+    schema:recipeYield "24 servings"^^xsd:string .
+
+<http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/> a ns2:RecipeCategory .
+
+<http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/truvia/> rdfs:subClassOf <http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/> .
+

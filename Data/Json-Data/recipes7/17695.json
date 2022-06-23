@@ -1,0 +1,200 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/227/world-cuisine/asian/",
+                    "name": "Asian",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/699/world-cuisine/asian/japanese/",
+                    "name": "Japanese",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/263690/easy-chicken-yakitori/",
+        "name": "Easy Chicken Yakitori",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5290537.jpg",
+            "width": 1707,
+            "height": 960
+        },
+        "datePublished": "2020-06-19T04:27:36.000Z",
+        "description": "Chicken yakitori is an easy Japanese dish to make at home. Serve with white rice and sake for an easy but special meal!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H15M",
+        "totalTime": "P0DT0H40M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "10 wooden skewers",
+            "4 skinless, boneless chicken thighs, cut into 1-inch cubes",
+            "4 scallions, sliced into 1-inch pieces",
+            "\u00bd cup sake",
+            "\u00bd cup soy sauce",
+            "3 tablespoons mirin",
+            "2 tablespoons white sugar",
+            "1 teaspoon vegetable oil, or to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Soak 10 wooden skewers in cold water for 15 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Thread chicken pieces onto the soaked skewers, alternating with scallions.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine sake, soy sauce, mirin, and sugar in a small saucepan and bring to a boil. Reduce heat and simmer for 5 minutes. Reserve 1/2 of the sauce for dipping.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat a grill pan over high heat and lightly brush with vegetable oil. Add skewers and cook until chicken is no longer pink in the center, basting frequently with 1/2 of the sauce, 7 to 10 minutes per side.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Asian",
+            "Japanese"
+        ],
+        "recipeCuisine": [
+            "Asian",
+            "Japanese"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "ChefJackie"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 4,
+            "itemReviewed": "Easy Chicken Yakitori",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "275.7 calories",
+            "carbohydrateContent": "14.8 g",
+            "cholesterolContent": "70.3 mg",
+            "fatContent": "9.2 g",
+            "fiberContent": "0.6 g",
+            "proteinContent": "21.7 g",
+            "saturatedFatContent": "2.4 g",
+            "servingSize": null,
+            "sodiumContent": "1871.4 mg",
+            "sugarContent": "12.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-06-08T23:33:19.933Z",
+                "reviewBody": "I cooked these on the BBQ instead of a grill pan.  Very good.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Brad Istace",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/thebrad/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2018-06-28T02:36:54.02Z",
+                "reviewBody": "came out great",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "barbara",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3031597/"
+                }
+            }
+        ],
+        "video": {
+            "@context": "http://schema.org",
+            "@type": "VideoObject",
+            "name": "Easy Chicken Yakitori",
+            "description": "Watch how to Japanese chicken yakitori!",
+            "uploadDate": "2019-02-21T23:21:30.638Z",
+            "duration": "PT1M26.933S",
+            "thumbnailUrl": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fcf-images.us-east-1.prod.boltdns.net%2Fv1%2Fstatic%2F1033249144001%2F326777bd-9d5f-41dd-a53c-14f617a67f40%2F0f885586-7f00-4b90-b9f8-ec1da112e5a2%2F160x90%2Fmatch%2Fimage.jpg",
+            "publisher": {
+                "@type": "Organization",
+                "name": "Allrecipes",
+                "url": "https://www.allrecipes.com",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.allrecipes.com/img/logo.png",
+                    "width": 209,
+                    "height": 60
+                },
+                "sameAs": [
+                    "https://www.facebook.com/allrecipes",
+                    "https://twitter.com/Allrecipes",
+                    "https://www.pinterest.com/allrecipes/",
+                    "https://www.instagram.com/allrecipes/"
+                ]
+            },
+            "embedUrl": "https://players.brightcove.net/1033249144001/default_default/index.html?videoId=5996544966001"
+        }
+    }
+]

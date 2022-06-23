@@ -1,0 +1,146 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/143/breakfast-and-brunch/drinks/",
+                    "name": "Drinks",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/237559/stellar-kale-smoothie/",
+        "name": "Stellar Kale Smoothie",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1947005.jpg",
+            "width": 1936,
+            "height": 2592
+        },
+        "datePublished": "2014-05-02T22:46:10.000Z",
+        "description": "Wonderful for on-the-go and filling, but not too filling.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "3 servings",
+        "recipeIngredient": [
+            "1 cup chopped fresh pineapple",
+            "8 pitted dates",
+            "1 tablespoon vanilla extract",
+            "\u00bc cup frozen blackberries, or to taste",
+            "\u00bd cup chopped kale leaves",
+            "1 cup chopped frozen pineapple"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Blend fresh pineapple, dates, and vanilla extract together in a Vitamix&reg; or blender until smooth, about 90 seconds. Add blackberries and blend, about 90 seconds. Add kale and blend, about 90 seconds; repeat for 90 seconds more. Add frozen pineapple and blend until smooth, about 90 seconds.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Drinks"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "jfoster84"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.3333333333333335,
+            "ratingCount": 3,
+            "itemReviewed": "Stellar Kale Smoothie",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "140.6 calories",
+            "carbohydrateContent": "33.9 g",
+            "cholesterolContent": null,
+            "fatContent": "0.4 g",
+            "fiberContent": "4.1 g",
+            "proteinContent": "1.7 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "6.9 mg",
+            "sugarContent": "26 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2015-01-14T14:48:47.443Z",
+                "reviewBody": "This is a delicious drink for any time of the day. I omitted the dates since I don't keep them on hand. I used ice cubes instead of frozen pineapple. I also used mixed berries (I already had mixed in the freezer) instead of black berries.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Diana Mc",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/dianamc/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2014-07-27T18:11:33.083Z",
+                "reviewBody": "I had to add 1/3c water to this to get the blender to chop up the dates and blackberries. But regardless I thought it had a kind of a \"sickly\" sweet flavor to it. I did use almost twice as much kale (had to use it up) so that may have contributed to the issue but I wonder if it was actually the vanilla extract. I would leave that out.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Allrecipes Community",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/allrecipescommunity/"
+                }
+            }
+        ]
+    }
+]

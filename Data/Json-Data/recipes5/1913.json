@@ -1,0 +1,125 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/213/salad/green-salads/",
+                    "name": "Green Salad Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/273950/grilled-wedge-salad/",
+        "name": "Grilled Wedge Salad",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6349374.jpg",
+            "width": 1222,
+            "height": 1125
+        },
+        "datePublished": "2019-05-31T04:19:02.000Z",
+        "description": "This grilled salad is maybe the greatest salad in the world.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H15M",
+        "totalTime": "P0DT0H30M",
+        "recipeYield": "4 wedges",
+        "recipeIngredient": [
+            "4 strips bacon",
+            "1 head iceberg lettuce",
+            "olive oil, or as needed",
+            "1 cup cherry tomatoes, halved",
+            "\u00bd red onion, sliced",
+            "\u00bd cup blue cheese dressing"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place bacon in a large skillet and cook over medium-high heat, turning occasionally, until evenly browned, about 10 minutes. Drain on paper towels and let cool. Chop bacon into bits.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Preheat an outdoor grill for medium heat and lightly oil the grate.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cut the lettuce into 4 wedges. Brush the wedges with olive oil.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cook lettuce on the preheated grill, cut-side down, about 2 minutes. Turn lettuce and cook until warmed through and slightly charred, 2 minutes more. Discard any wilted leaves.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place each lettuce wedge on a plate. Top with tomatoes, onion, and bacon. Drizzle on blue cheese dressing and serve.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad",
+            "Green Salad Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Brian Genest"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Grilled Wedge Salad",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "321.9 calories",
+            "carbohydrateContent": "9.3 g",
+            "cholesterolContent": "20.8 mg",
+            "fatContent": "28.9 g",
+            "fiberContent": "2.2 g",
+            "proteinContent": "5.6 g",
+            "saturatedFatContent": "5.4 g",
+            "servingSize": null,
+            "sodiumContent": "527.7 mg",
+            "sugarContent": "5.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

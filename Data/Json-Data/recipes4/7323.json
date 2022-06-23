@@ -1,0 +1,159 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17245/main-dish/pasta/",
+                    "name": "Pasta",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/237670/angel-hair-pasta-with-gorgonzola-sauce/",
+        "name": "Angel Hair Pasta with Gorgonzola Sauce",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1131878.jpg",
+            "width": 5184,
+            "height": 3888
+        },
+        "datePublished": "2019-04-02T07:03:14.000Z",
+        "description": "This pasta is a cheese lover's dream! The sauce is super creamy, and the Gorgonzola cheese just puts all the flavors to the roof!",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H15M",
+        "totalTime": "P0DT0H20M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "10 ounces angel hair pasta",
+            "2 cups 1% low-fat milk",
+            "2 tablespoons all-purpose flour",
+            "1 pinch cayenne pepper",
+            "salt and ground black pepper to taste",
+            "\u00bd cup crumbled Gorgonzola cheese",
+            "\u00bc cup finely chopped green onion tops"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Bring a large pot of lightly salted water to a boil. Cook angel hair in the boiling water, stirring occasionally until cooked through but firm to the bite, 4 to 5 minutes. Drain, reserving 1/2 cup of the water. Return drained pasta to the pot.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Whisk milk and flour together in a large nonstick skillet; add cayenne pepper, salt, and black pepper. Heat milk mixture over medium heat while whisking continually until bubbling and thickened, about 5 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Sprinkle Gorgonzola cheese into the milk mixture, stirring continually to melt the cheese into a sauce. Stir green onions into the sauce. Pour reserved water into the sauce; stir.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour sauce over the cooked pasta and toss to coat.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Pasta"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Elena's cooking recipes"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.2,
+            "ratingCount": 5,
+            "itemReviewed": "Angel Hair Pasta with Gorgonzola Sauce",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "326.4 calories",
+            "carbohydrateContent": "47.8 g",
+            "cholesterolContent": "23 mg",
+            "fatContent": "7.9 g",
+            "fiberContent": "2.8 g",
+            "proteinContent": "15.8 g",
+            "saturatedFatContent": "3.8 g",
+            "servingSize": null,
+            "sodiumContent": "376 mg",
+            "sugarContent": "1.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2014-05-28T23:09:05.347Z",
+                "reviewBody": "I thought this was good but the guys didn't care for it. I liked that this used low fat milk (I only had 2% on hand so that's what I used)...it made me feel like it was healthier lol. In my opinion this would be better suited as a side dish than a main course but again that's just my opinion. I do think it would go great alongside a nice steak or shrimp. I was glad to try this for something different! Thanks for sharing.:)",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Christina",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/christina/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2015-05-19T01:49:33.79Z",
+                "reviewBody": "I left out the green onions and used rosemary to garnish but otherwise followed the recipe. Served alongside steamed spinach and a steak it was the perfect accompaniment and I had leftovers! Woo!! Keeping this one in my back pocket:)",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Lonestar Cinderella",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/10324794/"
+                }
+            }
+        ]
+    }
+]

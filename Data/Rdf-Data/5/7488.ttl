@@ -1,0 +1,100 @@
+@prefix ns1: <http://purl.org/recipekg/> .
+@prefix ns2: <http://purl.org/heals/food/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/lebkuchen-lep-kuchen> a schema:Recipe ;
+    ns2:hasIngredient [ a <http://purl.org/heals/ingredient/BrownSugar> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "brown sugar" ],
+        [ a <http://purl.org/recipekg/ingredient/Egg> ;
+            ns1:hasQuantity "2" ;
+            ns1:ingredientName "egg" ],
+        [ a <http://purl.org/recipekg/ingredient/Nutmeg> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "nutmeg" ],
+        [ a <http://purl.org/recipekg/ingredient/Citron> ;
+            ns1:hasQuantity "⅛" ;
+            ns1:hasUnit "pound" ;
+            ns1:ingredientName "citron" ],
+        [ a <http://purl.org/heals/ingredient/AllPurposeFlour> ;
+            ns1:hasQuantity "1 1/2" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "all purpose flour" ],
+        [ a <http://purl.org/recipekg/ingredient/Cinnamon> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "cinnamon" ],
+        [ a <http://purl.org/heals/ingredient/Clove> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "clove" ],
+        [ a <http://purl.org/recipekg/ingredient/CreamOfTartar> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "cream of tartar" ],
+        [ a <http://purl.org/heals/ingredient/Almond> ;
+            ns1:hasQuantity "⅛" ;
+            ns1:hasUnit "pound" ;
+            ns1:ingredientName "almond" ] ;
+    ns1:belongsTo <http://purl.org/recipekg/categories/holidays-and-events/christmas/desserts/christmas-cookies/lebkuchen/> ;
+    ns1:hasFSAScore 7 ;
+    ns1:hasNutritionalInformation [ a ns1:NutritionalInformation ;
+            ns1:hasCalorificData [ a ns1:CalorificData ;
+                    ns1:hasAmount "91.7"^^xsd:float ;
+                    ns1:hasUnit "calories" ] ;
+            ns1:hasCarbohydrateData [ a ns1:CarbohydrateData ;
+                    ns1:hasAmount "17.7"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasCholesterolData [ a ns1:CholesterolData ;
+                    ns1:hasAmount "15.5"^^xsd:float ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasFatData [ a ns1:FatData ;
+                    ns1:hasAmount "1.7"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAGreen ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasFiberData [ a ns1:FiberData ;
+                    ns1:hasAmount "0.7"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasProteinData [ a ns1:ProteinData ;
+                    ns1:hasAmount "1.9"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSaturatedFatData [ a ns1:SaturatedFatData ;
+                    ns1:hasAmount "0.3"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAGreen ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSodiumData [ a ns1:SodiumData ;
+                    ns1:hasAmount "15.6"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAGreen ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasSugarData [ a ns1:SugarData ;
+                    ns1:hasAmount "9.1"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "g" ] ] ;
+    ns1:hasUSDAScore 5 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 2 ;
+            schema:ratingValue "3.5"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "1999-01-05T23:25:34.000Z"^^schema:date ;
+    schema:name "Lebkuchen (Lep Kuchen)"^^xsd:string ;
+    schema:recipeYield "4 dozen"^^xsd:string .
+
+ns1:FSAAmber a ns1:FSAColor .
+
+<http://purl.org/recipekg/categories/holidays-and-events/> a ns1:RecipeCategory .
+
+<http://purl.org/recipekg/categories/holidays-and-events/christmas/> rdfs:subClassOf <http://purl.org/recipekg/categories/holidays-and-events/> .
+
+<http://purl.org/recipekg/categories/holidays-and-events/christmas/desserts/> rdfs:subClassOf <http://purl.org/recipekg/categories/holidays-and-events/christmas/> .
+
+<http://purl.org/recipekg/categories/holidays-and-events/christmas/desserts/christmas-cookies/> rdfs:subClassOf <http://purl.org/recipekg/categories/holidays-and-events/christmas/desserts/> .
+
+<http://purl.org/recipekg/categories/holidays-and-events/christmas/desserts/christmas-cookies/lebkuchen/> rdfs:subClassOf <http://purl.org/recipekg/categories/holidays-and-events/christmas/desserts/christmas-cookies/> .
+
+ns1:FSAGreen a ns1:FSAColor .
+

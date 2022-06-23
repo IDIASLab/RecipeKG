@@ -1,0 +1,142 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/227/world-cuisine/asian/",
+                    "name": "Asian",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/21404/shrimp-chinese-chow-mein/",
+        "name": "Shrimp Chinese Chow Mein",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3523773.jpg",
+            "width": 960,
+            "height": 960
+        },
+        "datePublished": "2000-09-25T01:42:03.000Z",
+        "description": "Shrimp, red pepper, green pepper, celery and onion in mushroom soup, served over chow mein noodles.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H25M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "2 cups chopped celery",
+            "1 onion, diced",
+            "1 red bell pepper, sliced",
+            "1 pound fresh shrimp, peeled and deveined",
+            "1 (15 ounce) can mixed vegetables, drained",
+            "1 (10.75 ounce) can  condensed cream of mushroom soup",
+            "\u00bc cup soy sauce",
+            "\u00bd cup green bell pepper, chopped",
+            "4 cups chow mein noodles"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "In a large saucepan, combine celery, onions, red pepper, and shrimp.  Cook over medium heat until shrimp are pink.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Mix in canned vegetables and mushroom soup, soy sauce, and green pepper.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat thoroughly.  Serve over chow mein noodles.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Asian"
+        ],
+        "recipeCuisine": [
+            "Asian"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "sal"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 2.25,
+            "ratingCount": 4,
+            "itemReviewed": "Shrimp Chinese Chow Mein",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "334.9 calories",
+            "carbohydrateContent": "31.9 g",
+            "cholesterolContent": "115 mg",
+            "fatContent": "13.9 g",
+            "fiberContent": "5.4 g",
+            "proteinContent": "21.2 g",
+            "saturatedFatContent": "2.3 g",
+            "servingSize": null,
+            "sodiumContent": "1364.6 mg",
+            "sugarContent": "3.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2010-12-11T02:13:05.827Z",
+                "reviewBody": "I did not care for this recipe.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 1
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Blane",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/5587526/"
+                }
+            }
+        ]
+    }
+]

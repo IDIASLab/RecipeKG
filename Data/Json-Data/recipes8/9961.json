@@ -1,0 +1,112 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/138/drinks/smoothies/",
+                    "name": "Smoothie Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/284714/summer-in-a-cup-smoothie/",
+        "name": "Summer In A Cup Smoothie",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F9251673.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2021-06-15T04:27:21.000Z",
+        "description": "With bananas, raspberries, pomegranate and oranges, this smoothie captures the best flavors of the summer in one delicious snack.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "2 smoothies",
+        "recipeIngredient": [
+            "1\u2009\u00bc cups frozen unsweetened raspberries, thawed",
+            "1 large ripe banana, sliced and frozen",
+            "\u00bd cup pomegranate juice",
+            "\u00be cup orange juice",
+            "\u00be cup Almond Breeze Unsweetened Original Almondmilk"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Add all ingredients to a blender and blend until creamy and smooth, scraping down sides as needed.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Taste and adjust flavor as needed. Add more unsweetened original Almond Breeze or fruit juice if too thick. If not sweet enough, add more banana.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Smoothie Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Almond Breeze"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Summer In A Cup Smoothie",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "125.1 calories",
+            "carbohydrateContent": "28.2 g",
+            "cholesterolContent": null,
+            "fatContent": "1.4 g",
+            "fiberContent": "2.3 g",
+            "proteinContent": "1.8 g",
+            "saturatedFatContent": "0.1 g",
+            "servingSize": null,
+            "sodiumContent": "50.8 mg",
+            "sugarContent": "16.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

@@ -1,0 +1,148 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/139/drinks/tea/",
+                    "name": "Tea",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/16363/drinks/tea/iced/",
+                    "name": "Iced Tea Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/280655/rhubarb-iced-tea/",
+        "name": "Rhubarb Iced Tea",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8239993.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-06-19T06:54:18.000Z",
+        "description": "Homemade iced tea infused with rhubarb for a sour kick and beautiful color.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H35M",
+        "totalTime": "P0DT1H15M",
+        "recipeYield": "1 gallon",
+        "recipeIngredient": [
+            "8 cups water, divided",
+            "4 cups chopped rhubarb",
+            "3 family-size tea bags",
+            "4 fresh mint leaves",
+            "1 cup white sugar",
+            "3 tablespoons lemon juice",
+            "ice cubes"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Bring 4 cups of water to a boil. Add rhubarb, cover, and simmer for 30 minutes. Remove from heat. Stir in tea bags and mint leaves. Cover and let steep for 30 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine sugar and lemon juice in a pitcher. Strain rhubarb and tea mixture over the sugar. Discard the solids.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Using a wooden spoon, stir tea until sugar has dissolved. Add remaining 4 cups of water to the pitcher and stir again. Serve over ice.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Tea",
+            "Iced Tea Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Soup Loving Nicole"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Rhubarb Iced Tea",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "55.5 calories",
+            "carbohydrateContent": "14.1 g",
+            "cholesterolContent": null,
+            "fatContent": "0.1 g",
+            "fiberContent": "0.6 g",
+            "proteinContent": "0.3 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "8.1 mg",
+            "sugarContent": "12.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-07-09T23:39:37.953Z",
+                "reviewBody": "This was delicious, refreshing and not to sweet. Wonderful change.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "sue schnarr",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/27104114/"
+                }
+            }
+        ]
+    }
+]

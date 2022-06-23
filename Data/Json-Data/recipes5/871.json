@@ -1,0 +1,155 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/93/seafood/",
+                    "name": "Seafood",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/412/seafood/shellfish/",
+                    "name": "Shellfish",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/430/seafood/shellfish/shrimp/",
+                    "name": "Shrimp",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/272885/sauteed-shrimp/",
+        "name": "Sauteed Shrimp",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6604584.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2019-04-20T03:59:27.000Z",
+        "description": "These sauteed shrimp are great over grits or white rice. Adapted from Marge Jonte Mahoney, Greeleyville, SC.",
+        "prepTime": "P0DT0H20M",
+        "cookTime": "P0DT0H20M",
+        "totalTime": "P0DT0H40M",
+        "recipeYield": "12 servings",
+        "recipeIngredient": [
+            "1 lemon",
+            "3 pounds uncooked medium shrimp, peeled and deveined",
+            "1 tablespoon olive oil",
+            "1 small onion, chopped",
+            "2 ribs celery, chopped",
+            "2 cloves garlic, crushed and chopped",
+            "salt and ground black pepper to taste",
+            "1 sprig fresh rosemary, chopped, or to taste",
+            "\u00bc teaspoon dried basil",
+            "\u00bc teaspoon dried oregano",
+            "\u00bc teaspoon ground coriander",
+            "1 bay leaf",
+            "\u00be cup white wine, or to taste",
+            "1 teaspoon Worcestershire sauce, or to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Squeeze lemon over shrimp and set aside.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat olive oil over medium heat. Add onion, celery, and garlic. Season with salt and pepper and cook until tender, about 5 minutes. Stir in rosemary, basil, oregano, coriander, and bay leaf. Add white wine and Worcestershire sauce; cook until sauce is slightly reduced and flavors come together, 8 to 10 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Add shrimp to the sauce and cook until pink, 5 to 7 minutes more.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Seafood",
+            "Shellfish",
+            "Shrimp"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "D Keach"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Sauteed Shrimp",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "117.9 calories",
+            "carbohydrateContent": "2.6 g",
+            "cholesterolContent": "172.7 mg",
+            "fatContent": "2.2 g",
+            "fiberContent": "0.8 g",
+            "proteinContent": "18.8 g",
+            "saturatedFatContent": "0.4 g",
+            "servingSize": null,
+            "sodiumContent": "225.9 mg",
+            "sugarContent": "0.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-05-03T05:56:59.983Z",
+                "reviewBody": "Made as written and this turned out good. There are a lot of flavors going on but they all mixed nicely. I'd probably use butter next time because it was a little greasy as is but overall a good recipe.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

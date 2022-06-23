@@ -1,0 +1,177 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/362/desserts/cookies/",
+                    "name": "Cookies",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/839/desserts/cookies/chocolate-chip-cookies/",
+                    "name": "Chocolate Chip Cookie Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 6,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17254/desserts/cookies/chocolate-chip-cookies/white-chocolate/",
+                    "name": "White Chocolate",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/235820/the-cookie-jar/",
+        "name": "The Cookie Jar",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1941435.jpg",
+            "width": 2346,
+            "height": 3128
+        },
+        "datePublished": "2020-06-19T03:57:38.000Z",
+        "description": "Great Christmas gift! Layer dry ingredients in a jar and add a tag with instructions: Add one stick of butter and an egg; mix and bake at 375 degrees F (190 degrees C) for 10 minutes.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H25M",
+        "recipeYield": "2 dozen cookies",
+        "recipeIngredient": [
+            "1\u2009\u00bc cups all-purpose flour",
+            "\u00bd cup brown sugar",
+            "4 ounces chocolate chips",
+            "4 ounces white chocolate chips",
+            "\u00bc cup white sugar",
+            "\u00bd teaspoon baking soda",
+            "\u00bd teaspoon salt",
+            "\u00bd cup butter, softened",
+            "1 egg"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat oven to 375 degrees F (190 degrees C).\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Whisk flour, brown sugar, chocolate chips, white chocolate chips, white sugar, baking soda and salt together in a bowl. Stir butter and egg into flour mixture until dough is just mixed; drop by the spoonful onto a baking sheet.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated oven until edges of cookie are lightly browned, about 10 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Cookies",
+            "Chocolate Chip Cookie Recipes",
+            "White Chocolate"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "inesgosner"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.333333333333333,
+            "ratingCount": 3,
+            "itemReviewed": "The Cookie Jar",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "269.5 calories",
+            "carbohydrateContent": "34.3 g",
+            "cholesterolContent": "37.8 mg",
+            "fatContent": "14.3 g",
+            "fiberContent": "0.9 g",
+            "proteinContent": "3 g",
+            "saturatedFatContent": "8.6 g",
+            "servingSize": null,
+            "sodiumContent": "223.4 mg",
+            "sugarContent": "23.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2015-09-14T02:19:38.783Z",
+                "reviewBody": "A little dry but tasty",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Shelley McQuown",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/10858550/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2018-01-08T03:15:59.44Z",
+                "reviewBody": "Great recipe but we also had 1/4 cup Rice Krispies in ours which adds a nice texture to the cookie!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Deon",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/22767288/"
+                }
+            }
+        ]
+    }
+]

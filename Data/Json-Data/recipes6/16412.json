@@ -1,0 +1,151 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/219/salad/vegetable-salads/",
+                    "name": "Vegetable Salad Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/15104/salad/vegetable-salads/carrot-salad/",
+                    "name": "Carrot Salad Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/23993/minted-carrot-salad/",
+        "name": "Minted Carrot Salad",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Minted Carrot Salad"
+        },
+        "datePublished": "2020-06-19T03:05:13.000Z",
+        "description": "Carrots are cooked until tender, grated, and then topped with tomato dressing and mint. Note: You could try using julienne carrots instead of grated, if you like.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P1DT0H25M",
+        "recipeYield": "5 -7 servings",
+        "recipeIngredient": [
+            "2 pounds carrots",
+            "1 large onion, diced",
+            "\u00bc cup chopped fresh mint leaves",
+            "1 cup tomato sauce",
+            "\u00bd cup vegetable oil",
+            "1 cup sugar",
+            "\u00be cup malt vinegar",
+            "\u00bd teaspoon mustard powder",
+            "\u00bd teaspoon Worcestershire sauce"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Bring a large pot of salted water to a boil.  Add carrots and cook until tender but still firm.  Drain, cool and grate into a large bowl.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "In a small saucepan, whisk together the tomato sauce, oil, sugar, vinegar, mustard and Worcestershire sauce.  Bring to a boil, whisking constantly, remove from heat and cool.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Add onions and mint leaves to the carrots, and pour the dressing over all.  Toss until evenly coated and chill for 24 hours before serving.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad",
+            "Vegetable Salad Recipes",
+            "Carrot Salad Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "TRYOVER"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.5,
+            "ratingCount": 2,
+            "itemReviewed": "Minted Carrot Salad",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "375.9 calories",
+            "carbohydrateContent": "53.5 g",
+            "cholesterolContent": null,
+            "fatContent": "18.6 g",
+            "fiberContent": "5.6 g",
+            "proteinContent": "2.1 g",
+            "saturatedFatContent": "2.9 g",
+            "servingSize": null,
+            "sodiumContent": "316.9 mg",
+            "sugarContent": "42.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2009-08-05T00:01:06.48Z",
+                "reviewBody": "This is awesome! A like this recipe because it adds so much flavor to the carrots and it can be made the night before and served cold. I omitted the onions and it still taste great. I'll never eat carrots the same again!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Staycr",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3048114/"
+                }
+            }
+        ]
+    }
+]

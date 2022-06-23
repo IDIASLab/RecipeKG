@@ -1,0 +1,153 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/372/desserts/candy/",
+                    "name": "Candy Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/759/desserts/candy/popcorn-candy/",
+                    "name": "Popcorn Candy Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/266756/vegan-caramel-popcorn/",
+        "name": "Vegan Caramel Popcorn",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6411068.jpg",
+            "width": 3024,
+            "height": 3024
+        },
+        "datePublished": "2020-03-05T05:18:10.000Z",
+        "description": "Vegan popcorn coated with soft caramel made without butter or milk.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H30M",
+        "totalTime": "P0DT0H41M",
+        "recipeYield": "16 servings",
+        "recipeIngredient": [
+            "2 tablespoons vegetable oil, or more to taste",
+            "1\u2009\u00bc cups popcorn kernels",
+            "2 cups brown sugar",
+            "1 cup light corn syrup",
+            "\u00bd cup coconut oil",
+            "1 teaspoon salt",
+            "1 (11.25 ounce) can sweetened condensed coconut milk",
+            "2 teaspoons vanilla extract"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat 2 tablespoons vegetable oil in a very large pot over medium-high heat. Put 4 popcorn kernels into the oil and cover until popped; add remaining kernels to the saucepan in an even layer. Cover and remove from heat, about 30 seconds. Return to heat and gently shake pan back and forth over the burner until popping slows to several seconds between pops, 1 to 2 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Divide popcorn among large bowls and set aside.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine brown sugar, corn syrup, coconut oil, and salt in a sturdy pot over medium-high heat. Cook, stirring occasionally, until the mixture reads 270 degrees F (132 degrees C) on a candy thermometer. Add condensed milk, mix well, and heat back up to 270 degrees F (132 degrees C). Remove from heat and let cool for 1 minute. Mix in vanilla extract.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour hot caramel over popcorn. Mix well until coated.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Candy Recipes",
+            "Popcorn Candy Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Gwenevere Madsen Bland"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 1,
+            "itemReviewed": "Vegan Caramel Popcorn",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "335 calories",
+            "carbohydrateContent": "58.1 g",
+            "cholesterolContent": null,
+            "fatContent": "11.8 g",
+            "fiberContent": "2.3 g",
+            "proteinContent": "1.9 g",
+            "saturatedFatContent": "8.7 g",
+            "servingSize": null,
+            "sodiumContent": "178.6 mg",
+            "sugarContent": "23.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-02-26T10:00:26.577Z",
+                "reviewBody": "As is I wasn't a big fan of this recipe. It didn't taste like caramel corn but more like a sticky popcorn ball. The softer caramel made the popcorn chewy. If I tried this recipe again I would try the optional instruction of the recipe author to cook in the oven for a crunchier texture.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Happyschmoopies",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/happyschmoopies/"
+                }
+            }
+        ]
+    }
+]

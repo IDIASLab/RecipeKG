@@ -1,0 +1,161 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/81/side-dish/",
+                    "name": "Side Dish",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/917/side-dish/potatoes/",
+                    "name": "Potato",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1457/side-dish/potatoes/mashed-potatoes/",
+                    "name": "Mashed Potato Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/268729/chipotle-mashed-potatoes/",
+        "name": "Chipotle Mashed Potatoes",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5879651.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2018-10-20T00:06:56.000Z",
+        "description": "Garlicky mashed potatoes with a delicious spicy kick of chipotle!",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H25M",
+        "totalTime": "P0DT0H40M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "2 large potatoes, peeled and sliced",
+            "1 chipotle pepper, seeded, or more to taste",
+            "2 cloves garlic, minced",
+            "\u00bd cup milk",
+            "1 small bunch fresh cilantro, chopped, or to taste",
+            "2 tablespoons butter, softened",
+            "\u00bd teaspoon salt"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Bring water to a boil in a medium saucepan. Add potatoes and cook over medium heat, stirring once in a while, until easily pierced with a fork, 20 to 30 minutes. Drain.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place chipotle pepper and garlic in a food processor; process until minced. Add potatoes and process until mostly smooth. Add milk, cilantro, butter, and salt. Mix until combined but a few lumps remain.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Side Dish",
+            "Potato",
+            "Mashed Potato Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "laura V"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Chipotle Mashed Potatoes",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "213.9 calories",
+            "carbohydrateContent": "34.7 g",
+            "cholesterolContent": "17.7 mg",
+            "fatContent": "6.6 g",
+            "fiberContent": "4.4 g",
+            "proteinContent": "5 g",
+            "saturatedFatContent": "4.1 g",
+            "servingSize": null,
+            "sodiumContent": "374.7 mg",
+            "sugarContent": "3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-10-21T00:29:35.9Z",
+                "reviewBody": "The flavor combo was excellent. I did have trouble with the consistency though. They were gluey. I will make these again but will hand mash next time instead.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2019-01-19T09:40:55.43Z",
+                "reviewBody": "I found I didn t need to use the milk in this recipe as it would have been too runny.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "sheila",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/22380525/"
+                }
+            }
+        ]
+    }
+]

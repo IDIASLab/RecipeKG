@@ -1,0 +1,149 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/81/side-dish/",
+                    "name": "Side Dish",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/225/side-dish/vegetables/",
+                    "name": "Vegetables",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/276988/mashed-potatoes-with-olive-oil-and-parmesan/",
+        "name": "Mashed Potatoes with Olive Oil and Parmesan",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F707980.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2019-11-09T06:51:15.000Z",
+        "description": "Olive oil, heavy cream, and Parmesan cheese make these mashed potatoes absolutely irresistible. Adapted from 'In the Kitchen with Stefano Faita.'",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H25M",
+        "totalTime": "P0DT0H30M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "4 medium Yukon Gold potatoes, unpeeled",
+            "salt to taste",
+            "\u00bc cup 35% heavy whipping cream",
+            "2 tablespoons extra-virgin olive oil",
+            "4 tablespoons freshly grated Parmesan cheese"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place potatoes in a medium saucepan; cover with cold water. Season the water generously with salt. Bring to a boil; reduce heat and simmer, covered, until potatoes can be easily pierced with a fork, 20 to 25 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Drain potatoes and mash to the desired consistency. Fold in cream and olive oil. Stir in Parmesan cheese until melted.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Side Dish",
+            "Vegetables"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "t dot"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Mashed Potatoes with Olive Oil and Parmesan",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "297.6 calories",
+            "carbohydrateContent": "37.8 g",
+            "cholesterolContent": "24.8 mg",
+            "fatContent": "13.9 g",
+            "fiberContent": "4.7 g",
+            "proteinContent": "6.5 g",
+            "saturatedFatContent": "5.3 g",
+            "servingSize": null,
+            "sodiumContent": "133.6 mg",
+            "sugarContent": "1.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-09-21T06:09:08.273Z",
+                "reviewBody": "Good, I add some minced garlic to them. Probably used more cream and Parmesan than suggested because I like creamier potatoes and stronger taste of Parmesan cheese. \nIt was also a good way to use up my whipping cream that was on the edge of spoiling.\nI would definitely make these again.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Carol",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/22440698/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2019-12-09T11:47:32.48Z",
+                "reviewBody": "Really good as is! maybe a sprinkle of garlic powder.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "cookie",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/5155796/"
+                }
+            }
+        ]
+    }
+]

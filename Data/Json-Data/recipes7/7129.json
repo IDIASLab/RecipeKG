@@ -1,0 +1,149 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/251/main-dish/sandwiches/",
+                    "name": "Sandwich Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/222788/grilled-chocolate-sandwich/",
+        "name": "Grilled Chocolate Sandwich",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1567351.jpg",
+            "width": 1704,
+            "height": 1705
+        },
+        "datePublished": "2020-06-19T03:49:51.000Z",
+        "description": "This is JUST like making a grilled cheese, but you are using chocolate! Created this while craving chocolate and carbs.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H20M",
+        "recipeYield": "1 sandwich",
+        "recipeIngredient": [
+            "1 tablespoon softened butter, divided",
+            "2 (1/2 inch thick) slices soft French bread",
+            "2 tablespoons semi-sweet chocolate chips, or more to taste",
+            "1 teaspoon white sugar",
+            "\u00bc teaspoon ground cinnamon"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat a skillet over medium-low heat. Spread half the butter on one piece of French bread; place butter-side down into warm skillet. Sprinkle bread with chocolate chips; cook until chocolate begins to melt and bread is lightly browned, 2 to 3 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Spread remaining butter on second piece of bread. Place bread butter-side up on top of melted chocolate. Flip the sandwich and cook until bread is browned on other side, 2 to 3 minutes. Remove from heat; sprinkle with sugar and cinnamon.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Sandwich Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Adrienne Gauthier"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 4,
+            "itemReviewed": "Grilled Chocolate Sandwich",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "364.4 calories",
+            "carbohydrateContent": "46.1 g",
+            "cholesterolContent": "30.5 mg",
+            "fatContent": "18.7 g",
+            "fiberContent": "2.7 g",
+            "proteinContent": "6.9 g",
+            "saturatedFatContent": "11.3 g",
+            "servingSize": null,
+            "sodiumContent": "409.2 mg",
+            "sugarContent": "16.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2012-08-08T17:21:51.673Z",
+                "reviewBody": "Very simple, easy and yummy. I made this as directed on the recipe and liked it very much but because I was making it for breakfast I decided to drizzle some maple syrup on it and eat it with a fork rather than as a sandwich. Another thing I tried and liked very much was using the Dark Chocolate Indulgence spread (by Kraft Philadelphia) instead of the chocolate chips. It is great either way.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "LatinaCook",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/latinacook/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2013-12-28T03:35:17.103Z",
+                "reviewBody": "Also very good with strawberry syrup drizzled on top!!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "sprovost",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/12671193/"
+                }
+            }
+        ]
+    }
+]

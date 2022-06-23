@@ -1,0 +1,107 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/247120/vegan-tomato-cucumber-and-lentil-salad/",
+        "name": "Vegan Tomato, Cucumber, and Lentil Salad",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Vegan Tomato, Cucumber, and Lentil Salad"
+        },
+        "datePublished": "2019-04-04T04:01:34.000Z",
+        "description": "This is one of my favorite fresh summer salads. The lentils add a nice smoky flavor to the spicy onion, basil, and sweet balsamic vinegar. This is delicious served hot or cold and is a very satisfying vegan main dish.",
+        "prepTime": "P0DT0H20M",
+        "cookTime": "P0DT0H25M",
+        "totalTime": "P0DT0H45M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "8 cups water",
+            "1 pound dried lentils",
+            "1 English cucumber, peeled and cut into bite-size pieces",
+            "2 tomatoes, cut into bite-size pieces",
+            "\u00bd red onion, finely chopped",
+            "\u00bd cup finely chopped fresh basil",
+            "\u00bc cup balsamic vinegar"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine water and lentils in a large pot. Bring to a boil; reduce heat and simmer gently until lentils are tender but not mushy, about 20 minutes. Drain excess liquid and transfer to a large bowl.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Stir cucumber, tomatoes, red onion, and basil into lentils. Dress with balsamic vinegar.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "yumnjam"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Vegan Tomato, Cucumber, and Lentil Salad",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "438.7 calories",
+            "carbohydrateContent": "76.9 g",
+            "cholesterolContent": null,
+            "fatContent": "1.5 g",
+            "fiberContent": "36 g",
+            "proteinContent": "30.7 g",
+            "saturatedFatContent": "0.2 g",
+            "servingSize": null,
+            "sodiumContent": "30.1 mg",
+            "sugarContent": "7.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

@@ -1,0 +1,71 @@
+@prefix ns1: <http://purl.org/recipekg/> .
+@prefix ns2: <http://purl.org/heals/food/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/ginger-berry-smoothie> a schema:Recipe ;
+    ns2:hasIngredient [ a <http://purl.org/heals/ingredient/Blueberry> ;
+            ns1:hasQuantity "1/4" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "blueberry" ],
+        [ a <http://purl.org/recipekg/ingredient/Ginger> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "piece" ;
+            ns1:ingredientName "ginger" ],
+        [ a <http://purl.org/recipekg/ingredient/Strawberry> ;
+            ns1:hasQuantity "4" ;
+            ns1:ingredientName "strawberry" ],
+        [ a <http://purl.org/recipekg/ingredient/AgaveNectar> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "agave nectar" ],
+        [ a <http://purl.org/heals/ingredient/Water> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "water" ] ;
+    ns1:belongsTo <http://purl.org/recipekg/categories/breakfast-and-brunch/drinks/> ;
+    ns1:hasFSAScore 5 ;
+    ns1:hasNutritionalInformation [ a ns1:NutritionalInformation ;
+            ns1:hasCalorificData [ a ns1:CalorificData ;
+                    ns1:hasAmount "103.5"^^xsd:float ;
+                    ns1:hasUnit "calories" ] ;
+            ns1:hasCarbohydrateData [ a ns1:CarbohydrateData ;
+                    ns1:hasAmount "26.8"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasFatData [ a ns1:FatData ;
+                    ns1:hasAmount "0.3"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAGreen ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasFiberData [ a ns1:FiberData ;
+                    ns1:hasAmount "3.9"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasProteinData [ a ns1:ProteinData ;
+                    ns1:hasAmount "0.7"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSodiumData [ a ns1:SodiumData ;
+                    ns1:hasAmount "9.1"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAGreen ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasSugarData [ a ns1:SugarData ;
+                    ns1:hasAmount "21.1"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "g" ] ] ;
+    ns1:hasUSDAScore 3 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 3 ;
+            schema:ratingValue "3.3333333333333335"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2020-06-19T03:58:53.000Z"^^schema:date ;
+    schema:name "Ginger Berry Smoothie"^^xsd:string ;
+    schema:recipeYield "1 smoothie"^^xsd:string .
+
+ns1:FSAAmber a ns1:FSAColor .
+
+<http://purl.org/recipekg/categories/breakfast-and-brunch/> a ns1:RecipeCategory .
+
+<http://purl.org/recipekg/categories/breakfast-and-brunch/drinks/> rdfs:subClassOf <http://purl.org/recipekg/categories/breakfast-and-brunch/> .
+
+ns1:FSAGreen a ns1:FSAColor .
+

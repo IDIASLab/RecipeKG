@@ -1,0 +1,128 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/138/drinks/smoothies/",
+                    "name": "Smoothie Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/238623/honeydew-agua/",
+        "name": "Honeydew Agua",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1341295.jpg",
+            "width": 960,
+            "height": 960
+        },
+        "datePublished": "2020-06-19T03:59:58.000Z",
+        "description": "A refreshing drink that everyone will love. Can be used with other fruits, too. Has a cool spring flavor to it. Hope you enjoy. You can add to this or take away from it if you want to change the number of servings. Really great spring drink. I like to add a small piece of honeydew and a slice of lime to the side of my glass.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "2 cups water",
+            "3 honeydew wedges, roughly chopped, or more to taste",
+            "3 tablespoons white sugar",
+            "1 teaspoon vanilla extract",
+            "1 dash lime juice, or to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Blend water, honeydew, sugar, vanilla extract, and lime juice together in a blender until smooth.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Smoothie Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Tasha"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 2,
+            "ratingCount": 2,
+            "itemReviewed": "Honeydew Agua",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "146.4 calories",
+            "carbohydrateContent": "36.1 g",
+            "cholesterolContent": null,
+            "fatContent": "0.3 g",
+            "fiberContent": "1.5 g",
+            "proteinContent": "1 g",
+            "saturatedFatContent": "0.1 g",
+            "servingSize": null,
+            "sodiumContent": "41.1 mg",
+            "sugarContent": "34.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2014-12-22T00:43:22.69Z",
+                "reviewBody": "I really like the lime in it but I did end up using more then 3 wedges of honeydew",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "birgitilsley",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/13516219/"
+                }
+            }
+        ]
+    }
+]

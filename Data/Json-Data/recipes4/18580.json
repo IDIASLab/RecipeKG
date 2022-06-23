@@ -1,0 +1,137 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/256861/quinoa-breakfast-cereal/",
+        "name": "Quinoa Breakfast Cereal",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4483033.jpg",
+            "width": 3264,
+            "height": 1836
+        },
+        "datePublished": "2019-04-04T04:07:52.000Z",
+        "description": "A nice change from the usual bowl of oatmeal, this is jam-packed with nutrients and energy! Serve warm with milk. If sweetness is desired, add a splash of maple syrup or honey. Add quinoa to your breakfast repertoire with this easy hot cereal recipe made with apricots, almonds, flax seeds, and warm spices.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H16M",
+        "totalTime": "P0DT0H21M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "2 cups water",
+            "1 cup quinoa, rinsed",
+            "\u00bd cup chopped dried apricots",
+            "\u00bd cup slivered almonds",
+            "\u2153 cup flax seeds",
+            "1 teaspoon ground cinnamon",
+            "\u00bd teaspoon ground nutmeg"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine water and quinoa in a saucepan over medium heat; bring to a boil. Reduce heat and simmer until most of the water has been absorbed, 8 to 12 minutes. Stir in apricots, almonds, flax seeds, cinnamon, and nutmeg; cook until quinoa is tender, 2 to 3 minutes more.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "laur_218"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.6666666666666665,
+            "ratingCount": 3,
+            "itemReviewed": "Quinoa Breakfast Cereal",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "349.9 calories",
+            "carbohydrateContent": "44.5 g",
+            "cholesterolContent": null,
+            "fatContent": "15.1 g",
+            "fiberContent": "9.3 g",
+            "proteinContent": "11.8 g",
+            "saturatedFatContent": "1.4 g",
+            "servingSize": null,
+            "sodiumContent": "12.8 mg",
+            "sugarContent": "9.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-03-10T22:49:02.47Z",
+                "reviewBody": "This recipe was just not for me; I didn't like the texture of the quinoa. I looked at other recipes after trying this one and they all simmer for a longer time with the lid on. They all also use milk in the recipe. I added about 2 tablespoons honey. I'm not sure if it was just the method of this recipe or if breakfast quinoa is just not for me.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 2
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Tammy Lynn",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3084624/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2018-04-17T01:36:23.52Z",
+                "reviewBody": "I made this recipe to use up leftover quinoa. I chopped up some leftover peanuts and walnuts. I didn't have any dried fruit so I used canned peaches. I also found that the recipe needed more juice so I dumped in the whole can juice and all. I then added honey sugar and milk. It was good and I liked the nutty texture for the guys. Thank you!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Marina Bottoms",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/16372346/"
+                }
+            }
+        ]
+    }
+]

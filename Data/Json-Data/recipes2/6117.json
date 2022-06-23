@@ -1,0 +1,143 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17245/main-dish/pasta/",
+                    "name": "Pasta",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/237483/florentine-fettuccini/",
+        "name": "Florentine Fettuccini",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6902203.jpg",
+            "width": 1731,
+            "height": 1731
+        },
+        "datePublished": "2016-06-04T13:36:37.000Z",
+        "description": "My family inhales this decadent treat!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H20M",
+        "totalTime": "P0DT0H30M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "18 ounces fettuccine",
+            "2 tablespoons butter",
+            "2 tablespoons olive oil",
+            "1 clove garlic, minced",
+            "1 pound fresh spinach, chopped",
+            "1 cup heavy whipping cream",
+            "1\u2009\u00bd cups grated Parmesan cheese",
+            "\u00bc teaspoon ground black pepper"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Bring a large pot of lightly salted water to a rolling boil. Cook fettuccine at a boil until cooked through yet firm to the bite, about 8 minutes; drain.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Melt butter with olive oil in a large skillet over medium heat. Cook and stir garlic in the butter mixture until softened, 2 to 3 minutes; add spinach and cook to wilt slightly, about 1 minute.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Stir fettuccine with the spinach mixture. Pour cream over the pasta and spinach. Increase heat to medium-high and cook until the cream is slightly thickened and reduced in volume, about 5 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Stir Parmesan cheese into the sauce to melt; season with black pepper. Toss to coat noodles with the cheesy sauce.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Pasta"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "B's Kitchen"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 2,
+            "itemReviewed": "Florentine Fettuccini",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "924.2 calories",
+            "carbohydrateContent": "99 g",
+            "cholesterolContent": "123.2 mg",
+            "fatContent": "46.5 g",
+            "fiberContent": "6.8 g",
+            "proteinContent": "32.9 g",
+            "saturatedFatContent": "24.2 g",
+            "servingSize": null,
+            "sodiumContent": "618.7 mg",
+            "sugarContent": "5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2014-05-08T14:50:46.487Z",
+                "reviewBody": "This is a very rich dish. In order to achieve a smooth consistency for the sauce I changed the order of preparation. Instead of adding the cheese and cream separately to the cooked pasta I whisked it in to the butter oil and garlic in the saute pan. Then the spinach was added to simmer just until wilted. The cooked fettucine was tossed into the spinach cream sauce to finish. This would be fine as a vegetarian dish. I opted to add shrimp to the dish because we like it that way. I would also suggest using a mild parmesan cheese to reduce the possibility of an overpowering pungency. I think I'll stick to a more traditionoal alfredo sauce but thanks for the recipe. Some may find this version more simple to prepare.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Cynthia LaFourcade",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/cookincyn/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,136 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17146/appetizers-and-snacks/snacks/",
+                    "name": "Snacks",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/15327/appetizers-and-snacks/snacks/granola-bars/",
+                    "name": "Granola Bar Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/245017/healthy-chocolate-energy-balls/",
+        "name": "Healthy Chocolate Energy Balls",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7772854.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2015-09-25T23:26:17.000Z",
+        "description": "This is a great healthy snack to stop those chocolate cravings.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": null,
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "1 cup raw hemp seeds",
+            "6 Medjool dates, pitted",
+            "\u2153 cup cocoa powder (such as Hershey's\u00ae)"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Grind hemp seeds into a powder in a food processor; add dates and cocoa powder and process until smooth. Roll dough into balls, pressing tightly.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks",
+            "Snacks",
+            "Granola Bar Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Dan"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 1,
+            "itemReviewed": "Healthy Chocolate Energy Balls",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "183.7 calories",
+            "carbohydrateContent": "12 g",
+            "cholesterolContent": null,
+            "fatContent": "12.4 g",
+            "fiberContent": "4.1 g",
+            "proteinContent": "9.9 g",
+            "saturatedFatContent": "1.5 g",
+            "servingSize": null,
+            "sodiumContent": "1.2 mg",
+            "sugarContent": "5.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-03-01T05:17:34.487Z",
+                "reviewBody": "To be fair, I used triple the number of deglet noor dates instead of medjool, so that could have affected the taste...I really wanted to like these because I have made something similar using nuts, and was hoping this would be a low allergen substitute. The texture was good. Unfortunately, the hemp seed flavor was overpowering. I might experiment with a mixture of seeds and update this review in the future.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "MISSJACKIE",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/707559/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,159 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/252/main-dish/savory-pies/",
+                    "name": "Savory Pie Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/2271/main-dish/savory-pies/meat-pie/",
+                    "name": "Meat Pie Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/281787/meatless-shepherds-pie/",
+        "name": "Meatless Shepherd's Pie",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Meatless Shepherd's Pie"
+        },
+        "datePublished": "2020-06-22T10:30:23.000Z",
+        "description": "A meatless alternative for a classic meal of shepherd's pie.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H40M",
+        "totalTime": "P0DT0H55M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "1 tablespoon vegetable oil",
+            "1 cup chopped carrot",
+            "\u2153 cup chopped onion",
+            "2 cloves garlic, minced",
+            "1 (12 ounce) package vegetarian burger crumbles",
+            "\u00bd cup cooked green lentils",
+            "3 tablespoons all-purpose flour",
+            "1\u2009\u00be cups vegetable broth",
+            "1 tablespoon Worcestershire sauce",
+            "1 tablespoon tomato paste",
+            "1 tablespoon soy sauce",
+            "1 cup frozen peas",
+            "\u00bd teaspoon crushed dried rosemary",
+            "salt and ground black pepper to taste",
+            "4 cups prepared mashed potatoes"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat the oven to 400 degrees F (200 degrees C). Grease a large casserole dish.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat oil in a large skillet over medium-high heat. Cook and stir carrot, onion, and garlic in the hot oil until soft and onion is clear, 5 to 7 minutes. Add burger crumbles and lentils; cook until heated through, 5 to 7 minutes. Add flour and saute, 1 to 2 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Stir broth, Worcestershire sauce, tomato paste, and soy sauce into the skillet. Simmer until the sauce thickens, about 5 minutes. Turn off the heat and stir in peas and rosemary. Season with salt and pepper. Pour the mixture into the prepared casserole dish and top with mashed potatoes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated oven until heated through and potatoes are golden, 20 to 30 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Savory Pie Recipes",
+            "Meat Pie Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "VegaMama"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Meatless Shepherd's Pie",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "302.3 calories",
+            "carbohydrateContent": "45.2 g",
+            "cholesterolContent": "2.8 mg",
+            "fatContent": "5.9 g",
+            "fiberContent": "8.2 g",
+            "proteinContent": "17.6 g",
+            "saturatedFatContent": "1.1 g",
+            "servingSize": null,
+            "sodiumContent": "1041.3 mg",
+            "sugarContent": "7.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-11-06T22:51:52.657Z",
+                "reviewBody": "I made this recipe as written and my family ate it but no one wanted seconds and they rated it everywhere between 2.5 to 4. In general, it was okay, but not something I would make for them again. I will add if you are trying to be vegetarian/vegan, you will need to find a vegetarian Worcestershire sauce or sub since regular Worcestershire has anchovies in it.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "My Hot Southern Mess",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/myhotsouthernmess/"
+                }
+            }
+        ]
+    }
+]

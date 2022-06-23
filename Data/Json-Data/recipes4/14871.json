@@ -1,0 +1,107 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1642/everyday-cooking/",
+                    "name": "Everyday Cooking",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/220762/mirnas-easter-roast-beef/",
+        "name": "Mirna's Easter Roast Beef",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Mirna's Easter Roast Beef"
+        },
+        "datePublished": "2019-04-04T03:51:57.000Z",
+        "description": "The family's favorite Easter entree. Beef slowly cooked in just the right combination of soups until it falls apart. Quick, easy, serves a crowd.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT6H0M",
+        "totalTime": "P0DT6H10M",
+        "recipeYield": "20 servings",
+        "recipeIngredient": [
+            "3 (10.5 ounce) cans condensed French onion soup",
+            "3 (10.75 ounce) cans  condensed cream of mushroom soup with roasted garlic",
+            "8 cups water",
+            "onion powder, or to taste",
+            "10 pounds boneless beef chuck roast"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Pour French onion soup, cream of mushroom soup with roasted garlic, and water into a large electric roasting pan. Whisk thoroughly to remove lumps; stir in onion powder.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place beef chuck roast in soup mixture; spoon soup over beef to moisten.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cover the roasting pan, set temperature to 300 degrees F (150 degrees C), and cook beef until very tender, 6 to 8 hours.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Everyday Cooking"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Cake Lady"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Mirna's Easter Roast Beef",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "392.5 calories",
+            "carbohydrateContent": "7.9 g",
+            "cholesterolContent": "104.9 mg",
+            "fatContent": "27.1 g",
+            "fiberContent": "1.1 g",
+            "proteinContent": "28.1 g",
+            "saturatedFatContent": "10.7 g",
+            "servingSize": null,
+            "sodiumContent": "713.5 mg",
+            "sugarContent": "2.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

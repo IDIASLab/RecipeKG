@@ -1,0 +1,140 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/138/drinks/smoothies/",
+                    "name": "Smoothie Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/16129/drinks/smoothies/orange/",
+                    "name": "Orange",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/215193/pacific-smoothie/",
+        "name": "Pacific Smoothie",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4002800.jpg",
+            "width": 2448,
+            "height": 2449
+        },
+        "datePublished": "2020-03-05T05:07:28.000Z",
+        "description": "A tropical delight that hits a sweet tooth, but reminds you of sunbathing in the tropics. After reading the ingredients it doesn't sound very good, but it is awesome. My favorite smoothie by far. Created by a friend of mine.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "1 serving",
+        "recipeIngredient": [
+            "10 ice cubes",
+            "1 banana",
+            "4 teaspoons maple syrup",
+            "4 teaspoons brown sugar",
+            "1 cup eggnog",
+            "\u00bc cup orange juice",
+            "\u00bc cup vanilla yogurt"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Blend the ice, banana, maple syrup, brown sugar, eggnog, orange juice, and vanilla yogurt together in a blender until smooth.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Smoothie Recipes",
+            "Orange"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "BASTIANELLI"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.3333333333333335,
+            "ratingCount": 3,
+            "itemReviewed": "Pacific Smoothie",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "667.2 calories",
+            "carbohydrateContent": "112.1 g",
+            "cholesterolContent": "152.9 mg",
+            "fatContent": "20.3 g",
+            "fiberContent": "3.2 g",
+            "proteinContent": "14.4 g",
+            "saturatedFatContent": "11.9 g",
+            "servingSize": null,
+            "sodiumContent": "193.2 mg",
+            "sugarContent": "83.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2011-11-29T14:56:18.817Z",
+                "reviewBody": "Made this w/o the maple syrup and with fat free plain yogurt to cut the calories and fat. Pretty good!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "mishi",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/4943361/"
+                }
+            }
+        ]
+    }
+]

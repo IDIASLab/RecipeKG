@@ -1,0 +1,159 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/227/world-cuisine/asian/",
+                    "name": "Asian",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/695/world-cuisine/asian/chinese/",
+                    "name": "Chinese",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/257933/hot-and-spicy-sichuan-chicken/",
+        "name": "Hot and Spicy Sichuan Chicken",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Hot and Spicy Sichuan Chicken"
+        },
+        "datePublished": "2020-06-19T04:21:06.000Z",
+        "description": "This is a traditional Chinese dish, which is simple to make. Tender chunks of chicken are bathed in a rich, hot, and spicy sauce. Enjoy with freshly cooked white rice.",
+        "prepTime": "P0DT0H20M",
+        "cookTime": "P0DT0H47M",
+        "totalTime": "P0DT1H7M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "\u00bd (2 pound) whole chicken",
+            "1 (3/4 inch thick) slice fresh ginger, crushed",
+            "1 teaspoon Sichuan peppercorns",
+            "\u00bc cup soy sauce",
+            "\u00bc cup chile oil",
+            "2 tablespoons white sugar",
+            "\u00bc teaspoon monosodium glutamate (MSG)",
+            "\u00bc teaspoon Sichuan peppercorn oil",
+            "6 spring onions (white parts only), cut into 3/4-inch pieces",
+            "1 teaspoon toasted sesame seeds, or to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Bring a large pot of water to a boil; add chicken and cook for 2 to 3 minutes. Drain and discard water.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bring a large pot of fresh water to a boil; add chicken, ginger, and peppercorns. Add more water if needed to cover chicken completely. Cover and cook over high heat until chicken is no longer pink and juices run clear, 35 to 45 minutes. Drain and discard water.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Horizontally chop chicken into 3/4-inch pieces, cutting through the bone and skin. Vertically chop into 3/4-inch squares; transfer to a bowl.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine soy sauce, chile oil, sugar, MSG, and Sichuan peppercorn oil in a bowl to form a sauce; pour over chicken and toss well. Garnish with spring onions and sesame seeds.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Asian",
+            "Chinese"
+        ],
+        "recipeCuisine": [
+            "Asian",
+            "Chinese"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Jin"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Hot and Spicy Sichuan Chicken",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "377.5 calories",
+            "carbohydrateContent": "9.8 g",
+            "cholesterolContent": "40.2 mg",
+            "fatContent": "32.7 g",
+            "fiberContent": "0.9 g",
+            "proteinContent": "11.3 g",
+            "saturatedFatContent": "7.5 g",
+            "servingSize": null,
+            "sodiumContent": "972.8 mg",
+            "sugarContent": "7.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-05-04T03:45:39.2Z",
+                "reviewBody": "For ease I would rate this at five, but the complexity of the flavor isn't quite there, still very good just more of a one note dish. I halved the recipe and found I was able to cut back on the cooking time.  instead of discarding the water after the second boil, I saved it and plan to use it for soup later. Thanks for sharing Jin.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "David Mac",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/27870390/"
+                }
+            }
+        ]
+    }
+]

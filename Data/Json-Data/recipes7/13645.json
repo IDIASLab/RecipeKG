@@ -1,0 +1,151 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/276/desserts/cakes/",
+                    "name": "Cakes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/379/desserts/cakes/holiday-cakes/",
+                    "name": "Holiday Cake Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/245697/peppermint-cheesecake/",
+        "name": "Peppermint Cheesecake",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4734872.jpg",
+            "width": 960,
+            "height": 960
+        },
+        "datePublished": "2020-06-19T04:04:16.000Z",
+        "description": "If you love cheesecake and love peppermint candy this will be perfect! Delicious and great for the holidays!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H40M",
+        "totalTime": "P0DT5H50M",
+        "recipeYield": "1 9-inch cheesecake",
+        "recipeIngredient": [
+            "2 (8 ounce) packages cream cheese, softened",
+            "\u00bd cup white sugar",
+            "1 tablespoon vanilla extract",
+            "2 eggs",
+            "\u00bd cup crushed peppermint candies, divided",
+            "1 (9 inch) prepared graham cracker crust"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat oven to 325 degrees F (165 degrees C).\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place cream cheese, sugar, and vanilla extract in a large bowl. Beat with an electric mixer on low speed until smooth. Mix in the eggs 1 at a time until well-incorporated. Fold crushed peppermint candies into filling with a spoon, reserving 2 tablespoons for decorating the top. Pour filling into the prepared crust.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated oven until cheesecake is set, about 40 minutes. Allow to cool at room temperature, about 1 hour.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Refrigerate cheesecake until completely chilled, 4 hours to overnight. Sprinkle reserved peppermint candies on top.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Cakes",
+            "Holiday Cake Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Mrs Sarah"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Peppermint Cheesecake",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "378.4 calories",
+            "carbohydrateContent": "38.8 g",
+            "cholesterolContent": "86.5 mg",
+            "fatContent": "22.6 g",
+            "fiberContent": "0.4 g",
+            "proteinContent": "5.6 g",
+            "saturatedFatContent": "11.4 g",
+            "servingSize": null,
+            "sodiumContent": "287.8 mg",
+            "sugarContent": "27 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-06-09T23:30:23.68Z",
+                "reviewBody": "Turned out great! I made for a winter/Christmas party and everyone loved it! This is best in the winter time with some hot cocoa.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Emazilun",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/21960572/"
+                }
+            }
+        ]
+    }
+]

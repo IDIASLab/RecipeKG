@@ -1,0 +1,130 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/138/drinks/smoothies/",
+                    "name": "Smoothie Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/273802/chocolate-sapote-smoothie/",
+        "name": "Chocolate Sapote Smoothie",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6826726.jpg",
+            "width": 2024,
+            "height": 3423
+        },
+        "datePublished": "2020-06-19T04:37:40.000Z",
+        "description": "I've been experimenting with tropical fruit and sapote is really interesting. Its pulp is like chocolate pudding. This recipe is really simple and lets the black sapote shine. It's pure creamy, chocolaty goodness.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "1 black sapote",
+            "ice",
+            "1 cup chocolate-flavored almond milk"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Break open the sapote and pull out the pulp. Discard seeds and skin.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine sapote, ice, and almond milk in a blender; blend until smooth.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Smoothie Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "claytical"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Chocolate Sapote Smoothie",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "403.9 calories",
+            "carbohydrateContent": "95.8 g",
+            "cholesterolContent": null,
+            "fatContent": "3.4 g",
+            "fiberContent": "7.7 g",
+            "proteinContent": "6.4 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "107.6 mg",
+            "sugarContent": "10.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-07-13T02:25:20.09Z",
+                "reviewBody": "I'm not sure I bought the right fruit. The grocer assured me they were the same thing but now I'm doubting it. I bought mamey sapote not black sapote. Nonetheless this smoothie was delicious with the mamey sapote. I must look for the black sapote and try this recipe with the right fruit. Thanks for sharing your recipe.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Yoly",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/cookingbikerchick/"
+                }
+            }
+        ]
+    }
+]

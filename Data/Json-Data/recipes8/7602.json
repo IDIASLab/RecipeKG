@@ -1,0 +1,145 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/92/meat-and-poultry/",
+                    "name": "Meat and Poultry",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/205/meat-and-poultry/pork/",
+                    "name": "Pork",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/275276/ricotta-bacon-and-arugula-skillet-pizza/",
+        "name": "Ricotta, Bacon, and Arugula Skillet Pizza",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5901523.jpg",
+            "width": 960,
+            "height": 960
+        },
+        "datePublished": "2019-08-14T03:19:26.000Z",
+        "description": "A creamy and savory pizza topped with fresh nutty flavored arugula and drizzled with a splash of fresh lemon juice. Perfect for a Friday night at home, by the fire with a glass of wine!",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H25M",
+        "recipeYield": "1 pizza",
+        "recipeIngredient": [
+            "3 cups ricotta cheese",
+            "4 green onions, sliced diagonally",
+            "3 tablespoons olive oil, divided",
+            "\u00bc teaspoon red pepper flakes",
+            "1 store-bought thin pizza crust",
+            "5 slices cooked bacon, crumbled, or more to taste",
+            "\u00bd cup freshly grated Parmesan cheese",
+            "salt and ground black pepper to taste",
+            "1 bunch fresh arugula",
+            "1 lemon, juiced"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat the oven to 400 degrees F (200 degrees C).\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Mix ricotta cheese, green onions, 1 tablespoon olive oil, and red pepper flakes together in a bowl. Spread over pizza crust.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat remaining 2 tablespoons olive oil in a cast iron skillet over medium heat. Place pizza crust with ricotta mixture in the skillet; add bacon and Parmesan cheese and cook the bottom of the pizza, 3 to 4 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Leave pizza in the skillet and place in the preheated oven to bake until top of pizza begins to brown slightly, 7 to 8 minutes. Remove pizza from the oven carefully, top with salt and pepper, arugula, and a drizzle of lemon juice, in that order. Serve warm.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Meat and Poultry",
+            "Pork"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Anna Shoeman"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Ricotta, Bacon, and Arugula Skillet Pizza",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "442.6 calories",
+            "carbohydrateContent": "33.1 g",
+            "cholesterolContent": "52.2 mg",
+            "fatContent": "23.9 g",
+            "fiberContent": "2.5 g",
+            "proteinContent": "24.9 g",
+            "saturatedFatContent": "9.1 g",
+            "servingSize": null,
+            "sodiumContent": "831.5 mg",
+            "sugarContent": "4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-08-16T05:08:38.853Z",
+                "reviewBody": "Easy & delicious. I made it as written and it was devoured.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "SF",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2044744/"
+                }
+            }
+        ]
+    }
+]

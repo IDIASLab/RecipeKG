@@ -1,0 +1,130 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/233091/mississippi-vegi-balls/",
+        "name": "Mississippi Vegi Balls",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Mississippi Vegi Balls"
+        },
+        "datePublished": "2015-11-19T07:15:32.000Z",
+        "description": "Accompany with a sauce of your choice. Tastes like a meat.",
+        "prepTime": "P0DT0H20M",
+        "cookTime": "P0DT0H20M",
+        "totalTime": "P0DT0H40M",
+        "recipeYield": "32 balls",
+        "recipeIngredient": [
+            "2 cups Italian-seasoned bread crumbs",
+            "1 cup shredded Cheddar cheese",
+            "1 cup chopped pecans",
+            "\u00bd cup cottage cheese",
+            "\u00bd cup minced onion",
+            "4 eggs",
+            "1 teaspoon dried basil",
+            "\u00bc teaspoon dried sage"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat oven to 350 degrees F (175 degrees C).\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Mix bread crumbs, Cheddar cheese, pecans, cottage cheese, onion, eggs, basil, and sage in a bowl; form mixture into 1-inch balls. Place balls on a baking sheet.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated oven until bottoms turn brown, 20 to 25 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "DAGB"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Mississippi Vegi Balls",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "80.2 calories",
+            "carbohydrateContent": "6 g",
+            "cholesterolContent": "27.6 mg",
+            "fatContent": "4.8 g",
+            "fiberContent": "0.7 g",
+            "proteinContent": "3.5 g",
+            "saturatedFatContent": "1.4 g",
+            "servingSize": null,
+            "sodiumContent": "177 mg",
+            "sugarContent": "0.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-03-26T00:57:10.253Z",
+                "reviewBody": "My kids and I make this all the time.  It is a good alternative to meat, it gives the right texture and we serve it with sweet and sour sauce with rice, yummm!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Shawna M Montana",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2333705/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,155 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/133/drinks/cocktails/",
+                    "name": "Cocktail Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1743/drinks/cocktails/vodka-drinks/",
+                    "name": "Vodka Drinks Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/238434/cake-and-ice-cream/",
+        "name": "Cake and Ice Cream",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1267831.jpg",
+            "width": 1300,
+            "height": 960
+        },
+        "datePublished": "2020-06-19T03:59:50.000Z",
+        "description": "A delicious blended drink using cake vodka. I invented this drink while visiting my sister in Minnesota. We did not know what to do with the cake vodka so I tried this and everyone loved it. Enjoy!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "4 scoops vanilla ice cream",
+            "\u00bd cup milk",
+            "\u00bd cup crushed ice",
+            "3 fluid ounces cake-flavored vodka",
+            "1 tablespoon white sugar"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Blend ice cream, milk, ice, vodka, and sugar together in a blender until smooth.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Cocktail Recipes",
+            "Vodka Drinks Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "superwoman"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.666666666666667,
+            "ratingCount": 3,
+            "itemReviewed": "Cake and Ice Cream",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "235.4 calories",
+            "carbohydrateContent": "19 g",
+            "cholesterolContent": "23.4 mg",
+            "fatContent": "5.8 g",
+            "fiberContent": "0.3 g",
+            "proteinContent": "3.5 g",
+            "saturatedFatContent": "3.6 g",
+            "servingSize": null,
+            "sodiumContent": "59 mg",
+            "sugarContent": "18 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2014-07-24T11:48:37.11Z",
+                "reviewBody": "I did not add the additional sugar. Mine turned out chunkier than I like it could be my blender. The taste was great. Next time I would make this without the ice I think I would like it a lot better.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Sarah Jo",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/doublewideskilletsinglewidebudget/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2014-07-19T21:03:52.48Z",
+                "reviewBody": "This is one heck of a dessert drink!  Yum! Yum!  I thought it would be too sweet, so I almost didn't put in the sugar--but it all works out well.  Thanks so much, superwoman!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Marianne",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/marianne1/"
+                }
+            }
+        ]
+    }
+]

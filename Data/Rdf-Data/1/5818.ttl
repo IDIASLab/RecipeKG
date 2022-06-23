@@ -1,0 +1,53 @@
+@prefix ns1: <http://purl.org/recipekg/> .
+@prefix ns2: <http://purl.org/heals/food/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/philadelphia-new-york-cheesecake> a schema:Recipe ;
+    ns2:hasIngredient [ ],
+        [ ],
+        [ a <http://purl.org/recipekg/ingredient/HoneyMaid> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "HONEY MAID" ],
+        [ a <http://purl.org/recipekg/ingredient/Flour> ;
+            ns1:hasQuantity "3" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "flour" ],
+        [ a <http://purl.org/heals/ingredient/Cheese> ;
+            ns1:hasQuantity "5" ;
+            ns1:ingredientName "cheese" ],
+        [ a <http://purl.org/heals/ingredient/Butter> ;
+            ns1:hasQuantity "3" ;
+            ns1:hasUnit "ounce" ;
+            ns1:ingredientName "butter" ],
+        [ a <http://purl.org/recipekg/ingredient/Egg> ;
+            ns1:hasQuantity "4" ;
+            ns1:ingredientName "egg" ],
+        [ a <http://purl.org/recipekg/ingredient/Vanilla> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "vanilla" ],
+        [ a <http://purl.org/recipekg/ingredient/Sugar> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "sugar" ],
+        [ a <http://purl.org/recipekg/ingredient/Sugar> ;
+            ns1:hasQuantity "3" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "sugar" ] ;
+    ns1:belongsTo <http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/philadelphia-cream-cheese/> ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 71 ;
+            schema:ratingValue "4.746478873239437"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2008-06-30T23:10:59.000Z"^^schema:date ;
+    schema:name "PHILADELPHIA&reg; New York Cheesecake"^^xsd:string ;
+    schema:recipeYield "16 servings"^^xsd:string .
+
+<http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/> a ns1:RecipeCategory .
+
+<http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/philadelphia-cream-cheese/> rdfs:subClassOf <http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/> .
+

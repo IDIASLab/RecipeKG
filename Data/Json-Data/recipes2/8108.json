@@ -1,0 +1,131 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/138/drinks/smoothies/",
+                    "name": "Smoothie Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/255340/tropical-refresher/",
+        "name": "Tropical Refresher",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4541367.jpg",
+            "width": 4968,
+            "height": 4968
+        },
+        "datePublished": "2016-09-10T06:49:34.000Z",
+        "description": "Great for a hot summer day. You can omit the apple cider- it won't make much of a difference. Enjoy!",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "2 smoothies",
+        "recipeIngredient": [
+            "\u00be cup frozen pineapple chunks",
+            "\u00be cup frozen cherries",
+            "\u00bc cup plain Greek yogurt",
+            "\u00bc cup apple cider",
+            "\u00bc cup half-and-half",
+            "3\u2009\u00bd tablespoons honey",
+            "\u00bd teaspoon coconut extract",
+            "\u00bc teaspoon almond extract"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine pineapple, cherries, Greek yogurt, apple cider, half-and-half, honey, coconut extract, and almond extract in a blender; blend until smooth.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Smoothie Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "EllyBelle"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Tropical Refresher",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "369.6 calories",
+            "carbohydrateContent": "78.9 g",
+            "cholesterolContent": "16.8 mg",
+            "fatContent": "6.2 g",
+            "fiberContent": "3.1 g",
+            "proteinContent": "4 g",
+            "saturatedFatContent": "3.5 g",
+            "servingSize": null,
+            "sodiumContent": "36.4 mg",
+            "sugarContent": "73.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-07-28T01:24:47.24Z",
+                "reviewBody": "7.27.19 I didn t have any apple cider so I used apple juice and also used fresh fruit so I did add a bit of crushed ice to the blender. I also used vanilla low-fat Greek yogurt (what I had on hand) and fat-free half-and-half. The honey flavor dominated a bit too much for us (could just be personal taste preference) so I know I ll reduce that by at least half in the future. Honestly my fruit was so ripe and sweet I m not convinced I needed honey at all. The pineapple and the coconut extract bring that tropical element to this drink and the cherries kick in with some sweetness. EllyBelle this falls into the smoothie category for me and I drink a lot of them. Thanks for sharing your recipe we enjoyed it.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "lutzflcat",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/lutzflcat/"
+                }
+            }
+        ]
+    }
+]

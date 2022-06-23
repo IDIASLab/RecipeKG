@@ -1,0 +1,124 @@
+@prefix ns1: <http://purl.org/heals/food/> .
+@prefix ns2: <http://purl.org/recipekg/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/beef-chorizo-and-chile-flautas> a schema:Recipe ;
+    ns1:hasIngredient [ a <http://purl.org/recipekg/ingredient/AnchoChilePowder> ;
+            ns2:hasQuantity "2" ;
+            ns2:hasUnit "tablespoon" ;
+            ns2:ingredientName "ancho chile powder" ],
+        [ a <http://purl.org/recipekg/ingredient/Cumin> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "tablespoon" ;
+            ns2:ingredientName "cumin" ],
+        [ a <http://purl.org/heals/ingredient/BlackPepper> ;
+            ns2:hasQuantity "1/2" ;
+            ns2:hasUnit "teaspoon" ;
+            ns2:ingredientName "black pepper" ],
+        [ a <http://purl.org/heals/ingredient/CanolaOil> ;
+            ns2:hasQuantity "1/4" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "canola oil" ],
+        [ a <http://purl.org/recipekg/ingredient/Salsa> ;
+            ns2:hasQuantity "3/4" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "salsa" ],
+        [ a <http://purl.org/heals/ingredient/Salt> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "tablespoon" ;
+            ns2:ingredientName "salt" ],
+        [ a <http://purl.org/recipekg/ingredient/OnionPowder> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "tablespoon" ;
+            ns2:ingredientName "onion powder" ],
+        [ a <http://purl.org/recipekg/ingredient/Beer> ;
+            ns2:hasQuantity "2 1/2" ;
+            ns2:ingredientName "beer" ],
+        [ a <http://purl.org/recipekg/ingredient/CayennePepper> ;
+            ns2:hasQuantity "1/4" ;
+            ns2:hasUnit "teaspoon" ;
+            ns2:ingredientName "cayenne pepper" ],
+        [ a <http://purl.org/heals/ingredient/Garlic> ;
+            ns2:hasQuantity "2" ;
+            ns2:hasUnit "tablespoon" ;
+            ns2:ingredientName "garlic" ],
+        [ a <http://purl.org/recipekg/ingredient/ChorizoSausage> ;
+            ns2:hasQuantity "1/3" ;
+            ns2:hasUnit "pound" ;
+            ns2:ingredientName "chorizo sausage" ],
+        [ a <http://purl.org/recipekg/ingredient/ChilePeppers> ;
+            ns2:hasQuantity "7" ;
+            ns2:ingredientName "chile peppers" ],
+        [ a <http://purl.org/heals/ingredient/Cheese> ;
+            ns2:hasQuantity "2" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "cheese" ],
+        [ a <http://purl.org/recipekg/ingredient/Chuck> ;
+            ns2:hasQuantity "2" ;
+            ns2:hasUnit "pound" ;
+            ns2:ingredientName "chuck" ],
+        [ a <http://purl.org/recipekg/ingredient/FlourTortillas> ;
+            ns2:hasQuantity "24" ;
+            ns2:ingredientName "flour tortillas" ],
+        [ a <http://purl.org/recipekg/ingredient/Marjoram> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "teaspoon" ;
+            ns2:ingredientName "marjoram" ] ;
+    ns2:belongsTo <http://purl.org/recipekg/categories/world-cuisine/latin-american/mexican/main-dishes/beef/> ;
+    ns2:hasFSAScore 2 ;
+    ns2:hasNutritionalInformation [ a ns2:NutritionalInformation ;
+            ns2:hasCalorificData [ a ns2:CalorificData ;
+                    ns2:hasAmount "685.1"^^xsd:float ;
+                    ns2:hasUnit "calories" ] ;
+            ns2:hasCarbohydrateData [ a ns2:CarbohydrateData ;
+                    ns2:hasAmount "63.1"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasCholesterolData [ a ns2:CholesterolData ;
+                    ns2:hasAmount "77.9"^^xsd:float ;
+                    ns2:hasUnit "mg" ] ;
+            ns2:hasFatData [ a ns2:FatData ;
+                    ns2:hasAmount "32.1"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSARed ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasFiberData [ a ns2:FiberData ;
+                    ns2:hasAmount "4.2"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasProteinData [ a ns2:ProteinData ;
+                    ns2:hasAmount "30.3"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasSaturatedFatData [ a ns2:SaturatedFatData ;
+                    ns2:hasAmount "12.2"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSARed ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasSodiumData [ a ns2:SodiumData ;
+                    ns2:hasAmount "1512.3"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSARed ;
+                    ns2:hasUnit "mg" ] ;
+            ns2:hasSugarData [ a ns2:SugarData ;
+                    ns2:hasAmount "2.4"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSAGreen ;
+                    ns2:hasUnit "g" ] ] ;
+    ns2:hasUSDAScore 3 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2021-02-12T04:01:08.000Z"^^schema:date ;
+    schema:name "Beef, Chorizo, and Chile Flautas"^^xsd:string ;
+    schema:recipeYield "24 flautas"^^xsd:string .
+
+ns2:FSAGreen a ns2:FSAColor .
+
+<http://purl.org/recipekg/categories/world-cuisine/> a ns2:RecipeCategory .
+
+<http://purl.org/recipekg/categories/world-cuisine/latin-american/> rdfs:subClassOf <http://purl.org/recipekg/categories/world-cuisine/> .
+
+<http://purl.org/recipekg/categories/world-cuisine/latin-american/mexican/> rdfs:subClassOf <http://purl.org/recipekg/categories/world-cuisine/latin-american/> .
+
+<http://purl.org/recipekg/categories/world-cuisine/latin-american/mexican/main-dishes/> rdfs:subClassOf <http://purl.org/recipekg/categories/world-cuisine/latin-american/mexican/> .
+
+<http://purl.org/recipekg/categories/world-cuisine/latin-american/mexican/main-dishes/beef/> rdfs:subClassOf <http://purl.org/recipekg/categories/world-cuisine/latin-american/mexican/main-dishes/> .
+
+ns2:FSARed a ns2:FSAColor .
+

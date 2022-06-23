@@ -1,0 +1,140 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/408/salad/seafood-salad/",
+                    "name": "Seafood Salad Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/914/salad/seafood-salad/shrimp-salad/",
+                    "name": "Shrimp Salad Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/228986/orange-shrimp-spinach-salad/",
+        "name": "Orange Shrimp Spinach Salad",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1012750.jpg",
+            "width": 1000,
+            "height": 1000
+        },
+        "datePublished": "2012-09-12T22:21:13.000Z",
+        "description": "Great for a light summer lunch!",
+        "prepTime": "P0DT0H15M",
+        "cookTime": null,
+        "totalTime": "P0DT1H0M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "4 Valencia oranges - peeled, sectioned, and seeded",
+            "1 (16 ounce) package frozen cooked shrimp, thawed",
+            "1 (6 ounce) package baby spinach leaves",
+            "1 (8 ounce) can large pitted black olives, drained",
+            "3 tablespoons olive oil, or to taste",
+            "1 tablespoon balsamic vinegar, or to taste",
+            "freshly ground black pepper to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Toss orange sections, shrimp, spinach, and black olives together in a large salad bowl. Drizzle with olive oil and balsamic vinegar and sprinkle with black pepper. Chill salad before serving.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad",
+            "Seafood Salad Recipes",
+            "Shrimp Salad Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Dorothy Rinaldi"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 1,
+            "itemReviewed": "Orange Shrimp Spinach Salad",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "226 calories",
+            "carbohydrateContent": "13.5 g",
+            "cholesterolContent": "147.6 mg",
+            "fatContent": "12 g",
+            "fiberContent": "3.9 g",
+            "proteinContent": "17.8 g",
+            "saturatedFatContent": "1.7 g",
+            "servingSize": null,
+            "sodiumContent": "521.5 mg",
+            "sugarContent": "0.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2013-05-17T22:47:19.673Z",
+                "reviewBody": "Found this to be an interesting combo but didn't really care for the overall taste. Using cooked shrimp can be a convenience but if you are seeking for a fresh tasting salad put a little more effort and cook fresh shrimp. That way you won't be biting into a rubberish shrimp. I used spanish olives because I didn't want to open up a can of black olives however I wouldn't add it next time. I also whisked in minced red onions with the vinegar/oil dressing for a little boost on flavor.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "MattOlay V-H",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3883699/"
+                }
+            }
+        ]
+    }
+]

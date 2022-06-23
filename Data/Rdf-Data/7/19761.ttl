@@ -1,0 +1,56 @@
+@prefix ns1: <http://purl.org/heals/food/> .
+@prefix ns2: <http://purl.org/recipekg/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/bison-sausage-apple-and-sage-strata> a schema:Recipe ;
+    ns1:hasIngredient [ a <http://purl.org/recipekg/ingredient/Bread> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "loaf" ;
+            ns2:ingredientName "bread" ],
+        [ a <http://purl.org/recipekg/ingredient/Apple> ;
+            ns2:hasQuantity "2" ;
+            ns2:ingredientName "apple" ],
+        [ a <http://purl.org/recipekg/ingredient/ProvoloneCheese> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "provolone cheese" ],
+        [ a <http://purl.org/recipekg/ingredient/Milk> ;
+            ns2:hasQuantity "2" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "milk" ],
+        [ a <http://purl.org/recipekg/ingredient/SageLeaves> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "tablespoon" ;
+            ns2:ingredientName "sage leaves" ],
+        [ a <http://purl.org/recipekg/ingredient/Egg> ;
+            ns2:hasQuantity "8" ;
+            ns2:ingredientName "egg" ],
+        [ a <http://purl.org/heals/ingredient/Onion> ;
+            ns2:hasQuantity "1" ;
+            ns2:ingredientName "onion" ],
+        [ a <http://purl.org/recipekg/ingredient/Sausage> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "pound" ;
+            ns2:ingredientName "sausage" ],
+        [ a <http://purl.org/heals/ingredient/BlackPepper> ;
+            ns2:hasQuantity "1/4" ;
+            ns2:hasUnit "teaspoon" ;
+            ns2:ingredientName "black pepper" ],
+        [ a <http://purl.org/recipekg/ingredient/Spray> ;
+            ns2:ingredientName "spray" ] ;
+    ns2:belongsTo <http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/the-bison-council/> ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 1 ;
+            schema:ratingValue "5"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2013-08-08T18:59:15.000Z"^^schema:date ;
+    schema:name "Bison Sausage, Apple and Sage Strata"^^xsd:string ;
+    schema:recipeYield "8 servings"^^xsd:string .
+
+<http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/> a ns2:RecipeCategory .
+
+<http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/the-bison-council/> rdfs:subClassOf <http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/> .
+

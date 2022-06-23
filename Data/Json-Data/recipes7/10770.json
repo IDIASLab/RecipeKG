@@ -1,0 +1,133 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17106/drinks/juice/",
+                    "name": "Juice Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/236293/soursop-punch/",
+        "name": "Soursop Punch",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1133094.jpg",
+            "width": 1037,
+            "height": 960
+        },
+        "datePublished": "2020-06-19T03:58:07.000Z",
+        "description": "One of my favorite beverages when I was a little girl was made with the soursop fruit. You can use either white or brown sugar for this punch.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": null,
+        "totalTime": "P0DT0H45M",
+        "recipeYield": "1 serving",
+        "recipeIngredient": [
+            "1 soursop fruit, peeled and cut into chunks",
+            "1\u2009\u00bd cups milk, or to taste",
+            "2 tablespoons white sugar, or to taste",
+            "2 teaspoons vanilla extract",
+            "\u00bd teaspoon ground cinnamon",
+            "\u00bc teaspoon ground nutmeg"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Working in batches, press soursop pieces through a fine-mesh strainer with the back of a spoon into a bowl to remove the juice from the fruit.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Whisk milk, sugar, vanilla, cinnamon, and nutmeg into soursop juice until sugar is dissolved completely. Pour punch into a pitcher and refrigerate until chilled, at least 30 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Juice Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "jaci"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Soursop Punch",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "724 calories",
+            "carbohydrateContent": "149.8 g",
+            "cholesterolContent": "29.3 mg",
+            "fatContent": "9.4 g",
+            "fiberContent": "21.4 g",
+            "proteinContent": "18.4 g",
+            "saturatedFatContent": "5.1 g",
+            "servingSize": null,
+            "sodiumContent": "238.6 mg",
+            "sugarContent": "43.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-01-09T02:54:50.223Z",
+                "reviewBody": "Hi, thank you for this recipe. Unfortunately, I can't find soursop in my local store so I have been using this Soursop powder instead: ..\nIt tastes great and now with your recipe is even better!!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Ana Crawford",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/28766636/"
+                }
+            }
+        ]
+    }
+]

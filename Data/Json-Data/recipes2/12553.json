@@ -1,0 +1,145 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17100/desserts/frostings-and-icings/",
+                    "name": "Frostings and Icings",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/240567/gingerbread-icing/",
+        "name": "Gingerbread Icing",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4339844.jpg",
+            "width": 960,
+            "height": 960
+        },
+        "datePublished": "2017-11-10T06:50:18.000Z",
+        "description": "A nice ginger icing to help decorate cookies or even hold walls of gingerbread houses together. This icing dries hard and tastes good.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "36 servings",
+        "recipeIngredient": [
+            "4 egg whites",
+            "5 cups confectioners' sugar",
+            "2 tablespoons ground ginger",
+            "1 tablespoon ground cinnamon",
+            "2 teaspoons vanilla extract"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Beat egg whites in a bowl using an electric mixer on high speed until foamy. Gradually mix confectioners' sugar, ginger, cinnamon, and vanilla extract into egg whites until icing is thickened.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Frostings and Icings"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "quacked"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 2.5,
+            "ratingCount": 2,
+            "itemReviewed": "Gingerbread Icing",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "71.7 calories",
+            "carbohydrateContent": "17.8 g",
+            "cholesterolContent": null,
+            "fatContent": null,
+            "fiberContent": "0.1 g",
+            "proteinContent": "0.4 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "6.5 mg",
+            "sugarContent": "17.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-11-02T04:35:58.283Z",
+                "reviewBody": "Did not care for this recipe, to much ginger and cinnamon.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 1
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "diane",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/12161390/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2017-05-20T04:22:29.857Z",
+                "reviewBody": "I had to add way more sugar than it called for because my icing was runny. I brushed it on the cookies with a grill brush for braising. They dried pretty quickly so if you are wanting to add sprinkles or decorative candies you'll want to do so before icing the entire batch. Doesn't taste very good by itself but compliments a ginger cookie pretty well.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Kyoo ",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/8779262/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,133 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17100/desserts/frostings-and-icings/",
+                    "name": "Frostings and Icings",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/245389/creamy-peanut-butter-frosting/",
+        "name": "Creamy Peanut Butter Frosting",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Creamy Peanut Butter Frosting"
+        },
+        "datePublished": "2020-06-19T04:03:56.000Z",
+        "description": "I came up with this recipe for us folks who want amazing frosting but don't want to use confectioners' sugar! I wanted to create something fluffy, creamy, and delicious. My friends and family rave over this frosting! It goes perfectly with chocolate cake.",
+        "prepTime": null,
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT1H10M",
+        "recipeYield": "3 cups",
+        "recipeIngredient": [
+            "1\u2009\u00bd cups white sugar",
+            "\u00bd cup butter, softened",
+            "1 cup creamy peanut butter",
+            "1 cup heavy whipping cream",
+            "2 tablespoons vanilla extract"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Beat sugar and butter together in a large bowl using an electric mixer on medium speed until smooth and no longer gritty, about 5 minutes. Add peanut butter, cream, and vanilla extract to the butter mixture. Beat on medium speed until frosting is well-mixed and smooth, 5 to 7 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Transfer frosting to an airtight container and refrigerate until firm, 1 to 2 hours.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Frostings and Icings"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Jennifer"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Creamy Peanut Butter Frosting",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "182.8 calories",
+            "carbohydrateContent": "15 g",
+            "cholesterolContent": "23.8 mg",
+            "fatContent": "12.9 g",
+            "fiberContent": "0.6 g",
+            "proteinContent": "2.9 g",
+            "saturatedFatContent": "5.8 g",
+            "servingSize": null,
+            "sodiumContent": "80.4 mg",
+            "sugarContent": "13.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-04-27T13:56:32.22Z",
+                "reviewBody": "I love this recipie this is soooo good.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Michelle Winterton",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/28312865/"
+                }
+            }
+        ]
+    }
+]

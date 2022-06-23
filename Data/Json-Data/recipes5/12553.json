@@ -1,0 +1,145 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/133/drinks/cocktails/",
+                    "name": "Cocktail Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1743/drinks/cocktails/vodka-drinks/",
+                    "name": "Vodka Drinks Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/277592/spicy-sparkling-cucumber-cocktail/",
+        "name": "Spicy Sparkling Cucumber Cocktail",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7422007.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2019-12-09T00:42:00.000Z",
+        "description": "This is a spicy yet cool and refreshing cocktail that is perfect for a hot summer day.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "2 cocktails",
+        "recipeIngredient": [
+            "6 thin slices cucumber",
+            "2 ounces vodka",
+            "1 ounce lime juice",
+            "1 ounce simple syrup",
+            "3 dashes hot pepper sauce",
+            "1 cup ice, or as needed",
+            "1 cup club soda, or as needed",
+            "2 thin slices cucumber"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Muddle 6 cucumber slices in a cocktail shaker. Add vodka, lime juice, simple syrup, and hot sauce. Fill shaker with ice and shake for 30 seconds.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Fill 2 glasses with fresh ice. Strain vodka mixture into the glasses and top off with club soda. Garnish with remaining cucumber slices.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Cocktail Recipes",
+            "Vodka Drinks Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Soup Loving Nicole"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Spicy Sparkling Cucumber Cocktail",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "107.1 calories",
+            "carbohydrateContent": "11.2 g",
+            "cholesterolContent": null,
+            "fatContent": "0.1 g",
+            "fiberContent": "0.5 g",
+            "proteinContent": "0.6 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "19.5 mg",
+            "sugarContent": "1.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-06-22T01:16:20.933Z",
+                "reviewBody": "Very good.  You could use one of the many flavors of MIO, Crystal Lite or Koolaid.  I use MIO because there is no sugar.  Delicious.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "IFortuna",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/21907807/"
+                }
+            }
+        ]
+    }
+]

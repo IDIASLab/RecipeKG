@@ -1,0 +1,150 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/227/world-cuisine/asian/",
+                    "name": "Asian",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/233/world-cuisine/asian/indian/",
+                    "name": "Indian",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/212750/paalu-mithai-milk-sweet/",
+        "name": "Paalu Mithai (Milk Sweet)",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F818933.jpg",
+            "width": 640,
+            "height": 480
+        },
+        "datePublished": "2020-06-19T03:41:00.000Z",
+        "description": "This is a very easy, but a bit time-consuming sweet. It is like sooji halwa except that the liquid is milk (paalu). My children love this sweet.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H45M",
+        "totalTime": "P0DT1H50M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "\u00bc cup ghee (clarified butter)",
+            "\u00bc cup cashews",
+            "1\u2009\u00bd cups whole milk",
+            "1 cup white sugar",
+            "3 tablespoons semolina flour",
+            "\u00bd teaspoon ground cardamom"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat the ghee in a heavy-bottomed pan over medium heat; fry the cashews in the ghee until golden brown, about 5 minutes. Scrape onto a cutting board to cool, leaving some of the ghee in the pan and return the pan to the stove. When the cashews are cool, chop coarsely.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Mix the milk, sugar, and semolina flour into the ghee remaining in the pan. Bring the mixture to a boil; reduce heat to low and cook, stirring frequently, until the mixture becomes very thick, 30 to 45 minutes. Stir the cardamom into the mixture.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Lightly grease a rimmed platter. Pour the milk mixture onto the prepared platter and spread into an even layer. Sprinkle the chopped cashews over the mixture. Score the mithai into squares and allow to cool completely before cutting.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Asian",
+            "Indian"
+        ],
+        "recipeCuisine": [
+            "Asian",
+            "Indian"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "SUSMITA"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 1,
+            "itemReviewed": "Paalu Mithai (Milk Sweet)",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "438.8 calories",
+            "carbohydrateContent": "62.8 g",
+            "cholesterolContent": "42 mg",
+            "fatContent": "19.8 g",
+            "fiberContent": "0.6 g",
+            "proteinContent": "5.3 g",
+            "saturatedFatContent": "10.4 g",
+            "servingSize": null,
+            "sodiumContent": "91.8 mg",
+            "sugarContent": "54.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2012-04-13T15:54:08.307Z",
+                "reviewBody": "Very interesting indeed! I love sweet but it wasn't the right balance of sweetness and found that the cardamom to be very overpowering. I am the only one in the house can tolerate various spices but not for everyone else. Oh I didn't have ghee so I made my own using Alton Brown's recipe.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "MattOlay V-H",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3883699/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,145 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/133/drinks/cocktails/",
+                    "name": "Cocktail Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/267839/hawaiian-mimosas/",
+        "name": "Hawaiian Mimosas",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F9396555.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2018-08-31T05:00:39.000Z",
+        "description": "Hawaiian mimosas are an easy cocktail with just three ingredients and will make you think you're on a beach in paradise. POG (passion fruit-orange-guava) juice, rum, and Champagne is all it takes to make this delicious cocktail!",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "1 cocktail",
+        "recipeIngredient": [
+            "2 fluid ounces passion fruit-orange-guava (POG) juice",
+            "1 fluid ounce coconut-flavored rum",
+            "2 fluid ounces cold Champagne, or as needed",
+            "1 pineapple ring",
+            "1 maraschino cherry"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Pour passion fruit-orange-guava juice and rum into a Champagne glass. Top with Champagne and garnish with pineapple and cherry.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Cocktail Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Laura"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Hawaiian Mimosas",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "167.5 calories",
+            "carbohydrateContent": "25.6 g",
+            "cholesterolContent": "17.1 mg",
+            "fatContent": "2.3 g",
+            "fiberContent": "0.5 g",
+            "proteinContent": "1.3 g",
+            "saturatedFatContent": "1.5 g",
+            "servingSize": null,
+            "sodiumContent": "25.1 mg",
+            "sugarContent": "15.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-09-13T07:48:31.9Z",
+                "reviewBody": "I'm a big brunch cocktail kinda girl...hands down this is one of the best mimosa's I've ever had.  Quick note: I had to purchase the juices separately; I could not find them all in one.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "CookingWithShelia",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/cookingwithshelia/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2020-06-10T06:21:56.19Z",
+                "reviewBody": "Love the flavors in these mimosas! Very tropical and simple to make!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Chef Mo",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/chefmo/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,128 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/242004/lees-taco-salad/",
+        "name": "Lee's Taco Salad",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2231501.jpg",
+            "width": 2331,
+            "height": 2331
+        },
+        "datePublished": "2020-02-26T05:51:45.000Z",
+        "description": "One of our family favorites! So healthy and tasty! Yumm YUMMM!",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H15M",
+        "totalTime": "P0DT0H30M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "1 tablespoon vegetable oil, or to taste",
+            "1 small white onion, diced",
+            "1 pound ground turkey",
+            "1 (1 ounce) package taco seasoning mix",
+            "1 head lettuce, chopped",
+            "1 (15 ounce) can corn, drained",
+            "1 (14 ounce) can black beans, drained",
+            "1 avocado - peeled, pitted, and diced",
+            "4 green onions, chopped",
+            "\u2153 cup shredded Cheddar cheese",
+            "\u00bc cup spicy ranch-style salad dressing"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat oil in skillet over medium heat. Cook and stir onion in hot oil until translucent, about 5 minutes. Break ground turkey into small chunks and add to skillet; cook and stir until beginning to brown, 2 to 3 minutes. Sprinkle taco seasoning over the turkey mixture; continue to cook and stir until turkey is completely browned through, 5 to 7 minutes more.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pile lettuce into the bottom of a large salad bowl; top with the turkey mixture, corn, black beans, avocado, green onions, Cheddar cheese, and spicy ranch dressing.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "tonyalee25"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Lee's Taco Salad",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "618.9 calories",
+            "carbohydrateContent": "52.8 g",
+            "cholesterolContent": "97.6 mg",
+            "fatContent": "31.7 g",
+            "fiberContent": "14.5 g",
+            "proteinContent": "36.4 g",
+            "saturatedFatContent": "7.3 g",
+            "servingSize": null,
+            "sodiumContent": "1497.5 mg",
+            "sugarContent": "8.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2015-04-22T19:59:52.91Z",
+                "reviewBody": "Easy to make and flavorful. Served in baked taco shell bowls.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "bd.weld",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/bdweld/"
+                }
+            }
+        ]
+    }
+]

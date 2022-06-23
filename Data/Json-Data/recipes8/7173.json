@@ -1,0 +1,152 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/231/world-cuisine/european/",
+                    "name": "European",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/719/world-cuisine/european/belgian/",
+                    "name": "Belgian",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/281826/fluffy-belgian-waffles/",
+        "name": "Fluffy Belgian Waffles",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Fluffy Belgian Waffles"
+        },
+        "datePublished": "2018-12-08T01:09:03.000Z",
+        "description": "The perfect amount of batter for 3 fluffy waffles in my Belgian waffle maker.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "3 servings",
+        "recipeIngredient": [
+            "nonstick cooking spray",
+            "2 large eggs",
+            "1 cup milk",
+            "\u00bc cup vegetable oil",
+            "1 tablespoon white sugar",
+            "\u00bc teaspoon salt",
+            "3 teaspoons baking powder",
+            "\u00bd cup all-purpose flour",
+            "\u00bd cup whole wheat flour"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Spray a Belgian waffle iron with cooking spray and preheat according to manufacturer's instructions.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Beat eggs with a whisk until fluffy. Beating slightly after each ingredient, first add milk, then oil, sugar, salt, baking powder, all-purpose flour, and finally whole wheat flour; do not overbeat.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour 3/4 cup batter into the center of the hot waffle iron, spreading with a metal knife if necessary. Close the iron and bake until it stops steaming, 2 to 5 minutes, depending on your iron. Carefully remove cooked waffle with a fork and repeat with remaining batter.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "European",
+            "Belgian"
+        ],
+        "recipeCuisine": [
+            "European",
+            "Belgian"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "LadyBeedough"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Fluffy Belgian Waffles",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "411.1 calories",
+            "carbohydrateContent": "39.9 g",
+            "cholesterolContent": "130.5 mg",
+            "fatContent": "23.7 g",
+            "fiberContent": "3 g",
+            "proteinContent": "11.8 g",
+            "saturatedFatContent": "5 g",
+            "servingSize": null,
+            "sodiumContent": "762.8 mg",
+            "sugarContent": "8.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-08-13T21:39:15.093Z",
+                "reviewBody": "I liked this recipe! Very easy to follow. I used regular all-purpose flour instead of whole wheat flour and it worked great. I doubled the recipe for 6 servings also. They were very good waffles. I would definitely recommend!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Shelby Lewis",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/24890528/"
+                }
+            }
+        ]
+    }
+]

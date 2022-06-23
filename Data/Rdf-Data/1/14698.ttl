@@ -1,0 +1,83 @@
+@prefix ns1: <http://purl.org/heals/food/> .
+@prefix ns2: <http://purl.org/recipekg/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/chicken-wings-pacifica> a schema:Recipe ;
+    ns1:hasIngredient [ a <http://purl.org/heals/ingredient/SoySauce> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "soy sauce" ],
+        [ a <http://purl.org/recipekg/ingredient/MustardPowder> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "teaspoon" ;
+            ns2:ingredientName "mustard powder" ],
+        [ a <http://purl.org/heals/ingredient/BrownSugar> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "brown sugar" ],
+        [ a <http://purl.org/heals/ingredient/Chicken> ;
+            ns2:hasQuantity "3" ;
+            ns2:hasUnit "pound" ;
+            ns2:ingredientName "chicken" ],
+        [ a <http://purl.org/heals/ingredient/Water> ;
+            ns2:hasQuantity "3/4" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "water" ],
+        [ a <http://purl.org/heals/ingredient/Butter> ;
+            ns2:hasQuantity "1/2" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "butter" ] ;
+    ns2:belongsTo <http://purl.org/recipekg/categories/appetizers-and-snacks/meat-and-poultry/chicken/> ;
+    ns2:hasFSAScore 0 ;
+    ns2:hasNutritionalInformation [ a ns2:NutritionalInformation ;
+            ns2:hasCalorificData [ a ns2:CalorificData ;
+                    ns2:hasAmount "536.3"^^xsd:float ;
+                    ns2:hasUnit "calories" ] ;
+            ns2:hasCarbohydrateData [ a ns2:CarbohydrateData ;
+                    ns2:hasAmount "26.3"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasCholesterolData [ a ns2:CholesterolData ;
+                    ns2:hasAmount "143.6"^^xsd:float ;
+                    ns2:hasUnit "mg" ] ;
+            ns2:hasFatData [ a ns2:FatData ;
+                    ns2:hasAmount "34.5"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSARed ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasFiberData [ a ns2:FiberData ;
+                    ns2:hasAmount "0.3"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasProteinData [ a ns2:ProteinData ;
+                    ns2:hasAmount "29.8"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasSaturatedFatData [ a ns2:SaturatedFatData ;
+                    ns2:hasAmount "13.3"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSARed ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasSodiumData [ a ns2:SodiumData ;
+                    ns2:hasAmount "1793.4"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSARed ;
+                    ns2:hasUnit "mg" ] ;
+            ns2:hasSugarData [ a ns2:SugarData ;
+                    ns2:hasAmount "24.2"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSARed ;
+                    ns2:hasUnit "g" ] ] ;
+    ns2:hasUSDAScore 3 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 77 ;
+            schema:ratingValue "4.298701298701299"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "1999-05-19T19:32:23.000Z"^^schema:date ;
+    schema:name "Chicken Wings Pacifica"^^xsd:string ;
+    schema:recipeYield "5 to 10 servings"^^xsd:string .
+
+<http://purl.org/recipekg/categories/appetizers-and-snacks/> a ns2:RecipeCategory .
+
+<http://purl.org/recipekg/categories/appetizers-and-snacks/meat-and-poultry/> rdfs:subClassOf <http://purl.org/recipekg/categories/appetizers-and-snacks/> .
+
+<http://purl.org/recipekg/categories/appetizers-and-snacks/meat-and-poultry/chicken/> rdfs:subClassOf <http://purl.org/recipekg/categories/appetizers-and-snacks/meat-and-poultry/> .
+
+ns2:FSARed a ns2:FSAColor .
+

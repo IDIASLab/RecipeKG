@@ -1,0 +1,145 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/136/drinks/punch/",
+                    "name": "Punch Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/16814/drinks/punch/adult-punch/",
+                    "name": "Adult Punch Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/270841/carrot-ginger-mules/",
+        "name": "Carrot Ginger Mules",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6421015.jpg",
+            "width": 990,
+            "height": 990
+        },
+        "datePublished": "2020-06-19T04:35:06.000Z",
+        "description": "Carrot juice provides a nutritious boost to this pitcher of ginger-lime mules that is easy to make ahead of time.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P1DT0H10M",
+        "recipeYield": "1 pitcher",
+        "recipeIngredient": [
+            "4 cups carrot juice",
+            "1 cup pineapple juice",
+            "\u00bc cup lime juice",
+            "2 (12 ounce) bottles ginger beer",
+            "ice cubes",
+            "1 cup vodka",
+            "Lime wedges",
+            "Baby carrots, halved"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Stir together carrot juice, pineapple juice, and lime juice in a pitcher. Chill, covered, up to 24 hours.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Stir in ginger beer just before serving. Pour into 8 ice-filled glasses. Add 2 tablespoons vodka to each glass. Garnish with lime wedges and halved baby carrots.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Punch Recipes",
+            "Adult Punch Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Juliana Hale"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Carrot Ginger Mules",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "170.3 calories",
+            "carbohydrateContent": "25.1 g",
+            "cholesterolContent": null,
+            "fatContent": "0.2 g",
+            "fiberContent": "1.1 g",
+            "proteinContent": "1.3 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "36.6 mg",
+            "sugarContent": "17.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-04-01T07:11:44.197Z",
+                "reviewBody": "no yes",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Ray Butler",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/20808974/"
+                }
+            }
+        ]
+    }
+]

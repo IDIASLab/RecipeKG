@@ -1,0 +1,172 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/231/world-cuisine/european/",
+                    "name": "European",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/723/world-cuisine/european/italian/",
+                    "name": "Italian",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/19392/italian-casserole/",
+        "name": "Italian Casserole",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Italian Casserole"
+        },
+        "datePublished": "2000-05-16T18:05:56.000Z",
+        "description": "This was a recipe of my Aunt Ethel's -- egg noodles in a tomato, ground beef sauce.  She said, 'It is so good, don't change a thing!'  And she was right.",
+        "prepTime": "P0DT0H20M",
+        "cookTime": "P0DT3H20M",
+        "totalTime": "P0DT3H40M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "\u00be pound lean ground beef",
+            "1 onion, chopped",
+            "1 (28 ounce) can whole peeled tomatoes, chopped",
+            "1 (6 ounce) can tomato paste",
+            "1 teaspoon salt",
+            "1 tablespoon dried parsley",
+            "\u00bd teaspoon garlic salt",
+            "black pepper to taste",
+            "8 ounces wide egg noodles",
+            "1 (12 ounce) package process sharp cheddar cheese singles"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "In large skillet, brown ground beef and onion.  Stir in tomatoes, tomato paste, salt, parsley, garlic salt and pepper, and simmer over low heat for 3 hours.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Preheat oven to 350 degrees F (175 degrees C).  Bring a large pot of lightly salted water to a boil. Add pasta and cook for 8 to 10 minutes or until al dente; drain.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "In a 2 quart casserole dish, combine noodles and meat mixture.  Top with cheese slices and bake for 15 to 20 minutes, or until cheese is melted.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "European",
+            "Italian"
+        ],
+        "recipeCuisine": [
+            "European",
+            "Italian"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Norma"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 2.3333333333333335,
+            "ratingCount": 3,
+            "itemReviewed": "Italian Casserole",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "739.5 calories",
+            "carbohydrateContent": "62.1 g",
+            "cholesterolContent": "164.4 mg",
+            "fatContent": "39 g",
+            "fiberContent": "5.9 g",
+            "proteinContent": "41.2 g",
+            "saturatedFatContent": "19.7 g",
+            "servingSize": null,
+            "sodiumContent": "2572 mg",
+            "sugarContent": "15.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2006-05-22T20:22:30.543Z",
+                "reviewBody": "this recipe wasn't that good. i considered it a waste of time and money. my family didn't like it.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 1
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "ricosmom",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/1909822/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2006-10-20T22:13:28.687Z",
+                "reviewBody": "I added a bit of garlic & a little diced green pepper-my husband & I both liked it. Was even better reheated for lunch the next day!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "pam",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/1168880/"
+                }
+            }
+        ]
+    }
+]

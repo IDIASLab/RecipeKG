@@ -1,0 +1,106 @@
+@prefix ns1: <http://purl.org/recipekg/> .
+@prefix ns2: <http://purl.org/heals/food/> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/first-aid-lunch-kit> a schema:Recipe ;
+    ns2:hasIngredient [ a <http://purl.org/heals/ingredient/Celery> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "stalk" ;
+            ns1:ingredientName "celery" ],
+        [ a <http://purl.org/heals/ingredient/Cheese> ;
+            ns1:hasQuantity "4" ;
+            ns1:ingredientName "cheese" ],
+        [ a <http://purl.org/recipekg/ingredient/ChocolateCandies> ;
+            ns1:hasQuantity "2" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "chocolate candies" ],
+        [ ],
+        [ ],
+        [ a <http://purl.org/recipekg/ingredient/CheeseSquares> ;
+            ns1:hasQuantity "2" ;
+            ns1:ingredientName "cheese squares" ],
+        [ a <http://purl.org/heals/ingredient/ChickenBroth> ;
+            ns1:hasQuantity "1" ;
+            ns1:ingredientName "chicken broth" ],
+        [ a <http://purl.org/recipekg/ingredient/FruitRoll> ;
+            ns1:hasQuantity "2" ;
+            ns1:ingredientName "Fruit Roll" ],
+        [ a <http://purl.org/recipekg/ingredient/Cracker> ;
+            ns1:hasQuantity "10" ;
+            ns1:ingredientName "cracker" ],
+        [ a <http://purl.org/heals/ingredient/Onion> ;
+            ns1:hasQuantity "1" ;
+            ns1:ingredientName "onion" ],
+        [ a <http://purl.org/recipekg/ingredient/ItalianDressing> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "Italian dressing" ],
+        [ a <http://purl.org/recipekg/ingredient/WheatTortilla> ;
+            ns1:hasQuantity "1" ;
+            ns1:ingredientName "wheat tortilla" ],
+        [ a <http://purl.org/recipekg/ingredient/Vial> ;
+            ns1:ingredientName "vial" ],
+        [ a <http://purl.org/recipekg/ingredient/Jicama> ;
+            ns1:hasQuantity "1/3" ;
+            ns1:ingredientName "jicama" ],
+        [ a <http://purl.org/heals/ingredient/Mayonnaise> ;
+            ns1:hasQuantity "2" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "mayonnaise" ],
+        [ a <http://purl.org/recipekg/ingredient/Toothpick> ;
+            ns1:ingredientName "toothpick" ],
+        [ a <http://purl.org/recipekg/ingredient/SaladGreens> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "salad greens" ],
+        [ a <http://purl.org/recipekg/ingredient/GelatinSnacks> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "package" ;
+            ns1:ingredientName "gelatin snacks" ] ;
+    ns1:belongsTo <http://purl.org/recipekg/categories/salad/> ;
+    ns1:hasFSAScore 0 ;
+    ns1:hasNutritionalInformation [ a ns1:NutritionalInformation ;
+            ns1:hasCalorificData [ a ns1:CalorificData ;
+                    ns1:hasAmount "947.2"^^xsd:float ;
+                    ns1:hasUnit "calories" ] ;
+            ns1:hasCarbohydrateData [ a ns1:CarbohydrateData ;
+                    ns1:hasAmount "101.1"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasCholesterolData [ a ns1:CholesterolData ;
+                    ns1:hasAmount "144.5"^^xsd:float ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasFatData [ a ns1:FatData ;
+                    ns1:hasAmount "37.9"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSARed ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasFiberData [ a ns1:FiberData ;
+                    ns1:hasAmount "14.1"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasProteinData [ a ns1:ProteinData ;
+                    ns1:hasAmount "53.6"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSaturatedFatData [ a ns1:SaturatedFatData ;
+                    ns1:hasAmount "13.6"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSARed ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSodiumData [ a ns1:SodiumData ;
+                    ns1:hasAmount "2227.5"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSARed ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasSugarData [ a ns1:SugarData ;
+                    ns1:hasAmount "32.3"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSARed ;
+                    ns1:hasUnit "g" ] ] ;
+    ns1:hasUSDAScore 2 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2020-01-03T00:50:37.000Z"^^schema:date ;
+    schema:name "First Aid Lunch Kit"^^xsd:string ;
+    schema:recipeYield "1 bento box"^^xsd:string .
+
+<http://purl.org/recipekg/categories/salad/> a ns1:RecipeCategory .
+
+ns1:FSARed a ns1:FSAColor .
+

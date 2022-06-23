@@ -1,0 +1,141 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/242/drinks/sangria/",
+                    "name": "Sangria Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/258375/caribbean-sangria/",
+        "name": "Caribbean Sangria",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Caribbean Sangria"
+        },
+        "datePublished": "2020-06-19T04:21:36.000Z",
+        "description": "This is a wonderful refreshment and so easy to make. When we have barbeques, I usually have to make a couple of gallons because it goes quick!",
+        "prepTime": "P0DT0H25M",
+        "cookTime": null,
+        "totalTime": "P0DT2H25M",
+        "recipeYield": "8 servings",
+        "recipeIngredient": [
+            "1 small orange, sliced",
+            "1 peach, sliced",
+            "1 lemon, sliced",
+            "1 lime, sliced",
+            "3 cups dry red wine",
+            "1 (12 fluid ounce) can or bottle lemon-lime soda",
+            "1\u2009\u00bd cups rum",
+            "\u00be cup white sugar",
+            "3 strawberries, sliced, or more to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place orange slices, peach slices, lemon slices, and lime slices in the bottom of a pitcher. Pour in red wine, lemon-lime soda, rum, and sugar; stir until sugar is dissolved.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cover and refrigerate sangria until flavors combine, at least 2 hours.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Garnish each serving with a strawberry slice.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Sangria Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Raiderking"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 1,
+            "itemReviewed": "Caribbean Sangria",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "275.6 calories",
+            "carbohydrateContent": "30 g",
+            "cholesterolContent": null,
+            "fatContent": "0.1 g",
+            "fiberContent": "1.1 g",
+            "proteinContent": "0.4 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "10 mg",
+            "sugarContent": "21.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-12-22T04:22:29.703Z",
+                "reviewBody": "Way to \"boozy\" tasting for us.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "bigmac",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/8799889/"
+                }
+            }
+        ]
+    }
+]

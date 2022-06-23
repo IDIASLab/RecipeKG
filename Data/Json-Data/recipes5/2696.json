@@ -1,0 +1,132 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1642/everyday-cooking/",
+                    "name": "Everyday Cooking",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/274508/one-pan-sausage-and-veggie-bake/",
+        "name": "One-Pan Sausage and Veggie Bake",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6861318.jpg",
+            "width": 3024,
+            "height": 3024
+        },
+        "datePublished": "2019-07-09T01:29:48.000Z",
+        "description": "Let your oven do the work with this one-pan meal! The veggies cook first, then they are topped with sausage and roasted until everything is tender and the top crispy.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H40M",
+        "totalTime": "P0DT0H55M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "1 sweet potato, peeled and diced",
+            "1 carrot, peeled and diced",
+            "\u00bd onion, sliced",
+            "4 cloves garlic, unpeeled",
+            "2 tablespoons olive oil",
+            "2 links kielbasa sausage",
+            "salt and ground black pepper to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat the oven to 375 degrees F (190 degrees C).\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine sweet potato, carrot, onion, and garlic in a medium roasting pan. Drizzle with oil, salt, and pepper; toss to coat.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Roast in the preheated oven until vegetables begin to soften, about 20 minutes. Poke sausage links with a fork and place on top of vegetables. Roast until sausages are no longer pink in the center, about 20 minutes. An instant-read thermometer inserted into the center should read 165 degrees F (74 degrees C).\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Top with the garlic cloves, squeezed hot out of their skins on each serving.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Everyday Cooking"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Jason Elrod"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 1,
+            "itemReviewed": "One-Pan Sausage and Veggie Bake",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "813.2 calories",
+            "carbohydrateContent": "44.1 g",
+            "cholesterolContent": "112.2 mg",
+            "fatContent": "60.1 g",
+            "fiberContent": "6.4 g",
+            "proteinContent": "24.4 g",
+            "saturatedFatContent": "17.6 g",
+            "servingSize": null,
+            "sodiumContent": "1720.8 mg",
+            "sugarContent": "12.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-07-23T07:49:57.413Z",
+                "reviewBody": "I was not a fan of this. I chanced making it thinking the ingredients sounded like they would be good combined but you shouldn t depend on the kielbasa alone for the flavor. I will not make this again.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "thedailygourmet",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/thedailygourmet/"
+                }
+            }
+        ]
+    }
+]

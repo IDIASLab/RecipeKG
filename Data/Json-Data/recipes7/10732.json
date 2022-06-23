@@ -1,0 +1,127 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17106/drinks/juice/",
+                    "name": "Juice Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/236192/tres-en-uno-three-in-one/",
+        "name": "Tres-en-Uno (Three-in-One)",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7895023.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-06-19T03:58:04.000Z",
+        "description": "I had this drink at a juice bar in Venezuela over 20 years ago. I was very surprised at the three ingredients in this healthful drink. Adjust the proportions to match your individual taste buds, and add sugar if you like it a little sweeter. Trust me, this sounds awful but it's really good! Use a juicer to make orange, carrot, and beet juice (all fresh, not cooked). Serve over ice.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "6 cups",
+        "recipeIngredient": [
+            "3 cups orange juice",
+            "2 cups carrot juice",
+            "1 cup beet juice",
+            "1 teaspoon white sugar, or to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Mix orange juice, carrot juice, beet juice, and sugar together in a pitcher.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Juice Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Laurie Johnson Gonzalez"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Tres-en-Uno (Three-in-One)",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "103.7 calories",
+            "carbohydrateContent": "24.1 g",
+            "cholesterolContent": null,
+            "fatContent": "0.4 g",
+            "fiberContent": "0.9 g",
+            "proteinContent": "2 g",
+            "saturatedFatContent": "0.1 g",
+            "servingSize": null,
+            "sodiumContent": "102.7 mg",
+            "sugarContent": "14.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-04-02T07:47:38.403Z",
+                "reviewBody": "YUM!!! This is one of my favorite juices I've made off this site so far! To get the amounts of juice called for, I used about 10 small navel oranges, 6 large carrots and 3 medium beets - your mileage my vary depending on your produce. I did not add any sugar as I don't feel it needs it. This made 2 quart-sized mason jars full. I'll definitely make this again!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "France C",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/francecevallos/"
+                }
+            }
+        ]
+    }
+]

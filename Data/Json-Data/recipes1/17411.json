@@ -1,0 +1,172 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/213/salad/green-salads/",
+                    "name": "Green Salad Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/15111/salad/green-salads/spinach-salad/",
+                    "name": "Spinach Salad Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/214633/pretty-pomegranate-salad/",
+        "name": "Pretty Pomegranate Salad",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1067083.jpg",
+            "width": 2560,
+            "height": 1920
+        },
+        "datePublished": "2011-12-15T20:50:03.000Z",
+        "description": "Colorful springtime salad.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": null,
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "1 salad",
+        "recipeIngredient": [
+            "10 ounces fresh baby spinach leaves",
+            "10 ounces arugula leaves",
+            "\u00bd red onion, thinly sliced",
+            "1 (10 ounce) can mandarin oranges, drained",
+            "1 pomegranate, peeled and seeds separated"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place the spinach and arugula leaves into a mixing bowl. Add the onion, mandarin oranges, and pomegranate seeds. Toss gently by hand to mix.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad",
+            "Green Salad Recipes",
+            "Spinach Salad Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Shay"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 4,
+            "itemReviewed": "Pretty Pomegranate Salad",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "91.6 calories",
+            "carbohydrateContent": "19.8 g",
+            "cholesterolContent": null,
+            "fatContent": "0.9 g",
+            "fiberContent": "3.6 g",
+            "proteinContent": "4.8 g",
+            "saturatedFatContent": "0.1 g",
+            "servingSize": null,
+            "sodiumContent": "79.5 mg",
+            "sugarContent": "15 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2012-05-09T10:20:51.19Z",
+                "reviewBody": "I leave out the mandarin add some parmesan flakes and balsamic vinegar/cream and it's delicious.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Yiouli",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2485720/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2013-11-13T22:15:54.21Z",
+                "reviewBody": "Beautiful and delicious! I didn't have a red onion so I used sweet onion. Used 'Horseradish Vinaigrette' from this site for the dressing w/ a bit of honey added to compliment the sweet fruits. This would also be great w/ some crumbled blue cheese added which I will try next time. Thanks for sharing.:)",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Christina",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/christina/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2020-08-18T18:55:10.5Z",
+                "reviewBody": "Delicious and beautiful salad!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "donis",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/4959680/"
+                }
+            }
+        ]
+    }
+]

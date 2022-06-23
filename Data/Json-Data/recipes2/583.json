@@ -1,0 +1,129 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/143/breakfast-and-brunch/drinks/",
+                    "name": "Drinks",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/236295/crawford-berry-smoothie/",
+        "name": "Crawford Berry Smoothie",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5179946.jpg",
+            "width": 2448,
+            "height": 2448
+        },
+        "datePublished": "2014-01-24T18:39:20.000Z",
+        "description": "This very healthy breakfast or anytime beverage is loaded with antioxidants, potassium, protein, and fiber! I buy my strawberries fresh and then place them in a freezer safe container and freeze them. No ice is needed due to the frozen strawberries! Pour into a tall chilled glass and enjoy!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "1 smoothie",
+        "recipeIngredient": [
+            "1 cup whole strawberries",
+            "1 cup soy milk",
+            "1 banana",
+            "1 tablespoon agave nectar",
+            "1 tablespoon ground flax seed meal",
+            "\u00bc teaspoon vanilla extract"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Blend strawberries, soy milk, banana, agave nectar, flax seed, and vanilla extract in a blender until creamy.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Drinks"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "awakenedone"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Crawford Berry Smoothie",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "386.2 calories",
+            "carbohydrateContent": "72.2 g",
+            "cholesterolContent": null,
+            "fatContent": "8.1 g",
+            "fiberContent": "10.5 g",
+            "proteinContent": "11.5 g",
+            "saturatedFatContent": "0.9 g",
+            "servingSize": null,
+            "sodiumContent": "128.9 mg",
+            "sugarContent": "46.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2014-01-31T17:00:31.38Z",
+                "reviewBody": "Such a delicious fresh-tasting smoothie! I used frozen berries almond milk instead of the soy and 1 packet of Truvia instead of the agave. Next time I will use a frozen banana too to make it slushier.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Paula",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/paula1/"
+                }
+            }
+        ]
+    }
+]

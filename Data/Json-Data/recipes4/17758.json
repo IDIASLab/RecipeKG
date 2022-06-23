@@ -1,0 +1,126 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/245816/creamy-cashew-milk/",
+        "name": "Creamy Cashew Milk",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3280436.jpg",
+            "width": 2038,
+            "height": 2038
+        },
+        "datePublished": "2019-04-04T04:00:46.000Z",
+        "description": "It's creamy, pumpkin-y and truly satisfies my sugar cravings. Keeps for 3 to 4 days stored in a covered container or jar in the refrigerator.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT4H5M",
+        "recipeYield": "4 cups",
+        "recipeIngredient": [
+            "2 cups cashews",
+            "water to cover",
+            "3 cups water",
+            "5 dates, pitted and chopped",
+            "2 teaspoons vanilla extract",
+            "1 teaspoon pumpkin pie spice",
+            "1 teaspoon ground nutmeg",
+            "1 pinch ground clove",
+            "1 pinch pink Himalayan salt"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place cashews in a bowl; fill with enough water to cover. Soak cashews, 4 hours or overnight. Drain and rinse cashews.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Blend cashews and 3 cups water in a blender until smooth and creamy, about 2 minutes. Add dates, vanilla extract, pumpkin pie spice, ground nutmeg, ground clove, and Himalayan salt; blend to incorporate, 2 to 3 minutes more.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Balanced Babe"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Creamy Cashew Milk",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "434.9 calories",
+            "carbohydrateContent": "31.3 g",
+            "cholesterolContent": null,
+            "fatContent": "32.2 g",
+            "fiberContent": "3.2 g",
+            "proteinContent": "10.8 g",
+            "saturatedFatContent": "6.5 g",
+            "servingSize": null,
+            "sodiumContent": "487.4 mg",
+            "sugarContent": "10.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2016-02-19T10:14:38.55Z",
+                "reviewBody": "Delicious. This should be named \"dreamy\" cashew milk. Great hot or cold. I ended up straining the milk before mixing and found it a bit smoother. Thank you for the recipe.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Buckwheat Queen",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/melaniegiovenzana/"
+                }
+            }
+        ]
+    }
+]

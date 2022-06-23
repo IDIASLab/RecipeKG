@@ -1,0 +1,169 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/81/side-dish/",
+                    "name": "Side Dish",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/220/side-dish/beans-and-peas/",
+                    "name": "Beans and Peas",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1673/side-dish/beans-and-peas/baked-beans/",
+                    "name": "Baked Bean Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/265374/baked-beans-with-beef/",
+        "name": "Baked Beans with Beef",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F843136.jpg",
+            "width": 250,
+            "height": 250
+        },
+        "datePublished": "2020-03-05T05:17:54.000Z",
+        "description": "This is the best baked bean recipe I've ever known. Great with any main dish but more especially with barbeque beef, pork, or chicken. The slow cooker does an amazing job with these beans.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT4H15M",
+        "totalTime": "P0DT4H30M",
+        "recipeYield": "20 servings",
+        "recipeIngredient": [
+            "1 pound ground beef",
+            "1 large onion, finely chopped",
+            "1 pound peppered bacon",
+            "7 (28 ounce) cans baked beans (such as Bush's\u00ae Original)",
+            "1 (15 ounce) can black beans, drained",
+            "1 (15 ounce) can light red kidney beans, drained",
+            "1 (15 ounce) can dark red kidney beans, drained",
+            "1 (15 ounce) can great northern beans, drained",
+            "\u00bd cup brown sugar",
+            "\u00bc cup prepared yellow mustard",
+            "\u00bc cup soy sauce"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat a large skillet over medium-high heat. Add ground beef and onion. Cook and stir until beef is browned and crumbly, 5 to 7 minutes. Drain and discard grease. Set aside.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place bacon in a large skillet and cook over medium-high heat, turning occasionally, until evenly browned, about 10 minutes. Drain bacon slices on paper towels. Crumble into small pieces.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Transfer beef-onion mixture and bacon to the slow cooker. Add all the beans, sugar, mustard, and soy sauce. Cook on Medium until flavors meld, about 4 hours.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Side Dish",
+            "Beans and Peas",
+            "Baked Bean Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Mark Lackey"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Baked Beans with Beef",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "499.7 calories",
+            "carbohydrateContent": "79.9 g",
+            "cholesterolContent": "41.9 mg",
+            "fatContent": "10.3 g",
+            "fiberContent": "16.9 g",
+            "proteinContent": "26.8 g",
+            "saturatedFatContent": "3.5 g",
+            "servingSize": null,
+            "sodiumContent": "1514.3 mg",
+            "sugarContent": "30 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-02-28T03:32:41.84Z",
+                "reviewBody": "This is good for crowds.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "C Johnson",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/23752759/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2020-01-18T07:02:00.907Z",
+                "reviewBody": "I have been searching for this recipe for decades!! Love it. Thank you Mark!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "carole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/4995856/"
+                }
+            }
+        ]
+    }
+]

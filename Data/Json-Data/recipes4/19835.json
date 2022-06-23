@@ -1,0 +1,110 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1642/everyday-cooking/",
+                    "name": "Everyday Cooking",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1227/everyday-cooking/vegan/",
+                    "name": "Vegan",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/265484/how-to-make-cashew-cheese/",
+        "name": "How to Make Cashew Cheese",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5455754.jpg",
+            "width": 960,
+            "height": 960
+        },
+        "datePublished": "2019-04-04T04:12:39.000Z",
+        "description": "This vegan, Paleo, and dairy-free 'cheese' is easy to make at home from cashews, coconut oil, and water.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT8H5M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "2 cups water, divided",
+            "\u00bd cup raw cashews",
+            "1 tablespoon coconut oil"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine cashews and 1 1/2 cups room temperature water in a bowl. Cover with a clean towel to prevent dust from settling in the water, and soak 8 hours to overnight.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Transfer soaked cashews to a blender. Add 1/2 cup fresh water and coconut oil. Process until smooth.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Everyday Cooking",
+            "Vegan"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Paleo Flourish"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "How to Make Cashew Cheese",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "127.6 calories",
+            "carbohydrateContent": "5.6 g",
+            "cholesterolContent": null,
+            "fatContent": "11.3 g",
+            "fiberContent": "0.5 g",
+            "proteinContent": "2.6 g",
+            "saturatedFatContent": "4.5 g",
+            "servingSize": null,
+            "sodiumContent": "113.2 mg",
+            "sugarContent": "0.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

@@ -1,0 +1,103 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/283649/vegan-queso-nachos/",
+        "name": "Vegan Queso Nachos",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6550694.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2019-04-15T06:38:58.000Z",
+        "description": "Easy, peasy, lemon squeezy vegan nacho recipe. Dress your nachos up in a way that you love to. I love to use cilantro, tomatoes, avocado, refried beans, and dairy free sour cream as yummy toppings.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H20M",
+        "recipeYield": "8 servings",
+        "recipeIngredient": [
+            "2 cups silken tofu",
+            "1 (15 ounce) can sliced carrots, drained",
+            "2 tablespoons taco seasoning mix",
+            "2 teaspoons nutritional yeast",
+            "2 teaspoons onion powder",
+            "2 teaspoons garlic powder",
+            "2 tablespoons oil, or more as needed",
+            "1 (12 ounce) package vegetarian beef crumbles",
+            "1 (13 ounce) package tortilla chips"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine tofu, carrots, taco seasoning, nutritional yeast, onion powder, and garlic powder in a blender or food processor. Blend until smooth and creamy.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Transfer queso to a small saucepan over medium heat. Cook until hot enough to serve, 5 to 10 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "At the same time, heat oil in a skillet over medium heat. Add vegetarian crumbles and cook and stir until browned, 8 to 10 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Serve tortilla chips on individual plates topped with cooked crumbles and hot queso.\n"
+            }
+        ],
+        "recipeCategory": [],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Main House"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Vegan Queso Nachos",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "368.9 calories",
+            "carbohydrateContent": "41.6 g",
+            "cholesterolContent": null,
+            "fatContent": "16.3 g",
+            "fiberContent": "6.3 g",
+            "proteinContent": "16.8 g",
+            "saturatedFatContent": "2.1 g",
+            "servingSize": null,
+            "sodiumContent": "560.3 mg",
+            "sugarContent": "2.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

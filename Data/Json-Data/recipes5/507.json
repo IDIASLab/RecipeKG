@@ -1,0 +1,153 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/252/main-dish/savory-pies/",
+                    "name": "Savory Pie Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/272519/chili-dog-hand-pie/",
+        "name": "Chili Dog Hand Pie",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6498591.jpg",
+            "width": 1707,
+            "height": 960
+        },
+        "datePublished": "2019-04-05T01:41:05.000Z",
+        "description": "This is a quick meal to make. It's just like having a chili dog, but wrapped up in a nice neat portable hand pie. Feel free to replace the canned chili with your own recipe.",
+        "prepTime": "P0DT0H20M",
+        "cookTime": "P0DT0H15M",
+        "totalTime": "P0DT0H35M",
+        "recipeYield": "4 hand pies",
+        "recipeIngredient": [
+            "2 refrigerated pie crusts",
+            "1 (16 ounce) package shredded Cheddar cheese",
+            "1 (15 ounce) can prepared chili",
+            "4 hot dogs, sliced into bite-sized pieces",
+            "\u00bd medium onion, diced"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat the oven to 400 degrees F (200 degrees C). Line a baking sheet with parchment paper.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cut the pie crusts in half. Lay 1 half crust on a cutting board and top with 1/4 of the Cheddar cheese, 1/4 of the chili, 1/4 of the hot dog pieces, and 1/4 of the onion. Firmly fold over the crust and pinch the edges to seal contents inside; transfer to the prepared baking sheet. Repeat with the remaining 3 crusts. Slice the top of each pie with a knife to allow steam to escape.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake pies in the preheated oven until golden brown, 15 to 20 minutes. Let cool a bit before serving.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Savory Pie Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Cooking Daddy"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.333333333333333,
+            "ratingCount": 3,
+            "itemReviewed": "Chili Dog Hand Pie",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "588.9 calories",
+            "carbohydrateContent": "29 g",
+            "cholesterolContent": "79.6 mg",
+            "fatContent": "43 g",
+            "fiberContent": "4.1 g",
+            "proteinContent": "22.3 g",
+            "saturatedFatContent": "19.4 g",
+            "servingSize": null,
+            "sodiumContent": "1112.4 mg",
+            "sugarContent": "2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-04-27T04:22:05.737Z",
+                "reviewBody": "These Look Very Delicious And Amazing Too",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "melanie",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/15369305/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2019-05-15T08:16:37.973Z",
+                "reviewBody": "Just made these tonight as I wanted something easy and kid-friendly. I combined all the ingredients",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "traceykasten",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/5441168/"
+                }
+            }
+        ]
+    }
+]

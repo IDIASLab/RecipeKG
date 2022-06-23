@@ -1,0 +1,91 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/283917/halloumi-watermelon-and-mint-salad/",
+        "name": "Halloumi, Watermelon, and Mint Salad",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F9178568.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2021-04-06T03:19:50.000Z",
+        "description": "Halloumi cheese and fresh, juicy watermelon are a fantastic salty-sweet pair. In Cyprus, fresh halloumi slices are served with watermelon for breakfast or dessert, but I think frying the halloumi and adding mint increases the flavor and makes a delightful summer salad.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT0H20M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "\u00bd (8.8 ounce) package halloumi cheese",
+            "1 teaspoon olive oil",
+            "3 cups cubed seeded watermelon",
+            "12 leaves fresh mint, sliced, or more to taste",
+            "1 small onion, thinly sliced"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Break halloumi cheese into small pieces. Heat olive oil in a skillet over medium heat. Add halloumi and cook and stir until golden, about 3 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Toss watermelon cubes, mint leaves, onion slices, and fried halloumi in a salad bowl.\n"
+            }
+        ],
+        "recipeCategory": [],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "cheesemite"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Halloumi, Watermelon, and Mint Salad",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "99.5 calories",
+            "carbohydrateContent": "7.4 g",
+            "cholesterolContent": "15.6 mg",
+            "fatContent": "6.1 g",
+            "fiberContent": "0.5 g",
+            "proteinContent": "5 g",
+            "saturatedFatContent": "3.2 g",
+            "servingSize": null,
+            "sodiumContent": "229.9 mg",
+            "sugarContent": "5.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

@@ -1,0 +1,150 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/207/salad/beans/",
+                    "name": "Beans",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/261722/vegan-black-eyed-pea-salad-with-cilantro/",
+        "name": "Vegan Black Eyed Pea Salad with Cilantro",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8380928.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2019-07-10T07:11:32.000Z",
+        "description": "Black-eyed pea salad is great with Southern-inspired menus and tastes best at room temperature.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT2H10M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "1 (14 ounce) can black-eyed peas, drained and rinsed",
+            "1 tomato - peeled, seeded, and chopped",
+            "2 tablespoons lemon juice",
+            "2 slices onion, minced",
+            "\u00bc cup chopped fresh cilantro",
+            "1 tablespoon olive oil",
+            "1 teaspoon dried oregano",
+            "\u00be teaspoon salt, or to taste",
+            "1 clove garlic, minced",
+            "\u00bd teaspoon ground black pepper"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine black-eyed peas, tomato, lemon juice, onion, cilantro, oil, oregano, salt, garlic, and black pepper in a bowl. Cover with plastic wrap and refrigerate until flavors are blended, at least 2 hours.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad",
+            "Beans"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "chefcs"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 3,
+            "itemReviewed": "Vegan Black Eyed Pea Salad with Cilantro",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "121 calories",
+            "carbohydrateContent": "17 g",
+            "cholesterolContent": null,
+            "fatContent": "4.1 g",
+            "fiberContent": "4.2 g",
+            "proteinContent": "5.3 g",
+            "saturatedFatContent": "0.6 g",
+            "servingSize": null,
+            "sodiumContent": "735.9 mg",
+            "sugarContent": "1.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-03-05T01:22:39.867Z",
+                "reviewBody": "I added 1 half green or orange bell pepper for color as well as taste. I also substituted 1 bunch of green onions sliced thin and replaced regular tomato with a couple handfuls of grape tomatoes quartered. (Regular tomatoes were out of season)",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Donna",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/13389302/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2020-07-30T03:40:13.647Z",
+                "reviewBody": "Loved the flavors on this salad! I only had dried oregano, not ground and it still worked perfect. These softened in the fridge. Some at them with chips! So refreshing!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Chef Mo",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/chefmo/"
+                }
+            }
+        ]
+    }
+]

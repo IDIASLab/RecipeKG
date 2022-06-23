@@ -1,0 +1,158 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/81/side-dish/",
+                    "name": "Side Dish",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/223/side-dish/grains/",
+                    "name": "Grain Side Dish Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/72211/vegetable-pancake/",
+        "name": "Vegetable Pancake",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2176354.jpg",
+            "width": 3968,
+            "height": 2976
+        },
+        "datePublished": "2019-04-04T03:32:27.000Z",
+        "description": "This is a pancake of rice and lentil.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H25M",
+        "totalTime": "P0DT5H40M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "1 cup uncooked long grain white rice",
+            "1\u2009\u00bc cups dry yellow lentils",
+            "3 cups water",
+            "2 green chile peppers, chopped",
+            "1 (1 inch) piece fresh ginger root, sliced",
+            "1\u2009\u00bd tablespoons jaggery (palm sugar)",
+            "salt to taste",
+            "1 carrot, shredded",
+            "1 bunch fresh spinach, finely chopped",
+            "1 tablespoon vegetable oil"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "In a bowl, soak the rice and lentils in the water for 4 to 5 hours.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place the rice and lentils in a food processor with the chile peppers, ginger, jaggery, and salt. Process until smooth, and mix in the carrot and spinach. Continue to process until smooth and well mixed.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat the oil in a tava (or large skillet) over medium-low heat. Thinly and evenly spread the batter into the tava. Cover, and cook 15 minutes, or until browned and set enough to turn. Turn with a spatula, and continue cooking until browned and cooked through.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Side Dish",
+            "Grain Side Dish Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "KENYG"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.5,
+            "ratingCount": 2,
+            "itemReviewed": "Vegetable Pancake",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "439.7 calories",
+            "carbohydrateContent": "81.2 g",
+            "cholesterolContent": null,
+            "fatContent": "4.8 g",
+            "fiberContent": "15.1 g",
+            "proteinContent": "20.3 g",
+            "saturatedFatContent": "0.8 g",
+            "servingSize": null,
+            "sodiumContent": "85.2 mg",
+            "sugarContent": "10 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2005-02-16T03:18:41.107Z",
+                "reviewBody": "Very reminiscent of hole-in-the-wall vegetarian cafe fare -- I do believe that is a compliment! But the lentils & rice alone are way too bland -- I added some curry garlic and a bit of lemon to the mix. The recipe was somewhat confusing - are we really supposed to spread the entire batter into a skillet and flip the whole thing when ready? That sounded very daunting; I made patties which worked just fine. Topping with a mint/yogurt sauce or chutney is a good idea - it's pretty dry otherwise. I probably won't make this for dinner again but will make a bunch to freeze - they make a great lunch. Do not attempt to make this without a food processor! Agh!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Julie",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/1280861/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2009-10-30T18:29:25.41Z",
+                "reviewBody": "good idea to serve it as one meal dish.this can be served with fresh coconut chutany or tomato chutany with rasam masala. chhaya cstopre",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "cstopre",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2722366/"
+                }
+            }
+        ]
+    }
+]

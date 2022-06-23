@@ -1,0 +1,146 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/251/main-dish/sandwiches/",
+                    "name": "Sandwich Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1884/main-dish/sandwiches/grilled-cheese/",
+                    "name": "Grilled Cheese",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/259086/vidus-fancy-grilled-cheese/",
+        "name": "Vidu's Fancy Grilled Cheese",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4539239.jpg",
+            "width": 3629,
+            "height": 2721
+        },
+        "datePublished": "2017-07-14T04:20:48.000Z",
+        "description": "My mother's different way to make grilled cheese. It sounds strange at first, but I've made it for many friends and I've never gotten a complaint!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H6M",
+        "totalTime": "P0DT0H16M",
+        "recipeYield": "4 sandwiches",
+        "recipeIngredient": [
+            "4 ounces Havarti cheese with dill",
+            "1\u2009\u00bd tablespoons butter",
+            "8 slices whole-grain bread",
+            "4 teaspoons mayonnaise",
+            "4 teaspoons spicy brown mustard"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Slice Havarti cheese to 1/4-inch thickness.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Butter one side of each slice of bread. Flip over and spread mayonnaise over half of the slices. Spread mustard and place Havarti cheese over the remaining half; cover with the mayonnaise slices, buttered side-up.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cook sandwiches in a skillet over medium heat until lightly browned, about 3 minutes per side.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Sandwich Recipes",
+            "Grilled Cheese"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "br00kli"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Vidu's Fancy Grilled Cheese",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "333.5 calories",
+            "carbohydrateContent": "22.9 g",
+            "cholesterolContent": "48.2 mg",
+            "fatContent": "21.5 g",
+            "fiberContent": "3.8 g",
+            "proteinContent": "13.3 g",
+            "saturatedFatContent": "10.8 g",
+            "servingSize": null,
+            "sodiumContent": "580 mg",
+            "sugarContent": "3.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-07-22T04:09:59.213Z",
+                "reviewBody": "So delicious! LOVED the combos of creamy buttery and tangy. I used the sliced Italian bread that I had on hand and thought that was great for this. Really great sandwich that I will be making again and again YUM!!!!! Thanks for sharing.:)",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Christina",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/christina/"
+                }
+            }
+        ]
+    }
+]

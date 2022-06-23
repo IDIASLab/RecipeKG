@@ -1,0 +1,151 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1986/salad/egg-salad/",
+                    "name": "Egg Salad Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/241681/deviled-egg-salad-with-romaine/",
+        "name": "Deviled Egg Salad with Romaine",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2431947.jpg",
+            "width": 2722,
+            "height": 2722
+        },
+        "datePublished": "2020-06-19T04:02:32.000Z",
+        "description": "It's a salad that tastes like deviled eggs. My family loves it. This is a recipe for a large family, as I have 5 kids. Another experiment that really turned out great.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": null,
+        "totalTime": "P0DT0H45M",
+        "recipeYield": "1 large salad",
+        "recipeIngredient": [
+            "1 cup white sugar",
+            "1 cup mayonnaise",
+            "3 tablespoons yellow mustard",
+            "2 teaspoons water, or as needed",
+            "3 heads romaine lettuce, chopped",
+            "4 hard-boiled eggs, peeled and sliced",
+            "1 pinch paprika, or to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Whisk sugar, mayonnaise, and mustard together in a bowl until smooth. Add water, 1 teaspoon at a time, if dressing is too thick. Refrigerate dressing until chilled, at least 30 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place romaine lettuce in a bowl; add dressing and toss to coat. Arrange eggs around the lettuce and season with paprika.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad",
+            "Egg Salad Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Seahorsie"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.5,
+            "ratingCount": 2,
+            "itemReviewed": "Deviled Egg Salad with Romaine",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "286.9 calories",
+            "carbohydrateContent": "24.5 g",
+            "cholesterolContent": "93.2 mg",
+            "fatContent": "20.1 g",
+            "fiberContent": "2.3 g",
+            "proteinContent": "4.2 g",
+            "saturatedFatContent": "3.3 g",
+            "servingSize": null,
+            "sodiumContent": "210.4 mg",
+            "sugarContent": "21.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-03-11T06:00:57.63Z",
+                "reviewBody": "I reduced the sugar by half at the recommendation of another user and still found it a little too sweet. We ended up adding Durkee's crunchy fried onions because we wanted something to counteract the sweetness.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Laura Swanson",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/21888052/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2015-07-29T16:35:01.267Z",
+                "reviewBody": "Quick and easy salad. The dressing is too sweet for me. Next time I'll cut back on the sugar.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "bd.weld",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/bdweld/"
+                }
+            }
+        ]
+    }
+]

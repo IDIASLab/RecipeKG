@@ -1,0 +1,147 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17106/drinks/juice/",
+                    "name": "Juice Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/232228/vegetable-and-fruit-juice/",
+        "name": "Vegetable and Fruit Juice",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6364240.jpg",
+            "width": 3024,
+            "height": 3025
+        },
+        "datePublished": "2017-06-22T13:01:48.000Z",
+        "description": "This is so delicious and addictive! It is also very healthy. It tastes very fresh with the lime and ginger kick at the end of the drink. If you want to save the pulp, juice the carrots and tomatoes in the beginning and then remove the pulp to save for soup. You can add broth and onions and garlic to the pulp and it makes a very tasty soup in minutes!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "3 large carrots",
+            "1 large tomato",
+            "8 large strawberries",
+            "1 lime, sliced",
+            "1 (1 inch) piece fresh ginger",
+            "1 apple",
+            "1 large red bell pepper, stemmed and seeded"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Juice carrots, tomato, strawberries, lime slices, ginger, apple, and red bell pepper using a juicer following manufacturer's instructions.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Juice Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Alice Yuko Shikina"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 2,
+            "itemReviewed": "Vegetable and Fruit Juice",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "157.3 calories",
+            "carbohydrateContent": "37.9 g",
+            "cholesterolContent": null,
+            "fatContent": "1.1 g",
+            "fiberContent": "9.9 g",
+            "proteinContent": "3.6 g",
+            "saturatedFatContent": "0.1 g",
+            "servingSize": null,
+            "sodiumContent": "84.8 mg",
+            "sugarContent": "22.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-02-12T06:21:02.59Z",
+                "reviewBody": "I made a few alterations because I didn\u2019t have most of the ingredients ??     1. 2 clementines 2. A huge apple 3. Around 2 cups of baby carrots. The carrots are the main source of flavor but overall it\u2019s really good!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Meg Weiler",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/24872828/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2017-06-15T23:54:37.327Z",
+                "reviewBody": "I really love how I could taste each ingredient yet they all blended together perfectly. I did not add the red bell because I did not have one. The juice is a little sweet and leans more towards a veggie flavor. Not sure if I would make it a favorite without the ginger.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Kristy Sanderson Smillie",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/21967015/"
+                }
+            }
+        ]
+    }
+]

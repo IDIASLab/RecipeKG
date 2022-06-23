@@ -1,0 +1,181 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/227/world-cuisine/asian/",
+                    "name": "Asian",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/233/world-cuisine/asian/indian/",
+                    "name": "Indian",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/172240/rabri-barley-yogurt-drink/",
+        "name": "Rabri (Barley-Yogurt Drink)",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Rabri (Barley-Yogurt Drink)"
+        },
+        "datePublished": "2019-04-04T03:46:29.000Z",
+        "description": "A hearty barley and yogurt drink from north India. Great for diets. Add water or milk if its too thick.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT1H10M",
+        "totalTime": "P0DT3H20M",
+        "recipeYield": "10 cups",
+        "recipeIngredient": [
+            "6 cups water",
+            "1 cup barley flour",
+            "1 cup uncooked whole barley",
+            "2 cups nonfat plain yogurt",
+            "\u00bc cup water",
+            "salt to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Bring 6 cups of water, barley flour, and whole barley to a boil in a large saucepan. Reduce heat to medium-low, cover, and simmer 1 hour. Remove from the heat and refrigerate until cold.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Whisk the yogurt with 1/4 cup of water; stir into the cooked barley. Season to taste with salt. Serve chilled as a cool drink.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Asian",
+            "Indian"
+        ],
+        "recipeCuisine": [
+            "Asian",
+            "Indian"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Sunaina"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.3333333333333335,
+            "ratingCount": 3,
+            "itemReviewed": "Rabri (Barley-Yogurt Drink)",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "143.6 calories",
+            "carbohydrateContent": "28.3 g",
+            "cholesterolContent": "1 mg",
+            "fatContent": "0.7 g",
+            "fiberContent": "4.7 g",
+            "proteinContent": "6.7 g",
+            "saturatedFatContent": "0.2 g",
+            "servingSize": null,
+            "sodiumContent": "45 mg",
+            "sugarContent": "4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2010-11-16T19:24:53.18Z",
+                "reviewBody": "it's like drinking grainy yoghurt or something. Maybe it could have potential as a soup.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 1
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Freida",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2178729/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2010-11-22T22:31:48.687Z",
+                "reviewBody": "This is too thick to drink! It is more like unsweetened pudding! Once you get used to it the taste isn't too bad. I tried to add a spice to make it more appealing but wasn't satisfied. The lighting in my kitchen makes this look green but it really is more of a grayish brown color.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "sueb",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2719400/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2013-09-08T17:57:41.313Z",
+                "reviewBody": "Sounds great I'll have to try it some day!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "JasonBChau",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/11989198/"
+                }
+            }
+        ]
+    }
+]

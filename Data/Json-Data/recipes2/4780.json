@@ -1,0 +1,170 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1557/desserts/chocolate/",
+                    "name": "Chocolate Dessert Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17157/desserts/chocolate/white-chocolate/",
+                    "name": "White Chocolate",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/245532/chocolate-peppermint-bark/",
+        "name": "Chocolate Peppermint Bark",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3245096.jpg",
+            "width": 3629,
+            "height": 2721
+        },
+        "datePublished": "2015-12-05T00:18:01.000Z",
+        "description": "Chocolaty pepperminty goodness!",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H6M",
+        "totalTime": "P0DT1H21M",
+        "recipeYield": "1 sheet of bark",
+        "recipeIngredient": [
+            "1 cup chocolate chips",
+            "\u00bd cup white chocolate chips",
+            "\u00bd teaspoon vegetable oil",
+            "\u00bd teaspoon peppermint extract"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Line a baking sheet with waxed paper.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Melt chocolate chips in top of a double boiler over simmering water, stirring frequently and scraping down the sides with a rubber spatula to avoid scorching, 3 to 5 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Melt white chocolate chips in top of a separate double boiler over simmering water, stirring frequently and scraping down the sides with a rubber spatula to avoid scorching, 3 to 5 minutes. Stir in vegetable oil and peppermint extract.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour chocolate onto lined baking sheet; spread with spatula. Drizzle white chocolate over chocolate; swirl with a fork.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Refrigerate until bark is hardened, about 1 hour.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Chocolate Dessert Recipes",
+            "White Chocolate"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Stephie.Janel"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Chocolate Peppermint Bark",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "222.8 calories",
+            "carbohydrateContent": "26.1 g",
+            "cholesterolContent": "3.2 mg",
+            "fatContent": "14.1 g",
+            "fiberContent": "1.7 g",
+            "proteinContent": "2.2 g",
+            "saturatedFatContent": "8.2 g",
+            "servingSize": null,
+            "sodiumContent": "18.9 mg",
+            "sugarContent": "23.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2016-02-10T18:05:41.687Z",
+                "reviewBody": "Simple and yummy! Thanks for sharing.:)",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Christina",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/christina/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2018-12-14T22:59:54.38Z",
+                "reviewBody": "This was so easy and delicious",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Debra",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/23852687/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,147 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/106/appetizers-and-snacks/fruit/",
+                    "name": "Fruit",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/242224/apple-sandwich/",
+        "name": "Apple Sandwich",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2245540.jpg",
+            "width": 2948,
+            "height": 2620
+        },
+        "datePublished": "2015-04-17T22:26:16.000Z",
+        "description": "A quick and easy snack for after school. Moderately healthy, it can be made with any type of apple, just remember to adjust the recipe for size differences.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "3 servings",
+        "recipeIngredient": [
+            "\u00bc cup peanut butter, or to taste",
+            "1 Gala apple, cored and sliced horizontally into discs",
+            "\u00bd cup granola"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Spread peanut butter on one side of each apple slice.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour granola onto a plate. Dip apple slices, peanut butter-side down, into granola. Press two granola topped apple slices together to create a sandwich. Repeat with remaining apple slices and granola.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks",
+            "Fruit"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Shoebox"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.5,
+            "ratingCount": 2,
+            "itemReviewed": "Apple Sandwich",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "249.8 calories",
+            "carbohydrateContent": "21.4 g",
+            "cholesterolContent": null,
+            "fatContent": "15.8 g",
+            "fiberContent": "4.2 g",
+            "proteinContent": "8.5 g",
+            "saturatedFatContent": "3.1 g",
+            "servingSize": null,
+            "sodiumContent": "104.2 mg",
+            "sugarContent": "10.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2015-04-29T21:56:43.523Z",
+                "reviewBody": "Apple Sandwich Haiku: \"Cute after-school snack.(Although mine was for breakfast.) Bit messy to eat.\" In the end I think I'd be OK w/ regular apple slices smeared w/ peanut butter and maybe sprinkled w/ a little granola for crunch but this was still a fun recipe to try. Used a pouch of Larabar's cinnamon \"Renola\" and honey-roasted PB ground at Whole Foods along w/ a chubby Gala. Didn't really measure but I'm sure I hovered around the 1/4 c and 1/2 c called for. My daughter and I agreed that it was a little messy to pick up sandwich-style and eat but as one would expect w/ this ingredient combination the taste was delicious.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Rock_lobster",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/rocklobster/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2015-10-10T00:56:51.78Z",
+                "reviewBody": "Just okay nothing special.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Joshua Bibbee",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/16099348/"
+                }
+            }
+        ]
+    }
+]

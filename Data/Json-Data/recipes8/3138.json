@@ -1,0 +1,158 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17874/main-dish/tacos/",
+                    "name": "Taco Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/262198/southwestern-breakfast-tacos/",
+        "name": "Southwestern Breakfast Tacos",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5007178.jpg",
+            "width": 2240,
+            "height": 2240
+        },
+        "datePublished": "2020-06-23T21:52:29.000Z",
+        "description": "Southwestern breakfast tacos to spice up your morning. Garnish with salsa, shredded lettuce, hot sauce, or garnish of choice.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H20M",
+        "recipeYield": "2 tacos",
+        "recipeIngredient": [
+            "cooking spray",
+            "2 eggs",
+            "\u00bd cup turkey sausage",
+            "\u00bc cup chopped onion",
+            "1 tablespoon chili powder",
+            "1 tablespoon ground cumin",
+            "1 tablespoon chopped jalapeno pepper",
+            "1 teaspoon garlic salt",
+            "\u00bc cup habanero-flavored Cheddar cheese",
+            "2 (6 inch) corn tortillas"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Spray a large skillet with cooking spray; warm over medium-high heat. Whisk eggs together in a bowl. Pour into the skillet; cook and stir until eggs are set, about 5 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat a large skillet over medium-high heat. Add turkey sausage, onion, chili powder, cumin, jalapeno, and garlic salt. Cook and stir until sausage is browned and crumbly, 5 to 7 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Divide scrambled eggs, Cheddar cheese, and sausage mixture between tortillas.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Taco Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "S T Andersen"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Southwestern Breakfast Tacos",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "320.7 calories",
+            "carbohydrateContent": "17.8 g",
+            "cholesterolContent": "246.5 mg",
+            "fatContent": "18.2 g",
+            "fiberContent": "3.7 g",
+            "proteinContent": "23.8 g",
+            "saturatedFatContent": "7 g",
+            "servingSize": null,
+            "sodiumContent": "1609.3 mg",
+            "sugarContent": "1.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-02-22T23:27:50.57Z",
+                "reviewBody": "Loved this recipe and will make it again. However recipe does call for too much spices which are overpowering especailly the garlic salt which makes it WAY to salty. Will definatly make again with a few modifications.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Lucinda Balog",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/23328004/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2018-01-16T09:36:44.53Z",
+                "reviewBody": "It was tasty. I made 2 eggs per person. If I make this again I think I would add eggs to the breakfast sausage and save me a step in prepping this recipe.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Lela",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/lela/"
+                }
+            }
+        ]
+    }
+]

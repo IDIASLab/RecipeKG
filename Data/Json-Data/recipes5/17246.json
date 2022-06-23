@@ -1,0 +1,161 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17203/desserts/specialty-desserts/",
+                    "name": "Specialty Dessert Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/373/desserts/specialty-desserts/dessert-salads/",
+                    "name": "Dessert Salad Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/20136/peanut-salad/",
+        "name": "Peanut Salad",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F25298.jpg",
+            "width": 1995,
+            "height": 1770
+        },
+        "datePublished": "2000-07-29T20:15:48.000Z",
+        "description": "My great-grandmother's recipe of caramel pudding layered with bananas and peanuts.",
+        "prepTime": "P0DT0H20M",
+        "cookTime": "P0DT0H30M",
+        "totalTime": "P0DT0H50M",
+        "recipeYield": "8 servings",
+        "recipeIngredient": [
+            "2 cups brown sugar",
+            "2 tablespoons all-purpose flour",
+            "1 pinch salt",
+            "2 eggs",
+            "2 cups milk",
+            "2 bananas, peeled and sliced",
+            "1 cup chopped Spanish peanuts"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "In large saucepan over medium heat, stir together brown sugar, flour, salt and eggs, stirring until eggs are incorporated and sugar is dissolved. Continue to stir and add milk, slowly, until mixture thickens, 20 to 30 minutes. Remove from heat and cool completely.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "In a glass serving bowl, layer portions of pudding with bananas and chopped peanuts.  Chill until serving.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Specialty Dessert Recipes",
+            "Dessert Salad Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "CHIRP"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.5,
+            "ratingCount": 2,
+            "itemReviewed": "Peanut Salad",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "438.9 calories",
+            "carbohydrateContent": "69.2 g",
+            "cholesterolContent": "51.4 mg",
+            "fatContent": "15.5 g",
+            "fiberContent": "3.3 g",
+            "proteinContent": "11 g",
+            "saturatedFatContent": "3.2 g",
+            "servingSize": null,
+            "sodiumContent": "64 mg",
+            "sugarContent": "59.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2003-10-09T04:55:13.187Z",
+                "reviewBody": "This is very sweet. I wasnt real impressed with the taste of the pudding.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Holly Rader",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/205364/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2006-11-19T19:15:10.13Z",
+                "reviewBody": "It is tasty and easy to make. However it is very rich and quite sweet.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "dphazelwood",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2164904/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,130 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/257050/southwest-chicken-and-corn-bread-salad/",
+        "name": "Southwest Chicken and Corn Bread Salad",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4481023.jpg",
+            "width": 1500,
+            "height": 1226
+        },
+        "datePublished": "2019-04-03T06:32:28.000Z",
+        "description": "This is a meal all by itself! It goes together in a snap using leftover cornbread and chicken.",
+        "prepTime": "P0DT0H30M",
+        "cookTime": null,
+        "totalTime": "P0DT3H30M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "1 cup ranch dressing",
+            "\u00bd cup salsa",
+            "6 stale corn bread muffins, coarsely crumbled",
+            "1 (16 ounce) can pinto beans, rinsed and drained",
+            "\u00bd cup canned corn",
+            "1 (4 ounce) can chopped green chile peppers (such as Ortega\u00ae)",
+            "1 (2.25 ounce) can sliced black olives, drained",
+            "\u00bd cup diced bell pepper",
+            "2 cups shredded cooked chicken",
+            "2 tablespoons crumbled cooked bacon",
+            "\u00bd cup diced red onion",
+            "\u00bd cup diced tomatoes",
+            "\u00bd cup shredded Cheddar cheese"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Mix ranch dressing and salsa together in a small bowl.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Layer 1/2 of the corn bread crumbles, pinto beans, corn, green chile peppers, and olives in a large bowl; cover with 1/2 of the dressing mixture. Layer bell pepper, chicken, bacon, onion, and tomatoes over dressing. Top with remaining corn bread crumbles and dressing mixture. Sprinkle Cheddar cheese on top. Cover with plastic wrap and refrigerate until flavors combine, 3 to 4 hours.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Shirley"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Southwest Chicken and Corn Bread Salad",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "517.4 calories",
+            "carbohydrateContent": "44.3 g",
+            "cholesterolContent": "46.9 mg",
+            "fatContent": "32.4 g",
+            "fiberContent": "7.4 g",
+            "proteinContent": "13.3 g",
+            "saturatedFatContent": "7.6 g",
+            "servingSize": null,
+            "sodiumContent": "1588.9 mg",
+            "sugarContent": "8.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-04-16T06:58:07.617Z",
+                "reviewBody": "Easy to add what you like and remove what you don't!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "DotDot",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/dottiedottie/"
+                }
+            }
+        ]
+    }
+]

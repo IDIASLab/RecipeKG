@@ -1,0 +1,137 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17786/desserts/fillings/",
+                    "name": "Fillings",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17788/desserts/fillings/cream-fillings/",
+                    "name": "Cream Fillings",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/275743/vanilla-whipped-cream/",
+        "name": "Vanilla Whipped Cream",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7242759.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-06-19T04:40:49.000Z",
+        "description": "Thick, heavenly, and quick homemade whipped cream. The lemon adds a hint of light citrus, the vanilla warms and enriches the typically too-sugary treat. By adding these 2 ingredients, I cut the sugar in half! Great for French toast, fruit dip, and desserts, or as a base for more elaborate recipes that use cream.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "6 cups",
+        "recipeIngredient": [
+            "3 cups heavy whipping cream",
+            "2 tablespoons vanilla bean paste",
+            "1 teaspoon lemon juice",
+            "\u00bd cup white sugar"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Pour heavy cream into the bowl of a stand mixer fitted with the whisk attachment. Whip at medium-high speed until it begins to thicken. Add vanilla bean paste once it starts to thicken. Mix in lemon juice. Pour in sugar and continue mixing until stiff peaks form.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Fillings",
+            "Cream Fillings"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "fleur"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Vanilla Whipped Cream",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "62.9 calories",
+            "carbohydrateContent": "3 g",
+            "cholesterolContent": "20.4 mg",
+            "fatContent": "5.5 g",
+            "fiberContent": null,
+            "proteinContent": "0.3 g",
+            "saturatedFatContent": "3.4 g",
+            "servingSize": null,
+            "sodiumContent": "5.7 mg",
+            "sugarContent": "2.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-11-05T22:27:30.96Z",
+                "reviewBody": "It is a basic whipped cream recipe. I made it as written with vanilla bean paste. In my opinion it is too heavy on the vanilla bean paste and it could be cut back drastically. The lemon juice doesn't really do anything to enhance the whipped cream.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "My Hot Southern Mess",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/myhotsouthernmess/"
+                }
+            }
+        ]
+    }
+]

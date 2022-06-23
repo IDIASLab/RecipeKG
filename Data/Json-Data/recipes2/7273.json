@@ -1,0 +1,130 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/16348/drinks/slushies/",
+                    "name": "Slushie Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/254257/bellini-slushie/",
+        "name": "Bellini Slushie",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3669467.jpg",
+            "width": 3264,
+            "height": 2448
+        },
+        "datePublished": "2016-06-15T02:01:45.000Z",
+        "description": "Frozen peaches blended with peach schnapps and stirred with champagne make a slushie that's a delightful summer cocktail. Garnish with mint.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "8 servings",
+        "recipeIngredient": [
+            "6 cups frozen peach chunks",
+            "1 cup peach schnapps",
+            "1 (750 milliliter) bottle Champagne, chilled"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine peach chunks and peach schnapps in a blender; blend until smooth.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Fill 8 champagne flutes halfway with blended peach mixture. Fill flutes to the top with Champagne.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Slushie Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Elizabeth"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Bellini Slushie",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "359.9 calories",
+            "carbohydrateContent": "60.8 g",
+            "cholesterolContent": null,
+            "fatContent": "0.3 g",
+            "fiberContent": "3.4 g",
+            "proteinContent": "1.3 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "17.9 mg",
+            "sugarContent": "54.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2016-09-07T06:13:56.977Z",
+                "reviewBody": "I made this yesterday for my daughter & I to enjoy at our Labor Day barbecue.  One thing I can say, from experience, is that you need a powerful blender, (I burned up my 2 yr. old Blendtec),  as this is thicker than a milkshake, as written, so I added about another 1/2 cup of schnapps.  You also have to pour the champagne in stages and stir in between, (because of the carbonation).  I will definitely make this again, just have to break it up into 2 or 3 batches.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Marcia Chesterman Osborne",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/9102280/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,158 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/133/drinks/cocktails/",
+                    "name": "Cocktail Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1743/drinks/cocktails/vodka-drinks/",
+                    "name": "Vodka Drinks Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/241832/swarthy-nordeaster/",
+        "name": "Swarthy Nord'easter",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2191495.jpg",
+            "width": 2592,
+            "height": 1944
+        },
+        "datePublished": "2018-05-04T13:03:25.000Z",
+        "description": "A tasty drink to enjoy for a cool NE Minneapolis evening.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "1 cocktail",
+        "recipeIngredient": [
+            "ice, as desired",
+            "1 (1.5 fluid ounce) jigger vodka",
+            "1 fluid ounce coffee-flavored liqueur (such as Kahlua\u00ae)",
+            "1 fluid ounce chocolate milk"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Fill a rocks glass with ice.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Stir vodka, coffee-flavored liqueur, and chocolate milk together in a cocktail shaker; pour over the ice.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Cocktail Recipes",
+            "Vodka Drinks Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Travis J."
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Swarthy Nord'easter",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "227.9 calories",
+            "carbohydrateContent": "15 g",
+            "cholesterolContent": "2.5 mg",
+            "fatContent": "0.7 g",
+            "fiberContent": "0.2 g",
+            "proteinContent": "1 g",
+            "saturatedFatContent": "0.4 g",
+            "servingSize": null,
+            "sodiumContent": "27.5 mg",
+            "sugarContent": "14.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2016-01-27T11:55:24.41Z",
+                "reviewBody": "Great winter cocktail as it is written, but also excellent if you substitute chocolate almond milk (or plain almond milk) for the chocolate milk.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "MamaC",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/10570965/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2015-04-01T23:04:43.513Z",
+                "reviewBody": "Similar to a White Russian but sweeter and with just a hint of chocolate flavour. A nice drink for this early spring evening!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Irene Y",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/irene/"
+                }
+            }
+        ]
+    }
+]

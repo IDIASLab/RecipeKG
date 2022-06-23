@@ -1,0 +1,145 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1316/breakfast-and-brunch/waffles/",
+                    "name": "Waffle Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/261515/steves-loaded-potato-waffles/",
+        "name": "Steve's Loaded Potato Waffles",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F761654.jpg",
+            "width": 250,
+            "height": 250
+        },
+        "datePublished": "2019-04-03T06:32:41.000Z",
+        "description": "Great savory waffle to use as a side dish or substitute for the bread to make a great chicken and waffle sandwich.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H6M",
+        "totalTime": "P0DT0H21M",
+        "recipeYield": "6 waffles",
+        "recipeIngredient": [
+            "1 cup all-purpose flour",
+            "1\u2009\u2153 cups instant potato flakes",
+            "2 teaspoons baking powder",
+            "\u00bd teaspoon salt",
+            "2\u2009\u00bc cups milk",
+            "2 eggs, lightly beaten",
+            "1 tablespoon canola oil",
+            "1 cup shredded Cheddar cheese",
+            "6 slices crispy cooked bacon, cut into bits",
+            "3 green onions, minced"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine flour, potato flakes, baking powder, and salt together in a large bowl.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Preheat a waffle iron.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Whisk milk, eggs, and oil together in a small bowl. Stir into the flour mixture until just moistened. Fold Cheddar cheese, bacon, and green onions into the batter.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour batter into the preheated waffle iron. Bake according to manufacturer's directions, until golden brown, about 6 minutes. Repeat with the remaining batter.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Waffle Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Steve Cowherd"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Steve's Loaded Potato Waffles",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "282.9 calories",
+            "carbohydrateContent": "30.2 g",
+            "cholesterolContent": "89.1 mg",
+            "fatContent": "12.3 g",
+            "fiberContent": "1.5 g",
+            "proteinContent": "13 g",
+            "saturatedFatContent": "5.9 g",
+            "servingSize": null,
+            "sodiumContent": "546.8 mg",
+            "sugarContent": "5.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-11-15T00:50:13.933Z",
+                "reviewBody": "Goof grief! My review keeps posting before I am finished! Anyway I made this last night exactly as written. Very easy and very hardy. I would make it again but omit the green onion in the batter. I served them with poached eggs on top to up the protein. I also served them with sour cream and applesauce on the side. I think that this has great potential for a quick filling dinner I just need to figure out sides for it. Hmmmm maybe sausage gravy?",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Golfungal",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/10646509/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,129 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/143/breakfast-and-brunch/drinks/",
+                    "name": "Drinks",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/255890/berry-banana-and-almond-butter-bliss-smoothie/",
+        "name": "Berry, Banana, and Almond Butter Bliss Smoothie",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4456170.jpg",
+            "width": 3024,
+            "height": 4032
+        },
+        "datePublished": "2016-10-22T04:12:06.000Z",
+        "description": "This smoothie is pretty darn amazing. You cannot go wrong with it. I've yet to meet anyone who doesn't love it. And it's packed with nutrition, to boot. Top with frozen cherries and prepare to be amazed!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "2 cups frozen mixed berries",
+            "2 frozen bananas",
+            "2 cups almond milk, or more as needed",
+            "2 tablespoons almond butter",
+            "2 teaspoons ground cinnamon",
+            "1 cup frozen pitted cherries"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine mixed berries, bananas, almond milk, almond butter, and cinnamon in a blender; blend, adding more almond milk for a thinner smoothie, until smooth and creamy. Add cherries and continue blending until smooth.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Drinks"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "IvoryAngel"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 1,
+            "itemReviewed": "Berry, Banana, and Almond Butter Bliss Smoothie",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "377.6 calories",
+            "carbohydrateContent": "64.6 g",
+            "cholesterolContent": null,
+            "fatContent": "13.7 g",
+            "fiberContent": "10.7 g",
+            "proteinContent": "6.8 g",
+            "saturatedFatContent": "1.2 g",
+            "servingSize": null,
+            "sodiumContent": "234.8 mg",
+            "sugarContent": "40.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-01-12T22:23:46.323Z",
+                "reviewBody": "This is not my favorite flavor combination. I think it's the addition of the almond butter. I cut the cinnamon in half to taste test first and am glad I did. This is a super cold very thick smoothie which needed thinning just a tad in my vitamix.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Paula",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/paula1/"
+                }
+            }
+        ]
+    }
+]

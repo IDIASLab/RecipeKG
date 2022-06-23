@@ -1,0 +1,153 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/105/appetizers-and-snacks/dips-and-spreads/",
+                    "name": "Dips and Spreads Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17192/appetizers-and-snacks/dips-and-spreads/cheese-dips-and-spreads/",
+                    "name": "Cheese Dips and Spreads Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/233408/quickie-kajmak/",
+        "name": "Quickie Kajmak",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1061194.jpg",
+            "width": 3072,
+            "height": 2304
+        },
+        "datePublished": "2019-12-16T20:50:09.000Z",
+        "description": "A sauce/spread for a Bosnian sandwich using lepinja bread and cevapcici sausage that I saw on diners/drive-ins and dives and didn't see a recipe for this on this site so here's one!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H40M",
+        "recipeYield": "20 servings",
+        "recipeIngredient": [
+            "1 cup feta cheese",
+            "2 cups sour cream",
+            "2 cups cream cheese, softened"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Press feta cheese through a sieve until most of liquid has drained. Beat drained feta cheese, sour cream, and cream cheese in a bowl until smooth. Refrigerate until flavors blend, at least 30 minutes. Bring to room temperature before serving.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks",
+            "Dips and Spreads Recipes",
+            "Cheese Dips and Spreads Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Lisa Mayer Kaelblein"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Quickie Kajmak",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "163.5 calories",
+            "carbohydrateContent": "2.1 g",
+            "cholesterolContent": "46.9 mg",
+            "fatContent": "15.6 g",
+            "fiberContent": null,
+            "proteinContent": "4.3 g",
+            "saturatedFatContent": "10 g",
+            "servingSize": null,
+            "sodiumContent": "221.5 mg",
+            "sugarContent": "0.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-04-18T19:52:11.99Z",
+                "reviewBody": "It was Delish with cevapcici and homemade flatbread",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "lottalicious",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2946782/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2019-08-17T08:01:44.84Z",
+                "reviewBody": "Pairs perfectly with ajvar on cevapi.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Bohican",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/25990308/"
+                }
+            }
+        ]
+    }
+]

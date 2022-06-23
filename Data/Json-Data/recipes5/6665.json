@@ -1,0 +1,142 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/138/drinks/smoothies/",
+                    "name": "Smoothie Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17578/drinks/smoothies/veggie/",
+                    "name": "Veggie",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/246424/spinach-power/",
+        "name": "Spinach Power",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3397334.jpg",
+            "width": 3007,
+            "height": 3007
+        },
+        "datePublished": "2019-07-10T07:06:43.000Z",
+        "description": "The ginger, lime, and lemon add flavor. Apples add sweetness. Surprisingly delicious! Adjust the amount of water to the consistency you like. Make a thicker drink to replace breakfast.",
+        "prepTime": "P0DT0H20M",
+        "cookTime": null,
+        "totalTime": "P0DT0H20M",
+        "recipeYield": "3 smoothies",
+        "recipeIngredient": [
+            "1 large cucumber, chopped",
+            "2 apples, cored and chopped",
+            "3 ribs celery, chopped",
+            "\u00bd cup cold water, or more as needed ",
+            "2 cups fresh spinach",
+            "1 bunch fresh parsley",
+            "1 (1 inch) piece fresh ginger, peeled and chopped ",
+            "1 lime, juiced",
+            "\u00bd lemon, juiced"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place cucumber, apples, celery, water, spinach, parsley, ginger, lime juice, and lemon juice in a blender; blend until smooth.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Smoothie Recipes",
+            "Veggie"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Blue Cat"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Spinach Power",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "88.6 calories",
+            "carbohydrateContent": "21.4 g",
+            "cholesterolContent": null,
+            "fatContent": "0.6 g",
+            "fiberContent": "4.8 g",
+            "proteinContent": "2.5 g",
+            "saturatedFatContent": "0.1 g",
+            "servingSize": null,
+            "sodiumContent": "82.7 mg",
+            "sugarContent": "12.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2016-03-21T15:16:23.287Z",
+                "reviewBody": "The veggies have the predominant flavor in this smoothie particularly the cucumber. However the fruits \"brighten\" up the flavor giving it a fresher quality. I needed to add some stevia to truly enjoy it for my breakfast.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Paula",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/paula1/"
+                }
+            }
+        ]
+    }
+]

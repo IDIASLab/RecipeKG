@@ -1,0 +1,170 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/15944/main-dish/curries/",
+                    "name": "Curries",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/15942/main-dish/curries/vegetarian/",
+                    "name": "Vegetarian",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/258697/vegan-jackfruit-curry/",
+        "name": "Vegan Jackfruit Curry",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Vegan Jackfruit Curry"
+        },
+        "datePublished": "2020-03-10T02:53:03.000Z",
+        "description": "Jackfruit is an amazingly textured and tasty alternative to meat. This super easy recipe uses jackfruit in curry. Best served over rice!",
+        "prepTime": "P0DT0H25M",
+        "cookTime": "P0DT0H27M",
+        "totalTime": "P0DT0H52M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "1 tablespoon coconut oil",
+            "1 (20 ounce) can jackfruit in brine - drained, rinsed, and cut into bite-sized pieces",
+            "1 onion, chopped",
+            "3 cloves garlic, minced",
+            "1 (2 inch) piece ginger, grated",
+            "2 teaspoons curry powder, or more to taste",
+            "1 cup vegetable broth",
+            "1 (8 ounce) can baby corn, drained",
+            "1 white potatoes, cubed",
+            "1 cup coconut milk",
+            "salt and ground black pepper to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat coconut oil in a large skillet over medium high heat. Cook and stir jackfruit until cooked through, about 5 minutes. Add onion and garlic; cook over medium heat until softened, about 6 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Stir ginger and curry powder into jackfruit; mix until flavors combine, about 2 minutes. Add vegetable broth, baby corn, and potatoes; cook until potatoes soften, 7 to 10 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour coconut milk into jackfruit curry and cook until fully heated, about 4 minutes. Season with salt and pepper.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Curries",
+            "Vegetarian"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Cassidy Carolino"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 2,
+            "itemReviewed": "Vegan Jackfruit Curry",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "563 calories",
+            "carbohydrateContent": "48.6 g",
+            "cholesterolContent": null,
+            "fatContent": "38.3 g",
+            "fiberContent": "17.5 g",
+            "proteinContent": "5.8 g",
+            "saturatedFatContent": "27.4 g",
+            "servingSize": null,
+            "sodiumContent": "940.7 mg",
+            "sugarContent": "9.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-08-23T10:33:20.983Z",
+                "reviewBody": "It was just ok. Didn't understand cooking Jack fruit before onions - I'll reverse next time. Wasn't enough liquid to cook potatoes in, and they definitely took longer than described to get tender. I really wanted the strong spice against the creamy coconut milk, but just not that flavorful. May try some enhancements next time.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Debbie Ritter-Williams",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/13486847/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2020-10-09T07:21:14.087Z",
+                "reviewBody": "This was pretty good!  I'd suggest a bit more spices, but definitely yum!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "dogmothersuperior",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/10908660/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,141 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/242/drinks/sangria/",
+                    "name": "Sangria Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/269412/holiday-sangria/",
+        "name": "Holiday Sangria",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6119698.jpg",
+            "width": 1218,
+            "height": 1522
+        },
+        "datePublished": "2020-06-19T04:33:46.000Z",
+        "description": "Holiday red sangria with brandy and cloves.",
+        "prepTime": "P0DT0H20M",
+        "cookTime": null,
+        "totalTime": "P0DT8H20M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "1 (750 milliliter) bottle Rioja red wine",
+            "\u00bc cup brandy",
+            "3 (1.5 fluid ounce) jiggers orange-flavored liqueur (such as Cointreau\u00ae)",
+            "1 large orange ",
+            "1 large grapefruit",
+            "1 large lemon",
+            "1 clove pomander",
+            "ice cubes",
+            "1\u2009\u00bd cups lemon seltzer water",
+            "2 limes, sliced"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Pour Rioja into a large pitcher. Add brandy and orange liqueur. Cut orange, grapefruit, and lemon into wedges. Squeeze juice into the pitcher. Toss in fruit with rinds. Refrigerate until flavors combine, 8 hours to overnight.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Add pomander to the sangria several hours before serving.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Strain liquid into chilled glasses of ice. Top with a splash of seltzer. Garnish with lime slices.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Sangria Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Steve Burnett"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Holiday Sangria",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "286.5 calories",
+            "carbohydrateContent": "33.6 g",
+            "cholesterolContent": null,
+            "fatContent": "0.2 g",
+            "fiberContent": "2.9 g",
+            "proteinContent": "1.1 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "7.5 mg",
+            "sugarContent": "24.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-12-16T08:01:27.913Z",
+                "reviewBody": "Made this for a party today and everyone loved it! Not a drop was left!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "fabeveryday",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/fabeveryday/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,153 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/156/bread/",
+                    "name": "Bread",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/339/bread/yeast-bread/",
+                    "name": "Yeast Bread Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/24928/light-malt-loaf/",
+        "name": "Light Malt Loaf",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F805624.jpg",
+            "width": 3968,
+            "height": 2976
+        },
+        "datePublished": "2020-03-05T04:56:19.000Z",
+        "description": "A light malted loaf ideal for smoked salmon.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT3H0M",
+        "totalTime": "P0DT3H5M",
+        "recipeYield": "1 - 1.5 pound",
+        "recipeIngredient": [
+            "1 cup warm water",
+            "2 tablespoons nonfat dry milk powder",
+            "2 tablespoons butter, softened",
+            "2\u2009\u00bd tablespoons brown sugar",
+            "1 teaspoon salt",
+            "2 cups bread flour",
+            "1 cup malted barley flour",
+            "2 teaspoons active dry yeast",
+            "1 tablespoon milk"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place all ingredients (except the milk) into the bread machine pan in the above order, or as directed by the manufacturer.  Select the Basic Bread setting; press Start.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "After the baking cycle is complete, remove the bread from the pan and brush the just baked bread with milk. This will give it a soft and shiny crust.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Bread",
+            "Yeast Bread Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Kenneth"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 2,
+            "itemReviewed": "Light Malt Loaf",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "159.8 calories",
+            "carbohydrateContent": "29.5 g",
+            "cholesterolContent": "5.4 mg",
+            "fatContent": "2.6 g",
+            "fiberContent": "1.9 g",
+            "proteinContent": "4.8 g",
+            "saturatedFatContent": "1.3 g",
+            "servingSize": null,
+            "sodiumContent": "216.6 mg",
+            "sugarContent": "3.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2012-03-14T15:15:11.643Z",
+                "reviewBody": "Thick dense loaf! I used honey instead of brown sugar and used 1/2 water and 1/2 soy milk for the liquid while omitting the dry cow's milk. Because of using only whole wheat flour I didn't even use as much flour as the recipe calls for. Great taste!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "sueb",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2719400/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2019-12-31T23:33:52.223Z",
+                "reviewBody": "I made it but I don't own a bread machine. That isn't real bread. The taste was fine. But I will have to tweak it. Recipe should have alternate baking instructions.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Cherye Elliott",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/10167782/"
+                }
+            }
+        ]
+    }
+]

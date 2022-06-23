@@ -1,0 +1,132 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/92/meat-and-poultry/",
+                    "name": "Meat and Poultry",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/205/meat-and-poultry/pork/",
+                    "name": "Pork",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/218635/apple-bacon-and-cheddar-panini/",
+        "name": "Apple, Bacon, and Cheddar Panini",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5340852.jpg",
+            "width": 3024,
+            "height": 3024
+        },
+        "datePublished": "2019-04-03T06:30:57.000Z",
+        "description": "Three slices of bread with Cheddar cheese, bacon, and sliced apples, all heated through on a panini press until browned on the outside - this will send your taste buds to another world...enjoy!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H4M",
+        "totalTime": "P0DT0H14M",
+        "recipeYield": "1 panini",
+        "recipeIngredient": [
+            "2 tablespoons butter, or to taste",
+            "3 slices bread",
+            "\u00bc cup shredded Cheddar cheese",
+            "4 slices cooked bacon",
+            "\u00bc apple, peeled and sliced thinly"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat a panini press.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Butter 2 of the bread slices. Place 1 slice on the panini press, buttered-side-down. Arrange Cheddar cheese on the bread; lay unbuttered bread on top. Place bacon and apple on top; cover with the remaining slice of bread, buttered side-up. Close the press and cook until panini is browned, about 4 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Meat and Poultry",
+            "Pork"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Karen "
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Apple, Bacon, and Cheddar Panini",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "534.9 calories",
+            "carbohydrateContent": "43.1 g",
+            "cholesterolContent": "90.7 mg",
+            "fatContent": "34.9 g",
+            "fiberContent": "2.6 g",
+            "proteinContent": "13.1 g",
+            "saturatedFatContent": "21.1 g",
+            "servingSize": null,
+            "sodiumContent": "850.1 mg",
+            "sugarContent": "7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-04-24T01:11:53.307Z",
+                "reviewBody": "Wow! I love the flavor the apple gives to this grilled cheese! All three flavors of cheese bacon and apple complement each other so well. I didn't have a panini press so I used a grill pan and just flipped the sandwich. Next time I will probably just slice the cheese rather than grate it since it's easier and less messy.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Paula",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/paula1/"
+                }
+            }
+        ]
+    }
+]

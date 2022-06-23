@@ -1,0 +1,141 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/251/main-dish/sandwiches/",
+                    "name": "Sandwich Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/240001/grilled-smores-sandwich/",
+        "name": "Grilled Smores Sandwich",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1954504.jpg",
+            "width": 4608,
+            "height": 3072
+        },
+        "datePublished": "2014-10-30T16:26:11.000Z",
+        "description": "My daughter and I love peanut butter, chocolate, and marshmallow. When you combine that with butter, whole grain bread, and a well-seasoned cast iron pan, you have a wonderful (somewhat nutritious) treat!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "2 tablespoons salted butter, softened, divided",
+            "1 tablespoon olive oil, divided",
+            "4 slices 12-grain bread",
+            "2 tablespoons peanut butter",
+            "2 tablespoons marshmallow creme, or to taste",
+            "2 tablespoons chocolate-hazelnut spread (such as Nutella\u00ae)"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Spread 1 tablespoon butter and 1 1/2 teaspoons olive oil onto 1 side of each bread slice.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat a cast iron skillet or non-stick skillet over medium heat and add the remaining 1 tablespoon butter and 1 1/2 teaspoons olive oil.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Spread peanut butter, marshmallow creme, and chocolate-hazelnut spread into the other side of each bread slice and put slices together with butter-oil side on the outside, creating a sandwich.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place sandwiches in the hot skillet, cover the skillet, and cook until sandwiches are lightly golden brown, about 30 seconds per side.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Sandwich Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Shalovem"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Grilled Smores Sandwich",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "494.2 calories",
+            "carbohydrateContent": "40 g",
+            "cholesterolContent": "30.5 mg",
+            "fatContent": "33.2 g",
+            "fiberContent": "4.8 g",
+            "proteinContent": "12.2 g",
+            "saturatedFatContent": "10.9 g",
+            "servingSize": null,
+            "sodiumContent": "394.8 mg",
+            "sugarContent": "16.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2015-01-16T18:44:55.547Z",
+                "reviewBody": "This was a yummy melty gooey treat! I shared a couple bites with my 16 month old and she thought it was good stuff too.:) I skipped most of the butter and oil and just buttered the cast iron and cooked the bread directly in the melted butter.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Rebekah Rose Hills",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/sandra_92083/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,156 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/237/world-cuisine/latin-american/",
+                    "name": "Latin American",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/728/world-cuisine/latin-american/mexican/",
+                    "name": "Mexican",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/281031/aguachile/",
+        "name": "Aguachile",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8366938.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-07-12T01:38:23.000Z",
+        "description": "I first tried aguachile with freshly caught shrimp when I was visiting the small town of Ajijic, Jalisco, Mexico. Ajijic is one of the quaint towns next to Chapala Lake, which happens to be the largest fresh water lake in Mexico. I fell in love with this super spicy cold shrimp dish, marinated in a serrano-lime juice mixture and topped with fresh red onions, avocados, and cucumbers. Serve with tostadas on the side and an optional ice cold Mexican beer to tame down the heat.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H25M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "1\u2009\u00bc cups fresh squeezed lime juice",
+            "4 fresh serrano chiles",
+            "\u2153 cup chopped fresh cilantro",
+            "1\u2009\u00bd teaspoons salt, divided, or to taste",
+            "1 pound large shrimp - peeled, deveined and butterflied",
+            "1 small red onion, thinly sliced",
+            "1 avocado - peeled, pitted, and sliced",
+            "1 cucumber, sliced"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine lime juice, chiles, cilantro, and 1 teaspoon salt in a blender; blend until smooth.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Divide shrimp onto 2 shallow plates.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour chile-lime mixture evenly over the 2 plates of shrimp. Place in the refrigerator and marinate until the shrimp turn opaque and white, 15 to 25 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Top each plate with red onion and avocado. Place cucumber around the edges. Sprinkle with remaining salt.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Latin American",
+            "Mexican"
+        ],
+        "recipeCuisine": [
+            "Latin American",
+            "Mexican"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Yoly"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Aguachile",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "480.5 calories",
+            "carbohydrateContent": "33 g",
+            "cholesterolContent": "345 mg",
+            "fatContent": "19.1 g",
+            "fiberContent": "9.3 g",
+            "proteinContent": "50.4 g",
+            "saturatedFatContent": "3 g",
+            "servingSize": null,
+            "sodiumContent": "2099.1 mg",
+            "sugarContent": "7.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-10-04T03:00:35.15Z",
+                "reviewBody": "This is Da Bomb!!!! I had never tried this but my neighbors who are Mexican, (who I shared this with) said this is very authentic. I did not change a thing except doubled the recipe for the 4 of us. I served it with crackers but next time I will get tostadas. Deeelicious!!!!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Rider",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/24180125/"
+                }
+            }
+        ]
+    }
+]

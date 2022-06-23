@@ -1,0 +1,147 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/273789/curry-chicken-salad-with-greek-yogurt/",
+        "name": "Curry Chicken Salad with Greek Yogurt",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6687813.jpg",
+            "width": 1152,
+            "height": 2048
+        },
+        "datePublished": "2019-07-10T07:13:45.000Z",
+        "description": "A delicious alternative to buying Trader Joe's&reg; Curry Chicken Salad, with a Greek yogurt dressing.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": null,
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "1 pound cooked boneless chicken breast halves, chopped",
+            "\u00bd cup golden raisins",
+            "\u00bd cup roughly chopped fresh cilantro",
+            "\u00bd cup shredded carrots",
+            "\u2153 cup toasted cashews, roughly chopped",
+            "\u00bc cup finely chopped red onion",
+            "1 cup plain Greek yogurt",
+            "1 tablespoon freshly squeezed lemon juice",
+            "1 tablespoon honey",
+            "1 teaspoon garam masala",
+            "\u00bd teaspoon ground ginger",
+            "\u00bd teaspoon ground turmeric",
+            "1 pinch sea salt and freshly ground black pepper to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine chicken, raisins, cilantro, carrots, cashews, and red onion in a large bowl.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Whisk Greek yogurt, lemon juice, honey, garam masala, ginger, turmeric, salt, and pepper together for the dressing. Taste and season as desired. Pour dressing over salad and toss to combine. Serve immediately or store in a sealed container in the fridge for up to 4 days.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "HooyahCam"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 2,
+            "itemReviewed": "Curry Chicken Salad with Greek Yogurt",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "426.2 calories",
+            "carbohydrateContent": "28 g",
+            "cholesterolContent": "96.4 mg",
+            "fatContent": "19 g",
+            "fiberContent": "2.2 g",
+            "proteinContent": "36.9 g",
+            "saturatedFatContent": "6 g",
+            "servingSize": null,
+            "sodiumContent": "233.1 mg",
+            "sugarContent": "18.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-06-04T21:10:35.443Z",
+                "reviewBody": "I was so hopeful for this recipe and it's still good. I just think it needs something to make the flavors stronger.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Chef Mo",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/chefmo/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2020-01-15T20:56:02.233Z",
+                "reviewBody": "I swapped out a few of the ingredients based on preference and what I had on hand. I used grapes instead of raisins left out the carrots used slivered almonds instead of toasted cashews and I didn't have any garam masala on hand so skipped that entirely. I also went a bit heavy with the curry powder because I love the taste of it and added a squeeze of lemon to the yogurt dressing. It turned out delicious! I will definitely be making this again.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Jennifer Bechtold",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/17003930/"
+                }
+            }
+        ]
+    }
+]

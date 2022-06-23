@@ -1,0 +1,146 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/227/world-cuisine/asian/",
+                    "name": "Asian",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/270597/kung-pao-chicken-without-peanuts/",
+        "name": "Kung Pao Chicken Without Peanuts",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6442917.jpg",
+            "width": 3888,
+            "height": 2592
+        },
+        "datePublished": "2019-07-10T07:13:16.000Z",
+        "description": "This is an adaptation of the traditional kung pao chicken recipe. It's not quite as spicy, but still has a little kick. It's great for picky eaters or those with nut allergies. Serve with steamed white rice or egg noodles.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H15M",
+        "totalTime": "P0DT0H55M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "\u00bd cup soy sauce",
+            "\u00bd cup lemon juice",
+            "1 tablespoon ground ginger",
+            "1 tablespoon minced garlic",
+            "4 chicken breast halves, cubed",
+            "1 tablespoon vegetable oil",
+            "1 bunch green onions",
+            "1 green bell pepper, chopped",
+            "2 teaspoons cornstarch"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine soy sauce, lemon juice, ginger, and garlic in a large glass bowl. Add cubed chicken, cover, and refrigerate for 30 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat oil in a large skillet over medium heat. Use a slotted spoon to add just chicken to the skillet, reserving marinade in the bowl. Cook until chicken is no longer pink in the middle and juices run clear, about 5 minutes. Transfer chicken to a plate.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Add green onions and bell pepper to the hot skillet. Cook over medium-high heat for 1 to 2 minutes. Return chicken to the skillet.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Stir cornstarch into the bowl with the reserved marinade. Pour into skillet with chicken and vegetables and increase heat to high. Cook, stirring constantly, until sauce thickens, about 5 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Asian"
+        ],
+        "recipeCuisine": [
+            "Asian"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Samantha Biddlecom"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 1,
+            "ratingCount": 1,
+            "itemReviewed": "Kung Pao Chicken Without Peanuts",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "289.1 calories",
+            "carbohydrateContent": "20.3 g",
+            "cholesterolContent": "64.6 mg",
+            "fatContent": "13.7 g",
+            "fiberContent": "2.8 g",
+            "proteinContent": "22.5 g",
+            "saturatedFatContent": "3.3 g",
+            "servingSize": null,
+            "sodiumContent": "2023.9 mg",
+            "sugarContent": "3.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-03-22T21:08:41.213Z",
+                "reviewBody": "This was nothing like any Kung Pao that I've ever eaten, and it's usually one of my favorite take-out dishes. The lemon (which I've never seen in Kung Pao chicken) was way too overpowering.  It doesn't belong at all.  The recipe states it's not \"as spicy\" as other versions. Well it's not spicy *at all* - there are no spicy ingredients in this recipe. I added some crushed red pepper  on top for a bit of heat.  There is also a lot of ground ginger, so you'll probably want to cut back on that. I halved it, and that was plenty. On the plus side, the cook time is spot on.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 1
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "France C",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/francecevallos/"
+                }
+            }
+        ]
+    }
+]

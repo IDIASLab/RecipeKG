@@ -1,0 +1,155 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/227/world-cuisine/asian/",
+                    "name": "Asian",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/696/world-cuisine/asian/filipino/",
+                    "name": "Filipino",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/221333/maja-blanca/",
+        "name": "Maja Blanca",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2790899.jpg",
+            "width": 3264,
+            "height": 2448
+        },
+        "datePublished": "2020-06-19T03:48:28.000Z",
+        "description": "Maja blanca is a Filipino favorite kakanin (dessert or snack.) This dish is sweet, delicate, soft, and creamy. Good for dessert.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT1H0M",
+        "totalTime": "P0DT2H5M",
+        "recipeYield": "12 servings",
+        "recipeIngredient": [
+            "2 cups thin coconut milk",
+            "3 tablespoons white sugar",
+            "2 cups thin coconut milk",
+            "\u00be cup cream-style corn",
+            "\u00bd cup cornstarch",
+            "\u00bd cup white sugar",
+            "3 tablespoons corn kernels"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Bring 2 cups coconut milk to a boil; stir constantly until oil begins to separate from the milk, about 30 minutes. Skim and reserve oil in a bowl. Reduce heat to medium-low and add 3 tablespoons sugar to remaining milk. Continue to cook and stir until milk becomes brown and crumbly, about 30 minutes more. Remove latik from heat.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Grease an 8-inch mold or pie dish with reserved coconut oil.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat remaining 2 cups coconut milk, cream-style corn, cornstarch, 1/2 cup sugar, and corn kernels in a saucepan over medium heat, stirring constantly, until thickened, about 5 minutes. Pour corn mixture into prepared mold. Cool until maja blanca is set.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cover mold with a plate and invert maja blanca onto the plate. Slice maja blanca and sprinkle with latik.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Asian",
+            "Filipino"
+        ],
+        "recipeCuisine": [
+            "Asian",
+            "Filipino"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "laarni"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Maja Blanca",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "226.7 calories",
+            "carbohydrateContent": "21.8 g",
+            "cholesterolContent": null,
+            "fatContent": "16.2 g",
+            "fiberContent": "1.1 g",
+            "proteinContent": "1.9 g",
+            "saturatedFatContent": "14.3 g",
+            "servingSize": null,
+            "sodiumContent": "56.2 mg",
+            "sugarContent": "12 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2013-02-24T18:33:01.62Z",
+                "reviewBody": "yummmmmm",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Sarah",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/9508961/"
+                }
+            }
+        ]
+    }
+]

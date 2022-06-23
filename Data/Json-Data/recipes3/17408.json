@@ -1,0 +1,158 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/231/world-cuisine/european/",
+                    "name": "European",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/723/world-cuisine/european/italian/",
+                    "name": "Italian",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/54047/chef-nicks-amazing-calamari/",
+        "name": "Chef Nick's Amazing Calamari",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3665311.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2018-11-13T08:01:44.000Z",
+        "description": "Tender calamari tubes stuffed with a mascarpone cheese, ricotta cheese and sun-dried tomato mixture are baked, then sauteed to a golden finish in garlic butter. A little work, but truly amazing!",
+        "prepTime": "P0DT0H20M",
+        "cookTime": "P0DT0H30M",
+        "totalTime": "P0DT0H50M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "1 cup ricotta cheese",
+            "\u2153 cup mascarpone cheese",
+            "12 sun-dried tomatoes, chopped",
+            "\u00bd cup dry bread crumbs",
+            "\u00bc teaspoon dried oregano, or to taste",
+            "1 pinch salt and pepper to taste",
+            "8 large squid, cleaned and tentacles removed",
+            "2 tablespoons butter",
+            "2 cloves garlic, chopped",
+            "2 tablespoons sesame seeds"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat the oven to 350 degrees F (175 degrees C). In a medium bowl, mix together the ricotta cheese, mascarpone cheese, sun-dried tomatoes, bread crumbs, oregano, salt and pepper until well blended. Set aside.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bring a large pot of lightly salted water to a boil. Trim the ends of the squid bodies to make them an even size, and rinse out the tubes.  Spoon the cheese mixture into the cavities of the squid until full, and secure the open ends with toothpicks. Place in boiling water, and cook for 6 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Remove the stuffed calamari tubes from the water, and place in a baking dish. Bake for 20 minutes in the preheated oven.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Melt butter in a large skillet over medium heat. Add garlic and sesame seeds. Place the calamari tubes in the skillet, and fry on all sides until golden brown. Remove toothpicks before serving.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "European",
+            "Italian"
+        ],
+        "recipeCuisine": [
+            "European",
+            "Italian"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Nicole MacDonald"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Chef Nick's Amazing Calamari",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "336.3 calories",
+            "carbohydrateContent": "17.6 g",
+            "cholesterolContent": "259.2 mg",
+            "fatContent": "21.2 g",
+            "fiberContent": "1.9 g",
+            "proteinContent": "19.7 g",
+            "saturatedFatContent": "9.6 g",
+            "servingSize": null,
+            "sodiumContent": "345.6 mg",
+            "sugarContent": "3.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2016-06-16T11:09:08.3Z",
+                "reviewBody": "The concept is great but the total cooking time is overkill. I skipped the boiling and browning and cooked in the oven only. My squid were small and hard to stuff but turned out really good. Because I skipped the final skillet cook and in doing so spaced out the sesame seeds but still good. Larger squid is the key here if you can find them...",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

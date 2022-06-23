@@ -1,0 +1,142 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/364/desserts/frozen-desserts/",
+                    "name": "Frozen Dessert Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1556/desserts/frozen-desserts/ice-cream/",
+                    "name": "Ice Cream",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/260787/alexanders-hot-chocolate-ice-cream-recipe/",
+        "name": "Alexander's Hot Chocolate Ice Cream Recipe",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Alexander's Hot Chocolate Ice Cream Recipe"
+        },
+        "datePublished": "2017-10-15T13:00:51.000Z",
+        "description": "This recipe has many people's taste buds wanting to get more!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT5H20M",
+        "recipeYield": "1 loaf pan",
+        "recipeIngredient": [
+            "3 cups heavy whipping cream",
+            "1 (14 ounce) can sweetened condensed milk",
+            "1\u2009\u00bc cups miniature marshmallows, or to taste",
+            "2 (.55 ounce) packages hot cocoa mix"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Pour heavy cream into the bowl of a stand mixer fitted with a whisk attachment. Beat until stiff peaks form. Fold in sweetened condensed milk, 1 cup marshmallows, and hot cocoa mix. Transfer to a 9x5-inch loaf pan; smooth the top with a spatula. Top cream mixture with the remaining marshmallows.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cover pan with plastic wrap and freeze until firm, about 5 hours. Remove from freeze to let soften, about 10 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Frozen Dessert Recipes",
+            "Ice Cream"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Alexander Petrie"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 1,
+            "itemReviewed": "Alexander's Hot Chocolate Ice Cream Recipe",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "406.7 calories",
+            "carbohydrateContent": "31 g",
+            "cholesterolContent": "111.1 mg",
+            "fatContent": "30 g",
+            "fiberContent": "0.1 g",
+            "proteinContent": "4.8 g",
+            "saturatedFatContent": "18.7 g",
+            "servingSize": null,
+            "sodiumContent": "100.3 mg",
+            "sugarContent": "27 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-01-29T14:23:04.4Z",
+                "reviewBody": "I wish I hadn't added the marshmallows. They just gave it a stickiness I didn't like. The flavor was good but it's very very rich.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Alicia Franzen",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/26410475/"
+                }
+            }
+        ]
+    }
+]

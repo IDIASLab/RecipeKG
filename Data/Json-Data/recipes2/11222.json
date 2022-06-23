@@ -1,0 +1,144 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/237/world-cuisine/latin-american/",
+                    "name": "Latin American",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/728/world-cuisine/latin-american/mexican/",
+                    "name": "Mexican",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/217090/el-nacionalista/",
+        "name": "El Nacionalista",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F617045.jpg",
+            "width": 250,
+            "height": 250
+        },
+        "datePublished": "2017-07-27T13:00:42.000Z",
+        "description": "This is one of the standout cocktails served at the Barrio restaurant in Seattle. It's probably the best non-whiskey cocktail I've ever had. Choose a good quality, smoky mezcal.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "1 cocktail",
+        "recipeIngredient": [
+            "ice",
+            "1 fluid ounce bitter orange aperitif (such as Campari\u00ae)",
+            "1 fluid ounce mezcal",
+            "\u00bd fluid ounce Amaro liqueur",
+            "\u00bd fluid ounce dry vermouth",
+            "3 dashes chocolate or mole bitters (such as Bittermens\u00ae or Fee Brothers\u00ae)",
+            "\u00bd teaspoon single malt Scotch whiskey",
+            "1 lemon zest, for garnish"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place ice cubes into a cocktail shaker. Pour in Campari, mezcal, Amaro, and vermouth. Shake in a few dashes of bitters. Stir or shake well and strain into a cocktail glass. Drizzle with a few drops of peaty, smoky Scotch. Twist the lemon rind over the drink and drop it in.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Latin American",
+            "Mexican"
+        ],
+        "recipeCuisine": [
+            "Latin American",
+            "Mexican"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Lorem Ipsum"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "El Nacionalista",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "112.7 calories",
+            "carbohydrateContent": "4.4 g",
+            "cholesterolContent": null,
+            "fatContent": null,
+            "fiberContent": "0.2 g",
+            "proteinContent": "0.1 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "7 mg",
+            "sugarContent": "3.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2014-10-18T00:18:32.843Z",
+                "reviewBody": "You have to like bitter drinks to like this which I do. I used El Buho mezcal and Connemara Irish Whiskey.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Bob Fischer",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/14431106/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,142 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17245/main-dish/pasta/",
+                    "name": "Pasta",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/238535/sweet-ketchup-and-thousand-island-pasta/",
+        "name": "Sweet Ketchup and Thousand Island Pasta",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1343455.jpg",
+            "width": 960,
+            "height": 960
+        },
+        "datePublished": "2016-06-04T14:15:36.000Z",
+        "description": "I basically just threw this all together and changed it to my liking. I didn't use exact measurements when I made this, so I guessed close to the amounts for measurement. I'm sure you can add some other kind of vegetables with it.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H30M",
+        "totalTime": "P0DT0H45M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "2 cups spiral-shaped noodles",
+            "2 slices bacon, chopped",
+            "\u00bd cup chopped onion",
+            "\u00bc teaspoon minced garlic",
+            "\u00bd cup heavy whipping cream",
+            "\u00bd cup Thousand Island salad dressing",
+            "\u00bc cup pickled jalapeno pepper juice",
+            "\u00bc cup ketchup",
+            "3 tablespoons steak sauce",
+            "\u00bd teaspoon dried basil",
+            "\u00bc teaspoon ground black pepper"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Bring a large pot of lightly salted water to a boil. Cook pasta at a boil until tender yet firm to the bite, about 8 minutes; drain.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place the bacon in a large skillet and cook over medium-high heat, turning occasionally, until evenly browned, about 10 minutes; add onion and garlic to the bacon. Cook and stir the bacon mixture until the onions begin to brown, about 5 minutes more.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Stir cream, Thousand Island dressing, pepper juice, ketchup, and steak sauce with the bacon mixture; season with basil and black pepper. Bring the mixture to a simmer and cook until it thickens, about 5 minutes; add drained pasta and stir to coat.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Pasta"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "MyNameIshKitty"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Sweet Ketchup and Thousand Island Pasta",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "444 calories",
+            "carbohydrateContent": "45.8 g",
+            "cholesterolContent": "56.3 mg",
+            "fatContent": "26.4 g",
+            "fiberContent": "2.1 g",
+            "proteinContent": "8 g",
+            "saturatedFatContent": "9.7 g",
+            "servingSize": null,
+            "sodiumContent": "813.7 mg",
+            "sugarContent": "12 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2015-03-18T21:12:13.333Z",
+                "reviewBody": "I was in the mood for something different something comforting and something that wasn't gourmet. This was it! OK: admittedly I did not use the bacon or the pickled jalapeno juice as I did not have them on hand but since I love those two ingredients the addition of them would have had me licking the preparation bowl... Great recipe thanks!!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "magpie",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/10132145/"
+                }
+            }
+        ]
+    }
+]

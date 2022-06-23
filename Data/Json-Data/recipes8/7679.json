@@ -1,0 +1,115 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/88/bbq-grilling/",
+                    "name": "BBQ & Grilling",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/128/bbq-grilling/smoked/",
+                    "name": "Smoked",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/281915/smoked-potato/",
+        "name": "Smoked Potato",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8629913.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-10-13T06:33:24.000Z",
+        "description": "This is the perfect side dish for times you already have the smoker fired up and smoking meat. No need to heat up the oven, just plan ahead and throw them in the smoker instead.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT3H30M",
+        "totalTime": "P0DT3H35M",
+        "recipeYield": "1 potato",
+        "recipeIngredient": [
+            "hickory wood chips",
+            "1 large russet potato",
+            "1 teaspoon olive oil",
+            "1 pinch kosher salt, or to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat a smoker to 250 degrees F (120 degrees C). Add wood chips according to manufacturer's instructions.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Using a fork, pierce holes on all sides of the potato. The more holes, the smokier the flavor. Rub oil on all sides of the potato and sprinkle with salt.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place potato directly on the smoker rack and cook for 3 1/2 hours\n"
+            }
+        ],
+        "recipeCategory": [
+            "BBQ & Grilling",
+            "Smoked"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Soup Loving Nicole"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Smoked Potato",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "326.2 calories",
+            "carbohydrateContent": "64.5 g",
+            "cholesterolContent": null,
+            "fatContent": "5.1 g",
+            "fiberContent": "8.1 g",
+            "proteinContent": "7.5 g",
+            "saturatedFatContent": "0.8 g",
+            "servingSize": null,
+            "sodiumContent": "422.2 mg",
+            "sugarContent": "2.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

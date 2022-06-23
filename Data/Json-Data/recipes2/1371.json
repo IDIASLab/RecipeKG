@@ -1,0 +1,127 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/133/drinks/cocktails/",
+                    "name": "Cocktail Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/238460/non-strawberry-milk/",
+        "name": "Non-Strawberry Milk",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1474834.jpg",
+            "width": 960,
+            "height": 1280
+        },
+        "datePublished": "2014-07-11T19:23:54.000Z",
+        "description": "Tastes just like strawberry milk, but with a hint of almond flavor.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "1 serving",
+        "recipeIngredient": [
+            "4 cubes  ice, or as desired",
+            "1 (1.5 fluid ounce) jigger amaretto liqueur, or to taste",
+            "1 fluid ounce grenadine syrup",
+            "\u00bc cup milk, or as needed"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Put ice cubes in a tall glass; add amaretto and grenadine. Pour enough milk into the glass to fill; stir.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Cocktail Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "dreamweaver"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Non-Strawberry Milk",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "279.9 calories",
+            "carbohydrateContent": "46.6 g",
+            "cholesterolContent": "4.9 mg",
+            "fatContent": "1.3 g",
+            "fiberContent": null,
+            "proteinContent": "2 g",
+            "saturatedFatContent": "0.8 g",
+            "servingSize": null,
+            "sodiumContent": "40.4 mg",
+            "sugarContent": "37.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2014-09-23T22:06:41.59Z",
+                "reviewBody": "Good easy and it has booze:) I'd like to try again my grenadine is old... good but not the strawberry I was expecting. I will buy more grenadine and give it a whirl this would be a good \"girlie party\" drink.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Lucky Noodles",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/luckynoodles/"
+                }
+            }
+        ]
+    }
+]

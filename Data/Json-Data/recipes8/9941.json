@@ -1,0 +1,168 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1116/fruits-and-vegetables/",
+                    "name": "Fruits and Vegetables",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1059/fruits-and-vegetables/vegetables/",
+                    "name": "Vegetables",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1088/fruits-and-vegetables/vegetables/greens/",
+                    "name": "Greens",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 6,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/2438/fruits-and-vegetables/vegetables/greens/chard/",
+                    "name": "Chard",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/284682/swiss-chard-with-garlic/",
+        "name": "Swiss Chard with Garlic",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F9243467.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2021-06-10T04:53:57.000Z",
+        "description": "This is a very simple recipe for Swiss chard. I like to use the whole vegetable but you need to saute the stems and the leaves separately as the stems take longer. This won't make a lot as the chard will wilt, so if you love chard, think about doubling the recipe.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "1 bunch Swiss chard",
+            "2 tablespoons olive oil",
+            "2 cloves garlic, minced",
+            "1 pinch red pepper flakes",
+            "salt to taste",
+            "1 squeeze fresh lemon juice"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Remove Swiss chard stems and cut into small pieces. Slice leaves into strips. Set both aside.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat olive oil in a skillet and saute chard stems for 3 to 5 minutes. Add garlic and red pepper flakes; cook until fragrant, about 30 seconds. Mix in chard leaves, cover, and cook until wilted, about 2 minutes. Uncover, stir and cook for 2 minutes longer. Season with salt and squeeze lemon juice on top.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Fruits and Vegetables",
+            "Vegetables",
+            "Greens",
+            "Chard"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "barbara"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Swiss Chard with Garlic",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "147.6 calories",
+            "carbohydrateContent": "5.7 g",
+            "cholesterolContent": null,
+            "fatContent": "13.8 g",
+            "fiberContent": "2 g",
+            "proteinContent": "2.3 g",
+            "saturatedFatContent": "1.9 g",
+            "servingSize": null,
+            "sodiumContent": "242.7 mg",
+            "sugarContent": "1.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-07-21T18:24:58.75Z",
+                "reviewBody": "Very easy, healthy and delicious way to cook Swiss chard!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Andromeda",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/8125115/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2021-07-01T11:24:45.6Z",
+                "reviewBody": "quick and easy",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Marianne",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/22170712/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,139 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/133/drinks/cocktails/",
+                    "name": "Cocktail Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1743/drinks/cocktails/vodka-drinks/",
+                    "name": "Vodka Drinks Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/32693/marketing-mix/",
+        "name": "Marketing Mix",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Marketing Mix"
+        },
+        "datePublished": "2018-05-04T13:00:46.000Z",
+        "description": "A noble drink concocted of Blue Curacao, coconut rum, vodka and champagne. Kinda sweet.",
+        "prepTime": "P0DT0H2M",
+        "cookTime": null,
+        "totalTime": "P0DT0H2M",
+        "recipeYield": "1 serving",
+        "recipeIngredient": [
+            "1 fluid ounce Blue Curacao",
+            "1 fluid ounce coconut flavored rum",
+            "1 fluid ounce vodka",
+            "1 dash grenadine syrup",
+            "3 fluid ounces champagne"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "In a cocktail mixer, shake together the Blue Curacao, coconut rum, vodka and grenadine. Pour into a champagne flute, and fill glass with champagne.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Cocktail Recipes",
+            "Vodka Drinks Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Boris"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 1,
+            "ratingCount": 1,
+            "itemReviewed": "Marketing Mix",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "297.4 calories",
+            "carbohydrateContent": "21.6 g",
+            "cholesterolContent": "0 mg",
+            "fatContent": "0.1 g",
+            "fiberContent": "0 g",
+            "proteinContent": "0.1 g",
+            "saturatedFatContent": "0 g",
+            "servingSize": null,
+            "sodiumContent": "14.9 mg",
+            "sugarContent": "13.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2007-01-01T17:10:41.49Z",
+                "reviewBody": "All of these ingredients sounded so good individually to me but when you put them all together... GROSS! Orange-flavored blue curacao mixed with coconut...then throw in some vodka for extra punch and then the fruity flavor of champagne on top of all that. I thought the color would be nice but with the red grenadine added to the blue liquor I ended up with a grayish concoction instead of a pretty blue or purple drink. I made 2 glasses of this each a little different and ended up dumping them both down the drain.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 1
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Jules",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/754750/"
+                }
+            }
+        ]
+    }
+]

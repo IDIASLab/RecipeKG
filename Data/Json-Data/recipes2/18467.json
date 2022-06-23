@@ -1,0 +1,132 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/227/world-cuisine/asian/",
+                    "name": "Asian",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/84203/miso-paste-ham-sandwich/",
+        "name": "Miso Paste Ham Sandwich",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4265731.jpg",
+            "width": 4608,
+            "height": 3456
+        },
+        "datePublished": "2018-03-21T16:43:43.000Z",
+        "description": "An alternative ham and cheese sandwich that uses miso and wasabi instead of the traditional mustard and mayonnaise to give it a zesty flavor.",
+        "prepTime": "P0DT0H1M",
+        "cookTime": "P0DT0H2M",
+        "totalTime": "P0DT0H3M",
+        "recipeYield": "1 sandwich",
+        "recipeIngredient": [
+            "2 slices whole wheat bread, toasted",
+            "1 teaspoon miso paste",
+            "\u00bd teaspoon wasabi paste",
+            "2 teaspoons mayonnaise",
+            "2 slices ham",
+            "1 leaf lettuce",
+            "1 slice Cheddar cheese"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Spread the miso paste and wasabi paste onto one side of one slice of bread. Spread the mayonnaise onto the other slice. Layer the ham, lettuce and cheese over the mayonnaise, and top with the other slice of bread, with the miso facing the inside.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Asian"
+        ],
+        "recipeCuisine": [
+            "Asian"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "MISOHAM"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.6666666666666665,
+            "ratingCount": 3,
+            "itemReviewed": "Miso Paste Ham Sandwich",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "340.3 calories",
+            "carbohydrateContent": "27.3 g",
+            "cholesterolContent": "33.3 mg",
+            "fatContent": "19 g",
+            "fiberContent": "4.2 g",
+            "proteinContent": "15.2 g",
+            "saturatedFatContent": "7.6 g",
+            "servingSize": null,
+            "sodiumContent": "764.8 mg",
+            "sugarContent": "3.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2016-12-09T13:25:24.693Z",
+                "reviewBody": "I had leftover ham so I made this for lunch. I subbed white bread and didnt add wasabi. I thought this was tasty. Miso is very salty but I am a salt fiend so this was great for me. Next time I will add wasabi.. also going to try this grilled",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Linda T",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/lindat/"
+                }
+            }
+        ]
+    }
+]

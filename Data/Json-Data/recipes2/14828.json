@@ -1,0 +1,134 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/23805/salsa-rosa/",
+        "name": "Salsa Rosa",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2338240.jpg",
+            "width": 3264,
+            "height": 2448
+        },
+        "datePublished": "2018-03-21T16:16:41.000Z",
+        "description": "Directly from Italy: a typical Italian recipe. Try it with salads!",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "3 tablespoons mayonnaise",
+            "1 teaspoon ketchup",
+            "2 teaspoons tomato sauce",
+            "1 tablespoon whiskey"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "In a small bowl, whisk together the mayonnaise, ketchup, tomato sauce and whiskey until blended.  Refrigerate until using.  This dressing is great served with prawn salads!\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Lucia"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Salsa Rosa",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "85.5 calories",
+            "carbohydrateContent": "0.8 g",
+            "cholesterolContent": "3.9 mg",
+            "fatContent": "8.2 g",
+            "fiberContent": null,
+            "proteinContent": "0.1 g",
+            "saturatedFatContent": "1.2 g",
+            "servingSize": null,
+            "sodiumContent": "86.2 mg",
+            "sugarContent": "0.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2002-08-29T23:57:36.03Z",
+                "reviewBody": "This recipe is very close to one that was on a crab salad that we purchased in the grocery store in Spain. It had brandy instead of whisky and I substituted brandy when I made the recipe and liked it very well. Thanks for having this great salsa which is so great on crab salad.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "MARLENE BARRAS",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/408975/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2015-06-18T08:11:52.613Z",
+                "reviewBody": "Grazie Lucia. This is truly the original. Great for shrimp salads. The ratio is just just right for a nice dressing. If you don't want to use the whiskey just leave it out. The consistency will be slightly thicker but still perfect for salads. When I use the whiskey I only put 1 tsp instead of 1 Tbsp.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Buckwheat Queen",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/melaniegiovenzana/"
+                }
+            }
+        ]
+    }
+]

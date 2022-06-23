@@ -1,0 +1,143 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/151/breakfast-and-brunch/pancakes/",
+                    "name": "Pancake Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/257013/lemon-cinnamon-pancakes/",
+        "name": "Lemon Cinnamon Pancakes",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4560510.jpg",
+            "width": 3264,
+            "height": 1836
+        },
+        "datePublished": "2019-07-10T07:10:37.000Z",
+        "description": "This is a modification of a recipe I learned in New Zealand... sweet and delicious pancakes with cinnamon and lemon.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H6M",
+        "totalTime": "P0DT0H16M",
+        "recipeYield": "4 pancakes",
+        "recipeIngredient": [
+            "3 tablespoons butter, melted",
+            "1 cup milk",
+            "1 egg",
+            "2 tablespoons honey",
+            "1 cup all-purpose flour",
+            "1 tablespoon ground cinnamon",
+            "1 lemon, halved",
+            "1 tablespoon confectioners' sugar, or to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Melt butter in a large skillet over medium heat, about 1 minute.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour melted butter into a bowl. Add milk, egg, and honey; blend well. Stir in flour and cinnamon until batter is just combined.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Drop spoonfuls of batter into the buttered skillet. Cook until bubbles form and the edges are dry, 3 to 4 minutes. Flip and cook until browned on the other side, 2 to 3 minutes. Repeat with remaining batter.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Squeeze lemon juice over pancakes. Sprinkle confectioners' sugar on top.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Pancake Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Chris"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 2,
+            "ratingCount": 1,
+            "itemReviewed": "Lemon Cinnamon Pancakes",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "284.7 calories",
+            "carbohydrateContent": "39.7 g",
+            "cholesterolContent": "74.3 mg",
+            "fatContent": "11.4 g",
+            "fiberContent": "1.8 g",
+            "proteinContent": "7 g",
+            "saturatedFatContent": "6.7 g",
+            "servingSize": null,
+            "sodiumContent": "105.2 mg",
+            "sugarContent": "13.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-09-22T20:43:24.103Z",
+                "reviewBody": "I feel like something is off in this recipe. It either needs more eggs to be like crepes or add some baking soda to be like a regular pancake. As written they tasted like cinnamon flavored flour. I cut the cinnamon in half and it was plenty. I did like using honey as the sweetner and I will try that again. I made 2 pancakes and then added 2 tsp baking powder to the batter. They were much better.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 2
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Tammy Lynn",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3084624/"
+                }
+            }
+        ]
+    }
+]

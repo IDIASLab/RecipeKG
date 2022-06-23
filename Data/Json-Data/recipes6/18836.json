@@ -1,0 +1,160 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/446/main-dish/beef/",
+                    "name": "Beef",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/472/main-dish/beef/corned-beef/",
+                    "name": "Corned Beef Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/47142/kosher-style-corned-beef/",
+        "name": "Kosher-Style Corned Beef",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F809211.jpg",
+            "width": 250,
+            "height": 250
+        },
+        "datePublished": "2020-06-19T03:08:45.000Z",
+        "description": "This recipe is for 25 pounds of beef, but can scaled down. Prague powder number 1 is a commercial curing product that can be found at sausage supply shops. You may want to reduce the amount of salt, as this amount was used as a preservative.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P3DT0H5M",
+        "recipeYield": "25 pounds of corned beef",
+        "recipeIngredient": [
+            "5 quarts ice water",
+            "6 ounces salt",
+            "3 ounces Prague powder number 1",
+            "3 ounces white sugar",
+            "2 tablespoons pickling spice",
+            "25 pounds beef brisket"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "In a large plastic bucket or tub, mix together the ice water, salt, Prague powder, sugar and pickling spice. Submerge meat in the mixture, and refrigerate for 3 to 4 days. A weight may be placed on top of the meat to keep it submerged.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cook corned beef as you normally would. Simmer or roast for about 50 minutes per pound, or until tender.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Beef",
+            "Corned Beef Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Gene"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Kosher-Style Corned Beef",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "357.2 calories",
+            "carbohydrateContent": "0.9 g",
+            "cholesterolContent": "82.8 mg",
+            "fatContent": "30.1 g",
+            "fiberContent": null,
+            "proteinContent": "19.2 g",
+            "saturatedFatContent": "12.1 g",
+            "servingSize": null,
+            "sodiumContent": "1050.7 mg",
+            "sugarContent": "0.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2009-02-18T18:54:36.357Z",
+                "reviewBody": "very good but use fresh green beans in mine instead of carrots beer instead of water no sugar or vinegar",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "EMILY STERLING",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/443949/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2012-03-22T00:46:55.303Z",
+                "reviewBody": "I scaled this down considerably to feed 20 people for a party at a friend's house. Even though there was other food there to eat my dish went fast! People were getting seconds and one guy even took a third helping!!!!! I ut up carrots potatoes rutabagas and cabbage to go with it. I left that party with an empty dish! I think that calls for the highest rating I can give it.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Tracey Ferrari Posner",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/6476442/"
+                }
+            }
+        ]
+    }
+]

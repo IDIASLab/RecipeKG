@@ -1,0 +1,135 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/108235/tangerine-dream/",
+        "name": "Tangerine Dream",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3237742.jpg",
+            "width": 1914,
+            "height": 1914
+        },
+        "datePublished": "2018-03-21T16:54:11.000Z",
+        "description": "Tangerine juice is enhanced with mango, pineapple, apple, and carrot in this tropical-flavored juice.  If you prefer, you can use papaya in place of the mango.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": null,
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "4 tangerines",
+            "1 large red apple",
+            "1 large carrot",
+            "\u00bd papaya or mango, peeled and pitted",
+            "2 slices half-inch thick pineapple, skin removed"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Peel the zest off of the tangerines, leaving the yellow pith.  Cut the apple into quarters, removing the stem and blossom end.  Cut the top off of the carrot.  Juice all in a juice machine.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Ms. Kim"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Tangerine Dream",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "217.7 calories",
+            "carbohydrateContent": "55.6 g",
+            "cholesterolContent": null,
+            "fatContent": "0.7 g",
+            "fiberContent": "10.1 g",
+            "proteinContent": "3.1 g",
+            "saturatedFatContent": "0.1 g",
+            "servingSize": null,
+            "sodiumContent": "27.9 mg",
+            "sugarContent": "41.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2008-03-25T17:29:24.017Z",
+                "reviewBody": "The flavor was good but this juice was too strong for me. I'd add half a cucumber or some watermelon (with the rind) to dilute it (both add water and nutrients without significantly changing the flavor).",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Kym Cox Surridge",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/1867459/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2016-02-08T19:22:08.44Z",
+                "reviewBody": "I don't have a juicer. I use a vitamix which allows me to get the entire nutrition from each vegetable or fruit. I followed the recipe entirely. I used a mango as opposed to the papaya. I love not having to add any sugar or sweetener into my juice and I love knowing what goes into it! Watch out naked brand juice this is an amazing blend!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "thedailygourmet",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/thedailygourmet/"
+                }
+            }
+        ]
+    }
+]

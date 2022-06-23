@@ -1,0 +1,74 @@
+@prefix ns1: <http://purl.org/heals/food/> .
+@prefix ns2: <http://purl.org/recipekg/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/orange-soya-sauce-marinated-chicken> a schema:Recipe ;
+    ns1:hasIngredient [ a <http://purl.org/heals/ingredient/Garlic> ;
+            ns2:hasQuantity "2" ;
+            ns2:hasUnit "clove" ;
+            ns2:ingredientName "garlic" ],
+        [ a <http://purl.org/recipekg/ingredient/OrangeJuice> ;
+            ns2:hasQuantity "1/4" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "orange juice" ],
+        [ a <http://purl.org/heals/ingredient/SoySauce> ;
+            ns2:hasQuantity "1/4" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "soy sauce" ],
+        [ ] ;
+    ns2:belongsTo <http://purl.org/recipekg/categories/meat-and-poultry/chicken/chicken-breasts/> ;
+    ns2:hasFSAScore 2 ;
+    ns2:hasNutritionalInformation [ a ns2:NutritionalInformation ;
+            ns2:hasCalorificData [ a ns2:CalorificData ;
+                    ns2:hasAmount "422.4"^^xsd:float ;
+                    ns2:hasUnit "calories" ] ;
+            ns2:hasCarbohydrateData [ a ns2:CarbohydrateData ;
+                    ns2:hasAmount "6.7"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasCholesterolData [ a ns2:CholesterolData ;
+                    ns2:hasAmount "144.0"^^xsd:float ;
+                    ns2:hasUnit "mg" ] ;
+            ns2:hasFatData [ a ns2:FatData ;
+                    ns2:hasAmount "20.9"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSARed ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasFiberData [ a ns2:FiberData ;
+                    ns2:hasAmount "0.4"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasProteinData [ a ns2:ProteinData ;
+                    ns2:hasAmount "49.3"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasSaturatedFatData [ a ns2:SaturatedFatData ;
+                    ns2:hasAmount "6.0"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSARed ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasSodiumData [ a ns2:SodiumData ;
+                    ns2:hasAmount "1946.4"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSARed ;
+                    ns2:hasUnit "mg" ] ;
+            ns2:hasSugarData [ a ns2:SugarData ;
+                    ns2:hasAmount "3.2"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSAGreen ;
+                    ns2:hasUnit "g" ] ] ;
+    ns2:hasUSDAScore 4 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 41 ;
+            schema:ratingValue "4.170731707317073"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2018-03-21T16:44:50.000Z"^^schema:date ;
+    schema:name "Orange Soya Sauce Marinated Chicken"^^xsd:string ;
+    schema:recipeYield "2 servings"^^xsd:string .
+
+ns2:FSAGreen a ns2:FSAColor .
+
+<http://purl.org/recipekg/categories/meat-and-poultry/> a ns2:RecipeCategory .
+
+<http://purl.org/recipekg/categories/meat-and-poultry/chicken/> rdfs:subClassOf <http://purl.org/recipekg/categories/meat-and-poultry/> .
+
+<http://purl.org/recipekg/categories/meat-and-poultry/chicken/chicken-breasts/> rdfs:subClassOf <http://purl.org/recipekg/categories/meat-and-poultry/chicken/> .
+
+ns2:FSARed a ns2:FSAColor .
+

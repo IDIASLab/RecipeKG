@@ -1,0 +1,135 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/238258/summertime-limeade-fizzle/",
+        "name": "Summertime Limeade Fizzle",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2577298.jpg",
+            "width": 1570,
+            "height": 1570
+        },
+        "datePublished": "2020-06-19T03:59:41.000Z",
+        "description": "I made this fizzle limeade one hot summer day in July. It really hits the spot over traditional limeade. The club soda and fresh squeezed limes make all the difference! Pour over ice and serve.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "16 servings",
+        "recipeIngredient": [
+            "20 small limes, halved",
+            "1 liter club soda",
+            "1 cup white sugar",
+            "1 pinch salt",
+            "water as needed"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Squeeze lime juice from limes into a pitcher. Add 5 of the lime halves into the lime juice. Stir club soda, sugar, and salt into lime juice until sugar dissolves. Fill the rest of the pitcher with water and stir again.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Karen Janice Francis"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.666666666666667,
+            "ratingCount": 3,
+            "itemReviewed": "Summertime Limeade Fizzle",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "73.5 calories",
+            "carbohydrateContent": "21.3 g",
+            "cholesterolContent": null,
+            "fatContent": "0.2 g",
+            "fiberContent": "2.3 g",
+            "proteinContent": "0.6 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "3.9 mg",
+            "sugarContent": "13.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2015-09-08T23:47:44.7Z",
+                "reviewBody": "I thought this was very refreshing! My kids said it was too bitter. I think it would be great with a splash of cranberry juice in it!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Kim's Cooking Now",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/kimscookingnow/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2018-07-12T20:15:11.597Z",
+                "reviewBody": "This was delicious and very refreshing. I did'didn't change anything.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Donna witten",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/22078705/"
+                }
+            }
+        ]
+    }
+]

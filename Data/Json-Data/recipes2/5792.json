@@ -1,0 +1,202 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/673/main-dish/pork/",
+                    "name": "Pork",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/670/main-dish/pork/ham/",
+                    "name": "Ham",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/231188/fast-hawaiian-pizza/",
+        "name": "Fast Hawaiian Pizza",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2321772.jpg",
+            "width": 1280,
+            "height": 960
+        },
+        "datePublished": "2016-06-01T13:01:54.000Z",
+        "description": "This pizza recipe is for fast, delicious pizza than can be made quickly using the stove and toaster oven.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H20M",
+        "totalTime": "P0DT0H35M",
+        "recipeYield": "1 10-inch pizza",
+        "recipeIngredient": [
+            "cooking spray",
+            "1 (10 inch) flour tortilla",
+            "\u00bc (15 ounce) can pizza sauce (such as Contadina\u00ae)",
+            "1 tomato, diced and squeezed dry with paper towels",
+            "2 pineapple rings, diced and squeezed dry with paper towels",
+            "1\u2009\u00bd teaspoons dried basil",
+            "1 teaspoon dried oregano",
+            "\u00bd teaspoon garlic powder",
+            "2 thick slices cooked ham, torn into bite-size pieces",
+            "4 ounces shredded mozzarella cheese"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat a toaster oven to 400 degrees. Spray a pizza pan small enough to fit in toaster oven with cooking spray.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat a large skillet over high heat and place tortilla into the hot skillet. Cook tortilla until heated through, about 5 minutes; spread with pizza sauce and scatter tomato and pineapple pieces over sauce. Sprinkle pizza with basil, oregano, and garlic powder. Arrange ham pieces onto pizza and top with mozzarella cheese. Continue to heat pizza until tortilla is browned and crisp, 3 to 5 more minutes. Transfer pizza to the prepared pizza pan.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cook in the preheated toaster oven until cheese begins to brown, about 10 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Pork",
+            "Ham"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "collin"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 5,
+            "itemReviewed": "Fast Hawaiian Pizza",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "893.9 calories",
+            "carbohydrateContent": "38.2 g",
+            "cholesterolContent": "163.3 mg",
+            "fatContent": "54.1 g",
+            "fiberContent": "3.9 g",
+            "proteinContent": "60.5 g",
+            "saturatedFatContent": "21.5 g",
+            "servingSize": null,
+            "sodiumContent": "3781.4 mg",
+            "sugarContent": "13.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2014-04-12T17:25:35.847Z",
+                "reviewBody": "Very easy way to make a quick individual pizza. I always use pita flat bread for the crust though. There is also no need first fry the pita bread just dress and throw in the toaster oven.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Kraig",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/4603688/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2013-03-16T21:16:43.09Z",
+                "reviewBody": "Decent enough pizza dish. I left off the ham though. My crust turned out nice and crispy!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "frankschick",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/6730551/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2016-09-11T23:25:24.82Z",
+                "reviewBody": "This was SO easy and fast! I had weight loss surgery and can't eat regular pizza one of my favorite foods ever. For this I used whole wheat tortillas and some homemade Canadian Bacon. Delish! A new favorite!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Tony Smith",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/10223559/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2015-06-10T02:38:47.5Z",
+                "reviewBody": "This is a fast recipe to get dinner on the table quick. I made it using the ingredients as written but used fresh pineapple rather than canned and co-jack rather than straight mozzarella as that is what I had on hand. We liked this but still prefer our Hawaiian pizza with bbq sauce rather than pizza sauce. Served this with a tossed salad.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Molly",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/6145350/"
+                }
+            }
+        ]
+    }
+]

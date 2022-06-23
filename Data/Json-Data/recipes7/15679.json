@@ -1,0 +1,142 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/133/drinks/cocktails/",
+                    "name": "Cocktail Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1739/drinks/cocktails/gin-drinks/",
+                    "name": "Gin Drinks Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/257664/gin-refresher/",
+        "name": "Gin Refresher",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4519371.jpg",
+            "width": 1234,
+            "height": 1315
+        },
+        "datePublished": "2020-06-19T04:20:46.000Z",
+        "description": "The gin lover's sangria. A deconstructed Pimm's if you will. Subtly sweet and fruity, and oh so refreshing! Garnish with cucumber lime and mint.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "1 drink",
+        "recipeIngredient": [
+            "4 thin slices cucumber",
+            "1 sprig fresh mint",
+            "\u00bd teaspoon white sugar",
+            "3 dashes orange bitters ",
+            "\u00bd cup frozen tropical fruit medley",
+            "2 fluid ounces London dry gin",
+            "\u00bd lime, juiced",
+            "\u00bd fluid ounce red wine",
+            "1 splash club soda, or as needed"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine cucumber, mint, sugar, and orange bitters in a highball glass; muddle until fragrant. Fill glass with frozen fruit and top with gin, lime juice, and red wine. Top with club soda and stir.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Cocktail Recipes",
+            "Gin Drinks Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Devan MT"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Gin Refresher",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "245.1 calories",
+            "carbohydrateContent": "22 g",
+            "cholesterolContent": null,
+            "fatContent": "0.2 g",
+            "fiberContent": "1.8 g",
+            "proteinContent": "1.7 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "6.5 mg",
+            "sugarContent": "1.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-05-27T07:17:50.45Z",
+                "reviewBody": "This was yummy (with a couple tweaks). Maybe I'm a lightweight but I thought it was overpowering where the gin was concerned. So I halved the gin to one oz and tripled the red wine to 1.5 oz. I didn't have \"tropical\" fruit unfortunately so I used frozen strawberries and added about 3 oz of pineapple juice. I like how the frozen berries cancelled the need for ice that would have watered it down. Cheers!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "CoachJen",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/coachjen/"
+                }
+            }
+        ]
+    }
+]

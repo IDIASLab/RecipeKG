@@ -1,0 +1,133 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/132/drinks/cider/",
+                    "name": "Cider Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/240172/smittys-apple-cider/",
+        "name": "Smitty's Apple Cider",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7070276.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2019-04-02T07:03:59.000Z",
+        "description": "This great Halloween drink warms the bones.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H30M",
+        "totalTime": "P0DT0H35M",
+        "recipeYield": "40 servings",
+        "recipeIngredient": [
+            "1 gallon fresh apple cider",
+            "16 fluid ounces brandy",
+            "5 fluid ounces moonshine (clear or white whiskey)",
+            "2 cinnamon sticks",
+            "2 teaspoons ground cinnamon",
+            "1 teaspoon nutmeg"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine apple cider, brandy, moonshine, cinnamon sticks, ground cinnamon, and nutmeg in a slow cooker.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cook on High until hot and flavors blend, at least 30 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Cider Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "smitty196"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Smitty's Apple Cider",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "96.9 calories",
+            "carbohydrateContent": "13.4 g",
+            "cholesterolContent": null,
+            "fatContent": null,
+            "fiberContent": "0.1 g",
+            "proteinContent": null,
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "11.2 mg",
+            "sugarContent": "11.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-09-23T10:26:33.453Z",
+                "reviewBody": "Great as written! It maybe could have used a little more cook time for the flavors to get acquainted but overall a great recipe. We ended up adding another shot of moonshine but we are boozy like that :)",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

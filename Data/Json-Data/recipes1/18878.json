@@ -1,0 +1,152 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/107/appetizers-and-snacks/meat-and-poultry/",
+                    "name": "Meat and Poultry",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1234/appetizers-and-snacks/meat-and-poultry/chicken/",
+                    "name": "Chicken",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/281524/baked-sesame-chicken-wings/",
+        "name": "Baked Sesame Chicken Wings",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Baked Sesame Chicken Wings"
+        },
+        "datePublished": "2013-02-05T22:05:56.000Z",
+        "description": "An excellent baked sesame chicken wing recipe. Nothing fried or breaded here!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT1H0M",
+        "totalTime": "P0DT1H10M",
+        "recipeYield": "16 wings",
+        "recipeIngredient": [
+            "nonstick cooking spray",
+            "16 each frozen chicken wings",
+            "1 (5 ounce) bottle soy sauce",
+            "\u00bc cup water",
+            "3 tablespoons white sugar",
+            "\u00bc cup sesame seeds"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat the oven to 350 degrees F (175 degrees C). Spray a 9x13-inch baking pan with cooking spray.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place frozen chicken wings, skin side-down, in the prepared pan.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine soy sauce, water, and sugar in a bowl; pour sauce over chicken.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated oven for 30 minutes. Remove from the oven, turn wings, and sprinkle with sesame seeds. Return to the oven and bake until no longer pink at the bone and the juices run clear, about 30 minutes more. An instant-read thermometer inserted near the bone should read 165 degrees F (74 degrees C).\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks",
+            "Meat and Poultry",
+            "Chicken"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Josh Nelson"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 1,
+            "itemReviewed": "Baked Sesame Chicken Wings",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "188.9 calories",
+            "carbohydrateContent": "7.4 g",
+            "cholesterolContent": "38.6 mg",
+            "fatContent": "11.2 g",
+            "fiberContent": "0.7 g",
+            "proteinContent": "14.5 g",
+            "saturatedFatContent": "2.8 g",
+            "servingSize": null,
+            "sodiumContent": "1271.5 mg",
+            "sugarContent": "5.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-11-15T11:23:47.887Z",
+                "reviewBody": "I'm a wing fanatic and loved the fact that these started from frozen state because I always have them on hand but these fell flat both in flavor and texture. Sorry. I could give my opinion on what went wrong and how to fix it but for now I'll just leave it as 3 stars as written.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

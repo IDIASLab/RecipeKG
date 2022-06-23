@@ -1,0 +1,104 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/81/side-dish/",
+                    "name": "Side Dish",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/265165/mouthwatering-brown-sugar-bacon/",
+        "name": "Mouthwatering Brown Sugar Bacon",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F413877.jpg",
+            "width": 250,
+            "height": 250
+        },
+        "datePublished": "2020-03-05T05:17:52.000Z",
+        "description": "My grandpa was the biggest bacon lover I know... and this was his favorite bacon recipe! The brown sugar caramelizes onto the bacon, making a mouthwatering sweet and savory treat!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H20M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "1 pound thick-sliced bacon",
+            "\u00bd cup brown sugar",
+            "\u00bc cup chopped pecans"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat the oven to 350 degrees F (175 degrees C). Line a baking sheet with aluminum foil.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Arrange bacon on the baking sheet in a single layer; edges can touch or slightly overlap. Sprinkle brown sugar generously on top. Sprinkle pecans over the sugar.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated oven until browned and glazed, 10 to 15 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Side Dish"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Angela"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Mouthwatering Brown Sugar Bacon",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "238.5 calories",
+            "carbohydrateContent": "19.1 g",
+            "cholesterolContent": "27.3 mg",
+            "fatContent": "13.9 g",
+            "fiberContent": "0.5 g",
+            "proteinContent": "9.7 g",
+            "saturatedFatContent": "3.7 g",
+            "servingSize": null,
+            "sodiumContent": "578.8 mg",
+            "sugarContent": "18 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

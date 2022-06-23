@@ -1,0 +1,145 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/227/world-cuisine/asian/",
+                    "name": "Asian",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/233/world-cuisine/asian/indian/",
+                    "name": "Indian",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/172227/salty-cumin-lassi/",
+        "name": "Salty Cumin Lassi",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1019006.jpg",
+            "width": 2992,
+            "height": 2992
+        },
+        "datePublished": "2018-06-08T13:52:14.000Z",
+        "description": "A refreshing yogurt drink. Great for diets.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H30M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "2 tablespoons cumin seeds",
+            "2 cups ice cubes",
+            "1 cup nonfat milk",
+            "3 cups nonfat plain yogurt",
+            "\u00bd teaspoon salt, or to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Toast the cumin seeds in a small skillet over medium heat until they appear to be black and charred, about 8 minutes. Allow to cool to room temp; grind into a fine powder.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Blend the ice, milk, yogurt, salt, and ground cumin together in a blender on high speed until smooth.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Asian",
+            "Indian"
+        ],
+        "recipeCuisine": [
+            "Asian",
+            "Indian"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Sunaina"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 1,
+            "ratingCount": 1,
+            "itemReviewed": "Salty Cumin Lassi",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "135.5 calories",
+            "carbohydrateContent": "18.5 g",
+            "cholesterolContent": "4.9 mg",
+            "fatContent": "1.1 g",
+            "fiberContent": "0.3 g",
+            "proteinContent": "13.2 g",
+            "saturatedFatContent": "0.3 g",
+            "servingSize": null,
+            "sodiumContent": "466.9 mg",
+            "sugarContent": "17.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2013-06-12T14:01:05.103Z",
+                "reviewBody": "I've had cumin lassi's and I was looking forward to making my first at home. You need to love love L-O-V-E cumin to enjoy this. It has so much cumin that it's the only thing that I could taste. IMO it needs the cumin reduced significantly (maybe start with just 1 tsp or less) and perhaps add some mint or fresh cilantro as a complement to the cumin. Sunaina sorry for the bad review but this recipe just didn't work for me.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 1
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "lutzflcat",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/lutzflcat/"
+                }
+            }
+        ]
+    }
+]

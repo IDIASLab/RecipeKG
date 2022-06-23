@@ -1,0 +1,169 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/143/breakfast-and-brunch/drinks/",
+                    "name": "Drinks",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/244216/anns-berry-green-smoothie/",
+        "name": "Ann's Berry Green Smoothie",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2455344.jpg",
+            "width": 2448,
+            "height": 3264
+        },
+        "datePublished": "2020-06-19T04:03:16.000Z",
+        "description": "This is a refreshing smoothie that will help get your fruit and vegetable servings in for the day. You can use this recipe and just substitute the fruits you like and the greens you want for that day. You could use juice instead of water, if desired.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": null,
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "36 ounces",
+        "recipeIngredient": [
+            "2 cups frozen strawberries",
+            "1\u2009\u00bd cups warm water",
+            "2 cups milk",
+            "1\u2009\u00bd cups fresh spinach, or to taste",
+            "1 cup frozen blueberries",
+            "1 frozen chopped banana",
+            "1 tablespoon honey",
+            "\u00bd lemon, juiced"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place strawberries in a bowl; add warm water.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Blend milk and spinach together in a blender until smooth. Add blueberries, banana, and honey and blend until smooth. Add strawberries-water mixture and lemon juice and blend until smooth.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Drinks"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Andrea Bell"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.25,
+            "ratingCount": 4,
+            "itemReviewed": "Ann's Berry Green Smoothie",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "303.3 calories",
+            "carbohydrateContent": "57.4 g",
+            "cholesterolContent": "19.5 mg",
+            "fatContent": "5.7 g",
+            "fiberContent": "7.3 g",
+            "proteinContent": "10.3 g",
+            "saturatedFatContent": "3.2 g",
+            "servingSize": null,
+            "sodiumContent": "127.9 mg",
+            "sugarContent": "40.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2015-08-04T14:32:46.08Z",
+                "reviewBody": "Absolutely no need for the water; use a reduced calorie apple juice - otherwise it will be watered down. Yummy but didn't turn out green...thanks for sharing!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "thedailygourmet",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/thedailygourmet/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2017-07-15T20:09:29.75Z",
+                "reviewBody": "Great! Can't even taste the spinach and nice smooth texture",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Grace",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/9244801/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2016-09-09T21:38:01.06Z",
+                "reviewBody": "Loved it but my son would like it with less spinach and more honey.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Dave",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/16541687/"
+                }
+            }
+        ]
+    }
+]

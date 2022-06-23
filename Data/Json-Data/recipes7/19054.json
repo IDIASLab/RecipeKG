@@ -1,0 +1,167 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/362/desserts/cookies/",
+                    "name": "Cookies",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/839/desserts/cookies/chocolate-chip-cookies/",
+                    "name": "Chocolate Chip Cookie Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/269607/chocolate-chip-cookies-for-one/",
+        "name": "Chocolate Chip Cookies for One",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6252557.jpg",
+            "width": 1152,
+            "height": 2048
+        },
+        "datePublished": "2020-06-19T04:34:01.000Z",
+        "description": "This single-serving recipe is perfect for toaster oven.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H8M",
+        "totalTime": "P0DT0H13M",
+        "recipeYield": "2 cookies",
+        "recipeIngredient": [
+            "2 tablespoons butter",
+            "2 tablespoons firmly packed brown sugar",
+            "1 tablespoon white sugar",
+            "\u00bc teaspoon vanilla extract",
+            "1 pinch salt",
+            "1 egg yolk",
+            "\u00bc cup all-purpose flour",
+            "\u00bc teaspoon baking soda",
+            "3 teaspoons semisweet chocolate chips"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat the toaster oven to 350 degrees F (175 degrees C) according to manufacturer's instructions.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place butter in a medium microwave-safe bowl; heat until just softened, about 10 seconds. Whisk in brown sugar, white sugar, vanilla extract, and salt. Stir in egg yolk. Add flour and baking soda; stir until combined. Stir in chocolate chips. Form cookie dough into 2 balls and place on a small baking tray.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated toaster oven until edges are lightly golden, 8 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Cookies",
+            "Chocolate Chip Cookie Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Brook"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.5,
+            "ratingCount": 2,
+            "itemReviewed": "Chocolate Chip Cookies for One",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "579.6 calories",
+            "carbohydrateContent": "71 g",
+            "cholesterolContent": "265.9 mg",
+            "fatContent": "31.2 g",
+            "fiberContent": "1.5 g",
+            "proteinContent": "6.6 g",
+            "saturatedFatContent": "18.3 g",
+            "servingSize": null,
+            "sodiumContent": "650.8 mg",
+            "sugarContent": "45.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-01-13T02:07:34.42Z",
+                "reviewBody": "Good flavors! Makes 2 bigger cookies. I would cut back the butter just a little next time and increase the cook time in a bigger oven.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Chef Mo",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/chefmo/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2020-08-19T05:46:55.917Z",
+                "reviewBody": "These are okay. They definitely have to much butter. The cookies leave wet marks on your hands when you pick them up. I'd also recommend baking them for a couple more minutes.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "FreeCake",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/21897652/"
+                }
+            }
+        ]
+    }
+]

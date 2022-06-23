@@ -1,0 +1,155 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/364/desserts/frozen-desserts/",
+                    "name": "Frozen Dessert Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1556/desserts/frozen-desserts/ice-cream/",
+                    "name": "Ice Cream",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/236438/creamy-snow-cream/",
+        "name": "Creamy Snow Cream",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F9052633.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-06-19T03:58:09.000Z",
+        "description": "A wonderful, rare Christmas treat! Make sure snow has fallen for 2 hours, as it takes that to clean air pollutants.  Then take a clean blanket, and collect the snow. Enjoy!",
+        "prepTime": "P0DT0H15M",
+        "cookTime": null,
+        "totalTime": "P0DT2H15M",
+        "recipeYield": "18 servings",
+        "recipeIngredient": [
+            "2 quarts milk",
+            "2 cups white sugar",
+            "1 (14 ounce) can sweetened condensed milk",
+            "1 teaspoon vanilla extract",
+            "2 quarts clean fresh snow"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Whisk milk, sugar, sweetened condensed milk, and vanilla extract together in a large bowl. Add snow to milk mixture, about 1 cup at a time, until ice cream is thickened. Freeze for 2 hours.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Frozen Dessert Recipes",
+            "Ice Cream"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "BakerMom"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Creamy Snow Cream",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "210.8 calories",
+            "carbohydrateContent": "39.2 g",
+            "cholesterolContent": "16.1 mg",
+            "fatContent": "4 g",
+            "fiberContent": null,
+            "proteinContent": "5.3 g",
+            "saturatedFatContent": "2.6 g",
+            "servingSize": null,
+            "sodiumContent": "75.4 mg",
+            "sugarContent": "39.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-08-01T19:07:56.29Z",
+                "reviewBody": "Runny\u2026.snow cream has never looked like bought ice cream\u2026just isn\u2019t gonna happen. I\u2019ve tried many diff recipes and really the best is gather up enough fresh snow, hard packed, drizzle in the sweetened condensed milk and keep adding snow until a \u201cgood\u201d consistency is achieved\u2026.eat quickly! Putting it back into fridge did result in a chunk, blob of frozen sweetened milk! It\u2019s the process of making it with kids that\u2019s the charm. I am sure \u2018back in the day\u2019 cream and sugar is prolly the only two ingredients on hand, vanilla would\u2019ve been a luxury most families wouldn\u2019t had! Kids will eat anything sweet, that\u2019s why I\u2019d leave out the EGG! Give the recipe a go\u2026just be prepared it will not be like modern ice cream\u2026it\u2019s an adventure that\u2019s why this recipe is a gem!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Jane \u201cNena\u201d LaFevers",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/28518464/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2021-02-23T10:40:20.703Z",
+                "reviewBody": "Excellent! This brought me back to my childhood but without the raw egg. This is not one you can freeze overnight. The 2 hours as directed is perfect. Anything over 3 hours starts turning to ice. Perfect as written really. Don't forget the sprinkles!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

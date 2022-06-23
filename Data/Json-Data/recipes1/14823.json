@@ -1,0 +1,161 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/251/main-dish/sandwiches/",
+                    "name": "Sandwich Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/16387/main-dish/sandwiches/panini/",
+                    "name": "Panini Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/282775/italian-chicken-panini/",
+        "name": "Italian Chicken Panini",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F9401187.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2006-12-04T21:15:12.000Z",
+        "description": "My mother made up this Italian chicken panini recipe and it is delicious.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "1 sandwich",
+        "recipeIngredient": [
+            "1 tablespoon olive oil, or as needed",
+            "2 slices Italian bread",
+            "1 tablespoon pesto",
+            "2 slices mozzarella cheese",
+            "\u00bc pound sliced cooked chicken breast"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat an electric grill (such as George Foreman&reg;) for medium heat. Spread olive oil on one side of each bread slice.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place one slice of bread, oil-side down, on the preheated grill. Spread 1/2 of the pesto on the bread and put a slice of mozzarella cheese over top. Arrange chicken over the cheese and top with remaining mozzarella. Spread remaining pesto on the other slice of bread and place on top of the sandwich.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Close the grill and cook until cheese is melted and bread is golden brown and crispy, about 4 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Sandwich Recipes",
+            "Panini Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Michelle"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Italian Chicken Panini",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "656.3 calories",
+            "carbohydrateContent": "22.6 g",
+            "cholesterolContent": "126 mg",
+            "fatContent": "39.3 g",
+            "fiberContent": "1.5 g",
+            "proteinContent": "51 g",
+            "saturatedFatContent": "12.1 g",
+            "servingSize": null,
+            "sodiumContent": "769.9 mg",
+            "sugarContent": "1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-09-27T19:27:12.05Z",
+                "reviewBody": "I was sure this sandwich was gonna need something else a little extra,  but boy was I wrong! This was absolutely delicious and full of flavor! Perfect combo of flavors and a great crunchy texture! This is going into the rotation for sure-yum!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Christina",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/christina/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2021-09-08T04:34:47.547Z",
+                "reviewBody": "I  shredded the chicken and added provolone cheese along with the mozzarella.   The crunch of the bread adds to the deliciousness.  This is a great use of leftover chicken you may have on hand.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Deb C",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2702518/"
+                }
+            }
+        ]
+    }
+]

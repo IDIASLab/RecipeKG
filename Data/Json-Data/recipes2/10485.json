@@ -1,0 +1,160 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/251/main-dish/sandwiches/",
+                    "name": "Sandwich Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1245/main-dish/sandwiches/turkey/",
+                    "name": "Turkey",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/236195/california-club-turkey-sandwich/",
+        "name": "California Club Turkey Sandwich",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1097269.jpg",
+            "width": 1936,
+            "height": 1937
+        },
+        "datePublished": "2017-06-21T13:02:13.000Z",
+        "description": "Not your typical turkey sandwich! With avocado, cream cheese, and sunflower seeds on toasted wheat bread, your turkey sandwich won't know what hit it! Serve with chips or a pickle. Great summer sandwich!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "1 sandwich",
+        "recipeIngredient": [
+            "1 tablespoon cream cheese, or to taste",
+            "2 slices toasted whole wheat bread",
+            "1 tablespoon sunflower seeds",
+            "3 slices avocado",
+            "1 teaspoon mayonnaise",
+            "3 slices smoked turkey, or to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Spread cream cheese on one piece of toast. Sprinkle sunflower seeds over the cream cheese and place avocado slices over the seeds.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Spread mayonnaise on the other piece of toast. Arrange turkey slices over the mayonnaise. Put turkey side of sandwich together with the avocado side of the sandwich.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Sandwich Recipes",
+            "Turkey"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Brooke129"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.666666666666667,
+            "ratingCount": 3,
+            "itemReviewed": "California Club Turkey Sandwich",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "526.1 calories",
+            "carbohydrateContent": "34.6 g",
+            "cholesterolContent": "55.3 mg",
+            "fatContent": "34.4 g",
+            "fiberContent": "10.7 g",
+            "proteinContent": "23.7 g",
+            "saturatedFatContent": "8.5 g",
+            "servingSize": null,
+            "sodiumContent": "1067.6 mg",
+            "sugarContent": "4.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2014-05-07T01:08:40.03Z",
+                "reviewBody": "This was delicious I was honestly sad when it was gone and contemplated making another one. I really enjoyed the flavor combinations and the addition of sunflower seeds. I made as written but used lite veggie cream cheese. Not sure it needs the mayo I might try leaving it out next time. Give this one a shot!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Minnesota_Girl",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2184906/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2015-10-10T22:28:15.557Z",
+                "reviewBody": "Very tasty...I have to explore the use of cream cheese in meat sandwichs more often...thanks for the start",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Harry Hopkins III",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/16431469/"
+                }
+            }
+        ]
+    }
+]

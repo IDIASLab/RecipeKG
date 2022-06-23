@@ -1,0 +1,167 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/94/soups-stews-and-chili/",
+                    "name": "Soups, Stews and Chili Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/171/soups-stews-and-chili/broth-and-stocks/",
+                    "name": "Broth and Stock Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/15928/soups-stews-and-chili/broth-and-stocks/chicken-stock/",
+                    "name": "Chicken Stock Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/13258/white-stock/",
+        "name": "White Stock",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "White Stock"
+        },
+        "datePublished": "2008-06-30T23:10:59.000Z",
+        "description": "This chicken and veal stock can be used in a variety of soups.",
+        "prepTime": "P0DT0H30M",
+        "cookTime": "P0DT5H0M",
+        "totalTime": "P0DT6H0M",
+        "recipeYield": "12 cups",
+        "recipeIngredient": [
+            "3 pounds chicken",
+            "1 veal knuckle",
+            "2 stalks celery",
+            "1 yellow onion",
+            "1 turnip",
+            "1 carrots",
+            "2 teaspoons salt",
+            "4 quarts water"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Cut veal from bone.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine water, veal meat, veal bone, chicken, vegetables, and salt in a stock pot.  Bring to a boil.  Reduce heat, cover, and simmer for 5 hours.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Strain stock, and let cool.  Discard vegetables and bones, use veal and chicken as desired.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Soups, Stews and Chili Recipes",
+            "Broth and Stock Recipes",
+            "Chicken Stock Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Andrew Chinn"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "White Stock",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "111.3 calories",
+            "carbohydrateContent": "2.2 g",
+            "cholesterolContent": "49.2 mg",
+            "fatContent": "2.6 g",
+            "fiberContent": "0.6 g",
+            "proteinContent": "18.7 g",
+            "saturatedFatContent": "0.7 g",
+            "servingSize": null,
+            "sodiumContent": "454.6 mg",
+            "sugarContent": "1.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2011-10-06T18:00:48.843Z",
+                "reviewBody": "Great starter! I didn t have a veal knuckle so I omitted it. For a clear broth you must start with COLD water if not your broth will be cloudy. Throw in a few cloves of garlic and some peppercorns. To control the sodium intake in a recipe wait on the salt until you are using the broth in a recipe. I have made broth in the crockpot overnight makes for a wonderful very clear broth.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "RAMONA9",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/1235762/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2019-07-14T06:35:29.183Z",
+                "reviewBody": "Superb",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Malith",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/25840940/"
+                }
+            }
+        ]
+    }
+]

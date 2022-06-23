@@ -1,0 +1,159 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/231/world-cuisine/european/",
+                    "name": "European",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/723/world-cuisine/european/italian/",
+                    "name": "Italian",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/231754/broken-noodles/",
+        "name": "Broken Noodles",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Broken Noodles"
+        },
+        "datePublished": "2018-06-08T14:07:39.000Z",
+        "description": "This is a copycat recipe for a dish I loved at TGIFriday's&reg;. They no longer have it on their menu.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H15M",
+        "totalTime": "P0DT0H30M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "2 tablespoons olive oil",
+            "1 (4 ounce) package sliced fresh mushrooms",
+            "\u00bd cup marinara sauce",
+            "\u00bd tomato, chopped",
+            "\u00bc cup sliced black olives",
+            "4 slices green bell pepper, cut into 1-inch dice",
+            "4 slices red bell pepper, cut into 1-inch dice",
+            "1 artichoke heart, quartered",
+            "1 tablespoon chopped fresh garlic",
+            "\u00bd teaspoon dried basil",
+            "salt and ground black pepper to taste",
+            "10 ounces cavatappi (corkscrew) pasta",
+            "2 ounces shredded mozzarella cheese",
+            "1 tablespoon grated Parmesan cheese, or to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat olive oil in a skillet over medium heat; cook and stir mushrooms in the hot oil until slightly softened, 5 to 10 minutes. Add marinara sauce, tomato, olives, green bell pepper, red bell pepper, artichoke heart, garlic, basil, salt, and pepper to mushrooms; bring to a boil. Simmer until tomato sauce is heated through, 5 to 10 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bring a large pot of lightly salted water to a boil. Cook cavatappi in the boiling water, stirring occasionally until cooked through but firm to the bite, 8 minutes. Drain and transfer to a serving bowl.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Sprinkle mozzarella cheese over cavatappi. Pour tomato sauce over mozzarella layer; sprinkle with Parmesan cheese.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "European",
+            "Italian"
+        ],
+        "recipeCuisine": [
+            "European",
+            "Italian"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Kimberly Sparkman"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Broken Noodles",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "418.2 calories",
+            "carbohydrateContent": "61.5 g",
+            "cholesterolContent": "10.8 mg",
+            "fatContent": "12.4 g",
+            "fiberContent": "4.5 g",
+            "proteinContent": "15.2 g",
+            "saturatedFatContent": "3.1 g",
+            "servingSize": null,
+            "sodiumContent": "341.6 mg",
+            "sugarContent": "6.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-05-30T07:51:42.74Z",
+                "reviewBody": "Changed 1 tsp garlic powder 1 quarter red and 1 quarter yellow pepper. 1 whole tomato and a box of Cellentani Barilla. 1/2 mozzarella and parmesan to taste.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Jackeline Renderos",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/21306681/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,150 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/248/main-dish/burgers/",
+                    "name": "Burger Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/473/main-dish/burgers/hamburgers/",
+                    "name": "Hamburgers",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/258957/taco-skillet-burgers/",
+        "name": "Taco Skillet Burgers",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4563831.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2020-02-26T05:51:59.000Z",
+        "description": "Classic from when I was a kid. Big plate of smothered, comfort food deliciousness! My kids love this recipe.",
+        "prepTime": "P0DT0H30M",
+        "cookTime": "P0DT0H13M",
+        "totalTime": "P0DT0H43M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "1 pound ground beef",
+            "1 small onion, finely chopped",
+            "1 package taco seasoning mix",
+            "1 (11.5 ounce) can condensed bean with bacon soup",
+            "\u00bd cup water",
+            "\u00bd cup diced fresh tomato",
+            "\u00bd cup shredded Cheddar cheese",
+            "\u00bd cup corn chips (such as Fritos\u00ae, crushed",
+            "\u00bc cup sliced olives"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Mix ground beef, onions, and taco seasoning mix in a bowl. Shape into 4 hamburger patties.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cook patties in a large skillet over medium heat until no longer pink in the center, about 4 minutes per side. An instant-read thermometer inserted into the center should read at least 160 degrees F (70 degrees C). Drain fat and wipe the skillet with a paper towel.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Mix soup and water in a bowl. Pour over patties in the skillet; simmer until soup mixture is heated through, about 5 minutes. Mix in tomato, Cheddar cheese, corn chips, and olives. Scoop out the taco burgers and serve once cheese has melted.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Burger Recipes",
+            "Hamburgers"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Kelly"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Taco Skillet Burgers",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "503.7 calories",
+            "carbohydrateContent": "31.2 g",
+            "cholesterolContent": "86.9 mg",
+            "fatContent": "28.4 g",
+            "fiberContent": "5.2 g",
+            "proteinContent": "28.7 g",
+            "saturatedFatContent": "11 g",
+            "servingSize": null,
+            "sodiumContent": "1537.8 mg",
+            "sugarContent": "3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-10-02T00:31:42.953Z",
+                "reviewBody": "Comfort food for sure! This wasn't the prettiest thing to look at but the flavor was good. I didn't feel the corn chips added anything and will leave them out next time. This is one I definitely recommend making for your kiddos.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,169 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/133/drinks/cocktails/",
+                    "name": "Cocktail Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1743/drinks/cocktails/vodka-drinks/",
+                    "name": "Vodka Drinks Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/280065/motito/",
+        "name": "MoTito",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F9225632.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-06-12T01:33:26.000Z",
+        "description": "The Tito's Handmade Vodka twist on this minty, slightly sweet Cuban classic.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "1 cocktail",
+        "recipeIngredient": [
+            "1\u2009\u00bd ounces Tito's Handmade Vodka",
+            "8 fresh mint leaves, or more to taste",
+            "2 teaspoons sugar",
+            "\u00be ounce fresh lime juice",
+            "\u00bd cup ice, or as needed",
+            "1\u2009\u00bd ounces sparkling water",
+            "1 sprig fresh mint for garnish"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Muddle mint leaves in a shaker.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Add Tito's Handmade Vodka, sugar, fresh lime juice, and ice.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Shake well and pour into a rocks glass.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Top with sparkling water and garnish with a mint sprig and lime slice.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Cocktail Recipes",
+            "Vodka Drinks Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Tito's Handmade Vodka"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 3,
+            "itemReviewed": "MoTito",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "137.3 calories",
+            "carbohydrateContent": "11.1 g",
+            "cholesterolContent": null,
+            "fatContent": "0.1 g",
+            "fiberContent": "0.3 g",
+            "proteinContent": "0.2 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "2.9 mg",
+            "sugarContent": "8.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-06-18T00:17:32.49Z",
+                "reviewBody": "No changes and I must say... Amazing!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Anne Simpson",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/27685943/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2020-09-06T06:06:28.593Z",
+                "reviewBody": "Very refreshing cocktail!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Susan Weinhardt",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/4358755/"
+                }
+            }
+        ]
+    }
+]

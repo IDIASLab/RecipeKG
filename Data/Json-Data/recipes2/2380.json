@@ -1,0 +1,133 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/232959/pineapple-chicken-salad/",
+        "name": "Pineapple Chicken Salad",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2224704.jpg",
+            "width": 1300,
+            "height": 960
+        },
+        "datePublished": "2015-01-08T07:01:01.000Z",
+        "description": "When I serve this chicken salad, people ask for the recipe. It's different and very very good.",
+        "prepTime": "P0DT0H20M",
+        "cookTime": null,
+        "totalTime": "P0DT8H20M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "1 (20 ounce) can pineapple tidbits, drained",
+            "1 (11 ounce) can mandarin oranges, drained",
+            "\u00bd cup mayonnaise",
+            "2 teaspoons prepared mustard",
+            "2 cups shredded cooked chicken",
+            "\u00bd cup thinly sliced celery",
+            "\u00bd cup sliced fresh mushrooms",
+            "\u00bc cup chopped green bell pepper",
+            "\u00bc cup sliced pitted ripe olives",
+            "1 tablespoon finely chopped onion",
+            "6 leaves lettuce",
+            "1 cup croutons"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine drained pineapple and mandarin oranges in a bowl; cover with plastic wrap and refrigerate 8 hours to overnight.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Stir mayonnaise and mustard together in a bowl; add chicken, celery, mushrooms, green bell pepper, olives, and onion. Stir mixture until evenly mixed. Cover bowl with plastic wrap and refrigerate 8 hours to over night.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Stir pineapple and oranges into the chicken mixture to coat. Spoon into lettuce leaves and top with croutons to serve.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Donna"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Pineapple Chicken Salad",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "328.1 calories",
+            "carbohydrateContent": "25.7 g",
+            "cholesterolContent": "42 mg",
+            "fatContent": "19.2 g",
+            "fiberContent": "2.1 g",
+            "proteinContent": "14.8 g",
+            "saturatedFatContent": "3.3 g",
+            "servingSize": null,
+            "sodiumContent": "252.4 mg",
+            "sugarContent": "19.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-08-18T05:49:39.24Z",
+                "reviewBody": "I love the pineapple chicken combination w/salad so I gave this recipe a try and loved it! I used green peppers instead of celery. And I also used chipotle mayo.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "RDW Creations ",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/rdwcreations/"
+                }
+            }
+        ]
+    }
+]

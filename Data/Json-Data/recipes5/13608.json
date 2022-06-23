@@ -1,0 +1,131 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1199/drinks/hot-chocolate/",
+                    "name": "Hot Chocolate Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/277755/homemade-hot-chocolate-stirrers/",
+        "name": "Homemade Hot Chocolate Stirrers",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7685887.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-01-16T22:41:52.000Z",
+        "description": "These stirrers make a killer cup of hot chocolate! Warm milk and swirl spoons inside. YUM!",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT0H35M",
+        "recipeYield": "30 stirrers",
+        "recipeIngredient": [
+            "6 peppermint candy canes, crushed",
+            "1 (10.5 ounce) package miniature marshmallows",
+            "1 (12 ounce) package semisweet chocolate chips",
+            "30 plastic spoons"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Line a baking sheet with parchment paper. Spread crushed candy canes and marshmallows on 2 plates.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Melt chocolate chips in a microwave-safe glass or ceramic bowl in 15-second intervals, stirring after each interval, 1 to 3 minutes. Dip plastic spoons into the melted chocolate, covering the base completely, then cover with candy cane bits or mini marshmallows. Arrange on the parchment paper and freeze until set, about 15 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Hot Chocolate Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "juicycouturecook99"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Homemade Hot Chocolate Stirrers",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "111.2 calories",
+            "carbohydrateContent": "20.7 g",
+            "cholesterolContent": null,
+            "fatContent": "3.4 g",
+            "fiberContent": "0.7 g",
+            "proteinContent": "0.5 g",
+            "saturatedFatContent": "2 g",
+            "servingSize": null,
+            "sodiumContent": "15.8 mg",
+            "sugarContent": "15.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-02-04T01:41:31.22Z",
+                "reviewBody": "Simple recipe and fun to make with your child. These would make great gifts for the colder winter holidays.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Chef Mo",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/chefmo/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,142 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/365/desserts/mousse/",
+                    "name": "Mousse Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1566/desserts/mousse/chocolate-mousse/",
+                    "name": "Chocolate Mousse Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/24687/chocolate-orange-flavored-mousse/",
+        "name": "Chocolate Orange Flavored Mousse",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F55515.jpg",
+            "width": 250,
+            "height": 250
+        },
+        "datePublished": "2019-04-04T03:28:07.000Z",
+        "description": "Garnish with whipped topping and grated chocolate.  This recipe contains raw eggs. We recommend that pregnant women, young children, the elderly and the infirm do not consume raw eggs.",
+        "prepTime": "P0DT0H20M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT8H0M",
+        "recipeYield": "10 servings",
+        "recipeIngredient": [
+            "3 cups semisweet chocolate chips",
+            "\u00be cup water",
+            "1 orange, zested",
+            "10 eggs, separated",
+            ".66 cup chopped almonds"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "In a small saucepan over low heat, melt chocolate with water, stirring until smooth.  Remove from heat, stir in orange zest, and let cool.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Beat egg whites until stiff.  Beat egg yolks into cooled chocolate.  Beat a small amount of whites into chocolate with almonds.  Fold in remaining egg whites.  Chill in individual serving dishes 8 hours or overnight before serving.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Mousse Recipes",
+            "Chocolate Mousse Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "sal"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Chocolate Orange Flavored Mousse",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "349.7 calories",
+            "carbohydrateContent": "33.6 g",
+            "cholesterolContent": "186 mg",
+            "fatContent": "23.3 g",
+            "fiberContent": "3.8 g",
+            "proteinContent": "9.7 g",
+            "saturatedFatContent": "10.7 g",
+            "servingSize": null,
+            "sodiumContent": "75.6 mg",
+            "sugarContent": "28.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2011-07-24T13:49:51.177Z",
+                "reviewBody": "This is very similar to a professional recipe at my old job. I replaced some of the water with Cointreau for a little more orange flavor and an adult twist to the chocolate mousse. FANTASTIC!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "theresa",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/1999038/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,158 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/133/drinks/cocktails/",
+                    "name": "Cocktail Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1743/drinks/cocktails/vodka-drinks/",
+                    "name": "Vodka Drinks Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/70105/channel-marker/",
+        "name": "Channel Marker",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1308045.jpg",
+            "width": 1435,
+            "height": 1836
+        },
+        "datePublished": "2018-05-04T13:01:23.000Z",
+        "description": "This is a fantastic party drink your guests will love.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "2 cocktails",
+        "recipeIngredient": [
+            "2 cups ice cubes",
+            "1\u2009\u00bd cups orange juice",
+            "2 fluid ounces grapefruit juice",
+            "2 fluid ounces pineapple juice",
+            "1 dash grenadine syrup",
+            "1 fluid ounce light rum",
+            "1 fluid ounce dark rum",
+            "1 fluid ounce vodka"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place ice cubes into a blender, and pour in the orange juice, grapefruit juice, pineapple juice, grenadine, light rum, dark rum, and vodka. Cover, and blend until smooth. Pour into tumblers to serve.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Cocktail Recipes",
+            "Vodka Drinks Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Mary Fortman"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Channel Marker",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "209.3 calories",
+            "carbohydrateContent": "26.4 g",
+            "cholesterolContent": "0 mg",
+            "fatContent": "0.4 g",
+            "fiberContent": "0.5 g",
+            "proteinContent": "1.6 g",
+            "saturatedFatContent": "0.1 g",
+            "servingSize": null,
+            "sodiumContent": "9.8 mg",
+            "sugarContent": "19 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2008-12-10T03:44:29.57Z",
+                "reviewBody": "Yum yum YUM! This is so good. I used raspberry vodka because that's what I had on hand. I think I'm ready for another.;)",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Sarah Jo",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/doublewideskilletsinglewidebudget/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2014-08-02T01:57:17.043Z",
+                "reviewBody": "SUMNER TIME SUNSHINE in a glass on A HOT Summer evening PERFECT! I didn't have any dark rum but I'm a light weight soo? Lol Thank you Mary",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Patty Cakes",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/ilovecarlos/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,131 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/81/side-dish/",
+                    "name": "Side Dish",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/220/side-dish/beans-and-peas/",
+                    "name": "Beans and Peas",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/272601/black-beans-with-coconut-water/",
+        "name": "Black Beans with Coconut Water",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6680421.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2019-04-06T01:55:49.000Z",
+        "description": "Amazing black beans with coconut water for serving over jasmine rice. Even my Cuban in-laws love it!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT1H5M",
+        "totalTime": "P0DT1H15M",
+        "recipeYield": "5 cups",
+        "recipeIngredient": [
+            "4 slices bacon, diced",
+            "1 medium onion, peeled and halved",
+            "1 jalapeno pepper, seeded and halved",
+            "1 (29 ounce) can canned black beans (such as Goya\u00ae)",
+            "1 (12 ounce) can unsweetened coconut water",
+            "\u00bd cup white Spanish cooking wine",
+            "\u00bd tablespoon ground cumin",
+            "1 bay leaf"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Cook and stir bacon, onion, and jalapeno over medium heat in a medium-sized soup pot until bacon begins to brown and is mostly cooked through, about 5 minutes. Stir in black beans, coconut water, white cooking wine, cumin, and bay leaf. Cover and cook over medium heat until thickened, about 1 hour.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Side Dish",
+            "Beans and Peas"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Shawn T"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Black Beans with Coconut Water",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "114 calories",
+            "carbohydrateContent": "17.5 g",
+            "cholesterolContent": "4 mg",
+            "fatContent": "1.9 g",
+            "fiberContent": "6.3 g",
+            "proteinContent": "6.7 g",
+            "saturatedFatContent": "0.6 g",
+            "servingSize": null,
+            "sodiumContent": "502.7 mg",
+            "sugarContent": "0.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-05-27T22:30:58.73Z",
+                "reviewBody": "This isn't the prettiest of dishes but the taste is great! The only thing I didn't like is that the beans got way overcooked and mushy. The next time I make this I will test them after 30 minutes and go from there.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,153 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/231/world-cuisine/european/",
+                    "name": "European",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/723/world-cuisine/european/italian/",
+                    "name": "Italian",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/280640/ricotta-cheese/",
+        "name": "Ricotta Cheese",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8229310.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-06-13T05:11:19.000Z",
+        "description": "That's right, you can make your very own ricotta cheese at home to enjoy on its own or use in your favorite Italian recipes! Store the ricotta in a covered airtight container in the fridge for 1 to 2 weeks.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H20M",
+        "totalTime": "P0DT0H50M",
+        "recipeYield": "28 ounces ricotta cheese",
+        "recipeIngredient": [
+            "\u00bc cup water",
+            "1 teaspoon citric acid powder",
+            "1 gallon raw milk",
+            "2 tablespoons heavy whipping cream",
+            "2 teaspoons salt"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine water and citric acid in a small bowl; mix until dissolved.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour milk into a large pot set over medium heat. Heat milk, stirring occasionally, until it registers 185 degrees F (85 degrees C) on an instant-read thermometer. Do not boil and stir often to prevent scorching. Stir in citric acid. Keep stirring until curds form.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Scoop curds into a sieve lined with several layers of cheesecloth using a slotted spoon. Fold the edges of the cheesecloth over the curds and let drain over a bowl at room temperature, 20 to 30 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Remove the cheese from the cheesecloth and cream and salt. Stir well to combine. Serve right away as-is or use in your favorite recipe.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "European",
+            "Italian"
+        ],
+        "recipeCuisine": [
+            "European",
+            "Italian"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "ChefJackie"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Ricotta Cheese",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "152.8 calories",
+            "carbohydrateContent": "11.2 g",
+            "cholesterolContent": "26.9 mg",
+            "fatContent": "8.6 g",
+            "fiberContent": null,
+            "proteinContent": "7.9 g",
+            "saturatedFatContent": "5 g",
+            "servingSize": null,
+            "sodiumContent": "389.1 mg",
+            "sugarContent": "11 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-08-18T04:12:07.093Z",
+                "reviewBody": "Takes a lot of time, but the results are worth the wait. First time I made it my granddaughter helped. Was a great way to bond.  We ate the cheese on hard bread while the lasagna was cooking. So good.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Dave Marshall",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/26964554/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,99 @@
+@prefix ns1: <http://purl.org/recipekg/> .
+@prefix ns2: <http://purl.org/heals/food/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/chicken-alfredo-pasta-salad> a schema:Recipe ;
+    ns2:hasIngredient [ a <http://purl.org/recipekg/ingredient/BlackOlives> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "can" ;
+            ns1:ingredientName "black olives" ],
+        [ ],
+        [ a <http://purl.org/heals/ingredient/Onion> ;
+            ns1:hasQuantity "5" ;
+            ns1:ingredientName "onion" ],
+        [ a <http://purl.org/heals/ingredient/WhiteVinegar> ;
+            ns1:hasQuantity "1/4" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "white vinegar" ],
+        [ a <http://purl.org/heals/ingredient/Bacon> ;
+            ns1:hasQuantity "5" ;
+            ns1:ingredientName "bacon" ],
+        [ a <http://purl.org/recipekg/ingredient/Cucumber> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:ingredientName "cucumber" ],
+        [ a <http://purl.org/heals/ingredient/ChickenBroth> ;
+            ns1:hasQuantity "2" ;
+            ns1:ingredientName "chicken broth" ],
+        [ a <http://purl.org/recipekg/ingredient/Pasta> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "package" ;
+            ns1:ingredientName "pasta" ],
+        [ a <http://purl.org/heals/ingredient/Tomato> ;
+            ns1:hasQuantity "2" ;
+            ns1:ingredientName "tomato" ],
+        [ a <http://purl.org/recipekg/ingredient/ItalianSeasoning> ;
+            ns1:hasQuantity "2" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "Italian seasoning" ],
+        [ a <http://purl.org/recipekg/ingredient/ArtichokeHearts> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "can" ;
+            ns1:ingredientName "artichoke hearts" ] ;
+    ns1:belongsTo <http://purl.org/recipekg/categories/salad/pasta-salad/rotini-pasta-salad/> ;
+    ns1:hasFSAScore 3 ;
+    ns1:hasNutritionalInformation [ a ns1:NutritionalInformation ;
+            ns1:hasCalorificData [ a ns1:CalorificData ;
+                    ns1:hasAmount "454.9"^^xsd:float ;
+                    ns1:hasUnit "calories" ] ;
+            ns1:hasCarbohydrateData [ a ns1:CarbohydrateData ;
+                    ns1:hasAmount "47.9"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasCholesterolData [ a ns1:CholesterolData ;
+                    ns1:hasAmount "45.4"^^xsd:float ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasFatData [ a ns1:FatData ;
+                    ns1:hasAmount "21.8"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSARed ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasFiberData [ a ns1:FiberData ;
+                    ns1:hasAmount "3.4"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasProteinData [ a ns1:ProteinData ;
+                    ns1:hasAmount "19.3"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSaturatedFatData [ a ns1:SaturatedFatData ;
+                    ns1:hasAmount "7.8"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSARed ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSodiumData [ a ns1:SodiumData ;
+                    ns1:hasAmount "861.9"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasSugarData [ a ns1:SugarData ;
+                    ns1:hasAmount "4.6"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAGreen ;
+                    ns1:hasUnit "g" ] ] ;
+    ns1:hasUSDAScore 3 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 5 ;
+            schema:ratingValue "3.8"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2019-04-02T06:56:56.000Z"^^schema:date ;
+    schema:name "Chicken Alfredo Pasta Salad"^^xsd:string ;
+    schema:recipeYield "8 servings"^^xsd:string .
+
+ns1:FSAAmber a ns1:FSAColor .
+
+ns1:FSAGreen a ns1:FSAColor .
+
+<http://purl.org/recipekg/categories/salad/> a ns1:RecipeCategory .
+
+<http://purl.org/recipekg/categories/salad/pasta-salad/> rdfs:subClassOf <http://purl.org/recipekg/categories/salad/> .
+
+<http://purl.org/recipekg/categories/salad/pasta-salad/rotini-pasta-salad/> rdfs:subClassOf <http://purl.org/recipekg/categories/salad/pasta-salad/> .
+
+ns1:FSARed a ns1:FSAColor .
+

@@ -1,0 +1,89 @@
+@prefix ns1: <http://purl.org/recipekg/> .
+@prefix ns2: <http://purl.org/heals/food/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/bbq-pulled-chicken-in-the-slow-cooker> a schema:Recipe ;
+    ns2:hasIngredient [ a <http://purl.org/heals/ingredient/AppleCiderVinegar> ;
+            ns1:hasQuantity "6" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "apple cider vinegar" ],
+        [ a <http://purl.org/heals/ingredient/Garlic> ;
+            ns1:hasQuantity "2" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "garlic" ],
+        [ a <http://purl.org/recipekg/ingredient/CookingSpray> ;
+            ns1:ingredientName "cooking spray" ],
+        [ a <http://purl.org/recipekg/ingredient/SrirachaSauce> ;
+            ns1:hasQuantity "1/4" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "Sriracha sauce" ],
+        [ a <http://purl.org/heals/ingredient/BrownSugar> ;
+            ns1:hasQuantity "6" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "brown sugar" ],
+        [ a <http://purl.org/recipekg/ingredient/Ketchup> ;
+            ns1:hasQuantity "1 1/2" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "ketchup" ],
+        [ a <http://purl.org/heals/ingredient/Tomato> ;
+            ns1:hasQuantity "3" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "tomato" ],
+        [ a <http://purl.org/heals/ingredient/Chicken> ;
+            ns1:hasQuantity "1" ;
+            ns1:ingredientName "chicken" ],
+        [ ] ;
+    ns1:belongsTo <http://purl.org/recipekg/categories/everyday-cooking/slow-cooker/main-dishes/chicken/> ;
+    ns1:hasFSAScore 4 ;
+    ns1:hasNutritionalInformation [ a ns1:NutritionalInformation ;
+            ns1:hasCalorificData [ a ns1:CalorificData ;
+                    ns1:hasAmount "262.3"^^xsd:float ;
+                    ns1:hasUnit "calories" ] ;
+            ns1:hasCarbohydrateData [ a ns1:CarbohydrateData ;
+                    ns1:hasAmount "22.4"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasCholesterolData [ a ns1:CholesterolData ;
+                    ns1:hasAmount "76.6"^^xsd:float ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasFatData [ a ns1:FatData ;
+                    ns1:hasAmount "7.1"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasFiberData [ a ns1:FiberData ;
+                    ns1:hasAmount "1.3"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasProteinData [ a ns1:ProteinData ;
+                    ns1:hasAmount "27.5"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSaturatedFatData [ a ns1:SaturatedFatData ;
+                    ns1:hasAmount "1.9"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSodiumData [ a ns1:SodiumData ;
+                    ns1:hasAmount "1013.8"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasSugarData [ a ns1:SugarData ;
+                    ns1:hasAmount "19.5"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "g" ] ] ;
+    ns1:hasUSDAScore 5 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2011-06-26T20:08:07.000Z"^^schema:date ;
+    schema:name "BBQ Pulled Chicken in the Slow Cooker"^^xsd:string ;
+    schema:recipeYield "10 servings"^^xsd:string .
+
+<http://purl.org/recipekg/categories/everyday-cooking/> a ns1:RecipeCategory .
+
+<http://purl.org/recipekg/categories/everyday-cooking/slow-cooker/> rdfs:subClassOf <http://purl.org/recipekg/categories/everyday-cooking/> .
+
+<http://purl.org/recipekg/categories/everyday-cooking/slow-cooker/main-dishes/> rdfs:subClassOf <http://purl.org/recipekg/categories/everyday-cooking/slow-cooker/> .
+
+<http://purl.org/recipekg/categories/everyday-cooking/slow-cooker/main-dishes/chicken/> rdfs:subClassOf <http://purl.org/recipekg/categories/everyday-cooking/slow-cooker/main-dishes/> .
+
+ns1:FSAAmber a ns1:FSAColor .
+

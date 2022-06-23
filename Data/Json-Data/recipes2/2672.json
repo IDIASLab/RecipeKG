@@ -1,0 +1,127 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/143/breakfast-and-brunch/drinks/",
+                    "name": "Drinks",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/241505/banana-coconut-breakfast-smoothie/",
+        "name": "Banana Coconut Breakfast Smoothie",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2157509.jpg",
+            "width": 3264,
+            "height": 2448
+        },
+        "datePublished": "2015-02-28T02:14:34.000Z",
+        "description": "This power-packed smoothie will kick start your day in the right way! Easy, quick, delicious way to start your morning!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "1 smoothie",
+        "recipeIngredient": [
+            "1\u2009\u00bd cups vanilla-flavored almond milk",
+            "\u00bd banana, cut into chunks",
+            "1 scoop vanilla protein powder",
+            "1 tablespoon coconut oil"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Blend almond milk, banana, protein powder, and coconut oil together in a blender until smooth.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Drinks"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "TheSkinnyFatGuy"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Banana Coconut Breakfast Smoothie",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "492.4 calories",
+            "carbohydrateContent": "43 g",
+            "cholesterolContent": "12.5 mg",
+            "fatContent": "19.5 g",
+            "fiberContent": "3.1 g",
+            "proteinContent": "39.8 g",
+            "saturatedFatContent": "13.8 g",
+            "servingSize": null,
+            "sodiumContent": "454.5 mg",
+            "sugarContent": "32.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2015-03-13T20:36:19.39Z",
+                "reviewBody": "This has a very good taste to it. The only reason why it has 4 instead of 5 stars is because the coconut oil clumped together. If you drink this smoothie right after you make it it probably doesn't have that issue. But I take mine to work with me and then drink it for lunch. I even took it in a shaker cup and the clumsiness was too much to break up.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "mrmpiper",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/11323953/"
+                }
+            }
+        ]
+    }
+]

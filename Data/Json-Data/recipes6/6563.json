@@ -1,0 +1,151 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/93/seafood/",
+                    "name": "Seafood",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/411/seafood/fish/",
+                    "name": "Fish",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/416/seafood/fish/salmon/",
+                    "name": "Salmon",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/281264/glazed-salmon/",
+        "name": "Glazed Salmon",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8501289.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-03-22T23:24:39.000Z",
+        "description": "Quick, easy grilled salmon.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT1H10M",
+        "recipeYield": "6 salmon fillets",
+        "recipeIngredient": [
+            "2 tablespoons dark brown sugar",
+            "2 tablespoons apple cider vinegar",
+            "2 tablespoons olive oil",
+            "1 teaspoon Dijon mustard",
+            "\u00bd teaspoon coarsely ground black pepper",
+            "6 (3 ounce) fillets salmon fillets, thawed"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine brown sugar, apple cider vinegar, olive oil, Dijon mustard, and pepper in a bowl for the marinade.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place salmon fillets into a shallow glass dish and pour 1/2 of the marinade over the fish. Reserve remaining marinade. Cover and refrigerate for 1 hour.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Preheat an outdoor grill for medium heat and lightly oil the grate. Discard marinade from the glass dish.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Grill salmon, brushing with reserved marinade several times, until it flakes easily with a fork, 4 to 6 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Seafood",
+            "Fish",
+            "Salmon"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Kim"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Glazed Salmon",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "177.4 calories",
+            "carbohydrateContent": "4.8 g",
+            "cholesterolContent": "41.8 mg",
+            "fatContent": "10 g",
+            "fiberContent": null,
+            "proteinContent": "16.1 g",
+            "saturatedFatContent": "1.9 g",
+            "servingSize": null,
+            "sodiumContent": "57 mg",
+            "sugarContent": "4.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-09-03T04:21:55.393Z",
+                "reviewBody": "Fantastic recipe! The only thing missing is salt, and it is needed to really bring out the flavors. I'd also recommended cooking flesh side down first, then flipping to skin-side down halfway through. My salmon was quite thick (about 1.5\"), so it took a few extra minutes to cook to a perfect medium doneness.  I would definitely make this again with the noted changes. You might also want to double the glaze.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "France C",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/francecevallos/"
+                }
+            }
+        ]
+    }
+]

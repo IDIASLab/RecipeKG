@@ -1,0 +1,115 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/134/drinks/coffee/",
+                    "name": "Coffee Drinks Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/279928/banana-dalgona-iced-coffee/",
+        "name": "Banana Dalgona Iced Coffee",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Banana Dalgona Iced Coffee"
+        },
+        "datePublished": "2020-04-26T21:55:45.000Z",
+        "description": "A banana-filled take on the trendy dalgona coffee.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "1 drink",
+        "recipeIngredient": [
+            "2\u2009\u00bc tablespoons hot water",
+            "2 tablespoons instant coffee granules",
+            "1 tablespoon white sugar",
+            "2 slices banana, mashed",
+            "\u00bd teaspoon ground cinnamon, or more to taste",
+            "\u00bd cup milk",
+            "3 cubes  ice"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine hot water, coffee, and sugar in a bowl; whip with an electric mixer until creamy. Add banana and cinnamon; mix again.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour milk into a glass; add ice cubes and top with the whipped coffee.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Coffee Drinks Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Anu"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Banana Dalgona Iced Coffee",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "145.7 calories",
+            "carbohydrateContent": "26.7 g",
+            "cholesterolContent": "9.8 mg",
+            "fatContent": "2.5 g",
+            "fiberContent": "1.2 g",
+            "proteinContent": "4.9 g",
+            "saturatedFatContent": "1.6 g",
+            "servingSize": null,
+            "sodiumContent": "55.1 mg",
+            "sugarContent": "21.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

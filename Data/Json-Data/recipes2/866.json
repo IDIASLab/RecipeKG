@@ -1,0 +1,137 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/364/desserts/frozen-desserts/",
+                    "name": "Frozen Dessert Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1556/desserts/frozen-desserts/ice-cream/",
+                    "name": "Ice Cream",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/237142/easy-peasy-mandarin-orange-ice-cream/",
+        "name": "Easy-Peasy Mandarin Orange Ice Cream",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Easy-Peasy Mandarin Orange Ice Cream"
+        },
+        "datePublished": "2014-04-03T16:33:09.000Z",
+        "description": "This is quick, easy, and brings out your sweet tooth! I prefer maple syrup but you can use any kind of syrup according to your sweet tooth. Honey also works.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H45M",
+        "recipeYield": "3 servings",
+        "recipeIngredient": [
+            "1 cup mandarin orange juice",
+            "1 cup milk",
+            "1 cup maple syrup"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Whisk orange juice, milk, and syrup together in a bowl. Pour into an ice-cream maker and freeze according to the manufacturer's directions.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Frozen Dessert Recipes",
+            "Ice Cream"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Little Cook"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 1,
+            "ratingCount": 1,
+            "itemReviewed": "Easy-Peasy Mandarin Orange Ice Cream",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "350.1 calories",
+            "carbohydrateContent": "82.6 g",
+            "cholesterolContent": "6.5 mg",
+            "fatContent": "2 g",
+            "fiberContent": "0.2 g",
+            "proteinContent": "3.1 g",
+            "saturatedFatContent": "1.1 g",
+            "servingSize": null,
+            "sodiumContent": "43.6 mg",
+            "sugarContent": "74.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-06-25T19:13:01.547Z",
+                "reviewBody": "I was thinking this would be an awesome easy recipe to try with Miss 12 and I had all the ingredients on hand. After an hour of churning it didn't thicken at all. We still had a thin liquid. Plan B add the eggs beat heat make the usual ice-cream recipe custard and try and salvage the ingredients. Still wouldn't thicken. A total waste of time and resources.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 1
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Michelle Mak",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/23871707/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,129 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/266330/smoked-corn-on-the-cob/",
+        "name": "Smoked Corn on the Cob",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5535740.jpg",
+            "width": 960,
+            "height": 1281
+        },
+        "datePublished": "2018-09-08T02:53:48.000Z",
+        "description": "Smoking corn gives it a unique flavor and then it's finished with a smoky lime butter right before serving! Try it for your next BBQ!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT1H0M",
+        "totalTime": "P0DT3H10M",
+        "recipeYield": "4 ears",
+        "recipeIngredient": [
+            "4 ears corn on the cob, silks removed",
+            "mesquite wood chips",
+            "2 tablespoons butter, melted",
+            "1 tablespoon chopped fresh cilantro",
+            "\u00bd lime, juiced",
+            "1 lime, zested",
+            "1 teaspoon smoked paprika",
+            "salt and ground black pepper to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place corn back in their husks in a large pot of water and soak for 2 hours. Soak wood chips in another container of water for about 30 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Preheat a smoker to 250 degrees F (120 degrees C). Place corn, unstacked, onto wire racks. Place the racks into the smoker. Add wood chips according to manufacturer's directions. Smoke until corn reaches your desired level of tenderness, 60 to 75 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine butter, cilantro, lime juice, lime zest, and paprika in a small bowl. Peel back the husks and brush corn with the butter mixture. Season with salt and pepper.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Elizabeth"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Smoked Corn on the Cob",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "133.2 calories",
+            "carbohydrateContent": "18.5 g",
+            "cholesterolContent": "15.3 mg",
+            "fatContent": "6.9 g",
+            "fiberContent": "3 g",
+            "proteinContent": "3.1 g",
+            "saturatedFatContent": "3.8 g",
+            "servingSize": null,
+            "sodiumContent": "93.9 mg",
+            "sugarContent": "3.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-05-13T04:44:59.033Z",
+                "reviewBody": "I did not pay close enough attention to recipe, and I put the butter mixture on prior to cooking. It was excellent! In fact, I'm making it again tonight!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Kelly Hodgins",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/20000426/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,37 @@
+@prefix ns1: <http://purl.org/recipekg/> .
+@prefix ns2: <http://purl.org/heals/food/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/pinnacle-peppermint-hot-chocolate> a schema:Recipe ;
+    ns2:hasIngredient [ a <http://purl.org/recipekg/ingredient/Vodka> ;
+            ns1:hasQuantity "1" ;
+            ns1:ingredientName "Vodka" ],
+        [ a <http://purl.org/recipekg/ingredient/PeppermintSchnapps> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:ingredientName "Peppermint Schnapps" ],
+        [ a <http://purl.org/recipekg/ingredient/WhippedCream> ;
+            ns1:ingredientName "Whipped Cream" ],
+        [ a <http://purl.org/recipekg/ingredient/CandyCanes> ;
+            ns1:ingredientName "Candy Canes" ],
+        [ a <http://purl.org/recipekg/ingredient/SimpleSyrup> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "tablespoon" ;
+            ns1:ingredientName "Simple Syrup" ],
+        [ a <http://purl.org/recipekg/ingredient/Cherry> ;
+            ns1:ingredientName "Cherry" ],
+        [ a <http://purl.org/recipekg/ingredient/Chocolate> ;
+            ns1:ingredientName "Chocolate" ] ;
+    ns1:belongsTo <http://purl.org/recipekg/categories/drinks/hot-chocolate/> ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2020-10-01T05:22:47.000Z"^^schema:date ;
+    schema:name "Pinnacle® Peppermint Hot Chocolate"^^xsd:string ;
+    schema:recipeYield "1 hot chocolate"^^xsd:string .
+
+<http://purl.org/recipekg/categories/drinks/> a ns1:RecipeCategory .
+
+<http://purl.org/recipekg/categories/drinks/hot-chocolate/> rdfs:subClassOf <http://purl.org/recipekg/categories/drinks/> .
+

@@ -1,0 +1,125 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/133/drinks/cocktails/",
+                    "name": "Cocktail Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/20416/buzzy-j/",
+        "name": "Buzzy J",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F71905.jpg",
+            "width": 250,
+            "height": 250
+        },
+        "datePublished": "2000-07-28T00:42:25.000Z",
+        "description": "A sweet and refreshing cocktail made with orange juice and melon liqueur. Fruit garnish is optional.",
+        "prepTime": "P0DT0H1M",
+        "cookTime": null,
+        "totalTime": "P0DT0H1M",
+        "recipeYield": "1 serving",
+        "recipeIngredient": [
+            "6 fluid ounces orange juice",
+            "2 fluid ounces melon liqueur"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Fill a tall glass with ice. Pour in the orange juice followed by the melon liqueur. Stir.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Cocktail Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Tracey C"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Buzzy J",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "295.8 calories",
+            "carbohydrateContent": "45.9 g",
+            "cholesterolContent": "0 mg",
+            "fatContent": "0.6 g",
+            "fiberContent": "0.4 g",
+            "proteinContent": "1.3 g",
+            "saturatedFatContent": "0 g",
+            "servingSize": null,
+            "sodiumContent": "5.8 mg",
+            "sugarContent": "39.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2008-04-16T13:04:45.343Z",
+                "reviewBody": "Very tasty drink and so easy to make! I really liked it as is but I think it would be great with a little fizz maybe some gingerale. Thanks.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Pam Ziegler Lutz",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/pam-3boysmama/"
+                }
+            }
+        ]
+    }
+]

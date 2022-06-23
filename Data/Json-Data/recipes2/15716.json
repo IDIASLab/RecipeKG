@@ -1,0 +1,133 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/25852/peppermint-patty-ii/",
+        "name": "Peppermint Patty II",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1934221.jpg",
+            "width": 960,
+            "height": 1280
+        },
+        "datePublished": "2018-03-21T16:20:40.000Z",
+        "description": "A delicious after dinner cordial type of drink.  The taste is similar to that of the chocolate peppermint, after-dinner mint.",
+        "prepTime": "P0DT0H1M",
+        "cookTime": null,
+        "totalTime": "P0DT0H1M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "2 cubes  ice",
+            "2 fluid ounces peppermint schnapps",
+            "3 fluid ounces coffee flavored liqueur"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Into two small brandy snifter or cordial glasses, place one ice cube, one fluid ounce of schnapps, and 1 1/2 fluid ounces of the coffee liqueur, stir gently.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Julienne A Falk"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 3,
+            "itemReviewed": "Peppermint Patty II",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "266.8 calories",
+            "carbohydrateContent": "30.1 g",
+            "cholesterolContent": "0 mg",
+            "fatContent": "0.2 g",
+            "fiberContent": "0 g",
+            "proteinContent": "0.1 g",
+            "saturatedFatContent": "0.1 g",
+            "servingSize": null,
+            "sodiumContent": "6.8 mg",
+            "sugarContent": "28.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2007-12-26T18:47:26.167Z",
+                "reviewBody": "This was not as good as I had hoped. This would be better if you used peppermint schnapps and chocolate liqueur. Extremely sweet!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 2
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "DI3MOOSE",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/1288313/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2015-01-11T13:22:47.007Z",
+                "reviewBody": "Tasty little sipping cocktail! Tastes and smells so nice! Will make this again thanks Julienne! photo by Lucky Noodles #MyAllrecipes #AllrecipesFaceless",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Lucky Noodles",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/luckynoodles/"
+                }
+            }
+        ]
+    }
+]

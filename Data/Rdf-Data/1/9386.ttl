@@ -1,0 +1,36 @@
+@prefix ns1: <http://purl.org/heals/food/> .
+@prefix ns2: <http://purl.org/recipekg/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/skinny-mojito-with-truvia-natural-sweetener> a schema:Recipe ;
+    ns1:hasIngredient [ a <http://purl.org/recipekg/ingredient/Rum> ;
+            ns2:hasQuantity "1 1/2" ;
+            ns2:hasUnit "ounce" ;
+            ns2:ingredientName "rum" ],
+        [ a <http://purl.org/recipekg/ingredient/SimpleSyrup> ;
+            ns2:hasQuantity "1/2" ;
+            ns2:hasUnit "ounce" ;
+            ns2:ingredientName "Simple Syrup" ],
+        [ a <http://purl.org/recipekg/ingredient/MintLeaves> ;
+            ns2:ingredientName "Mint leaves" ],
+        [ a <http://purl.org/recipekg/ingredient/SodaWater> ;
+            ns2:ingredientName "Soda water" ],
+        [ a <http://purl.org/recipekg/ingredient/MintLeaves> ;
+            ns2:hasQuantity "6" ;
+            ns2:ingredientName "mint leaves" ] ;
+    ns2:belongsTo <http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/truvia/> ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 3 ;
+            schema:ratingValue "4.333333333333333"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2012-10-04T22:32:01.000Z"^^schema:date ;
+    schema:name "Skinny Mojito with Truvia&reg; Natural Sweetener"^^xsd:string ;
+    schema:recipeYield "1 serving"^^xsd:string .
+
+<http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/> a ns2:RecipeCategory .
+
+<http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/truvia/> rdfs:subClassOf <http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/> .
+

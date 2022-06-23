@@ -1,0 +1,155 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/362/desserts/cookies/",
+                    "name": "Cookies",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/236857/clone-of-a-girl-scout-tagalong/",
+        "name": "Clone of a Girl Scout Tagalong&reg;",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1116451.jpg",
+            "width": 1280,
+            "height": 960
+        },
+        "datePublished": "2014-05-16T06:00:17.000Z",
+        "description": "A wonderful salty and sweet cookie to remind you of the days of selling Girl Scout cookies. Just 3 simple ingredients!",
+        "prepTime": "P0DT0H30M",
+        "cookTime": null,
+        "totalTime": "P0DT1H0M",
+        "recipeYield": "40 servings",
+        "recipeIngredient": [
+            "1 (12 ounce) bag semisweet chocolate chips",
+            "1 (16 ounce) jar peanut butter",
+            "1 (16 ounce) package buttery round crackers"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Melt the chocolate in the top of a double boiler over simmering water, stirring frequently and scraping down the sides with a rubber spatula to avoid scorching.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Spread peanut butter onto a cracker and top with another cracker creating a sandwich. Repeat until all the crackers are used.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Line a baking sheet with waxed paper.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Gently place a cracker sandwich into the melted chocolate; spoon chocolate over the cracker until covered. Carefully lift coated cracker sandwich out of chocolate using a fork to strain off the excess chocolate and place on the prepared baking sheet. Repeat with remaining cracker sandwiches and chocolate; refrigerate until chocolate is hardened.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Cookies"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Sarah"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Clone of a Girl Scout Tagalong&reg;",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "164.9 calories",
+            "carbohydrateContent": "14.1 g",
+            "cholesterolContent": null,
+            "fatContent": "11.4 g",
+            "fiberContent": "1.4 g",
+            "proteinContent": "3.9 g",
+            "saturatedFatContent": "3.3 g",
+            "servingSize": null,
+            "sodiumContent": "155.6 mg",
+            "sugarContent": "6.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2014-03-09T18:49:17.13Z",
+                "reviewBody": "I really don't think these taste like Tagalongs--I think these are much better! Just a tip--switch directions 1 and 2; make the peanut butter crackers first and then melt your chocoate. That way you're all ready to go. I've been making these for many years and you can also find them on this site as the recipe \"Hockey Pucks.\"",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Tammy Lynn",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3084624/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2014-05-23T20:52:04.13Z",
+                "reviewBody": "I made a mistake by not making the full recipe only made half:) These are very easy to make. The hardest part was waiting.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Lucky Noodles",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/luckynoodles/"
+                }
+            }
+        ]
+    }
+]

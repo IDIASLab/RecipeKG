@@ -1,0 +1,141 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/104/appetizers-and-snacks/cheese/",
+                    "name": "Cheese",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/239513/pizza-fries/",
+        "name": "Pizza Fries",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1549982.jpg",
+            "width": 2448,
+            "height": 2448
+        },
+        "datePublished": "2015-06-17T06:02:13.000Z",
+        "description": "Pizza fries for dipping, snacking, and sharing. The cheese melts out a little, that is perfect. Cool, then dip into marinara and enjoy.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H30M",
+        "totalTime": "P0DT0H40M",
+        "recipeYield": "12 servings",
+        "recipeIngredient": [
+            "1 (15 ounce) package double crust ready-to-use pie crusts (such as Pillsbury\u00ae)",
+            "\u00bd cup marinara sauce",
+            "\u00bd cup shredded mozzarella cheese",
+            "1 (8 ounce) package sliced pepperoni",
+            "1 teaspoon olive oil",
+            "1 pinch dried oregano, or to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat oven to 350 degrees F (175 degrees C).\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Roll pie crusts onto a work surface. Spread marinara onto 1 crust and top with mozzarella cheese and pepperoni.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Brush the second pie crust with olive oil and sprinkle oregano over the oil. Lay crust, oil-side up, on top of the pepperoni layer. Cut pizza into 1x3-inch strips. Place strips on a baking sheet.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated oven until crust is lightly browned and cheese is melted, about 30 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks",
+            "Cheese"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Gevans"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.25,
+            "ratingCount": 4,
+            "itemReviewed": "Pizza Fries",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "281.1 calories",
+            "carbohydrateContent": "16.4 g",
+            "cholesterolContent": "22.8 mg",
+            "fatContent": "20.4 g",
+            "fiberContent": "1.5 g",
+            "proteinContent": "7.6 g",
+            "saturatedFatContent": "6.1 g",
+            "servingSize": null,
+            "sodiumContent": "549.1 mg",
+            "sugarContent": "1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-07-15T06:51:52.51Z",
+                "reviewBody": "Not bad but it's a very unexpected mix of flavors and textures. It's just as expected--piecrust, with pizza toppings--but it was still unexpected. I enjoyed it, added some finely chopped sausage and pepperoni and used both mozzarella and Parmesan. I also put both oregano and basil on top; that does add a pretty touch. My picky eater didn't like them, but: picky eater. I might try it again next time I have an extra piecrust, but do it open-face.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Janice Ellen Wright",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/17356551/"
+                }
+            }
+        ]
+    }
+]

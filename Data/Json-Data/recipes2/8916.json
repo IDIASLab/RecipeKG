@@ -1,0 +1,206 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/250/main-dish/pizza/",
+                    "name": "Pizza Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1037/main-dish/pizza/beef/",
+                    "name": "Beef",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/256697/prime-rib-pizza/",
+        "name": "Prime Rib Pizza",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4459108.jpg",
+            "width": 3024,
+            "height": 3024
+        },
+        "datePublished": "2017-01-06T06:25:00.000Z",
+        "description": "This delicious pizza is an old favorite created by my brother-in-law. Tastes like the whole dinner in a beautiful slice!",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H30M",
+        "totalTime": "P0DT0H45M",
+        "recipeYield": "8 servings",
+        "recipeIngredient": [
+            "1 tablespoon olive oil",
+            "1 onion, sliced",
+            "1 prepared pizza crust",
+            "1 cup sour cream",
+            "1 tablespoon prepared horseradish",
+            "2 baked potatoes, sliced",
+            "2 cups shredded Swiss cheese, divided",
+            "1 (3 ounce) fillet cooked prime rib, cut into bite-size pieces, or to taste",
+            "1 cup sliced fresh mushrooms, or to taste",
+            "1 green bell pepper, cut into strips"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat oil in a skillet over medium heat; cook and stir onion until tender and lightly browned, 10 to 15 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Preheat oven to 400 degrees F (200 degrees C). Place pizza crust on a baking sheet or pizza stone.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Mix sour cream and horseradish together in a bowl; spread onto pizza crust. Layer potato slices over sour cream; top with 1 cup Swiss cheese. Layer onion, prime rib, mushrooms, and green bell pepper on top; cover with remaining 1 cup Swiss cheese.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated oven until cheese is melted and crust is lightly browned, about 20 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Pizza Recipes",
+            "Beef"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Lisa K"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 2.6,
+            "ratingCount": 5,
+            "itemReviewed": "Prime Rib Pizza",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "505.2 calories",
+            "carbohydrateContent": "34.5 g",
+            "cholesterolContent": "78 mg",
+            "fatContent": "30.1 g",
+            "fiberContent": "2.3 g",
+            "proteinContent": "24.5 g",
+            "saturatedFatContent": "16.6 g",
+            "servingSize": null,
+            "sodiumContent": "388.7 mg",
+            "sugarContent": "5.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-06-11T11:29:40.907Z",
+                "reviewBody": "I thought the potato gave it off taste. I would omit them. The prime rib should be soaked in aus jux.  I carmelized onion and only used half of sour cream. I would add garlic herb seasoning to sourcream.  I added part moz cheese and chopped parsley. The potato really hurt flavor and texture.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 2
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Annie",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/29857024/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2017-01-16T09:00:39.017Z",
+                "reviewBody": "Sounded like a great way to have a fun twist on a Prime Rib dinner. We did use a prepared crust and make sure you use a high quality one. The only substitute I made was Red Peppers for Green ones. I did use the whole cup of sour cream and prepared horseradish I would recommend you only use enough to thinly coat the pizza.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Howard",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/howard/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2018-10-08T00:01:17.193Z",
+                "reviewBody": "We love pizza in my house but this is one recipes I'll skip next time. The flavor combination is not to our liking. It's not the taste we thought it would be.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Dan Campbell",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/17995998/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2018-10-08T00:01:17.197Z",
+                "reviewBody": "We love pizza in my house but this is one recipes I'll skip next time. The flavor combination is not to our liking. It's not the taste we thought it would be.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Dan Campbell",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/17995998/"
+                }
+            }
+        ]
+    }
+]

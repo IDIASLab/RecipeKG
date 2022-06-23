@@ -1,0 +1,143 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/143/breakfast-and-brunch/drinks/",
+                    "name": "Drinks",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/231607/honeydew-juice/",
+        "name": "Honeydew Juice",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F996243.jpg",
+            "width": 958,
+            "height": 960
+        },
+        "datePublished": "2020-06-19T03:53:32.000Z",
+        "description": "A refreshing summer drink. Easier than a piece of cake!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "1 honeydew melon - halved, seeded, and peeled",
+            "1 tablespoon honey",
+            "\u00bc teaspoon white sugar"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Blend honeydew, honey, and sugar in a blender on low speed until smooth, about 1 1/2 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Drinks"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Junoir Chef"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.5,
+            "ratingCount": 2,
+            "itemReviewed": "Honeydew Juice",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "132.2 calories",
+            "carbohydrateContent": "33.7 g",
+            "cholesterolContent": null,
+            "fatContent": "0.4 g",
+            "fiberContent": "2.6 g",
+            "proteinContent": "1.7 g",
+            "saturatedFatContent": "0.1 g",
+            "servingSize": null,
+            "sodiumContent": "57.8 mg",
+            "sugarContent": "30.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2013-03-21T12:14:24.113Z",
+                "reviewBody": "Having lots of honeydew on hand we decided to give this a try. It was ok but I m sorry to report that it will not be repeated in our house. It left us wanting more of a taste with the juice.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Molly",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/6145350/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2018-11-09T02:08:29.563Z",
+                "reviewBody": "I did not make it because I riding have a melon but I would add some like juice",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Perugirl20",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/24507715/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,143 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17100/desserts/frostings-and-icings/",
+                    "name": "Frostings and Icings",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/2421/desserts/frostings-and-icings/buttercream/",
+                    "name": "Buttercream",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/270208/oreo-frosting/",
+        "name": "Oreo&reg; Frosting",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6322059.jpg",
+            "width": 1080,
+            "height": 1333
+        },
+        "datePublished": "2019-01-25T08:40:19.000Z",
+        "description": "This frosting goes very well on my cookies 'n cream cupcakes. I sold these at a local soccer game and they were a big hit!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "2 cups",
+        "recipeIngredient": [
+            "5 chocolate sandwich cookies (such as Oreo\u00ae)",
+            "\u00bd cup butter, softened",
+            "\u00bd (8 ounce) package cream cheese, softened",
+            "3 cups powdered sugar",
+            "3 tablespoons milk",
+            "1 teaspoon vanilla extract"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Twist open sandwich cookies and scrape out cream filling; discard. Crush cookies.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Beat butter and cream cheese together in a bowl using an electric mixer. Beat in powdered sugar, milk, and vanilla extract. Fold in crushed cookies.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Frostings and Icings",
+            "Buttercream"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "letthemeatcake"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Oreo&reg; Frosting",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "91.8 calories",
+            "carbohydrateContent": "13 g",
+            "cholesterolContent": "11.6 mg",
+            "fatContent": "4.4 g",
+            "fiberContent": null,
+            "proteinContent": "0.4 g",
+            "saturatedFatContent": "2.7 g",
+            "servingSize": null,
+            "sodiumContent": "39.1 mg",
+            "sugarContent": "12.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-01-31T01:01:34.46Z",
+                "reviewBody": "Simple to make and super yummy. I put this on the brownie cupcakes from allrecipes site. You won't be disappointed!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Chef Mo",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/chefmo/"
+                }
+            }
+        ]
+    }
+]

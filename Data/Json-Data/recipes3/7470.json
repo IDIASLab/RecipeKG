@@ -1,0 +1,110 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1642/everyday-cooking/",
+                    "name": "Everyday Cooking",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/182040/meat-with-prunes/",
+        "name": "Meat with Prunes",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Meat with Prunes"
+        },
+        "datePublished": "2018-06-08T13:53:13.000Z",
+        "description": "This is a Ukrainian dish. It can be served both hot and cold.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT1H18M",
+        "totalTime": "P0DT1H33M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "1 cup dry red wine",
+            "\u00bd pound chopped pitted prunes",
+            "1 teaspoon ground black pepper",
+            "\u00bd teaspoon ground cinnamon",
+            "1 pound beef tenderloin",
+            "1 teaspoon salt",
+            "toothpicks",
+            "2 tablespoons olive oil"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place red wine, prunes, black pepper, and cinnamon in a saucepan. Bring to a boil, stirring often. Reduce heat to low, cover, and simmer until prunes are tender, about 5 minutes. Remove from heat; drain prunes, reserving wine, and allow to cool.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cut a deep pocket almost all the way through the tenderloin. Rub salt over the tenderloin. Fill the pocket with the cooked prunes; secure opening with toothpicks.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat olive oil in a large skillet over medium-high heat. Cook fillet in the hot oil until browned, about 2 minutes per side. Pour in reserved wine. Cover until simmer until tenderloin is tender, about 1 hour. Discard toothpicks. Cut tenderloin diagonally into thin slices.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Everyday Cooking"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Ilove2cook"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Meat with Prunes",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "474.5 calories",
+            "carbohydrateContent": "37.2 g",
+            "cholesterolContent": "60.1 mg",
+            "fatContent": "24.5 g",
+            "fiberContent": "4.3 g",
+            "proteinContent": "18.5 g",
+            "saturatedFatContent": "7.8 g",
+            "servingSize": null,
+            "sodiumContent": "626.7 mg",
+            "sugarContent": "24.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

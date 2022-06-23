@@ -1,0 +1,130 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/213/salad/green-salads/",
+                    "name": "Green Salad Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/260238/markos-smokin-barbeque-sauce-pork-salad/",
+        "name": "Marko's Smokin' Barbeque Sauce Pork Salad",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4573536.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2017-09-14T02:45:05.000Z",
+        "description": "Give your salad a kick with something different; using barbeque sauce as dressing makes this meal extra flavorful.  We used leftover smoked pork made the day before.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "1 salad",
+        "recipeIngredient": [
+            "\u00bd cup chopped lettuce",
+            "\u00bc cup canned black beans, drained",
+            "\u00bc cup Mexican style corn, drained",
+            "\u00bc cup shredded smoked pork",
+            "6 cherry tomatoes, halved, or more to taste",
+            "1 tablespoon shredded Cheddar cheese, or to taste",
+            "\u00bc cup barbeque sauce (such as Marko's Original Smokin' BBQ sauce)"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine lettuce, black beans, corn, pork, and tomatoes in a bowl. Add cheese; mix thoroughly. Drizzle barbeque sauce on top.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad",
+            "Green Salad Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Marko's Smokin' BBQ"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Marko's Smokin' Barbeque Sauce Pork Salad",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "310.2 calories",
+            "carbohydrateContent": "46 g",
+            "cholesterolContent": "43.4 mg",
+            "fatContent": "5.7 g",
+            "fiberContent": "6.7 g",
+            "proteinContent": "20.3 g",
+            "saturatedFatContent": "2.6 g",
+            "servingSize": null,
+            "sodiumContent": "1142.6 mg",
+            "sugarContent": "18.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-10-28T06:58:15.44Z",
+                "reviewBody": "Perfect as written really. Just make sure you use a BBQ sauce you are familiar with and like. One thing you could do that would work nicely in here is to thin down your BBQ sauce with some ranch prior to adding it to the salad. That would be tasty too.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

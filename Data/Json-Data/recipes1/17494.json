@@ -1,0 +1,133 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/218468/grapefruit-soda/",
+        "name": "Grapefruit Soda",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5357926.jpg",
+            "width": 2322,
+            "height": 4128
+        },
+        "datePublished": "2011-12-15T20:54:49.000Z",
+        "description": "This soda syrup is reminiscent of Izze&reg; Sparkling Grapefruit drink.  Just add plain soda water for a refreshing treat.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "9 servings",
+        "recipeIngredient": [
+            "1 (12 fluid ounce) can frozen concentrated grapefruit juice, thawed",
+            "1 (12 fluid ounce) can frozen white grape juice concentrate, thawed",
+            "9 cups chilled club soda"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Mix the grapefruit juice and white grape juice concentrates in a 1-quart pitcher until thoroughly combined. Store mixture in refrigerator. To serve, pour 1/3 cup of concentrate mix into a glass, and mix with 1 cup of cold club soda or sparkling water.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "GRIFFAC"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 3,
+            "itemReviewed": "Grapefruit Soda",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "137 calories",
+            "carbohydrateContent": "33.3 g",
+            "cholesterolContent": null,
+            "fatContent": "0.3 g",
+            "fiberContent": "0.3 g",
+            "proteinContent": "1 g",
+            "saturatedFatContent": "0.1 g",
+            "servingSize": null,
+            "sodiumContent": "11.9 mg",
+            "sugarContent": "33.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2011-07-15T20:59:23.057Z",
+                "reviewBody": "We absolutely loved this. I've got a bit of a summer cold so I drank a good portion of this myself. It was simple the ingredients were cheap and easy to obtain and it was delicious! This may just be our new summer drink--and the husband and I talked about making this an adult cocktail with a little vodka!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Sarah Jo",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/doublewideskilletsinglewidebudget/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2018-04-30T09:44:50.917Z",
+                "reviewBody": "Very refreshing and so easy to make! Would be nice with a little vodka for an adult drink too! Will make throughout summer!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Liz Dalton 'Lizzie'",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/lizzie/"
+                }
+            }
+        ]
+    }
+]

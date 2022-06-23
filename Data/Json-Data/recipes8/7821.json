@@ -1,0 +1,150 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/81/side-dish/",
+                    "name": "Side Dish",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/225/side-dish/vegetables/",
+                    "name": "Vegetables",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/927/side-dish/vegetables/sweet-potatoes/",
+                    "name": "Sweet Potatoes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/281899/microwaved-baked-sweet-potatoes/",
+        "name": "Microwaved Baked Sweet Potatoes",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F9423407.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2011-04-29T18:02:04.000Z",
+        "description": "Fast sweet potatoes in the microwave.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H20M",
+        "recipeYield": "2 potatoes",
+        "recipeIngredient": [
+            "2 medium sweet potatoes",
+            "2 tablespoons unsalted butter",
+            "1 tablespoon honey",
+            "1 tablespoon ground cinnamon",
+            "1 teaspoon salt"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Wash sweet potatoes and prick several times all over with a fork.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place in a microwave on top of a paper towel and cover with another paper towel. Cook on high for 5 minutes (may need more depending on strength of microwave and thickness of potato).\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Turn the potatoes over and cook for another 5 minutes. Remove potatoes and test for softness. If not soft, cook for 1 to 2 minutes more. Wrap potatoes in aluminum foil and allow to cool, 1 to 2 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Slice them open and add butter, honey, cinnamon, and salt. Mash the soft flesh with a fork.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Side Dish",
+            "Vegetables",
+            "Sweet Potatoes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Chris Denzer"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 2,
+            "ratingCount": 1,
+            "itemReviewed": "Microwaved Baked Sweet Potatoes",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "337.5 calories",
+            "carbohydrateContent": "57.1 g",
+            "cholesterolContent": "30.5 mg",
+            "fatContent": "11.7 g",
+            "fiberContent": "8.7 g",
+            "proteinContent": "3.9 g",
+            "saturatedFatContent": "7.3 g",
+            "servingSize": null,
+            "sodiumContent": "1289.9 mg",
+            "sugarContent": "18.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-11-24T04:56:12.703Z",
+                "reviewBody": "I always make a recipe exactly as written the first time, unless there is some glaring error. I thought 10 minutes was a bit long, but went with it because I don't usually cook much in the microwave, so wasn't too sure of an appropriate cook time. Well, 10 minutes was indeed too long. The potatoes came out really dry and the tapered ends were completely inedible and rock hard from being overcooked. After looking up other recipes, it seems that 5 minutes is an appropriate cook time. Also, 1 tablespoon of cinnamon is way too much. I didn't even use 1 teaspoon, and that was plenty. I also cut back on the salt, and I'm a salt lover. I would make these again because of the ease, but would adjust the cook time, cinnamon and salt.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 2
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "France C",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/francecevallos/"
+                }
+            }
+        ]
+    }
+]

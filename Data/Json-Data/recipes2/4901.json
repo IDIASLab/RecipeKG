@@ -1,0 +1,153 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/116/appetizers-and-snacks/spicy/",
+                    "name": "Spicy",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/245756/petes-buffalo-baked-potatoes/",
+        "name": "Pete's Buffalo Baked Potatoes",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3252672.jpg",
+            "width": 4000,
+            "height": 3000
+        },
+        "datePublished": "2016-01-06T20:31:59.000Z",
+        "description": "Easy and delicious, this dish is always a hit whether served as part of a sit-down dinner or on game day.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H2M",
+        "totalTime": "P0DT0H7M",
+        "recipeYield": "2 baked potatoes",
+        "recipeIngredient": [
+            "2 baked potatoes",
+            "1 (10.75 ounce) can  condensed cream of mushroom soup",
+            "1 cup shredded Cheddar cheese",
+            "2 tablespoons Buffalo-style hot pepper sauce (such as Frank's\u00ae)",
+            "\u00bc cup blue cheese salad dressing"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Chop potatoes; place across bottom of a large, microwave-safe bowl. Spread mushroom soup, Cheddar cheese, and hot pepper sauce over potatoes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cook potato mixture in the microwave until cheese bubbles, about 2 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Mix blue cheese dressing into potato mixture.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks",
+            "Spicy"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Chef Claire"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Pete's Buffalo Baked Potatoes",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "375.7 calories",
+            "carbohydrateContent": "28.2 g",
+            "cholesterolContent": "38.8 mg",
+            "fatContent": "24.1 g",
+            "fiberContent": "2.2 g",
+            "proteinContent": "13.1 g",
+            "saturatedFatContent": "9.9 g",
+            "servingSize": null,
+            "sodiumContent": "1068.4 mg",
+            "sugarContent": "3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2016-02-12T19:15:57.663Z",
+                "reviewBody": "Only one word for this! Good Golly!!!:)",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Phoebe",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/phoebe1/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2018-12-03T04:42:24.79Z",
+                "reviewBody": "Delicious!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "spebee",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/24670957/"
+                }
+            }
+        ]
+    }
+]

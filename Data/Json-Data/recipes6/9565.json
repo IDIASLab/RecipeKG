@@ -1,0 +1,280 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1642/everyday-cooking/",
+                    "name": "Everyday Cooking",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/87/everyday-cooking/vegetarian/",
+                    "name": "Vegetarian",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/264/everyday-cooking/vegetarian/side-dishes/",
+                    "name": "Side Dishes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/19904/ultimate-pasta/",
+        "name": "Ultimate Pasta",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4585847.jpg",
+            "width": 960,
+            "height": 960
+        },
+        "datePublished": "2000-05-06T16:43:48.000Z",
+        "description": "This pasta is quick and easy to make!  You can use any different kind of noodles you would like.  Serve in bowls with some garlic bread.",
+        "prepTime": "P0DT0H3M",
+        "cookTime": "P0DT0H12M",
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "5 servings",
+        "recipeIngredient": [
+            "1 (16 ounce) package egg noodles",
+            "1 (10.75 ounce) can  condensed cream of mushroom soup",
+            "1 cup cubed processed cheese",
+            "2 tablespoons butter",
+            "\u00bc cup milk",
+            "1 teaspoon garlic powder",
+            "salt and pepper to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Bring a large pot of lightly salted water to a boil. Add pasta and cook for 8 to 10 minutes or until al dente; drain.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "In large saucepan over medium heat, combine mushroom soup, processed cheese, butter, milk, garlic powder, salt and pepper.  Stir until cheese is melted.  Stir in noodles and heat through.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Everyday Cooking",
+            "Vegetarian",
+            "Side Dishes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Hillary"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.314814814814815,
+            "ratingCount": 54,
+            "itemReviewed": "Ultimate Pasta",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "526.1 calories",
+            "carbohydrateContent": "64.2 g",
+            "cholesterolContent": "106.4 mg",
+            "fatContent": "22 g",
+            "fiberContent": "2.7 g",
+            "proteinContent": "18.2 g",
+            "saturatedFatContent": "10.1 g",
+            "servingSize": null,
+            "sodiumContent": "888.8 mg",
+            "sugarContent": "5.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2007-12-11T23:51:07.173Z",
+                "reviewBody": "My family doesn't care for mushrooms, so I substituted a can of cream of chicken soup.  Tasted great!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Josh Redfield",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/1693419/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2010-01-11T19:49:03.227Z",
+                "reviewBody": "This dish was very simple and tasty enough. I used shredded colby jack because that's what I had on hand so I had to double the milk to keep the sauce from turning into paste. Definitely had to add plenty of salt and pepper to taste and I added some veggies to give it a healthy kick. Would make again anytime.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "mbreece",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2924330/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2002-08-29T23:58:44.56Z",
+                "reviewBody": "I mixed in cubed, boneless chicken, and it made the perfect dinner meal.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "SECSIP",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/173860/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2006-10-25T18:34:34.437Z",
+                "reviewBody": "I used about 3/4 of a 16 oz. bag of noodles to make this dish. I'm glad I didn't use the whole bag because there wouldn't have been enough sauce for my liking. I added a little extra milk and some boneless chicken to this I didn't even USE the garlic powder (I didn't have any!). It came out really good! Will make again.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "ESCG33K",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/1411217/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2010-10-25T23:37:25.967Z",
+                "reviewBody": "It was quick and easy!! My family loved it!!! I make it all the time now especially when I'm in a hurry. Also if you add some olive oil to the noodles when they are cooking it makes a difference when you drain them they don't stick together as much. Otherwise it was terrific!!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "CassiCrocker1031",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/5622174/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2010-10-06T16:27:13.187Z",
+                "reviewBody": "try making it with cream of chicken and angel hair pasta and it tastes better",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "amanda augustine",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/4657065/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2002-09-18T23:12:39.56Z",
+                "reviewBody": "This recipe had an unpleasant aftertaste and the sauce wasn't sufficient to cover 16 ounces of cooked noodles adequately.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 1
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "SUZYQ45",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/407637/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2006-01-20T01:22:21.187Z",
+                "reviewBody": "Yum!  This was great! I was reluctant to try it based on the ingredients it called for.  I decided on it because it was quick to prepare. My husband, who does not care for egg noodles, loved it. I added sauteed chicken breast and used whipping cream instead of milk.  ...making it even more sinful.  Add brocolli, asparagus or peas. Tasty dish.  Great for kids too.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "valleygirl",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/1408038/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2010-07-15T00:39:42.78Z",
+                "reviewBody": "This reminds me of a version of chicken spaghetti my grandmother made when iI was a child. I made a few changes to the original recipe...I substituted whole wheat angel hair pasta for the egg noodles and cream of chicken soup for the cream of mushroom. I also added some steamed broccoli that I sauteed in garlic along with some cooked chicken. My husband loved it!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "lovetocook",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/958327/"
+                }
+            }
+        ]
+    }
+]

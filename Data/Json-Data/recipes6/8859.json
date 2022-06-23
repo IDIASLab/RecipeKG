@@ -1,0 +1,91 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/284314/easy-5-ingredient-tofu-soup/",
+        "name": "Easy 5-Ingredient Tofu Soup",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8070177.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-05-03T05:14:34.000Z",
+        "description": "A delicious soup for vegan or non-vegans to enjoy.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H20M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "4 cups water",
+            "2 cubes  vegetable bouillon",
+            "3 stalks scallions, sliced",
+            "3 cups chopped kale",
+            "1 cup medium-firm tofu, cubed"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine water and bouillon in a pot; bring to a boil. Boil until bouillon cubes have disintegrated fully. Reduce heat, add scallions, and simmer for 30 seconds.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Add kale and tofu; cook until kale has softened to desired texture, 3 to 5 minutes.\n"
+            }
+        ],
+        "recipeCategory": [],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Lisa Marie"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Easy 5-Ingredient Tofu Soup",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "152.1 calories",
+            "carbohydrateContent": "14.1 g",
+            "cholesterolContent": null,
+            "fatContent": "6.7 g",
+            "fiberContent": "3 g",
+            "proteinContent": "13.8 g",
+            "saturatedFatContent": "1 g",
+            "servingSize": null,
+            "sodiumContent": "79.5 mg",
+            "sugarContent": "1.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

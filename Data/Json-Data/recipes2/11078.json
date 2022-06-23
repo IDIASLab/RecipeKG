@@ -1,0 +1,150 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/242/drinks/sangria/",
+                    "name": "Sangria Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/232683/sangria-y-tequila-ponche-punch/",
+        "name": "Sangria y Tequila Ponche (Punch)",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1223201.jpg",
+            "width": 1704,
+            "height": 1705
+        },
+        "datePublished": "2017-07-13T13:01:24.000Z",
+        "description": "Frozen berries, wine, and tequila make your punch much more festive.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H35M",
+        "recipeYield": "20 servings",
+        "recipeIngredient": [
+            "1 (10 ounce) package frozen mixed berries, thawed",
+            "6 (1.5 fluid ounce) jiggers tequila",
+            "1 (1.5 liter) bottle chilled white Zinfandel wine",
+            "2 cups pineapple juice",
+            "1 (12 fluid ounce) can frozen lemonade concentrate, thawed",
+            "1 liter ginger ale"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine berries and tequila in a punch bowl; soak 30 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Stir wine, pineapple juice, and lemonade concentrate into the berry and tequila mixture. Pour ginger ale into the bowl; stir gently.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Sangria Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "David&Andrea"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 2,
+            "itemReviewed": "Sangria y Tequila Ponche (Punch)",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "156.3 calories",
+            "carbohydrateContent": "20.1 g",
+            "cholesterolContent": null,
+            "fatContent": "0.1 g",
+            "fiberContent": "0.5 g",
+            "proteinContent": "0.3 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "11.2 mg",
+            "sugarContent": "17.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2014-07-04T19:31:11.2Z",
+                "reviewBody": "Yummm this was soo good sweet and refreshing. I had fresh berry so I used them but yummy nonetheless",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "What you cooking Willis?",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/11489253/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2013-06-04T03:02:22.263Z",
+                "reviewBody": "Ok nothing special",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 1
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "gmainwa",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/5951606/"
+                }
+            }
+        ]
+    }
+]

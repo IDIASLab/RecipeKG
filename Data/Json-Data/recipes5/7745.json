@@ -1,0 +1,105 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/272593/chopped-apple-and-manchego-salad/",
+        "name": "Chopped Apple and Manchego Salad",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Chopped Apple and Manchego Salad"
+        },
+        "datePublished": "2019-07-10T07:13:27.000Z",
+        "description": "This unexpected, vibrant, fresh salad can be enjoyed alone. It can also be served in a variety of vessels as an appetizer--such as atop crostini, in mini phyllo cups, or in endive cups.",
+        "prepTime": "P0DT0H20M",
+        "cookTime": null,
+        "totalTime": "P0DT0H20M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "\u00bc cup olive oil",
+            "2 tablespoons lemon juice",
+            "1 pinch salt and ground black pepper, or to taste",
+            "4 Granny Smith apples, diced into 1/8-inch cubes",
+            "\u00be cup Manchego cheese, diced into 1/8-inch cubes",
+            "\u00bc cup minced fresh chives",
+            "2 tablespoons sliced almonds"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Whisk olive oil, lemon juice, salt, and pepper together in a small bowl.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Mix apples, Manchego cheese, chives, and almonds together in a large bowl. Pour in lemon juice dressing and toss to combine.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Alysa1014"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Chopped Apple and Manchego Salad",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "539.9 calories",
+            "carbohydrateContent": "38.1 g",
+            "cholesterolContent": "30.3 mg",
+            "fatContent": "40.1 g",
+            "fiberContent": "6 g",
+            "proteinContent": "10.3 g",
+            "saturatedFatContent": "10 g",
+            "servingSize": null,
+            "sodiumContent": "666.2 mg",
+            "sugarContent": "30.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

@@ -1,0 +1,127 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/263931/vegan-lentil-salad-with-apples-and-carrot/",
+        "name": "Vegan Lentil Salad with Apples and Carrot",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Vegan Lentil Salad with Apples and Carrot"
+        },
+        "datePublished": "2018-06-08T14:48:34.000Z",
+        "description": "This is a simple and healthy lentil salad that I love, especially in summer since it tastes great warm or cold. If you like it spicy, you can add a little bit of fresh jalapeno to the salad.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H20M",
+        "totalTime": "P0DT0H30M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "1 cup brown lentils, picked over",
+            "2 apples, cored and chopped",
+            "1 carrot, cubed",
+            "\u00bd bunch chives, chopped",
+            "1 tablespoon chopped fresh parsley, or more to taste",
+            "5 tablespoons olive oil",
+            "2 tablespoons cider vinegar",
+            "1 teaspoon Dijon mustard, or to taste",
+            "salt and ground black pepper to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place lentils in a saucepan. Add enough water to cover by 1 inch. Bring to boil. Reduce heat and simmer, uncovered, until lentils are tender but not mushy, 15 to 20 minutes. Drain.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine lentils, apples, carrot, chives, and parsley in a bowl. Stir together olive oil, vinegar, mustard, salt, and pepper in a cup and pour over lentil mixture. Mix and serve.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Marianne"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Vegan Lentil Salad with Apples and Carrot",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "375.2 calories",
+            "carbohydrateContent": "42 g",
+            "cholesterolContent": null,
+            "fatContent": "17.7 g",
+            "fiberContent": "17.7 g",
+            "proteinContent": "13.7 g",
+            "saturatedFatContent": "2.5 g",
+            "servingSize": null,
+            "sodiumContent": "85.9 mg",
+            "sugarContent": "9.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-08-13T04:47:03.627Z",
+                "reviewBody": "really like it and leftovers make a great lunch!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "barbara",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3031597/"
+                }
+            }
+        ]
+    }
+]

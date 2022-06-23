@@ -1,0 +1,141 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/82/trusted-brands-recipes-and-tips/",
+                    "name": "Trusted Brands: Recipes and Tips",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/22508/trusted-brands-recipes-and-tips/almond-breeze/",
+                    "name": "Almond Breeze",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/261015/spicy-chocolate-latte/",
+        "name": "Spicy Chocolate Latte",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4573391.jpg",
+            "width": 1130,
+            "height": 960
+        },
+        "datePublished": "2017-12-08T03:34:03.000Z",
+        "description": "Heat up in more ways than one with this delicious, creamy, dairy-free delight. For extra creaminess use any Almond Breeze Almond-Cashew Blend instead of Almond Breeze Unsweetened Original.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "1 serving",
+        "recipeIngredient": [
+            "1 shot brewed espresso",
+            "2 teaspoons unsweetened cocoa powder",
+            "1 pinch ground cayenne pepper, or more to taste",
+            "1 cup Almond Breeze Unsweetened Original OR any Almond Breeze Almond-Cashew Blend",
+            "1 pinch Cocoa powder, for garnish",
+            "1 pinch Cayenne pepper, for garnish"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Whisk together the espresso, cocoa powder and a pinch of cayenne pepper.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Steam the milk (you can also just heat it up if you don't have a frother or espresso machine).\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Whisk together the flavored espresso and steamed milk, spooning a bit of the foam on top.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Sprinkle with additional cocoa powder and cayenne pepper. Serve immediately.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Trusted Brands: Recipes and Tips",
+            "Almond Breeze"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Almond Breeze"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 3,
+            "itemReviewed": "Spicy Chocolate Latte",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "72.8 calories",
+            "carbohydrateContent": "10.8 g",
+            "cholesterolContent": null,
+            "fatContent": "3.3 g",
+            "fiberContent": "2.7 g",
+            "proteinContent": "2 g",
+            "saturatedFatContent": "0.4 g",
+            "servingSize": null,
+            "sodiumContent": "135.1 mg",
+            "sugarContent": "0.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-02-18T13:44:03.297Z",
+                "reviewBody": "I like this! It meets the need for a coffeehouse latte without the added calories or cash! Plus you can add the cayenne to taste. I'm a heat wimp so I went very lightly on it. I also added some stevia because I like my coffee sweetened.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Paula",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/paula1/"
+                }
+            }
+        ]
+    }
+]

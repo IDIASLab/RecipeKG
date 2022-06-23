@@ -1,0 +1,145 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/234808/rustic-grain-cereal/",
+        "name": "Rustic Grain Cereal",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1998812.jpg",
+            "width": 3479,
+            "height": 2299
+        },
+        "datePublished": "2020-06-19T03:56:34.000Z",
+        "description": "A hot morning breakfast loaded with whole grains and fruit, with the added crunch of toasted nuts. I like to make mine on Sundays and warm some in the microwave on weekday mornings for a quick hot nutritious breakfast.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H25M",
+        "totalTime": "P0DT0H45M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "\u00bd cup water",
+            "\u2153 cup wheat berries",
+            "1 teaspoon butter",
+            "1 cup steel-cut oats",
+            "\u2153 cup chopped pecans",
+            "\u2153 cup slivered almonds",
+            "3 cups boiling water",
+            "1 cup chopped dried apples",
+            "\u2153 cup white sugar, or to taste",
+            "1\u2009\u00bd tablespoons ground cinnamon",
+            "1 teaspoon salt"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine 1/2 cup water and wheat berries in a small saucepan; bring to a boil. Cover saucepan, remove from heat, and set aside for wheat berries to soak, about 10 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Melt butter in a 2-quart saucepan over low heat; cook and stir oats, pecans, and almonds in melted butter until golden and fragrant, about 5 minutes. Carefully pour boiling water into nut mixture; add wheat berries and dried apples. Cover saucepan and cook over low heat, without stirring, until wheat berries are tender, about 20 minutes; stir in sugar, cinnamon, and salt.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "BABYLADY4"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 3,
+            "itemReviewed": "Rustic Grain Cereal",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "316.9 calories",
+            "carbohydrateContent": "50.5 g",
+            "cholesterolContent": "1.8 mg",
+            "fatContent": "10.8 g",
+            "fiberContent": "10.3 g",
+            "proteinContent": "7.6 g",
+            "saturatedFatContent": "1.1 g",
+            "servingSize": null,
+            "sodiumContent": "410 mg",
+            "sugarContent": "19.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2015-01-27T22:46:39.27Z",
+                "reviewBody": "I used cracked wheat berries, 1 C. shredded apple in place of the dried and used 3 T. maple syrup + 1 T. honey in place of sugar. The texture is excellent, crunchy and chewy as expected. The techniques used to cook the grains are spot-on, it came out perfect. I grated a little bit of nutmeg into mine. I will be making this again!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Abbey",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/icook/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2018-01-05T00:10:53.133Z",
+                "reviewBody": "This was fantastic. I replaced the cup of oats with a cup of cooked hulled barley. Replaced the nuts with mixed roasted nuts. Also cut the sugar in half. Cut up a banana instead of the dried apples. Definitely making this again.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Elisha Beachy",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/17983216/"
+                }
+            }
+        ]
+    }
+]

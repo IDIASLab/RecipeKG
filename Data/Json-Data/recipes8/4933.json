@@ -1,0 +1,125 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/92/meat-and-poultry/",
+                    "name": "Meat and Poultry",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/201/meat-and-poultry/chicken/",
+                    "name": "Chicken",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/234343/portobello-chicken/",
+        "name": "Portobello Chicken",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Portobello Chicken"
+        },
+        "datePublished": "2015-01-08T07:01:03.000Z",
+        "description": "A quick and easy but delicious dinner entree perfect for surprise guests. I serve with wild rice and use the leftover sauce in the rice. Do not use too much seasoning on the chicken, otherwise the dish turns out too salty.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H40M",
+        "totalTime": "P0DT0H45M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "1 tablespoon olive oil",
+            "3 portobello mushrooms, cut into strips",
+            "1 (750 milliliter) bottle Merlot wine",
+            "4 cooked chicken breast halves",
+            "4 slices provolone cheese"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat olive oil in a skillet over medium heat. Cook and stir mushrooms in hot oil until warmed, 2 to 3 minutes. Pour wine over the mushrooms, bring to a simmer, and cook until the wine becomes thick and the mushrooms tender, about 35 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Meanwhile, preheat oven to 350 degrees F (175 degrees C).\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place chicken breasts on a baking sheet and cover with cheese.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated oven until cheese is melted, 5 to 10 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour mushroom and merlot sauce over the chicken and serve.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Meat and Poultry",
+            "Chicken"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Sarah Smoot-Evans"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Portobello Chicken",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "427.3 calories",
+            "carbohydrateContent": "9.7 g",
+            "cholesterolContent": "67.3 mg",
+            "fatContent": "15.8 g",
+            "fiberContent": "1.3 g",
+            "proteinContent": "26.9 g",
+            "saturatedFatContent": "6.7 g",
+            "servingSize": null,
+            "sodiumContent": "300.4 mg",
+            "sugarContent": "2.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

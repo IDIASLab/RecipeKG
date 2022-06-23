@@ -1,0 +1,123 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/246802/paleo-zucchini-oatless-oatmeal/",
+        "name": "Paleo Zucchini Oatless Oatmeal",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3386278.jpg",
+            "width": 1448,
+            "height": 1448
+        },
+        "datePublished": "2016-04-01T23:22:27.000Z",
+        "description": "Zucchini oatless oatmeal is a paleo twist on a classic bowl of morning oatmeal. Made with eggs, almond milk, zucchini, applesauce, flaxseed, and cinnamon, this simple bowl of goodness is packed with protein and fiber. A nutritious way to stay full all morning! Top with raw almonds, seeds, fresh fruit, or nut butter.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "1 bowl",
+        "recipeIngredient": [
+            "\u00be cup unsweetened vanilla-flavored almond milk",
+            "1\u2009\u00bd tablespoons ground flaxseed",
+            "3 large egg whites",
+            "\u00bd cup unsweetened applesauce",
+            "\u00bd cup grated zucchini",
+            "\u00bd teaspoon ground cinnamon"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat a saucepan over medium-low heat; add almond milk, ground flaxseed, and egg whites. Cook mixture, stirring constantly, until thickened, about 5 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Reduce heat to low and stir in applesauce, zucchini, and cinnamon. Cook and stir mixture until desired consistency is reached, 5 to 10 minutes more.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Megan Olson"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Paleo Zucchini Oatless Oatmeal",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "217.3 calories",
+            "carbohydrateContent": "26.9 g",
+            "cholesterolContent": null,
+            "fatContent": "6.6 g",
+            "fiberContent": "6.4 g",
+            "proteinContent": "14.6 g",
+            "saturatedFatContent": "0.4 g",
+            "servingSize": null,
+            "sodiumContent": "298.1 mg",
+            "sugarContent": "19.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-08-12T20:25:58.66Z",
+                "reviewBody": "This is interesting. At first I wasn't sure if I liked it--it's just different more like a watered down cream of wheat in texture than oatmeal. Once I started eating it I liked it. It has a nice flavor. I put pecans and toasted coconut on it and I really needed that crunch to enjoy this. I didn't have any fresh fruit but I think blueberries would be good.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Tammy Lynn",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3084624/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,126 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/16421/drinks/shots/",
+                    "name": "Shot Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/24219/flaming-doctor-pepper-ii/",
+        "name": "Flaming Doctor Pepper II",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3311189.jpg",
+            "width": 3629,
+            "height": 2722
+        },
+        "datePublished": "2018-03-21T16:17:32.000Z",
+        "description": "This fiery drink is meant to be slammed down with a few big gulps! It tastes like the carbonated beverage with the same name.",
+        "prepTime": "P0DT0H2M",
+        "cookTime": null,
+        "totalTime": "P0DT0H2M",
+        "recipeYield": "1 serving",
+        "recipeIngredient": [
+            "2 fluid ounces amaretto liqueur",
+            "\u00bd fluid ounce 151 proof rum",
+            "1 (1.5 fluid ounce) jigger beer"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Pour amaretto into a highball glass. Gently pour the rum over the back of a spoon, so that it forms a layer on top of the amaretto. Carefully light rum with a match. Pour in the beer, wait for flames to die down, and drink entire contents in one gulp.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Shot Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Melanie S."
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 2.5,
+            "ratingCount": 2,
+            "itemReviewed": "Flaming Doctor Pepper II",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "283.7 calories",
+            "carbohydrateContent": "29.5 g",
+            "cholesterolContent": "0 mg",
+            "fatContent": "0.2 g",
+            "fiberContent": "0 g",
+            "proteinContent": "0.2 g",
+            "saturatedFatContent": "0 g",
+            "servingSize": null,
+            "sodiumContent": "6 mg",
+            "sugarContent": "25.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2016-02-29T23:23:36.63Z",
+                "reviewBody": "We didn't care for this...neither of us thought this tasted like Dr. Pepper so maybe it's just our tastes. Thanks for sharing.:)",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 2
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Christina",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/christina/"
+                }
+            }
+        ]
+    }
+]

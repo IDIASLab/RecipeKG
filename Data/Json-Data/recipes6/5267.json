@@ -1,0 +1,163 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/81/side-dish/",
+                    "name": "Side Dish",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/917/side-dish/potatoes/",
+                    "name": "Potato",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1457/side-dish/potatoes/mashed-potatoes/",
+                    "name": "Mashed Potato Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/267540/simple-vegan-garlicky-potatoes/",
+        "name": "Simple Vegan Garlicky Potatoes",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5712673.jpg",
+            "width": 1567,
+            "height": 1871
+        },
+        "datePublished": "2020-03-10T02:53:31.000Z",
+        "description": "Great for Thanksgiving or any time! It has garlic, it's smooth, and it's vegan. Serve with mushroom gravy!",
+        "prepTime": "P0DT0H20M",
+        "cookTime": "P0DT0H20M",
+        "totalTime": "P0DT0H40M",
+        "recipeYield": "8 servings",
+        "recipeIngredient": [
+            "4 pounds potatoes, peeled and cut into chunks",
+            "4 cups water",
+            "2 cups vegetable broth",
+            "4 cloves garlic, thinly sliced, or more to taste",
+            "1 cup rice milk, or as needed"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine potatoes, water, broth, and garlic in a pot. Bring to a boil; reduce heat to medium-low and cook until soft, about 15 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Drain potatoes and reserve cooking water. Return potatoes to the pot and stir over medium heat until any excess moisture is cooked off, about 1 minute.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Remove pot from heat. Add some reserved cooking water and rice milk, alternating between them, while stirring vigorously. Stop before potatoes become too soggy or liquid begins to accumulate in the pot.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Side Dish",
+            "Potato",
+            "Mashed Potato Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "moomin"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.666666666666667,
+            "ratingCount": 3,
+            "itemReviewed": "Simple Vegan Garlicky Potatoes",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "202.5 calories",
+            "carbohydrateContent": "44.9 g",
+            "cholesterolContent": null,
+            "fatContent": "0.6 g",
+            "fiberContent": "5.5 g",
+            "proteinContent": "5.3 g",
+            "saturatedFatContent": "0.1 g",
+            "servingSize": null,
+            "sodiumContent": "139.6 mg",
+            "sugarContent": "2.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-10-20T09:40:15.463Z",
+                "reviewBody": "I made it for my vegetarian and vegan friends and they liked it.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "cookie",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/5155796/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2018-09-04T05:11:38.943Z",
+                "reviewBody": "For someone who is used to adding butter, milk, heavy creamer, or sour cream to my mashed potatoes I was surprised at the flavor these potatoes bring. I used about 1/2 cup of reserved water and soy milk to get the consistency I wanted. I did use red potatoes.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Chef Mo",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/chefmo/"
+                }
+            }
+        ]
+    }
+]

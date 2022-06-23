@@ -1,0 +1,170 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/362/desserts/cookies/",
+                    "name": "Cookies",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/844/desserts/cookies/cut-out-cookies/",
+                    "name": "Cut-Out Cookie Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/11455/mothers-moon-cookies/",
+        "name": "Mother's Moon Cookies",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Mother's Moon Cookies"
+        },
+        "datePublished": "1999-06-01T00:08:07.000Z",
+        "description": "My mother used to make these cookies all the time and my family absolutely loves them.",
+        "prepTime": null,
+        "cookTime": null,
+        "totalTime": null,
+        "recipeYield": "1 dozen plus",
+        "recipeIngredient": [
+            "1\u2009\u00bd cups all-purpose flour",
+            "\u00be cup confectioners' sugar",
+            "\u00bd teaspoon salt",
+            "\u00bc cup sweetened condensed milk",
+            "\u00bd teaspoon vanilla extract",
+            "\u00bd cup butter, softened",
+            "1 cup chopped walnuts"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Sift together flour, 1/2 cup powdered sugar and salt.  Stir in condensed milk, vanilla and soft butter.  Blend well and fold in chopped nuts. Chill well.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Preheat oven to 375 degrees F (190 degrees C). Line cookie sheets with foil.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Roll the dough pencil thin and form in crescent shape. Arrange cookies on the cookie sheet.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake on top rack of the oven for 12 minutes until set, do not brown. Let the cookies cool on pan. While still warm roll the cookies in leftover powdered sugar.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Cookies",
+            "Cut-Out Cookie Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Jennie Minor"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.3333333333333335,
+            "ratingCount": 3,
+            "itemReviewed": "Mother's Moon Cookies",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "238.6 calories",
+            "carbohydrateContent": "24.2 g",
+            "cholesterolContent": "22.5 mg",
+            "fatContent": "14.7 g",
+            "fiberContent": "1.1 g",
+            "proteinContent": "3.7 g",
+            "saturatedFatContent": "5.8 g",
+            "servingSize": null,
+            "sodiumContent": "160.1 mg",
+            "sugarContent": "11.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2008-05-01T23:31:12.33Z",
+                "reviewBody": "These didn't have any flavor and were really dry.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 1
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Bianca",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2626087/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2011-09-15T20:41:40.227Z",
+                "reviewBody": "These were quite good. I used a tablespoon of vanilla (because I love vanilla flavor and I always up the extract in recipes) and rolled the cookies in cinnamon sugar before baking instead of rolling them in powdered sugar after they had baked. I would make them again. They were great with my morning coffee.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Brandi Rose",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/7595122/"
+                }
+            }
+        ]
+    }
+]

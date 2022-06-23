@@ -1,0 +1,155 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/151/breakfast-and-brunch/pancakes/",
+                    "name": "Pancake Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/237205/cocoa-nut-pancakes/",
+        "name": "Cocoa-Nut Pancakes",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2485107.jpg",
+            "width": 2326,
+            "height": 1377
+        },
+        "datePublished": "2020-06-19T03:58:50.000Z",
+        "description": "The cocoa powder gives it a zing! Serve hot, with butter and syrup.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H20M",
+        "recipeYield": "5 servings",
+        "recipeIngredient": [
+            "1\u2009\u00bd cups all-purpose flour",
+            "1 cup white sugar",
+            "\u00bd cup cocoa powder",
+            "\u2153 cup flax seeds",
+            "1 teaspoon salt",
+            "\u00bd teaspoon baking powder",
+            "1\u2009\u00bd cups coconut milk",
+            "1 egg",
+            "2 tablespoons vegetable oil",
+            "1\u2009\u00bd teaspoons vanilla extract",
+            "1 teaspoon vegetable oil"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Whisk flour, sugar, cocoa powder, flax seeds, salt, and baking powder together in a bowl. Stir coconut milk, egg, 2 tablespoons vegetable oil, and vanilla extract into flour mixture until batter is smooth.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat a skillet over medium heat; add 1 teaspoon vegetable oil. Drop batter by large spoonfuls onto the griddle, creating 4-inch circles, and cook until bubbles form and the edges are dry, 3 to 4 minutes. Flip and cook until browned on the other side, 2 to 3 minutes. Repeat with remaining batter.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Pancake Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Chef Jake"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Cocoa-Nut Pancakes",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "574.2 calories",
+            "carbohydrateContent": "78.5 g",
+            "cholesterolContent": "37.2 mg",
+            "fatContent": "27.7 g",
+            "fiberContent": "7.4 g",
+            "proteinContent": "10.1 g",
+            "saturatedFatContent": "15.3 g",
+            "servingSize": null,
+            "sodiumContent": "542.4 mg",
+            "sugarContent": "40.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2015-08-10T16:25:08.107Z",
+                "reviewBody": "Wow these should be called \"Fudgy Brownie Pancakes.\" I served with real maple syrup and real whipped cream--what an indulgent treat for breakfast. When cooking I was concerned that they were thick and not fluffy. But the taste was so good. They are very rich; I couldn't eat as many as I do with regular pancakes. My toddler loved them too. The only change I made to the recipe was to use ground flax instead of seeds. Actually I just looked up Chef Jacob's personal recipe for these and he said \"flax meal \" which would be ground flax. So I guess I didn't really change the recipe.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Tammy Lynn",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3084624/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2017-12-25T11:59:43.227Z",
+                "reviewBody": "I made these for all my kids and cousins when they were visiting for Christmas and they were a huge hit. They are not too sweet. Just the right amount of chocolate.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Brooke Gilbert",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/10611280/"
+                }
+            }
+        ]
+    }
+]

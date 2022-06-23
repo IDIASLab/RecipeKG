@@ -1,0 +1,150 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/81/side-dish/",
+                    "name": "Side Dish",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/220/side-dish/beans-and-peas/",
+                    "name": "Beans and Peas",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/255560/rice-cooker-black-beans/",
+        "name": "Rice Cooker Black Beans",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4325926.jpg",
+            "width": 2205,
+            "height": 2205
+        },
+        "datePublished": "2019-04-04T04:07:10.000Z",
+        "description": "This is an easy way to cook dried black beans in a rice cooker. After cooking, you can use them in burritos, veggie burgers, soups, or anything you like! I have also cooked kidney beans and a mixture of kidney and black beans this way.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT2H0M",
+        "totalTime": "P0DT6H10M",
+        "recipeYield": "2 cups cooked black beans",
+        "recipeIngredient": [
+            "1 cup dried black beans",
+            "3 cups water, or more as needed"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place black beans and cover with 3 cups water. Let sit for 5 minutes. Discard anything that floats to the surface. Drain.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cover black beans with 3 more cups water. Let soak, 4 hours to overnight. Drain.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine drained beans and 3 cups water in a rice cooker. Cook on the \"Porridge\" setting, adding more water if needed, until tender, about 2 hours. Drain.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Side Dish",
+            "Beans and Peas"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "chantal"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Rice Cooker Black Beans",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "165.4 calories",
+            "carbohydrateContent": "30.2 g",
+            "cholesterolContent": null,
+            "fatContent": "0.7 g",
+            "fiberContent": "7.4 g",
+            "proteinContent": "10.5 g",
+            "saturatedFatContent": "0.2 g",
+            "servingSize": null,
+            "sodiumContent": "7.8 mg",
+            "sugarContent": "1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2016-12-20T02:48:02.67Z",
+                "reviewBody": "Very easy and a great way to use a rice cooker. I would prefer to cook the beans with some seasonings. One tip I use if you want the beans to hold their shape soak them in salted water drain / rinse and then cook them. The beans will still get soft but not fall apart or turn mushy.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Baking Nana",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/bakingnana/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2018-10-25T01:48:14.667Z",
+                "reviewBody": "This is a great recipe. I love using rice cooker. Beans came out perfect!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Steph in VV",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/24063574/"
+                }
+            }
+        ]
+    }
+]

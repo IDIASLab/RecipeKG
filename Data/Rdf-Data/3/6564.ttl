@@ -1,0 +1,77 @@
+@prefix ns1: <http://purl.org/recipekg/> .
+@prefix ns2: <http://purl.org/heals/food/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/creamy-oatmeal-with-rainbow-toppings> a schema:Recipe ;
+    ns2:hasIngredient [ a <http://purl.org/recipekg/ingredient/OriginalAlmondmilk> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "Original almondmilk" ],
+        [ a <http://purl.org/heals/ingredient/Oat> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "oat" ],
+        [ a <http://purl.org/heals/ingredient/Oat> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "oat" ],
+        [ a <http://purl.org/recipekg/ingredient/GoldenRaisins> ;
+            ns1:ingredientName "Golden raisins" ],
+        [ a <http://purl.org/heals/ingredient/Banana> ;
+            ns1:ingredientName "banana" ],
+        [ a <http://purl.org/recipekg/ingredient/Mangoes> ;
+            ns1:ingredientName "Mangoes" ],
+        [ a <http://purl.org/recipekg/ingredient/Blackberries> ;
+            ns1:ingredientName "Blackberries" ],
+        [ a <http://purl.org/recipekg/ingredient/OriginalAlmondmilk> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "Original almondmilk" ],
+        [ a <http://purl.org/heals/ingredient/Oat> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "oat" ],
+        [ a <http://purl.org/heals/ingredient/GreenPepper> ;
+            ns1:ingredientName "green pepper" ],
+        [ a <http://purl.org/recipekg/ingredient/OriginalAlmondmilk> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "Original almondmilk" ],
+        [ a <http://purl.org/heals/ingredient/Almond> ;
+            ns1:ingredientName "almond" ],
+        [ a <http://purl.org/recipekg/ingredient/Raspberries> ;
+            ns1:ingredientName "Raspberries" ],
+        [ a <http://purl.org/recipekg/ingredient/Raisins> ;
+            ns1:ingredientName "Raisins" ],
+        [ a <http://purl.org/recipekg/ingredient/Kiwi> ;
+            ns1:ingredientName "kiwi" ],
+        [ a <http://purl.org/recipekg/ingredient/Oatmeal> ;
+            ns1:hasQuantity "1" ;
+            ns1:hasUnit "packet" ;
+            ns1:ingredientName "oatmeal" ],
+        [ a <http://purl.org/recipekg/ingredient/OriginalAlmondmilk> ;
+            ns1:hasQuantity "3" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "Original almondmilk" ],
+        [ a <http://purl.org/heals/ingredient/Blueberry> ;
+            ns1:ingredientName "blueberry" ],
+        [ a <http://purl.org/recipekg/ingredient/Strawberry> ;
+            ns1:ingredientName "strawberry" ],
+        [ a <http://purl.org/heals/ingredient/DriedCranberry> ;
+            ns1:ingredientName "dried cranberry" ] ;
+    ns1:belongsTo <http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/almond-breeze/> ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 1 ;
+            schema:ratingValue "5"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2018-08-22T05:43:44.000Z"^^schema:date ;
+    schema:name "Creamy Oatmeal with Rainbow Toppings"^^xsd:string ;
+    schema:recipeYield "2 servings"^^xsd:string .
+
+<http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/> a ns1:RecipeCategory .
+
+<http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/almond-breeze/> rdfs:subClassOf <http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/> .
+

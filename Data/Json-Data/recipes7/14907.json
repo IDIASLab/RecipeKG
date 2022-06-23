@@ -1,0 +1,145 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/137/drinks/shakes-and-floats/",
+                    "name": "Shakes and Floats Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/255539/crazy-cinnamon-milkshake/",
+        "name": "Crazy Cinnamon Milkshake",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4002641.jpg",
+            "width": 5040,
+            "height": 5040
+        },
+        "datePublished": "2020-06-19T04:18:22.000Z",
+        "description": "This cool delicious shake will keep you refreshed and feeling great anytime in the year! Feel free to post a picture of your shake! I would love to see how it turned out!",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "1 milkshake",
+        "recipeIngredient": [
+            "1 cup milk",
+            "3 tablespoons white sugar",
+            "1 teaspoon vanilla extract",
+            "\u00bc teaspoon ground cinnamon",
+            "8 ice cubes"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine milk, sugar, vanilla extract, cinnamon, and ice in a blender; blend on high until smooth. Pour milkshake into a glass.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Shakes and Floats Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Abby T."
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.333333333333333,
+            "ratingCount": 3,
+            "itemReviewed": "Crazy Cinnamon Milkshake",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "281 calories",
+            "carbohydrateContent": "49.9 g",
+            "cholesterolContent": "19.5 mg",
+            "fatContent": "4.8 g",
+            "fiberContent": "0.3 g",
+            "proteinContent": "8.1 g",
+            "saturatedFatContent": "3.1 g",
+            "servingSize": null,
+            "sodiumContent": "105.5 mg",
+            "sugarContent": "49.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2016-10-15T20:39:34.57Z",
+                "reviewBody": "10.6.16 I used skim milk and replaced the sugar with Truvia to reduce the calories. Hard to believe this has no ice cream in it tastes pretty darn good!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "lutzflcat",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/lutzflcat/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2018-12-11T04:12:47.963Z",
+                "reviewBody": "We used powdered milk instead of normal milk and it tasted really good and in my opinion not that different!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Aimee Taylor",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/24681199/"
+                }
+            }
+        ]
+    }
+]

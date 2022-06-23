@@ -1,0 +1,150 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1642/everyday-cooking/",
+                    "name": "Everyday Cooking",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/256457/rice-milk/",
+        "name": "Rice Milk",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6873087.jpg",
+            "width": 960,
+            "height": 960
+        },
+        "datePublished": "2019-04-04T04:07:40.000Z",
+        "description": "Why buy it when you can make it? Super quick and easy!",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "1 quart",
+        "recipeIngredient": [
+            "4 cups cold water",
+            "1 cup cooked rice",
+            "1 teaspoon vanilla extract"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine water, cooked rice, and vanilla extract in a blender; blend until very smooth, about 3 minutes. Chill before serving.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Everyday Cooking"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Bryce Prater"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 4,
+            "itemReviewed": "Rice Milk",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "54.5 calories",
+            "carbohydrateContent": "11.3 g",
+            "cholesterolContent": null,
+            "fatContent": "0.1 g",
+            "fiberContent": "0.2 g",
+            "proteinContent": "1.1 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "7.6 mg",
+            "sugarContent": "0.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-01-15T08:57:40.72Z",
+                "reviewBody": "This is FANTASTIC -- totally better than store bought. I will be making this at home from now on. Used my rice cooker to make the rice, added a bit more water than usual to cook it, which worked perfectly. When I blended it, I added the vanilla. I strained with a nut milk bag, and it caught all of the little particles (although there were not that many because I used more water when cooking the rice to ensure....this is better than soaking the grains overnight).  Can't wait to make this for my Mom.  Also, I used short grain rice...horchata uses long grain :)",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Diana71",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/diana71/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2018-01-11T08:56:18.79Z",
+                "reviewBody": "While I appreciate the few ingredients it tastes better with about twice as much rice (I used brown) one tablespoon sugar and 1/8 teaspoon salt.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "kareno",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2590017/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2021-01-12T09:16:01.367Z",
+                "reviewBody": "Very smooth, silky and tasty! I will recommend this to all of my friends.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Graeme",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/graeme/"
+                }
+            }
+        ]
+    }
+]

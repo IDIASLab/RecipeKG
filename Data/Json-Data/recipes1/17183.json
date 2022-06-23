@@ -1,0 +1,154 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/133/drinks/cocktails/",
+                    "name": "Cocktail Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1743/drinks/cocktails/vodka-drinks/",
+                    "name": "Vodka Drinks Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/153150/chocolate-hazelnut-raspberry-goodness/",
+        "name": "Chocolate Hazelnut Raspberry Goodness",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F135583.jpg",
+            "width": 250,
+            "height": 250
+        },
+        "datePublished": "2011-12-15T20:36:45.000Z",
+        "description": "Three flavors in one delicious drink!",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "1 martini",
+        "recipeIngredient": [
+            "1 fluid ounce Chambord (raspberry liqueur)",
+            "1 fluid ounce Frangelico (hazelnut liqueur)",
+            "1 fluid ounce chocolate vodka",
+            "1 teaspoon chocolate shavings, for garnish"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Pour the Chambord, Frangelico and vodka into a cocktail shaker over ice. Cover, and shake until the outside of the shaker has frosted. Strain into a chilled martini glass, and garnish with chocolate shavings to serve.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Cocktail Recipes",
+            "Vodka Drinks Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Dudelander"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 2.5,
+            "ratingCount": 2,
+            "itemReviewed": "Chocolate Hazelnut Raspberry Goodness",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "298.7 calories",
+            "carbohydrateContent": "29.5 g",
+            "cholesterolContent": "0 mg",
+            "fatContent": "1.6 g",
+            "fiberContent": "0.3 g",
+            "proteinContent": "0.2 g",
+            "saturatedFatContent": "0.8 g",
+            "servingSize": null,
+            "sodiumContent": "4.7 mg",
+            "sugarContent": "26.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2008-11-08T00:24:20.81Z",
+                "reviewBody": "This doesn't taste like chocolate hazelnut or raspberry. A little bit of Chambord is nice. A little bit of Frangelico is nice. And chocolate liqueur is great in a Chocolate Martini. All three of these together is not nice. This tasted kind of like berry flavored syrup.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 1
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "naples34102",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/naples34102/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2008-09-05T22:16:43.557Z",
+                "reviewBody": "Very good although i had to make some modifications due to ingredient restrictions. I didn't have any frangelico and I added chocolate syrup instead of chocolate shavings. Very tasty but I need to watch out considering there isn't much in here besides alcohol.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "beth",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/1591269/"
+                }
+            }
+        ]
+    }
+]

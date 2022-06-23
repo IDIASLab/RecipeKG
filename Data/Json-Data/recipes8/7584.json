@@ -1,0 +1,160 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/92/meat-and-poultry/",
+                    "name": "Meat and Poultry",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/205/meat-and-poultry/pork/",
+                    "name": "Pork",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/273759/chicken-bacon-and-ranch-pizza/",
+        "name": "Chicken, Bacon, and Ranch Pizza",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6645536.jpg",
+            "width": 1792,
+            "height": 1280
+        },
+        "datePublished": "2019-05-24T06:26:03.000Z",
+        "description": "Ranch and bacon lovers will love everything about this pizza. It's easy to make using shortcuts like refrigerated canned pizza crust and pre-cooked chicken and bacon.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H15M",
+        "totalTime": "P0DT0H30M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "1 (10 ounce) container refrigerated pizza crust",
+            "1 cup sour cream",
+            "2 tablespoons ranch seasoning mix",
+            "2 cups shredded mozzarella cheese",
+            "3 thin slices  red onion, separated into rings",
+            "1 medium tomato, diced",
+            "1\u2009\u00bd cups cubed, cooked chicken",
+            "6 slices cooked bacon, chopped"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat the oven to 400 degrees F (200 degrees C). Spread pizza crust out onto a greased baking sheet.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated oven until edges just start to brown, 7 to 8 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine sour cream and ranch mix in a bowl and spread onto the warm pizza crust. Sprinkle with 1/2 of the mozzarella cheese. Top with red onion, tomato, chicken, and bacon. Sprinkle with remaining cheese.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated oven until crust is browned to your liking and cheese is melted, 6 to 10 minutes more.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Meat and Poultry",
+            "Pork"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "fabeveryday"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Chicken, Bacon, and Ranch Pizza",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "456 calories",
+            "carbohydrateContent": "32.2 g",
+            "cholesterolContent": "68.7 mg",
+            "fatContent": "26.4 g",
+            "fiberContent": "1.1 g",
+            "proteinContent": "21.2 g",
+            "saturatedFatContent": "12 g",
+            "servingSize": null,
+            "sodiumContent": "1125 mg",
+            "sugarContent": "3.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-03-15T01:33:42.927Z",
+                "reviewBody": "I used an artisan flat bread as the crust and added mushrooms and green peppers to the ingredients, It was delicious!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "crystaltips",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/13718276/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2019-06-18T05:12:47.213Z",
+                "reviewBody": "Very tasty! My son really liked it. I will definitely make it again.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "denisetb",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/4951334/"
+                }
+            }
+        ]
+    }
+]

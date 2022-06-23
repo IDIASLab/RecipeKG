@@ -1,0 +1,142 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/137/drinks/shakes-and-floats/",
+                    "name": "Shakes and Floats Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/107958/carrot-juice-float/",
+        "name": "Carrot Juice Float",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2891291.jpg",
+            "width": 1580,
+            "height": 1587
+        },
+        "datePublished": "2018-03-21T16:54:05.000Z",
+        "description": "This is so simple and you won't believe how delicious the combination is. It makes a healthier alternative to that old fashioned root beer float.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "1 float",
+        "recipeIngredient": [
+            "2 large carrots",
+            "\u00bc cup vanilla ice cream"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Wash the carrots and trim the tops off, then juice using a juice machine.  Pour the carrot juice over the ice cream to serve.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Shakes and Floats Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Autumn Leaves"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Carrot Juice Float",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "125.4 calories",
+            "carbohydrateContent": "21.6 g",
+            "cholesterolContent": "14.5 mg",
+            "fatContent": "4 g",
+            "fiberContent": "4.3 g",
+            "proteinContent": "2.5 g",
+            "saturatedFatContent": "2.3 g",
+            "servingSize": null,
+            "sodiumContent": "125.8 mg",
+            "sugarContent": "13.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2009-02-09T18:51:07.46Z",
+                "reviewBody": "We used vanilla frozen yogurt and blended it with the carrot juice. We've also added in fresh orange or pineapple juice. Adjust the amounts to your taste and you'll get a really good smoothie!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Nici",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2636223/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2015-11-29T19:10:23.55Z",
+                "reviewBody": "I was very skeptical about mixing carrot juice and vanilla ice cream but it works perfectly well. It's so delicious!!! My husband said I could give it 10 stars even though he knew 5 is the maximum.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Jenny Aleman de Bola\u00f1os",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/jennyaleman/"
+                }
+            }
+        ]
+    }
+]

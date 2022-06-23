@@ -1,0 +1,147 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/227/world-cuisine/asian/",
+                    "name": "Asian",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/213689/parripu-lentil-curry/",
+        "name": "Parripu (Lentil Curry)",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Parripu (Lentil Curry)"
+        },
+        "datePublished": "2020-02-19T05:50:09.000Z",
+        "description": "A yummy curry learned from the women in my village when I was living in Sri Lanka. It is a basic recipe meaning that you can add more or less of items to suit your taste. Every batch of parripu is personalized to whoever cooks it. Careful! It tends to be very spicy so if you are sensitive reduce the chile amounts.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H30M",
+        "totalTime": "P0DT0H45M",
+        "recipeYield": "4 cups curry",
+        "recipeIngredient": [
+            "3 tablespoons peanut oil",
+            "2 tablespoons butter",
+            "\u00bd cup chopped onions",
+            "1 tablespoon finely chopped Thai chile peppers",
+            "2 cloves garlic, minced",
+            "2 fresh curry leaves",
+            "\u00bd cinnamon stick",
+            "2 cups water",
+            "1 cup red lentils",
+            "1 tablespoon curry powder",
+            "1 tablespoon ground red chile pepper",
+            "\u00be cup coconut milk",
+            "salt to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat oil and butter in a saucepan over high heat until butter is melted. Add onions, Thai chiles, garlic, curry leaves, and cinnamon stick. Saute until onions are soft and translucent, 5 to 7 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Remove cinnamon stick from the onion mixture. Add water and bring to a boil. Stir in lentils, curry powder, and ground red chile, Reduce heat to low; cover and let curry simmer until water is mostly evaporated, 10 to 15 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour coconut milk into the curry. Season with salt. Continue simmering until curry is thick but not dry, about 10 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Asian"
+        ],
+        "recipeCuisine": [
+            "Asian"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Jerbear"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 2,
+            "itemReviewed": "Parripu (Lentil Curry)",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "405.3 calories",
+            "carbohydrateContent": "32.1 g",
+            "cholesterolContent": "15.3 mg",
+            "fatContent": "26.1 g",
+            "fiberContent": "8.3 g",
+            "proteinContent": "14 g",
+            "saturatedFatContent": "13.4 g",
+            "servingSize": null,
+            "sodiumContent": "95.6 mg",
+            "sugarContent": "2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-03-29T07:59:59.9Z",
+                "reviewBody": "I tried to follow the recipe, but we don't like very spicy food, so I used sweet peppers instead of hot.  Also I used two kinds of curry powder, since I don't know what curry leaves are.  It tasted okay, but rather bland.  I may make it again because it's very healthy and add more cinnamon or a bit more chili.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Eve",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/13390553/"
+                }
+            }
+        ]
+    }
+]

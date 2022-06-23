@@ -1,0 +1,143 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17249/appetizers-and-snacks/canapes-and-crostini/",
+                    "name": "Canapes and Crostini Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/234955/baked-cheese-spread/",
+        "name": "Baked Cheese Spread",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1285254.jpg",
+            "width": 1759,
+            "height": 1800
+        },
+        "datePublished": "2016-06-04T13:54:09.000Z",
+        "description": "This is a little experiment I made that wound up being a total hit at a company party. I really just started throwing stuff together that sounded good and cheesy for an appetizer because I forgot to make one.",
+        "prepTime": "P0DT0H20M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT0H25M",
+        "recipeYield": "24 servings",
+        "recipeIngredient": [
+            "2 (8 ounce) packages cream cheese, softened",
+            "12 ounces fresh mozzarella, diced",
+            "\u00bd cup mayonnaise",
+            "2 cups minced fresh basil",
+            "3 ounces green onions, chopped",
+            "1 tomato, chopped",
+            "2 tablespoons minced garlic",
+            "1 (16 ounce) loaf garlic sourdough bread, sliced in half lengthwise"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Set oven rack about 6 inches from the heat source and preheat the oven's broiler.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place cream cheese in a microwave-safe bowl; heat in microwave until softened, 1 to 2 minutes. Stir mozzarella cheese and mayonnaise into cream cheese; heat in microwave until mozzarella cheese is melted, about 2 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Stir basil, green onions, tomato, and garlic into cheese mixture; spread onto sourdough bread slices. Arrange bread slices on a baking sheet.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Broil in the preheated oven until cheese is golden brown and bubbling, 3 to 10 minutes. Cool for 1 to 2 minutes before serving.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks",
+            "Canapes and Crostini Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "April Kammerzell"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 1,
+            "itemReviewed": "Baked Cheese Spread",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "196.6 calories",
+            "carbohydrateContent": "12.3 g",
+            "cholesterolContent": "33.4 mg",
+            "fatContent": "13.6 g",
+            "fiberContent": "0.7 g",
+            "proteinContent": "6.4 g",
+            "saturatedFatContent": "6.8 g",
+            "servingSize": null,
+            "sodiumContent": "224 mg",
+            "sugarContent": "1.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2014-07-25T16:30:18.163Z",
+                "reviewBody": "I scaled this down since I'm the only one eating it. I couldn't get my fresh mozzarella to melt with the cream cheese very well. For me this was a bit too cream cheesy and needed something - a pinch of salt maybe? I also toasted my bread a bit I like it crunchy and the broiling process always leaves the bottom too soft.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Scotdog",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/thescotdogs/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,102 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/275111/fried-cheese-balls/",
+        "name": "Fried Cheese Balls",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Fried Cheese Balls"
+        },
+        "datePublished": "2019-07-27T04:33:05.000Z",
+        "description": "Tasty party snack that can easily be made and modified for your taste buds.",
+        "prepTime": "P0DT0H20M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT0H25M",
+        "recipeYield": "10 servings",
+        "recipeIngredient": [
+            "2 cups Italian-seasoned bread crumbs",
+            "1 cup grated Parmesan cheese",
+            "1 cup shredded sharp Cheddar cheese",
+            "1 cup milk",
+            "1 large egg",
+            "1 (8 ounce) package cream cheese",
+            "1 cup vegetable oil for frying, or as needed"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Line a baking sheet with parchment paper or waxed paper.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour bread crumbs, Parmesan cheese, and Cheddar cheese into 3 separate piles on the prepared baking sheet. Combine milk and egg in a bowl and stir until well combined.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Roll cream cheese into 1-inch balls. Split each ball in half and place sharp Cheddar inside of cheese ball; put it back together and shape cream cheese around the Cheddar cheese. Roll it in Parmesan and Cheddar cheeses until the outside is completely covered. Dip in the milk mixture and roll in bread crumbs until completely covered. Repeat with remaining cream cheese balls.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat oil in a large saucepan to 350 degrees F (175 degrees C). Drop cheese balls in the hot oil and allow to get brown on all sides, 3 to 5 minutes. Drain on paper towels.\n"
+            }
+        ],
+        "recipeCategory": [],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "connor lightfoot"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Fried Cheese Balls",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "285 calories",
+            "carbohydrateContent": "18.2 g",
+            "cholesterolContent": "64.1 mg",
+            "fatContent": "18.2 g",
+            "fiberContent": "0.8 g",
+            "proteinContent": "12.2 g",
+            "saturatedFatContent": "9.4 g",
+            "servingSize": null,
+            "sodiumContent": "619.8 mg",
+            "sugarContent": "2.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

@@ -1,0 +1,149 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/256/main-dish/meatloaf/",
+                    "name": "Meatloaf Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/998/main-dish/meatloaf/beef-meatloaf/",
+                    "name": "Beef Meatloaf Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/260221/french-onion-meatloaf/",
+        "name": "French Onion Meatloaf",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F9029701.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2018-06-08T14:45:03.000Z",
+        "description": "Moist and delicious French onion meatloaf. Meatloaf meets chopped steak with gravy. Still quite good without the sauce on top.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT1H15M",
+        "totalTime": "P0DT1H30M",
+        "recipeYield": "1 meatloaf",
+        "recipeIngredient": [
+            "2 pounds lean ground beef",
+            "1 (10.5 ounce) can condensed French onion soup",
+            "\u00bd cup fine dry bread crumbs",
+            "\u00bd cup rolled oats",
+            "1 egg, lightly beaten",
+            "1 tablespoon dried parsley",
+            "\u00bc teaspoon salt",
+            "\u00bc teaspoon ground black pepper"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat oven to 350 degrees F (175 degrees C).\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine ground beef, condensed French onion soup, bread crumbs, oats, beaten egg, dried parsley, salt, and pepper in a bowl. Mix well. Pack into a loaf pan.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated oven until no longer pink in the center, about 1 hour and 15 minutes. An instant-read thermometer inserted into the center should read at least 160 degrees F (70 degrees C). Let rest 5 minutes before cutting.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Meatloaf Recipes",
+            "Beef Meatloaf Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "coyote"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "French Onion Meatloaf",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "294.9 calories",
+            "carbohydrateContent": "11.7 g",
+            "cholesterolContent": "103.7 mg",
+            "fatContent": "15.7 g",
+            "fiberContent": "1.2 g",
+            "proteinContent": "25.3 g",
+            "saturatedFatContent": "5.9 g",
+            "servingSize": null,
+            "sodiumContent": "522.4 mg",
+            "sugarContent": "2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-02-14T10:10:55.34Z",
+                "reviewBody": "Nice meatloaf. I liked using both oats and crumbs. I topped with a mixture of ketchup and a spicy BBQ sauce",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Linda T",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/lindat/"
+                }
+            }
+        ]
+    }
+]

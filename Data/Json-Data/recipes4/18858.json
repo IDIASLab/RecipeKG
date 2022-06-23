@@ -1,0 +1,178 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/81/side-dish/",
+                    "name": "Side Dish",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/224/side-dish/rice/",
+                    "name": "Rice Side Dish Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/14364/side-dish/rice/pilaf/",
+                    "name": "Pilaf",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/258379/chicken-plov/",
+        "name": "Chicken Plov",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Chicken Plov"
+        },
+        "datePublished": "2019-04-04T04:08:46.000Z",
+        "description": "An Uzbek rice dish made using ingredients you can easily find in any grocery store.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H30M",
+        "totalTime": "P0DT0H45M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "2 cups uncooked white rice",
+            "1 large yellow onion, halved",
+            "4 large carrots, peeled",
+            "\u00bd cup vegetable oil",
+            "4 chicken tenders, cut into 1/2-inch cubes",
+            "\u00bd cup dried cherries",
+            "2 tablespoons ground cumin",
+            "2 tablespoons ground coriander",
+            "1\u2009\u00bd teaspoons minced garlic",
+            "1 teaspoon salt",
+            "3 cups water"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place rice in a bowl; cover with warm water.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Slice onion in a food processor fitted with the slicing disk. Transfer to a bowl. Slice carrots using the same blade.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat oil in a 12-inch saucepan over medium heat. Cook chicken in the hot oil until no longer pink in the center, about 5 minutes. Add onion; cook and stir until soft, about 5 minutes. Add carrots; cook and stir until softened, about 5 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Stir dried cherries, cumin, coriander, garlic, and salt into the saucepan. Press down with a spatula to flatten chicken mixture into an even layer in the bottom of the saucepan.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Drain rice and place over chicken mixture in an even layer. Pour in 3 cups water. Cover and bring to a boil. Reduce heat to medium-low; simmer until water is absorbed and rice is tender, 10 to 12 minutes. Stir.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Side Dish",
+            "Rice Side Dish Recipes",
+            "Pilaf"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "DRH"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 3,
+            "itemReviewed": "Chicken Plov",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "769.8 calories",
+            "carbohydrateContent": "100.7 g",
+            "cholesterolContent": "31.2 mg",
+            "fatContent": "30.6 g",
+            "fiberContent": "7.3 g",
+            "proteinContent": "21.1 g",
+            "saturatedFatContent": "4.9 g",
+            "servingSize": null,
+            "sodiumContent": "678.1 mg",
+            "sugarContent": "13.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-07-22T08:54:58.887Z",
+                "reviewBody": "My family loved this dish. I did not have cherries so left them out. I was also out of cumin so I substituted fennel. I crushed both herbs with my mortal and postal. Wonderfully flavored dish that everyone in my family loved. I will definitely be adding this to our menu in the future.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Jennifer Burgess",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2809321/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2018-09-04T09:29:19.433Z",
+                "reviewBody": "I skipped the cherries but it was still delicious dish",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Mantotopha Wikvaya",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/24176603/"
+                }
+            }
+        ]
+    }
+]

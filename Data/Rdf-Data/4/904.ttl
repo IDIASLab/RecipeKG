@@ -1,0 +1,60 @@
+@prefix ns1: <http://purl.org/heals/food/> .
+@prefix ns2: <http://purl.org/recipekg/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/quick-pour-fondant-icing> a schema:Recipe ;
+    ns1:hasIngredient [ a <http://purl.org/recipekg/ingredient/AlmondExtract> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "teaspoon" ;
+            ns2:ingredientName "almond extract" ],
+        [ a <http://purl.org/recipekg/ingredient/Confectioners'Sugar> ;
+            ns2:hasQuantity "6" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "confectioners' sugar" ],
+        [ a <http://purl.org/heals/ingredient/CornSyrup> ;
+            ns2:hasQuantity "2" ;
+            ns2:hasUnit "tablespoon" ;
+            ns2:ingredientName "corn syrup" ],
+        [ a <http://purl.org/heals/ingredient/Water> ;
+            ns2:hasQuantity "1/2" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "water" ] ;
+    ns2:belongsTo <http://purl.org/recipekg/categories/desserts/frostings-and-icings/fondant/> ;
+    ns2:hasFSAScore 2 ;
+    ns2:hasNutritionalInformation [ a ns2:NutritionalInformation ;
+            ns2:hasCalorificData [ a ns2:CalorificData ;
+                    ns2:hasAmount "152.8"^^xsd:float ;
+                    ns2:hasUnit "calories" ] ;
+            ns2:hasCarbohydrateData [ a ns2:CarbohydrateData ;
+                    ns2:hasAmount "39.0"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasSodiumData [ a ns2:SodiumData ;
+                    ns2:hasAmount "1.8"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSAGreen ;
+                    ns2:hasUnit "mg" ] ;
+            ns2:hasSugarData [ a ns2:SugarData ;
+                    ns2:hasAmount "37.4"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSARed ;
+                    ns2:hasUnit "g" ] ] ;
+    ns2:hasUSDAScore 2 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 30 ;
+            schema:ratingValue "3.2666666666666666"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2019-04-04T03:28:15.000Z"^^schema:date ;
+    schema:name "Quick Pour Fondant Icing"^^xsd:string ;
+    schema:recipeYield "4 cups - enough to cover 1- 10 inch cake"^^xsd:string .
+
+ns2:FSAGreen a ns2:FSAColor .
+
+ns2:FSARed a ns2:FSAColor .
+
+<http://purl.org/recipekg/categories/desserts/> a ns2:RecipeCategory .
+
+<http://purl.org/recipekg/categories/desserts/frostings-and-icings/> rdfs:subClassOf <http://purl.org/recipekg/categories/desserts/> .
+
+<http://purl.org/recipekg/categories/desserts/frostings-and-icings/fondant/> rdfs:subClassOf <http://purl.org/recipekg/categories/desserts/frostings-and-icings/> .
+

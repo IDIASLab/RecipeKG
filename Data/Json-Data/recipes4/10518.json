@@ -1,0 +1,156 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/22360/fruity-rice-delight/",
+        "name": "Fruity Rice Delight",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Fruity Rice Delight"
+        },
+        "datePublished": "2000-10-07T11:41:54.000Z",
+        "description": "Cooked rice, fruit and whipped topping --  sounds strange, tastes great!  Adjust the ingredients to taste. The finished dish should be the consistency of pudding. Try adding pecans and walnuts. At Christmas I put a few drops of food coloring in the whipped topping.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H20M",
+        "totalTime": "P0DT0H35M",
+        "recipeYield": "3 cups",
+        "recipeIngredient": [
+            "2 cups water",
+            "1 cup uncooked white rice",
+            "1 (15.25 ounce) can fruit cocktail, drained",
+            "1 (8 ounce) container frozen whipped topping, thawed"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "In a medium saucepan bring water to a boil. Add rice and stir. Reduce heat, cover and simmer for 20 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "In a medium bowl, blend 1/2 the fruit cocktail and the whipped cream. Drain any remaining fluid from the rice and mix 1/2 into the bowl. Continue mixing in the remaining fruit cocktail and rice until the desired consistency has been attained.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Debi"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.6666666666666665,
+            "ratingCount": 3,
+            "itemReviewed": "Fruity Rice Delight",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "264 calories",
+            "carbohydrateContent": "41.7 g",
+            "cholesterolContent": null,
+            "fatContent": "9.7 g",
+            "fiberContent": "1.1 g",
+            "proteinContent": "3 g",
+            "saturatedFatContent": "8.2 g",
+            "servingSize": null,
+            "sodiumContent": "13.7 mg",
+            "sugarContent": "16.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2010-08-23T21:15:49.907Z",
+                "reviewBody": "I just made this to take to a party. There seemed to be too much whipped topping so I'm just adding more fruit w/juice for sweetness and rice. Pretty good for a quick easy rice salad!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "barbwayne",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/5241468/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2011-06-28T21:01:16.56Z",
+                "reviewBody": "This has been a staple in our house as a special dessert with dinner night since I was a kid in the 80's. Instead of fruit cocktail my Grandmother used just diced maraschino cherries to make it. My daughter loves this and I'm glad to pass it along to her.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "lily_bugs_mom",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/7258028/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2011-08-26T16:09:24.537Z",
+                "reviewBody": "Nothing special",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 1
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "BobMc9",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3760128/"
+                }
+            }
+        ]
+    }
+]

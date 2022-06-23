@@ -1,0 +1,150 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/147/breakfast-and-brunch/crepes/",
+                    "name": "Crepes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/262165/blinis/",
+        "name": "Blinis",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4931070.jpg",
+            "width": 1707,
+            "height": 960
+        },
+        "datePublished": "2020-06-19T04:26:30.000Z",
+        "description": "These are not the canape-sized blini, but larger pancakes that are filled with a simple but hearty beef and onion mixture. The flavor comes from the generous amount of onion and frying the mix well, at least 10 minutes.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H32M",
+        "totalTime": "P0DT0H57M",
+        "recipeYield": "8 blinis",
+        "recipeIngredient": [
+            "2 cups milk",
+            "1 cup all-purpose flour",
+            "3 tablespoons all-purpose flour",
+            "2 eggs",
+            "1 tablespoon white sugar",
+            "\u00bc cup melted butter",
+            "\u00be pound beef stew meat",
+            "2 tablespoons butter",
+            "2 onions, diced",
+            "salt and ground black pepper to taste",
+            "1 teaspoon vegetable oil"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Whisk milk, 1 cup plus 3 tablespoons flour, eggs, and sugar together in a bowl. Add 1/4 cup melted butter; whisk well. Let batter sit, 15 to 20 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bring a pot of water to a boil. Add beef; cook until no longer pink, 5 to 7 minutes. Drain. Chop the boiled beef finely until even in texture.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat 2 tablespoons butter in a skillet over medium-low heat. Add onion and cook, while stirring, until soft and golden, about 10 minutes. Increase heat to medium and add the chopped beef, salt, and pepper. Cook and stir filling until flavors combine, about 10 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat oil in a nonstick or cast-iron skillet over medium heat. Pour 3 to 4 tablespoons of batter into the skillet and quickly rotate the skillet to spread batter out in a thin layer. Cook until edges are brown, 1 to 2 minutes. Run a spatula around the edge of the skillet to loosen blini; flip and cook until the other side has turned light brown, about 1 minute more. Repeat with remaining batter.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Spread 2 tablespoons beef filling on 1 side of each blini. Fold edges over filling and roll blini up. Repeat with remaining filling and blini.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Crepes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Nyusha"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Blinis",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "269.4 calories",
+            "carbohydrateContent": "21.2 g",
+            "cholesterolContent": "96.7 mg",
+            "fatContent": "14.3 g",
+            "fiberContent": "1 g",
+            "proteinContent": "13.7 g",
+            "saturatedFatContent": "7.7 g",
+            "servingSize": null,
+            "sodiumContent": "141.9 mg",
+            "sugarContent": "5.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-05-25T07:21:03.763Z",
+                "reviewBody": "It's pretty good worth a try for sure, simple so probably needs more things in the filling.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Kody",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/27460556/"
+                }
+            }
+        ]
+    }
+]

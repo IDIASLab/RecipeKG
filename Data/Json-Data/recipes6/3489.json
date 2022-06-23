@@ -1,0 +1,150 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17140/desserts/fruit-desserts/",
+                    "name": "Fruit Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1254/desserts/fruit-desserts/apple-desserts/",
+                    "name": "Apple Dessert Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/269610/toaster-oven-apple-crisp/",
+        "name": "Toaster Oven Apple Crisp",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6281427.jpg",
+            "width": 2864,
+            "height": 3878
+        },
+        "datePublished": "2020-03-05T05:19:00.000Z",
+        "description": "Just enough for one! Cure your apple crisp craving with this simple yet tasty solution. Enjoy warm with ice cream or whipped cream.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H30M",
+        "totalTime": "P0DT0H40M",
+        "recipeYield": "1 serving",
+        "recipeIngredient": [
+            "cooking spray",
+            "1 medium apple - peeled, cored, and sliced",
+            "1 tablespoon all-purpose flour",
+            "1 tablespoon brown sugar",
+            "1 teaspoon ground cinnamon",
+            "1 pinch salt",
+            "2 tablespoons water, or more as needed",
+            "1 tablespoon butter, cut into small pieces",
+            "1 tablespoon caramel ice cream topping"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat the toaster oven to 375 degrees F (190 degrees C) according to manufacturer's instructions. Lightly coat a baking tray with cooking spray.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pile apple slices onto the baking tray. Mix flour, brown sugar, cinnamon, and salt together; sprinkle evenly over apples. Drizzle water over the topping. Arrange butter pieces as uniformly as possible over the topping.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated toaster oven until apples are tender, about 30 minutes. Drizzle caramel sauce on top and scoop into a bowl.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Fruit Desserts",
+            "Apple Dessert Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "jowolf2"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 1,
+            "itemReviewed": "Toaster Oven Apple Crisp",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "313.3 calories",
+            "carbohydrateContent": "53.7 g",
+            "cholesterolContent": "30.7 mg",
+            "fatContent": "12.1 g",
+            "fiberContent": "4.9 g",
+            "proteinContent": "1.7 g",
+            "saturatedFatContent": "7.4 g",
+            "servingSize": null,
+            "sodiumContent": "314.8 mg",
+            "sugarContent": "27.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-01-21T02:04:40.95Z",
+                "reviewBody": "Although tasty there was nothing crisp about it. This was more like baked apples with a cinnamon topping. Not at all what I expected.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Yoly",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/cookingbikerchick/"
+                }
+            }
+        ]
+    }
+]

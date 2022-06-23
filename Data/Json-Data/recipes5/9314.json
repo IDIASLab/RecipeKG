@@ -1,0 +1,94 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/260401/california-kiwi-cream-cheese-ice-cream/",
+        "name": "California Kiwi Cream Cheese Ice Cream",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4561829.jpg",
+            "width": 960,
+            "height": 960
+        },
+        "datePublished": "2019-09-05T05:32:22.000Z",
+        "description": "Enjoy this sweet treat, made with California kiwis, as a cheesecake sundae, or simply on its own. To make cheesecake sundaes, drizzle with additional pureed kiwi and top with crumbled graham cracker crust.",
+        "prepTime": "PT10M",
+        "cookTime": "PT15M",
+        "totalTime": "PT2H40M",
+        "recipeIngredient": [
+            "6 large ripe California kiwis, halved, or to taste",
+            "1 (8 ounce) package cream cheese, softened",
+            "\u00be cup white sugar",
+            "2 cups half-and-half",
+            "2 teaspoons vanilla extract"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Scoop out kiwis and puree in a food processor or blender; you should have about 2 cups. Transfer to a saucepan over medium-low heat. Cook, stirring frequently, until reduced to about 1 cup, 15 to 20 minutes. Remove from heat and let cool."
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Stir cream cheese and sugar together in a bowl. Whisk in half-and-half slowly; add cooked kiwis and vanilla extract. Cover with plastic wrap and refrigerate until cool, 15 to 20 minutes."
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour mixture into the bowl of an ice cream maker and freeze according to manufacturer's instructions. Cover and chill in the freezer until firm, at least 2 hours."
+            }
+        ],
+        "recipeCategory": [],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "CAGrown"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "California Kiwi Cream Cheese Ice Cream",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "294 calories",
+            "carbohydrateContent": "32.2 g",
+            "cholesterolContent": "53 mg",
+            "fatContent": "17.1 g",
+            "fiberContent": "2 g",
+            "proteinContent": "4.7 g",
+            "saturatedFatContent": "10.5 g",
+            "servingSize": null,
+            "sodiumContent": "110 mg",
+            "sugarContent": "25 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

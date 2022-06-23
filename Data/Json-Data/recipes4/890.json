@@ -1,0 +1,110 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1642/everyday-cooking/",
+                    "name": "Everyday Cooking",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/25883/beefy-oven-packets/",
+        "name": "Beefy Oven Packets",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Beefy Oven Packets"
+        },
+        "datePublished": "2019-04-02T06:43:25.000Z",
+        "description": "This is a complete throw together, put in the oven and eat. Oh, and no mess! Using hamburger, cheese, and veggies (kid veggies).",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT1H0M",
+        "totalTime": "P0DT1H10M",
+        "recipeYield": "4 to 6 servings",
+        "recipeIngredient": [
+            "1 pound ground beef",
+            "1 (15.25 ounce) can whole kernel corn",
+            "1 (15 ounce) can green beans",
+            "2 (4 ounce) jars mushrooms, drained",
+            "1 (16 ounce) jar processed cheese sauce",
+            "salt and pepper to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat oven to 350 degrees F (175 degrees C).\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cut squares out of aluminum foil. Form beef into small, round flat hamburgers and place one (seasoned to taste) on each square. To each burger add a bit of corn, beans, mushrooms and a spoonfull of cheese sauce. Fold foil over so that there is no leaking during baking.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated oven for 1 hour.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Everyday Cooking"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Christine"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 2,
+            "ratingCount": 2,
+            "itemReviewed": "Beefy Oven Packets",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "521.6 calories",
+            "carbohydrateContent": "29.4 g",
+            "cholesterolContent": "121.7 mg",
+            "fatContent": "32.9 g",
+            "fiberContent": "4.4 g",
+            "proteinContent": "29 g",
+            "saturatedFatContent": "17 g",
+            "servingSize": null,
+            "sodiumContent": "2190.9 mg",
+            "sugarContent": "10.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

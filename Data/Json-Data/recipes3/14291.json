@@ -1,0 +1,145 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17245/main-dish/pasta/",
+                    "name": "Pasta",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/505/main-dish/pasta/spaghetti/",
+                    "name": "Spaghetti",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/262974/pasta-with-asparagus-goat-cheese-and-lemon/",
+        "name": "Pasta with Asparagus, Goat Cheese, and Lemon",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5202295.jpg",
+            "width": 1536,
+            "height": 2048
+        },
+        "datePublished": "2018-06-08T14:47:44.000Z",
+        "description": "Asparagus, goat cheese, and lemon combine to make this lovely and simple spaghetti dish that I often make in the summer. It is super easy and ready in about 15 minutes, so it's a great recipe for dinner midweek or a fast weekend lunch.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H20M",
+        "totalTime": "P0DT0H30M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "1 (8 ounce) package spaghetti",
+            "\u00bd pound asparagus, cut into bite-sized pieces",
+            "2 ounces chevre (soft goat cheese), crumbled",
+            "2 tablespoons olive oil",
+            "1 tablespoon chopped fresh basil, or more to taste",
+            "\u00bd lemon, zested and juiced",
+            "salt and ground black pepper to taste",
+            "2 tablespoons grated Parmesan cheese, or to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Bring a large pot of lightly salted water to a boil. Cook spaghetti in the boiling water, stirring occasionally, for 9 minutes. Add asparagus to the pot. Continue cooking until spaghetti is tender yet firm to the bite, about 3 minutes. Drain spaghetti and asparagus, reserving some cooking water.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine goat cheese, olive oil, basil, and lemon zest in a large bowl. Add hot spaghetti, asparagus, and 2 tablespoons of cooking water; mix well. Season with lemon juice, salt, and pepper. Serve with Parmesan cheese sprinkled on top.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Pasta",
+            "Spaghetti"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "wiebke"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Pasta with Asparagus, Goat Cheese, and Lemon",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "688 calories",
+            "carbohydrateContent": "91.9 g",
+            "cholesterolContent": "26.8 mg",
+            "fatContent": "25.3 g",
+            "fiberContent": "7.2 g",
+            "proteinContent": "25.5 g",
+            "saturatedFatContent": "8.9 g",
+            "servingSize": null,
+            "sodiumContent": "310.1 mg",
+            "sugarContent": "5.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-05-05T05:58:11.953Z",
+                "reviewBody": "Didn\u2019t get to finish my original rating..  I loved how quick and easy this was.  I added some ricotta because didn\u2019t have enough goat cheese and it still turned out great.  Also used both asparagus and Brussels sprouts (cut in half) - yum!  Adding veggies to the boiling pasta is genius!  I made this as a side dish for fish so the lemon flavor worked well.  Would make it again as main course.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Kim Borst",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/22335165/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,51 @@
+@prefix ns1: <http://purl.org/heals/food/> .
+@prefix ns2: <http://purl.org/recipekg/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/easy-chicken-and-biscuits> a schema:Recipe ;
+    ns1:hasIngredient [ a <http://purl.org/recipekg/ingredient/Vegetables*> ;
+            ns2:hasQuantity "4" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "vegetables*" ],
+        [ a <http://purl.org/heals/ingredient/Chicken> ;
+            ns2:hasQuantity "2" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "chicken" ],
+        [ a <http://purl.org/heals/ingredient/Potato> ;
+            ns2:hasQuantity "1" ;
+            ns2:ingredientName "potato" ],
+        [ a <http://purl.org/recipekg/ingredient/ButtermilkBiscuits> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "can" ;
+            ns2:ingredientName "buttermilk biscuits" ],
+        [ a <http://purl.org/recipekg/ingredient/ThymeLeaves> ;
+            ns2:hasQuantity "1/4" ;
+            ns2:hasUnit "teaspoon" ;
+            ns2:ingredientName "thyme leaves" ],
+        [ a <http://purl.org/recipekg/ingredient/Milk> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "milk" ],
+        [ a <http://purl.org/heals/ingredient/BlackPepper> ;
+            ns2:hasQuantity "1/4" ;
+            ns2:hasUnit "teaspoon" ;
+            ns2:ingredientName "black pepper" ],
+        [ a <http://purl.org/recipekg/ingredient/CelerySoup> ;
+            ns2:hasQuantity "1" ;
+            ns2:ingredientName "Celery Soup" ] ;
+    ns2:belongsTo <http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/campbells-kitchen/> ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 88 ;
+            schema:ratingValue "4.488636363636363"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2007-10-16T21:19:13.000Z"^^schema:date ;
+    schema:name "Easy Chicken and Biscuits"^^xsd:string ;
+    schema:recipeYield "5 servings"^^xsd:string .
+
+<http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/> a ns2:RecipeCategory .
+
+<http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/campbells-kitchen/> rdfs:subClassOf <http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/> .
+

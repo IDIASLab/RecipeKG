@@ -1,0 +1,138 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/211/salad/fruit-salads/",
+                    "name": "Fruit Salad Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/15137/salad/fruit-salads/strawberry-salad/",
+                    "name": "Strawberry Salad Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/145667/fresh-fruit-in-balsamic-pepper-syrup/",
+        "name": "Fresh Fruit in Balsamic Pepper Syrup",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8017118.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2017-08-04T02:06:45.000Z",
+        "description": "Fresh twist on fruit salad. Very refreshing... not too sweet and so yummy! Can be served with whipped cream or sweetened mascarpone cream.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "5 tablespoons honey",
+            "3 tablespoons balsamic vinegar",
+            "\u00bc teaspoon coarsely ground black pepper",
+            "1 pint fresh strawberries, hulled and halved",
+            "1 pint fresh blueberries"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Stir honey and balsamic vinegar together in a bowl until well blended. Stir in pepper. Add strawberries and blueberries; stir gently to coat with honey and balsamic vinegar. Let stand at room temperature until flavors combine, 5 to 10 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad",
+            "Fruit Salad Recipes",
+            "Strawberry Salad Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Anuja"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Fresh Fruit in Balsamic Pepper Syrup",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "130.6 calories",
+            "carbohydrateContent": "34.4 g",
+            "cholesterolContent": null,
+            "fatContent": "0.3 g",
+            "fiberContent": "1.9 g",
+            "proteinContent": "0.7 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "4.8 mg",
+            "sugarContent": "30.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-04-22T21:06:17.56Z",
+                "reviewBody": "Fantastic! Don't leave out the pepper, as it really makes the flavors pop! Freshly-cracked pepper is best. I used 4 tablespoons of honey instead of 5 and that was plenty sweet.  This makes HUGE servings - you could easily get 6 or 8 servings as a brunch side dish.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "France C",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/francecevallos/"
+                }
+            }
+        ]
+    }
+]

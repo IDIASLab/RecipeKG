@@ -1,0 +1,134 @@
+@prefix ns1: <http://purl.org/heals/food/> .
+@prefix ns2: <http://purl.org/recipekg/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/spicy-vietnamese-beef-noodle-soup> a schema:Recipe ;
+    ns1:hasIngredient [ a <http://purl.org/recipekg/ingredient/JalapenoPepper> ;
+            ns2:hasQuantity "1" ;
+            ns2:ingredientName "jalapeno pepper" ],
+        [ a <http://purl.org/heals/ingredient/Clove> ;
+            ns2:hasQuantity "2" ;
+            ns2:ingredientName "clove" ],
+        [ a <http://purl.org/recipekg/ingredient/Ginger> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "piece" ;
+            ns2:ingredientName "ginger" ],
+        [ a <http://purl.org/heals/ingredient/Garlic> ;
+            ns2:hasQuantity "6" ;
+            ns2:hasUnit "clove" ;
+            ns2:ingredientName "garlic" ],
+        [ a <http://purl.org/heals/ingredient/Onion> ;
+            ns2:hasQuantity "1" ;
+            ns2:ingredientName "onion" ],
+        [ a <http://purl.org/recipekg/ingredient/RiceNoodles> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "package" ;
+            ns2:ingredientName "rice noodles" ],
+        [ a <http://purl.org/recipekg/ingredient/CorianderSeeds> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "teaspoon" ;
+            ns2:ingredientName "coriander seeds" ],
+        [ a <http://purl.org/heals/ingredient/VegetableOil> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "tablespoon" ;
+            ns2:ingredientName "vegetable oil" ],
+        [ a <http://purl.org/heals/ingredient/SoySauce> ;
+            ns2:hasQuantity "2" ;
+            ns2:hasUnit "tablespoon" ;
+            ns2:ingredientName "soy sauce" ],
+        [ a <http://purl.org/recipekg/ingredient/BeefShank> ;
+            ns2:hasQuantity "2" ;
+            ns2:ingredientName "beef shank" ],
+        [ a <http://purl.org/heals/ingredient/SoySauce> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "tablespoon" ;
+            ns2:ingredientName "soy sauce" ],
+        [ a <http://purl.org/recipekg/ingredient/Cinnamon> ;
+            ns2:hasQuantity "1" ;
+            ns2:ingredientName "cinnamon" ],
+        [ a <http://purl.org/recipekg/ingredient/StarAnise> ;
+            ns2:hasQuantity "6" ;
+            ns2:ingredientName "star anise" ],
+        [ a <http://purl.org/recipekg/ingredient/BeefOxtail> ;
+            ns2:hasQuantity "2" ;
+            ns2:hasUnit "pound" ;
+            ns2:ingredientName "beef oxtail" ],
+        [ a <http://purl.org/recipekg/ingredient/BayLeaf> ;
+            ns2:hasQuantity "1" ;
+            ns2:ingredientName "bay leaf" ],
+        [ a <http://purl.org/recipekg/ingredient/CardamomPod> ;
+            ns2:hasQuantity "1" ;
+            ns2:ingredientName "cardamom pod" ],
+        [ a <http://purl.org/heals/ingredient/Water> ;
+            ns2:hasQuantity "3" ;
+            ns2:ingredientName "water" ],
+        [ a <http://purl.org/recipekg/ingredient/FennelSeed> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "teaspoon" ;
+            ns2:ingredientName "fennel seed" ],
+        [ a <http://purl.org/recipekg/ingredient/BeanSprouts> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "bean sprouts" ],
+        [ a <http://purl.org/heals/ingredient/WhiteSugar> ;
+            ns2:hasQuantity "2" ;
+            ns2:hasUnit "tablespoon" ;
+            ns2:ingredientName "white sugar" ] ;
+    ns2:belongsTo <http://purl.org/recipekg/categories/soups-stews-and-chili/soup/noodle-soup/> ;
+    ns2:hasFSAScore 4 ;
+    ns2:hasNutritionalInformation [ a ns2:NutritionalInformation ;
+            ns2:hasCalorificData [ a ns2:CalorificData ;
+                    ns2:hasAmount "389.9"^^xsd:float ;
+                    ns2:hasUnit "calories" ] ;
+            ns2:hasCarbohydrateData [ a ns2:CarbohydrateData ;
+                    ns2:hasAmount "33.9"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasCholesterolData [ a ns2:CholesterolData ;
+                    ns2:hasAmount "88.6"^^xsd:float ;
+                    ns2:hasUnit "mg" ] ;
+            ns2:hasFatData [ a ns2:FatData ;
+                    ns2:hasAmount "14.5"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSAAmber ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasFiberData [ a ns2:FiberData ;
+                    ns2:hasAmount "1.4"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasProteinData [ a ns2:ProteinData ;
+                    ns2:hasAmount "30.0"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasSaturatedFatData [ a ns2:SaturatedFatData ;
+                    ns2:hasAmount "5.3"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSARed ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasSodiumData [ a ns2:SodiumData ;
+                    ns2:hasAmount "527.9"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSAAmber ;
+                    ns2:hasUnit "mg" ] ;
+            ns2:hasSugarData [ a ns2:SugarData ;
+                    ns2:hasAmount "4.4"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSAGreen ;
+                    ns2:hasUnit "g" ] ] ;
+    ns2:hasUSDAScore 4 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 23 ;
+            schema:ratingValue "4.478260869565218"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2014-07-25T06:23:29.000Z"^^schema:date ;
+    schema:name "Spicy Vietnamese Beef Noodle Soup"^^xsd:string ;
+    schema:recipeYield "8 servings"^^xsd:string .
+
+ns2:FSAGreen a ns2:FSAColor .
+
+ns2:FSARed a ns2:FSAColor .
+
+<http://purl.org/recipekg/categories/soups-stews-and-chili/> a ns2:RecipeCategory .
+
+<http://purl.org/recipekg/categories/soups-stews-and-chili/soup/> rdfs:subClassOf <http://purl.org/recipekg/categories/soups-stews-and-chili/> .
+
+<http://purl.org/recipekg/categories/soups-stews-and-chili/soup/noodle-soup/> rdfs:subClassOf <http://purl.org/recipekg/categories/soups-stews-and-chili/soup/> .
+
+ns2:FSAAmber a ns2:FSAColor .
+

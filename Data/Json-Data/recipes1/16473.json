@@ -1,0 +1,138 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/139/drinks/tea/",
+                    "name": "Tea",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17150/drinks/tea/hot/",
+                    "name": "Hot",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/283112/apple-ginger-tea/",
+        "name": "Apple-Ginger Tea",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8980816.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2011-01-01T15:11:55.000Z",
+        "description": "Delicious warm tea made with fresh ginger, green tea, and apple cider.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H20M",
+        "recipeYield": "1 serving",
+        "recipeIngredient": [
+            "8 ounces apple cider",
+            "1 (2 inch) piece fresh ginger, peeled and sliced",
+            "1 (2 g) bag green tea"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine apple cider and ginger in a saucepan; bring to a boil. Boil for 1 to 2 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place tea bag in a mug. Pour boiling cider into the mug, straining out the ginger slices. Steep for 1 to 2 minutes. Remove tea bag.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Tea",
+            "Hot"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Alison"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Apple-Ginger Tea",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "133.4 calories",
+            "carbohydrateContent": "33.1 g",
+            "cholesterolContent": null,
+            "fatContent": "0.1 g",
+            "fiberContent": "0.2 g",
+            "proteinContent": "0.2 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "27.4 mg",
+            "sugarContent": "27.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-01-30T23:18:35.753Z",
+                "reviewBody": "1.26.21  This really hit the spot with a piece of coffee cake on a very foggy Florida morning.  It\u2019s warming, packed with flavor, but although it\u2019s very good, it\u2019s on the sweet side for us.  I most certainly will make this again, but I\u2019ll replace some of the apple cider with water.  Thanks for sharing your recipe.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "lutzflcat",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/lutzflcat/"
+                }
+            }
+        ]
+    }
+]

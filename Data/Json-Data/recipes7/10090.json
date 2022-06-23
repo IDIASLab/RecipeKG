@@ -1,0 +1,159 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/139/drinks/tea/",
+                    "name": "Tea",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17150/drinks/tea/hot/",
+                    "name": "Hot",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/234703/emerald-drop-snow-tea/",
+        "name": "Emerald-Drop Snow Tea",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8132013.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-06-19T03:56:23.000Z",
+        "description": "This recipe was inspired by one of my favorite movies, Narnia: The Lion, the Witch, and the Wardrobe.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "3 cups hot water",
+            "2 tablespoons Italian red wine, or more to taste",
+            "2 tablespoons white sugar",
+            "\u00be teaspoon ground cinnamon",
+            "\u00bc teaspoon ground nutmeg",
+            "\u00bc teaspoon ground ginger",
+            "4 fresh spearmint leaves",
+            "1 leaf fresh mint leaf",
+            "\u00bd apple, cubed"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine water, red wine, sugar, cinnamon, nutmeg, ginger, spearmint leaves, and mint leaf in a saucepan; bring to a boil. Reduce heat to low and add apple to mixture. Simmer tea until apple breaks easily with a fork, about 5 minutes. Remove apple using a slotted spoon or strainer and pour tea into a mug.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Tea",
+            "Hot"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Whisker"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Emerald-Drop Snow Tea",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "85.5 calories",
+            "carbohydrateContent": "19 g",
+            "cholesterolContent": null,
+            "fatContent": "0.2 g",
+            "fiberContent": "1.7 g",
+            "proteinContent": "0.3 g",
+            "saturatedFatContent": "0.1 g",
+            "servingSize": null,
+            "sodiumContent": "13 mg",
+            "sugarContent": "16.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2013-10-22T21:35:17.19Z",
+                "reviewBody": "So tasty while the rain is falling outside and snow is around the corner! It smells and tastes great perfect for fall! Thanks Whisker!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Lucky Noodles",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/luckynoodles/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2020-05-17T01:56:44.97Z",
+                "reviewBody": "This is a nice warm drink. I added double the wine.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Tammy Lynn",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3084624/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,136 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/94/soups-stews-and-chili/",
+                    "name": "Soups, Stews and Chili Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/16369/soups-stews-and-chili/soup/",
+                    "name": "Soup Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/272387/yogurt-soup/",
+        "name": "Yogurt Soup",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6879090.jpg",
+            "width": 1196,
+            "height": 1196
+        },
+        "datePublished": "2019-07-10T07:13:25.000Z",
+        "description": "This is a Turkish yogurt soup that is really delicious and easy to cook.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H25M",
+        "totalTime": "P0DT0H35M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "4 cups whole milk",
+            "3 cups plain yogurt",
+            "2 egg yolks",
+            "5 tablespoons all-purpose flour",
+            "2 cups water",
+            "4 teaspoons chicken bouillon granules",
+            "2 tablespoons lemon juice",
+            "1 teaspoon salt",
+            "\u00bd teaspoon ground black pepper"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Beat milk, yogurt, egg yolks, and all-purpose flour in a large bowl with an electric mixer.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Meanwhile, bring water and chicken bouillon to a boil in a large soup pot. Reduce heat to medium-low and add yogurt mixture, lemon juice, salt, and pepper, stirring occasionally until mixture thickens, about 20 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Soups, Stews and Chili Recipes",
+            "Soup Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "shabnam"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Yogurt Soup",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "331.9 calories",
+            "carbohydrateContent": "32.9 g",
+            "cholesterolContent": "138.1 mg",
+            "fatContent": "13.4 g",
+            "fiberContent": "0.4 g",
+            "proteinContent": "20.2 g",
+            "saturatedFatContent": "7.3 g",
+            "servingSize": null,
+            "sodiumContent": "1187.2 mg",
+            "sugarContent": "24.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-07-29T00:22:34.197Z",
+                "reviewBody": "Easy light and delicious! Made exactly as written and the whole family loved it.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "fabeveryday",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/fabeveryday/"
+                }
+            }
+        ]
+    }
+]

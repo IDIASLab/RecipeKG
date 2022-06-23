@@ -1,0 +1,108 @@
+@prefix ns1: <http://purl.org/heals/food/> .
+@prefix ns2: <http://purl.org/recipekg/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/wilmas-clam-chowder> a schema:Recipe ;
+    ns1:hasIngredient [ a <http://purl.org/heals/ingredient/Parsley> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "tablespoon" ;
+            ns2:ingredientName "parsley" ],
+        [ a <http://purl.org/heals/ingredient/Onion> ;
+            ns2:hasQuantity "1" ;
+            ns2:ingredientName "onion" ],
+        [ a <http://purl.org/recipekg/ingredient/BaySeasoning> ;
+            ns2:hasQuantity "1/2" ;
+            ns2:hasUnit "teaspoon" ;
+            ns2:ingredientName "Bay Seasoning" ],
+        [ a <http://purl.org/heals/ingredient/BlackPepper> ;
+            ns2:ingredientName "black pepper" ],
+        [ a <http://purl.org/heals/ingredient/Butter> ;
+            ns2:hasQuantity "2" ;
+            ns2:hasUnit "tablespoon" ;
+            ns2:ingredientName "butter" ],
+        [ a <http://purl.org/heals/ingredient/Potato> ;
+            ns2:hasQuantity "4" ;
+            ns2:ingredientName "potato" ],
+        [ a <http://purl.org/heals/ingredient/Water> ;
+            ns2:hasQuantity "1/4" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "water" ],
+        [ a <http://purl.org/recipekg/ingredient/Clam> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "can" ;
+            ns2:ingredientName "clam" ],
+        [ a <http://purl.org/recipekg/ingredient/CelerySalt> ;
+            ns2:hasUnit "teaspoon" ;
+            ns2:ingredientName "celery salt" ],
+        [ a <http://purl.org/recipekg/ingredient/Milk> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "can" ;
+            ns2:ingredientName "milk" ],
+        [ a <http://purl.org/recipekg/ingredient/SaltineCrackers> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "saltine crackers" ],
+        [ a <http://purl.org/heals/ingredient/Thyme> ;
+            ns2:hasQuantity "1/4" ;
+            ns2:hasUnit "teaspoon" ;
+            ns2:ingredientName "thyme" ],
+        [ a <http://purl.org/recipekg/ingredient/Milk> ;
+            ns2:hasQuantity "2" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "milk" ] ;
+    ns2:belongsTo <http://purl.org/recipekg/categories/soups-stews-and-chili/chowders/clam-chowder/> ;
+    ns2:hasFSAScore 2 ;
+    ns2:hasNutritionalInformation [ a ns2:NutritionalInformation ;
+            ns2:hasCalorificData [ a ns2:CalorificData ;
+                    ns2:hasAmount "559.1"^^xsd:float ;
+                    ns2:hasUnit "calories" ] ;
+            ns2:hasCarbohydrateData [ a ns2:CarbohydrateData ;
+                    ns2:hasAmount "70.1"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasCholesterolData [ a ns2:CholesterolData ;
+                    ns2:hasAmount "83.4"^^xsd:float ;
+                    ns2:hasUnit "mg" ] ;
+            ns2:hasFatData [ a ns2:FatData ;
+                    ns2:hasAmount "18.5"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSARed ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasFiberData [ a ns2:FiberData ;
+                    ns2:hasAmount "5.9"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasProteinData [ a ns2:ProteinData ;
+                    ns2:hasAmount "28.7"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasSaturatedFatData [ a ns2:SaturatedFatData ;
+                    ns2:hasAmount "10.0"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSARed ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasSodiumData [ a ns2:SodiumData ;
+                    ns2:hasAmount "618.8"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSAAmber ;
+                    ns2:hasUnit "mg" ] ;
+            ns2:hasSugarData [ a ns2:SugarData ;
+                    ns2:hasAmount "18.1"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSAAmber ;
+                    ns2:hasUnit "g" ] ] ;
+    ns2:hasUSDAScore 2 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 12 ;
+            schema:ratingValue "4.083333333333333"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "1999-07-02T02:28:23.000Z"^^schema:date ;
+    schema:name "Wilma's Clam Chowder"^^xsd:string ;
+    schema:recipeYield "4 servings"^^xsd:string .
+
+<http://purl.org/recipekg/categories/soups-stews-and-chili/> a ns2:RecipeCategory .
+
+<http://purl.org/recipekg/categories/soups-stews-and-chili/chowders/> rdfs:subClassOf <http://purl.org/recipekg/categories/soups-stews-and-chili/> .
+
+<http://purl.org/recipekg/categories/soups-stews-and-chili/chowders/clam-chowder/> rdfs:subClassOf <http://purl.org/recipekg/categories/soups-stews-and-chili/chowders/> .
+
+ns2:FSAAmber a ns2:FSAColor .
+
+ns2:FSARed a ns2:FSAColor .
+

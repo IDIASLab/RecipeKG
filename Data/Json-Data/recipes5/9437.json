@@ -1,0 +1,137 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/81/side-dish/",
+                    "name": "Side Dish",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/270629/spicy-edamame/",
+        "name": "Spicy Edamame",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6506112.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2019-09-06T22:50:41.000Z",
+        "description": "A unique twist to traditional edamame. We had this at a restaurant and found oyster sauce is the key to this dish!",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "1 (10 ounce) package frozen shelled edamame",
+            "2 tablespoons sesame oil",
+            "2 tablespoons apple cider vinegar",
+            "2 tablespoons oyster sauce",
+            "1 tablespoon sriracha sauce",
+            "1 tablespoon sesame seeds",
+            "\u00bc teaspoon red pepper flakes, or to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat a saute pan over high heat. Add edamame, sesame oil, vinegar, oyster sauce, sriracha sauce, and sesame seeds. Cook, stirring frequently, until sauce coats all pods evenly, 3 to 5 minutes. Let cool for 5 minutes. Sprinkle with red pepper flakes before serving.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Side Dish"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "BandC"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 2,
+            "itemReviewed": "Spicy Edamame",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "364.9 calories",
+            "carbohydrateContent": "18.3 g",
+            "cholesterolContent": null,
+            "fatContent": "25.6 g",
+            "fiberContent": "6.9 g",
+            "proteinContent": "19.3 g",
+            "saturatedFatContent": "3.4 g",
+            "servingSize": null,
+            "sodiumContent": "449.5 mg",
+            "sugarContent": "0.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-04-03T10:20:01.4Z",
+                "reviewBody": "Perfect as written. No changes necessary.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2021-04-20T07:31:55.323Z",
+                "reviewBody": "This was a good starting point. I had to make a few adjustments.  I had to cut down on the sesame oil and used about half with canola oil to make up the difference. I added a tablespoon of minced garlic and two tablespoons of hoisin sauce for a little sweetness.  It really was close to the spicy edamame at my wife\u2019s favorite restaurant.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "TomDL",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/27307476/"
+                }
+            }
+        ]
+    }
+]

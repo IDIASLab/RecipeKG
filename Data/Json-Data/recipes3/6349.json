@@ -1,0 +1,152 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/105/appetizers-and-snacks/dips-and-spreads/",
+                    "name": "Dips and Spreads Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/436/appetizers-and-snacks/dips-and-spreads/salsa/",
+                    "name": "Salsa Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/109916/jesses-hot-sauce/",
+        "name": "Jesse's Hot Sauce",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4884269.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2018-06-08T13:30:30.000Z",
+        "description": "I'm a chile pepper nut from South Carolina.  This is an awesome recipe I adapted from a Chilihead in East Texas; it's great if you like fresh salsa.  This can be eaten with tortilla chips or as a soup!",
+        "prepTime": "P0DT0H50M",
+        "cookTime": "P0DT0H45M",
+        "totalTime": "P0DT1H35M",
+        "recipeYield": "24 servings",
+        "recipeIngredient": [
+            "1 pound bacon, diced",
+            "1 red onion, diced",
+            "1 tablespoon minced garlic",
+            "1 bunch green onions, sliced",
+            "2 green bell peppers, chopped",
+            "2 yellow bell peppers chopped",
+            "8 jalapeno or serrano peppers, chopped",
+            "2 poblano peppers, chopped",
+            "\u00bd cup sliced mushrooms",
+            "8 roma tomatoes, diced",
+            "2 (10 ounce) cans diced tomatoes with green chile peppers, drained",
+            "1 teaspoon lime juice",
+            "\u00be cup chopped cilantro",
+            "2 teaspoons salt",
+            "2 teaspoons black pepper"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Cook bacon in a large skillet over medium heat until it releases it's oil and begins to crisp.  Strain out bacon, and pour off all but 1 tablespoon of bacon grease.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Stir in the red onion, garlic, green onions, green bell peppers, yellow bell peppers, jalapeno peppers, poblano peppers, mushrooms, and roma tomatoes.  Pour in the canned tomatoes and lime juice.  Season with cilantro, salt, and black pepper. Bring to a boil, and then reduce heat to medium-low; simmer until the sauce reaches desired consistency.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks",
+            "Dips and Spreads Recipes",
+            "Salsa Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Suzanne H Price"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Jesse's Hot Sauce",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "107.5 calories",
+            "carbohydrateContent": "4.8 g",
+            "cholesterolContent": "12.9 mg",
+            "fatContent": "8.7 g",
+            "fiberContent": "1.4 g",
+            "proteinContent": "3.2 g",
+            "saturatedFatContent": "2.9 g",
+            "servingSize": null,
+            "sodiumContent": "449.6 mg",
+            "sugarContent": "1.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-01-02T04:09:08.22Z",
+                "reviewBody": "I'm torn with how to rate this recipe. For the record I made this exactly as written leaving out the optional mushrooms. While the flavor is good there isn't anything \"sauce\" about this recipe and you sure couldn't eat it as a soup like the recipe submitter mentions. Was there a blending step that was left out perhaps? As written you will end up with a warm pico de gallo which is fine but don't count on a sauce.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

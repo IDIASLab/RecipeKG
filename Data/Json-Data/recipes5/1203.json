@@ -1,0 +1,96 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/273144/prune-breakfast-bites/",
+        "name": "Prune Breakfast Bites",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6085170.jpg",
+            "width": 1440,
+            "height": 2560
+        },
+        "datePublished": "2019-05-02T22:22:14.000Z",
+        "description": "Prune and oat breakfast add-on. Keep refrigerated.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "16 breakfast bites",
+        "recipeIngredient": [
+            "25 pitted prunes",
+            "1 cup rolled oats",
+            "1 cup unsweetened shredded coconut"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine prunes, oats, and coconut in a food processor. Process until prunes soften and mixture comes together like a dough. Roll into bite-sized pieces.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Sarabeth Emet"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Prune Breakfast Bites",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "88.9 calories",
+            "carbohydrateContent": "13 g",
+            "cholesterolContent": null,
+            "fatContent": "4.1 g",
+            "fiberContent": "2.4 g",
+            "proteinContent": "1.4 g",
+            "saturatedFatContent": "3.4 g",
+            "servingSize": null,
+            "sodiumContent": "3 mg",
+            "sugarContent": "6.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

@@ -1,0 +1,149 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/258/main-dish/roasts/",
+                    "name": "Roast Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/281532/smoked-brisket/",
+        "name": "Smoked Brisket",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Smoked Brisket"
+        },
+        "datePublished": "2014-10-04T13:11:55.000Z",
+        "description": "This smoked brisket recipe is awesome. Love it! Every time I make this it is a huge success. Slice and serve with your favorite barbecue sauce.",
+        "prepTime": null,
+        "cookTime": null,
+        "totalTime": null,
+        "recipeYield": "8 servings",
+        "recipeIngredient": [
+            "hickory wood chips",
+            "2 tablespoons dried rosemary",
+            "2 tablespoons paprika",
+            "2 tablespoons ground black pepper",
+            "2 tablespoons dried garlic flakes",
+            "1 teaspoon salt",
+            "1 (4 pound) beef brisket"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Soak wood chips in water for at least 1 hour.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Preheat a smoker to 225 to 250 degrees F (107 to 121 degrees C) according to manufacturer's instructions. Maintain temperature for 15 to 20 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Meanwhile, combine rosemary, paprika, pepper, garlic flakes, and salt. Rub mixture over brisket.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Drain wood chips and place on coals. Place a water pan on the smoker and add water to the depth of the fill line. Place brisket on the lower cooking grate and cover with the smoker lid.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Smoke brisket, maintaining the smoker's internal temperature at 225 to 250 degrees F (107 to 121 degrees F) until an instant-read thermometer inserted into the thickest part registers at least 165 degrees F (74 degrees C), about 3 hours.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Remove brisket from the smoker and place on a sheet of heavy-duty aluminum foil. Wrap tightly and return to the smoker. Smoke until an instant-read thermometer registers between 195 and 205 degrees F (91 and 96 degrees C), about 2 hours.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Roast Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "matt cella"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Smoked Brisket",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "149.6 calories",
+            "carbohydrateContent": "6 g",
+            "cholesterolContent": "45.6 mg",
+            "fatContent": "4.8 g",
+            "fiberContent": "1.8 g",
+            "proteinContent": "20.8 g",
+            "saturatedFatContent": "1.9 g",
+            "servingSize": null,
+            "sodiumContent": "1540 mg",
+            "sugarContent": "0.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-11-05T13:47:29.32Z",
+                "reviewBody": "The brisket was ok but I will not try this recipe again. What made it bad was the rub. Though this is my first time doing a brisket a different rub would have made a very big difference.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Daniel Nilssen",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/23367475/"
+                }
+            }
+        ]
+    }
+]

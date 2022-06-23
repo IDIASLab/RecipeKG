@@ -1,0 +1,130 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/15667/wassail-ii/",
+        "name": "Wassail II",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F935970.jpg",
+            "width": 250,
+            "height": 250
+        },
+        "datePublished": "1999-12-22T19:09:58.000Z",
+        "description": "A non-alcoholic version which may be served from a 30 cup electric coffee server.  Use between 2 and 3 cinnamon sticks, to suit your tastes.",
+        "prepTime": null,
+        "cookTime": null,
+        "totalTime": null,
+        "recipeYield": "1 gallon",
+        "recipeIngredient": [
+            "2 cups cranberry juice",
+            "\u2154 cup white sugar",
+            "7 cups water",
+            "2 cinnamon sticks",
+            "1 tablespoon whole allspice",
+            "1 tablespoon whole cloves",
+            "2 (20 ounce) cans pineapple juice",
+            "6 fluid ounces frozen concentrated fruit punch",
+            "1 (6 ounce) can frozen orange juice concentrate"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "In a large pot over medium heat, combine the cranberry juice, sugar and water. Bring to a boil and stir until sugar is dissolved.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place the cinnamon, allspice and clove into a cheesecloth bag and tie shut. Add to the liquid and simmer 20 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Remove spice bag. Just before serving, add fruit juices. Serve steaming hot.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Marc Boyer"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Wassail II",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "66.1 calories",
+            "carbohydrateContent": "16.5 g",
+            "cholesterolContent": null,
+            "fatContent": "0.1 g",
+            "fiberContent": "0.4 g",
+            "proteinContent": "0.3 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "2.3 mg",
+            "sugarContent": "14.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2003-12-03T14:22:28.67Z",
+                "reviewBody": "Fairly good but I'm still looking for a keeper.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Lynn Small",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/181365/"
+                }
+            }
+        ]
+    }
+]

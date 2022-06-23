@@ -1,0 +1,193 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/134/drinks/coffee/",
+                    "name": "Coffee Drinks Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/16809/drinks/coffee/lattes/",
+                    "name": "Latte Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/264230/iced-almond-milk-nutella-latte/",
+        "name": "Iced Almond Milk Nutella\u00ae Latte",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8182401.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2018-04-28T06:23:59.000Z",
+        "description": "Traditional mocha latte with almond milk and a Nutella\u00ae twist! Adjust the amount of Nutella\u00ae according to how sweet you like your latte.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H35M",
+        "recipeYield": "1 latte",
+        "recipeIngredient": [
+            "2 shots brewed espresso",
+            "\u00bd tablespoon chocolate-hazelnut spread (such as Nutella\u00ae)",
+            "\u00bd cup skim milk",
+            "\u00bc cup almond milk creamer",
+            "ice cubes"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine hot espresso and chocolate-hazelnut spread in a large cup and stir until melted. Cover and refrigerate until chilled, at least 30 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Add skim milk, almond milk creamer, and ice to the espresso mixture and mix.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Coffee Drinks Recipes",
+            "Latte Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Tyler"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 4,
+            "itemReviewed": "Iced Almond Milk Nutella\u00ae Latte",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "180.7 calories",
+            "carbohydrateContent": "26.5 g",
+            "cholesterolContent": "2.5 mg",
+            "fatContent": "6.4 g",
+            "fiberContent": null,
+            "proteinContent": "4.7 g",
+            "saturatedFatContent": "0.4 g",
+            "servingSize": null,
+            "sodiumContent": "147 mg",
+            "sugarContent": "10.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-05-06T15:03:36.837Z",
+                "reviewBody": "Flawless recipe! I used coffee ice cubes. This was delicious with almond milk. I also made one with horchata. That was pretty awesome too. Thank you for the versatile recipe.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Buckwheat Queen",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/melaniegiovenzana/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2020-05-29T21:42:23.73Z",
+                "reviewBody": "Delicious! I used SF Hazelnut creamer in place of the almond creamer, as that is what I had on hand. I love this for an afternoon pick-me-up treat!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Kim's Cooking Now",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/kimscookingnow/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2018-05-16T01:22:36.837Z",
+                "reviewBody": "GREAT DRINK!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Erica",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/23650289/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2018-09-24T10:20:03.007Z",
+                "reviewBody": "I used hazelnut spread in mine and regular almond milk with a bit of Vanila creamer omg yum I'm so doing this again thanks for the recipe",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Alex Martini",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/24217039/"
+                }
+            }
+        ]
+    }
+]

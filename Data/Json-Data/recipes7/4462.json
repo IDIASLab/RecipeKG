@@ -1,0 +1,117 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/372/desserts/candy/",
+                    "name": "Candy Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/212992/filipino-polvoron/",
+        "name": "Filipino Polvoron",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Filipino Polvoron"
+        },
+        "datePublished": "2020-06-19T03:41:19.000Z",
+        "description": "Polvoron are Filipino milk candies that you can get in all different flavors in the Philippines. You need a polvoron mold to shape them.",
+        "prepTime": "P0DT1H0M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT1H20M",
+        "recipeYield": "20 candies",
+        "recipeIngredient": [
+            "2 cups all-purpose flour",
+            "2 cups unsalted butter, melted",
+            "1 cup white sugar",
+            "1 cup powdered milk",
+            "1 tablespoon lemon extract"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Toast the flour in a non-stick skillet over medium heat, stirring constantly to prevent burning, until it turns light brown, about 5 minutes. Let cool, at least 15 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cut waxed paper into twenty 4-inch squares.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Stir butter, sugar, powdered milk, and lemon extract into the flour. Mix well. Fill a polvoron mold tightly with a portion of the mixture. Press the plunger down to release the candy onto a square of waxed paper. Wrap candy in the waxed paper and twist the ends. Repeat until all of the candy mixture is used up.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Candy Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "lola"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Filipino Polvoron",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "280.4 calories",
+            "carbohydrateContent": "22 g",
+            "cholesterolContent": "55 mg",
+            "fatContent": "20.2 g",
+            "fiberContent": "0.3 g",
+            "proteinContent": "3.2 g",
+            "saturatedFatContent": "12.8 g",
+            "servingSize": null,
+            "sodiumContent": "26.5 mg",
+            "sugarContent": "12.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

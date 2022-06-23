@@ -1,0 +1,165 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/231/world-cuisine/european/",
+                    "name": "European",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/722/world-cuisine/european/german/",
+                    "name": "German",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/236619/slow-cooker-knockwurst-with-sauerkraut-and-apples/",
+        "name": "Slow Cooker Knockwurst with Sauerkraut and Apples",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2628088.jpg",
+            "width": 2044,
+            "height": 2044
+        },
+        "datePublished": "2019-04-02T07:02:47.000Z",
+        "description": "Wonderfully warm German comfort food that's a cinch to prepare.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT6H0M",
+        "totalTime": "P0DT6H5M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "1 (20 ounce) can sauerkraut",
+            "1 (16 ounce) package knockwurst",
+            "1 cup dark German beer",
+            "3 apples, peeled and cored"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Spread sauerkraut into the bottom of a slow cooker crock. Arrange knockwurst atop the sauerkraut. Pour beer over the knockwurst.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cook on Low for 5 hours.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Put apples into the slow cooker and continue cooking for 1 hour more.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "European",
+            "German"
+        ],
+        "recipeCuisine": [
+            "European",
+            "German"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Shannon Pedigo Skaggs"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 2,
+            "itemReviewed": "Slow Cooker Knockwurst with Sauerkraut and Apples",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "453.4 calories",
+            "carbohydrateContent": "26.2 g",
+            "cholesterolContent": "68 mg",
+            "fatContent": "31.8 g",
+            "fiberContent": "6.2 g",
+            "proteinContent": "14.4 g",
+            "saturatedFatContent": "11.7 g",
+            "servingSize": null,
+            "sodiumContent": "1982.2 mg",
+            "sugarContent": "13 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2015-10-08T23:22:08.417Z",
+                "reviewBody": "I really liked this (my kids, not so much). I don't care for dark beer, so I used a \"German style lager\" that I picked up at Aldi. It was just the right amount of beer taste for me. I would make this again!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Kim's Cooking Now",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/kimscookingnow/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2020-03-02T08:00:09.577Z",
+                "reviewBody": "Made this recipe for an international potluck dinner. I used Granny Smith apples and the only change I would make is to use a sweet apple next time to balance flavor.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Cathy",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/14048924/"
+                }
+            }
+        ]
+    }
+]

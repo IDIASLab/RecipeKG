@@ -1,0 +1,150 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/94/soups-stews-and-chili/",
+                    "name": "Soups, Stews and Chili Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/183/soups-stews-and-chili/stews/",
+                    "name": "Stews",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1785/soups-stews-and-chili/stews/irish-stew/",
+                    "name": "Irish Stew Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/220521/moogies-cashoop-stew/",
+        "name": "Moogie's Cashoop Stew",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3994852.jpg",
+            "width": 960,
+            "height": 960
+        },
+        "datePublished": "2014-08-31T06:01:14.000Z",
+        "description": "My son Xander's favorite meal. Fried ring bologna, potatoes, and onions simmered in spaghetti sauce. Irish dish, made for American taste buds. You may also use tomato sauce and spice it as you like it. Good with buttered bread or dinner rolls.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H25M",
+        "totalTime": "P0DT0H35M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "1 tablespoon butter",
+            "1 (16 ounce) package ring bologna, sliced",
+            "6 potatoes, peeled and cut into chunks",
+            "1 onion, sliced",
+            "2 (14 ounce) jars meatless spaghetti sauce"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Melt butter in a saucepan over medium heat.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cook and stir ring bologna slices and onion in melted butter until lightly browned, 5 to 7 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Stir potato chunks into the bologna mixture.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour the spaghetti sauce into the saucepan; stir. Bring the mixture to a simmer and cook until the potatoes are tender, about 20 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Soups, Stews and Chili Recipes",
+            "Stews",
+            "Irish Stew Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Moogie"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.3333333333333335,
+            "ratingCount": 3,
+            "itemReviewed": "Moogie's Cashoop Stew",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "819.6 calories",
+            "carbohydrateContent": "91 g",
+            "cholesterolContent": "81.9 mg",
+            "fatContent": "40.7 g",
+            "fiberContent": "13.1 g",
+            "proteinContent": "24 g",
+            "saturatedFatContent": "15.9 g",
+            "servingSize": null,
+            "sodiumContent": "1783.3 mg",
+            "sugarContent": "24.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-10-28T05:59:49.83Z",
+                "reviewBody": "A nice way to serve ring bologna as a comforting main meal. I'd make this again.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Paula",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3232000/"
+                }
+            }
+        ]
+    }
+]

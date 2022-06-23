@@ -1,0 +1,144 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/152/breakfast-and-brunch/potatoes/",
+                    "name": "Potatoes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/242100/eggs-n-fries/",
+        "name": "Eggs n' Fries",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2217331.jpg",
+            "width": 2272,
+            "height": 1704
+        },
+        "datePublished": "2018-06-08T14:20:47.000Z",
+        "description": "I just don't like eating plain eggs, so when I got this recipe from my grandmother it immediately became my favorite breakfast food.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "1 serving",
+        "recipeIngredient": [
+            "1 teaspoon butter, or to taste",
+            "\u00bc cup frozen French fries, or to taste",
+            "2 eggs, beaten",
+            "1 pinch salt and ground black pepper to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Melt butter in a skillet over medium heat. Cook and stir French fries in hot butter until browned and hot, 3 to 5 minutes. Add eggs and season with salt and black pepper; cook and stir until eggs are scrambled and set, 3 to 5 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Potatoes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Chelsea Goldman"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 4,
+            "itemReviewed": "Eggs n' Fries",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "212.3 calories",
+            "carbohydrateContent": "6.4 g",
+            "cholesterolContent": "382.8 mg",
+            "fatContent": "15.1 g",
+            "fiberContent": "0.4 g",
+            "proteinContent": "13.1 g",
+            "saturatedFatContent": "5.9 g",
+            "servingSize": null,
+            "sodiumContent": "399.4 mg",
+            "sugarContent": "0.8 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2016-04-06T17:24:45.997Z",
+                "reviewBody": "Great combination! I ate mine with some Greek seasoning sprinkled on it. I'm going to try making the fries with a potato next time.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Yop",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/yoppayohannsen/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2020-05-08T05:37:59.453Z",
+                "reviewBody": "Pretty good! Had lot of leftover fries, so this worked well. Made it just for me and I liked it. I made mine with leftover, not frozen fries. Worked well! Lends itself to any seasonings you fancy.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "liederlover",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3835608/"
+                }
+            }
+        ]
+    }
+]

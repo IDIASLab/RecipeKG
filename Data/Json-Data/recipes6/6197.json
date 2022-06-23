@@ -1,0 +1,129 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/143/breakfast-and-brunch/drinks/",
+                    "name": "Drinks",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/279170/green-protein-smoothie/",
+        "name": "Green Protein Smoothie",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7793771.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-03-14T09:26:02.000Z",
+        "description": "This minty green smoothie is packed with protein from spinach, soy milk, and almonds.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "1 smoothie",
+        "recipeIngredient": [
+            "\u00bd cup soy milk",
+            "\u00bd cup fresh spinach",
+            "1 scoop vanilla protein powder",
+            "\u215b cup fresh mint leaves",
+            "1 tablespoon almonds",
+            "5 cubes  ice, or more to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine soy milk, spinach, protein powder, mint leaves, almonds, and ice in a blender cup; blend until smooth.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Drinks"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Yoly"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Green Protein Smoothie",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "282 calories",
+            "carbohydrateContent": "13.6 g",
+            "cholesterolContent": "12.5 mg",
+            "fatContent": "6.5 g",
+            "fiberContent": "2 g",
+            "proteinContent": "43.6 g",
+            "saturatedFatContent": "1.7 g",
+            "servingSize": null,
+            "sodiumContent": "297.5 mg",
+            "sugarContent": "6.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-04-20T22:35:48.923Z",
+                "reviewBody": "Since I didn\u2019t have vanilla protein I used my Vega Orange Ginger Protein Smoothie powder along with 2 tbsp So Delicious Dairy Free Coconut Milk yogurt, 1 tbsp Chia seeds and used coconut milk instead of soy.  Very tasty recipe, thank you.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Stacey",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/16716353/"
+                }
+            }
+        ]
+    }
+]

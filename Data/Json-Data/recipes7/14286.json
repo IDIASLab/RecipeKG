@@ -1,0 +1,131 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/143/breakfast-and-brunch/drinks/",
+                    "name": "Drinks",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/247274/healthy-fruit-and-vegetable-smoothie/",
+        "name": "Healthy Fruit and Vegetable Smoothie",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4470024.jpg",
+            "width": 3264,
+            "height": 1836
+        },
+        "datePublished": "2020-06-19T04:06:55.000Z",
+        "description": "A great mix of fruits and vegetables to get started in the morning or post workout that still tastes awesome.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "1 smoothie",
+        "recipeIngredient": [
+            "6 fluid ounces milk",
+            "1 (6 ounce) container plain yogurt",
+            "\u00bd cup frozen strawberries",
+            "\u00bd frozen banana",
+            "\u00bc cup frozen blueberries",
+            "1 green ice cube (see footnote)",
+            "2 tablespoons whey protein powder",
+            "1 teaspoon honey, or to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine milk, yogurt, strawberries, banana, blueberries, green ice cube, whey, and honey in a blender, in the order listed. Blend until smooth.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Drinks"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Allrecipes Member"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Healthy Fruit and Vegetable Smoothie",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "372.2 calories",
+            "carbohydrateContent": "63.2 g",
+            "cholesterolContent": "25.6 mg",
+            "fatContent": "6.8 g",
+            "fiberContent": "4 g",
+            "proteinContent": "18.1 g",
+            "saturatedFatContent": "4.2 g",
+            "servingSize": null,
+            "sodiumContent": "357.9 mg",
+            "sugarContent": "51.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-02-09T06:15:02.527Z",
+                "reviewBody": "Overall this was good. I plan to make it again but I will cut back on the milk. I thought it really only needed a couple tablespoons. With the yogurt included it was too milky for me. I didn't make the veggie cubes but I really like that idea and plan to try it. Instead I just used a little bit of fresh spinach and avocado. It made quite a big serving that I drank for lunch. Thanks! PS: I just realized I forgot to add the blueberries. It made such a large serving I didn't really need them but blueberries would have probably made the color a little prettier.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Tammy Lynn",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3084624/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,186 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/152/breakfast-and-brunch/potatoes/",
+                    "name": "Potatoes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/216670/spanish-style-scrambled-eggs/",
+        "name": "Spanish-Style Scrambled Eggs",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F573487.jpg",
+            "width": 250,
+            "height": 250
+        },
+        "datePublished": "2016-06-04T13:55:42.000Z",
+        "description": "The addition of potatoes, leeks and shrimp make a filling meal of scrambled eggs.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H20M",
+        "totalTime": "P0DT0H35M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "3 tablespoons olive oil",
+            "2 unpeeled potatoes, diced",
+            "1 leek, thinly sliced",
+            "1 clove garlic, chopped",
+            "4 eggs",
+            "3 tablespoons milk",
+            "5 ounces uncooked medium shrimp, peeled and deveined",
+            "1 dash hot pepper sauce (such as Tabasco\u00ae)"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat olive oil in a skillet over medium heat. Cook the potatoes until just starting to turn tender, stirring occasionally, about 10 minutes. Stir in leek and garlic; cook until the white parts of the leek are translucent, about 5 more minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "In a bowl, beat together eggs and milk until well combined. Stir the shrimp into the skillet with the potatoes and leek, then pour the egg mixture into the skillet. Reduce heat to medium-low, and cook gently, stirring the eggs frequently, until the curds of egg are almost dry and the shrimp are pink and opaque, about 3 minutes. Sprinkle with hot pepper sauce to serve.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Potatoes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "purplerose"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.6,
+            "ratingCount": 5,
+            "itemReviewed": "Spanish-Style Scrambled Eggs",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "580.9 calories",
+            "carbohydrateContent": "45.8 g",
+            "cholesterolContent": "480.1 mg",
+            "fatContent": "31.6 g",
+            "fiberContent": "5.5 g",
+            "proteinContent": "29.8 g",
+            "saturatedFatContent": "6.4 g",
+            "servingSize": null,
+            "sodiumContent": "297 mg",
+            "sugarContent": "5.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2011-02-11T00:16:41.78Z",
+                "reviewBody": "This recipe is so different - I just had to try it. The shrimp was a great addition to an old standby. I also added cumin and bacon and cooked the potatoes in bacon grease - YUM!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Jewel Love",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/6543446/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2011-02-04T17:33:27.563Z",
+                "reviewBody": "Delicious!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Akfaye",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/29269/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2011-02-23T01:17:40.84Z",
+                "reviewBody": "Not as good as I expected it to be. Was edible and not bad but for all the prep time and cook time involved I thought it would be better. Won't make this again. Also recipe was bland and that is coming from someone who does not eat much salt.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 2
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Lamaha",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2461702/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2014-07-08T08:54:18.303Z",
+                "reviewBody": "This recipe was okay. It was certainly hearty but having seen the reviews I followed the recipe to the letter yet added cumin basil salt pepper and coriander powder as well and I have to say it was still verging on bland. Don't think that for the work involved to deliciousness ratio I would make it again.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Michelle Aguilar",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/13870794/"
+                }
+            }
+        ]
+    }
+]

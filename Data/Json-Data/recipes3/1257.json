@@ -1,0 +1,259 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/133/drinks/cocktails/",
+                    "name": "Cocktail Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1743/drinks/cocktails/vodka-drinks/",
+                    "name": "Vodka Drinks Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/40302/bloody-mary/",
+        "name": "Bloody Mary",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2072983.jpg",
+            "width": 2134,
+            "height": 1966
+        },
+        "datePublished": "2018-05-04T13:00:59.000Z",
+        "description": "A simple twist on a traditional drink. Serve chilled, and garnish with celery stalks and green olives.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "8 servings",
+        "recipeIngredient": [
+            "6 cups tomato-vegetable juice cocktail",
+            "2 cups vodka",
+            "\u2153 cup dill pickle juice",
+            "1 tablespoon hot pepper sauce",
+            "2 teaspoons celery salt",
+            "1 teaspoon dried dill weed",
+            "1 teaspoon garlic salt"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "In a blender, combine tomato-vegetable juice, vodka, pickle juice and hot sauce. Season with celery salt, dill weed and garlic salt. Blend until smooth. Pour into glasses over ice, and serve.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Cocktail Recipes",
+            "Vodka Drinks Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Genevieve"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.2222222222222223,
+            "ratingCount": 9,
+            "itemReviewed": "Bloody Mary",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "175.7 calories",
+            "carbohydrateContent": "7.9 g",
+            "cholesterolContent": "0 mg",
+            "fatContent": "0.1 g",
+            "fiberContent": "1.5 g",
+            "proteinContent": "1.6 g",
+            "saturatedFatContent": "0 g",
+            "servingSize": null,
+            "sodiumContent": "1259.9 mg",
+            "sugarContent": "5.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2003-12-07T22:24:53.903Z",
+                "reviewBody": "This is alright I liked the addition of garlic but not so much the dill or pickle juice. I'll stick to leaving the pickle as a garnish. Thanks anyway Genevieve.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "I'm nuts too",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/610376/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2006-03-08T18:04:43.373Z",
+                "reviewBody": "Here's another suggestion: I saw an episode of \"Paula's Home Cooking\" yesterday and she put ground beef boullion on the rim of the Bloody Mary glass!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "77heidi",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/1545517/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2003-12-07T22:24:53.607Z",
+                "reviewBody": "This recipe for a Bloody Mary tasted okay but the dill was too much.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Babz",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/529205/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2008-04-08T23:08:18.663Z",
+                "reviewBody": "Pretty good.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "spacey",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2759178/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2006-08-16T23:38:11.797Z",
+                "reviewBody": "This was my second Bloody Mary ever so I am not the best judge but I like it! As someone suggested I didn't add the dill - I'm not a big dill fan. And I used the celery salt on the rim instead of in the drink as was done when I ordered the Bloody Mary at a resturant. I garnished it with green olives and a pepperchini. Also I used straight tomato juice and I think it would be better with the tomato vegetable juice as suggested.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Christina",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/1378037/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2004-05-06T16:04:51.373Z",
+                "reviewBody": "Genevieve this is a good base for Bloody Marys! I love the addition of dill I also add a touch of horseradish and worstershire sauce and a dash of black pepper. Try lining the rim of your glass with lime juice and Old Bay seasoning.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Heather",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/1084790/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2011-08-09T19:08:31.89Z",
+                "reviewBody": "I agree the dill is a bit much for my liking. But I did find the pickle juice interesting thank you Genevieve. I used tequila instead of vodka and turned it into a Bloody Maria. I think tequila complements the spices so much better than vodka. I've converted almost everyone I know into staunch \"Maria\" lovers even the ones who say they hate tequila!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "lucylove",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/lucylove/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2015-02-17T22:03:49.413Z",
+                "reviewBody": "Nice and simple. Love it!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Boomer Seesz",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/14721100/"
+                }
+            }
+        ]
+    }
+]

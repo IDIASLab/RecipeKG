@@ -1,0 +1,150 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/215/salad/pasta-salad/",
+                    "name": "Pasta Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/16204/salad/pasta-salad/farfalle-pasta-salad/",
+                    "name": "Farfalle Pasta Salad Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/92545/pretty-crawfish-pasta/",
+        "name": "Pretty Crawfish Pasta",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2241308.jpg",
+            "width": 2448,
+            "height": 2449
+        },
+        "datePublished": "2018-03-21T16:49:50.000Z",
+        "description": "This works well for a quick supper or light lunch with the ladies. A blend of pasta, herbed dressing, crawfish and veggies.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H30M",
+        "totalTime": "P0DT0H45M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "1 (16 ounce) package farfalle (bow tie) pasta",
+            "1 bunch fresh asparagus, trimmed and cut into 2 inch pieces",
+            "1 tablespoon olive oil",
+            "1 small red onion, chopped",
+            "1 red or green bell pepper, chopped",
+            "1 (8 ounce) package sliced fresh mushrooms",
+            "1 pint grape tomatoes, halved",
+            "1 pound peeled crawfish tails",
+            "\u00be cup herbed vinaigrette salad dressing, or to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Bring a large pot of lightly salted water to a boil. Add farfalle pasta, and cook until tender, about 8 minutes. Drain. Place a separate pan of water on to boil. Add asparagus, and cook until tender and bright green, about 3 minutes depending on thickness. Drain, and place into ice water to stop the cooking process.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat the olive oil in a large skillet over medium-high heat. Add the onion and bell pepper; cook and stir for about 5 minutes. Add the mushrooms and crawfish tails; cook and stir for another 10 minutes. Add the asparagus and grape tomatoes to the pan, and cook for a couple of minutes. Remove from the heat and transfer to a large serving bowl.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Mix pasta into the serving bowl along with the vinaigrette dressing. Serve immediately, or refrigerate and serve chilled.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad",
+            "Pasta Salad",
+            "Farfalle Pasta Salad Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Linda"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.5,
+            "ratingCount": 2,
+            "itemReviewed": "Pretty Crawfish Pasta",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "420.7 calories",
+            "carbohydrateContent": "71.6 g",
+            "cholesterolContent": "81 mg",
+            "fatContent": "5.2 g",
+            "fiberContent": "5.6 g",
+            "proteinContent": "23.9 g",
+            "saturatedFatContent": "0.9 g",
+            "servingSize": null,
+            "sodiumContent": "559.1 mg",
+            "sugarContent": "14.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2007-05-02T17:15:19.003Z",
+                "reviewBody": "This recipe is very easy to make and is very tasty and fresh. The key is the vinaigrette that you use as everything absorbs the flavor. I used less dressing than the recipe calls for as well to avoid overpowering the other flavors.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Bri",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/1818377/"
+                }
+            }
+        ]
+    }
+]

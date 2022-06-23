@@ -1,0 +1,92 @@
+@prefix ns1: <http://purl.org/recipekg/> .
+@prefix ns2: <http://purl.org/heals/food/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/mini-gouda-stuffed-potatoes> a schema:Recipe ;
+    ns2:hasIngredient [ a <http://purl.org/recipekg/ingredient/WhitePepper> ;
+            ns1:hasQuantity "1/4" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "white pepper" ],
+        [ a <http://purl.org/recipekg/ingredient/GoudaCheese> ;
+            ns1:hasQuantity "1 1/2" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "Gouda cheese" ],
+        [ a <http://purl.org/recipekg/ingredient/CreamCheese> ;
+            ns1:hasQuantity "1 1/2" ;
+            ns1:ingredientName "cream cheese" ],
+        [ a <http://purl.org/heals/ingredient/Potato> ;
+            ns1:hasQuantity "3" ;
+            ns1:ingredientName "potato" ],
+        [ a <http://purl.org/heals/ingredient/Bacon> ;
+            ns1:hasQuantity "2" ;
+            ns1:ingredientName "bacon" ],
+        [ a <http://purl.org/recipekg/ingredient/Milk> ;
+            ns1:hasQuantity "3/4" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "milk" ],
+        [ a <http://purl.org/recipekg/ingredient/Chive> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "chive" ],
+        [ a <http://purl.org/heals/ingredient/Butter> ;
+            ns1:hasQuantity "1/2" ;
+            ns1:hasUnit "cup" ;
+            ns1:ingredientName "butter" ],
+        [ a <http://purl.org/heals/ingredient/Salt> ;
+            ns1:hasQuantity "3/4" ;
+            ns1:hasUnit "teaspoon" ;
+            ns1:ingredientName "salt" ] ;
+    ns1:belongsTo <http://purl.org/recipekg/categories/fruits-and-vegetables/vegetables/potatoes/> ;
+    ns1:hasFSAScore 6 ;
+    ns1:hasNutritionalInformation [ a ns1:NutritionalInformation ;
+            ns1:hasCalorificData [ a ns1:CalorificData ;
+                    ns1:hasAmount "65.7"^^xsd:float ;
+                    ns1:hasUnit "calories" ] ;
+            ns1:hasCarbohydrateData [ a ns1:CarbohydrateData ;
+                    ns1:hasAmount "4.3"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasCholesterolData [ a ns1:CholesterolData ;
+                    ns1:hasAmount "12.9"^^xsd:float ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasFatData [ a ns1:FatData ;
+                    ns1:hasAmount "4.3"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasFiberData [ a ns1:FiberData ;
+                    ns1:hasAmount "0.5"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasProteinData [ a ns1:ProteinData ;
+                    ns1:hasAmount "2.6"^^xsd:float ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSaturatedFatData [ a ns1:SaturatedFatData ;
+                    ns1:hasAmount "2.3"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAAmber ;
+                    ns1:hasUnit "g" ] ;
+            ns1:hasSodiumData [ a ns1:SodiumData ;
+                    ns1:hasAmount "133.0"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAGreen ;
+                    ns1:hasUnit "mg" ] ;
+            ns1:hasSugarData [ a ns1:SugarData ;
+                    ns1:hasAmount "0.3"^^xsd:float ;
+                    ns1:hasFSAColor ns1:FSAGreen ;
+                    ns1:hasUnit "g" ] ] ;
+    ns1:hasUSDAScore 5 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2011-01-14T21:23:24.000Z"^^schema:date ;
+    schema:name "Mini Gouda-Stuffed Potatoes"^^xsd:string ;
+    schema:recipeYield "90 stuffed potato halves"^^xsd:string .
+
+<http://purl.org/recipekg/categories/fruits-and-vegetables/> a ns1:RecipeCategory .
+
+<http://purl.org/recipekg/categories/fruits-and-vegetables/vegetables/> rdfs:subClassOf <http://purl.org/recipekg/categories/fruits-and-vegetables/> .
+
+<http://purl.org/recipekg/categories/fruits-and-vegetables/vegetables/potatoes/> rdfs:subClassOf <http://purl.org/recipekg/categories/fruits-and-vegetables/vegetables/> .
+
+ns1:FSAAmber a ns1:FSAColor .
+
+ns1:FSAGreen a ns1:FSAColor .
+

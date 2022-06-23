@@ -1,0 +1,138 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17146/appetizers-and-snacks/snacks/",
+                    "name": "Snacks",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/16051/appetizers-and-snacks/snacks/popcorn/",
+                    "name": "Popcorn Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/273344/cheesy-chili-popcorn/",
+        "name": "Cheesy Chili Popcorn",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6629585.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2019-05-04T03:13:42.000Z",
+        "description": "Great snacking popcorn...cheese flavor with a burst of garlic. Store in an airtight container at room temperature for 3 days at most.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "8 cups",
+        "recipeIngredient": [
+            "8 cups popped popcorn",
+            "2 tablespoons butter, melted",
+            "2 tablespoons grated Parmesan cheese",
+            "1 tablespoon garlic powder",
+            "1 teaspoon chili powder"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place popcorn in a bowl, preferably one with a lid. Pour melted butter over popcorn, shaking and tossing until popcorn is coated. Add Parmesan cheese, garlic powder, and chili powder. Toss again.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks",
+            "Snacks",
+            "Popcorn Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "jessmomof3"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Cheesy Chili Popcorn",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "99.5 calories",
+            "carbohydrateContent": "5.9 g",
+            "cholesterolContent": "8.7 mg",
+            "fatContent": "8.1 g",
+            "fiberContent": "1.1 g",
+            "proteinContent": "1.5 g",
+            "saturatedFatContent": "2.8 g",
+            "servingSize": null,
+            "sodiumContent": "159.6 mg",
+            "sugarContent": "0.3 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-05-11T05:44:31.663Z",
+                "reviewBody": "Flavor is good and this turned out good but I made one change in the execution. I mixed the garlic chili powder and cheese in a bowl together prior to sprinkling it over the popcorn. I recommend doing this so that the flavors are even throughout instead of getting a handful of chili powder here and and a handful of parm there.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

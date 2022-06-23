@@ -1,0 +1,134 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1986/salad/egg-salad/",
+                    "name": "Egg Salad Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/279944/egg-and-avocado-salad/",
+        "name": "Egg and Avocado Salad",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8202796.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-04-30T21:28:08.000Z",
+        "description": "This egg salad with avocado can be used as an appetizer with sliced bread or as a salad in a lettuce bowl.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": null,
+        "totalTime": "P0DT0H35M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "2 tablespoons mayonnaise",
+            "2 tablespoons sour cream",
+            "1 tablespoon lemon juice",
+            "\u00bd teaspoon salt",
+            "\u00bc teaspoon white pepper",
+            "\u00bc teaspoon hot pepper sauce (such as Tabasco\u00ae)",
+            "6 hard-cooked eggs, chopped",
+            "2 avocados - peeled, pitted, and chopped",
+            "2 small tomatoes, cored and diced",
+            "\u00bd cup chopped red onion",
+            "\u00bc cup chopped fresh cilantro"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine mayonnaise, sour cream, lemon juice, salt, white pepper, and hot pepper sauce in a large bowl. Add eggs, avocados, tomatoes, onion, and cilantro. Toss lightly to combine. Cover and refrigerate until ready to serve, at least 20 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad",
+            "Egg Salad Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "KIMBRi"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3,
+            "ratingCount": 1,
+            "itemReviewed": "Egg and Avocado Salad",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "240.4 calories",
+            "carbohydrateContent": "9.5 g",
+            "cholesterolContent": "215.9 mg",
+            "fatContent": "19.9 g",
+            "fiberContent": "5.2 g",
+            "proteinContent": "8.3 g",
+            "saturatedFatContent": "4.2 g",
+            "servingSize": null,
+            "sodiumContent": "293.4 mg",
+            "sugarContent": "2.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-06-05T01:44:16.05Z",
+                "reviewBody": "Other than halving the recipe, I followed it exactly as the recipe stated. It was good, not great, but I thought it was missing a bit of \"zing\". I know some people don't care for Miracle Whip, but personally, I do like it, and I feel that this recipe would benefit from the added tang that it gives. I might try it again using that in place of the mayo & sour cream. Made for a nice lunch with a side of multi grain toast and some bing cherries.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Kim's Cooking Now",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/kimscookingnow/"
+                }
+            }
+        ]
+    }
+]

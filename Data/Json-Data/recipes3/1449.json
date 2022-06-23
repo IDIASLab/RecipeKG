@@ -1,0 +1,140 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/136/drinks/punch/",
+                    "name": "Punch Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/16814/drinks/punch/adult-punch/",
+                    "name": "Adult Punch Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/229142/swample-punch/",
+        "name": "Swample Punch",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4575257.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2018-05-04T13:03:04.000Z",
+        "description": "This delicious, sweet, and fizzy drink may not be the prettiest punch, but it is a crowd pleaser and perfect for Halloween parties. Garnish with orange, lime, and lemon wheels.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "16 servings",
+        "recipeIngredient": [
+            "32 fluid ounces blue-colored sports drink (such as Gatorade\u00ae)",
+            "3 cups sparkling water (such as Perrier\u00ae)",
+            "\u00bd (750 milliliter) bottle rose wine",
+            "12 fluid ounces peach-flavored fruit drink (such as Snapple\u00ae)",
+            "1 (8.3 ounce) can citrus-flavored energy drink (such as Red Bull\u2122)",
+            "1 (2.17 ounce) package fruit-flavored candies (such as Skittles\u00ae)",
+            "2 cups vodka"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Mix blue sports drink, sparkling water, wine, peach-flavored drink, energy drink, fruit candies, and vodka together in a punch bowl.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Punch Recipes",
+            "Adult Punch Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "smerki"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Swample Punch",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "133.8 calories",
+            "carbohydrateContent": "12.3 g",
+            "cholesterolContent": null,
+            "fatContent": "0.2 g",
+            "fiberContent": null,
+            "proteinContent": "0.1 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "47.5 mg",
+            "sugarContent": "10.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-10-30T11:26:51.36Z",
+                "reviewBody": "The recipe submitter said this wasn't the prettiest punch but it had a good enough color to me. My only complaint is that it was a little too sweet and I didn't even use the skittles. I'll ditch the peach drink next time and go from there.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

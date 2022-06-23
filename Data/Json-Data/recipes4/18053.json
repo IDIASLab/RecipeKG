@@ -1,0 +1,128 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/227/world-cuisine/asian/",
+                    "name": "Asian",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/246977/chai-ice-cream/",
+        "name": "Chai Ice Cream",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3343679.jpg",
+            "width": 3264,
+            "height": 2448
+        },
+        "datePublished": "2019-04-04T04:01:30.000Z",
+        "description": "The result of patient experimentation - a smooth and creamy ice cream with the sweet spice of masala chai tea lattes. The addition of powdered milk helps prevent the extra water from forming ice crystals without the use of stabilizers.",
+        "prepTime": "P0DT0H20M",
+        "cookTime": "P0DT0H30M",
+        "totalTime": "P0DT2H25M",
+        "recipeYield": "2 quarts",
+        "recipeIngredient": [
+            "3 cups water",
+            "2 cinnamon sticks",
+            "10 whole cloves",
+            "\u215d ounce fresh ginger, minced",
+            "2 teaspoons whole black peppercorns",
+            "6 cardamom pods, crushed",
+            "3 black tea bags",
+            "3 cups heavy whipping cream",
+            "1 cup nonfat dry milk powder",
+            "1\u2009\u00bc cups turbinado sugar",
+            "5 egg yolks"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Bring water, cinnamon sticks, cloves, ginger, peppercorns, and cardamom pods to a boil in a saucepan; reduce heat, cover, and simmer for 10 minutes. Remove saucepan from heat and steep tea bags for 5 minutes. Strain tea and set aside to cool.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat cream, milk powder, and turbinado sugar together in a saucepan over medium heat until a candy thermometer reads 140 degrees F (60 degrees C). Beat 1/2 of the cream mixture, 1 ladle at a time, in a bowl with the egg yolks until smooth. Pour egg mixture into the remaining cream mixture and continue to heat until mixture reaches 165 degrees F (75 degrees C); hold this temperature for 1 minute, not allowing it to boil.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Strain cream mixture into a bowl and stir in tea. Place bowl in an ice water bath or refrigerator until chilled just above freezing.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Transfer mixture to an ice cream maker and follow manufacturer's instructions for ice cream.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Asian"
+        ],
+        "recipeCuisine": [
+            "Asian"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Sasha Harlow"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Chai Ice Cream",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "260 calories",
+            "carbohydrateContent": "21.3 g",
+            "cholesterolContent": "126.6 mg",
+            "fatContent": "18 g",
+            "fiberContent": "0.5 g",
+            "proteinContent": "4.6 g",
+            "saturatedFatContent": "10.8 g",
+            "servingSize": null,
+            "sodiumContent": "68.8 mg",
+            "sugarContent": "18.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

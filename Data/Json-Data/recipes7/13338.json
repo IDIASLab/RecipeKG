@@ -1,0 +1,162 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/156/bread/",
+                    "name": "Bread",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/360/bread/quick-bread/",
+                    "name": "Quick Bread Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1998/bread/quick-bread/biscuits/",
+                    "name": "Biscuits",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/244953/butter-dips/",
+        "name": "Butter Dips",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2887979.jpg",
+            "width": 2272,
+            "height": 1704
+        },
+        "datePublished": "2020-06-19T04:03:40.000Z",
+        "description": "Biscuits dipped in butter and cinnamon-sugar.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H12M",
+        "totalTime": "P0DT0H22M",
+        "recipeYield": "16 biscuit halves",
+        "recipeIngredient": [
+            "2 teaspoons white sugar, or to taste",
+            "1 teaspoon ground cinnamon, or to taste",
+            "1 (8 count) can refrigerated biscuit dough, separated and halved",
+            "\u00bc cup butter, melted, or as needed"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat oven to 350 degrees F (175 degrees C).\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Mix sugar and cinnamon together in a bowl. Dip biscuit halves in butter and roll in cinnamon-sugar. Arrange coated biscuits on a baking sheet.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake in the preheated oven until golden brown, 12 to 14 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Bread",
+            "Quick Bread Recipes",
+            "Biscuits"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Tina Bilodeau"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.25,
+            "ratingCount": 4,
+            "itemReviewed": "Butter Dips",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "119.2 calories",
+            "carbohydrateContent": "12.9 g",
+            "cholesterolContent": "7.9 mg",
+            "fatContent": "6.7 g",
+            "fiberContent": "0.3 g",
+            "proteinContent": "1.9 g",
+            "saturatedFatContent": "2.8 g",
+            "servingSize": null,
+            "sodiumContent": "303.9 mg",
+            "sugarContent": "2.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2015-11-28T21:01:04.033Z",
+                "reviewBody": "This is recipe you just cannot mess up on! You could easily take it and use it as a base for a bread pudding as well.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "thedailygourmet",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/thedailygourmet/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2021-02-17T21:54:36.847Z",
+                "reviewBody": "Turned out awesome! Kids loved it!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Anekka Vlcek",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/29074522/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,128 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1199/drinks/hot-chocolate/",
+                    "name": "Hot Chocolate Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/260761/christmas-morning-hot-chocolate/",
+        "name": "Christmas Morning Hot Chocolate",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4660065.jpg",
+            "width": 3456,
+            "height": 3457
+        },
+        "datePublished": "2020-06-19T04:24:52.000Z",
+        "description": "Stir up this quick and easy hot chocolate recipe for a cozy hot drink sweetened with sugar and condensed milk on Christmas morning.",
+        "prepTime": null,
+        "cookTime": "P0DT0H6M",
+        "totalTime": "P0DT0H6M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "4 cups milk",
+            "\u00bd cup sweetened condensed milk",
+            "\u00bc cup instant hot cocoa mix",
+            "2 tablespoons white sugar",
+            "2 teaspoons vanilla extract"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat milk in a saucepan over medium heat for 3 minutes. Pour in condensed milk, hot chocolate, sugar, and vanilla extract; stir constantly until the mixture is warmed through and the sugar is dissolved, about 3 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Hot Chocolate Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "fuoco la sopra"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Christmas Morning Hot Chocolate",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "307 calories",
+            "carbohydrateContent": "45.4 g",
+            "cholesterolContent": "32.5 mg",
+            "fatContent": "8.5 g",
+            "fiberContent": "0.3 g",
+            "proteinContent": "11.6 g",
+            "saturatedFatContent": "5.4 g",
+            "servingSize": null,
+            "sodiumContent": "189.1 mg",
+            "sugarContent": "44 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-12-12T00:27:09.19Z",
+                "reviewBody": "What a wonderful idea to add condensed milk to hot chocolate. I used plain dark cocoa instead of a premix and used homemade vanilla sugar. I added extra cocoa to mine but the kids liked it with the amounts written. Thank you for the recipe.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Buckwheat Queen",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/melaniegiovenzana/"
+                }
+            }
+        ]
+    }
+]

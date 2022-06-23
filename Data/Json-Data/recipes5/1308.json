@@ -1,0 +1,171 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/227/world-cuisine/asian/",
+                    "name": "Asian",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/233/world-cuisine/asian/indian/",
+                    "name": "Indian",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/273305/kerala-chicken-curry/",
+        "name": "Kerala Chicken Curry",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6622589.jpg",
+            "width": 2754,
+            "height": 2753
+        },
+        "datePublished": "2019-05-04T07:32:41.000Z",
+        "description": "I learned to cook food from Kerala, South India, from my in-laws. This is a fantastic main dish for a South Indian meal, which should always be served with several dishes - see the footnote for suggestions.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H55M",
+        "totalTime": "P0DT1H10M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "2 tablespoons olive oil",
+            "1 teaspoon black mustard seeds",
+            "1 teaspoon whole cumin seeds",
+            "1 red onion, thinly sliced",
+            "1 tablespoon minced fresh ginger root",
+            "8 fresh curry leaves",
+            "1 (15 ounce) can diced tomatoes",
+            "3 teaspoons ground coriander",
+            "2 teaspoons red chili powder",
+            "1 teaspoon ground turmeric",
+            "1 cinnamon stick",
+            "1\u2009\u00bd pounds chicken breasts, cut into large chunks",
+            "water to cover",
+            "1 teaspoon salt"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat olive oil in a large skillet with a lid over medium heat until hot but not smoking. Drop in mustard seeds and cumin seeds, cover skillet, and wait until the mustard seeds have all popped. Add onion, ginger, and curry leaves. Saute over medium heat for about 5 minutes. Add tomatoes, coriander, red chili powder, turmeric, and cinnamon stick; stir well.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Add chicken and enough water to barely cover the chicken. Bring to a boil, cover, and simmer over medium or medium-low heat for about 45 minutes, checking every 10 minutes to make sure there is enough moisture in the skillet to keep the chicken from burning. Add more water if necessary. When the chicken is tender, season with salt and serve.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Asian",
+            "Indian"
+        ],
+        "recipeCuisine": [
+            "Asian",
+            "Indian"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Anne-Marie"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Kerala Chicken Curry",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "248.2 calories",
+            "carbohydrateContent": "7.8 g",
+            "cholesterolContent": "67.6 mg",
+            "fatContent": "11.9 g",
+            "fiberContent": "2.2 g",
+            "proteinContent": "25.8 g",
+            "saturatedFatContent": "2.5 g",
+            "servingSize": null,
+            "sodiumContent": "568.7 mg",
+            "sugarContent": "2.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-05-08T18:52:43.27Z",
+                "reviewBody": "This was truly delicious. I didn t make any changes. I used dried curry leaves though. Excellent recipe. Thank you for the recipe.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Buckwheat Queen",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/melaniegiovenzana/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2019-07-13T07:05:04.457Z",
+                "reviewBody": "really good! everyone loved it",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Marianne",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/22170712/"
+                }
+            }
+        ]
+    }
+]

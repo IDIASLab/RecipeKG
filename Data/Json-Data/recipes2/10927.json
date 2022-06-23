@@ -1,0 +1,157 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/237/world-cuisine/latin-american/",
+                    "name": "Latin American",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/728/world-cuisine/latin-american/mexican/",
+                    "name": "Mexican",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/258909/quick-vegan-warm-sweet-cinnamon-milk/",
+        "name": "Quick Vegan Warm Sweet Cinnamon Milk",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4555864.jpg",
+            "width": 3814,
+            "height": 2592
+        },
+        "datePublished": "2017-07-04T04:49:55.000Z",
+        "description": "Delicious vegan drink, inspired by the taste of horchata. Adjust with more sweetener, if desired.",
+        "prepTime": "P0DT0H3M",
+        "cookTime": null,
+        "totalTime": "P0DT0H3M",
+        "recipeYield": "1 serving",
+        "recipeIngredient": [
+            "1 tablespoon stevia powder",
+            "1 cup unsweetened vanilla-flavored almond milk",
+            "\u215b teaspoon ground cinnamon",
+            "1 dash vanilla extract"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Put stevia in a microwave-safe mug; pour in almond milk. Cook in a microwave oven until hot, about 1 minute and 20 seconds. Sprinkle cinnamon on top, add vanilla extract, and stir to combine.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Latin American",
+            "Mexican"
+        ],
+        "recipeCuisine": [
+            "Latin American",
+            "Mexican"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "tleks"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Quick Vegan Warm Sweet Cinnamon Milk",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "109.2 calories",
+            "carbohydrateContent": "26.2 g",
+            "cholesterolContent": null,
+            "fatContent": "2.7 g",
+            "fiberContent": "1.2 g",
+            "proteinContent": "1.1 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "161.1 mg",
+            "sugarContent": "16.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-09-09T07:24:07.24Z",
+                "reviewBody": "A tasty drink for a cool autumn night. Very easy to make and quick to prepare. The only change I would make (and this is a personal preference) is to greatly decrease the sweetener as 1 tbsp is a lot. You could also just add all the ingredients at once before heating. Thanks for sharing this yummy recipe!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "France C",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/francecevallos/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2019-10-02T02:36:24.62Z",
+                "reviewBody": "Very delicious, tastes almost like a cinnamon roll. I replaced the stevia with a stevia and erythritol blend.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "watsonellett",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/26033486/"
+                }
+            }
+        ]
+    }
+]

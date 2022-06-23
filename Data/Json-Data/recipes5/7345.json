@@ -1,0 +1,130 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/108/appetizers-and-snacks/seafood/",
+                    "name": "Seafood",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/263215/salmon-tartare/",
+        "name": "Salmon Tartare",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5221629.jpg",
+            "width": 3888,
+            "height": 2592
+        },
+        "datePublished": "2019-07-10T07:11:46.000Z",
+        "description": "A beautifully simple preparation of raw fish that is a celebration of freshness. The thing I love about this dish is the magic worked by the lemon juice. As well as imparting sharp fresh flavor, the acid in the lemon juice affects the protein in the fish, causing a cooked texture on the surface of the meat whilst leaving the centre rare and soft. Serve with buttered crusty brown toast.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "1 (5 ounce) very fresh salmon fillet",
+            "1 teaspoon minced shallot",
+            "1 teaspoon minced fresh flat-leaf parsley",
+            "1 teaspoon minced fresh chives",
+            "1 teaspoon minced cornichon (small pickled cucumber)",
+            "1 teaspoon fresh lemon juice, or more to taste",
+            "sea salt and freshly ground black pepper to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Remove salmon skin and cut out the grey colored blood line so you have only the shiny pink flesh. Cut salmon into small cubes and place in a bowl. Mix in shallot, parsley, chives, pickle, lemon juice, sea salt, and pepper. Let marinate for 5 minutes before serving.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks",
+            "Seafood"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "grubdaily"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Salmon Tartare",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "132.5 calories",
+            "carbohydrateContent": "0.6 g",
+            "cholesterolContent": "41.9 mg",
+            "fatContent": "7.7 g",
+            "fiberContent": "0.1 g",
+            "proteinContent": "14.3 g",
+            "saturatedFatContent": "1.6 g",
+            "servingSize": null,
+            "sodiumContent": "227.1 mg",
+            "sugarContent": "0.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-05-28T22:56:25.39Z",
+                "reviewBody": "If you shy away from raw fish in any form you can handle this. The texture is firm enough to overcome the eww factor and raw enough to not destroy the raw feeling of the fish. Address the pickle on an as desired basis. If you're not a pickle fan go lighter but don't omit. I've tried this several times because I like sushi but was looking for a less than Japanese way of eating it. This fits the bill perfectly! Enjoy!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Boyd Reid",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/4310907/"
+                }
+            }
+        ]
+    }
+]

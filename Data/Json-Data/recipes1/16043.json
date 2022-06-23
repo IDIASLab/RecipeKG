@@ -1,0 +1,156 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/251/main-dish/sandwiches/",
+                    "name": "Sandwich Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1032/main-dish/sandwiches/chicken/",
+                    "name": "Chicken",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/282621/bbq-pulled-chicken-sandwiches/",
+        "name": "BBQ Pulled Chicken Sandwiches",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "BBQ Pulled Chicken Sandwiches"
+        },
+        "datePublished": "2010-03-11T22:44:45.000Z",
+        "description": "This is an amazing recipe! There's nothing better than BBQ pulled chicken sandwiches!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT4H10M",
+        "totalTime": "P0DT4H20M",
+        "recipeYield": "8 sandwiches",
+        "recipeIngredient": [
+            "2 pounds skinless, boneless chicken breast halves",
+            "1 small onion, roughly chopped",
+            "5 cloves garlic",
+            "1\u2009\u00bd cups barbeque sauce (such as KC Masterpiece\u00ae Original)",
+            "\u00bd cup apple cider vinegar",
+            "salt and ground black pepper to taste",
+            "8 large sesame seed sandwich buns",
+            "8 slices mozzarella cheese"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place chicken into the bottom of a slow cooker and cover with water. Cook on High until it is no longer pink in the center and falls apart when pulled, about 4 hours.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Puree onion and garlic in the bowl of a food processor until finely minced.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Remove chicken from the slow cooker and shred meat with 2 forks. Discard cooking water.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Return chicken to the slow cooker. Add pureed onion-garlic mixture, barbeque sauce, vinegar, salt, and pepper. Mix well and cook on High until heated through, about 10 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Serve on buns with mozzarella cheese.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Sandwich Recipes",
+            "Chicken"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Tara Shepard"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "BBQ Pulled Chicken Sandwiches",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "516.5 calories",
+            "carbohydrateContent": "61.6 g",
+            "cholesterolContent": "82.5 mg",
+            "fatContent": "11.6 g",
+            "fiberContent": "2.7 g",
+            "proteinContent": "37.7 g",
+            "saturatedFatContent": "4.6 g",
+            "servingSize": null,
+            "sodiumContent": "1225.9 mg",
+            "sugarContent": "13 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-01-12T01:50:58.52Z",
+                "reviewBody": "Overall, this was an okay BBQ chicken sandwich. The biggest complaint was that it was too vinegary. While it was a good addition it was overpowering. I did make 2 small changes, I used a full bottle (18oz) of BBQ sauce and 4 ish lbs of chicken breast because that is what I had on hand.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "My Hot Southern Mess",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/myhotsouthernmess/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,147 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1642/everyday-cooking/",
+                    "name": "Everyday Cooking",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/229152/turkey-kabobs/",
+        "name": "Turkey Kabobs",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3861357.jpg",
+            "width": 3648,
+            "height": 2736
+        },
+        "datePublished": "2012-10-30T06:00:53.000Z",
+        "description": "Grilled turkey, mushrooms, and zucchini marinated in Italian dressing and cooked on the grill. A great recipe for the end of summer or early fall.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H15M",
+        "totalTime": "P0DT2H30M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "1 pound turkey cutlets, cut into chunks",
+            "1 (16 ounce) package whole button mushrooms",
+            "2 small zucchinis, sliced",
+            "1 (16 ounce) bottle Italian-style salad dressing",
+            "12 (10 inch) bamboo skewers, soaked in water for 20 minutes"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine turkey, mushrooms, and zucchini in a 13x9-inch dish. Pour Italian dressing over mixture and stir to coat. Cover dish with plastic wrap; marinade in refrigerator 2 hours to overnight.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Preheat an outdoor grill for medium-high heat and lightly oil the grate.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Thread turkey, mushrooms, and zucchini slices onto skewers until all the ingredients have been used. Discard excess marinade.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cook the skewers on the preheated grill, turning frequently until nicely browned on all sides, and the meat is no longer pink in the center, about 15 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Everyday Cooking"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Rachel Staloch"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.5,
+            "ratingCount": 2,
+            "itemReviewed": "Turkey Kabobs",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "480.3 calories",
+            "carbohydrateContent": "17.2 g",
+            "cholesterolContent": "41.4 mg",
+            "fatContent": "35.3 g",
+            "fiberContent": "1.8 g",
+            "proteinContent": "26.5 g",
+            "saturatedFatContent": "6 g",
+            "servingSize": null,
+            "sodiumContent": "2231.7 mg",
+            "sugarContent": "12.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2016-08-21T07:17:20.627Z",
+                "reviewBody": "You can't go wrong with this one. I do recommend letting it marinade overnight though for best results. The 3 ingredients all take on the dressing in their own way with the zucchini absorbing it the most. I did thread my meat and veggies separate because that is the way it needs to be done with a lot of kabob recipes to guarantee perfect doneness for the meat but not overdoing the veggies but I don't think it was necessary for this recipe. They seemed to all get done at the same time. Perfect for summertime grilling and super simple with no fuss.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2018-08-17T11:04:03.527Z",
+                "reviewBody": "The vegetables taste delicious in the Italian Dressing marinade. But the chicken was a little dry. I am going to try it with thigh meat the next time.:)",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 3
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Mark Schmitt",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/10553093/"
+                }
+            }
+        ]
+    }
+]

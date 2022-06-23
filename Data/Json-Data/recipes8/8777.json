@@ -1,0 +1,153 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/92/meat-and-poultry/",
+                    "name": "Meat and Poultry",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/201/meat-and-poultry/chicken/",
+                    "name": "Chicken",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/661/meat-and-poultry/chicken/chicken-thighs/",
+                    "name": "Chicken Thigh Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/275913/apple-cider-marinated-grilled-chicken/",
+        "name": "Apple Cider-Marinated Grilled Chicken",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F9415445.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2019-10-16T23:50:54.000Z",
+        "description": "Family favorite grilled chicken. Sweet apple cider taste with a little spice. One of the best things about our time in Texas was learning to grill great food like this. After the first time you make this recipe, everyone will know when you are making it just by the delicious smoke smell from cooking. This goes great with long grain and wild rice and corn on the cob.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H25M",
+        "totalTime": "P0DT1H40M",
+        "recipeYield": "6 servings",
+        "recipeIngredient": [
+            "1 cup apple cider",
+            "\u00bd cup apple jelly",
+            "9 tablespoons lemon juice",
+            "6 tablespoons Worcestershire sauce",
+            "10 drops hot pepper sauce, or more to taste",
+            "2 teaspoons salt",
+            "\u00bd teaspoon ground black pepper",
+            "6 skinless, boneless chicken thighs"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine apple cider, apple jelly, lemon juice, Worcestershire sauce, hot sauce, salt, and pepper in a saucepan over medium heat. Cook and stir just until jelly melts, 3 to 5 minutes. Remove from heat and let marinade cool to room temperature, about 10 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place chicken thighs and marinade into a 1-gallon plastic zip-top bag and let marinate for at least 1 hour.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Preheat an outdoor grill for medium heat and lightly oil the grate. Remove chicken from the bag and discard marinade.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Grill chicken thighs until no longer pink in the centers, turning frequently being careful not to let chicken burn, 20 to 25 minutes. An instant-read thermometer inserted into the center of a thigh should read at least 165 degrees F (74 degrees C).\n"
+            }
+        ],
+        "recipeCategory": [
+            "Meat and Poultry",
+            "Chicken",
+            "Chicken Thigh Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Jim Haggarty"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Apple Cider-Marinated Grilled Chicken",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "264.7 calories",
+            "carbohydrateContent": "28 g",
+            "cholesterolContent": "70.9 mg",
+            "fatContent": "8.1 g",
+            "fiberContent": "0.1 g",
+            "proteinContent": "19.4 g",
+            "saturatedFatContent": "2.3 g",
+            "servingSize": null,
+            "sodiumContent": "1050.9 mg",
+            "sugarContent": "23.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-11-01T03:16:02.647Z",
+                "reviewBody": "Light in flavor but the chicken flavor still stands.  I would baste the chicken next time while grilling. Very juicy and great for colder weather.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Chef Mo",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/chefmo/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,143 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1116/fruits-and-vegetables/",
+                    "name": "Fruits and Vegetables",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1059/fruits-and-vegetables/vegetables/",
+                    "name": "Vegetables",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17172/fruits-and-vegetables/vegetables/bok-choy/",
+                    "name": "Bok Choy",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/283007/braised-baby-bok-choy/",
+        "name": "Braised Baby Bok Choy",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8984612.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2015-07-05T14:22:31.000Z",
+        "description": "Yummy and tender.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H15M",
+        "totalTime": "P0DT0H20M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "1 tablespoon extra-virgin olive oil",
+            "4 large heads baby bok choy, halved lengthwise, or more to taste",
+            "\u00bc cup chicken stock",
+            "3 tablespoons soy sauce"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat oil in a skillet over medium-high heat until hot, but not smoking. Add bok choy and cook, turning once, until just golden, about 2 minutes. Add stock and soy sauce. Cover, reduce heat to medium, and simmer until bok choy is tender, about 5 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Transfer to a serving platter, reserving liquid in the skillet.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cook liquid over medium-high heat until it is reduced by half, 1 to 2 minutes. Pour over bok choy and serve.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Fruits and Vegetables",
+            "Vegetables",
+            "Bok Choy"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Di"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Braised Baby Bok Choy",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "96.4 calories",
+            "carbohydrateContent": "10.9 g",
+            "cholesterolContent": null,
+            "fatContent": "4.3 g",
+            "fiberContent": "4.6 g",
+            "proteinContent": "7.6 g",
+            "saturatedFatContent": "0.6 g",
+            "servingSize": null,
+            "sodiumContent": "1014.4 mg",
+            "sugarContent": "5.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-01-28T10:12:29.067Z",
+                "reviewBody": "Very tasty and simple! I made this to cold with a sesame salad. Great side dish!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Chef Mo",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/chefmo/"
+                }
+            }
+        ]
+    }
+]

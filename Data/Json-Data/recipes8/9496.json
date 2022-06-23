@@ -1,0 +1,136 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/81/side-dish/",
+                    "name": "Side Dish",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/224/side-dish/rice/",
+                    "name": "Rice Side Dish Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/285102/ginger-rice/",
+        "name": "Ginger Rice",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F9370057.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2021-03-03T03:20:23.000Z",
+        "description": "Delicious, fragrant ginger rice. Perfect with any fish entree.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H25M",
+        "totalTime": "P0DT0H30M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "1 tablespoon salted butter",
+            "1 tablespoon minced fresh ginger",
+            "\u00be cup water",
+            "sea salt to taste",
+            "\u00bd cup uncooked jasmine rice",
+            "ground black pepper to taste",
+            "2 small lime wedges"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Melt butter in a small pot over medium-high heat. Add ginger; cook and stir until fragrant, 1 to 2 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Add water and a pinch of sea salt; bring to a boil. Stir in rice, cover, and reduce heat to a gentle simmer. Cook until tender, about 15 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Fluff rice with a fork and season with salt and pepper. Serve with lime wedges.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Side Dish",
+            "Rice Side Dish Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Fancy Pants"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Ginger Rice",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "240.9 calories",
+            "carbohydrateContent": "44.9 g",
+            "cholesterolContent": "15.3 mg",
+            "fatContent": "5.9 g",
+            "fiberContent": "2.2 g",
+            "proteinContent": "3.7 g",
+            "saturatedFatContent": "3.7 g",
+            "servingSize": null,
+            "sodiumContent": "45.1 mg",
+            "sugarContent": "1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-08-26T01:04:43.793Z",
+                "reviewBody": "8.25.21  I must say I was concerned that the recipe didn\u2019t have enough water and didn\u2019t tell you to thoroughly rinse the rice prior to cooking.  But no problem; it cooked up beautifully.  Wasn\u2019t quite done at 15 minutes, so I gave it a couple more minutes and was happy with the consistency of the rice.  I did serve it with lime wedges, just forgot to put them in the photo, and that really complements the ginger flavor.  The ginger is subtle, won\u2019t overpower the rest of the meal.  Thanks for sharing.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "lutzflcat",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/lutzflcat/"
+                }
+            }
+        ]
+    }
+]

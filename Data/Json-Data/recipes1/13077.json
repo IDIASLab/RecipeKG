@@ -1,0 +1,155 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/138/drinks/smoothies/",
+                    "name": "Smoothie Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/16127/drinks/smoothies/strawberry/",
+                    "name": "Strawberry",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/21207/un-tofu-tofu-smoothie/",
+        "name": "Un-Tofu Tofu Smoothie",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5680220.jpg",
+            "width": 3024,
+            "height": 3025
+        },
+        "datePublished": "2000-09-05T22:48:48.000Z",
+        "description": "A great way to eat tofu -- without even knowing it!  Very refreshing, especially for breakfast or as a snack.  Tinker with it until you find the perfect combo for you.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "\u2153 (10.75 ounce) package dessert tofu",
+            "3 frozen strawberries",
+            "5 frozen peach slices",
+            "1 (8 ounce) container strawberry yogurt",
+            "1 cup orange juice"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "In a blender, combine tofu, strawberries, peach slices, yogurt and orange juice. Blend until smooth.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Smoothie Recipes",
+            "Strawberry"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "SUPERWOMYN"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.6,
+            "ratingCount": 5,
+            "itemReviewed": "Un-Tofu Tofu Smoothie",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "95.9 calories",
+            "carbohydrateContent": "19.9 g",
+            "cholesterolContent": "1.2 mg",
+            "fatContent": "0.6 g",
+            "fiberContent": "0.6 g",
+            "proteinContent": "3.3 g",
+            "saturatedFatContent": "0.1 g",
+            "servingSize": null,
+            "sodiumContent": "42.2 mg",
+            "sugarContent": "13.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2006-11-17T14:40:39.927Z",
+                "reviewBody": "When I ran out of protein powder I used this for a few days. It was very good though seemed more like a dessert then the breakfast I use it for.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Susanna",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/1755595/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2006-03-25T14:07:46.123Z",
+                "reviewBody": "Mmm... this was perfectly satisfying. It had a nice thick consistency. Excellent flavor. I used different fruits with an almond dessert tofu.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "The Great Taster",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/1637431/"
+                }
+            }
+        ]
+    }
+]

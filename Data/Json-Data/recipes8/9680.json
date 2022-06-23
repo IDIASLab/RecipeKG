@@ -1,0 +1,85 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/284003/fresh-pineapple-cucumber-juice/",
+        "name": "Fresh Pineapple-Cucumber Juice",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F9160208.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2021-04-19T02:05:07.000Z",
+        "description": "This refreshing juice is not only healthy, it's delicious too! The hint of lemon balances out the sweetness of the pineapple. For best results, use a centrifugal juicer.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "32 ounces",
+        "recipeIngredient": [
+            "1 large fresh pineapple, peeled and cut into cubes",
+            "2 medium cucumbers",
+            "1 lemon, peeled"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Process pineapple, cucumbers, and lemon through a juicer. Chill, or serve over ice.\n"
+            }
+        ],
+        "recipeCategory": [],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "France C"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Fresh Pineapple-Cucumber Juice",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "242 calories",
+            "carbohydrateContent": "63.2 g",
+            "cholesterolContent": null,
+            "fatContent": "0.7 g",
+            "fiberContent": "6.9 g",
+            "proteinContent": "3.1 g",
+            "saturatedFatContent": "0.1 g",
+            "servingSize": null,
+            "sodiumContent": "6.5 mg",
+            "sugarContent": "46.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

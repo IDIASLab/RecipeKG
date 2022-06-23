@@ -1,0 +1,103 @@
+@prefix ns1: <http://purl.org/heals/food/> .
+@prefix ns2: <http://purl.org/recipekg/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/recipekg/recipe/baked-chipotle-chicken-flautas> a schema:Recipe ;
+    ns1:hasIngredient [ a <http://purl.org/recipekg/ingredient/SourCream> ;
+            ns2:hasQuantity "1/3" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "sour cream" ],
+        [ a <http://purl.org/heals/ingredient/Cilantro> ;
+            ns2:hasQuantity "2" ;
+            ns2:hasUnit "tablespoon" ;
+            ns2:ingredientName "cilantro" ],
+        [ a <http://purl.org/recipekg/ingredient/Cumin> ;
+            ns2:hasQuantity "1/2" ;
+            ns2:hasUnit "teaspoon" ;
+            ns2:ingredientName "cumin" ],
+        [ a <http://purl.org/heals/ingredient/CanolaOil> ;
+            ns2:hasQuantity "2" ;
+            ns2:hasUnit "tablespoon" ;
+            ns2:ingredientName "canola oil" ],
+        [ a <http://purl.org/recipekg/ingredient/ChipotlePepper> ;
+            ns2:hasQuantity "1/2" ;
+            ns2:hasUnit "teaspoon" ;
+            ns2:ingredientName "chipotle pepper" ],
+        [ a <http://purl.org/heals/ingredient/ChickenBroth> ;
+            ns2:hasQuantity "2" ;
+            ns2:hasUnit "cup" ;
+            ns2:ingredientName "chicken broth" ],
+        [ a <http://purl.org/heals/ingredient/Chicken> ;
+            ns2:hasQuantity "1" ;
+            ns2:ingredientName "chicken" ],
+        [ a <http://purl.org/recipekg/ingredient/FlourTortillas> ;
+            ns2:hasQuantity "10" ;
+            ns2:ingredientName "Flour Tortillas" ],
+        [ a <http://purl.org/recipekg/ingredient/ChilePeppers> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "can" ;
+            ns2:ingredientName "chile peppers" ],
+        [ a <http://purl.org/recipekg/ingredient/Salsa> ;
+            ns2:ingredientName "salsa" ],
+        [ a <http://purl.org/recipekg/ingredient/ChiliPepper> ;
+            ns2:hasQuantity "1" ;
+            ns2:hasUnit "teaspoon" ;
+            ns2:ingredientName "chili pepper" ],
+        [ a <http://purl.org/recipekg/ingredient/Coriander> ;
+            ns2:hasQuantity "1/2" ;
+            ns2:hasUnit "teaspoon" ;
+            ns2:ingredientName "coriander" ] ;
+    ns2:belongsTo <http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/mission/> ;
+    ns2:hasFSAScore 2 ;
+    ns2:hasNutritionalInformation [ a ns2:NutritionalInformation ;
+            ns2:hasCalorificData [ a ns2:CalorificData ;
+                    ns2:hasAmount "723.6"^^xsd:float ;
+                    ns2:hasUnit "calories" ] ;
+            ns2:hasCarbohydrateData [ a ns2:CarbohydrateData ;
+                    ns2:hasAmount "36.3"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasCholesterolData [ a ns2:CholesterolData ;
+                    ns2:hasAmount "217.0"^^xsd:float ;
+                    ns2:hasUnit "mg" ] ;
+            ns2:hasFatData [ a ns2:FatData ;
+                    ns2:hasAmount "37.5"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSARed ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasFiberData [ a ns2:FiberData ;
+                    ns2:hasAmount "2.5"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasProteinData [ a ns2:ProteinData ;
+                    ns2:hasAmount "38.6"^^xsd:float ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasSaturatedFatData [ a ns2:SaturatedFatData ;
+                    ns2:hasAmount "7.2"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSARed ;
+                    ns2:hasUnit "g" ] ;
+            ns2:hasSodiumData [ a ns2:SodiumData ;
+                    ns2:hasAmount "2163.1"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSARed ;
+                    ns2:hasUnit "mg" ] ;
+            ns2:hasSugarData [ a ns2:SugarData ;
+                    ns2:hasAmount "0.8"^^xsd:float ;
+                    ns2:hasFSAColor ns2:FSAGreen ;
+                    ns2:hasUnit "g" ] ] ;
+    ns2:hasUSDAScore 4 ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 5 ;
+            schema:ratingCount 17 ;
+            schema:ratingValue "4.705882352941177"^^xsd:float ;
+            schema:worstRating 1 ] ;
+    schema:datePublished "2014-03-14T18:46:31.000Z"^^schema:date ;
+    schema:name "Baked Chipotle Chicken Flautas"^^xsd:string ;
+    schema:recipeYield "10 flautas"^^xsd:string .
+
+ns2:FSAGreen a ns2:FSAColor .
+
+<http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/> a ns2:RecipeCategory .
+
+<http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/mission/> rdfs:subClassOf <http://purl.org/recipekg/categories/trusted-brands-recipes-and-tips/> .
+
+ns2:FSARed a ns2:FSAColor .
+

@@ -1,0 +1,149 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/134/drinks/coffee/",
+                    "name": "Coffee Drinks Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/256814/easy-starbucks-replicated-cold-brew-coffee/",
+        "name": "Easy Starbucks&reg; Replicated Cold Brew Coffee",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4464149.jpg",
+            "width": 2668,
+            "height": 2668
+        },
+        "datePublished": "2020-06-19T04:19:36.000Z",
+        "description": "Like many people, I enjoy iced coffee at any time of the year. It is just one of those things that never seems to get old. But who wants to go pay 5 dollars every day and wait another 5 to 10 minutes to get it made for them? Haha, not many. My goal was to find a super cheap and easy way to make cold-brewed coffee that tasted just like Starbucks&reg;, and boy did I hit the nail on the head for this one. Here is an easy, homemade way to remake your favorite drink for a price anyone can afford!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT20H10M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "4 cups water",
+            "\u00bd cup dark roast ground coffee (such as Folgers\u00ae)",
+            "2 cups 2% milk ",
+            "\u00bc cup white sugar",
+            "4 cups ice"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine water and ground coffee in a French press; stir to ensure coffee is evenly mixed with water. Push the plunger halfway down slowly. Let coffee steep at room temperature for 20 to 24 hours.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Mix milk and sugar in a pitcher until sugar is dissolved. Push French press plunger all way the down; pour coffee over the cream. Divide coffee mixture among 4 glasses; top with ice.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Coffee Drinks Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Samuel Vassar"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 2,
+            "itemReviewed": "Easy Starbucks&reg; Replicated Cold Brew Coffee",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "115.3 calories",
+            "carbohydrateContent": "19.4 g",
+            "cholesterolContent": "9.8 mg",
+            "fatContent": "2.4 g",
+            "fiberContent": null,
+            "proteinContent": "4.3 g",
+            "saturatedFatContent": "1.5 g",
+            "servingSize": null,
+            "sodiumContent": "63.1 mg",
+            "sugarContent": "18.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2017-07-11T02:28:18.58Z",
+                "reviewBody": "If I could recommend something I would suggest that regular ice cubes are going to dilute the coffee. This is better if your ice is itself made of coffee.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Christopher Isto",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/16141268/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2017-01-31T08:27:17.133Z",
+                "reviewBody": "It turned out very delicious. Will make it again for sure.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "B. Tario",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/b_tario/"
+                }
+            }
+        ]
+    }
+]

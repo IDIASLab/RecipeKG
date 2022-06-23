@@ -1,0 +1,111 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/137/drinks/shakes-and-floats/",
+                    "name": "Shakes and Floats Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/275361/vegan-raspberry-mint-milkshake/",
+        "name": "Vegan Raspberry-Mint Milkshake",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6931654.jpg",
+            "width": 1080,
+            "height": 1080
+        },
+        "datePublished": "2019-08-16T05:06:47.000Z",
+        "description": "This is a delightfully refreshing vegan mint-raspberry milkshake that is sure to please everyone. Top with additional raspberries and mint, if desired.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "2 milkshakes",
+        "recipeIngredient": [
+            "1 pint fresh raspberries",
+            "2 pinches fresh mint",
+            "1 cup vanilla-flavored sweetened almond milk",
+            "1 cup dairy-free vanilla ice cream"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine raspberries, almond milk, ice cream, and mint in a blender. Blend until smooth and you no longer see large pieces of berries or mint, scraping down the sides of the blender during the process as needed.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Serve in 2 medium glasses.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Shakes and Floats Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Manda"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Vegan Raspberry-Mint Milkshake",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "258.4 calories",
+            "carbohydrateContent": "41.3 g",
+            "cholesterolContent": null,
+            "fatContent": "10.2 g",
+            "fiberContent": "17.1 g",
+            "proteinContent": "3 g",
+            "saturatedFatContent": "7 g",
+            "servingSize": null,
+            "sodiumContent": "84.9 mg",
+            "sugarContent": "11.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

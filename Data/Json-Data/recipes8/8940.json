@@ -1,0 +1,160 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17146/appetizers-and-snacks/snacks/",
+                    "name": "Snacks",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/16582/appetizers-and-snacks/snacks/chips/",
+                    "name": "Snack Chip Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/261594/delicious-pan-fried-baka-bana/",
+        "name": "Delicious Pan-Fried Baka Bana",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4580203.jpg",
+            "width": 960,
+            "height": 960
+        },
+        "datePublished": "2019-04-04T04:10:35.000Z",
+        "description": "I'm showing you how to make baka bana. Besides plantain, it contains only four ingredients and you get delicious pan- fried baka bana. Let's get started!",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H3M",
+        "totalTime": "P0DT0H13M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "\u00bd cup all-purpose flour",
+            "\u00bd teaspoon baking soda",
+            "1 pinch salt",
+            "\u00bd cup warm water",
+            "1 large ripe plantain, sliced",
+            "vegetable oil for frying"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine flour, baking soda, and salt in a bowl. Add warm water, stirring constantly, until a pancake-like batter forms, about 2 minutes. Dip plantain slices into the batter.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat vegetable oil in a deep skillet over medium heat. Cook plantains in batches until golden, about 2 minutes. Flip and cook for 1 minute more. Drain on paper towels.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks",
+            "Snacks",
+            "Snack Chip Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Allrecipes Member"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 3,
+            "itemReviewed": "Delicious Pan-Fried Baka Bana",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "189.4 calories",
+            "carbohydrateContent": "33.8 g",
+            "cholesterolContent": null,
+            "fatContent": "5.9 g",
+            "fiberContent": "2 g",
+            "proteinContent": "2.5 g",
+            "saturatedFatContent": "0.8 g",
+            "servingSize": null,
+            "sodiumContent": "200 mg",
+            "sugarContent": "10.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-09-03T01:16:57.27Z",
+                "reviewBody": "first batch i made with a very ripe plantain, lot of black spots on it, was decent. next batch with fresh plantains, not so good, no taste.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Bert Arends",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/5812885/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2018-02-05T23:39:43.707Z",
+                "reviewBody": "Tasty and simple. I pan-fried these but I think they might be better shallow-fried (and the default photo looks like shallow or deep fried batter). Still tasty if not as attractive as shallow-fried. Served with peanut sauce from the Indonesian Satay recipe on this site.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Irene Y",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/irene/"
+                }
+            }
+        ]
+    }
+]

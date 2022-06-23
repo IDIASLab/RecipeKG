@@ -1,0 +1,150 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/148/breakfast-and-brunch/eggs/",
+                    "name": "Eggs",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1308/breakfast-and-brunch/eggs/scrambled-eggs/",
+                    "name": "Scrambled",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/267803/seasoned-scrambled-eggs/",
+        "name": "Seasoned Scrambled Eggs",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F917370.jpg",
+            "width": 250,
+            "height": 250
+        },
+        "datePublished": "2018-08-28T00:01:42.000Z",
+        "description": "This is just a scrambled egg recipe I came up with while experimenting with breakfast. It's a delicious remix to scrambled eggs that doesn't require too much work! This recipe is great if you want an extra kick in your breakfast without having to spend hours preparing it.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "1 serving",
+        "recipeIngredient": [
+            "2 eggs",
+            "1 egg white",
+            "\u00bc cup milk",
+            "1 teaspoon dried parsley",
+            "1 teaspoon dried thyme",
+            "1 teaspoon garlic powder",
+            "1 teaspoon chili powder",
+            "1 small clove garlic, minced",
+            "\u00bd teaspoon sazon seasoning",
+            "\u00bd teaspoon adobo seasoning",
+            "3 Vienna sausages, diced",
+            "2 tablespoons shredded mozzarella cheese",
+            "1 teaspoon olive oil, or as needed"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Beat eggs, egg white, and milk together in a bowl until combined. Add parsley, thyme, garlic powder, chili powder, garlic, sazon, and adobo. Add sausages and mozzarella cheese and stir to combine.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place a skillet over medium heat and coat surface lightly with oil. Pour egg mixture into the hot skillet; cook and stir until firm and no longer runny, about 5 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Eggs",
+            "Scrambled"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "SammJammx3"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.5,
+            "ratingCount": 2,
+            "itemReviewed": "Seasoned Scrambled Eggs",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "391.2 calories",
+            "carbohydrateContent": "11.6 g",
+            "cholesterolContent": "383 mg",
+            "fatContent": "27 g",
+            "fiberContent": "2.2 g",
+            "proteinContent": "26.5 g",
+            "saturatedFatContent": "9.1 g",
+            "servingSize": null,
+            "sodiumContent": "862.7 mg",
+            "sugarContent": "4.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-01-24T23:57:00.947Z",
+                "reviewBody": "Good idea but it was way to charge with herbs flavors for scramble eggs.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 2
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "SmokingChub",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/28211032/"
+                }
+            }
+        ]
+    }
+]

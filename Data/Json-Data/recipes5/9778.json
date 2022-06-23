@@ -1,0 +1,146 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/367/desserts/pies/",
+                    "name": "Pies",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/15142/desserts/pies/no-bake-pies/",
+                    "name": "No-Bake Pie Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/276021/milk-chocolate-pie/",
+        "name": "Milk Chocolate Pie",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7127361.jpg",
+            "width": 3399,
+            "height": 1912
+        },
+        "datePublished": "2019-09-21T02:29:46.000Z",
+        "description": "An easy (no-bake) milk chocolate cream pie that is perfect for any occasion.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT4H15M",
+        "recipeYield": "1 9-inch pie",
+        "recipeIngredient": [
+            "1\u2009\u00bd cups miniature marshmallows",
+            "\u00bd cup milk",
+            "1 (7 ounce) bar milk chocolate candy (such as Hershey's\u00ae), broken into pieces",
+            "2 cups whipping cream",
+            "1 (9 inch) prepared graham cracker crust"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Melt marshmallows with milk in a microwave-safe container in a microwave in 30-second increments, stirring between each, until smooth. Slowly add chocolate and stir until completely melted.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Beat whipping cream in a separate bowl using a mixer until thick. Stir into chocolate mixture. Pour into pie crust.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cover and refrigerate for 4 hours.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Pies",
+            "No-Bake Pie Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Jill"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Milk Chocolate Pie",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "525 calories",
+            "carbohydrateContent": "44.1 g",
+            "cholesterolContent": "88.4 mg",
+            "fatContent": "37 g",
+            "fiberContent": "1.3 g",
+            "proteinContent": "4.9 g",
+            "saturatedFatContent": "19.4 g",
+            "servingSize": null,
+            "sodiumContent": "230.5 mg",
+            "sugarContent": "30.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-10-08T05:51:35.883Z",
+                "reviewBody": "This pie is very easy to make and has a nice flavor. My kids really liked it, but the adults thought it was just okay. I definitely recommend using a better quality chocolate bar than Hershey's for a better depth of flavor.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "RainbowJewels",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/rainbowjewels/"
+                }
+            }
+        ]
+    }
+]

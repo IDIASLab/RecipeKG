@@ -1,0 +1,181 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1199/drinks/hot-chocolate/",
+                    "name": "Hot Chocolate Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/239955/homemade-hot-chocolate/",
+        "name": "Homemade Hot Chocolate",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1919313.jpg",
+            "width": 2500,
+            "height": 2500
+        },
+        "datePublished": "2014-12-10T07:00:38.000Z",
+        "description": "Hot chocolate using real chocolate instead of the powdered stuff. Top with whipped cream and chocolate shavings and enjoy!",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "2 cups milk",
+            "2 cups dark chocolate chips",
+            "1 teaspoon vanilla extract",
+            "1 pinch ground nutmeg, or more to taste",
+            "1 pinch ground cloves, or more to taste",
+            "1 pinch ground cinnamon, or more to taste",
+            "1 pinch chili powder, or to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat milk in a saucepan over medium heat until almost boiling. Lower heat to medium-low; add chocolate chips, vanilla extract, nutmeg, cloves, cinnamon, and chili powder. Cook and stir milk mixture until chocolate is dissolved, 5 to 10 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Hot Chocolate Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Gloria Arnold"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.25,
+            "ratingCount": 4,
+            "itemReviewed": "Homemade Hot Chocolate",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "459.6 calories",
+            "carbohydrateContent": "62.5 g",
+            "cholesterolContent": "9.8 mg",
+            "fatContent": "25 g",
+            "fiberContent": "6 g",
+            "proteinContent": "4.1 g",
+            "saturatedFatContent": "18.4 g",
+            "servingSize": null,
+            "sodiumContent": "58.9 mg",
+            "sugarContent": "33.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2015-12-26T22:03:41.98Z",
+                "reviewBody": "If you want something really rich and complex try this! But do not use that much chocolate; you don't want to put half your calorie allowance for the day in a cup. I made it with a bit under 1 cup of chocolate chips and it was excellent.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "basg101",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/basg101/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2015-01-07T14:43:57.34Z",
+                "reviewBody": "This is a very rich hot chocolate perfect for the serious chocoholic.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Deb C",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2702518/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2017-04-07T10:15:33.907Z",
+                "reviewBody": "Not bad for a simple Hot Chocolate recipe. Might need to try this again with fresh whipped cream.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Dan C",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/13767559/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2015-06-08T14:13:14.04Z",
+                "reviewBody": "You don't have to put in all the spices but I still used the cinnamon.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Rylee Osborn",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/13746329/"
+                }
+            }
+        ]
+    }
+]

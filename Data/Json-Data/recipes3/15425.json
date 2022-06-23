@@ -1,0 +1,130 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                    "name": "Appetizers and Snacks",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/105/appetizers-and-snacks/dips-and-spreads/",
+                    "name": "Dips and Spreads Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/256154/fantasy-chocolate-dip/",
+        "name": "Fantasy Chocolate Dip",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6337454.jpg",
+            "width": 3264,
+            "height": 1836
+        },
+        "datePublished": "2018-07-19T13:04:36.000Z",
+        "description": "Chocolate lover's favorite chocolate dip that can be served as a topping for truffles, ice cream, marshmallows, or other desserts. Tastes best with pancakes or crepes and marshmallows.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H1M",
+        "totalTime": "P0DT0H11M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "12 ounces semisweet chocolate (such as Hershey's\u00ae), finely chopped",
+            "1\u2009\u00bc cups heavy whipping cream",
+            "2 tablespoons honey"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Melt chocolate in a microwave-safe glass or ceramic bowl in 15-second intervals, stirring after each melting, 1 to 3 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Beat cream in a chilled glass or metal bowl with an electric mixer until soft peaks form. Fold in melted chocolate and honey until smooth.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Appetizers and Snacks",
+            "Dips and Spreads Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Zainab Pervaiz"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Fantasy Chocolate Dip",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "708.5 calories",
+            "carbohydrateContent": "58.7 g",
+            "cholesterolContent": "101.9 mg",
+            "fatContent": "54.5 g",
+            "fiberContent": "6 g",
+            "proteinContent": "7.6 g",
+            "saturatedFatContent": "32.1 g",
+            "servingSize": null,
+            "sodiumContent": "28.7 mg",
+            "sugarContent": "50.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-02-04T03:26:07.2Z",
+                "reviewBody": "This made a nice rich fruit dip. I'm really not sure that the honey added anything. I only made a fourth of a batch and it was plenty for 3 people to dip strawberries and bananas.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Tammy Lynn",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3084624/"
+                }
+            }
+        ]
+    }
+]

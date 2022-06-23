@@ -1,0 +1,155 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/148/breakfast-and-brunch/eggs/",
+                    "name": "Eggs",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/268948/spicy-one-pot-shakshouka/",
+        "name": "Spicy One-Pot Shakshouka",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3377227.jpg",
+            "width": 960,
+            "height": 1183
+        },
+        "datePublished": "2020-06-19T04:33:26.000Z",
+        "description": "Easy and delicious eggs poached in a spicy tomato sauce. A popular Middle Eastern dish that has become a favorite with my family as well. Don't forget flatbreads or crusty bread for dipping!",
+        "prepTime": "P0DT0H20M",
+        "cookTime": "P0DT0H15M",
+        "totalTime": "P0DT0H35M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "2 tablespoons olive oil",
+            "1 onion, halved and finely chopped",
+            "1 green bell pepper, finely chopped",
+            "1 red bell pepper, finely chopped",
+            "1 red chile pepper, seeded and finely chopped",
+            "2 cloves garlic, minced",
+            "1 (14 ounce) can diced tomatoes",
+            "1 teaspoon white sugar",
+            "salt and freshly ground black pepper to taste",
+            "4 large eggs",
+            "2 green onions, finely chopped"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat olive oil in a heavy-bottomed frying pan. Saute onion and bell peppers in the hot oil for 2 to 3 minutes. Add chile pepper and garlic; cook and stir the peppers start to caramelize, 2 to 3 minutes. Add tomatoes and sugar. Cook over medium heat for 3 to 4 minutes. Season with salt and pepper.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Make indentations in the sauce using a wooden spoon. Crack eggs into indentations in the sauce. Cover and cook until whites are firm and yolks reach desired doneness, 5 to 8 minutes. Uncover and garnish with green onions.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Eggs"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Simple Savoury"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Spicy One-Pot Shakshouka",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "202.7 calories",
+            "carbohydrateContent": "15.2 g",
+            "cholesterolContent": "186 mg",
+            "fatContent": "12 g",
+            "fiberContent": "3.3 g",
+            "proteinContent": "8.7 g",
+            "saturatedFatContent": "2.5 g",
+            "servingSize": null,
+            "sodiumContent": "271.5 mg",
+            "sugarContent": "9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-12-03T01:14:39.473Z",
+                "reviewBody": "Delicious and easy to make! Watch cooking time once eggs are added - yolks cook quickly. Will definitely make again!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Natalie Campbell",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/24275516/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2021-04-07T09:28:01.82Z",
+                "reviewBody": "This was great! I added a paprika, cumin, and coriander to taste when I added the canned tomatoes. I will make again!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "AllyBakes",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/25933262/"
+                }
+            }
+        ]
+    }
+]

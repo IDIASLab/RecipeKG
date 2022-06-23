@@ -1,0 +1,133 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/149/breakfast-and-brunch/french-toast/",
+                    "name": "French Toast Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/284420/rms-milk-toast/",
+        "name": "R&M's Milk Toast",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F9217076.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2009-05-12T23:39:56.000Z",
+        "description": "This is very good. It is sort of like French toast but without eggs, and has a milky flavor inside.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H20M",
+        "recipeYield": "3 servings",
+        "recipeIngredient": [
+            "\u00be cup whole milk",
+            "2 tablespoons brown sugar",
+            "3 slices white bread",
+            "1 tablespoon maple syrup, or to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Stir together milk and sugar in a saucepan until well combined. Bring to a boil over medium-high heat, being careful that the milk doesn't burn.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Remove from heat and allow to cool slightly. Soak bread in the sweetened milk.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Heat a non-stick skillet over medium heat and quickly brown the soaked bread on both sides. Serve hot with maple syrup.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "French Toast Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "kmichael500"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "R&M's Milk Toast",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "154.9 calories",
+            "carbohydrateContent": "28.8 g",
+            "cholesterolContent": "6.1 mg",
+            "fatContent": "2.8 g",
+            "fiberContent": "0.6 g",
+            "proteinContent": "3.9 g",
+            "saturatedFatContent": "1.3 g",
+            "servingSize": null,
+            "sodiumContent": "197.8 mg",
+            "sugarContent": "16.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2021-06-08T03:19:38.677Z",
+                "reviewBody": "I have never made milk toast before, but this will not be my last time. So very good and rich on the inside!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Chef Mo",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/chefmo/"
+                }
+            }
+        ]
+    }
+]

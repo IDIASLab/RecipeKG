@@ -1,0 +1,202 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/673/main-dish/pork/",
+                    "name": "Pork",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/670/main-dish/pork/ham/",
+                    "name": "Ham",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/233671/french-canadian-dip/",
+        "name": "French Canadian Dip",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2064675.jpg",
+            "width": 960,
+            "height": 960
+        },
+        "datePublished": "2016-06-04T13:52:57.000Z",
+        "description": "A new twist on a classic dish, made with Montreal smoked meat, a smoky beef, and Canadian bacon. In our house, we usually eat the au jus after we're done dipping our sandwiches in it.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H30M",
+        "totalTime": "P0DT0H45M",
+        "recipeYield": "10 sandwiches",
+        "recipeIngredient": [
+            "2 tablespoons butter",
+            "1\u2009\u00bd cups sliced onion",
+            "3 garlic cloves, crushed",
+            "8\u2009\u00bd cups beef stock",
+            "1 cup soy sauce",
+            "2 tablespoons Worcestershire sauce",
+            "2 bay leaves",
+            "1\u2009\u00bc pounds Montreal smoked meat (smoked brisket)",
+            "\u2153 pound thinly sliced Canadian bacon",
+            "10 (7 inch) baguettes, slit lengthwise but still attached"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat butter in a large pot over medium heat; cook and stir onion and garlic until onion has softened and turned translucent, about 5 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Pour beef stock, soy sauce, and Worcestershire sauce into onion mixture; add bay leaves. Drop in Montreal smoked meat and Canadian bacon one slice at a time. Bring to a boil, then reduce heat and simmer for 20 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Use tongs to remove meat from the stock and distribute evenly inside sandwich baguettes. Remove bay leaves; ladle stock into individual bowls for dipping. Serve hot.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes",
+            "Pork",
+            "Ham"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "kinkylogic"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.625,
+            "ratingCount": 8,
+            "itemReviewed": "French Canadian Dip",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "490.2 calories",
+            "carbohydrateContent": "71.4 g",
+            "cholesterolContent": "27.3 mg",
+            "fatContent": "11.4 g",
+            "fiberContent": "3.7 g",
+            "proteinContent": "24.7 g",
+            "saturatedFatContent": "4.7 g",
+            "servingSize": null,
+            "sodiumContent": "2444.4 mg",
+            "sugarContent": "7.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2014-08-19T00:33:56.817Z",
+                "reviewBody": "This au jus is the tastiest ever. Made with low sodium beef broth the rest as written maybe simmered a bit longer but I couldn't 't get enough of the au jus.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Jannie",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/11225574/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2014-09-12T00:11:34.07Z",
+                "reviewBody": "I'm not finished making this yet but YES it is good! Had some left over smoked brisket from a local source and had to try this! I don't have the bacon. The wonderful smells coming from my kitchen is attracting neighbors! I did use a bit of water to recipe but this is already tasting and smelling great! I will post a pick but not sure it will do the smells and tastes justice!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Jenny Cooper",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/10058312/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2016-09-14T04:39:38.9Z",
+                "reviewBody": "I made this with just roast beef so was mainly interested in at dip. It's good and I will make again. The only change I would make would be to cut down on the soya sauce. It gave it to much of a tang.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Annio",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/4358296/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2014-01-05T19:16:34.037Z",
+                "reviewBody": "I made this recipe exactly like the directions but I did not add bacon. It turned out really good and my husband ate seconds. My crock pot is broken and thus was a good stove top alternative.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "mgutierrez",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/9626233/"
+                }
+            }
+        ]
+    }
+]

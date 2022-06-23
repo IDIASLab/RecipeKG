@@ -1,0 +1,128 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/143/breakfast-and-brunch/drinks/",
+                    "name": "Drinks",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/245302/vegan-green-smoothie/",
+        "name": "Vegan Green Smoothie",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3652992.jpg",
+            "width": 3264,
+            "height": 2448
+        },
+        "datePublished": "2015-11-07T00:21:22.000Z",
+        "description": "Green is delicious!",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "3 cups",
+        "recipeIngredient": [
+            "2 cups coconut water",
+            "1 cup baby spinach",
+            "1 banana",
+            "6 sliced fresh strawberries",
+            "5 dates, pitted"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Blend coconut water, spinach, banana, strawberries, and dates together in a blender.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Drinks"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "juji chase"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Vegan Green Smoothie",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "118.2 calories",
+            "carbohydrateContent": "28.4 g",
+            "cholesterolContent": null,
+            "fatContent": "0.7 g",
+            "fiberContent": "4.8 g",
+            "proteinContent": "2.4 g",
+            "saturatedFatContent": "0.3 g",
+            "servingSize": null,
+            "sodiumContent": "176.9 mg",
+            "sugarContent": "15.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2016-05-03T20:20:32.853Z",
+                "reviewBody": "It's not bad. Definitely has a banana flavor though and unfortunately I don't care for bananas. If I were to do it again I'd probably only use half or a third of one. However most people don't test something they don't like the ingredients in so I won't knock it for that! I did change some proportions - only 1.5 c coconut water because that's the size of my bottle. About 8 strawberries. No dates as I have none I sweetened with a little sugar. Last your smoothie will not be green as I anticipated by the name. The strawberries (and probably dates) will change that.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "ehreng",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/3921516/"
+                }
+            }
+        ]
+    }
+]

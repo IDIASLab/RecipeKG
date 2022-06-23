@@ -1,0 +1,177 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/231/world-cuisine/european/",
+                    "name": "European",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/723/world-cuisine/european/italian/",
+                    "name": "Italian",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/231663/grandmas-easter-pie/",
+        "name": "Grandma's Easter Pie",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5075944.jpg",
+            "width": 2305,
+            "height": 2305
+        },
+        "datePublished": "2018-06-08T14:07:34.000Z",
+        "description": "Grandma Bert made this every year at Easter. Made with ricotta cheese, eggs, and ham, it makes a delicious addition to a special family gathering.",
+        "prepTime": "P0DT0H30M",
+        "cookTime": "P0DT0H45M",
+        "totalTime": "P0DT1H15M",
+        "recipeYield": "2 9-inch pies",
+        "recipeIngredient": [
+            "2 (9 inch)  unbaked pie crusts",
+            "1 pound cubed ham",
+            "1 stick pepperoni, finely diced",
+            "3 pounds ricotta cheese, drained",
+            "1\u2009\u00bd cups shredded Romano cheese",
+            "6 eggs, beaten",
+            "1 teaspoon chopped parsley, or to taste",
+            "salt and ground black pepper to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Preheat oven to 350 degrees F (175 degrees C).\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Fit crusts into bottoms of 2 9-inch pie dishes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cook and stir ham and pepperoni in a skillet over medium heat until lightly browned, about 10 minutes. Drain grease and set ham and pepperoni aside to cool.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Stir ricotta cheese, Romano cheese, eggs, parsley, salt, and black pepper together in a bowl until well mixed. Add ham and pepperoni to the mixture and stir to combine. Pour half the filling into each pie crust.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bake pies in the preheated oven until filling is set and lightly browned, 35 to 40 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "European",
+            "Italian"
+        ],
+        "recipeCuisine": [
+            "European",
+            "Italian"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "KelleyBee"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 2,
+            "itemReviewed": "Grandma's Easter Pie",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "379.8 calories",
+            "carbohydrateContent": "15.2 g",
+            "cholesterolContent": "125.5 mg",
+            "fatContent": "25.1 g",
+            "fiberContent": "0.8 g",
+            "proteinContent": "22.6 g",
+            "saturatedFatContent": "10.7 g",
+            "servingSize": null,
+            "sodiumContent": "777.1 mg",
+            "sugarContent": "0.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2016-03-26T19:39:15.353Z",
+                "reviewBody": "Love it! But I'm partial because this is what Grandma always made!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "KelleyBee",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/kelleybee/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2018-02-01T07:31:16.833Z",
+                "reviewBody": "Delish just used ham & asparagus",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Carolyn Jones Wright",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/12963867/"
+                }
+            }
+        ]
+    }
+]

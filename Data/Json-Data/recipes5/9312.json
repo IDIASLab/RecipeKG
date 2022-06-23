@@ -1,0 +1,122 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/96/salad/",
+                    "name": "Salad",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/263850/pear-fig-salad/",
+        "name": "Pear-Fig Salad",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6909110.jpg",
+            "width": 3263,
+            "height": 3264
+        },
+        "datePublished": "2019-09-05T04:35:37.000Z",
+        "description": "The crunch of pear, pecans, and lettuce with the salty, tart smoothness of Gruyere cheese mixes perfectly with rich figs and balsamic vinegar to make this the perfect salad.",
+        "prepTime": "P0DT0H20M",
+        "cookTime": null,
+        "totalTime": "P0DT0H20M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "2 cups torn romaine lettuce",
+            "6 fresh figs, quartered",
+            "1 large ripe but firm pear, peeled and thinly sliced",
+            "\u00bc cup toasted pecans, chopped",
+            "\u00bc cup shredded Gruyere cheese",
+            "1 small red onion, thinly sliced",
+            "3 tablespoons extra-virgin olive oil",
+            "3 tablespoons balsamic vinegar",
+            "salt and freshly ground black pepper to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine romaine lettuce, figs, pear, pecans, Gruyere cheese, and onion in a large bowl. Drizzle evenly with olive oil and vinegar. Season with salt and pepper. Toss lightly and serve.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Salad"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "curvy chef 2013"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Pear-Fig Salad",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "274.8 calories",
+            "carbohydrateContent": "27.3 g",
+            "cholesterolContent": "9.1 mg",
+            "fatContent": "18.1 g",
+            "fiberContent": "5 g",
+            "proteinContent": "4.3 g",
+            "saturatedFatContent": "3.5 g",
+            "servingSize": null,
+            "sodiumContent": "72.5 mg",
+            "sugarContent": "20.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-08-07T07:14:38.11Z",
+                "reviewBody": "This was a really nice salad! I did pretty much stick to the recipe with the exception that I only used about half of a small red onion rather than the whole thing and only 2 tablespoons of the balsamic vinegar instead of 3. We served this with grilled steak and grilled bread and everyone enjoyed it. Thanks for the recipe!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Kim's Cooking Now",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/kimscookingnow/"
+                }
+            }
+        ]
+    }
+]

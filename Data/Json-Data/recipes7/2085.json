@@ -1,0 +1,158 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/133/drinks/cocktails/",
+                    "name": "Cocktail Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1743/drinks/cocktails/vodka-drinks/",
+                    "name": "Vodka Drinks Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/140558/pomegranate-martini/",
+        "name": "Pomegranate Martini",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1060862.jpg",
+            "width": 2304,
+            "height": 3072
+        },
+        "datePublished": "2020-06-19T03:29:52.000Z",
+        "description": "This drink is so refreshing. My girlfriend was serving these at ladies' night and I've been drinking them ever since.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "1 martini",
+        "recipeIngredient": [
+            "1 cup ice",
+            "1 (1.5 fluid ounce) jigger vanilla flavored vodka",
+            "1 (1.5 fluid ounce) jigger peach schnapps",
+            "1 (1.5 fluid ounce) jigger pomegranate juice",
+            "1 tablespoon simple syrup",
+            "1 teaspoon lemon juice",
+            "\u2153 tablespoon lemon-lime soda",
+            "1 slice fresh lime"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Combine ice, vodka, schnapps, pomegranate juice, simple syrup, and lemon juice in shaker. Shake vigorously to chill.  Pour into martini glass, top with a splash of chilled lemon-lime soda, and garnish glass with a slice of fresh lime.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Cocktail Recipes",
+            "Vodka Drinks Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Tiffiney Launhardt"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 2,
+            "itemReviewed": "Pomegranate Martini",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "335.7 calories",
+            "carbohydrateContent": "38.6 g",
+            "cholesterolContent": "0 mg",
+            "fatContent": "0.2 g",
+            "fiberContent": "0.2 g",
+            "proteinContent": "0.1 g",
+            "saturatedFatContent": "0 g",
+            "servingSize": null,
+            "sodiumContent": "10.6 mg",
+            "sugarContent": "24.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2011-11-18T19:42:40.39Z",
+                "reviewBody": "A little sweet as written! I skipped the simple syrup on the second one and it was much better. Also I used diet lemon-lime soda. Otherwise very flavorful and an attractive drink too. I also added a few pomegranate seeds to the glass.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Georgette",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/2183652/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2016-05-30T03:18:50.143Z",
+                "reviewBody": "Easy and tasty! Really liked the color too. I might reduce either the amount of soda or simple syrup it is on the sweet side. But I will definitely be making this again and again!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Gretch",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/9102164/"
+                }
+            }
+        ]
+    }
+]

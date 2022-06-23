@@ -1,0 +1,111 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/81/side-dish/",
+                    "name": "Side Dish",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/281470/pancake-dipped-bacon-sticks/",
+        "name": "Pancake-Dipped Bacon Sticks",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Pancake-Dipped Bacon Sticks"
+        },
+        "datePublished": "2020-08-30T01:29:28.000Z",
+        "description": "My friend made these pancake-dipped bacon 'sticks' for a brunch many years ago. Sprinkle with powdered sugar or dip in maple syrup.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H25M",
+        "recipeYield": "8 bacon sticks",
+        "recipeIngredient": [
+            "2 cups vegetable oil for deep frying, or as needed",
+            "2 cups pancake mix (such as Aunt Jemima\u00ae Original)",
+            "1\u2009\u00bd cups milk",
+            "2 eggs",
+            "2 tablespoons vegetable oil",
+            "\u00bd cup water",
+            "1 tablespoon brown sugar",
+            "1 tablespoon white sugar",
+            "1 pound bacon"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat 2 cups oil in a large pot.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Combine pancake mix, milk, eggs, and 2 tablespoons oil in a bowl. Stir until large lumps disappear, but do not overmix. Let stand 3 to 4 minutes to thicken. Add water, brown sugar, and white sugar. Mix to combine.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Dip bacon in batter and deep fry, turning slices over until lightly golden brown, 6 to 8 minutes. Drain on a paper towel-lined plate.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Side Dish"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Yoly"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Pancake-Dipped Bacon Sticks",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "350.7 calories",
+            "carbohydrateContent": "31.3 g",
+            "cholesterolContent": "65.1 mg",
+            "fatContent": "19.3 g",
+            "fiberContent": null,
+            "proteinContent": "12.7 g",
+            "saturatedFatContent": "4.7 g",
+            "servingSize": null,
+            "sodiumContent": "949 mg",
+            "sugarContent": "5.4 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

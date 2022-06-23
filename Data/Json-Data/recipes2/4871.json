@@ -1,0 +1,169 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/136/drinks/punch/",
+                    "name": "Punch Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/15047/drinks/punch/non-alcoholic-punch/",
+                    "name": "Non-Alcoholic Punch Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/245810/yoda-soda/",
+        "name": "Yoda Soda",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7756304.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2015-12-23T22:57:49.000Z",
+        "description": "My family uses this for birthdays. I also used it for a Star Wars-themed bake sale (hence the name Yoda Soda). It always sold out faster than anything!",
+        "prepTime": "P0DT0H5M",
+        "cookTime": null,
+        "totalTime": "P0DT0H5M",
+        "recipeYield": "12 cups",
+        "recipeIngredient": [
+            "1 (2 liter) bottle ginger ale (such as Canada Dry\u00ae)",
+            "1 quart lime sherbet"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat lime sherbet in the microwave to defrost slightly, about 10 seconds. Place in a large serving bowl and cut into small chunks. Pour in enough ginger ale to cover sherbet and fill bowl.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Punch Recipes",
+            "Non-Alcoholic Punch Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Emm1994"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.666666666666667,
+            "ratingCount": 3,
+            "itemReviewed": "Yoda Soda",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "147.2 calories",
+            "carbohydrateContent": "33.9 g",
+            "cholesterolContent": "3.9 mg",
+            "fatContent": "1.3 g",
+            "fiberContent": null,
+            "proteinContent": "0.7 g",
+            "saturatedFatContent": "0.8 g",
+            "servingSize": null,
+            "sodiumContent": "49.8 mg",
+            "sugarContent": "30 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2016-02-01T00:50:30.057Z",
+                "reviewBody": "We loved it!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "House of Aqua",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/houseofaqua/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2020-02-24T07:29:55.02Z",
+                "reviewBody": "No lime sherbet at Albertsons, so I used orange sherbet, but it became Sherbet Islands.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Mario Spaghetti",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/24911614/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2016-10-15T03:44:23.187Z",
+                "reviewBody": "Was great.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Matthew John Foley",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/20525495/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,145 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/231/world-cuisine/european/",
+                    "name": "European",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/725/world-cuisine/european/scandinavian/",
+                    "name": "Scandinavian",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/68226/glogi/",
+        "name": "Glogi",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F26783.jpg",
+            "width": 1024,
+            "height": 768
+        },
+        "datePublished": "2020-06-19T03:10:31.000Z",
+        "description": "A spicy Christmas drink from Scandinavia.",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H10M",
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "8 servings",
+        "recipeIngredient": [
+            "1\u2009\u00bd cups water",
+            "1\u2009\u00bd cups white sugar",
+            "4 whole cloves",
+            "1 (3 inch) cinnamon stick",
+            "\u00bd cup raisins",
+            "1 (750 milliliter) bottle red wine",
+            "2 lemons, juiced",
+            "1 orange, juiced",
+            "\u00bc cup sliced almonds"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "In a large pot, combine the water, sugar, cloves, cinnamon, and raisins. Bring to a boil, then remove from the heat and stir in the wine, lemon juice, and orange juice. Heat through, but do not boil. Remove the cinnamon stick. Ladle into cups, and serve with sliced almonds and the boiled raisins.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "European",
+            "Scandinavian"
+        ],
+        "recipeCuisine": [
+            "European",
+            "Scandinavian"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "KIRSII"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 2,
+            "itemReviewed": "Glogi",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "291.2 calories",
+            "carbohydrateContent": "54.7 g",
+            "cholesterolContent": null,
+            "fatContent": "1.7 g",
+            "fiberContent": "2.9 g",
+            "proteinContent": "1.6 g",
+            "saturatedFatContent": "0.1 g",
+            "servingSize": null,
+            "sodiumContent": "7.1 mg",
+            "sugarContent": "46.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2008-03-08T22:20:49.283Z",
+                "reviewBody": "I made this recipe and was very please. However I would use less sugar. It is just a little sweet with the whole amount.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Teressa Howell-Southworth",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/1465496/"
+                }
+            }
+        ]
+    }
+]

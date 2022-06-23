@@ -1,0 +1,171 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                    "name": "Drink Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/133/drinks/cocktails/",
+                    "name": "Cocktail Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1743/drinks/cocktails/vodka-drinks/",
+                    "name": "Vodka Drinks Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/230312/marshmallow-cocktail/",
+        "name": "Marshmallow Cocktail",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3855028.jpg",
+            "width": 3456,
+            "height": 5184
+        },
+        "datePublished": "2017-07-13T13:01:12.000Z",
+        "description": "My friend gave me this recipe, and I must say it's the best drink I have ever tried.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "1 cocktail",
+        "recipeIngredient": [
+            "2 fluid ounces vanilla-flavored vodka",
+            "3 fluid ounces pineapple juice",
+            "1 splash sweetened lime juice (such as Rose's\u00ae)",
+            "3 miniature marshmallows, or to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Fill a cocktail shaker with ice. Pour vodka, pineapple juice, and lime juice over ice; cover and shake. Strain cocktail into a martini glass. Garnish with marshmallows.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Drink Recipes",
+            "Cocktail Recipes",
+            "Vodka Drinks Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Dudelander"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 3,
+            "itemReviewed": "Marshmallow Cocktail",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "219.5 calories",
+            "carbohydrateContent": "18.6 g",
+            "cholesterolContent": null,
+            "fatContent": "0.1 g",
+            "fiberContent": "0.2 g",
+            "proteinContent": "0.3 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "6.2 mg",
+            "sugarContent": "15.1 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2012-12-08T18:56:08.643Z",
+                "reviewBody": "This is ONO! Thanks so much Dudelander for sharing this yummy cocktail!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "mauigirl",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/mauigirl1/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2016-08-17T07:29:08.317Z",
+                "reviewBody": "I really enjoyed this tastes like a pineapple martini.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "sanzoe",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/sanzoe/"
+                }
+            },
+            {
+                "@type": "Review",
+                "datePublished": "2014-03-16T22:21:28.43Z",
+                "reviewBody": "We loved this!! Used Whipped Cream vodka as we had it on hand. Very yummy.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Jill Harju",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/12764405/"
+                }
+            }
+        ]
+    }
+]

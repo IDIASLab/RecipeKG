@@ -1,0 +1,139 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/143/breakfast-and-brunch/drinks/",
+                    "name": "Drinks",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/246368/vegan-smoothie-bowl-with-carrot-and-banana/",
+        "name": "Vegan Smoothie Bowl with Carrot and Banana",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3314834.jpg",
+            "width": 3264,
+            "height": 2448
+        },
+        "datePublished": "2017-06-15T13:00:42.000Z",
+        "description": "Looking for a healthy, yummy breakfast to start your day? Try this vegan smoothie bowl with carrots, banana, coconut, and goji berries. I used unsweetened vanilla almond milk but you can substitute with any non-dairy milk. If you like it sweeter, use some agave syrup (but I don't think it needs any extra sugar).",
+        "prepTime": "P0DT0H15M",
+        "cookTime": null,
+        "totalTime": "P0DT0H20M",
+        "recipeYield": "1 smoothie bowl",
+        "recipeIngredient": [
+            "2 pitted Medjool dates",
+            "1 frozen banana, chopped",
+            "1 cup coarsely chopped carrot",
+            "\u00bd cup unsweetened vanilla-flavored almond milk, or more to taste",
+            "\u00bd teaspoon ground cinnamon",
+            "\u00bc teaspoon ground ginger",
+            "2 tablespoons flaked coconut",
+            "1 tablespoon goji berries"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place dates in a small bowl and cover with cold water; let soak, about 5 minutes. Drain and chop.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place chopped dates, banana, carrot, almond milk, cinnamon, and ginger in a blender; puree until smoothie is thick and smooth. Pour into a serving bowl.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Top smoothie bowl with flaked coconut and goji berries.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Drinks"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "barbara"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "ratingCount": 4,
+            "itemReviewed": "Vegan Smoothie Bowl with Carrot and Banana",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "324.5 calories",
+            "carbohydrateContent": "71.6 g",
+            "cholesterolContent": null,
+            "fatContent": "4.8 g",
+            "fiberContent": "10.9 g",
+            "proteinContent": "4.8 g",
+            "saturatedFatContent": "2.7 g",
+            "servingSize": null,
+            "sodiumContent": "215.9 mg",
+            "sugarContent": "42.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2018-09-04T22:20:33.723Z",
+                "reviewBody": "This is awesome. Sweet flavorful and a great morning starter. Love the color too. Yum",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Cathy Maness-Reid",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/12691692/"
+                }
+            }
+        ]
+    }
+]

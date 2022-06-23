@@ -1,0 +1,125 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/1642/everyday-cooking/",
+                    "name": "Everyday Cooking",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/240507/spicy-oatmeal-and-kale/",
+        "name": "Spicy Oatmeal and Kale",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1953928.jpg",
+            "width": 2067,
+            "height": 2067
+        },
+        "datePublished": "2019-04-04T03:58:58.000Z",
+        "description": "This adds a different twist to plain oatmeal. My sister shared it with me. She got it from her husband's Indian aunt. It makes oatmeal exciting and tasty with a bite. You can substitute spinach for the kale, if desired. Serve with dried cranberries and sunflower seeds.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "2 servings",
+        "recipeIngredient": [
+            "1 tablespoon olive oil",
+            "2 cloves garlic, minced, or more to taste",
+            "2 leaves kale, stems discarded and leaves chopped, or more to taste",
+            "2 tablespoons water, or more as needed",
+            "1 cup quick-cooking oats",
+            "1 pinch red pepper flakes, or more to taste",
+            "salt to taste",
+            "\u00bd cup water, or as needed"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat olive oil in a saucepan over medium heat. Cook and stir garlic in hot oil until sizzling, about 30 seconds. Add kale and 2 tablespoons water to garlic, cover the saucepan with a lid, and cook until kale softens, 2 to 3 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Stir oats, red pepper flakes, and salt into kale mixture; pour in enough water to cover oats. Cook and stir oats until desired consistency is reached, about 3 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Everyday Cooking"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "JRP"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 2,
+            "ratingCount": 1,
+            "itemReviewed": "Spicy Oatmeal and Kale",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "229.2 calories",
+            "carbohydrateContent": "30.7 g",
+            "cholesterolContent": null,
+            "fatContent": "9.6 g",
+            "fiberContent": "4.7 g",
+            "proteinContent": "6.2 g",
+            "saturatedFatContent": "1.4 g",
+            "servingSize": null,
+            "sodiumContent": "91.6 mg",
+            "sugarContent": "0.5 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2015-01-16T15:28:31Z",
+                "reviewBody": "I had a hard time eating this as is. I did sprinkle it with some dried cranberries and sunflower seeds as suggested by the submitter - but the cranberries did not provide enough sweetness for me. I ended up adding a bit of brown sugar just so I could eat it. Not something that I would make again though sorry!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 2
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Kim's Cooking Now",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/kimscookingnow/"
+                }
+            }
+        ]
+    }
+]

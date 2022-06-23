@@ -1,0 +1,147 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/227/world-cuisine/asian/",
+                    "name": "Asian",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/696/world-cuisine/asian/filipino/",
+                    "name": "Filipino",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/212985/halo-halo-especial/",
+        "name": "Halo-Halo Especial",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/img/misc/og-default.png",
+            "width": null,
+            "height": null,
+            "caption": "Halo-Halo Especial"
+        },
+        "datePublished": "2018-02-06T06:32:28.000Z",
+        "description": "This refreshing snack of sweet fruit, beans, and leche flan is topped off with creamy shaved ice and ice cream. Use my recipe for leche flan (see Footnote).",
+        "prepTime": "P0DT0H15M",
+        "cookTime": null,
+        "totalTime": "P0DT0H15M",
+        "recipeYield": "4 servings",
+        "recipeIngredient": [
+            "1 (12 ounce) can jackfruit, drained and diced",
+            "1 (12 ounce) jar sweetened white kidney beans",
+            "1 (12 ounce) jar red (adzuki) beans, drained",
+            "shaved ice",
+            "\u00bd cup evaporated milk, or to taste",
+            "\u00bd cup vanilla ice cream, or to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Place jack fruit in a bowl. Add white beans and red beans and mix thoroughly.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Place 2 tablespoons of the jackfruit mixture in a tall glass. Fill glass 2/3-full of shaved ice. Pour evaporated milk over the shaved ice. Mix using a teaspoon. Top with 2 tablespoons vanilla ice cream. Repeat layering the halo halo in 3 more glasses.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Asian",
+            "Filipino"
+        ],
+        "recipeCuisine": [
+            "Asian",
+            "Filipino"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "lola"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Halo-Halo Especial",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "461.6 calories",
+            "carbohydrateContent": "94.6 g",
+            "cholesterolContent": "16.4 mg",
+            "fatContent": "4.9 g",
+            "fiberContent": "3.3 g",
+            "proteinContent": "11.7 g",
+            "saturatedFatContent": "2.6 g",
+            "servingSize": null,
+            "sodiumContent": "240.9 mg",
+            "sugarContent": "6.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2020-11-21T21:51:21.06Z",
+                "reviewBody": "delicious",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Chelo Martinez",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/28420885/"
+                }
+            }
+        ]
+    }
+]

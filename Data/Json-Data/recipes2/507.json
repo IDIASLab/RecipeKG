@@ -1,0 +1,133 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                    "name": "Breakfast and Brunch",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/143/breakfast-and-brunch/drinks/",
+                    "name": "Drinks",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/235969/quick-green-smoothie/",
+        "name": "Quick Green Smoothie",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1238671.jpg",
+            "width": 4608,
+            "height": 3456
+        },
+        "datePublished": "2014-01-11T07:01:57.000Z",
+        "description": "A quick, healthy breakfast for anyone on the go. Substitute any liquid for the milk.",
+        "prepTime": "P0DT0H10M",
+        "cookTime": null,
+        "totalTime": "P0DT0H10M",
+        "recipeYield": "1 smoothie",
+        "recipeIngredient": [
+            "1 cup stemmed kale",
+            "1 cup skim milk",
+            "1 sliced frozen banana",
+            "\u00bd green apple, cut into chunks",
+            "\u00bd pear, cut into chunks",
+            "\u00bc cup old-fashioned rolled oats",
+            "1 tablespoon peanut butter",
+            "1 tablespoon flax seed meal",
+            "1 tablespoon wheat germ",
+            "2 sprigs fresh parsley, or more to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Blend kale, milk, banana, apple, pear, oats, peanut butter, flax seed meal, wheat germ, and parsley in a blender until smooth.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Breakfast and Brunch",
+            "Drinks"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "shuether"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "ratingCount": 1,
+            "itemReviewed": "Quick Green Smoothie",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "561.3 calories",
+            "carbohydrateContent": "94.3 g",
+            "cholesterolContent": "4.9 mg",
+            "fatContent": "14.9 g",
+            "fiberContent": "16.4 g",
+            "proteinContent": "23.6 g",
+            "saturatedFatContent": "2.7 g",
+            "servingSize": null,
+            "sodiumContent": "244.6 mg",
+            "sugarContent": "44.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2015-10-22T03:46:50.46Z",
+                "reviewBody": "Chia seeds can be used in place of flax seeds.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "April",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/16585027/"
+                }
+            }
+        ]
+    }
+]

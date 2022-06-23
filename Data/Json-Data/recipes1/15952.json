@@ -1,0 +1,101 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/284459/easy-fried-chicken/",
+        "name": "Easy Fried Chicken",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F317615.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2009-12-22T04:07:42.000Z",
+        "description": "This is very easy yet crispy fried chicken, and I hope it will be liked by others as much as my family likes it.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H5M",
+        "totalTime": "P0DT0H20M",
+        "recipeYield": "8 servings",
+        "recipeIngredient": [
+            "5 cups vegetable oil for frying, or as needed",
+            "\u00bd cup cornstarch, or more as needed",
+            "2 pounds skinless, boneless chicken breast",
+            "2 teaspoons salt",
+            "2 teaspoons garlic powder",
+            "1 teaspoon ground black pepper",
+            "1 teaspoon cayenne pepper"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Heat 2 inches of oil in a deep saucepan over medium heat. Place cornstarch in a bowl.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Slice chicken into 1/2-inch thick pieces. Transfer to a bowl and mix with salt, garlic powder, black pepper, and cayenne.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Divide chicken into 2 or 3 portions and dredge in cornstarch until evenly coated and all white; add more cornstarch if necessary.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Lower chicken carefully into the hot oil in batches. Fry until crispy on the outside and no longer pink in the center, about 1 minute per side. Transfer to a paper towel-lined plate to drain. Serve hot.\n"
+            }
+        ],
+        "recipeCategory": [],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Tuny"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "itemReviewed": "Easy Fried Chicken",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "353.3 calories",
+            "carbohydrateContent": "14.9 g",
+            "cholesterolContent": "64.6 mg",
+            "fatContent": "23.8 g",
+            "fiberContent": "0.5 g",
+            "proteinContent": "19.1 g",
+            "saturatedFatContent": "4.4 g",
+            "servingSize": null,
+            "sodiumContent": "791.5 mg",
+            "sugarContent": "0.2 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": []
+    }
+]

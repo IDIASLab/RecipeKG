@@ -1,0 +1,147 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/79/desserts/",
+                    "name": "Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17140/desserts/fruit-desserts/",
+                    "name": "Fruit Desserts",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/17527/desserts/fruit-desserts/banana-desserts/",
+                    "name": "Banana Dessert Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/270334/banana-curd/",
+        "name": "Banana Curd",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6304064.jpg",
+            "width": 2200,
+            "height": 3042
+        },
+        "datePublished": "2020-03-05T05:19:10.000Z",
+        "description": "You could almost call this banana curd a dessert. It is delicious and so versatile. You can pour some on your cereal, top off your oatmeal, eat it with cookies or crackers, on toast, in a smoothie, over ice cream or even as a filling for cakes. Or you can eat it by the spoonful, just like my granddaughter does!",
+        "prepTime": "P0DT0H5M",
+        "cookTime": "P0DT0H15M",
+        "totalTime": "P0DT0H20M",
+        "recipeYield": "12 servings",
+        "recipeIngredient": [
+            "5 tablespoons butter",
+            "3 medium ripe bananas, pureed",
+            "\u00bd cup brown sugar",
+            "2 tablespoons lemon juice",
+            "\u00bd teaspoon vanilla extract",
+            "\u00bd teaspoon ground cinnamon",
+            "\u00bc teaspoon lemon zest",
+            "\u215b teaspoon salt",
+            "2 eggs",
+            "1 egg yolk"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Melt butter in a saucepan over medium-low heat. Add banana puree, brown sugar, lemon juice, vanilla extract, cinnamon, lemon zest, and salt. Cook, stirring constantly, until slightly thickened, 8 to 10 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Beat eggs and egg yolk in a bowl until foamy. Add 2 to 3 tablespoons hot banana mixture to temper the eggs. Slowly add egg-banana mixture to saucepan and cook, stirring constantly, until the back of a spoon is coated with the curd, 4 to 7 minutes.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Desserts",
+            "Fruit Desserts",
+            "Banana Dessert Recipes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Yoly"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.666666666666667,
+            "ratingCount": 3,
+            "itemReviewed": "Banana Curd",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "120.8 calories",
+            "carbohydrateContent": "16 g",
+            "cholesterolContent": "60.8 mg",
+            "fatContent": "6.1 g",
+            "fiberContent": "0.8 g",
+            "proteinContent": "1.7 g",
+            "saturatedFatContent": "3.5 g",
+            "servingSize": null,
+            "sodiumContent": "73.5 mg",
+            "sugarContent": "12.6 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-12-30T09:05:17.74Z",
+                "reviewBody": "Amazing! Tastes like banana bread. I used it to fill french macarons and everyone loved it. I skipped the lemon zest because I didn't have any but it was great anyway.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 5
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Erin Hood",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/23005278/"
+                }
+            }
+        ]
+    }
+]

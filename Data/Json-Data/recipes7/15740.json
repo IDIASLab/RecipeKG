@@ -1,0 +1,142 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                    "name": "World Cuisine",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/227/world-cuisine/asian/",
+                    "name": "Asian",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/257885/easy-japanese-roast/",
+        "name": "Easy Japanese Roast",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7082433.jpg",
+            "width": 0,
+            "height": 0
+        },
+        "datePublished": "2020-06-19T04:20:57.000Z",
+        "description": "This is a delicious roast adapted from a common recipe for cooking beef in Japan.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT12H0M",
+        "totalTime": "P0DT12H15M",
+        "recipeYield": "1 3-pound roast",
+        "recipeIngredient": [
+            "2 onions, finely chopped",
+            "5 cloves garlic, minced",
+            "1 (3 1/2) pound beef roast",
+            "1 (14.5 ounce) can onion-flavored beef broth",
+            "1\u2009\u2153 cups rice wine",
+            "\u2154 cup soy sauce",
+            "4 slices fresh ginger",
+            "2 tablespoons white sugar",
+            "ground black pepper to taste"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Spread onions and garlic on the bottom of a 5-quart slow cooker. Place roast on top.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Mix beef broth, rice wine, and soy sauce together in a separate bowl. Pour over the roast; add ginger slices. Sprinkle sugar and black pepper over roast.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cover and cook on Low, flipping 2 to 3 times, until roast pulls apart easily with a fork, 12 to 18 hours.\n"
+            }
+        ],
+        "recipeCategory": [
+            "World Cuisine",
+            "Asian"
+        ],
+        "recipeCuisine": [
+            "Asian"
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "carnegie"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Easy Japanese Roast",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "396 calories",
+            "carbohydrateContent": "12.9 g",
+            "cholesterolContent": "90.2 mg",
+            "fatContent": "21.1 g",
+            "fiberContent": "1.2 g",
+            "proteinContent": "26.5 g",
+            "saturatedFatContent": "8.4 g",
+            "servingSize": null,
+            "sodiumContent": "1428 mg",
+            "sugarContent": "5.9 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2019-09-26T10:28:16.83Z",
+                "reviewBody": "Excellent! I added sesame seeds and mine was cooked to perfection in 9 hours on low.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Soup Loving Nicole",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/souplovingnicole/"
+                }
+            }
+        ]
+    }
+]

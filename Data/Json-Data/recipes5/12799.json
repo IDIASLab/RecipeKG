@@ -1,0 +1,138 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.allrecipes.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/",
+                    "name": "Recipes",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "https://www.allrecipes.com/recipes/80/main-dish/",
+                    "name": "Main Dishes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage": "https://www.allrecipes.com/recipe/246091/barbeque-hot-dog-sushi-roll/",
+        "name": "Barbeque Hot Dog Sushi Roll",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3792001.jpg",
+            "width": 3628,
+            "height": 2722
+        },
+        "datePublished": "2019-12-24T10:50:01.000Z",
+        "description": "Weird name, great flavors. No fish were harmed during the creation of this recipe! Also, a quick warning - you must love barbeque and sushi to truly appreciate the fusion of this recipe.",
+        "prepTime": "P0DT0H15M",
+        "cookTime": "P0DT0H30M",
+        "totalTime": "P0DT1H15M",
+        "recipeYield": "6 slices",
+        "recipeIngredient": [
+            "1 cup water",
+            "1 cup short-grain sushi rice",
+            "1 tablespoon rice vinegar",
+            "1 all-beef hot dog",
+            "1 sheet nori (dry seaweed)",
+            "1 tablespoon diced red onion",
+            "\u00bc cup barbeque sauce, divided",
+            "\u00bc cup shredded Cheddar cheese, divided",
+            "2 tablespoons French-fried onions"
+        ],
+        "recipeInstructions": [
+            {
+                "@type": "HowToStep",
+                "text": "Bring 1 cup water and rice to a boil in a saucepan. Reduce heat to low, cover, and simmer until rice is tender, about 15 minutes. Remove from heat and let stand, covered, until water is absorbed, about 10 minutes. Stir vinegar into rice. Measure out 1/3 cup for sushi roll and refrigerate until cool, about 30 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Bring a small pot of water to a boil. Reduce heat; add hot dog. Simmer until heated through, about 5 minutes.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Lay a large piece of plastic wrap on a flat work surface. Place a cup of warm water nearby. Place nori 2 inches from the edge closest to you. With wet fingers, spread cold rice in an even layer over the nori. Place hot dog 1 inch from the bottom edge of rice and nori. Lay onion in a row beside the hot dog. Spread 2 tablespoons barbeque sauce on top of the hot dog. Sprinkle 2 tablespoons Cheddar cheese on top.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Grab the edge of the plastic wrap closest to you and lift the nori gently. Fold over, enclosing the filling, and tightly roll the sushi into a thick cylinder by pulling on the plastic wrap. Remove plastic wrap. Dip your fingers in warm water and lightly pat the edge of the nori to seal shut.\n"
+            },
+            {
+                "@type": "HowToStep",
+                "text": "Cut sushi roll into 6 equal slices with a sharp knife. Transfer slices to a serving dish. Top with remaining 2 tablespoons barbeque sauce and 2 tablespoons Cheddar cheese. Sprinkle with French-fried onions.\n"
+            }
+        ],
+        "recipeCategory": [
+            "Main Dishes"
+        ],
+        "recipeCuisine": [],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Sarah Graff"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4,
+            "ratingCount": 1,
+            "itemReviewed": "Barbeque Hot Dog Sushi Roll",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "628.5 calories",
+            "carbohydrateContent": "98.1 g",
+            "cholesterolContent": "26.8 mg",
+            "fatContent": "19 g",
+            "fiberContent": "3.1 g",
+            "proteinContent": "12.7 g",
+            "saturatedFatContent": "7.8 g",
+            "servingSize": null,
+            "sodiumContent": "819.3 mg",
+            "sugarContent": "9.7 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "datePublished": "2016-07-27T00:51:50.497Z",
+                "reviewBody": "This was fun and definitely different! The flavors were actually pretty good but it's not something I would make all the time. I was glad to try it...Thanks for sharing.:)",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "worstRating": "1",
+                    "bestRating": "5",
+                    "ratingValue": 4
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Christina",
+                    "image": null,
+                    "sameAs": "https://www.allrecipes.com/cook/christina/"
+                }
+            }
+        ]
+    }
+]
