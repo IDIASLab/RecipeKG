@@ -4,7 +4,9 @@
 ```
 Includes two data: 
           a) json-data: Includes the recipes json-ld metadata that are scraped from allrecipes.com.  
-          b) rdf-data: Includes the rdf data that is created according to RecipeKG ontology. It has 8 files that includes ttl files per every recipe. Final data that is dumped as ttl file can be found in Dataverse.
+          b) rdf-data: Includes the rdf data that is created according to RecipeKG ontology.
+           -It has 8 files that includes ttl files per every recipe.
+           -Final data that is dumped as ttl file can be found in Dataverse.
           c) example-data: Small turtle file that includes 10 recipe and a txt file that includes example sparql queries.
 
 ```
