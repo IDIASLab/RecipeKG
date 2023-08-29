@@ -56,7 +56,7 @@ Python 3.8 or above and the following libraries
    Data: Includes two data: 
           a) json-data: Includes the recipes json-ld metadata that are scraped from allrecipes.com.  
           b) rdf-data: Includes the rdf data that is created in intermediate process as explained in code section.
-             Final clean and published data can be found at [Dataverse](https://doi.org/10.7910/DVN/99PNJ5).
+            -Final clean and published data can be found at [Dataverse](https://doi.org/10.7910/DVN/99PNJ5).
   
    Ontology: RecipeKG ontology owl file 
 
