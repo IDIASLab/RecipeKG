@@ -17,7 +17,7 @@ Python 3.8 or above and the following libraries
    6-USDA_score.ipynb: include function for determining USDA score of recipes.
    7-scraping_functions.ipynb: helper functions for various scraping methods.
 ```
-recipe_parser: CRF model developed for identifying and partitioning ingredients from text strings. Model was trained and used in the project. For further details and training refer to https://github.com/tyler-a-cox/recipe-parsing
+recipe_parser: CRF model developed for identifying and partitioning ingredients from text strings. Model was trained and used in the project. For further details and training refer to [here](https://github.com/tyler-a-cox/recipe-parsing).
 
 ### How to use
 This data can be directly run through the jupyter notebook files for the following purposes:
