@@ -2,7 +2,7 @@
 The proliferation of recipes on the Web presents an opportunity for developing AI methods to promote healthy nutrition of people using the Internet as a source of food inspiration. Recent research endeavors have resulted in the development of ontologies related to food, and algorithmic solutions for ingredient substitution. However, there is a lack of a resource oriented towards promoting research in semantic-based algorithmic meal plan recommendation and/or individual ingredient substitution that explicitly incorporates healthiness into the recommendation process. To address this gap, we present a knowledge graph comprising a large collection of recipes sourced from Allrecipes.com, their ingredients and corresponding nutritional information, social interactions metadata, and healthiness information calculated based on two international nutritional standards. This repository provides the code and data used to populate RecipeKG, a recipe-based knowledge graph.
 
 ## Citation
-If you use the data, our code, or the Ontology in this repository, please cite our paper as follows:
+If you use our code, or the Ontology in this repository, please cite our paper as follows:
 > Charalampos Chelmis, and Bedirhan Gergin. A Knowledge Graph for Semantic-Driven Healthiness Evaluation of Recipes, May 2022.
 
 BibTeX:
@@ -18,6 +18,21 @@ BibTeX:
   url = {},
   doi = {},
   organization={}
+}
+```
+
+If you use the data please cite our data as follows:
+
+BibTeX:
+``` 
+@data{DVN/99PNJ5_2022,
+author = {Chelmis, Charalampos and Gergin, Bedirhan},
+publisher = {Harvard Dataverse},
+title = {{A Knowledge Graph for Semantic-Driven Healthiness Evaluation of Online Recipes}},
+year = {2022},
+version = {V2},
+doi = {10.7910/DVN/99PNJ5},
+url = {https://doi.org/10.7910/DVN/99PNJ5}
 }
 ```
 
@@ -40,8 +55,8 @@ Python 3.8 or above and the following libraries
 
    Data: Includes two data: 
           a) json-data: Includes the recipes json-ld metadata that are scraped from allrecipes.com.  
-          b) rdf-data: Includes the main rdf data that is created according to RecipeKG ontology.
-        
+          b) rdf-data: Includes the rdf data that is created in intermediate process as explained in code section. Final clean and published data can be found at [Dataverse](https://doi.org/10.7910/DVN/99PNJ5).
+  
    Ontology: RecipeKG ontology owl file 
 
 ```
